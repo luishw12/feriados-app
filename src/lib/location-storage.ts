@@ -22,6 +22,12 @@ export interface LocationContext {
 export function loadStoredLocation(): StoredLocation | null {
   if (typeof window === 'undefined') return null;
   try {
+    const bootstrapRaw = window.__FERIADOS_BOOTSTRAP_LOCATION__;
+    if (bootstrapRaw !== undefined) {
+      delete window.__FERIADOS_BOOTSTRAP_LOCATION__;
+      return JSON.parse(bootstrapRaw) as StoredLocation;
+    }
+
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
     return JSON.parse(raw) as StoredLocation;
@@ -65,6 +71,7 @@ export function saveStoredLocation(context: LocationContext, label: string): voi
 
 export function clearStoredLocation(): void {
   localStorage.removeItem(STORAGE_KEY);
+  dispatchLocationUpdated();
 }
 
 export function getLocationLabel(context: LocationContext | null): string {

@@ -1,6 +1,24 @@
 {
   "releases": [
     {
+      "version": "1.0.1-beta",
+      "date": "2026-06-25",
+      "status": "beta",
+      "summary": "Correção do piscar da localização na navbar ao navegar entre páginas.",
+      "sections": {
+        "added": [],
+        "changed": [],
+        "deprecated": [],
+        "removed": [],
+        "fixed": [
+          "Localização salva deixa de piscar para \"Brasil\" ao trocar de rota",
+          "View Transitions com persistência do seletor de localização no header",
+          "Leitura síncrona da localização salva no carregamento da página"
+        ],
+        "security": []
+      }
+    },
+    {
       "version": "1.0.0-beta",
       "date": "2026-06-25",
       "status": "beta",

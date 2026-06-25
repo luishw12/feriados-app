@@ -127,7 +127,7 @@ export default function LocationPicker({
         ) : (
           <MapPin className="h-3.5 w-3.5 shrink-0" />
         )}
-        <span className="truncate">{locationLabel}</span>
+        <span className="truncate" suppressHydrationWarning>{locationLabel}</span>
         <ChevronDown className="h-3 w-3 shrink-0 opacity-60" />
       </button>
 

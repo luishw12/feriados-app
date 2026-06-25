@@ -8,6 +8,16 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
+## [1.0.1-beta] - 2026-06-25
+
+Correção do piscar da localização na navbar ao navegar entre páginas.
+
+### Corrigido
+
+- Localização salva deixa de piscar para "Brasil" ao trocar de rota
+- View Transitions com persistência do seletor de localização no header
+- Leitura síncrona da localização salva no carregamento da página
+
 ## [1.0.0-beta] - 2026-06-25
 
 Primeira versão pública em beta do calendário completo de feriados brasileiros.

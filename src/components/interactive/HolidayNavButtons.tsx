@@ -1,11 +1,8 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { resolveHolidayDate } from '@/lib/dates';
-import {
-  loadStoredLocationContext,
-  subscribeLocationUpdated,
-  type LocationContext,
-} from '@/lib/location-storage';
+import type { LocationContext } from '@/lib/location-storage';
+import { useStoredLocationContext } from '@/lib/use-stored-location';
 
 export interface NavHoliday {
   id: string;
@@ -43,14 +40,7 @@ function resolveTimestamp(holiday: NavHoliday, year: number): number {
 }
 
 export default function HolidayNavButtons({ currentId, year, holidays }: Props) {
-  // Inicia null para casar com o HTML renderizado no servidor (sem localStorage)
-  // e só então lê a localização salva, evitando divergência de hidratação.
-  const [location, setLocation] = useState<LocationContext | null>(null);
-
-  useEffect(() => {
-    setLocation(loadStoredLocationContext());
-    return subscribeLocationUpdated(() => setLocation(loadStoredLocationContext()));
-  }, []);
+  const location = useStoredLocationContext();
 
   const { previous, next } = useMemo(() => {
     // Feriados relevantes à localização do usuário, mais o que está aberto,

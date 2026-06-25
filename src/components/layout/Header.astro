@@ -89,7 +89,7 @@ const states = getAllStates().map((s) => ({
 
     <div class="flex shrink-0 items-center justify-self-end gap-1.5 sm:gap-2" aria-label="Ferramentas">
       <div class="min-w-0">
-        <HeaderLocation client:load states={states} />
+        <HeaderLocation client:load transition:persist="header-location" states={states} />
       </div>
       <div class="border-l border-neutral-200 pl-1.5 dark:border-neutral-700 sm:pl-2">
         <HolidaySearch client:idle />

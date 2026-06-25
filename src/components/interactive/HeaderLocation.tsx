@@ -1,30 +1,19 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback } from 'react';
 import LocationPicker from '@/components/interactive/LocationPicker';
 import type { StateOption } from '@/lib/municipality-search';
-import {
-  loadStoredLocationContext,
-  subscribeLocationUpdated,
-  type LocationContext,
-} from '@/lib/location-storage';
+import type { LocationContext } from '@/lib/location-storage';
+import { useStoredLocationContext } from '@/lib/use-stored-location';
 
 interface Props {
   states: StateOption[];
 }
 
 export default function HeaderLocation({ states }: Props) {
-  // Inicia null para casar com o HTML do servidor (sem localStorage) e só então
-  // carrega a localização salva, evitando divergência de hidratação no rótulo.
-  const [location, setLocation] = useState<LocationContext | null>(null);
+  const location = useStoredLocationContext();
 
-  useEffect(() => {
-    setLocation(loadStoredLocationContext());
-    return subscribeLocationUpdated(() => setLocation(loadStoredLocationContext()));
-  }, []);
-
-  // LocationPicker já persiste no storage e dispara o evento de atualização;
-  // aqui apenas refletimos a mudança no estado local para o rótulo do botão.
-  const handleLocationChange = useCallback((next: LocationContext | null) => {
-    setLocation(next);
+  const handleLocationChange = useCallback((_next: LocationContext | null) => {
+    // LocationPicker persiste no storage e dispara LOCATION_UPDATED_EVENT;
+    // useStoredLocationContext reage via useSyncExternalStore.
   }, []);
 
   return (

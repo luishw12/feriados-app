@@ -1,7 +1,7 @@
 {
   "name": "feriados-brasil",
   "type": "module",
-  "version": "1.0.0-beta",
+  "version": "1.0.1-beta",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luishw12/feriados-app.git"

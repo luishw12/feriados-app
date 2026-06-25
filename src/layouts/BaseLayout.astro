@@ -12,6 +12,7 @@ import LinkedInCTA from '@/components/layout/LinkedInCTA.astro';
 import CookieConsent from '@/components/interactive/CookieConsent';
 import LocationPermissionGate from '@/components/interactive/LocationPermissionGate';
 import ContributionProvider from '@/components/interactive/ContributionProvider';
+import { ViewTransitions } from 'astro:transitions';
 import { getSiteUrl } from '@/lib/site-url';
 
 interface Props {
@@ -67,12 +68,23 @@ const siteUrl = getSiteUrl(Astro.site);
       publishedTime={publishedTime}
     />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    <ViewTransitions />
     <script is:inline>
       (function () {
         const stored = localStorage.getItem('theme');
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         const isDark = stored === 'dark' || (!stored && prefersDark);
         if (isDark) document.documentElement.classList.add('dark');
+      })();
+    </script>
+    <script is:inline>
+      (function () {
+        try {
+          const raw = localStorage.getItem('feriados-location');
+          if (raw) window.__FERIADOS_BOOTSTRAP_LOCATION__ = raw;
+        } catch {
+          // localStorage bloqueado
+        }
       })();
     </script>
   </head>
