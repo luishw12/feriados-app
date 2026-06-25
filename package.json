@@ -1,7 +1,7 @@
 {
   "name": "feriados-brasil",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luishw12/feriados-app.git"
@@ -15,7 +15,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "data:municipalities": "node scripts/generate-municipalities.mjs"
+    "data:municipalities": "node scripts/generate-municipalities.mjs",
+    "changelog:sync": "node scripts/sync-changelog.mjs",
+    "release:check": "node scripts/check-release.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^3.6.3",

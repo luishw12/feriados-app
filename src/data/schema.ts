@@ -104,3 +104,34 @@ export interface HolidayScope {
 export interface HolidayDefinition extends Holiday {
   scopes: HolidayScope[];
 }
+
+export type ReleaseStatus = 'beta' | 'rc' | 'stable';
+
+export type ReleaseSectionKey =
+  | 'added'
+  | 'changed'
+  | 'deprecated'
+  | 'removed'
+  | 'fixed'
+  | 'security';
+
+export interface ReleaseSections {
+  added: string[];
+  changed: string[];
+  deprecated: string[];
+  removed: string[];
+  fixed: string[];
+  security: string[];
+}
+
+export interface Release {
+  version: string;
+  date: string;
+  status: ReleaseStatus;
+  summary: string;
+  sections: ReleaseSections;
+}
+
+export interface ReleasesFile {
+  releases: Release[];
+}

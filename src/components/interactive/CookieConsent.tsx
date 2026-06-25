@@ -51,9 +51,9 @@ export default function CookieConsent() {
       role="dialog"
       aria-label="Consentimento de cookies"
       aria-describedby="cookie-consent-description"
-      className="fixed inset-x-0 bottom-0 z-50 border-t border-neutral-200 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900"
+      className="fixed bottom-4 left-1/2 z-50 w-[calc(100%-2rem)] max-w-md -translate-x-1/2 rounded-xl border border-neutral-200 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900"
     >
-      <div className="mx-auto flex max-w-5xl flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col gap-4">
         <p
           id="cookie-consent-description"
           className="text-sm text-neutral-600 dark:text-neutral-400"
@@ -67,7 +67,7 @@ export default function CookieConsent() {
             Política de Privacidade
           </a>
         </p>
-        <div className="flex shrink-0 gap-2">
+        <div className="flex shrink-0 gap-2 sm:justify-end">
           <button
             type="button"
             onClick={handleReject}

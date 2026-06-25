@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import LocationPermissionPrompt from '@/components/interactive/LocationPermissionPrompt';
+import LocationSuggestionCard from '@/components/interactive/LocationSuggestionCard';
 import { buildContextFromDetection } from '@/lib/location-context';
 import { loadMunicipalityIndex } from '@/lib/municipality-index';
 import {
@@ -17,8 +17,14 @@ import {
 
 type PromptStatus = 'idle' | 'loading' | 'error';
 
-export default function LocationPermissionGate() {
-  const [showPrompt, setShowPrompt] = useState(false);
+interface Props {
+  showLocationSuggestion?: boolean;
+}
+
+export default function LocationPermissionGate({
+  showLocationSuggestion = false,
+}: Props) {
+  const [showSuggestion, setShowSuggestion] = useState(false);
   const [permissionState, setPermissionState] =
     useState<GeolocationPermissionState>('prompt');
   const [status, setStatus] = useState<PromptStatus>('idle');
@@ -40,6 +46,11 @@ export default function LocationPermissionGate() {
   }, []);
 
   useEffect(() => {
+    if (!showLocationSuggestion) {
+      setInitialized(true);
+      return undefined;
+    }
+
     let cancelled = false;
 
     void (async () => {
@@ -57,13 +68,13 @@ export default function LocationPermissionGate() {
         const saved = await saveDetectedLocation();
         if (!cancelled) setInitialized(true);
         if (!cancelled && !saved) {
-          setShowPrompt(true);
+          setShowSuggestion(true);
         }
         return;
       }
 
       if (!cancelled) {
-        setShowPrompt(true);
+        setShowSuggestion(true);
         setInitialized(true);
       }
     })();
@@ -71,7 +82,7 @@ export default function LocationPermissionGate() {
     return () => {
       cancelled = true;
     };
-  }, [saveDetectedLocation]);
+  }, [saveDetectedLocation, showLocationSuggestion]);
 
   const handleAllow = useCallback(async () => {
     setStatus('loading');
@@ -79,7 +90,7 @@ export default function LocationPermissionGate() {
 
     const saved = await saveDetectedLocation();
     if (saved) {
-      setShowPrompt(false);
+      setShowSuggestion(false);
       setStatus('idle');
       return;
     }
@@ -96,17 +107,17 @@ export default function LocationPermissionGate() {
 
   const handleDismiss = useCallback(() => {
     dismissLocationPrompt();
-    setShowPrompt(false);
+    setShowSuggestion(false);
     setStatus('idle');
     setErrorMessage(null);
   }, []);
 
-  if (!initialized || !showPrompt) {
+  if (!showLocationSuggestion || !initialized || !showSuggestion) {
     return null;
   }
 
   return (
-    <LocationPermissionPrompt
+    <LocationSuggestionCard
       permissionState={permissionState}
       status={status}
       errorMessage={errorMessage}

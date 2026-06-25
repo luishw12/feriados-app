@@ -1,5 +1,6 @@
 ---
 import type { ArticleContributionContext } from '@/lib/contributions';
+import VersionLink from '@/components/layout/VersionLink.astro';
 
 interface Props {
   articleContribution?: ArticleContributionContext;
@@ -52,6 +53,10 @@ const linkClass =
         Contribuir
       </a>
       <span class="mx-2">·</span>
+      <a href="/changelog/" class={linkClass}>
+        Novidades
+      </a>
+      <span class="mx-2">·</span>
       <a
         href={githubUrl}
         target="_blank"
@@ -69,6 +74,8 @@ const linkClass =
       >
         {authorName}
       </a>
+      <span class="mx-2">·</span>
+      <VersionLink />
     </p>
   </div>
 </footer>

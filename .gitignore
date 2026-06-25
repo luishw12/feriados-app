@@ -29,3 +29,5 @@ Desktop.ini
 # editor settings
 .vscode/
 .idea/
+
+.vercel

@@ -7,6 +7,7 @@ import '@fontsource/inter/700.css';
 import SEO from '@/components/SEO.astro';
 import Header from '@/components/layout/Header.astro';
 import Footer from '@/components/layout/Footer.astro';
+import AppMetaBar from '@/components/layout/AppMetaBar.astro';
 import LinkedInCTA from '@/components/layout/LinkedInCTA.astro';
 import CookieConsent from '@/components/interactive/CookieConsent';
 import LocationPermissionGate from '@/components/interactive/LocationPermissionGate';
@@ -25,6 +26,7 @@ interface Props {
   jsonLd?: Record<string, unknown>;
   fullHeight?: boolean;
   articleContribution?: import('@/lib/contributions').ArticleContributionContext;
+  showLocationSuggestion?: boolean;
 }
 
 const {
@@ -39,6 +41,7 @@ const {
   jsonLd,
   fullHeight = false,
   articleContribution,
+  showLocationSuggestion = false,
 } = Astro.props;
 
 const siteUrl = getSiteUrl(Astro.site);
@@ -83,10 +86,10 @@ const siteUrl = getSiteUrl(Astro.site);
     <main class:list={['flex-1', fullHeight && 'min-h-0 overflow-hidden']}>
       <slot />
     </main>
-    {!fullHeight && <Footer articleContribution={articleContribution} />}
+    {fullHeight ? <AppMetaBar /> : <Footer articleContribution={articleContribution} />}
     <LinkedInCTA />
     <CookieConsent client:load />
     <ContributionProvider client:load />
-    <LocationPermissionGate client:load />
+    <LocationPermissionGate client:load showLocationSuggestion={showLocationSuggestion} />
   </body>
 </html>

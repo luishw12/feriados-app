@@ -1,0 +1,27 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ChangelogList from '@/components/changelog/ChangelogList.astro';
+import VersionLink from '@/components/layout/VersionLink.astro';
+import { getReleases } from '@/lib/changelog';
+import { getChangelogMeta } from '@/lib/seo';
+
+const meta = getChangelogMeta();
+const releases = getReleases();
+---
+
+<BaseLayout title={meta.title} description={meta.description} canonical={meta.canonical}>
+  <div class="mx-auto max-w-3xl space-y-8 px-4 py-10">
+    <section class="space-y-4">
+      <h1 class="text-3xl font-semibold text-neutral-900 dark:text-neutral-50">
+        Novidades
+      </h1>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Histórico de versões e atualizações do Feriados Brasil. Versão atual:
+        {' '}
+        <VersionLink />
+      </p>
+    </section>
+
+    <ChangelogList releases={releases} />
+  </div>
+</BaseLayout>

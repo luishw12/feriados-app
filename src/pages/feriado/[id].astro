@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import HolidayArticleHero from '@/components/holiday/HolidayArticleHero.astro';
 import HolidayArticleBody from '@/components/holiday/HolidayArticleBody.astro';
+import HolidayArticleContribution from '@/components/holiday/HolidayArticleContribution.astro';
 import HolidayArticleSources from '@/components/holiday/HolidayArticleSources.astro';
 import HolidayContributors from '@/components/holiday/HolidayContributors.astro';
 import HolidayArticleNav from '@/components/holiday/HolidayArticleNav.astro';
@@ -111,11 +112,6 @@ const holidayPageUrl = `${siteUrl}/feriado/${definition.id}/`;
   ogType="article"
   publishedTime={publishedTime}
   jsonLd={schema}
-  articleContribution={{
-    holidayId: definition.id,
-    holidayName: resolvedHoliday.name,
-    pageUrl: holidayPageUrl,
-  }}
 >
   <div class="mx-auto max-w-4xl space-y-10 px-4 py-10">
     <div class="flex items-center gap-4">
@@ -175,6 +171,11 @@ const holidayPageUrl = `${siteUrl}/feriado/${definition.id}/`;
 
     <div class="mx-auto max-w-3xl space-y-10">
       <HolidayArticleBody article={article} />
+      <HolidayArticleContribution
+        holidayId={definition.id}
+        holidayName={resolvedHoliday.name}
+        pageUrl={holidayPageUrl}
+      />
       <section class="space-y-6 border-t border-neutral-200 pt-8 dark:border-neutral-800">
         <HolidayArticleSources article={article} />
         <HolidayContributors article={article} />

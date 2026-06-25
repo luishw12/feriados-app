@@ -1,0 +1,33 @@
+{
+  "releases": [
+    {
+      "version": "1.0.0-beta",
+      "date": "2026-06-25",
+      "status": "beta",
+      "summary": "Primeira versão pública em beta do calendário completo de feriados brasileiros.",
+      "sections": {
+        "added": [
+          "Calendário interativo com feriados nacionais, estaduais e municipais em mais de 5.500 cidades",
+          "Header unificado com seleção de localização em todas as páginas",
+          "Navegação entre feriados filtrada pela localização do usuário",
+          "Detecção de localização com sugestão discreta e seleção manual de estado e município",
+          "Contador regressivo flutuante para o próximo feriado",
+          "Páginas por estado e por cidade com calendário contextual",
+          "Artigos educativos por feriado com história, curiosidades e fontes",
+          "Guias de feriados (dias úteis, facultativos, emendas e datas móveis)",
+          "Busca de feriados e filtros por categoria",
+          "Dark mode e light mode com preferência persistida",
+          "Formulário de contribuição para sugerir feriados, reportar erros e enriquecer artigos",
+          "Política de privacidade e consentimento de cookies (LGPD)",
+          "Página de novidades (/changelog/) com histórico de versões",
+          "Índices para assistentes de IA em /llms.txt e /llms-full.txt"
+        ],
+        "changed": [],
+        "deprecated": [],
+        "removed": [],
+        "fixed": [],
+        "security": []
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 Calendário interativo com todos os feriados do Brasil — nacionais, estaduais e municipais.
 
-**[→ Acesse o site](https://feriados.luishw.com.br)** · **[→ Repositório](https://github.com/luishw12/feriados-app)**
+**Versão atual:** `1.0.0-beta` · **[Novidades](/changelog/)** · **[→ Acesse o site](https://feriados.luishw.com.br)** · **[→ Repositório](https://github.com/luishw12/feriados-app)**
 
 ## Funcionalidades
 
@@ -82,6 +82,8 @@ Resumo rápido:
 4. Para feriados: edite arquivos em `src/data/holidays/` e cite a fonte oficial
 
 Para entender a arquitetura do projeto, consulte [STRUCTURE.md](STRUCTURE.md).
+
+Para controle de versões e releases em produção, consulte [VERSIONING.md](VERSIONING.md). O histórico completo está em [CHANGELOG.md](CHANGELOG.md) e na página [/changelog/](https://feriados.luishw.com.br/changelog/).
 
 ## Autor
 

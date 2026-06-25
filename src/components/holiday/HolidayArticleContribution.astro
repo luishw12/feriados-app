@@ -1,0 +1,100 @@
+---
+import Card from '@/components/ui/Card.astro';
+
+interface Props {
+  holidayId: string;
+  holidayName: string;
+  pageUrl: string;
+}
+
+const { holidayId, holidayName, pageUrl } = Astro.props;
+const contributionData = JSON.stringify({ holidayId, holidayName, pageUrl });
+---
+
+<Card
+  padding="md"
+  class="border-emerald-200 dark:border-emerald-900/50"
+  data-article-contribution={contributionData}
+>
+  <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+    <div class="flex items-start gap-3">
+      <div
+        class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300"
+        aria-hidden="true"
+      >
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+          ></path>
+        </svg>
+      </div>
+      <div class="space-y-1">
+        <h2 class="text-base font-semibold text-neutral-900 dark:text-neutral-50">
+          Ajude a melhorar este artigo
+        </h2>
+        <p class="text-sm text-neutral-600 dark:text-neutral-400">
+          Encontrou algo incorreto ou quer acrescentar informações? Sua contribuição ajuda todos.
+        </p>
+      </div>
+    </div>
+    <div class="flex shrink-0 flex-wrap gap-2">
+      <button
+        type="button"
+        id="report-article-btn"
+        class="inline-flex items-center justify-center rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700 transition-colors duration-150 hover:bg-neutral-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-500 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700"
+      >
+        Reportar erro
+      </button>
+      <button
+        type="button"
+        id="enrich-article-btn"
+        class="inline-flex items-center justify-center rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white transition-colors duration-150 hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 dark:bg-emerald-500 dark:hover:bg-emerald-600"
+      >
+        Enriquecer conteúdo
+      </button>
+    </div>
+  </div>
+</Card>
+
+<script is:inline>
+  (function () {
+    const card = document.querySelector('[data-article-contribution]');
+    const raw = card?.getAttribute('data-article-contribution');
+    if (!raw) return;
+
+    let context;
+    try {
+      context = JSON.parse(raw);
+    } catch {
+      return;
+    }
+
+    document.getElementById('report-article-btn')?.addEventListener('click', function () {
+      window.dispatchEvent(
+        new CustomEvent('open-contribution', {
+          detail: {
+            mode: 'report_error',
+            holidayId: context.holidayId,
+            holidayName: context.holidayName,
+            pageUrl: context.pageUrl,
+          },
+        }),
+      );
+    });
+
+    document.getElementById('enrich-article-btn')?.addEventListener('click', function () {
+      window.dispatchEvent(
+        new CustomEvent('open-contribution', {
+          detail: {
+            mode: 'enrich_content',
+            holidayId: context.holidayId,
+            holidayName: context.holidayName,
+            pageUrl: context.pageUrl,
+          },
+        }),
+      );
+    });
+  })();
+</script>

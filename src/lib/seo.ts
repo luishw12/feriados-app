@@ -62,6 +62,15 @@ export function getPrivacyMeta(): PageMeta {
   };
 }
 
+export function getChangelogMeta(): PageMeta {
+  return {
+    title: 'Novidades — Feriados Brasil',
+    description:
+      'Histórico de versões e atualizações do Feriados Brasil. Acompanhe novas funcionalidades, correções e melhorias.',
+    canonical: '/changelog/',
+  };
+}
+
 function truncateDescription(text: string, maxLength = 155): string {
   if (text.length <= maxLength) return text;
   return `${text.slice(0, maxLength - 1).trimEnd()}…`;

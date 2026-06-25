@@ -176,3 +176,15 @@ porto-alegre.json   → JSON de cidade (kebab-case)
 | Sexta-feira Santa | `easter-2` | -2 dias |
 | Páscoa | `easter+0` | 0 |
 | Corpus Christi | `easter+60` | +60 dias |
+
+---
+
+## Versionamento e releases
+
+Leia [`VERSIONING.md`](VERSIONING.md) antes de qualquer deploy em produção.
+
+Regras críticas para o agente:
+- Nunca fazer deploy com mudança visível ao usuário sem bump em `package.json` + entrada em `src/data/releases.json`
+- Executar `npm run changelog:sync` após atualizar `releases.json`
+- Commit de release: `chore(release): v{versão}` + tag Git `v{versão}`
+- `CHANGELOG.md` é gerado automaticamente — não editar manualmente

@@ -1,0 +1,74 @@
+---
+import type { Release, ReleaseSectionKey } from '@/data/schema';
+import {
+  RELEASE_SECTION_ORDER,
+  formatReleaseDate,
+  getReleaseSectionLabel,
+  getReleaseStatusLabel,
+} from '@/lib/changelog';
+
+interface Props {
+  releases: Release[];
+}
+
+const { releases } = Astro.props;
+
+const statusBadgeClass: Record<Release['status'], string> = {
+  beta: 'bg-amber-100 text-amber-800 dark:bg-amber-950/50 dark:text-amber-300',
+  rc: 'bg-sky-100 text-sky-800 dark:bg-sky-950/50 dark:text-sky-300',
+  stable: 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/50 dark:text-emerald-300',
+};
+
+function getVisibleSections(release: Release): ReleaseSectionKey[] {
+  return RELEASE_SECTION_ORDER.filter((key) => release.sections[key].length > 0);
+}
+---
+
+<div class="space-y-10">
+  {
+    releases.map((release) => {
+      const visibleSections = getVisibleSections(release);
+
+      return (
+        <article class="space-y-4 border-b border-neutral-200 pb-10 last:border-b-0 dark:border-neutral-800">
+          <header class="flex flex-wrap items-center gap-3">
+            <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+              {release.version}
+            </h2>
+            <span
+              class:list={[
+                'rounded-full px-2.5 py-0.5 text-xs font-medium',
+                statusBadgeClass[release.status],
+              ]}
+            >
+              {getReleaseStatusLabel(release.status)}
+            </span>
+            <time
+              class="text-sm text-neutral-500 dark:text-neutral-500"
+              datetime={release.date}
+            >
+              {formatReleaseDate(release.date)}
+            </time>
+          </header>
+
+          <p class="text-neutral-600 dark:text-neutral-400">{release.summary}</p>
+
+          {
+            visibleSections.map((sectionKey) => (
+              <section class="space-y-2">
+                <h3 class="text-sm font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-500">
+                  {getReleaseSectionLabel(sectionKey)}
+                </h3>
+                <ul class="list-inside list-disc space-y-1.5 text-neutral-600 dark:text-neutral-400">
+                  {release.sections[sectionKey].map((item) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              </section>
+            ))
+          }
+        </article>
+      );
+    })
+  }
+</div>

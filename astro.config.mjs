@@ -20,7 +20,7 @@ const sitemapOptions = {
       item.priority = 0.95;
     } else if (segments[0] === 'feriado') {
       item.priority = 0.75;
-    } else if (segments[0] === 'sobre' || segments[0] === 'privacidade') {
+    } else if (segments[0] === 'sobre' || segments[0] === 'privacidade' || segments[0] === 'changelog') {
       item.priority = 0.85;
     } else if (segments.length === 1) {
       item.priority = 0.9;

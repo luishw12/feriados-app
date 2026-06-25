@@ -158,6 +158,7 @@ src/data/holidays/
 Leia também:
 
 - [`STRUCTURE.md`](STRUCTURE.md) — arquitetura e responsabilidade de cada pasta
+- [`VERSIONING.md`](VERSIONING.md) — controle de versões e releases (apenas mantenedor)
 - [`.cursorrules`](.cursorrules) — convenções de TypeScript, Astro, React e Tailwind
 
 Resumo das regras principais:
@@ -176,6 +177,7 @@ Resumo das regras principais:
 - [ ] Commits seguem Conventional Commits
 - [ ] Para mudanças em dados: fonte oficial citada na descrição do PR
 - [ ] Para mudanças de UI: screenshot anexado (se aplicável)
+- [ ] Se for release (mantenedor): versão em `package.json`, entrada em `releases.json`, `CHANGELOG.md` sincronizado e tag Git criados — ver [`VERSIONING.md`](VERSIONING.md)
 - [ ] Descrição clara do que mudou e por quê
 
 ## Reportar problemas

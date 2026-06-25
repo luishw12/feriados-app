@@ -1,0 +1,10 @@
+---
+import { formatVersionLabel } from '@/lib/version';
+
+const linkClass =
+  'transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300';
+---
+
+<a href="/changelog/" class:list={['tabular-nums', linkClass]} aria-label="Ver histórico de versões">
+  {formatVersionLabel()}
+</a>

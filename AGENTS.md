@@ -261,7 +261,31 @@ data: adicionar feriados municipais do RS
 style: ajustar cores do dark mode no calendário
 chore: atualizar dependências
 docs: atualizar README com instruções de deploy
+chore(release): v1.0.0-beta
 ```
+
+---
+
+## Releases e versionamento
+
+Leia [`VERSIONING.md`](VERSIONING.md) **integralmente** antes de qualquer deploy em produção.
+
+### Checklist obrigatório para deploy
+
+1. Classificar mudanças: PATCH / MINOR / MAJOR
+2. Atualizar `package.json` → `version`
+3. Inserir nova entrada no **topo** de `src/data/releases.json` (nunca editar releases antigas)
+4. Executar `npm run changelog:sync`
+5. Executar `npm run release:check` e `npm run build`
+6. Commit único: `chore(release): v{versão}`
+7. Criar tag Git: `git tag v{versão}`
+
+### Regras críticas
+
+- **Proibido** deploy em produção com mudança visível ao usuário sem bump de versão e entrada no changelog
+- `CHANGELOG.md` é **gerado** — editar apenas `src/data/releases.json`
+- Commits de desenvolvimento usam Conventional Commits normais, sem bump de versão
+- Contribuidores externos não fazem release — o mantenedor consolida e publica
 
 ---
 

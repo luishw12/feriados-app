@@ -26,3 +26,4 @@
 - [ ] Commits seguem Conventional Commits
 - [ ] Para dados de feriados: fonte oficial citada acima
 - [ ] Para mudanças de UI: screenshot anexado (se aplicável)
+- [ ] Se for release: versão em `package.json`, entrada em `releases.json`, `CHANGELOG.md` sincronizado e tag Git criados (ver [VERSIONING.md](../VERSIONING.md))
