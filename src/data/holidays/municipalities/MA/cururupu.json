@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2103703,
+  "name": "Cururupu",
+  "slug": "cururupu",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-cururupu",
+      "name": "Aniversário de Cururupu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cururupu-0629",
+      "name": "Feriado Municipal de Cururupu",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

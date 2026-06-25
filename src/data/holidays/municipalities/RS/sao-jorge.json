@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4318440,
+  "name": "São Jorge",
+  "slug": "sao-jorge",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jorge",
+      "name": "Aniversário de São Jorge",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jorge-1130",
+      "name": "Feriado Municipal de São Jorge",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

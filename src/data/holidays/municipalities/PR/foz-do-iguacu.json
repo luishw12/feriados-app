@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4108304,
+  "name": "Foz do Iguaçu",
+  "slug": "foz-do-iguacu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-foz-do-iguacu",
+      "name": "Aniversário de Foz do Iguaçu",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-foz-do-iguacu-0604",
+      "name": "Feriado Municipal de Foz do Iguaçu",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-foz-do-iguacu-0610",
+      "name": "Feriado Municipal de Foz do Iguaçu",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-foz-do-iguacu-0624",
+      "name": "Feriado Municipal de Foz do Iguaçu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

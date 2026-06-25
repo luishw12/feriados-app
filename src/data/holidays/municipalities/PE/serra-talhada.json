@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2613909,
+  "name": "Serra Talhada",
+  "slug": "serra-talhada",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-serra-talhada",
+      "name": "Aniversário de Serra Talhada",
+      "date": "05-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serra-talhada-0908",
+      "name": "Feriado Municipal de Serra Talhada",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

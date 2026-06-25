@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4119400,
+  "name": "Piraí do Sul",
+  "slug": "pirai-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-pirai-do-sul",
+      "name": "Aniversário de Piraí do Sul",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirai-do-sul-1227",
+      "name": "Feriado Municipal de Piraí do Sul",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

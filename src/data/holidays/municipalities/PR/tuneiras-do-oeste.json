@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4127908,
+  "name": "Tuneiras do Oeste",
+  "slug": "tuneiras-do-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-tuneiras-do-oeste",
+      "name": "Aniversário de Tuneiras do Oeste",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tuneiras-do-oeste-0810",
+      "name": "Feriado Municipal de Tuneiras do Oeste",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tuneiras-do-oeste-1127",
+      "name": "Feriado Municipal de Tuneiras do Oeste",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

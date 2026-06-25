@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2110906,
+  "name": "São Francisco do Maranhão",
+  "slug": "sao-francisco-do-maranhao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-francisco-do-maranhao",
+      "name": "Aniversário de São Francisco do Maranhão",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2903409,
+  "name": "Belmonte",
+  "slug": "belmonte",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-belmonte",
+      "name": "Aniversário de Belmonte",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-belmonte-0523",
+      "name": "Feriado Municipal de Belmonte",
+      "date": "05-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-belmonte-0716",
+      "name": "Feriado Municipal de Belmonte",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-belmonte-0719",
+      "name": "Feriado Municipal de Belmonte",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

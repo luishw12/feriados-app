@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3168705,
+  "name": "Timóteo",
+  "slug": "timoteo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-timoteo",
+      "name": "Aniversário de Timóteo",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-timoteo-0815",
+      "name": "Feriado Municipal de Timóteo",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

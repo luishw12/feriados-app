@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5003157,
+  "name": "Coronel Sapucaia",
+  "slug": "coronel-sapucaia",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-coronel-sapucaia",
+      "name": "Aniversário de Coronel Sapucaia",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-sapucaia-1215",
+      "name": "Feriado Municipal de Coronel Sapucaia",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

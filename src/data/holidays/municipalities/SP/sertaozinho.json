@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3551702,
+  "name": "Sertãozinho",
+  "slug": "sertaozinho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sertaozinho",
+      "name": "Aniversário de Sertãozinho",
+      "date": "12-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

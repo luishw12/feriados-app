@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3153509,
+  "name": "Alto Jequitibá",
+  "slug": "alto-jequitiba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-alto-jequitiba",
+      "name": "Aniversário de Alto Jequitibá",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

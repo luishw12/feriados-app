@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3114501,
+  "name": "Carmópolis de Minas",
+  "slug": "carmopolis-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carmopolis-de-minas",
+      "name": "Aniversário de Carmópolis de Minas",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmopolis-de-minas-0604",
+      "name": "Feriado Municipal de Carmópolis de Minas",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmopolis-de-minas-0716",
+      "name": "Feriado Municipal de Carmópolis de Minas",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmopolis-de-minas-1227",
+      "name": "Feriado Municipal de Carmópolis de Minas",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

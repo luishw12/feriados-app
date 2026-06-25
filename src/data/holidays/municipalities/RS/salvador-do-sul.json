@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4316501,
+  "name": "Salvador do Sul",
+  "slug": "salvador-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-salvador-do-sul",
+      "name": "Aniversário de Salvador do Sul",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519907,
+  "name": "Iepê",
+  "slug": "iepe",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-iepe",
+      "name": "Aniversário de Iepê",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iepe-1130",
+      "name": "Feriado Municipal de Iepê",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

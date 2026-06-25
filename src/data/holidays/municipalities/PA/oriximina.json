@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1505304,
+  "name": "Oriximiná",
+  "slug": "oriximina",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-oriximina",
+      "name": "Aniversário de Oriximiná",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3548807,
+  "name": "São Caetano do Sul",
+  "slug": "sao-caetano-do-sul",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-caetano-do-sul",
+      "name": "Aniversário de São Caetano do Sul",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

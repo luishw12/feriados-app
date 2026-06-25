@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4319604,
+  "name": "São Sepé",
+  "slug": "sao-sepe",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-sepe",
+      "name": "Aniversário de São Sepé",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

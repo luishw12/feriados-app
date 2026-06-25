@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3145356,
+  "name": "Novo Oriente de Minas",
+  "slug": "novo-oriente-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-novo-oriente-de-minas",
+      "name": "Aniversário de Novo Oriente de Minas",
+      "date": "05-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-oriente-de-minas-0529",
+      "name": "Feriado Municipal de Novo Oriente de Minas",
+      "date": "05-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-oriente-de-minas-0623",
+      "name": "Feriado Municipal de Novo Oriente de Minas",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-oriente-de-minas-1221",
+      "name": "Feriado Municipal de Novo Oriente de Minas",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

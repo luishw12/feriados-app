@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4111506,
+  "name": "Ivaiporã",
+  "slug": "ivaipora",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ivaipora",
+      "name": "Aniversário de Ivaiporã",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ivaipora-1119",
+      "name": "Feriado Municipal de Ivaiporã",
+      "date": "11-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

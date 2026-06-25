@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5203302,
+  "name": "Bela Vista de Goiás",
+  "slug": "bela-vista-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-bela-vista-de-goias",
+      "name": "Aniversário de Bela Vista de Goiás",
+      "date": "06-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

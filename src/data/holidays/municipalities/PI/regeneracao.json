@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2208809,
+  "name": "Regeneração",
+  "slug": "regeneracao",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-regeneracao",
+      "name": "Aniversário de Regeneração",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-regeneracao-1202",
+      "name": "Feriado Municipal de Regeneração",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-regeneracao-1208",
+      "name": "Feriado Municipal de Regeneração",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

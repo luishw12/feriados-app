@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3304300,
+  "name": "Rio Bonito",
+  "slug": "rio-bonito",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-rio-bonito",
+      "name": "Aniversário de Rio Bonito",
+      "date": "05-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-bonito-1208",
+      "name": "Feriado Municipal de Rio Bonito",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

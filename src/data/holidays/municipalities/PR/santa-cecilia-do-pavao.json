@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4123204,
+  "name": "Santa Cecília do Pavão",
+  "slug": "santa-cecilia-do-pavao",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cecilia-do-pavao",
+      "name": "Aniversário de Santa Cecília do Pavão",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cecilia-do-pavao-1122",
+      "name": "Feriado Municipal de Santa Cecília do Pavão",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

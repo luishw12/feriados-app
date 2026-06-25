@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2930808,
+  "name": "Souto Soares",
+  "slug": "souto-soares",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-souto-soares",
+      "name": "Aniversário de Souto Soares",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-souto-soares-0705",
+      "name": "Feriado Municipal de Souto Soares",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

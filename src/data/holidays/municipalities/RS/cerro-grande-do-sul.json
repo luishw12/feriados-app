@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4305173,
+  "name": "Cerro Grande do Sul",
+  "slug": "cerro-grande-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cerro-grande-do-sul",
+      "name": "Aniversário de Cerro Grande do Sul",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cerro-grande-do-sul-0512",
+      "name": "Feriado Municipal de Cerro Grande do Sul",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

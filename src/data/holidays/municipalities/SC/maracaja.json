@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4210407,
+  "name": "Maracajá",
+  "slug": "maracaja",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-maracaja",
+      "name": "Aniversário de Maracajá",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maracaja-0725",
+      "name": "Feriado Municipal de Maracajá",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maracaja-1208",
+      "name": "Feriado Municipal de Maracajá",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

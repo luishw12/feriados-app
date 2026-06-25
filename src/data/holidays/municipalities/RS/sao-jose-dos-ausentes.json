@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4318622,
+  "name": "São José dos Ausentes",
+  "slug": "sao-jose-dos-ausentes",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-dos-ausentes",
+      "name": "Aniversário de São José dos Ausentes",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-dos-ausentes-0320",
+      "name": "Feriado Municipal de São José dos Ausentes",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

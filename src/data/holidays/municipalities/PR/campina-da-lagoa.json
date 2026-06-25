@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4103909,
+  "name": "Campina da Lagoa",
+  "slug": "campina-da-lagoa",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-campina-da-lagoa",
+      "name": "Aniversário de Campina da Lagoa",
+      "date": "11-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

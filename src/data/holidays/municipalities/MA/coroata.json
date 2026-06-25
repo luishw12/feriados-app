@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2103604,
+  "name": "Coroatá",
+  "slug": "coroata",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-coroata",
+      "name": "Aniversário de Coroatá",
+      "date": "04-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

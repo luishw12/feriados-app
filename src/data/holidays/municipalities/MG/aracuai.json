@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3103405,
+  "name": "Araçuaí",
+  "slug": "aracuai",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-aracuai",
+      "name": "Aniversário de Araçuaí",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracuai-0921",
+      "name": "Feriado Municipal de Araçuaí",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

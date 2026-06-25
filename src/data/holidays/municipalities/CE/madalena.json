@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2307635,
+  "name": "Madalena",
+  "slug": "madalena",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-madalena",
+      "name": "Aniversário de Madalena",
+      "date": "08-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-madalena-1031",
+      "name": "Feriado Municipal de Madalena",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

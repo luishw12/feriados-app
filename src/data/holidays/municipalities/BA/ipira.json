@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2914000,
+  "name": "Ipirá",
+  "slug": "ipira",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ipira",
+      "name": "Aniversário de Ipirá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipira-0726",
+      "name": "Feriado Municipal de Ipirá",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3143005,
+  "name": "Monte Belo",
+  "slug": "monte-belo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-monte-belo",
+      "name": "Aniversário de Monte Belo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-belo-1217",
+      "name": "Feriado Municipal de Monte Belo",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

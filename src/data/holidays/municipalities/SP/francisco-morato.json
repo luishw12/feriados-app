@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3516309,
+  "name": "Francisco Morato",
+  "slug": "francisco-morato",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-francisco-morato",
+      "name": "Aniversário de Francisco Morato",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

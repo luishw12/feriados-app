@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2917706,
+  "name": "Jaguarari",
+  "slug": "jaguarari",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-jaguarari",
+      "name": "Aniversário de Jaguarari",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaguarari-0806",
+      "name": "Feriado Municipal de Jaguarari",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

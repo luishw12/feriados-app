@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2402402,
+  "name": "Carnaúba dos Dantas",
+  "slug": "carnauba-dos-dantas",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-carnauba-dos-dantas",
+      "name": "Aniversário de Carnaúba dos Dantas",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carnauba-dos-dantas-1211",
+      "name": "Feriado Municipal de Carnaúba dos Dantas",
+      "date": "12-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

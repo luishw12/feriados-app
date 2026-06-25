@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2304301,
+  "name": "Farias Brito",
+  "slug": "farias-brito",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-farias-brito",
+      "name": "Aniversário de Farias Brito",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-farias-brito-1208",
+      "name": "Feriado Municipal de Farias Brito",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-farias-brito-1220",
+      "name": "Feriado Municipal de Farias Brito",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

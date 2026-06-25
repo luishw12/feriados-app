@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4206603,
+  "name": "Guarujá do Sul",
+  "slug": "guaruja-do-sul",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-guaruja-do-sul",
+      "name": "Aniversário de Guarujá do Sul",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

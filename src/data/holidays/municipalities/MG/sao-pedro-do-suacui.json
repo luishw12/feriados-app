@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3164100,
+  "name": "São Pedro do Suaçuí",
+  "slug": "sao-pedro-do-suacui",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-pedro-do-suacui",
+      "name": "Aniversário de São Pedro do Suaçuí",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

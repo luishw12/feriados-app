@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5002803,
+  "name": "Caracol",
+  "slug": "caracol",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-caracol",
+      "name": "Aniversário de Caracol",
+      "date": "06-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

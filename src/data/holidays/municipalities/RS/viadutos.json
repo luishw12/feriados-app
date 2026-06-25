@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4322905,
+  "name": "Viadutos",
+  "slug": "viadutos",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-viadutos",
+      "name": "Aniversário de Viadutos",
+      "date": "05-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

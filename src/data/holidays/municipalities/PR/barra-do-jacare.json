@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4102703,
+  "name": "Barra do Jacaré",
+  "slug": "barra-do-jacare",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-barra-do-jacare",
+      "name": "Aniversário de Barra do Jacaré",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

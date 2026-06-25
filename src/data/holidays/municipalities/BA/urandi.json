@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2932606,
+  "name": "Urandi",
+  "slug": "urandi",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-urandi",
+      "name": "Aniversário de Urandi",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

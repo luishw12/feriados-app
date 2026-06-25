@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4302303,
+  "name": "Bom Jesus",
+  "slug": "bom-jesus",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jesus",
+      "name": "Aniversário de Bom Jesus",
+      "date": "05-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jesus-0716",
+      "name": "Feriado Municipal de Bom Jesus",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3520509,
+  "name": "Indaiatuba",
+  "slug": "indaiatuba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-indaiatuba",
+      "name": "Aniversário de Indaiatuba",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

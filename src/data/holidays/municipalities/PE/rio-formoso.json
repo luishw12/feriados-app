@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2611903,
+  "name": "Rio Formoso",
+  "slug": "rio-formoso",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-rio-formoso",
+      "name": "Aniversário de Rio Formoso",
+      "date": "02-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-formoso-0319",
+      "name": "Feriado Municipal de Rio Formoso",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-formoso-0611",
+      "name": "Feriado Municipal de Rio Formoso",
+      "date": "06-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-formoso-1124",
+      "name": "Feriado Municipal de Rio Formoso",
+      "date": "11-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

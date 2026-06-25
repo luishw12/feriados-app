@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2804458,
+  "name": "Nossa Senhora Aparecida",
+  "slug": "nossa-senhora-aparecida",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-nossa-senhora-aparecida",
+      "name": "Aniversário de Nossa Senhora Aparecida",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

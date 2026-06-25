@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2607703,
+  "name": "Itapetim",
+  "slug": "itapetim",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-itapetim",
+      "name": "Aniversário de Itapetim",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapetim-1229",
+      "name": "Feriado Municipal de Itapetim",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

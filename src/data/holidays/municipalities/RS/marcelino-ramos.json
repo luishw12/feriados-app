@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4311908,
+  "name": "Marcelino Ramos",
+  "slug": "marcelino-ramos",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-marcelino-ramos",
+      "name": "Aniversário de Marcelino Ramos",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

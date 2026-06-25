@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3517208,
+  "name": "Guaiçara",
+  "slug": "guaicara",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guaicara",
+      "name": "Aniversário de Guaiçara",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaicara-1213",
+      "name": "Feriado Municipal de Guaiçara",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

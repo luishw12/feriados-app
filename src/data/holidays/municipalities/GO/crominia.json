@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5206503,
+  "name": "Cromínia",
+  "slug": "crominia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-crominia",
+      "name": "Aniversário de Cromínia",
+      "date": "11-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-crominia-1204",
+      "name": "Feriado Municipal de Cromínia",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

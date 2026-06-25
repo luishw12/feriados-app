@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3200102,
+  "name": "Afonso Cláudio",
+  "slug": "afonso-claudio",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-afonso-claudio",
+      "name": "Aniversário de Afonso Cláudio",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-afonso-claudio-0211",
+      "name": "Feriado Municipal de Afonso Cláudio",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-afonso-claudio-0927",
+      "name": "Feriado Municipal de Afonso Cláudio",
+      "date": "09-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-afonso-claudio-1031",
+      "name": "Feriado Municipal de Afonso Cláudio",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4211801,
+  "name": "Ouro",
+  "slug": "ouro",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ouro",
+      "name": "Aniversário de Ouro",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

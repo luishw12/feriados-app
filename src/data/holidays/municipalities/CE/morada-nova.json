@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2308708,
+  "name": "Morada Nova",
+  "slug": "morada-nova",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-morada-nova",
+      "name": "Aniversário de Morada Nova",
+      "date": "06-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-morada-nova-0802",
+      "name": "Feriado Municipal de Morada Nova",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

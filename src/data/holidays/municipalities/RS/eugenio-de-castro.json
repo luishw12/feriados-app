@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4307831,
+  "name": "Eugênio de Castro",
+  "slug": "eugenio-de-castro",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-eugenio-de-castro",
+      "name": "Aniversário de Eugênio de Castro",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

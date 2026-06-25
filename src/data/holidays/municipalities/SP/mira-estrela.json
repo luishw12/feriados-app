@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3530003,
+  "name": "Mira Estrela",
+  "slug": "mira-estrela",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-mira-estrela",
+      "name": "Aniversário de Mira Estrela",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mira-estrela-0806",
+      "name": "Feriado Municipal de Mira Estrela",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mira-estrela-1101",
+      "name": "Feriado Municipal de Mira Estrela",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

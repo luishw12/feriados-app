@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2308203,
+  "name": "Meruoca",
+  "slug": "meruoca",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-meruoca",
+      "name": "Aniversário de Meruoca",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

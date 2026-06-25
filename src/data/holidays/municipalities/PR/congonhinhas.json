@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4106001,
+  "name": "Congonhinhas",
+  "slug": "congonhinhas",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-congonhinhas",
+      "name": "Aniversário de Congonhinhas",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

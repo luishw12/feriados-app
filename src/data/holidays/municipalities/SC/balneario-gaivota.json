@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4202073,
+  "name": "Balneário Gaivota",
+  "slug": "balneario-gaivota",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-balneario-gaivota",
+      "name": "Aniversário de Balneário Gaivota",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-balneario-gaivota-0403",
+      "name": "Feriado Municipal de Balneário Gaivota",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

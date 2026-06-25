@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5108204,
+  "name": "Torixoréu",
+  "slug": "torixoreu",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-torixoreu",
+      "name": "Aniversário de Torixoréu",
+      "date": "04-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-torixoreu-1210",
+      "name": "Feriado Municipal de Torixoréu",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

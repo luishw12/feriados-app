@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4320206,
+  "name": "Seberi",
+  "slug": "seberi",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-seberi",
+      "name": "Aniversário de Seberi",
+      "date": "01-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-seberi-0604",
+      "name": "Feriado Municipal de Seberi",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-seberi-1208",
+      "name": "Feriado Municipal de Seberi",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

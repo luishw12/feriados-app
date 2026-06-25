@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4317608,
+  "name": "Santo Antônio da Patrulha",
+  "slug": "santo-antonio-da-patrulha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-da-patrulha",
+      "name": "Aniversário de Santo Antônio da Patrulha",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3142502,
+  "name": "Monjolos",
+  "slug": "monjolos",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-monjolos",
+      "name": "Aniversário de Monjolos",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

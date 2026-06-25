@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2110708,
+  "name": "São Domingos do Maranhão",
+  "slug": "sao-domingos-do-maranhao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-domingos-do-maranhao",
+      "name": "Aniversário de São Domingos do Maranhão",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-domingos-do-maranhao-0924",
+      "name": "Feriado Municipal de São Domingos do Maranhão",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

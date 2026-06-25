@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2304251,
+  "name": "Cruz",
+  "slug": "cruz",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-cruz",
+      "name": "Aniversário de Cruz",
+      "date": "01-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cruz-0406",
+      "name": "Feriado Municipal de Cruz",
+      "date": "04-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cruz-1004",
+      "name": "Feriado Municipal de Cruz",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

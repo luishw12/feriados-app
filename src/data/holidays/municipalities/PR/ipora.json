@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4110607,
+  "name": "Iporã",
+  "slug": "ipora",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ipora",
+      "name": "Aniversário de Iporã",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipora-1031",
+      "name": "Feriado Municipal de Iporã",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

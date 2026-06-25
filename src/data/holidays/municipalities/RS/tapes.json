@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4321105,
+  "name": "Tapes",
+  "slug": "tapes",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tapes",
+      "name": "Aniversário de Tapes",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tapes-0716",
+      "name": "Feriado Municipal de Tapes",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

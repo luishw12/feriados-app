@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1702307,
+  "name": "Arapoema",
+  "slug": "arapoema",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-arapoema",
+      "name": "Aniversário de Arapoema",
+      "date": "11-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

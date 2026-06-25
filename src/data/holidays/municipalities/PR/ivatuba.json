@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4111605,
+  "name": "Ivatuba",
+  "slug": "ivatuba",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ivatuba",
+      "name": "Aniversário de Ivatuba",
+      "date": "11-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

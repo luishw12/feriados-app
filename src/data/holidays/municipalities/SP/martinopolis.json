@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3529203,
+  "name": "Martinópolis",
+  "slug": "martinopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-martinopolis",
+      "name": "Aniversário de Martinópolis",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-martinopolis-0629",
+      "name": "Feriado Municipal de Martinópolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-martinopolis-1202",
+      "name": "Feriado Municipal de Martinópolis",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

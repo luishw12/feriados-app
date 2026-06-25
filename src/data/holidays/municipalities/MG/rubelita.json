@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3156502,
+  "name": "Rubelita",
+  "slug": "rubelita",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-rubelita",
+      "name": "Aniversário de Rubelita",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rubelita-0806",
+      "name": "Feriado Municipal de Rubelita",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

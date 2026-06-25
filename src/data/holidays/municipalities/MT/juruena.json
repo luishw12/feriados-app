@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5105176,
+  "name": "Juruena",
+  "slug": "juruena",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-juruena",
+      "name": "Aniversário de Juruena",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2102556,
+  "name": "Campestre do Maranhão",
+  "slug": "campestre-do-maranhao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-campestre-do-maranhao",
+      "name": "Aniversário de Campestre do Maranhão",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campestre-do-maranhao-1110",
+      "name": "Feriado Municipal de Campestre do Maranhão",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

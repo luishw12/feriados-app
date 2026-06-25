@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4308102,
+  "name": "Feliz",
+  "slug": "feliz",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-feliz",
+      "name": "Aniversário de Feliz",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

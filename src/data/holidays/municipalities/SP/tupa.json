@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3555000,
+  "name": "Tupã",
+  "slug": "tupa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-tupa",
+      "name": "Aniversário de Tupã",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

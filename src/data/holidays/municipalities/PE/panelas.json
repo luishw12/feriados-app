@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2610202,
+  "name": "Panelas",
+  "slug": "panelas",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-panelas",
+      "name": "Aniversário de Panelas",
+      "date": "05-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

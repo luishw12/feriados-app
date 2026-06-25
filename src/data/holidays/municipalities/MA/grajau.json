@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2104800,
+  "name": "Grajaú",
+  "slug": "grajau",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-grajau",
+      "name": "Aniversário de Grajaú",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-grajau-0914",
+      "name": "Feriado Municipal de Grajaú",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

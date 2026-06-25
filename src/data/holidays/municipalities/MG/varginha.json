@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3170701,
+  "name": "Varginha",
+  "slug": "varginha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-varginha",
+      "name": "Aniversário de Varginha",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-varginha-1007",
+      "name": "Feriado Municipal de Varginha",
+      "date": "10-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-varginha-1208",
+      "name": "Feriado Municipal de Varginha",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

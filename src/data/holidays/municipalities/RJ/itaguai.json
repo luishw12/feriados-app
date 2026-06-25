@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3302007,
+  "name": "Itaguaí",
+  "slug": "itaguai",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-itaguai",
+      "name": "Aniversário de Itaguaí",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaguai-0423",
+      "name": "Feriado Municipal de Itaguaí",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaguai-0705",
+      "name": "Feriado Municipal de Itaguaí",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaguai-1203",
+      "name": "Feriado Municipal de Itaguaí",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

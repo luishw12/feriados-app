@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3127800,
+  "name": "Grão Mogol",
+  "slug": "grao-mogol",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-grao-mogol",
+      "name": "Aniversário de Grão Mogol",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-grao-mogol-0613",
+      "name": "Feriado Municipal de Grão Mogol",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-grao-mogol-1031",
+      "name": "Feriado Municipal de Grão Mogol",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

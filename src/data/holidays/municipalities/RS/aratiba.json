@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4300901,
+  "name": "Aratiba",
+  "slug": "aratiba",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-aratiba",
+      "name": "Aniversário de Aratiba",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

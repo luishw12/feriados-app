@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3515103,
+  "name": "Embu-Guaçu",
+  "slug": "embu-guacu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-embu-guacu",
+      "name": "Aniversário de Embu-Guaçu",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-embu-guacu-0403",
+      "name": "Feriado Municipal de Embu-Guaçu",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-embu-guacu-0619",
+      "name": "Feriado Municipal de Embu-Guaçu",
+      "date": "06-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-embu-guacu-1001",
+      "name": "Feriado Municipal de Embu-Guaçu",
+      "date": "10-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

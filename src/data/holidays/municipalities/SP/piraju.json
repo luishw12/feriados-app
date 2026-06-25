@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3538808,
+  "name": "Piraju",
+  "slug": "piraju",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-piraju",
+      "name": "Aniversário de Piraju",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

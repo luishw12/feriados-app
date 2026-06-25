@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4113502,
+  "name": "Loanda",
+  "slug": "loanda",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-loanda",
+      "name": "Aniversário de Loanda",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

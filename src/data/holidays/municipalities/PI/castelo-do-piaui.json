@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2202604,
+  "name": "Castelo do Piauí",
+  "slug": "castelo-do-piaui",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-castelo-do-piaui",
+      "name": "Aniversário de Castelo do Piauí",
+      "date": "09-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-castelo-do-piaui-1226",
+      "name": "Feriado Municipal de Castelo do Piauí",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

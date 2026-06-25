@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1506807,
+  "name": "Santarém",
+  "slug": "santarem",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-santarem",
+      "name": "Aniversário de Santarém",
+      "date": "06-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

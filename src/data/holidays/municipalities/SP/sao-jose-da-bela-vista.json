@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3549508,
+  "name": "São José da Bela Vista",
+  "slug": "sao-jose-da-bela-vista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-da-bela-vista",
+      "name": "Aniversário de São José da Bela Vista",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

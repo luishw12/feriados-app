@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3154804,
+  "name": "Rio Acima",
+  "slug": "rio-acima",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-rio-acima",
+      "name": "Aniversário de Rio Acima",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

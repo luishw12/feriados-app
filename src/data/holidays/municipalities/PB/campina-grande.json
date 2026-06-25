@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 2504009,
+  "name": "Campina Grande",
+  "slug": "campina-grande",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-campina-grande",
+      "name": "Aniversário de Campina Grande",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campina-grande-0604",
+      "name": "Feriado Municipal de Campina Grande",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campina-grande-0624",
+      "name": "Feriado Municipal de Campina Grande",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campina-grande-1011",
+      "name": "Feriado Municipal de Campina Grande",
+      "date": "10-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campina-grande-1208",
+      "name": "Feriado Municipal de Campina Grande",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3511607,
+  "name": "Cesário Lange",
+  "slug": "cesario-lange",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cesario-lange",
+      "name": "Aniversário de Cesário Lange",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cesario-lange-0914",
+      "name": "Feriado Municipal de Cesário Lange",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

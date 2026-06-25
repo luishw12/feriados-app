@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4205605,
+  "name": "Galvão",
+  "slug": "galvao",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-galvao",
+      "name": "Aniversário de Galvão",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-galvao-0929",
+      "name": "Feriado Municipal de Galvão",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

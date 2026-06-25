@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3119609,
+  "name": "Coronel Pacheco",
+  "slug": "coronel-pacheco",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-coronel-pacheco",
+      "name": "Aniversário de Coronel Pacheco",
+      "date": "09-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

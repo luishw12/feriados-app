@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3543501,
+  "name": "Riversul",
+  "slug": "riversul",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-riversul",
+      "name": "Aniversário de Riversul",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riversul-1230",
+      "name": "Feriado Municipal de Riversul",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

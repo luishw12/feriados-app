@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2925105,
+  "name": "Poções",
+  "slug": "pocoes",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-pocoes",
+      "name": "Aniversário de Poções",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pocoes-0626",
+      "name": "Feriado Municipal de Poções",
+      "date": "06-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

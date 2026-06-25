@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2805802,
+  "name": "Riachão do Dantas",
+  "slug": "riachao-do-dantas",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-riachao-do-dantas",
+      "name": "Aniversário de Riachão do Dantas",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riachao-do-dantas-1121",
+      "name": "Feriado Municipal de Riachão do Dantas",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

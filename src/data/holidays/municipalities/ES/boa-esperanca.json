@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3201001,
+  "name": "Boa Esperança",
+  "slug": "boa-esperanca",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-boa-esperanca",
+      "name": "Aniversário de Boa Esperança",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

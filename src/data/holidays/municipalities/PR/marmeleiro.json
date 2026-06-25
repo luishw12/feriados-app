@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4115408,
+  "name": "Marmeleiro",
+  "slug": "marmeleiro",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-marmeleiro",
+      "name": "Aniversário de Marmeleiro",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-marmeleiro-1125",
+      "name": "Feriado Municipal de Marmeleiro",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

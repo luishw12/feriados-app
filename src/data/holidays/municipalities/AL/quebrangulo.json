@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2707602,
+  "name": "Quebrangulo",
+  "slug": "quebrangulo",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-quebrangulo",
+      "name": "Aniversário de Quebrangulo",
+      "date": "03-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quebrangulo-0927",
+      "name": "Feriado Municipal de Quebrangulo",
+      "date": "09-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

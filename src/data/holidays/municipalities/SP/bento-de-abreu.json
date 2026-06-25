@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3506201,
+  "name": "Bento de Abreu",
+  "slug": "bento-de-abreu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bento-de-abreu",
+      "name": "Aniversário de Bento de Abreu",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bento-de-abreu-0815",
+      "name": "Feriado Municipal de Bento de Abreu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

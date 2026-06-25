@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3555406,
+  "name": "Ubatuba",
+  "slug": "ubatuba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ubatuba",
+      "name": "Aniversário de Ubatuba",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubatuba-0914",
+      "name": "Feriado Municipal de Ubatuba",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubatuba-1028",
+      "name": "Feriado Municipal de Ubatuba",
+      "date": "10-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

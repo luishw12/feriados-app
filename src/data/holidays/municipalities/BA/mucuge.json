@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2921906,
+  "name": "Mucugê",
+  "slug": "mucuge",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-mucuge",
+      "name": "Aniversário de Mucugê",
+      "date": "05-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

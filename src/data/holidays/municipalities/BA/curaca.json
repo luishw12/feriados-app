@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2909901,
+  "name": "Curaçá",
+  "slug": "curaca",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-curaca",
+      "name": "Aniversário de Curaçá",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-curaca-1231",
+      "name": "Feriado Municipal de Curaçá",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

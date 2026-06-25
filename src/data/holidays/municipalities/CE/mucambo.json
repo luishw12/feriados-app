@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2309003,
+  "name": "Mucambo",
+  "slug": "mucambo",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-mucambo",
+      "name": "Aniversário de Mucambo",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 5215256,
+  "name": "Novo Planalto",
+  "slug": "novo-planalto",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-novo-planalto",
+      "name": "Aniversário de Novo Planalto",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-planalto-0602",
+      "name": "Feriado Municipal de Novo Planalto",
+      "date": "06-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-planalto-0629",
+      "name": "Feriado Municipal de Novo Planalto",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-planalto-0702",
+      "name": "Feriado Municipal de Novo Planalto",
+      "date": "07-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-planalto-0806",
+      "name": "Feriado Municipal de Novo Planalto",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

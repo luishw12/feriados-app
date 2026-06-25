@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4118204,
+  "name": "Paranaguá",
+  "slug": "paranagua",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-paranagua",
+      "name": "Aniversário de Paranaguá",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranagua-0604",
+      "name": "Feriado Municipal de Paranaguá",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranagua-0729",
+      "name": "Feriado Municipal de Paranaguá",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranagua-1007",
+      "name": "Feriado Municipal de Paranaguá",
+      "date": "10-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

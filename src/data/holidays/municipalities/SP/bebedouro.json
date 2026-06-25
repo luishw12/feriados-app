@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3506102,
+  "name": "Bebedouro",
+  "slug": "bebedouro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bebedouro",
+      "name": "Aniversário de Bebedouro",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bebedouro-0624",
+      "name": "Feriado Municipal de Bebedouro",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

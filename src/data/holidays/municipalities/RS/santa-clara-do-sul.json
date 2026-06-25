@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4316758,
+  "name": "Santa Clara do Sul",
+  "slug": "santa-clara-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santa-clara-do-sul",
+      "name": "Aniversário de Santa Clara do Sul",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

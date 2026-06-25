@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2504801,
+  "name": "Coremas",
+  "slug": "coremas",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-coremas",
+      "name": "Aniversário de Coremas",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coremas-0522",
+      "name": "Feriado Municipal de Coremas",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coremas-0624",
+      "name": "Feriado Municipal de Coremas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coremas-0629",
+      "name": "Feriado Municipal de Coremas",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

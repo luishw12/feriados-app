@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2913903,
+  "name": "Ipiaú",
+  "slug": "ipiau",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ipiau",
+      "name": "Aniversário de Ipiaú",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipiau-0816",
+      "name": "Feriado Municipal de Ipiaú",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipiau-1202",
+      "name": "Feriado Municipal de Ipiaú",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

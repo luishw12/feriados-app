@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3107307,
+  "name": "Bocaiúva",
+  "slug": "bocaiuva",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bocaiuva",
+      "name": "Aniversário de Bocaiúva",
+      "date": "07-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

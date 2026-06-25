@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3121209,
+  "name": "Delfinópolis",
+  "slug": "delfinopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-delfinopolis",
+      "name": "Aniversário de Delfinópolis",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

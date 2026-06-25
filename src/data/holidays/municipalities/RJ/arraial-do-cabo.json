@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3300258,
+  "name": "Arraial do Cabo",
+  "slug": "arraial-do-cabo",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-arraial-do-cabo",
+      "name": "Aniversário de Arraial do Cabo",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arraial-do-cabo-0513",
+      "name": "Feriado Municipal de Arraial do Cabo",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arraial-do-cabo-1023",
+      "name": "Feriado Municipal de Arraial do Cabo",
+      "date": "10-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

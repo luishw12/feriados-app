@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3517109,
+  "name": "Glicério",
+  "slug": "glicerio",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-glicerio",
+      "name": "Aniversário de Glicério",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-glicerio-0815",
+      "name": "Feriado Municipal de Glicério",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-glicerio-1230",
+      "name": "Feriado Municipal de Glicério",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

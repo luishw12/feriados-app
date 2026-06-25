@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3160702,
+  "name": "Santos Dumont",
+  "slug": "santos-dumont",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-santos-dumont",
+      "name": "Aniversário de Santos Dumont",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santos-dumont-0727",
+      "name": "Feriado Municipal de Santos Dumont",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santos-dumont-0929",
+      "name": "Feriado Municipal de Santos Dumont",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santos-dumont-1023",
+      "name": "Feriado Municipal de Santos Dumont",
+      "date": "10-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

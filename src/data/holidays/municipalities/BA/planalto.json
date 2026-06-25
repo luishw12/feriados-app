@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2925006,
+  "name": "Planalto",
+  "slug": "planalto",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-planalto",
+      "name": "Aniversário de Planalto",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-planalto-0405",
+      "name": "Feriado Municipal de Planalto",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-planalto-0522",
+      "name": "Feriado Municipal de Planalto",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-planalto-0604",
+      "name": "Feriado Municipal de Planalto",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2303006,
+  "name": "Caridade",
+  "slug": "caridade",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-caridade",
+      "name": "Aniversário de Caridade",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caridade-0806",
+      "name": "Feriado Municipal de Caridade",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

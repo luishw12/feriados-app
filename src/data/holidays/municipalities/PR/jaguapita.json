@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4111902,
+  "name": "Jaguapitã",
+  "slug": "jaguapita",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-jaguapita",
+      "name": "Aniversário de Jaguapitã",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaguapita-1107",
+      "name": "Feriado Municipal de Jaguapitã",
+      "date": "11-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

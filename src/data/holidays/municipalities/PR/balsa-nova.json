@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4102307,
+  "name": "Balsa Nova",
+  "slug": "balsa-nova",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-balsa-nova",
+      "name": "Aniversário de Balsa Nova",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-balsa-nova-0806",
+      "name": "Feriado Municipal de Balsa Nova",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

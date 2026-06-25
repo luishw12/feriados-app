@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4124202,
+  "name": "Santo Antônio do Caiuá",
+  "slug": "santo-antonio-do-caiua",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-caiua",
+      "name": "Aniversário de Santo Antônio do Caiuá",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

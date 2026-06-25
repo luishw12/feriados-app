@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2921807,
+  "name": "Mortugaba",
+  "slug": "mortugaba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-mortugaba",
+      "name": "Aniversário de Mortugaba",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mortugaba-1130",
+      "name": "Feriado Municipal de Mortugaba",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

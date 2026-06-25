@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3138674,
+  "name": "Luisburgo",
+  "slug": "luisburgo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-luisburgo",
+      "name": "Aniversário de Luisburgo",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-luisburgo-0926",
+      "name": "Feriado Municipal de Luisburgo",
+      "date": "09-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-luisburgo-1221",
+      "name": "Feriado Municipal de Luisburgo",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

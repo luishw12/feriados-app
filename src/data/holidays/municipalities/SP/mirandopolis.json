@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3530102,
+  "name": "Mirandópolis",
+  "slug": "mirandopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-mirandopolis",
+      "name": "Aniversário de Mirandópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

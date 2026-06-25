@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3111200,
+  "name": "Campo Belo",
+  "slug": "campo-belo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-campo-belo",
+      "name": "Aniversário de Campo Belo",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

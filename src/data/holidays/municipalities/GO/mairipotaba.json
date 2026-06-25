@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5212600,
+  "name": "Mairipotaba",
+  "slug": "mairipotaba",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-mairipotaba",
+      "name": "Aniversário de Mairipotaba",
+      "date": "11-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2923308,
+  "name": "Ouriçangas",
+  "slug": "ouricangas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ouricangas",
+      "name": "Aniversário de Ouriçangas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ouricangas-1208",
+      "name": "Feriado Municipal de Ouriçangas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

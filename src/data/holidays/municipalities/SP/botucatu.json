@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3507506,
+  "name": "Botucatu",
+  "slug": "botucatu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-botucatu",
+      "name": "Aniversário de Botucatu",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-botucatu-0414",
+      "name": "Feriado Municipal de Botucatu",
+      "date": "04-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-botucatu-0604",
+      "name": "Feriado Municipal de Botucatu",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-botucatu-0726",
+      "name": "Feriado Municipal de Botucatu",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

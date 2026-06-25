@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3302304,
+  "name": "Laje do Muriaé",
+  "slug": "laje-do-muriae",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-laje-do-muriae",
+      "name": "Aniversário de Laje do Muriaé",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-laje-do-muriae-0915",
+      "name": "Feriado Municipal de Laje do Muriaé",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

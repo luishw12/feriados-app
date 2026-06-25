@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3539103,
+  "name": "Pirapora do Bom Jesus",
+  "slug": "pirapora-do-bom-jesus",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pirapora-do-bom-jesus",
+      "name": "Aniversário de Pirapora do Bom Jesus",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

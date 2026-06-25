@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2512408,
+  "name": "Puxinanã",
+  "slug": "puxinana",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-puxinana",
+      "name": "Aniversário de Puxinanã",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-puxinana-0716",
+      "name": "Feriado Municipal de Puxinanã",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

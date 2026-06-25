@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1506708,
+  "name": "Santana do Araguaia",
+  "slug": "santana-do-araguaia",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-santana-do-araguaia",
+      "name": "Aniversário de Santana do Araguaia",
+      "date": "11-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100122,
+  "name": "Ji-Paraná",
+  "slug": "ji-parana",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-ji-parana",
+      "name": "Aniversário de Ji-Paraná",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ji-parana-1122",
+      "name": "Feriado Municipal de Ji-Paraná",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

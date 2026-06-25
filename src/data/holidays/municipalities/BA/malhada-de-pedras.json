@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2920304,
+  "name": "Malhada de Pedras",
+  "slug": "malhada-de-pedras",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-malhada-de-pedras",
+      "name": "Aniversário de Malhada de Pedras",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-malhada-de-pedras-1127",
+      "name": "Feriado Municipal de Malhada de Pedras",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

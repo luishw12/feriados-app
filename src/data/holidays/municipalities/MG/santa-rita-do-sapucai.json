@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3159605,
+  "name": "Santa Rita do Sapucaí",
+  "slug": "santa-rita-do-sapucai",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rita-do-sapucai",
+      "name": "Aniversário de Santa Rita do Sapucaí",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rita-do-sapucai-0524",
+      "name": "Feriado Municipal de Santa Rita do Sapucaí",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3126604,
+  "name": "Francisco Dumont",
+  "slug": "francisco-dumont",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-francisco-dumont",
+      "name": "Aniversário de Francisco Dumont",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3111804,
+  "name": "Canápolis",
+  "slug": "canapolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-canapolis",
+      "name": "Aniversário de Canápolis",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canapolis-0214",
+      "name": "Feriado Municipal de Canápolis",
+      "date": "02-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canapolis-0513",
+      "name": "Feriado Municipal de Canápolis",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canapolis-0714",
+      "name": "Feriado Municipal de Canápolis",
+      "date": "07-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canapolis-0815",
+      "name": "Feriado Municipal de Canápolis",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

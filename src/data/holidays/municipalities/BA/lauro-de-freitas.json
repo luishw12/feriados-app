@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2919207,
+  "name": "Lauro de Freitas",
+  "slug": "lauro-de-freitas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-lauro-de-freitas",
+      "name": "Aniversário de Lauro de Freitas",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lauro-de-freitas-0403",
+      "name": "Feriado Municipal de Lauro de Freitas",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lauro-de-freitas-0624",
+      "name": "Feriado Municipal de Lauro de Freitas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

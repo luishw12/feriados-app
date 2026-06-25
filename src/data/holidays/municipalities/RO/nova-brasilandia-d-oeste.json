@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1100148,
+  "name": "Nova Brasilândia D'Oeste",
+  "slug": "nova-brasilandia-d-oeste",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-nova-brasilandia-d-oeste",
+      "name": "Aniversário de Nova Brasilândia D'Oeste",
+      "date": "06-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

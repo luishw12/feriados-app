@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1502301,
+  "name": "Capitão Poço",
+  "slug": "capitao-poco",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-capitao-poco",
+      "name": "Aniversário de Capitão Poço",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capitao-poco-1229",
+      "name": "Feriado Municipal de Capitão Poço",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

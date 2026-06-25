@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4207809,
+  "name": "Irani",
+  "slug": "irani",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-irani",
+      "name": "Aniversário de Irani",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

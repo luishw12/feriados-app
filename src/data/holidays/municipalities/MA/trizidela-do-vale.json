@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2112233,
+  "name": "Trizidela do Vale",
+  "slug": "trizidela-do-vale",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-trizidela-do-vale",
+      "name": "Aniversário de Trizidela do Vale",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-trizidela-do-vale-1111",
+      "name": "Feriado Municipal de Trizidela do Vale",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

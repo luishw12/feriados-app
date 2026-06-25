@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4107736,
+  "name": "Fernandes Pinheiro",
+  "slug": "fernandes-pinheiro",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-fernandes-pinheiro",
+      "name": "Aniversário de Fernandes Pinheiro",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fernandes-pinheiro-1210",
+      "name": "Feriado Municipal de Fernandes Pinheiro",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

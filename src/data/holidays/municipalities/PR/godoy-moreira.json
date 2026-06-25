@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4108551,
+  "name": "Godoy Moreira",
+  "slug": "godoy-moreira",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-godoy-moreira",
+      "name": "Aniversário de Godoy Moreira",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

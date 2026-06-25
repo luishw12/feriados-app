@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3534401,
+  "name": "Osasco",
+  "slug": "osasco",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-osasco",
+      "name": "Aniversário de Osasco",
+      "date": "02-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-osasco-0403",
+      "name": "Feriado Municipal de Osasco",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-osasco-0604",
+      "name": "Feriado Municipal de Osasco",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-osasco-0613",
+      "name": "Feriado Municipal de Osasco",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

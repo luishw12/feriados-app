@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3111002,
+  "name": "Campestre",
+  "slug": "campestre",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-campestre",
+      "name": "Aniversário de Campestre",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campestre-0830",
+      "name": "Feriado Municipal de Campestre",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

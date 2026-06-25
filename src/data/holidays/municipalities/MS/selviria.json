@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5007802,
+  "name": "Selvíria",
+  "slug": "selviria",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-selviria",
+      "name": "Aniversário de Selvíria",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-selviria-0624",
+      "name": "Feriado Municipal de Selvíria",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

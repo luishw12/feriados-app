@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4103479,
+  "name": "Cafezal do Sul",
+  "slug": "cafezal-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cafezal-do-sul",
+      "name": "Aniversário de Cafezal do Sul",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cafezal-do-sul-0720",
+      "name": "Feriado Municipal de Cafezal do Sul",
+      "date": "07-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

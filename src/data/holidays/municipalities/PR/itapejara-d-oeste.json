@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4111209,
+  "name": "Itapejara d'Oeste",
+  "slug": "itapejara-d-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-itapejara-d-oeste",
+      "name": "Aniversário de Itapejara d'Oeste",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapejara-d-oeste-1214",
+      "name": "Feriado Municipal de Itapejara d'Oeste",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

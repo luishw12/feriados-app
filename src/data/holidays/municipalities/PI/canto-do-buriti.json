@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2202307,
+  "name": "Canto do Buriti",
+  "slug": "canto-do-buriti",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-canto-do-buriti",
+      "name": "Aniversário de Canto do Buriti",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canto-do-buriti-1215",
+      "name": "Feriado Municipal de Canto do Buriti",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

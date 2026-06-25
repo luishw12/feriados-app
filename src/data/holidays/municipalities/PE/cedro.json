@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2604304,
+  "name": "Cedro",
+  "slug": "cedro",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-cedro",
+      "name": "Aniversário de Cedro",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cedro-0924",
+      "name": "Feriado Municipal de Cedro",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cedro-1220",
+      "name": "Feriado Municipal de Cedro",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

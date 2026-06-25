@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5108055,
+  "name": "Terra Nova do Norte",
+  "slug": "terra-nova-do-norte",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-terra-nova-do-norte",
+      "name": "Aniversário de Terra Nova do Norte",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

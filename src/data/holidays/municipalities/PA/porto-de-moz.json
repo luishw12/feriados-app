@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1505908,
+  "name": "Porto de Moz",
+  "slug": "porto-de-moz",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-porto-de-moz",
+      "name": "Aniversário de Porto de Moz",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-de-moz-1119",
+      "name": "Feriado Municipal de Porto de Moz",
+      "date": "11-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

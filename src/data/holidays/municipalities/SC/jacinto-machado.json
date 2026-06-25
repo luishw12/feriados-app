@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4208708,
+  "name": "Jacinto Machado",
+  "slug": "jacinto-machado",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-jacinto-machado",
+      "name": "Aniversário de Jacinto Machado",
+      "date": "07-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2926806,
+  "name": "Rio do Antônio",
+  "slug": "rio-do-antonio",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-rio-do-antonio",
+      "name": "Aniversário de Rio do Antônio",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

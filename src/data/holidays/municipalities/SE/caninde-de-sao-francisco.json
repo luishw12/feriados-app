@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2801207,
+  "name": "Canindé de São Francisco",
+  "slug": "caninde-de-sao-francisco",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-caninde-de-sao-francisco",
+      "name": "Aniversário de Canindé de São Francisco",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caninde-de-sao-francisco-1208",
+      "name": "Feriado Municipal de Canindé de São Francisco",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2606903,
+  "name": "Iguaracy",
+  "slug": "iguaracy",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-iguaracy",
+      "name": "Aniversário de Iguaracy",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iguaracy-0319",
+      "name": "Feriado Municipal de Iguaracy",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iguaracy-0815",
+      "name": "Feriado Municipal de Iguaracy",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iguaracy-1220",
+      "name": "Feriado Municipal de Iguaracy",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

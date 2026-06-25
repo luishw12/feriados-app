@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3506706,
+  "name": "Boa Esperança do Sul",
+  "slug": "boa-esperanca-do-sul",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-boa-esperanca-do-sul",
+      "name": "Aniversário de Boa Esperança do Sul",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boa-esperanca-do-sul-0721",
+      "name": "Feriado Municipal de Boa Esperança do Sul",
+      "date": "07-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

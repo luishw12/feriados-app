@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3204609,
+  "name": "Santa Teresa",
+  "slug": "santa-teresa",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-santa-teresa",
+      "name": "Aniversário de Santa Teresa",
+      "date": "06-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-teresa-1031",
+      "name": "Feriado Municipal de Santa Teresa",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

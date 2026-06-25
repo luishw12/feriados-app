@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3541802,
+  "name": "Queiroz",
+  "slug": "queiroz",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-queiroz",
+      "name": "Aniversário de Queiroz",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

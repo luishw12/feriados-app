@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4313953,
+  "name": "Pantano Grande",
+  "slug": "pantano-grande",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-pantano-grande",
+      "name": "Aniversário de Pantano Grande",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4116109,
+  "name": "Moreira Sales",
+  "slug": "moreira-sales",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-moreira-sales",
+      "name": "Aniversário de Moreira Sales",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-moreira-sales-0725",
+      "name": "Feriado Municipal de Moreira Sales",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

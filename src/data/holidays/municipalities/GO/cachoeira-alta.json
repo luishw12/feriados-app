@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5204102,
+  "name": "Cachoeira Alta",
+  "slug": "cachoeira-alta",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-cachoeira-alta",
+      "name": "Aniversário de Cachoeira Alta",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cachoeira-alta-0924",
+      "name": "Feriado Municipal de Cachoeira Alta",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3546108,
+  "name": "Santa Clara d'Oeste",
+  "slug": "santa-clara-d-oeste",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-clara-d-oeste",
+      "name": "Aniversário de Santa Clara d'Oeste",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-clara-d-oeste-0520",
+      "name": "Feriado Municipal de Santa Clara d'Oeste",
+      "date": "05-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-clara-d-oeste-0811",
+      "name": "Feriado Municipal de Santa Clara d'Oeste",
+      "date": "08-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

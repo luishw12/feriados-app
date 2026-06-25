@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2302404,
+  "name": "Boa Viagem",
+  "slug": "boa-viagem",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-boa-viagem",
+      "name": "Aniversário de Boa Viagem",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boa-viagem-1121",
+      "name": "Feriado Municipal de Boa Viagem",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

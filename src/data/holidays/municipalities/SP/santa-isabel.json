@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3546801,
+  "name": "Santa Isabel",
+  "slug": "santa-isabel",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-isabel",
+      "name": "Aniversário de Santa Isabel",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

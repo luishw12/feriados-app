@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3201159,
+  "name": "Brejetuba",
+  "slug": "brejetuba",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-brejetuba",
+      "name": "Aniversário de Brejetuba",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brejetuba-0815",
+      "name": "Feriado Municipal de Brejetuba",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brejetuba-1215",
+      "name": "Feriado Municipal de Brejetuba",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

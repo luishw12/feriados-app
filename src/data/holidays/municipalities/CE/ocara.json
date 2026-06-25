@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2309458,
+  "name": "Ocara",
+  "slug": "ocara",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-ocara",
+      "name": "Aniversário de Ocara",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ocara-1101",
+      "name": "Feriado Municipal de Ocara",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ocara-1228",
+      "name": "Feriado Municipal de Ocara",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

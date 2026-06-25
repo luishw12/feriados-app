@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4208609,
+  "name": "Jaborá",
+  "slug": "jabora",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-jabora",
+      "name": "Aniversário de Jaborá",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

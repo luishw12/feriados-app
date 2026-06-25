@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2906501,
+  "name": "Candeias",
+  "slug": "candeias",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-candeias",
+      "name": "Aniversário de Candeias",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-candeias-0624",
+      "name": "Feriado Municipal de Candeias",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-candeias-0814",
+      "name": "Feriado Municipal de Candeias",
+      "date": "08-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2708303,
+  "name": "São José da Laje",
+  "slug": "sao-jose-da-laje",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-da-laje",
+      "name": "Aniversário de São José da Laje",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-da-laje-0319",
+      "name": "Feriado Municipal de São José da Laje",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-da-laje-0728",
+      "name": "Feriado Municipal de São José da Laje",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-da-laje-1208",
+      "name": "Feriado Municipal de São José da Laje",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

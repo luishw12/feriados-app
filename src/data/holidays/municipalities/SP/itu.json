@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3523909,
+  "name": "Itu",
+  "slug": "itu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itu",
+      "name": "Aniversário de Itu",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itu-0403",
+      "name": "Feriado Municipal de Itu",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itu-0604",
+      "name": "Feriado Municipal de Itu",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

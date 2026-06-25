@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4316600,
+  "name": "Sananduva",
+  "slug": "sananduva",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sananduva",
+      "name": "Aniversário de Sananduva",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sananduva-0624",
+      "name": "Feriado Municipal de Sananduva",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

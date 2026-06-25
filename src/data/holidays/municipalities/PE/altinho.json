@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2600807,
+  "name": "Altinho",
+  "slug": "altinho",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-altinho",
+      "name": "Aniversário de Altinho",
+      "date": "06-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-altinho-0629",
+      "name": "Feriado Municipal de Altinho",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-altinho-1208",
+      "name": "Feriado Municipal de Altinho",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-altinho-1218",
+      "name": "Feriado Municipal de Altinho",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

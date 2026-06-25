@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4316402,
+  "name": "Rosário do Sul",
+  "slug": "rosario-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-rosario-do-sul",
+      "name": "Aniversário de Rosário do Sul",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

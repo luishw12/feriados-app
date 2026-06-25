@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5218789,
+  "name": "Rio Quente",
+  "slug": "rio-quente",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-rio-quente",
+      "name": "Aniversário de Rio Quente",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-quente-0511",
+      "name": "Feriado Municipal de Rio Quente",
+      "date": "05-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

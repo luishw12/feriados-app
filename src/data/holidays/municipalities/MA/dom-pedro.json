@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2103802,
+  "name": "Dom Pedro",
+  "slug": "dom-pedro",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-dom-pedro",
+      "name": "Aniversário de Dom Pedro",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dom-pedro-0908",
+      "name": "Feriado Municipal de Dom Pedro",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dom-pedro-1209",
+      "name": "Feriado Municipal de Dom Pedro",
+      "date": "12-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3169604,
+  "name": "Tupaciguara",
+  "slug": "tupaciguara",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-tupaciguara",
+      "name": "Aniversário de Tupaciguara",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tupaciguara-0815",
+      "name": "Feriado Municipal de Tupaciguara",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

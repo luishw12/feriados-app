@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2933307,
+  "name": "Vitória da Conquista",
+  "slug": "vitoria-da-conquista",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-vitoria-da-conquista",
+      "name": "Aniversário de Vitória da Conquista",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitoria-da-conquista-0624",
+      "name": "Feriado Municipal de Vitória da Conquista",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitoria-da-conquista-0815",
+      "name": "Feriado Municipal de Vitória da Conquista",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitoria-da-conquista-1109",
+      "name": "Feriado Municipal de Vitória da Conquista",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

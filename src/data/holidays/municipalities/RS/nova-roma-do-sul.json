@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4313359,
+  "name": "Nova Roma do Sul",
+  "slug": "nova-roma-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-nova-roma-do-sul",
+      "name": "Aniversário de Nova Roma do Sul",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-roma-do-sul-1130",
+      "name": "Feriado Municipal de Nova Roma do Sul",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

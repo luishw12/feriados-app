@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4305959,
+  "name": "Cotiporã",
+  "slug": "cotipora",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cotipora",
+      "name": "Aniversário de Cotiporã",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

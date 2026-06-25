@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2908804,
+  "name": "Contendas do Sincorá",
+  "slug": "contendas-do-sincora",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-contendas-do-sincora",
+      "name": "Aniversário de Contendas do Sincorá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

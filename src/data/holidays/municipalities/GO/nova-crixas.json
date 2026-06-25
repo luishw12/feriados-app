@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5214838,
+  "name": "Nova Crixás",
+  "slug": "nova-crixas",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-nova-crixas",
+      "name": "Aniversário de Nova Crixás",
+      "date": "02-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-crixas-0613",
+      "name": "Feriado Municipal de Nova Crixás",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

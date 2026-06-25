@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4108106,
+  "name": "Flórida",
+  "slug": "florida",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-florida",
+      "name": "Aniversário de Flórida",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

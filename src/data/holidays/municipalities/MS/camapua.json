@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5002605,
+  "name": "Camapuã",
+  "slug": "camapua",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-camapua",
+      "name": "Aniversário de Camapuã",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camapua-0930",
+      "name": "Feriado Municipal de Camapuã",
+      "date": "09-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

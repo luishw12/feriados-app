@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3542503,
+  "name": "Reginópolis",
+  "slug": "reginopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-reginopolis",
+      "name": "Aniversário de Reginópolis",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

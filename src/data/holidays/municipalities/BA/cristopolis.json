@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2909703,
+  "name": "Cristópolis",
+  "slug": "cristopolis",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-cristopolis",
+      "name": "Aniversário de Cristópolis",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristopolis-0624",
+      "name": "Feriado Municipal de Cristópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristopolis-0719",
+      "name": "Feriado Municipal de Cristópolis",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2312700,
+  "name": "Senador Pompeu",
+  "slug": "senador-pompeu",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-senador-pompeu",
+      "name": "Aniversário de Senador Pompeu",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-pompeu-0903",
+      "name": "Feriado Municipal de Senador Pompeu",
+      "date": "09-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-pompeu-0915",
+      "name": "Feriado Municipal de Senador Pompeu",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

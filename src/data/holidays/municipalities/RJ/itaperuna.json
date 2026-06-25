@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3302205,
+  "name": "Itaperuna",
+  "slug": "itaperuna",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-itaperuna",
+      "name": "Aniversário de Itaperuna",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaperuna-0423",
+      "name": "Feriado Municipal de Itaperuna",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaperuna-0510",
+      "name": "Feriado Municipal de Itaperuna",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

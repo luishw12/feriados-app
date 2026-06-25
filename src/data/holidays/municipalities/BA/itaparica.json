@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2916104,
+  "name": "Itaparica",
+  "slug": "itaparica",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itaparica",
+      "name": "Aniversário de Itaparica",
+      "date": "01-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaparica-0624",
+      "name": "Feriado Municipal de Itaparica",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaparica-0810",
+      "name": "Feriado Municipal de Itaparica",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5208905,
+  "name": "Goiás",
+  "slug": "goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-goias",
+      "name": "Aniversário de Goiás",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goias-1208",
+      "name": "Feriado Municipal de Goiás",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

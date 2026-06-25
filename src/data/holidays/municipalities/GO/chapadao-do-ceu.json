@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5205471,
+  "name": "Chapadão do Céu",
+  "slug": "chapadao-do-ceu",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-chapadao-do-ceu",
+      "name": "Aniversário de Chapadão do Céu",
+      "date": "08-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-chapadao-do-ceu-0822",
+      "name": "Feriado Municipal de Chapadão do Céu",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

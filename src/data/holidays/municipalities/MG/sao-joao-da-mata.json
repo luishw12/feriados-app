@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3162302,
+  "name": "São João da Mata",
+  "slug": "sao-joao-da-mata",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-da-mata",
+      "name": "Aniversário de São João da Mata",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-da-mata-0624",
+      "name": "Feriado Municipal de São João da Mata",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

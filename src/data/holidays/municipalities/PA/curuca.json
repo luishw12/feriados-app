@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1502905,
+  "name": "Curuçá",
+  "slug": "curuca",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-curuca",
+      "name": "Aniversário de Curuçá",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

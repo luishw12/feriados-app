@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2930774,
+  "name": "Sobradinho",
+  "slug": "sobradinho",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sobradinho",
+      "name": "Aniversário de Sobradinho",
+      "date": "02-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sobradinho-0624",
+      "name": "Feriado Municipal de Sobradinho",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sobradinho-0726",
+      "name": "Feriado Municipal de Sobradinho",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

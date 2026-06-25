@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3134400,
+  "name": "Iturama",
+  "slug": "iturama",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-iturama",
+      "name": "Aniversário de Iturama",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iturama-0823",
+      "name": "Feriado Municipal de Iturama",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2614857,
+  "name": "Tamandaré",
+  "slug": "tamandare",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-tamandare",
+      "name": "Aniversário de Tamandaré",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tamandare-0731",
+      "name": "Feriado Municipal de Tamandaré",
+      "date": "07-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tamandare-0928",
+      "name": "Feriado Municipal de Tamandaré",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

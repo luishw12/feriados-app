@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5108600,
+  "name": "Vila Rica",
+  "slug": "vila-rica",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-vila-rica",
+      "name": "Aniversário de Vila Rica",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vila-rica-0629",
+      "name": "Feriado Municipal de Vila Rica",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vila-rica-0810",
+      "name": "Feriado Municipal de Vila Rica",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

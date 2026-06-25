@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4302105,
+  "name": "Bento Gonçalves",
+  "slug": "bento-goncalves",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-bento-goncalves",
+      "name": "Aniversário de Bento Gonçalves",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

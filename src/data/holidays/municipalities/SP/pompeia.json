@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3540002,
+  "name": "Pompéia",
+  "slug": "pompeia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pompeia",
+      "name": "Aniversário de Pompéia",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pompeia-0604",
+      "name": "Feriado Municipal de Pompéia",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pompeia-0917",
+      "name": "Feriado Municipal de Pompéia",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pompeia-1007",
+      "name": "Feriado Municipal de Pompéia",
+      "date": "10-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

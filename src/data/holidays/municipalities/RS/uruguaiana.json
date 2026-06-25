@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4322400,
+  "name": "Uruguaiana",
+  "slug": "uruguaiana",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-uruguaiana",
+      "name": "Aniversário de Uruguaiana",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

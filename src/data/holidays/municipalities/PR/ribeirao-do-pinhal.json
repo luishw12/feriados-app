@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4121901,
+  "name": "Ribeirão do Pinhal",
+  "slug": "ribeirao-do-pinhal",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ribeirao-do-pinhal",
+      "name": "Aniversário de Ribeirão do Pinhal",
+      "date": "06-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-do-pinhal-0909",
+      "name": "Feriado Municipal de Ribeirão do Pinhal",
+      "date": "09-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

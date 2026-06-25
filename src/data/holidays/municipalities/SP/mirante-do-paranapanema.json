@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3530201,
+  "name": "Mirante do Paranapanema",
+  "slug": "mirante-do-paranapanema",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-mirante-do-paranapanema",
+      "name": "Aniversário de Mirante do Paranapanema",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirante-do-paranapanema-1001",
+      "name": "Feriado Municipal de Mirante do Paranapanema",
+      "date": "10-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirante-do-paranapanema-1129",
+      "name": "Feriado Municipal de Mirante do Paranapanema",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

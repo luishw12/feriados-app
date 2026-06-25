@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3524709,
+  "name": "Jaguariúna",
+  "slug": "jaguariuna",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jaguariuna",
+      "name": "Aniversário de Jaguariúna",
+      "date": "09-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

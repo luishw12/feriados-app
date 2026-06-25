@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3171808,
+  "name": "Virginópolis",
+  "slug": "virginopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-virginopolis",
+      "name": "Aniversário de Virginópolis",
+      "date": "03-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-virginopolis-0531",
+      "name": "Feriado Municipal de Virginópolis",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

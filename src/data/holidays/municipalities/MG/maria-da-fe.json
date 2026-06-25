@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3139904,
+  "name": "Maria da Fé",
+  "slug": "maria-da-fe",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-maria-da-fe",
+      "name": "Aniversário de Maria da Fé",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maria-da-fe-0601",
+      "name": "Feriado Municipal de Maria da Fé",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

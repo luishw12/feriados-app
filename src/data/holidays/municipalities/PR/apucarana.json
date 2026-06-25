@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4101408,
+  "name": "Apucarana",
+  "slug": "apucarana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-apucarana",
+      "name": "Aniversário de Apucarana",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-apucarana-0211",
+      "name": "Feriado Municipal de Apucarana",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

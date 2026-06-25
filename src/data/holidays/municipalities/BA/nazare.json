@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2922508,
+  "name": "Nazaré",
+  "slug": "nazare",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-nazare",
+      "name": "Aniversário de Nazaré",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nazare-0624",
+      "name": "Feriado Municipal de Nazaré",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nazare-0816",
+      "name": "Feriado Municipal de Nazaré",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nazare-1110",
+      "name": "Feriado Municipal de Nazaré",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

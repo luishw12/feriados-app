@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2917201,
+  "name": "Ituaçu",
+  "slug": "ituacu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ituacu",
+      "name": "Aniversário de Ituaçu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ituacu-0815",
+      "name": "Feriado Municipal de Ituaçu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ituacu-0826",
+      "name": "Feriado Municipal de Ituaçu",
+      "date": "08-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ituacu-0903",
+      "name": "Feriado Municipal de Ituaçu",
+      "date": "09-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

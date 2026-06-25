@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1505437,
+  "name": "Ourilândia do Norte",
+  "slug": "ourilandia-do-norte",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-ourilandia-do-norte",
+      "name": "Aniversário de Ourilândia do Norte",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ourilandia-do-norte-1031",
+      "name": "Feriado Municipal de Ourilândia do Norte",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4323507,
+  "name": "Vista Alegre",
+  "slug": "vista-alegre",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vista-alegre",
+      "name": "Aniversário de Vista Alegre",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vista-alegre-0627",
+      "name": "Feriado Municipal de Vista Alegre",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vista-alegre-1208",
+      "name": "Feriado Municipal de Vista Alegre",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vista-alegre-1220",
+      "name": "Feriado Municipal de Vista Alegre",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

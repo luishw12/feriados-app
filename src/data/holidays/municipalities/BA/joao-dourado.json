@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2918357,
+  "name": "João Dourado",
+  "slug": "joao-dourado",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-joao-dourado",
+      "name": "Aniversário de João Dourado",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

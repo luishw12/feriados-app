@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3115300,
+  "name": "Cataguases",
+  "slug": "cataguases",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cataguases",
+      "name": "Aniversário de Cataguases",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3118809,
+  "name": "Coração de Jesus",
+  "slug": "coracao-de-jesus",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-coracao-de-jesus",
+      "name": "Aniversário de Coração de Jesus",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coracao-de-jesus-0601",
+      "name": "Feriado Municipal de Coração de Jesus",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

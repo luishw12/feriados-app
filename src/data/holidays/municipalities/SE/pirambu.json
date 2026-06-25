@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2805307,
+  "name": "Pirambu",
+  "slug": "pirambu",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-pirambu",
+      "name": "Aniversário de Pirambu",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirambu-0629",
+      "name": "Feriado Municipal de Pirambu",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirambu-0808",
+      "name": "Feriado Municipal de Pirambu",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

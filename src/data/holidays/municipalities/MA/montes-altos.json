@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2107001,
+  "name": "Montes Altos",
+  "slug": "montes-altos",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-montes-altos",
+      "name": "Aniversário de Montes Altos",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-montes-altos-1222",
+      "name": "Feriado Municipal de Montes Altos",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

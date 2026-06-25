@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2606606,
+  "name": "Ibimirim",
+  "slug": "ibimirim",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-ibimirim",
+      "name": "Aniversário de Ibimirim",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibimirim-1220",
+      "name": "Feriado Municipal de Ibimirim",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

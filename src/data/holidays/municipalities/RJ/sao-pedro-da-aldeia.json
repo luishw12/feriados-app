@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3305208,
+  "name": "São Pedro da Aldeia",
+  "slug": "sao-pedro-da-aldeia",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-sao-pedro-da-aldeia",
+      "name": "Aniversário de São Pedro da Aldeia",
+      "date": "05-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-pedro-da-aldeia-0629",
+      "name": "Feriado Municipal de São Pedro da Aldeia",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

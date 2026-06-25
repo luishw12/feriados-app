@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3102605,
+  "name": "Andradas",
+  "slug": "andradas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-andradas",
+      "name": "Aniversário de Andradas",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-andradas-0222",
+      "name": "Feriado Municipal de Andradas",
+      "date": "02-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

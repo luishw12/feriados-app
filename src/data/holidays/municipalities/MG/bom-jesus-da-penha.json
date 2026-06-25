@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3107604,
+  "name": "Bom Jesus da Penha",
+  "slug": "bom-jesus-da-penha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jesus-da-penha",
+      "name": "Aniversário de Bom Jesus da Penha",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jesus-da-penha-0908",
+      "name": "Feriado Municipal de Bom Jesus da Penha",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

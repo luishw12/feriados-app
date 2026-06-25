@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3143401,
+  "name": "Monte Sião",
+  "slug": "monte-siao",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-monte-siao",
+      "name": "Aniversário de Monte Sião",
+      "date": "03-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-siao-1127",
+      "name": "Feriado Municipal de Monte Sião",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

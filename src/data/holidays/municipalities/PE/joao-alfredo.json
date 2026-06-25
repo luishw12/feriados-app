@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2608107,
+  "name": "João Alfredo",
+  "slug": "joao-alfredo",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-joao-alfredo",
+      "name": "Aniversário de João Alfredo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

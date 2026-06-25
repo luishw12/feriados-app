@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4306700,
+  "name": "Dona Francisca",
+  "slug": "dona-francisca",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-dona-francisca",
+      "name": "Aniversário de Dona Francisca",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dona-francisca-0717",
+      "name": "Feriado Municipal de Dona Francisca",
+      "date": "07-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

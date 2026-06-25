@@ -7,9 +7,20 @@
     {
       "id": "aniversario-rio-branco",
       "name": "Aniversário de Rio Branco",
-      "date": "08-25",
+      "date": "01-25",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-branco-1228",
+      "name": "Feriado Municipal de Rio Branco",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

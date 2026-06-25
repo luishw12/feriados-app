@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3523008,
+  "name": "Itapura",
+  "slug": "itapura",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itapura",
+      "name": "Aniversário de Itapura",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapura-1208",
+      "name": "Feriado Municipal de Itapura",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

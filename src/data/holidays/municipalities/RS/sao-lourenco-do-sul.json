@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4318804,
+  "name": "São Lourenço do Sul",
+  "slug": "sao-lourenco-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-lourenco-do-sul",
+      "name": "Aniversário de São Lourenço do Sul",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-lourenco-do-sul-0810",
+      "name": "Feriado Municipal de São Lourenço do Sul",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

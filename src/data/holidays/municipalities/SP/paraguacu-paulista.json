@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3535507,
+  "name": "Paraguaçu Paulista",
+  "slug": "paraguacu-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-paraguacu-paulista",
+      "name": "Aniversário de Paraguaçu Paulista",
+      "date": "03-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

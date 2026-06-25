@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100114,
+  "name": "Jaru",
+  "slug": "jaru",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-jaru",
+      "name": "Aniversário de Jaru",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaru-1107",
+      "name": "Feriado Municipal de Jaru",
+      "date": "11-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

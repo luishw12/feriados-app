@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4314100,
+  "name": "Passo Fundo",
+  "slug": "passo-fundo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-passo-fundo",
+      "name": "Aniversário de Passo Fundo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

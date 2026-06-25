@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3555307,
+  "name": "Turmalina",
+  "slug": "turmalina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-turmalina",
+      "name": "Aniversário de Turmalina",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-turmalina-0815",
+      "name": "Feriado Municipal de Turmalina",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

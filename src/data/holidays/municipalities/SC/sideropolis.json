@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4217600,
+  "name": "Siderópolis",
+  "slug": "sideropolis",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sideropolis",
+      "name": "Aniversário de Siderópolis",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sideropolis-1226",
+      "name": "Feriado Municipal de Siderópolis",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5212501,
+  "name": "Luziânia",
+  "slug": "luziania",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-luziania",
+      "name": "Aniversário de Luziânia",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-luziania-1213",
+      "name": "Feriado Municipal de Luziânia",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5200803,
+  "name": "Alvorada do Norte",
+  "slug": "alvorada-do-norte",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-alvorada-do-norte",
+      "name": "Aniversário de Alvorada do Norte",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

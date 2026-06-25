@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3147303,
+  "name": "Paraisópolis",
+  "slug": "paraisopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-paraisopolis",
+      "name": "Aniversário de Paraisópolis",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraisopolis-0319",
+      "name": "Feriado Municipal de Paraisópolis",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

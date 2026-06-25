@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2804607,
+  "name": "Nossa Senhora das Dores",
+  "slug": "nossa-senhora-das-dores",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-nossa-senhora-das-dores",
+      "name": "Aniversário de Nossa Senhora das Dores",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nossa-senhora-das-dores-0915",
+      "name": "Feriado Municipal de Nossa Senhora das Dores",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4212106,
+  "name": "Palmitos",
+  "slug": "palmitos",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-palmitos",
+      "name": "Aniversário de Palmitos",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmitos-0725",
+      "name": "Feriado Municipal de Palmitos",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmitos-1031",
+      "name": "Feriado Municipal de Palmitos",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

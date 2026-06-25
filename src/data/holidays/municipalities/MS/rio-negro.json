@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5007307,
+  "name": "Rio Negro",
+  "slug": "rio-negro",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-rio-negro",
+      "name": "Aniversário de Rio Negro",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-negro-0513",
+      "name": "Feriado Municipal de Rio Negro",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

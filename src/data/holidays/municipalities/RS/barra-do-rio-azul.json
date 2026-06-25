@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4301925,
+  "name": "Barra do Rio Azul",
+  "slug": "barra-do-rio-azul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-barra-do-rio-azul",
+      "name": "Aniversário de Barra do Rio Azul",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-do-rio-azul-0531",
+      "name": "Feriado Municipal de Barra do Rio Azul",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-do-rio-azul-0725",
+      "name": "Feriado Municipal de Barra do Rio Azul",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-do-rio-azul-1208",
+      "name": "Feriado Municipal de Barra do Rio Azul",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

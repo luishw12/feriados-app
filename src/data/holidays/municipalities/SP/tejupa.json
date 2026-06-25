@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3554201,
+  "name": "Tejupá",
+  "slug": "tejupa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-tejupa",
+      "name": "Aniversário de Tejupá",
+      "date": "04-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tejupa-0526",
+      "name": "Feriado Municipal de Tejupá",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tejupa-0629",
+      "name": "Feriado Municipal de Tejupá",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

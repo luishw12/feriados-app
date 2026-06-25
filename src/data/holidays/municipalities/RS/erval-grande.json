@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4307203,
+  "name": "Erval Grande",
+  "slug": "erval-grande",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-erval-grande",
+      "name": "Aniversário de Erval Grande",
+      "date": "06-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

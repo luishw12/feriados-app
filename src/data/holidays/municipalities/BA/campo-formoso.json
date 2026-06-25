@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2906006,
+  "name": "Campo Formoso",
+  "slug": "campo-formoso",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-campo-formoso",
+      "name": "Aniversário de Campo Formoso",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-formoso-0624",
+      "name": "Feriado Municipal de Campo Formoso",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-formoso-0728",
+      "name": "Feriado Municipal de Campo Formoso",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

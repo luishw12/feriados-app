@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3511706,
+  "name": "Charqueada",
+  "slug": "charqueada",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-charqueada",
+      "name": "Aniversário de Charqueada",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

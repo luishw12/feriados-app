@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4318432,
+  "name": "São João do Polêsine",
+  "slug": "sao-joao-do-polesine",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-polesine",
+      "name": "Aniversário de São João do Polêsine",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3502408,
+  "name": "Anhumas",
+  "slug": "anhumas",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-anhumas",
+      "name": "Aniversário de Anhumas",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anhumas-1213",
+      "name": "Feriado Municipal de Anhumas",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

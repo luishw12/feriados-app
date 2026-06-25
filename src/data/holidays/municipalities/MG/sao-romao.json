@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3164209,
+  "name": "São Romão",
+  "slug": "sao-romao",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-romao",
+      "name": "Aniversário de São Romão",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-romao-0613",
+      "name": "Feriado Municipal de São Romão",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-romao-1208",
+      "name": "Feriado Municipal de São Romão",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-romao-1213",
+      "name": "Feriado Municipal de São Romão",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

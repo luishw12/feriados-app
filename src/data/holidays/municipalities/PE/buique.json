@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2602803,
+  "name": "Buíque",
+  "slug": "buique",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-buique",
+      "name": "Aniversário de Buíque",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buique-0518",
+      "name": "Feriado Municipal de Buíque",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3521002,
+  "name": "Iperó",
+  "slug": "ipero",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ipero",
+      "name": "Aniversário de Iperó",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipero-0613",
+      "name": "Feriado Municipal de Iperó",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

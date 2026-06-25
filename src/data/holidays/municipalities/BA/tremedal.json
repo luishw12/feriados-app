@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2931806,
+  "name": "Tremedal",
+  "slug": "tremedal",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-tremedal",
+      "name": "Aniversário de Tremedal",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

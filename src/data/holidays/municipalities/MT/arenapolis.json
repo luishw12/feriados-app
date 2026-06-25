@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5101308,
+  "name": "Arenápolis",
+  "slug": "arenapolis",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-arenapolis",
+      "name": "Aniversário de Arenápolis",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arenapolis-0205",
+      "name": "Feriado Municipal de Arenápolis",
+      "date": "02-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arenapolis-0806",
+      "name": "Feriado Municipal de Arenápolis",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

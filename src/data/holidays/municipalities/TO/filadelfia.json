@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1707702,
+  "name": "Filadélfia",
+  "slug": "filadelfia",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-filadelfia",
+      "name": "Aniversário de Filadélfia",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

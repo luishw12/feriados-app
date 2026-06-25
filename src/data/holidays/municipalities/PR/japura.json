@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4112405,
+  "name": "Japurá",
+  "slug": "japura",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-japura",
+      "name": "Aniversário de Japurá",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-japura-1213",
+      "name": "Feriado Municipal de Japurá",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

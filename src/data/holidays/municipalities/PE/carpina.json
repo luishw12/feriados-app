@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2604007,
+  "name": "Carpina",
+  "slug": "carpina",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-carpina",
+      "name": "Aniversário de Carpina",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carpina-0319",
+      "name": "Feriado Municipal de Carpina",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carpina-0911",
+      "name": "Feriado Municipal de Carpina",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

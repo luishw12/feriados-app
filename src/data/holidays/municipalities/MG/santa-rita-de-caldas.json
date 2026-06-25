@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3159209,
+  "name": "Santa Rita de Caldas",
+  "slug": "santa-rita-de-caldas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rita-de-caldas",
+      "name": "Aniversário de Santa Rita de Caldas",
+      "date": "02-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rita-de-caldas-0522",
+      "name": "Feriado Municipal de Santa Rita de Caldas",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

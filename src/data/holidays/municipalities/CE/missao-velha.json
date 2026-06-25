@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2308401,
+  "name": "Missão Velha",
+  "slug": "missao-velha",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-missao-velha",
+      "name": "Aniversário de Missão Velha",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-missao-velha-0711",
+      "name": "Feriado Municipal de Missão Velha",
+      "date": "07-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

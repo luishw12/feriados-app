@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5103304,
+  "name": "Comodoro",
+  "slug": "comodoro",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-comodoro",
+      "name": "Aniversário de Comodoro",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

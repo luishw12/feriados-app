@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2400307,
+  "name": "Afonso Bezerra",
+  "slug": "afonso-bezerra",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-afonso-bezerra",
+      "name": "Aniversário de Afonso Bezerra",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-afonso-bezerra-1127",
+      "name": "Feriado Municipal de Afonso Bezerra",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

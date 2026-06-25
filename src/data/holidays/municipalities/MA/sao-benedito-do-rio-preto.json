@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2110401,
+  "name": "São Benedito do Rio Preto",
+  "slug": "sao-benedito-do-rio-preto",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-benedito-do-rio-preto",
+      "name": "Aniversário de São Benedito do Rio Preto",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

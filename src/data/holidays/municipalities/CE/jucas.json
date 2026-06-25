@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2307403,
+  "name": "Jucás",
+  "slug": "jucas",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-jucas",
+      "name": "Aniversário de Jucás",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

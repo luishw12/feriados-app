@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5207600,
+  "name": "Fazenda Nova",
+  "slug": "fazenda-nova",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-fazenda-nova",
+      "name": "Aniversário de Fazenda Nova",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2932200,
+  "name": "Ubaitaba",
+  "slug": "ubaitaba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ubaitaba",
+      "name": "Aniversário de Ubaitaba",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubaitaba-0727",
+      "name": "Feriado Municipal de Ubaitaba",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

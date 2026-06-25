@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1508001,
+  "name": "Tomé-Açu",
+  "slug": "tome-acu",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-tome-acu",
+      "name": "Aniversário de Tomé-Açu",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

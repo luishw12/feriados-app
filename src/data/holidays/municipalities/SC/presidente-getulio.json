@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4214003,
+  "name": "Presidente Getúlio",
+  "slug": "presidente-getulio",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-getulio",
+      "name": "Aniversário de Presidente Getúlio",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-getulio-1226",
+      "name": "Feriado Municipal de Presidente Getúlio",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

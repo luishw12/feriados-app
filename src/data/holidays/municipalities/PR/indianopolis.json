@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4110409,
+  "name": "Indianópolis",
+  "slug": "indianopolis",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-indianopolis",
+      "name": "Aniversário de Indianópolis",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

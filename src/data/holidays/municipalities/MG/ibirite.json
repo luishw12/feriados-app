@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3129806,
+  "name": "Ibirité",
+  "slug": "ibirite",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ibirite",
+      "name": "Aniversário de Ibirité",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibirite-1127",
+      "name": "Feriado Municipal de Ibirité",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4204004,
+  "name": "Catanduvas",
+  "slug": "catanduvas",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-catanduvas",
+      "name": "Aniversário de Catanduvas",
+      "date": "03-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

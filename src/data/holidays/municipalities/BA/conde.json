@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2908606,
+  "name": "Conde",
+  "slug": "conde",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-conde",
+      "name": "Aniversário de Conde",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-conde-0810",
+      "name": "Feriado Municipal de Conde",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

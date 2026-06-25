@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2207009,
+  "name": "Oeiras",
+  "slug": "oeiras",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-oeiras",
+      "name": "Aniversário de Oeiras",
+      "date": "01-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oeiras-0815",
+      "name": "Feriado Municipal de Oeiras",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oeiras-1208",
+      "name": "Feriado Municipal de Oeiras",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oeiras-1226",
+      "name": "Feriado Municipal de Oeiras",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

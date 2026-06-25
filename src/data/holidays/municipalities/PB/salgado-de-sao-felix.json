@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 2513109,
+  "name": "Salgado de São Félix",
+  "slug": "salgado-de-sao-felix",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-salgado-de-sao-felix",
+      "name": "Aniversário de Salgado de São Félix",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salgado-de-sao-felix-1107",
+      "name": "Feriado Municipal de Salgado de São Félix",
+      "date": "11-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salgado-de-sao-felix-1122",
+      "name": "Feriado Municipal de Salgado de São Félix",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salgado-de-sao-felix-1205",
+      "name": "Feriado Municipal de Salgado de São Félix",
+      "date": "12-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salgado-de-sao-felix-1208",
+      "name": "Feriado Municipal de Salgado de São Félix",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

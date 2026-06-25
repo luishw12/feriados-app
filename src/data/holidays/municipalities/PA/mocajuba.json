@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1504604,
+  "name": "Mocajuba",
+  "slug": "mocajuba",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-mocajuba",
+      "name": "Aniversário de Mocajuba",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mocajuba-1128",
+      "name": "Feriado Municipal de Mocajuba",
+      "date": "11-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

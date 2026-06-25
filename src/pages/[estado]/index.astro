@@ -4,6 +4,7 @@ import type { StateInfo } from '@/data/schema';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import HolidayList from '@/components/holiday/HolidayList.astro';
 import HolidayMonth from '@/components/holiday/HolidayMonth.astro';
+import StateCityFilter from '@/components/interactive/StateCityFilter';
 import { getAllStates, getAllHolidaysForContext, getAllMunicipalityPaths } from '@/lib/holidays';
 import { getStateMeta } from '@/lib/seo';
 import { buildStatePageSchema } from '@/lib/schema';
@@ -24,14 +25,19 @@ interface Props {
 
 const { state } = Astro.props;
 const year = new Date().getFullYear();
-const meta = getStateMeta(state.name, year, state.slug);
-const holidays = getAllHolidaysForContext(year, state.uf);
-const siteUrl = getSiteUrl(Astro.site);
-const jsonLd = buildStatePageSchema(holidays, state.name, siteUrl, state.slug);
 const municipalities = getAllMunicipalityPaths()
   .filter(({ state: s }) => s.uf === state.uf)
   .map(({ municipality }) => municipality)
   .sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+const meta = getStateMeta(state.name, year, state.slug, municipalities.length);
+const holidays = getAllHolidaysForContext(year, state.uf);
+const siteUrl = getSiteUrl(Astro.site);
+const jsonLd = buildStatePageSchema(holidays, state.name, siteUrl, state.slug);
+const cityLinks = municipalities.map((municipality) => ({
+  name: municipality.name,
+  slug: municipality.slug,
+  href: `/${state.slug}/${municipality.slug}/`,
+}));
 ---
 
 <BaseLayout title={meta.title} description={meta.description} canonical={meta.canonical} jsonLd={jsonLd}>
@@ -61,25 +67,12 @@ const municipalities = getAllMunicipalityPaths()
     </section>
 
     {
-      municipalities.length > 0 && (
+      cityLinks.length > 0 && (
         <nav class="space-y-3" aria-label={`Cidades com feriados em ${state.name}`}>
           <h2 class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">
             Feriados por cidade
           </h2>
-          <ul class="flex flex-wrap gap-2">
-            {
-              municipalities.map((municipality) => (
-                <li>
-                  <a
-                    href={`/${state.slug}/${municipality.slug}/`}
-                    class="inline-flex rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-sm text-neutral-700 transition-colors duration-150 hover:border-emerald-300 hover:text-emerald-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:border-emerald-700 dark:hover:text-emerald-400"
-                  >
-                    {municipality.name}
-                  </a>
-                </li>
-              ))
-            }
-          </ul>
+          <StateCityFilter client:visible cities={cityLinks} stateName={state.name} />
         </nav>
       )
     }

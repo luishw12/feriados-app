@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3501707,
+  "name": "Américo Brasiliense",
+  "slug": "americo-brasiliense",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-americo-brasiliense",
+      "name": "Aniversário de Américo Brasiliense",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

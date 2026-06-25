@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4110201,
+  "name": "Inácio Martins",
+  "slug": "inacio-martins",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-inacio-martins",
+      "name": "Aniversário de Inácio Martins",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

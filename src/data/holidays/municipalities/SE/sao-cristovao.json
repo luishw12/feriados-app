@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2806701,
+  "name": "São Cristóvão",
+  "slug": "sao-cristovao",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-sao-cristovao",
+      "name": "Aniversário de São Cristóvão",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-cristovao-0629",
+      "name": "Feriado Municipal de São Cristóvão",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-cristovao-0908",
+      "name": "Feriado Municipal de São Cristóvão",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

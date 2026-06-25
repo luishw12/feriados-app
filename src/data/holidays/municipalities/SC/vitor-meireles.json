@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4219358,
+  "name": "Vitor Meireles",
+  "slug": "vitor-meireles",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-vitor-meireles",
+      "name": "Aniversário de Vitor Meireles",
+      "date": "04-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitor-meireles-1226",
+      "name": "Feriado Municipal de Vitor Meireles",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

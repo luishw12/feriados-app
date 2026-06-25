@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3143500,
+  "name": "Morada Nova de Minas",
+  "slug": "morada-nova-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-morada-nova-de-minas",
+      "name": "Aniversário de Morada Nova de Minas",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-morada-nova-de-minas-1210",
+      "name": "Feriado Municipal de Morada Nova de Minas",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

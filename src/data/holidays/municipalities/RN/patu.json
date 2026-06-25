@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2409308,
+  "name": "Patu",
+  "slug": "patu",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-patu",
+      "name": "Aniversário de Patu",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-patu-0925",
+      "name": "Feriado Municipal de Patu",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-patu-1121",
+      "name": "Feriado Municipal de Patu",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4301909,
+  "name": "Barra do Ribeiro",
+  "slug": "barra-do-ribeiro",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-barra-do-ribeiro",
+      "name": "Aniversário de Barra do Ribeiro",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-do-ribeiro-0217",
+      "name": "Feriado Municipal de Barra do Ribeiro",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

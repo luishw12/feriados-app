@@ -162,6 +162,10 @@ export function getHolidaysByCity(uf: string, citySlug: string, year: number): R
   return resolveHolidays(file.holidays, year, { state: uf, city: citySlug });
 }
 
+export function getAllStateRegionalHolidays(year: number): ResolvedHoliday[] {
+  return getAllStates().flatMap((state) => getHolidaysByState(state.uf, year));
+}
+
 export function getAllRegionalHolidays(year: number): ResolvedHoliday[] {
   const stateHolidays = getAllStates().flatMap((state) => getHolidaysByState(state.uf, year));
   const municipalHolidays = getAllMunicipalities().flatMap((municipality) =>
@@ -222,6 +226,41 @@ export function getMunicipalitiesByState(uf: string): MunicipalityHolidayFile[] 
   return getAllMunicipalities()
     .filter((municipality) => municipality.uf === uf)
     .sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+}
+
+export interface MunicipalityCoverageStats {
+  totalMunicipalities: number;
+  municipalitiesWithHolidays: number;
+  byState: Array<{
+    uf: string;
+    name: string;
+    slug: string;
+    total: number;
+    withHolidays: number;
+  }>;
+}
+
+export function getMunicipalityCoverageStats(): MunicipalityCoverageStats {
+  const municipalities = getAllMunicipalities();
+  const states = getAllStates();
+  const withHolidays = municipalities.filter((m) => m.holidays.length > 0).length;
+
+  const byState = states.map((state) => {
+    const stateMunicipalities = municipalities.filter((m) => m.uf === state.uf);
+    return {
+      uf: state.uf,
+      name: state.name,
+      slug: state.slug,
+      total: stateMunicipalities.length,
+      withHolidays: stateMunicipalities.filter((m) => m.holidays.length > 0).length,
+    };
+  });
+
+  return {
+    totalMunicipalities: municipalities.length,
+    municipalitiesWithHolidays: withHolidays,
+    byState,
+  };
 }
 
 export function serializeHolidays(holidays: ResolvedHoliday[]): SerializedResolvedHoliday[] {

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4110102,
+  "name": "Imbituva",
+  "slug": "imbituva",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-imbituva",
+      "name": "Aniversário de Imbituva",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-imbituva-0613",
+      "name": "Feriado Municipal de Imbituva",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-imbituva-1031",
+      "name": "Feriado Municipal de Imbituva",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

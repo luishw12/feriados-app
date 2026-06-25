@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3204708,
+  "name": "São Gabriel da Palha",
+  "slug": "sao-gabriel-da-palha",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-sao-gabriel-da-palha",
+      "name": "Aniversário de São Gabriel da Palha",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-gabriel-da-palha-0929",
+      "name": "Feriado Municipal de São Gabriel da Palha",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-gabriel-da-palha-1031",
+      "name": "Feriado Municipal de São Gabriel da Palha",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

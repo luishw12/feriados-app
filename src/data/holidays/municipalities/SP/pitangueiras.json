@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3539509,
+  "name": "Pitangueiras",
+  "slug": "pitangueiras",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pitangueiras",
+      "name": "Aniversário de Pitangueiras",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pitangueiras-0727",
+      "name": "Feriado Municipal de Pitangueiras",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

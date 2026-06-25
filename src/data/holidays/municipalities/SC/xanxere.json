@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4219507,
+  "name": "Xanxerê",
+  "slug": "xanxere",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-xanxere",
+      "name": "Aniversário de Xanxerê",
+      "date": "02-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-xanxere-0806",
+      "name": "Feriado Municipal de Xanxerê",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

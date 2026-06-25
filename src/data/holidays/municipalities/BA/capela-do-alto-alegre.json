@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2906857,
+  "name": "Capela do Alto Alegre",
+  "slug": "capela-do-alto-alegre",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-capela-do-alto-alegre",
+      "name": "Aniversário de Capela do Alto Alegre",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capela-do-alto-alegre-0417",
+      "name": "Feriado Municipal de Capela do Alto Alegre",
+      "date": "04-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capela-do-alto-alegre-0613",
+      "name": "Feriado Municipal de Capela do Alto Alegre",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capela-do-alto-alegre-0923",
+      "name": "Feriado Municipal de Capela do Alto Alegre",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4321303,
+  "name": "Taquari",
+  "slug": "taquari",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-taquari",
+      "name": "Aniversário de Taquari",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taquari-0704",
+      "name": "Feriado Municipal de Taquari",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

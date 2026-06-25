@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2701605,
+  "name": "Canapi",
+  "slug": "canapi",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-canapi",
+      "name": "Aniversário de Canapi",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canapi-0822",
+      "name": "Feriado Municipal de Canapi",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

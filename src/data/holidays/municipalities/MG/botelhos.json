@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3108404,
+  "name": "Botelhos",
+  "slug": "botelhos",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-botelhos",
+      "name": "Aniversário de Botelhos",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-botelhos-0830",
+      "name": "Feriado Municipal de Botelhos",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-botelhos-1208",
+      "name": "Feriado Municipal de Botelhos",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5001904,
+  "name": "Bataguassu",
+  "slug": "bataguassu",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-bataguassu",
+      "name": "Aniversário de Bataguassu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bataguassu-0815",
+      "name": "Feriado Municipal de Bataguassu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bataguassu-1211",
+      "name": "Feriado Municipal de Bataguassu",
+      "date": "12-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

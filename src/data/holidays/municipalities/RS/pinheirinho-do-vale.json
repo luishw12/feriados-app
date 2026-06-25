@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4314498,
+  "name": "Pinheirinho do Vale",
+  "slug": "pinheirinho-do-vale",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-pinheirinho-do-vale",
+      "name": "Aniversário de Pinheirinho do Vale",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

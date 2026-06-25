@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2703304,
+  "name": "Inhapi",
+  "slug": "inhapi",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-inhapi",
+      "name": "Aniversário de Inhapi",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-inhapi-1007",
+      "name": "Feriado Municipal de Inhapi",
+      "date": "10-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

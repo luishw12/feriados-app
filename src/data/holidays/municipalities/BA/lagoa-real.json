@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2918753,
+  "name": "Lagoa Real",
+  "slug": "lagoa-real",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-lagoa-real",
+      "name": "Aniversário de Lagoa Real",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-real-0624",
+      "name": "Feriado Municipal de Lagoa Real",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-real-0806",
+      "name": "Feriado Municipal de Lagoa Real",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

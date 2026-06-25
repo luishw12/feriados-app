@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4321857,
+  "name": "Três Palmeiras",
+  "slug": "tres-palmeiras",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tres-palmeiras",
+      "name": "Aniversário de Três Palmeiras",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tres-palmeiras-0725",
+      "name": "Feriado Municipal de Três Palmeiras",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tres-palmeiras-0816",
+      "name": "Feriado Municipal de Três Palmeiras",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

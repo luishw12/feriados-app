@@ -1,0 +1,74 @@
+{
+  "ibgeCode": 2517001,
+  "name": "Umbuzeiro",
+  "slug": "umbuzeiro",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-umbuzeiro",
+      "name": "Aniversário de Umbuzeiro",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umbuzeiro-0502",
+      "name": "Feriado Municipal de Umbuzeiro",
+      "date": "05-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umbuzeiro-0529",
+      "name": "Feriado Municipal de Umbuzeiro",
+      "date": "05-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umbuzeiro-0624",
+      "name": "Feriado Municipal de Umbuzeiro",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umbuzeiro-0629",
+      "name": "Feriado Municipal de Umbuzeiro",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umbuzeiro-0924",
+      "name": "Feriado Municipal de Umbuzeiro",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

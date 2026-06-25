@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3157807,
+  "name": "Santa Luzia",
+  "slug": "santa-luzia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-santa-luzia",
+      "name": "Aniversário de Santa Luzia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-luzia-1213",
+      "name": "Feriado Municipal de Santa Luzia",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

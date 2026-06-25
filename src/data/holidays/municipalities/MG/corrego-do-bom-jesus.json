@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3119906,
+  "name": "Córrego do Bom Jesus",
+  "slug": "corrego-do-bom-jesus",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-corrego-do-bom-jesus",
+      "name": "Aniversário de Córrego do Bom Jesus",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-corrego-do-bom-jesus-1212",
+      "name": "Feriado Municipal de Córrego do Bom Jesus",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

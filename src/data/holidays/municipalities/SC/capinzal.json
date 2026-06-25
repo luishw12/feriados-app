@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4203907,
+  "name": "Capinzal",
+  "slug": "capinzal",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-capinzal",
+      "name": "Aniversário de Capinzal",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

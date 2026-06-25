@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1715754,
+  "name": "Palmeirópolis",
+  "slug": "palmeiropolis",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-palmeiropolis",
+      "name": "Aniversário de Palmeirópolis",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmeiropolis-1127",
+      "name": "Feriado Municipal de Palmeirópolis",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

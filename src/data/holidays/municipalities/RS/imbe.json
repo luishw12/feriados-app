@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4310330,
+  "name": "Imbé",
+  "slug": "imbe",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-imbe",
+      "name": "Aniversário de Imbé",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-imbe-0509",
+      "name": "Feriado Municipal de Imbé",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4215109,
+  "name": "Rodeio",
+  "slug": "rodeio",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-rodeio",
+      "name": "Aniversário de Rodeio",
+      "date": "03-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rodeio-0403",
+      "name": "Feriado Municipal de Rodeio",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rodeio-0604",
+      "name": "Feriado Municipal de Rodeio",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

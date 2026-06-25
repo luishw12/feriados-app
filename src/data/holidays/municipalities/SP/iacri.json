@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519204,
+  "name": "Iacri",
+  "slug": "iacri",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-iacri",
+      "name": "Aniversário de Iacri",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iacri-0629",
+      "name": "Feriado Municipal de Iacri",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

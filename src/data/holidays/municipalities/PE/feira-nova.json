@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2605400,
+  "name": "Feira Nova",
+  "slug": "feira-nova",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-feira-nova",
+      "name": "Aniversário de Feira Nova",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-nova-1220",
+      "name": "Feriado Municipal de Feira Nova",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

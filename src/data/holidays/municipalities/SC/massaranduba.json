@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4210605,
+  "name": "Massaranduba",
+  "slug": "massaranduba",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-massaranduba",
+      "name": "Aniversário de Massaranduba",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

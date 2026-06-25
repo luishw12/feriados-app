@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5106802,
+  "name": "Porto dos Gaúchos",
+  "slug": "porto-dos-gauchos",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-porto-dos-gauchos",
+      "name": "Aniversário de Porto dos Gaúchos",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-dos-gauchos-1111",
+      "name": "Feriado Municipal de Porto dos Gaúchos",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

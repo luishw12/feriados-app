@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2200202,
+  "name": "Água Branca",
+  "slug": "agua-branca",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-agua-branca",
+      "name": "Aniversário de Água Branca",
+      "date": "07-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agua-branca-0815",
+      "name": "Feriado Municipal de Água Branca",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

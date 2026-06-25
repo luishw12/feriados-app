@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5004809,
+  "name": "Japorã",
+  "slug": "japora",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-japora",
+      "name": "Aniversário de Japorã",
+      "date": "03-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-japora-0430",
+      "name": "Feriado Municipal de Japorã",
+      "date": "04-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

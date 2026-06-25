@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3523701,
+  "name": "Itirapuã",
+  "slug": "itirapua",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itirapua",
+      "name": "Aniversário de Itirapuã",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

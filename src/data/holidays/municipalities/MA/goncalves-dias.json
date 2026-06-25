@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2104404,
+  "name": "Gonçalves Dias",
+  "slug": "goncalves-dias",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-goncalves-dias",
+      "name": "Aniversário de Gonçalves Dias",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goncalves-dias-1231",
+      "name": "Feriado Municipal de Gonçalves Dias",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5104906,
+  "name": "Jangada",
+  "slug": "jangada",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-jangada",
+      "name": "Aniversário de Jangada",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

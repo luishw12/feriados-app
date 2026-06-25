@@ -14,7 +14,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "data:municipalities": "node scripts/generate-municipalities.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^3.6.3",

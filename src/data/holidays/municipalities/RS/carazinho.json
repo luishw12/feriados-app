@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4304705,
+  "name": "Carazinho",
+  "slug": "carazinho",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-carazinho",
+      "name": "Aniversário de Carazinho",
+      "date": "01-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

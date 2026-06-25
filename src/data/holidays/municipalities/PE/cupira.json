@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2605004,
+  "name": "Cupira",
+  "slug": "cupira",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-cupira",
+      "name": "Aniversário de Cupira",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cupira-0629",
+      "name": "Feriado Municipal de Cupira",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cupira-1229",
+      "name": "Feriado Municipal de Cupira",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

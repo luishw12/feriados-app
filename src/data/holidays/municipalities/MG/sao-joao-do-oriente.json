@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3162609,
+  "name": "São João do Oriente",
+  "slug": "sao-joao-do-oriente",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-oriente",
+      "name": "Aniversário de São João do Oriente",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-do-oriente-0624",
+      "name": "Feriado Municipal de São João do Oriente",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

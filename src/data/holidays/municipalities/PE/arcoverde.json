@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2601201,
+  "name": "Arcoverde",
+  "slug": "arcoverde",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-arcoverde",
+      "name": "Aniversário de Arcoverde",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arcoverde-0923",
+      "name": "Feriado Municipal de Arcoverde",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2912905,
+  "name": "Ibirataia",
+  "slug": "ibirataia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ibirataia",
+      "name": "Aniversário de Ibirataia",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibirataia-0624",
+      "name": "Feriado Municipal de Ibirataia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibirataia-1110",
+      "name": "Feriado Municipal de Ibirataia",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3549300,
+  "name": "São João do Pau d'Alho",
+  "slug": "sao-joao-do-pau-d-alho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-pau-d-alho",
+      "name": "Aniversário de São João do Pau d'Alho",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-do-pau-d-alho-0629",
+      "name": "Feriado Municipal de São João do Pau d'Alho",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

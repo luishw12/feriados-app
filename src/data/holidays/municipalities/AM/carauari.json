@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1301001,
+  "name": "Carauari",
+  "slug": "carauari",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-carauari",
+      "name": "Aniversário de Carauari",
+      "date": "09-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

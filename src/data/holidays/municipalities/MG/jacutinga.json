@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3134905,
+  "name": "Jacutinga",
+  "slug": "jacutinga",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-jacutinga",
+      "name": "Aniversário de Jacutinga",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacutinga-0916",
+      "name": "Feriado Municipal de Jacutinga",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

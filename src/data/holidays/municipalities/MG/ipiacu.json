@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3131406,
+  "name": "Ipiaçu",
+  "slug": "ipiacu",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ipiacu",
+      "name": "Aniversário de Ipiaçu",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipiacu-0623",
+      "name": "Feriado Municipal de Ipiaçu",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipiacu-0901",
+      "name": "Feriado Municipal de Ipiaçu",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

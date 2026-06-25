@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5212808,
+  "name": "Mara Rosa",
+  "slug": "mara-rosa",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-mara-rosa",
+      "name": "Aniversário de Mara Rosa",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mara-rosa-0902",
+      "name": "Feriado Municipal de Mara Rosa",
+      "date": "09-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mara-rosa-1130",
+      "name": "Feriado Municipal de Mara Rosa",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

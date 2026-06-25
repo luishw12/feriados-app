@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3525854,
+  "name": "Jumirim",
+  "slug": "jumirim",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jumirim",
+      "name": "Aniversário de Jumirim",
+      "date": "05-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jumirim-0806",
+      "name": "Feriado Municipal de Jumirim",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

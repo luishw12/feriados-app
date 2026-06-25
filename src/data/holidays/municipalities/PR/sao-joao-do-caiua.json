@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4124905,
+  "name": "São João do Caiuá",
+  "slug": "sao-joao-do-caiua",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-caiua",
+      "name": "Aniversário de São João do Caiuá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-do-caiua-1126",
+      "name": "Feriado Municipal de São João do Caiuá",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

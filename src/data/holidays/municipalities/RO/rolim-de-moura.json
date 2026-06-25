@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1100288,
+  "name": "Rolim de Moura",
+  "slug": "rolim-de-moura",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-rolim-de-moura",
+      "name": "Aniversário de Rolim de Moura",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rolim-de-moura-0618",
+      "name": "Feriado Municipal de Rolim de Moura",
+      "date": "06-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rolim-de-moura-0805",
+      "name": "Feriado Municipal de Rolim de Moura",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2409704,
+  "name": "Pedro Avelino",
+  "slug": "pedro-avelino",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-pedro-avelino",
+      "name": "Aniversário de Pedro Avelino",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedro-avelino-1223",
+      "name": "Feriado Municipal de Pedro Avelino",
+      "date": "12-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

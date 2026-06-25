@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4101002,
+  "name": "Ampére",
+  "slug": "ampere",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ampere",
+      "name": "Aniversário de Ampére",
+      "date": "11-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

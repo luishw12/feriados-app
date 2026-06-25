@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1713304,
+  "name": "Miranorte",
+  "slug": "miranorte",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-miranorte",
+      "name": "Aniversário de Miranorte",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miranorte-1108",
+      "name": "Feriado Municipal de Miranorte",
+      "date": "11-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

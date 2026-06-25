@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3131604,
+  "name": "Iraí de Minas",
+  "slug": "irai-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-irai-de-minas",
+      "name": "Aniversário de Iraí de Minas",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

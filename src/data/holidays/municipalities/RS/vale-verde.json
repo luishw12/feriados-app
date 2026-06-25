@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4322525,
+  "name": "Vale Verde",
+  "slug": "vale-verde",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vale-verde",
+      "name": "Aniversário de Vale Verde",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vale-verde-0725",
+      "name": "Feriado Municipal de Vale Verde",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

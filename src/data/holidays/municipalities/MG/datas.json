@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3121001,
+  "name": "Datas",
+  "slug": "datas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-datas",
+      "name": "Aniversário de Datas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2603504,
+  "name": "Camocim de São Félix",
+  "slug": "camocim-de-sao-felix",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-camocim-de-sao-felix",
+      "name": "Aniversário de Camocim de São Félix",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camocim-de-sao-felix-1229",
+      "name": "Feriado Municipal de Camocim de São Félix",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

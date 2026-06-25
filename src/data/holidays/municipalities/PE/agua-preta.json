@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2600401,
+  "name": "Água Preta",
+  "slug": "agua-preta",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-agua-preta",
+      "name": "Aniversário de Água Preta",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agua-preta-0803",
+      "name": "Feriado Municipal de Água Preta",
+      "date": "08-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

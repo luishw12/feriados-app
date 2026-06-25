@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5106216,
+  "name": "Nova Canaã do Norte",
+  "slug": "nova-canaa-do-norte",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-nova-canaa-do-norte",
+      "name": "Aniversário de Nova Canaã do Norte",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

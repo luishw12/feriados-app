@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3537404,
+  "name": "Pereira Barreto",
+  "slug": "pereira-barreto",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pereira-barreto",
+      "name": "Aniversário de Pereira Barreto",
+      "date": "08-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pereira-barreto-1203",
+      "name": "Feriado Municipal de Pereira Barreto",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

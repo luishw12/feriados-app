@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1716703,
+  "name": "Colméia",
+  "slug": "colmeia",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-colmeia",
+      "name": "Aniversário de Colméia",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colmeia-0806",
+      "name": "Feriado Municipal de Colméia",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colmeia-1226",
+      "name": "Feriado Municipal de Colméia",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

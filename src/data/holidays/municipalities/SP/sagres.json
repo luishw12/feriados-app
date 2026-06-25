@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3544707,
+  "name": "Sagres",
+  "slug": "sagres",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sagres",
+      "name": "Aniversário de Sagres",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -29,8 +29,9 @@ export const ABOUT_FEATURES: AboutFeature[] = [
   },
   {
     icon: 'location',
-    title: 'Geolocalização e seletor manual',
-    description: 'Detecte automaticamente seu estado e cidade ou escolha manualmente no menu.',
+    title: 'Busca por cidade ou estado',
+    description:
+      'Combobox unificado na home: filtre por nome da cidade (ex.: "Lajeado") ou estado/UF (ex.: "RS"). Geolocalização opcional.',
   },
   {
     icon: 'layers',

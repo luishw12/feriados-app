@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2602605,
+  "name": "Brejo da Madre de Deus",
+  "slug": "brejo-da-madre-de-deus",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-brejo-da-madre-de-deus",
+      "name": "Aniversário de Brejo da Madre de Deus",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brejo-da-madre-de-deus-0526",
+      "name": "Feriado Municipal de Brejo da Madre de Deus",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brejo-da-madre-de-deus-0620",
+      "name": "Feriado Municipal de Brejo da Madre de Deus",
+      "date": "06-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

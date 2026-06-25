@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3512100,
+  "name": "Colômbia",
+  "slug": "colombia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-colombia",
+      "name": "Aniversário de Colômbia",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colombia-0716",
+      "name": "Feriado Municipal de Colômbia",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

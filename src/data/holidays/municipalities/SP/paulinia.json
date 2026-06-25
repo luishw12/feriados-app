@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3536505,
+  "name": "Paulínia",
+  "slug": "paulinia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-paulinia",
+      "name": "Aniversário de Paulínia",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paulinia-0627",
+      "name": "Feriado Municipal de Paulínia",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

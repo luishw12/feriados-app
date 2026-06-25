@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3109600,
+  "name": "Cachoeira da Prata",
+  "slug": "cachoeira-da-prata",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cachoeira-da-prata",
+      "name": "Aniversário de Cachoeira da Prata",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

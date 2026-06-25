@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3133758,
+  "name": "Itaú de Minas",
+  "slug": "itau-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itau-de-minas",
+      "name": "Aniversário de Itaú de Minas",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

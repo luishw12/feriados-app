@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3504503,
+  "name": "Avaré",
+  "slug": "avare",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-avare",
+      "name": "Aniversário de Avaré",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

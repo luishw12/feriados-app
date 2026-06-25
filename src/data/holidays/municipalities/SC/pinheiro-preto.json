@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4213005,
+  "name": "Pinheiro Preto",
+  "slug": "pinheiro-preto",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-pinheiro-preto",
+      "name": "Aniversário de Pinheiro Preto",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

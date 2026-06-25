@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2112308,
+  "name": "Tuntum",
+  "slug": "tuntum",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-tuntum",
+      "name": "Aniversário de Tuntum",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tuntum-0912",
+      "name": "Feriado Municipal de Tuntum",
+      "date": "09-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

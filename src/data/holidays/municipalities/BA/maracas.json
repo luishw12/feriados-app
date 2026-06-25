@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2920502,
+  "name": "Maracás",
+  "slug": "maracas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-maracas",
+      "name": "Aniversário de Maracás",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maracas-0624",
+      "name": "Feriado Municipal de Maracás",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maracas-1127",
+      "name": "Feriado Municipal de Maracás",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

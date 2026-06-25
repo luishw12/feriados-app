@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4323309,
+  "name": "Vila Flores",
+  "slug": "vila-flores",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vila-flores",
+      "name": "Aniversário de Vila Flores",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

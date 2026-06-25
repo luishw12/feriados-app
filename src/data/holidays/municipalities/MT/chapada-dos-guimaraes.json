@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5103007,
+  "name": "Chapada dos Guimarães",
+  "slug": "chapada-dos-guimaraes",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-chapada-dos-guimaraes",
+      "name": "Aniversário de Chapada dos Guimarães",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-chapada-dos-guimaraes-0731",
+      "name": "Feriado Municipal de Chapada dos Guimarães",
+      "date": "07-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

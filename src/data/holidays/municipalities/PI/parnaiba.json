@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 2207702,
+  "name": "Parnaíba",
+  "slug": "parnaiba",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-parnaiba",
+      "name": "Aniversário de Parnaíba",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parnaiba-0604",
+      "name": "Feriado Municipal de Parnaíba",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parnaiba-0814",
+      "name": "Feriado Municipal de Parnaíba",
+      "date": "08-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parnaiba-0908",
+      "name": "Feriado Municipal de Parnaíba",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parnaiba-1004",
+      "name": "Feriado Municipal de Parnaíba",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

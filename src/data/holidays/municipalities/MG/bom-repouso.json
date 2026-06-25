@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3107901,
+  "name": "Bom Repouso",
+  "slug": "bom-repouso",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bom-repouso",
+      "name": "Aniversário de Bom Repouso",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-repouso-0816",
+      "name": "Feriado Municipal de Bom Repouso",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-repouso-1208",
+      "name": "Feriado Municipal de Bom Repouso",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-repouso-1212",
+      "name": "Feriado Municipal de Bom Repouso",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4109500,
+  "name": "Guaraqueçaba",
+  "slug": "guaraquecaba",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-guaraquecaba",
+      "name": "Aniversário de Guaraqueçaba",
+      "date": "03-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaraquecaba-0806",
+      "name": "Feriado Municipal de Guaraqueçaba",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

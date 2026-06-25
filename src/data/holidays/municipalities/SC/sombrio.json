@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4217709,
+  "name": "Sombrio",
+  "slug": "sombrio",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sombrio",
+      "name": "Aniversário de Sombrio",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sombrio-0613",
+      "name": "Feriado Municipal de Sombrio",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

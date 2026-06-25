@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3501509,
+  "name": "Alvinlândia",
+  "slug": "alvinlandia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-alvinlandia",
+      "name": "Aniversário de Alvinlândia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alvinlandia-0808",
+      "name": "Feriado Municipal de Alvinlândia",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

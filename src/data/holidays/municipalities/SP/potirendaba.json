@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3540804,
+  "name": "Potirendaba",
+  "slug": "potirendaba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-potirendaba",
+      "name": "Aniversário de Potirendaba",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-potirendaba-0806",
+      "name": "Feriado Municipal de Potirendaba",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

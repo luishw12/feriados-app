@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3144300,
+  "name": "Nanuque",
+  "slug": "nanuque",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-nanuque",
+      "name": "Aniversário de Nanuque",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nanuque-1227",
+      "name": "Feriado Municipal de Nanuque",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

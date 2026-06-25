@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4312302,
+  "name": "Miraguaí",
+  "slug": "miraguai",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-miraguai",
+      "name": "Aniversário de Miraguaí",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miraguai-1215",
+      "name": "Feriado Municipal de Miraguaí",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

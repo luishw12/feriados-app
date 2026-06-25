@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3141207,
+  "name": "Matutina",
+  "slug": "matutina",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-matutina",
+      "name": "Aniversário de Matutina",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matutina-0815",
+      "name": "Feriado Municipal de Matutina",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

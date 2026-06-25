@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2402006,
+  "name": "Caicó",
+  "slug": "caico",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-caico",
+      "name": "Aniversário de Caicó",
+      "date": "12-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3200300,
+  "name": "Alfredo Chaves",
+  "slug": "alfredo-chaves",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-alfredo-chaves",
+      "name": "Aniversário de Alfredo Chaves",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alfredo-chaves-1226",
+      "name": "Feriado Municipal de Alfredo Chaves",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4113205,
+  "name": "Lapa",
+  "slug": "lapa",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-lapa",
+      "name": "Aniversário de Lapa",
+      "date": "02-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lapa-0613",
+      "name": "Feriado Municipal de Lapa",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lapa-1226",
+      "name": "Feriado Municipal de Lapa",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

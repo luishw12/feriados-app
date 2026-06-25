@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2402303,
+  "name": "Caraúbas",
+  "slug": "caraubas",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-caraubas",
+      "name": "Aniversário de Caraúbas",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caraubas-0305",
+      "name": "Feriado Municipal de Caraúbas",
+      "date": "03-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

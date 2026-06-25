@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5102678,
+  "name": "Campo Verde",
+  "slug": "campo-verde",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-campo-verde",
+      "name": "Aniversário de Campo Verde",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-verde-0725",
+      "name": "Feriado Municipal de Campo Verde",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

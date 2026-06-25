@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2313203,
+  "name": "Tamboril",
+  "slug": "tamboril",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-tamboril",
+      "name": "Aniversário de Tamboril",
+      "date": "01-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

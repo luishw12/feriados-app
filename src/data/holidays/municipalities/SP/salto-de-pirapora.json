@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3545308,
+  "name": "Salto de Pirapora",
+  "slug": "salto-de-pirapora",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-salto-de-pirapora",
+      "name": "Aniversário de Salto de Pirapora",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-de-pirapora-1230",
+      "name": "Feriado Municipal de Salto de Pirapora",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

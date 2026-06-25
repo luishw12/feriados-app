@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4107603,
+  "name": "Faxinal",
+  "slug": "faxinal",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-faxinal",
+      "name": "Aniversário de Faxinal",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-faxinal-1212",
+      "name": "Feriado Municipal de Faxinal",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

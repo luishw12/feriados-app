@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3200805,
+  "name": "Baixo Guandu",
+  "slug": "baixo-guandu",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-baixo-guandu",
+      "name": "Aniversário de Baixo Guandu",
+      "date": "04-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baixo-guandu-0629",
+      "name": "Feriado Municipal de Baixo Guandu",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3547007,
+  "name": "Santa Maria da Serra",
+  "slug": "santa-maria-da-serra",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-maria-da-serra",
+      "name": "Aniversário de Santa Maria da Serra",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

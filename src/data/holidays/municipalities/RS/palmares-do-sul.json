@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4313656,
+  "name": "Palmares do Sul",
+  "slug": "palmares-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-palmares-do-sul",
+      "name": "Aniversário de Palmares do Sul",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmares-do-sul-0512",
+      "name": "Feriado Municipal de Palmares do Sul",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

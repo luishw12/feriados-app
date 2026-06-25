@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4314704,
+  "name": "Planalto",
+  "slug": "planalto",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-planalto",
+      "name": "Aniversário de Planalto",
+      "date": "04-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-planalto-0816",
+      "name": "Feriado Municipal de Planalto",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

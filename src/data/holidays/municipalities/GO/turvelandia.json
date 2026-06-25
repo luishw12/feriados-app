@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5221551,
+  "name": "Turvelândia",
+  "slug": "turvelandia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-turvelandia",
+      "name": "Aniversário de Turvelândia",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-turvelandia-0805",
+      "name": "Feriado Municipal de Turvelândia",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

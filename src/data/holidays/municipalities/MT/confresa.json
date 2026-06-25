@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5103353,
+  "name": "Confresa",
+  "slug": "confresa",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-confresa",
+      "name": "Aniversário de Confresa",
+      "date": "07-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-confresa-0729",
+      "name": "Feriado Municipal de Confresa",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

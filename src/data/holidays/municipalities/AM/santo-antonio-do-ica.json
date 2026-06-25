@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1303700,
+  "name": "Santo Antônio do Içá",
+  "slug": "santo-antonio-do-ica",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-ica",
+      "name": "Aniversário de Santo Antônio do Içá",
+      "date": "03-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-ica-0613",
+      "name": "Feriado Municipal de Santo Antônio do Içá",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

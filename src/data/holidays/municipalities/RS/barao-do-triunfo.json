@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4301750,
+  "name": "Barão do Triunfo",
+  "slug": "barao-do-triunfo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-barao-do-triunfo",
+      "name": "Aniversário de Barão do Triunfo",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

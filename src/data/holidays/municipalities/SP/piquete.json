@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3538501,
+  "name": "Piquete",
+  "slug": "piquete",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-piquete",
+      "name": "Aniversário de Piquete",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piquete-0929",
+      "name": "Feriado Municipal de Piquete",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

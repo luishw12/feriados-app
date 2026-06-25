@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2903201,
+  "name": "Barreiras",
+  "slug": "barreiras",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-barreiras",
+      "name": "Aniversário de Barreiras",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barreiras-0624",
+      "name": "Feriado Municipal de Barreiras",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barreiras-0802",
+      "name": "Feriado Municipal de Barreiras",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

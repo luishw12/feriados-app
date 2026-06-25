@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3518503,
+  "name": "Guareí",
+  "slug": "guarei",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guarei",
+      "name": "Aniversário de Guareí",
+      "date": "03-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guarei-0624",
+      "name": "Feriado Municipal de Guareí",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

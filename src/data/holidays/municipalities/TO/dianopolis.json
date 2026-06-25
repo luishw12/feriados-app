@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1707009,
+  "name": "Dianópolis",
+  "slug": "dianopolis",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-dianopolis",
+      "name": "Aniversário de Dianópolis",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dianopolis-0319",
+      "name": "Feriado Municipal de Dianópolis",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dianopolis-0826",
+      "name": "Feriado Municipal de Dianópolis",
+      "date": "08-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

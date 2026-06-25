@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4122701,
+  "name": "Sabáudia",
+  "slug": "sabaudia",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sabaudia",
+      "name": "Aniversário de Sabáudia",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

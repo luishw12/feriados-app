@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2932002,
+  "name": "Uauá",
+  "slug": "uaua",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-uaua",
+      "name": "Aniversário de Uauá",
+      "date": "06-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uaua-0624",
+      "name": "Feriado Municipal de Uauá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uaua-0709",
+      "name": "Feriado Municipal de Uauá",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

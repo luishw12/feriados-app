@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2611309,
+  "name": "Pombos",
+  "slug": "pombos",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-pombos",
+      "name": "Aniversário de Pombos",
+      "date": "01-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pombos-0815",
+      "name": "Feriado Municipal de Pombos",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pombos-1211",
+      "name": "Feriado Municipal de Pombos",
+      "date": "12-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

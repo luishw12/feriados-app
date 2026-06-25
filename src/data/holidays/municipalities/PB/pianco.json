@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2511301,
+  "name": "Piancó",
+  "slug": "pianco",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-pianco",
+      "name": "Aniversário de Piancó",
+      "date": "02-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pianco-0613",
+      "name": "Feriado Municipal de Piancó",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pianco-1108",
+      "name": "Feriado Municipal de Piancó",
+      "date": "11-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

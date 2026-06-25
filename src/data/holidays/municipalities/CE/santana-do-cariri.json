@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2312106,
+  "name": "Santana do Cariri",
+  "slug": "santana-do-cariri",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-santana-do-cariri",
+      "name": "Aniversário de Santana do Cariri",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-do-cariri-1125",
+      "name": "Feriado Municipal de Santana do Cariri",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

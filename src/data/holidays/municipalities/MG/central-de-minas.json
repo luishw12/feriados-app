@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3115706,
+  "name": "Central de Minas",
+  "slug": "central-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-central-de-minas",
+      "name": "Aniversário de Central de Minas",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-central-de-minas-0327",
+      "name": "Feriado Municipal de Central de Minas",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

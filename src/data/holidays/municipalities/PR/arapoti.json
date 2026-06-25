@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4101606,
+  "name": "Arapoti",
+  "slug": "arapoti",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-arapoti",
+      "name": "Aniversário de Arapoti",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arapoti-0624",
+      "name": "Feriado Municipal de Arapoti",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arapoti-1218",
+      "name": "Feriado Municipal de Arapoti",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

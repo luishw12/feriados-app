@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4313037,
+  "name": "Nova Esperança do Sul",
+  "slug": "nova-esperanca-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-nova-esperanca-do-sul",
+      "name": "Aniversário de Nova Esperança do Sul",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-esperanca-do-sul-0413",
+      "name": "Feriado Municipal de Nova Esperança do Sul",
+      "date": "04-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

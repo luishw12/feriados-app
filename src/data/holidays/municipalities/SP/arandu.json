@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3503109,
+  "name": "Arandu",
+  "slug": "arandu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-arandu",
+      "name": "Aniversário de Arandu",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arandu-0815",
+      "name": "Feriado Municipal de Arandu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arandu-1130",
+      "name": "Feriado Municipal de Arandu",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

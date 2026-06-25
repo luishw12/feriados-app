@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4301404,
+  "name": "Arvorezinha",
+  "slug": "arvorezinha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-arvorezinha",
+      "name": "Aniversário de Arvorezinha",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

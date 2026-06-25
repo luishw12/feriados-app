@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3200904,
+  "name": "Barra de São Francisco",
+  "slug": "barra-de-sao-francisco",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-barra-de-sao-francisco",
+      "name": "Aniversário de Barra de São Francisco",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-de-sao-francisco-1031",
+      "name": "Feriado Municipal de Barra de São Francisco",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2804102,
+  "name": "Moita Bonita",
+  "slug": "moita-bonita",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-moita-bonita",
+      "name": "Aniversário de Moita Bonita",
+      "date": "03-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-moita-bonita-0624",
+      "name": "Feriado Municipal de Moita Bonita",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

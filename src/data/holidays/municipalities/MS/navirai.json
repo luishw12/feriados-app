@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5005707,
+  "name": "Naviraí",
+  "slug": "navirai",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-navirai",
+      "name": "Aniversário de Naviraí",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-navirai-1111",
+      "name": "Feriado Municipal de Naviraí",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

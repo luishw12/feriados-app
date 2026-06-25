@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4316204,
+  "name": "Rondinha",
+  "slug": "rondinha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-rondinha",
+      "name": "Aniversário de Rondinha",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rondinha-0613",
+      "name": "Feriado Municipal de Rondinha",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rondinha-1121",
+      "name": "Feriado Municipal de Rondinha",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

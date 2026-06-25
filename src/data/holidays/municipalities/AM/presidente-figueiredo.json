@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1303536,
+  "name": "Presidente Figueiredo",
+  "slug": "presidente-figueiredo",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-figueiredo",
+      "name": "Aniversário de Presidente Figueiredo",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-figueiredo-1210",
+      "name": "Feriado Municipal de Presidente Figueiredo",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

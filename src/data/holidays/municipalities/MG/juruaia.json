@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3136900,
+  "name": "Juruaia",
+  "slug": "juruaia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-juruaia",
+      "name": "Aniversário de Juruaia",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juruaia-1227",
+      "name": "Feriado Municipal de Juruaia",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

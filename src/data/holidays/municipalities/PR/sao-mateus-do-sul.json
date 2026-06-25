@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4125605,
+  "name": "São Mateus do Sul",
+  "slug": "sao-mateus-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-mateus-do-sul",
+      "name": "Aniversário de São Mateus do Sul",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-mateus-do-sul-0921",
+      "name": "Feriado Municipal de São Mateus do Sul",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

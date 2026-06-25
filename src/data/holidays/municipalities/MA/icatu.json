@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2105104,
+  "name": "Icatu",
+  "slug": "icatu",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-icatu",
+      "name": "Aniversário de Icatu",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-icatu-1208",
+      "name": "Feriado Municipal de Icatu",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

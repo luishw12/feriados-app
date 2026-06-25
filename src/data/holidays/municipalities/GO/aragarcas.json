@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5201702,
+  "name": "Aragarças",
+  "slug": "aragarcas",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-aragarcas",
+      "name": "Aniversário de Aragarças",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

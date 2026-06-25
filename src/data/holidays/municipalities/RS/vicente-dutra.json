@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4323101,
+  "name": "Vicente Dutra",
+  "slug": "vicente-dutra",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vicente-dutra",
+      "name": "Aniversário de Vicente Dutra",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vicente-dutra-0514",
+      "name": "Feriado Municipal de Vicente Dutra",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

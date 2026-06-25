@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3502903,
+  "name": "Araçoiaba da Serra",
+  "slug": "aracoiaba-da-serra",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aracoiaba-da-serra",
+      "name": "Aniversário de Araçoiaba da Serra",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracoiaba-da-serra-0915",
+      "name": "Feriado Municipal de Araçoiaba da Serra",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

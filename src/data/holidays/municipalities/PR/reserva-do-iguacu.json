@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4121752,
+  "name": "Reserva do Iguaçu",
+  "slug": "reserva-do-iguacu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-reserva-do-iguacu",
+      "name": "Aniversário de Reserva do Iguaçu",
+      "date": "02-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-reserva-do-iguacu-0904",
+      "name": "Feriado Municipal de Reserva do Iguaçu",
+      "date": "09-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

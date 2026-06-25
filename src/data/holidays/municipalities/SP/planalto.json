@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3539608,
+  "name": "Planalto",
+  "slug": "planalto",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-planalto",
+      "name": "Aniversário de Planalto",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

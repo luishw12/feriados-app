@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5104104,
+  "name": "Guarantã do Norte",
+  "slug": "guaranta-do-norte",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-guaranta-do-norte",
+      "name": "Aniversário de Guarantã do Norte",
+      "date": "06-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

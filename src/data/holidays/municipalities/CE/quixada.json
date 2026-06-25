@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2311306,
+  "name": "Quixadá",
+  "slug": "quixada",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-quixada",
+      "name": "Aniversário de Quixadá",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quixada-0319",
+      "name": "Feriado Municipal de Quixadá",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quixada-1027",
+      "name": "Feriado Municipal de Quixadá",
+      "date": "10-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

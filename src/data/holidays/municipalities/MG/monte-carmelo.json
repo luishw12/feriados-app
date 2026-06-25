@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3143104,
+  "name": "Monte Carmelo",
+  "slug": "monte-carmelo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-monte-carmelo",
+      "name": "Aniversário de Monte Carmelo",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-carmelo-0815",
+      "name": "Feriado Municipal de Monte Carmelo",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

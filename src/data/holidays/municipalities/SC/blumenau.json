@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4202404,
+  "name": "Blumenau",
+  "slug": "blumenau",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-blumenau",
+      "name": "Aniversário de Blumenau",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-blumenau-0604",
+      "name": "Feriado Municipal de Blumenau",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-blumenau-0902",
+      "name": "Feriado Municipal de Blumenau",
+      "date": "09-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-blumenau-1031",
+      "name": "Feriado Municipal de Blumenau",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

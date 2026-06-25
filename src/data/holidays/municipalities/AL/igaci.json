@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2703106,
+  "name": "Igaci",
+  "slug": "igaci",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-igaci",
+      "name": "Aniversário de Igaci",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

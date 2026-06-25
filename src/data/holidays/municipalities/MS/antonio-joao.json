@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5000906,
+  "name": "Antônio João",
+  "slug": "antonio-joao",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-antonio-joao",
+      "name": "Aniversário de Antônio João",
+      "date": "03-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-antonio-joao-0627",
+      "name": "Feriado Municipal de Antônio João",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

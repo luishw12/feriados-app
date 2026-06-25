@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2900405,
+  "name": "Água Fria",
+  "slug": "agua-fria",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-agua-fria",
+      "name": "Aniversário de Água Fria",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agua-fria-0319",
+      "name": "Feriado Municipal de Água Fria",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agua-fria-0713",
+      "name": "Feriado Municipal de Água Fria",
+      "date": "07-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agua-fria-0829",
+      "name": "Feriado Municipal de Água Fria",
+      "date": "08-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

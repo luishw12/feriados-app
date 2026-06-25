@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3300209,
+  "name": "Araruama",
+  "slug": "araruama",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-araruama",
+      "name": "Aniversário de Araruama",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araruama-0206",
+      "name": "Feriado Municipal de Araruama",
+      "date": "02-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

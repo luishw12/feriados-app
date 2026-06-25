@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2407807,
+  "name": "Monte Alegre",
+  "slug": "monte-alegre",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-monte-alegre",
+      "name": "Aniversário de Monte Alegre",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

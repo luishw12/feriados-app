@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3141900,
+  "name": "Minduri",
+  "slug": "minduri",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-minduri",
+      "name": "Aniversário de Minduri",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-minduri-1212",
+      "name": "Feriado Municipal de Minduri",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

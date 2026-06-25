@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2915007,
+  "name": "Itaeté",
+  "slug": "itaete",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itaete",
+      "name": "Aniversário de Itaeté",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaete-1127",
+      "name": "Feriado Municipal de Itaeté",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

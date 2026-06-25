@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4317509,
+  "name": "Santo Ângelo",
+  "slug": "santo-angelo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santo-angelo",
+      "name": "Aniversário de Santo Ângelo",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

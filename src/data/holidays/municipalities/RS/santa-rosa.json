@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4317202,
+  "name": "Santa Rosa",
+  "slug": "santa-rosa",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rosa",
+      "name": "Aniversário de Santa Rosa",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rosa-1031",
+      "name": "Feriado Municipal de Santa Rosa",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

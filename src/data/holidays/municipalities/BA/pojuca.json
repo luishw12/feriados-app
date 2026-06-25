@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2925204,
+  "name": "Pojuca",
+  "slug": "pojuca",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-pojuca",
+      "name": "Aniversário de Pojuca",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pojuca-0729",
+      "name": "Feriado Municipal de Pojuca",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

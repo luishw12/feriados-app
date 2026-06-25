@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2614006,
+  "name": "Serrita",
+  "slug": "serrita",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-serrita",
+      "name": "Aniversário de Serrita",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serrita-1208",
+      "name": "Feriado Municipal de Serrita",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

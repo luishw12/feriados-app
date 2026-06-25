@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3144904,
+  "name": "Nova Módica",
+  "slug": "nova-modica",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-nova-modica",
+      "name": "Aniversário de Nova Módica",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

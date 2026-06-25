@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5205703,
+  "name": "Córrego do Ouro",
+  "slug": "corrego-do-ouro",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-corrego-do-ouro",
+      "name": "Aniversário de Córrego do Ouro",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

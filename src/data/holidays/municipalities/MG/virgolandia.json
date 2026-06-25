@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3171907,
+  "name": "Virgolândia",
+  "slug": "virgolandia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-virgolandia",
+      "name": "Aniversário de Virgolândia",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-virgolandia-0326",
+      "name": "Feriado Municipal de Virgolândia",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-virgolandia-1228",
+      "name": "Feriado Municipal de Virgolândia",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

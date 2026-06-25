@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4121356,
+  "name": "Rancho Alegre D'Oeste",
+  "slug": "rancho-alegre-d-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-rancho-alegre-d-oeste",
+      "name": "Aniversário de Rancho Alegre D'Oeste",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rancho-alegre-d-oeste-0320",
+      "name": "Feriado Municipal de Rancho Alegre D'Oeste",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

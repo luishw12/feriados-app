@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3543600,
+  "name": "Rifaina",
+  "slug": "rifaina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-rifaina",
+      "name": "Aniversário de Rifaina",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rifaina-1224",
+      "name": "Feriado Municipal de Rifaina",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

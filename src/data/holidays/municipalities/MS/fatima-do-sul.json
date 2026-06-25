@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5003801,
+  "name": "Fátima do Sul",
+  "slug": "fatima-do-sul",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-fatima-do-sul",
+      "name": "Aniversário de Fátima do Sul",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fatima-do-sul-0709",
+      "name": "Feriado Municipal de Fátima do Sul",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

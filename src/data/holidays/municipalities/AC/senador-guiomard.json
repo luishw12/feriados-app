@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1200450,
+  "name": "Senador Guiomard",
+  "slug": "senador-guiomard",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-senador-guiomard",
+      "name": "Aniversário de Senador Guiomard",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-guiomard-0514",
+      "name": "Feriado Municipal de Senador Guiomard",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-guiomard-0531",
+      "name": "Feriado Municipal de Senador Guiomard",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-guiomard-0906",
+      "name": "Feriado Municipal de Senador Guiomard",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

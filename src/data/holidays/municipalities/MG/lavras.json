@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3138203,
+  "name": "Lavras",
+  "slug": "lavras",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-lavras",
+      "name": "Aniversário de Lavras",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

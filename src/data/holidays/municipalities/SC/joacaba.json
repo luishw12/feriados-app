@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4209003,
+  "name": "Joaçaba",
+  "slug": "joacaba",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-joacaba",
+      "name": "Aniversário de Joaçaba",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joacaba-1001",
+      "name": "Feriado Municipal de Joaçaba",
+      "date": "10-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4114203,
+  "name": "Mandaguari",
+  "slug": "mandaguari",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-mandaguari",
+      "name": "Aniversário de Mandaguari",
+      "date": "05-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

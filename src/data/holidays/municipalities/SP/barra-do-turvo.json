@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3505401,
+  "name": "Barra do Turvo",
+  "slug": "barra-do-turvo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-barra-do-turvo",
+      "name": "Aniversário de Barra do Turvo",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-do-turvo-0819",
+      "name": "Feriado Municipal de Barra do Turvo",
+      "date": "08-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

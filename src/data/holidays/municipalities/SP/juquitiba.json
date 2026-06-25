@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3526209,
+  "name": "Juquitiba",
+  "slug": "juquitiba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-juquitiba",
+      "name": "Aniversário de Juquitiba",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juquitiba-0915",
+      "name": "Feriado Municipal de Juquitiba",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

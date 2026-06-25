@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3169059,
+  "name": "Tocos do Moji",
+  "slug": "tocos-do-moji",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-tocos-do-moji",
+      "name": "Aniversário de Tocos do Moji",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

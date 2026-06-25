@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2910602,
+  "name": "Esplanada",
+  "slug": "esplanada",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-esplanada",
+      "name": "Aniversário de Esplanada",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

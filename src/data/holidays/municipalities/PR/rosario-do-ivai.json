@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4122651,
+  "name": "Rosário do Ivaí",
+  "slug": "rosario-do-ivai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-rosario-do-ivai",
+      "name": "Aniversário de Rosário do Ivaí",
+      "date": "10-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

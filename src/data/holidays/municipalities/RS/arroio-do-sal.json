@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4301057,
+  "name": "Arroio do Sal",
+  "slug": "arroio-do-sal",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-arroio-do-sal",
+      "name": "Aniversário de Arroio do Sal",
+      "date": "04-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

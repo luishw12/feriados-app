@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2413359,
+  "name": "Serra do Mel",
+  "slug": "serra-do-mel",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-serra-do-mel",
+      "name": "Aniversário de Serra do Mel",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

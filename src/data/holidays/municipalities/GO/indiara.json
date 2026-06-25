@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5209952,
+  "name": "Indiara",
+  "slug": "indiara",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-indiara",
+      "name": "Aniversário de Indiara",
+      "date": "02-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-indiara-0422",
+      "name": "Feriado Municipal de Indiara",
+      "date": "04-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-indiara-0514",
+      "name": "Feriado Municipal de Indiara",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

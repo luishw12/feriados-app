@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4120101,
+  "name": "Porto Amazonas",
+  "slug": "porto-amazonas",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-porto-amazonas",
+      "name": "Aniversário de Porto Amazonas",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-amazonas-1109",
+      "name": "Feriado Municipal de Porto Amazonas",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

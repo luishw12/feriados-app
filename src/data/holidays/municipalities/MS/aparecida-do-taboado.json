@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5001003,
+  "name": "Aparecida do Taboado",
+  "slug": "aparecida-do-taboado",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-aparecida-do-taboado",
+      "name": "Aniversário de Aparecida do Taboado",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2933505,
+  "name": "Wenceslau Guimarães",
+  "slug": "wenceslau-guimaraes",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-wenceslau-guimaraes",
+      "name": "Aniversário de Wenceslau Guimarães",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-wenceslau-guimaraes-0719",
+      "name": "Feriado Municipal de Wenceslau Guimarães",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-wenceslau-guimaraes-1127",
+      "name": "Feriado Municipal de Wenceslau Guimarães",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3136108,
+  "name": "Joanésia",
+  "slug": "joanesia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-joanesia",
+      "name": "Aniversário de Joanésia",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joanesia-1212",
+      "name": "Feriado Municipal de Joanésia",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3513207,
+  "name": "Cristais Paulista",
+  "slug": "cristais-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cristais-paulista",
+      "name": "Aniversário de Cristais Paulista",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristais-paulista-0604",
+      "name": "Feriado Municipal de Cristais Paulista",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristais-paulista-0728",
+      "name": "Feriado Municipal de Cristais Paulista",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristais-paulista-0815",
+      "name": "Feriado Municipal de Cristais Paulista",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2933158,
+  "name": "Várzea Nova",
+  "slug": "varzea-nova",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-varzea-nova",
+      "name": "Aniversário de Várzea Nova",
+      "date": "02-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-varzea-nova-0914",
+      "name": "Feriado Municipal de Várzea Nova",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-varzea-nova-1023",
+      "name": "Feriado Municipal de Várzea Nova",
+      "date": "10-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

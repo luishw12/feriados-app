@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2304004,
+  "name": "Coreaú",
+  "slug": "coreau",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-coreau",
+      "name": "Aniversário de Coreaú",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coreau-0924",
+      "name": "Feriado Municipal de Coreaú",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

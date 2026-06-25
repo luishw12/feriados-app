@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2102804,
+  "name": "Carolina",
+  "slug": "carolina",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-carolina",
+      "name": "Aniversário de Carolina",
+      "date": "07-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

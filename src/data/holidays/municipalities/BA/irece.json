@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2914604,
+  "name": "Irecê",
+  "slug": "irece",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-irece",
+      "name": "Aniversário de Irecê",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irece-0804",
+      "name": "Feriado Municipal de Irecê",
+      "date": "08-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

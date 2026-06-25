@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1301704,
+  "name": "Humaitá",
+  "slug": "humaita",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-humaita",
+      "name": "Aniversário de Humaitá",
+      "date": "05-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-humaita-1031",
+      "name": "Feriado Municipal de Humaitá",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

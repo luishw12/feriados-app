@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1304302,
+  "name": "Urucará",
+  "slug": "urucara",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-urucara",
+      "name": "Aniversário de Urucará",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-urucara-0726",
+      "name": "Feriado Municipal de Urucará",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

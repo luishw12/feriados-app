@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3146206,
+  "name": "Ouro Verde de Minas",
+  "slug": "ouro-verde-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ouro-verde-de-minas",
+      "name": "Aniversário de Ouro Verde de Minas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4202701,
+  "name": "Botuverá",
+  "slug": "botuvera",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-botuvera",
+      "name": "Aniversário de Botuverá",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-botuvera-0403",
+      "name": "Feriado Municipal de Botuverá",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-botuvera-0604",
+      "name": "Feriado Municipal de Botuverá",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-botuvera-0609",
+      "name": "Feriado Municipal de Botuverá",
+      "date": "06-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2104677,
+  "name": "Governador Nunes Freire",
+  "slug": "governador-nunes-freire",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-governador-nunes-freire",
+      "name": "Aniversário de Governador Nunes Freire",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-governador-nunes-freire-1110",
+      "name": "Feriado Municipal de Governador Nunes Freire",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

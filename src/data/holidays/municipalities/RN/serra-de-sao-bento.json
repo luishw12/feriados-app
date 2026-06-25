@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2413300,
+  "name": "Serra de São Bento",
+  "slug": "serra-de-sao-bento",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-serra-de-sao-bento",
+      "name": "Aniversário de Serra de São Bento",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

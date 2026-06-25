@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3525508,
+  "name": "Joanópolis",
+  "slug": "joanopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-joanopolis",
+      "name": "Aniversário de Joanópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joanopolis-0817",
+      "name": "Feriado Municipal de Joanópolis",
+      "date": "08-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

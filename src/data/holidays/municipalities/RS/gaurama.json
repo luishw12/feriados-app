@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4308706,
+  "name": "Gaurama",
+  "slug": "gaurama",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-gaurama",
+      "name": "Aniversário de Gaurama",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3514007,
+  "name": "Dobrada",
+  "slug": "dobrada",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-dobrada",
+      "name": "Aniversário de Dobrada",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

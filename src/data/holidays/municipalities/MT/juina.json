@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5105150,
+  "name": "Juína",
+  "slug": "juina",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-juina",
+      "name": "Aniversário de Juína",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

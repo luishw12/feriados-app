@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3164605,
+  "name": "São Sebastião do Oeste",
+  "slug": "sao-sebastiao-do-oeste",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-sebastiao-do-oeste",
+      "name": "Aniversário de São Sebastião do Oeste",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-do-oeste-0815",
+      "name": "Feriado Municipal de São Sebastião do Oeste",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

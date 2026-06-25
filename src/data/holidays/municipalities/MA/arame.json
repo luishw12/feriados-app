@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2100956,
+  "name": "Arame",
+  "slug": "arame",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-arame",
+      "name": "Aniversário de Arame",
+      "date": "01-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arame-1105",
+      "name": "Feriado Municipal de Arame",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

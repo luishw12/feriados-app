@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3164308,
+  "name": "São Roque de Minas",
+  "slug": "sao-roque-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-roque-de-minas",
+      "name": "Aniversário de São Roque de Minas",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-roque-de-minas-0816",
+      "name": "Feriado Municipal de São Roque de Minas",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-roque-de-minas-1208",
+      "name": "Feriado Municipal de São Roque de Minas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-roque-de-minas-1217",
+      "name": "Feriado Municipal de São Roque de Minas",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

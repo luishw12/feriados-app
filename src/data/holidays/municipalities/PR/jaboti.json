@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4111704,
+  "name": "Jaboti",
+  "slug": "jaboti",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-jaboti",
+      "name": "Aniversário de Jaboti",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

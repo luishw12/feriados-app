@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2910057,
+  "name": "Dias d'Ávila",
+  "slug": "dias-d-avila",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-dias-d-avila",
+      "name": "Aniversário de Dias d'Ávila",
+      "date": "02-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dias-d-avila-0815",
+      "name": "Feriado Municipal de Dias d'Ávila",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

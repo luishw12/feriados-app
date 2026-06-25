@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3121506,
+  "name": "Desterro do Melo",
+  "slug": "desterro-do-melo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-desterro-do-melo",
+      "name": "Aniversário de Desterro do Melo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

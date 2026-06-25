@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2929503,
+  "name": "São Sebastião do Passé",
+  "slug": "sao-sebastiao-do-passe",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-sebastiao-do-passe",
+      "name": "Aniversário de São Sebastião do Passé",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-do-passe-0624",
+      "name": "Feriado Municipal de São Sebastião do Passé",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

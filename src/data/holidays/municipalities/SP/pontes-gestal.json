@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3540309,
+  "name": "Pontes Gestal",
+  "slug": "pontes-gestal",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pontes-gestal",
+      "name": "Aniversário de Pontes Gestal",
+      "date": "04-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pontes-gestal-0917",
+      "name": "Feriado Municipal de Pontes Gestal",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

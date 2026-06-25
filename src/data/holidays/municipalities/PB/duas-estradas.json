@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2505808,
+  "name": "Duas Estradas",
+  "slug": "duas-estradas",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-duas-estradas",
+      "name": "Aniversário de Duas Estradas",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-duas-estradas-0627",
+      "name": "Feriado Municipal de Duas Estradas",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-duas-estradas-0712",
+      "name": "Feriado Municipal de Duas Estradas",
+      "date": "07-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-duas-estradas-1222",
+      "name": "Feriado Municipal de Duas Estradas",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

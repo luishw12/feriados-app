@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3118700,
+  "name": "Coqueiral",
+  "slug": "coqueiral",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-coqueiral",
+      "name": "Aniversário de Coqueiral",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

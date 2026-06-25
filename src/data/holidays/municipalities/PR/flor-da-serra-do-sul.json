@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4107850,
+  "name": "Flor da Serra do Sul",
+  "slug": "flor-da-serra-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-flor-da-serra-do-sul",
+      "name": "Aniversário de Flor da Serra do Sul",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

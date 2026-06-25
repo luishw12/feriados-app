@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3133204,
+  "name": "Itanhomi",
+  "slug": "itanhomi",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itanhomi",
+      "name": "Aniversário de Itanhomi",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

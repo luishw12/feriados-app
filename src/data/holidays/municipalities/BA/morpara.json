@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2921609,
+  "name": "Morpará",
+  "slug": "morpara",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-morpara",
+      "name": "Aniversário de Morpará",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

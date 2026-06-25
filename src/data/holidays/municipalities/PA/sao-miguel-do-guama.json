@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1507607,
+  "name": "São Miguel do Guamá",
+  "slug": "sao-miguel-do-guama",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-do-guama",
+      "name": "Aniversário de São Miguel do Guamá",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-do-guama-1031",
+      "name": "Feriado Municipal de São Miguel do Guamá",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

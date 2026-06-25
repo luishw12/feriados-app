@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3303500,
+  "name": "Nova Iguaçu",
+  "slug": "nova-iguacu",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-nova-iguacu",
+      "name": "Aniversário de Nova Iguaçu",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-iguacu-0403",
+      "name": "Feriado Municipal de Nova Iguaçu",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-iguacu-0423",
+      "name": "Feriado Municipal de Nova Iguaçu",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-iguacu-0604",
+      "name": "Feriado Municipal de Nova Iguaçu",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-iguacu-0613",
+      "name": "Feriado Municipal de Nova Iguaçu",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

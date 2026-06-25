@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3504909,
+  "name": "Bananal",
+  "slug": "bananal",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bananal",
+      "name": "Aniversário de Bananal",
+      "date": "07-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bananal-0806",
+      "name": "Feriado Municipal de Bananal",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1303304,
+  "name": "Novo Aripuanã",
+  "slug": "novo-aripuana",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-novo-aripuana",
+      "name": "Aniversário de Novo Aripuanã",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

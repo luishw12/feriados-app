@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5008305,
+  "name": "Três Lagoas",
+  "slug": "tres-lagoas",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-tres-lagoas",
+      "name": "Aniversário de Três Lagoas",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2807600,
+  "name": "Umbaúba",
+  "slug": "umbauba",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-umbauba",
+      "name": "Aniversário de Umbaúba",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umbauba-0206",
+      "name": "Feriado Municipal de Umbaúba",
+      "date": "02-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umbauba-0624",
+      "name": "Feriado Municipal de Umbaúba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umbauba-1212",
+      "name": "Feriado Municipal de Umbaúba",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

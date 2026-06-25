@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4313409,
+  "name": "Novo Hamburgo",
+  "slug": "novo-hamburgo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-novo-hamburgo",
+      "name": "Aniversário de Novo Hamburgo",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-hamburgo-0514",
+      "name": "Feriado Municipal de Novo Hamburgo",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-hamburgo-0604",
+      "name": "Feriado Municipal de Novo Hamburgo",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-hamburgo-1031",
+      "name": "Feriado Municipal de Novo Hamburgo",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2709400,
+  "name": "Viçosa",
+  "slug": "vicosa",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-vicosa",
+      "name": "Aniversário de Viçosa",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vicosa-1013",
+      "name": "Feriado Municipal de Viçosa",
+      "date": "10-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

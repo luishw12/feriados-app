@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3151107,
+  "name": "Pirapetinga",
+  "slug": "pirapetinga",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pirapetinga",
+      "name": "Aniversário de Pirapetinga",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirapetinga-0726",
+      "name": "Feriado Municipal de Pirapetinga",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirapetinga-1217",
+      "name": "Feriado Municipal de Pirapetinga",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

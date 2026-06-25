@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2211209,
+  "name": "Uruçuí",
+  "slug": "urucui",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-urucui",
+      "name": "Aniversário de Uruçuí",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-urucui-0528",
+      "name": "Feriado Municipal de Uruçuí",
+      "date": "05-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-urucui-0906",
+      "name": "Feriado Municipal de Uruçuí",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-urucui-1208",
+      "name": "Feriado Municipal de Uruçuí",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

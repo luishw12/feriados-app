@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1303569,
+  "name": "Rio Preto da Eva",
+  "slug": "rio-preto-da-eva",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-rio-preto-da-eva",
+      "name": "Aniversário de Rio Preto da Eva",
+      "date": "03-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-preto-da-eva-0629",
+      "name": "Feriado Municipal de Rio Preto da Eva",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3514106,
+  "name": "Dois Córregos",
+  "slug": "dois-corregos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-dois-corregos",
+      "name": "Aniversário de Dois Córregos",
+      "date": "02-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

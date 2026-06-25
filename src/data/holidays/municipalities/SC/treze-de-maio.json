@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4218400,
+  "name": "Treze de Maio",
+  "slug": "treze-de-maio",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-treze-de-maio",
+      "name": "Aniversário de Treze de Maio",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-treze-de-maio-0513",
+      "name": "Feriado Municipal de Treze de Maio",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-treze-de-maio-0928",
+      "name": "Feriado Municipal de Treze de Maio",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

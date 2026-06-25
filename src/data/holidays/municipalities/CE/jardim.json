@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2307106,
+  "name": "Jardim",
+  "slug": "jardim",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-jardim",
+      "name": "Aniversário de Jardim",
+      "date": "01-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jardim-0613",
+      "name": "Feriado Municipal de Jardim",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

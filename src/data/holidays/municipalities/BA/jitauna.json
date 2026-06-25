@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2918308,
+  "name": "Jitaúna",
+  "slug": "jitauna",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-jitauna",
+      "name": "Aniversário de Jitaúna",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -7,9 +7,53 @@
     {
       "id": "aniversario-fortaleza",
       "name": "Aniversário de Fortaleza",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fortaleza-0403",
+      "name": "Feriado Municipal de Fortaleza",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fortaleza-0413",
+      "name": "Feriado Municipal de Fortaleza",
       "date": "04-13",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fortaleza-0604",
+      "name": "Feriado Municipal de Fortaleza",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fortaleza-0815",
+      "name": "Feriado Municipal de Fortaleza",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

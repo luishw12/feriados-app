@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3117876,
+  "name": "Confins",
+  "slug": "confins",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-confins",
+      "name": "Aniversário de Confins",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-confins-0403",
+      "name": "Feriado Municipal de Confins",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-confins-0604",
+      "name": "Feriado Municipal de Confins",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-confins-1018",
+      "name": "Feriado Municipal de Confins",
+      "date": "10-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-confins-1221",
+      "name": "Feriado Municipal de Confins",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

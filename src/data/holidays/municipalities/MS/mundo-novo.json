@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5005681,
+  "name": "Mundo Novo",
+  "slug": "mundo-novo",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-mundo-novo",
+      "name": "Aniversário de Mundo Novo",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

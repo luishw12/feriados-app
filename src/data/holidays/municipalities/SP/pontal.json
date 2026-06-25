@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3540200,
+  "name": "Pontal",
+  "slug": "pontal",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pontal",
+      "name": "Aniversário de Pontal",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

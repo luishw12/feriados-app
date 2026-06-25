@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3534302,
+  "name": "Orlândia",
+  "slug": "orlandia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-orlandia",
+      "name": "Aniversário de Orlândia",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-orlandia-0330",
+      "name": "Feriado Municipal de Orlândia",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

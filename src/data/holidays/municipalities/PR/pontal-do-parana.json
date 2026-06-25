@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4119954,
+  "name": "Pontal do Paraná",
+  "slug": "pontal-do-parana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-pontal-do-parana",
+      "name": "Aniversário de Pontal do Paraná",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pontal-do-parana-1220",
+      "name": "Feriado Municipal de Pontal do Paraná",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

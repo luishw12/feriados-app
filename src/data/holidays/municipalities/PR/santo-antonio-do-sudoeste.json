@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4124400,
+  "name": "Santo Antônio do Sudoeste",
+  "slug": "santo-antonio-do-sudoeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-sudoeste",
+      "name": "Aniversário de Santo Antônio do Sudoeste",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-sudoeste-1114",
+      "name": "Feriado Municipal de Santo Antônio do Sudoeste",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3556701,
+  "name": "Vinhedo",
+  "slug": "vinhedo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-vinhedo",
+      "name": "Aniversário de Vinhedo",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vinhedo-0726",
+      "name": "Feriado Municipal de Vinhedo",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

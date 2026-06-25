@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3169356,
+  "name": "Três Marias",
+  "slug": "tres-marias",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-tres-marias",
+      "name": "Aniversário de Três Marias",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

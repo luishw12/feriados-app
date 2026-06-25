@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2930105,
+  "name": "Senhor do Bonfim",
+  "slug": "senhor-do-bonfim",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-senhor-do-bonfim",
+      "name": "Aniversário de Senhor do Bonfim",
+      "date": "01-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senhor-do-bonfim-0528",
+      "name": "Feriado Municipal de Senhor do Bonfim",
+      "date": "05-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senhor-do-bonfim-0624",
+      "name": "Feriado Municipal de Senhor do Bonfim",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 4127106,
+  "name": "Telêmaco Borba",
+  "slug": "telemaco-borba",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-telemaco-borba",
+      "name": "Aniversário de Telêmaco Borba",
+      "date": "03-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-telemaco-borba-0321",
+      "name": "Feriado Municipal de Telêmaco Borba",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-telemaco-borba-0604",
+      "name": "Feriado Municipal de Telêmaco Borba",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-telemaco-borba-0627",
+      "name": "Feriado Municipal de Telêmaco Borba",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-telemaco-borba-1101",
+      "name": "Feriado Municipal de Telêmaco Borba",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

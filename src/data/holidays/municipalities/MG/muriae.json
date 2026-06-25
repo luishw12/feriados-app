@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3143906,
+  "name": "Muriaé",
+  "slug": "muriae",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-muriae",
+      "name": "Aniversário de Muriaé",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-muriae-0906",
+      "name": "Feriado Municipal de Muriaé",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

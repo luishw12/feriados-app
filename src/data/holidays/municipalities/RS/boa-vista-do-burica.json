@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4302204,
+  "name": "Boa Vista do Buricá",
+  "slug": "boa-vista-do-burica",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-boa-vista-do-burica",
+      "name": "Aniversário de Boa Vista do Buricá",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boa-vista-do-burica-1202",
+      "name": "Feriado Municipal de Boa Vista do Buricá",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

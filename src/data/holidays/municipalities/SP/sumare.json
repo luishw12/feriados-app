@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3552403,
+  "name": "Sumaré",
+  "slug": "sumare",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sumare",
+      "name": "Aniversário de Sumaré",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

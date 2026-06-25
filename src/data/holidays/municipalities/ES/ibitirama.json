@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3202553,
+  "name": "Ibitirama",
+  "slug": "ibitirama",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-ibitirama",
+      "name": "Aniversário de Ibitirama",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibitirama-0929",
+      "name": "Feriado Municipal de Ibitirama",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibitirama-1204",
+      "name": "Feriado Municipal de Ibitirama",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

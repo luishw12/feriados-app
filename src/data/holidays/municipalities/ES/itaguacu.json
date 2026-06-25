@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3202702,
+  "name": "Itaguaçu",
+  "slug": "itaguacu",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-itaguacu",
+      "name": "Aniversário de Itaguaçu",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaguacu-0531",
+      "name": "Feriado Municipal de Itaguaçu",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaguacu-1031",
+      "name": "Feriado Municipal de Itaguaçu",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

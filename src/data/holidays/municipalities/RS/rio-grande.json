@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4315602,
+  "name": "Rio Grande",
+  "slug": "rio-grande",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-rio-grande",
+      "name": "Aniversário de Rio Grande",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-grande-0629",
+      "name": "Feriado Municipal de Rio Grande",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

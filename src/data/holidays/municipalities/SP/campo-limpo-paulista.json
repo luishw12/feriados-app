@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3509601,
+  "name": "Campo Limpo Paulista",
+  "slug": "campo-limpo-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-campo-limpo-paulista",
+      "name": "Aniversário de Campo Limpo Paulista",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-limpo-paulista-0403",
+      "name": "Feriado Municipal de Campo Limpo Paulista",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-limpo-paulista-0604",
+      "name": "Feriado Municipal de Campo Limpo Paulista",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-limpo-paulista-1007",
+      "name": "Feriado Municipal de Campo Limpo Paulista",
+      "date": "10-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

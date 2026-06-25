@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2516003,
+  "name": "Solânea",
+  "slug": "solanea",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-solanea",
+      "name": "Aniversário de Solânea",
+      "date": "02-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-solanea-0613",
+      "name": "Feriado Municipal de Solânea",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-solanea-1126",
+      "name": "Feriado Municipal de Solânea",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

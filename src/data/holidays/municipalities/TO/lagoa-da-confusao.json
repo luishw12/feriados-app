@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1711902,
+  "name": "Lagoa da Confusão",
+  "slug": "lagoa-da-confusao",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-lagoa-da-confusao",
+      "name": "Aniversário de Lagoa da Confusão",
+      "date": "02-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-da-confusao-0815",
+      "name": "Feriado Municipal de Lagoa da Confusão",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

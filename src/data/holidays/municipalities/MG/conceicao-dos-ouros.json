@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3117801,
+  "name": "Conceição dos Ouros",
+  "slug": "conceicao-dos-ouros",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-conceicao-dos-ouros",
+      "name": "Aniversário de Conceição dos Ouros",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-conceicao-dos-ouros-1208",
+      "name": "Feriado Municipal de Conceição dos Ouros",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

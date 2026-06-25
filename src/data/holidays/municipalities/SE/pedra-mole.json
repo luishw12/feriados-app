@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2805000,
+  "name": "Pedra Mole",
+  "slug": "pedra-mole",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-pedra-mole",
+      "name": "Aniversário de Pedra Mole",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

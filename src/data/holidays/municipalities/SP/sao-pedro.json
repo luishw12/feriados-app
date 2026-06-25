@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3550407,
+  "name": "São Pedro",
+  "slug": "sao-pedro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-pedro",
+      "name": "Aniversário de São Pedro",
+      "date": "02-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-pedro-0629",
+      "name": "Feriado Municipal de São Pedro",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

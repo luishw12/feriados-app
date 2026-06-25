@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3542305,
+  "name": "Redenção da Serra",
+  "slug": "redencao-da-serra",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-redencao-da-serra",
+      "name": "Aniversário de Redenção da Serra",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-redencao-da-serra-0825",
+      "name": "Feriado Municipal de Redenção da Serra",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-redencao-da-serra-1208",
+      "name": "Feriado Municipal de Redenção da Serra",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

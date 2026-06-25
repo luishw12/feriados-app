@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2306306,
+  "name": "Itapajé",
+  "slug": "itapaje",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-itapaje",
+      "name": "Aniversário de Itapajé",
+      "date": "07-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

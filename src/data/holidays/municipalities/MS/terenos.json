@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5008008,
+  "name": "Terenos",
+  "slug": "terenos",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-terenos",
+      "name": "Aniversário de Terenos",
+      "date": "05-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-terenos-0613",
+      "name": "Feriado Municipal de Terenos",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

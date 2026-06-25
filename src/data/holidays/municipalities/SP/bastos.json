@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3505807,
+  "name": "Bastos",
+  "slug": "bastos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bastos",
+      "name": "Aniversário de Bastos",
+      "date": "06-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bastos-1203",
+      "name": "Feriado Municipal de Bastos",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

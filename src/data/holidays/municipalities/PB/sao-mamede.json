@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2514909,
+  "name": "São Mamede",
+  "slug": "sao-mamede",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-sao-mamede",
+      "name": "Aniversário de São Mamede",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-mamede-0817",
+      "name": "Feriado Municipal de São Mamede",
+      "date": "08-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-mamede-1208",
+      "name": "Feriado Municipal de São Mamede",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3502200,
+  "name": "Angatuba",
+  "slug": "angatuba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-angatuba",
+      "name": "Aniversário de Angatuba",
+      "date": "03-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

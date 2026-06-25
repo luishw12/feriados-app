@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4215406,
+  "name": "Salto Veloso",
+  "slug": "salto-veloso",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-salto-veloso",
+      "name": "Aniversário de Salto Veloso",
+      "date": "02-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-veloso-1215",
+      "name": "Feriado Municipal de Salto Veloso",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

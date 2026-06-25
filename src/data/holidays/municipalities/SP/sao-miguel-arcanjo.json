@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3550209,
+  "name": "São Miguel Arcanjo",
+  "slug": "sao-miguel-arcanjo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-arcanjo",
+      "name": "Aniversário de São Miguel Arcanjo",
+      "date": "04-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-arcanjo-0929",
+      "name": "Feriado Municipal de São Miguel Arcanjo",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

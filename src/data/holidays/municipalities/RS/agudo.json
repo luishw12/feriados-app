@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4300109,
+  "name": "Agudo",
+  "slug": "agudo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-agudo",
+      "name": "Aniversário de Agudo",
+      "date": "02-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agudo-0725",
+      "name": "Feriado Municipal de Agudo",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agudo-1031",
+      "name": "Feriado Municipal de Agudo",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

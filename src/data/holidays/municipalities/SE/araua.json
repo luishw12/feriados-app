@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2800407,
+  "name": "Arauá",
+  "slug": "araua",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-araua",
+      "name": "Aniversário de Arauá",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3505104,
+  "name": "Barbosa",
+  "slug": "barbosa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-barbosa",
+      "name": "Aniversário de Barbosa",
+      "date": "01-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barbosa-0829",
+      "name": "Feriado Municipal de Barbosa",
+      "date": "08-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2900207,
+  "name": "Abaré",
+  "slug": "abare",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-abare",
+      "name": "Aniversário de Abaré",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-abare-0719",
+      "name": "Feriado Municipal de Abaré",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-abare-0925",
+      "name": "Feriado Municipal de Abaré",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

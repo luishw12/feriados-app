@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3201209,
+  "name": "Cachoeiro de Itapemirim",
+  "slug": "cachoeiro-de-itapemirim",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-cachoeiro-de-itapemirim",
+      "name": "Aniversário de Cachoeiro de Itapemirim",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

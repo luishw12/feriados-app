@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3166501,
+  "name": "Serra Azul de Minas",
+  "slug": "serra-azul-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-serra-azul-de-minas",
+      "name": "Aniversário de Serra Azul de Minas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

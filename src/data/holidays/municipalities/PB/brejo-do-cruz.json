@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2502805,
+  "name": "Brejo do Cruz",
+  "slug": "brejo-do-cruz",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-brejo-do-cruz",
+      "name": "Aniversário de Brejo do Cruz",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brejo-do-cruz-1228",
+      "name": "Feriado Municipal de Brejo do Cruz",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3531605,
+  "name": "Monte Castelo",
+  "slug": "monte-castelo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-monte-castelo",
+      "name": "Aniversário de Monte Castelo",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-castelo-0815",
+      "name": "Feriado Municipal de Monte Castelo",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-castelo-1122",
+      "name": "Feriado Municipal de Monte Castelo",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

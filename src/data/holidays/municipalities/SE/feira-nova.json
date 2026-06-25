@@ -1,0 +1,74 @@
+{
+  "ibgeCode": 2802205,
+  "name": "Feira Nova",
+  "slug": "feira-nova",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-feira-nova",
+      "name": "Aniversário de Feira Nova",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-nova-0624",
+      "name": "Feriado Municipal de Feira Nova",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-nova-0629",
+      "name": "Feriado Municipal de Feira Nova",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-nova-0814",
+      "name": "Feriado Municipal de Feira Nova",
+      "date": "08-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-nova-1018",
+      "name": "Feriado Municipal de Feira Nova",
+      "date": "10-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-nova-1127",
+      "name": "Feriado Municipal de Feira Nova",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

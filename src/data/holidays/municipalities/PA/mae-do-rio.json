@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1504059,
+  "name": "Mãe do Rio",
+  "slug": "mae-do-rio",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-mae-do-rio",
+      "name": "Aniversário de Mãe do Rio",
+      "date": "05-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

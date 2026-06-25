@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2804409,
+  "name": "Neópolis",
+  "slug": "neopolis",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-neopolis",
+      "name": "Aniversário de Neópolis",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-neopolis-0624",
+      "name": "Feriado Municipal de Neópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-neopolis-0629",
+      "name": "Feriado Municipal de Neópolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3114006,
+  "name": "Carmo da Mata",
+  "slug": "carmo-da-mata",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carmo-da-mata",
+      "name": "Aniversário de Carmo da Mata",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmo-da-mata-1217",
+      "name": "Feriado Municipal de Carmo da Mata",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

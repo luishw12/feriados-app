@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3153004,
+  "name": "Pratinha",
+  "slug": "pratinha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pratinha",
+      "name": "Aniversário de Pratinha",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pratinha-0815",
+      "name": "Feriado Municipal de Pratinha",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pratinha-1227",
+      "name": "Feriado Municipal de Pratinha",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

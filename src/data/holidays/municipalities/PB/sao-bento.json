@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2513901,
+  "name": "São Bento",
+  "slug": "sao-bento",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-sao-bento",
+      "name": "Aniversário de São Bento",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bento-0429",
+      "name": "Feriado Municipal de São Bento",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2400208,
+  "name": "Assú",
+  "slug": "assu",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-assu",
+      "name": "Aniversário de Assú",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-assu-1016",
+      "name": "Feriado Municipal de Assú",
+      "date": "10-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3147204,
+  "name": "Paraguaçu",
+  "slug": "paraguacu",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-paraguacu",
+      "name": "Aniversário de Paraguaçu",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

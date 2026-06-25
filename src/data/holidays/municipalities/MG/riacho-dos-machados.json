@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3154507,
+  "name": "Riacho dos Machados",
+  "slug": "riacho-dos-machados",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-riacho-dos-machados",
+      "name": "Aniversário de Riacho dos Machados",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riacho-dos-machados-0303",
+      "name": "Feriado Municipal de Riacho dos Machados",
+      "date": "03-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

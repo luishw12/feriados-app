@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4206009,
+  "name": "Governador Celso Ramos",
+  "slug": "governador-celso-ramos",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-governador-celso-ramos",
+      "name": "Aniversário de Governador Celso Ramos",
+      "date": "11-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

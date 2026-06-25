@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4310900,
+  "name": "Jacutinga",
+  "slug": "jacutinga",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-jacutinga",
+      "name": "Aniversário de Jacutinga",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacutinga-0613",
+      "name": "Feriado Municipal de Jacutinga",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

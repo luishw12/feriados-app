@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3144706,
+  "name": "Nova Era",
+  "slug": "nova-era",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-nova-era",
+      "name": "Aniversário de Nova Era",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-era-0815",
+      "name": "Feriado Municipal de Nova Era",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

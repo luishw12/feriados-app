@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3522307,
+  "name": "Itapetininga",
+  "slug": "itapetininga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itapetininga",
+      "name": "Aniversário de Itapetininga",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapetininga-0604",
+      "name": "Feriado Municipal de Itapetininga",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapetininga-1105",
+      "name": "Feriado Municipal de Itapetininga",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

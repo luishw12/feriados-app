@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5220264,
+  "name": "São Miguel do Passa Quatro",
+  "slug": "sao-miguel-do-passa-quatro",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-do-passa-quatro",
+      "name": "Aniversário de São Miguel do Passa Quatro",
+      "date": "01-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-do-passa-quatro-0929",
+      "name": "Feriado Municipal de São Miguel do Passa Quatro",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

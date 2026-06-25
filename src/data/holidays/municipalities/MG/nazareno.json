@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3144508,
+  "name": "Nazareno",
+  "slug": "nazareno",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-nazareno",
+      "name": "Aniversário de Nazareno",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nazareno-1212",
+      "name": "Feriado Municipal de Nazareno",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3534757,
+  "name": "Ouroeste",
+  "slug": "ouroeste",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ouroeste",
+      "name": "Aniversário de Ouroeste",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ouroeste-1227",
+      "name": "Feriado Municipal de Ouroeste",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

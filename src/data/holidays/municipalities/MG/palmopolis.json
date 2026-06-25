@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3146750,
+  "name": "Palmópolis",
+  "slug": "palmopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-palmopolis",
+      "name": "Aniversário de Palmópolis",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmopolis-0623",
+      "name": "Feriado Municipal de Palmópolis",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmopolis-0624",
+      "name": "Feriado Municipal de Palmópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmopolis-0629",
+      "name": "Feriado Municipal de Palmópolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmopolis-1224",
+      "name": "Feriado Municipal de Palmópolis",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3145208,
+  "name": "Nova Serrana",
+  "slug": "nova-serrana",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-nova-serrana",
+      "name": "Aniversário de Nova Serrana",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-serrana-1212",
+      "name": "Feriado Municipal de Nova Serrana",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

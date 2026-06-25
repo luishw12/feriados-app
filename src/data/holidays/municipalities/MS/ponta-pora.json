@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5006606,
+  "name": "Ponta Porã",
+  "slug": "ponta-pora",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-ponta-pora",
+      "name": "Aniversário de Ponta Porã",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ponta-pora-0718",
+      "name": "Feriado Municipal de Ponta Porã",
+      "date": "07-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3151701,
+  "name": "Poço Fundo",
+  "slug": "poco-fundo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-poco-fundo",
+      "name": "Aniversário de Poço Fundo",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

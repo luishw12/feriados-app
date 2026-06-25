@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5214051,
+  "name": "Mundo Novo",
+  "slug": "mundo-novo",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-mundo-novo",
+      "name": "Aniversário de Mundo Novo",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

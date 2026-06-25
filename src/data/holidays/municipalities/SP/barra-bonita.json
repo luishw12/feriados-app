@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3505302,
+  "name": "Barra Bonita",
+  "slug": "barra-bonita",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-barra-bonita",
+      "name": "Aniversário de Barra Bonita",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

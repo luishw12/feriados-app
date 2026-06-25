@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4207106,
+  "name": "Ilhota",
+  "slug": "ilhota",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ilhota",
+      "name": "Aniversário de Ilhota",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

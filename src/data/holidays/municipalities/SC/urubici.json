@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4218905,
+  "name": "Urubici",
+  "slug": "urubici",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-urubici",
+      "name": "Aniversário de Urubici",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

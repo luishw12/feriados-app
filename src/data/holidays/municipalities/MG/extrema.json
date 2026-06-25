@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3125101,
+  "name": "Extrema",
+  "slug": "extrema",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-extrema",
+      "name": "Aniversário de Extrema",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-extrema-0916",
+      "name": "Feriado Municipal de Extrema",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

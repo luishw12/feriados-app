@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1101708,
+  "name": "Urupá",
+  "slug": "urupa",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-urupa",
+      "name": "Aniversário de Urupá",
+      "date": "02-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-urupa-0624",
+      "name": "Feriado Municipal de Urupá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

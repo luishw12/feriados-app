@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2306504,
+  "name": "Itapiúna",
+  "slug": "itapiuna",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-itapiuna",
+      "name": "Aniversário de Itapiúna",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapiuna-1208",
+      "name": "Feriado Municipal de Itapiúna",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

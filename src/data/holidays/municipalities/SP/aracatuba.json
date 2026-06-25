@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3502804,
+  "name": "Araçatuba",
+  "slug": "aracatuba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aracatuba",
+      "name": "Aniversário de Araçatuba",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracatuba-0604",
+      "name": "Feriado Municipal de Araçatuba",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracatuba-1202",
+      "name": "Feriado Municipal de Araçatuba",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

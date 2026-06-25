@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3511409,
+  "name": "Cerqueira César",
+  "slug": "cerqueira-cesar",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cerqueira-cesar",
+      "name": "Aniversário de Cerqueira César",
+      "date": "10-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cerqueira-cesar-1010",
+      "name": "Feriado Municipal de Cerqueira César",
+      "date": "10-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

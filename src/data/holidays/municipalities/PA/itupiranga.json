@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1503705,
+  "name": "Itupiranga",
+  "slug": "itupiranga",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-itupiranga",
+      "name": "Aniversário de Itupiranga",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itupiranga-0714",
+      "name": "Feriado Municipal de Itupiranga",
+      "date": "07-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5108501,
+  "name": "Vera",
+  "slug": "vera",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-vera",
+      "name": "Aniversário de Vera",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vera-0727",
+      "name": "Feriado Municipal de Vera",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vera-1028",
+      "name": "Feriado Municipal de Vera",
+      "date": "10-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

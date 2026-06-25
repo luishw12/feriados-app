@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3107406,
+  "name": "Bom Despacho",
+  "slug": "bom-despacho",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bom-despacho",
+      "name": "Aniversário de Bom Despacho",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-despacho-0601",
+      "name": "Feriado Municipal de Bom Despacho",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-despacho-0604",
+      "name": "Feriado Municipal de Bom Despacho",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-despacho-0819",
+      "name": "Feriado Municipal de Bom Despacho",
+      "date": "08-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3526605,
+  "name": "Lavrinhas",
+  "slug": "lavrinhas",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-lavrinhas",
+      "name": "Aniversário de Lavrinhas",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lavrinhas-0627",
+      "name": "Feriado Municipal de Lavrinhas",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

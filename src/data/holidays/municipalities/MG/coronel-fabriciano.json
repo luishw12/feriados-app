@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3119401,
+  "name": "Coronel Fabriciano",
+  "slug": "coronel-fabriciano",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-coronel-fabriciano",
+      "name": "Aniversário de Coronel Fabriciano",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-fabriciano-0815",
+      "name": "Feriado Municipal de Coronel Fabriciano",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4218707,
+  "name": "Tubarão",
+  "slug": "tubarao",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-tubarao",
+      "name": "Aniversário de Tubarão",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tubarao-0604",
+      "name": "Feriado Municipal de Tubarão",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tubarao-0915",
+      "name": "Feriado Municipal de Tubarão",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

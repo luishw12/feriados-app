@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4312674,
+  "name": "Nicolau Vergueiro",
+  "slug": "nicolau-vergueiro",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-nicolau-vergueiro",
+      "name": "Aniversário de Nicolau Vergueiro",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4310538,
+  "name": "Itaara",
+  "slug": "itaara",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-itaara",
+      "name": "Aniversário de Itaara",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaara-0403",
+      "name": "Feriado Municipal de Itaara",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaara-0604",
+      "name": "Feriado Municipal de Itaara",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaara-1022",
+      "name": "Feriado Municipal de Itaara",
+      "date": "10-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

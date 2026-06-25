@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4304804,
+  "name": "Carlos Barbosa",
+  "slug": "carlos-barbosa",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-carlos-barbosa",
+      "name": "Aniversário de Carlos Barbosa",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

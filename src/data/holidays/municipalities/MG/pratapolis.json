@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3152907,
+  "name": "Pratápolis",
+  "slug": "pratapolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pratapolis",
+      "name": "Aniversário de Pratápolis",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pratapolis-1208",
+      "name": "Feriado Municipal de Pratápolis",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

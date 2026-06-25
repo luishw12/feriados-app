@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4306908,
+  "name": "Encruzilhada do Sul",
+  "slug": "encruzilhada-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-encruzilhada-do-sul",
+      "name": "Aniversário de Encruzilhada do Sul",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

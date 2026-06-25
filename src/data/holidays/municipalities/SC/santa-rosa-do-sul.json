@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4215653,
+  "name": "Santa Rosa do Sul",
+  "slug": "santa-rosa-do-sul",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rosa-do-sul",
+      "name": "Aniversário de Santa Rosa do Sul",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

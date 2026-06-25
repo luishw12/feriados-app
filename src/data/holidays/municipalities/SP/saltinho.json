@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3545159,
+  "name": "Saltinho",
+  "slug": "saltinho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-saltinho",
+      "name": "Aniversário de Saltinho",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-saltinho-0630",
+      "name": "Feriado Municipal de Saltinho",
+      "date": "06-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

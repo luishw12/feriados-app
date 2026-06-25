@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4322533,
+  "name": "Vale do Sol",
+  "slug": "vale-do-sol",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vale-do-sol",
+      "name": "Aniversário de Vale do Sol",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vale-do-sol-1110",
+      "name": "Feriado Municipal de Vale do Sol",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

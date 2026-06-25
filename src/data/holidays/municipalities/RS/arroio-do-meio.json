@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4301008,
+  "name": "Arroio do Meio",
+  "slug": "arroio-do-meio",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-arroio-do-meio",
+      "name": "Aniversário de Arroio do Meio",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

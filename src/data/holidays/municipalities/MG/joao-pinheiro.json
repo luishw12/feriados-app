@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3136306,
+  "name": "João Pinheiro",
+  "slug": "joao-pinheiro",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-joao-pinheiro",
+      "name": "Aniversário de João Pinheiro",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joao-pinheiro-0910",
+      "name": "Feriado Municipal de João Pinheiro",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joao-pinheiro-1031",
+      "name": "Feriado Municipal de João Pinheiro",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

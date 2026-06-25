@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2311603,
+  "name": "Redenção",
+  "slug": "redencao",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-redencao",
+      "name": "Aniversário de Redenção",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-redencao-1228",
+      "name": "Feriado Municipal de Redenção",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

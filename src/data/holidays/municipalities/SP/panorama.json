@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3535408,
+  "name": "Panorama",
+  "slug": "panorama",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-panorama",
+      "name": "Aniversário de Panorama",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

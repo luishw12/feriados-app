@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3132701,
+  "name": "Itambacuri",
+  "slug": "itambacuri",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itambacuri",
+      "name": "Aniversário de Itambacuri",
+      "date": "04-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itambacuri-0802",
+      "name": "Feriado Municipal de Itambacuri",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

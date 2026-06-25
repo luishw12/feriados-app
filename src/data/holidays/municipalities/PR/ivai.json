@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4111407,
+  "name": "Ivaí",
+  "slug": "ivai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ivai",
+      "name": "Aniversário de Ivaí",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ivai-1031",
+      "name": "Feriado Municipal de Ivaí",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ivai-1126",
+      "name": "Feriado Municipal de Ivaí",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

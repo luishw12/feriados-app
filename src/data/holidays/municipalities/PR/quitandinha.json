@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4121208,
+  "name": "Quitandinha",
+  "slug": "quitandinha",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-quitandinha",
+      "name": "Aniversário de Quitandinha",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quitandinha-0806",
+      "name": "Feriado Municipal de Quitandinha",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quitandinha-1208",
+      "name": "Feriado Municipal de Quitandinha",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

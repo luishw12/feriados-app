@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3501301,
+  "name": "Álvares Machado",
+  "slug": "alvares-machado",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-alvares-machado",
+      "name": "Aniversário de Álvares Machado",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alvares-machado-1130",
+      "name": "Feriado Municipal de Álvares Machado",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

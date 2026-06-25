@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3540754,
+  "name": "Potim",
+  "slug": "potim",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-potim",
+      "name": "Aniversário de Potim",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-potim-0806",
+      "name": "Feriado Municipal de Potim",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3161502,
+  "name": "São Geraldo",
+  "slug": "sao-geraldo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-geraldo",
+      "name": "Aniversário de São Geraldo",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-geraldo-0327",
+      "name": "Feriado Municipal de São Geraldo",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-geraldo-1213",
+      "name": "Feriado Municipal de São Geraldo",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

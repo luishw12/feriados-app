@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3526308,
+  "name": "Lagoinha",
+  "slug": "lagoinha",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-lagoinha",
+      "name": "Aniversário de Lagoinha",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoinha-1223",
+      "name": "Feriado Municipal de Lagoinha",
+      "date": "12-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

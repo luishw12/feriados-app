@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3111309,
+  "name": "Campo do Meio",
+  "slug": "campo-do-meio",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-campo-do-meio",
+      "name": "Aniversário de Campo do Meio",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-do-meio-1227",
+      "name": "Feriado Municipal de Campo do Meio",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

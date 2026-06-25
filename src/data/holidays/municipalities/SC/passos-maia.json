@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4212270,
+  "name": "Passos Maia",
+  "slug": "passos-maia",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-passos-maia",
+      "name": "Aniversário de Passos Maia",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

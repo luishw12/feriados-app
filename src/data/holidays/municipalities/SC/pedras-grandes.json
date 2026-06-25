@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4212403,
+  "name": "Pedras Grandes",
+  "slug": "pedras-grandes",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-pedras-grandes",
+      "name": "Aniversário de Pedras Grandes",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedras-grandes-1229",
+      "name": "Feriado Municipal de Pedras Grandes",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

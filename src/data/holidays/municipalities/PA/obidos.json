@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1505106,
+  "name": "Óbidos",
+  "slug": "obidos",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-obidos",
+      "name": "Aniversário de Óbidos",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-obidos-0726",
+      "name": "Feriado Municipal de Óbidos",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

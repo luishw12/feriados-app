@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2909604,
+  "name": "Crisópolis",
+  "slug": "crisopolis",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-crisopolis",
+      "name": "Aniversário de Crisópolis",
+      "date": "03-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3301504,
+  "name": "Cordeiro",
+  "slug": "cordeiro",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-cordeiro",
+      "name": "Aniversário de Cordeiro",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cordeiro-1231",
+      "name": "Feriado Municipal de Cordeiro",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

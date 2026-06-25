@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4107702,
+  "name": "Fênix",
+  "slug": "fenix",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-fenix",
+      "name": "Aniversário de Fênix",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

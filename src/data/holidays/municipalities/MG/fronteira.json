@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3127008,
+  "name": "Fronteira",
+  "slug": "fronteira",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-fronteira",
+      "name": "Aniversário de Fronteira",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fronteira-0718",
+      "name": "Feriado Municipal de Fronteira",
+      "date": "07-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

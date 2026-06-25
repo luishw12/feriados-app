@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4307104,
+  "name": "Herval",
+  "slug": "herval",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-herval",
+      "name": "Aniversário de Herval",
+      "date": "01-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-herval-0624",
+      "name": "Feriado Municipal de Herval",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

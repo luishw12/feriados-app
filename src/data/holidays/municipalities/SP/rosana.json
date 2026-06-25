@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3544251,
+  "name": "Rosana",
+  "slug": "rosana",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-rosana",
+      "name": "Aniversário de Rosana",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rosana-1105",
+      "name": "Feriado Municipal de Rosana",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

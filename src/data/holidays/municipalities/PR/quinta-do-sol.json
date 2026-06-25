@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4121109,
+  "name": "Quinta do Sol",
+  "slug": "quinta-do-sol",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-quinta-do-sol",
+      "name": "Aniversário de Quinta do Sol",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

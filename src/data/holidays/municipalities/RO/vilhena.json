@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100304,
+  "name": "Vilhena",
+  "slug": "vilhena",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-vilhena",
+      "name": "Aniversário de Vilhena",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vilhena-1123",
+      "name": "Feriado Municipal de Vilhena",
+      "date": "11-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

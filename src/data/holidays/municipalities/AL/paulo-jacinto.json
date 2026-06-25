@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2706604,
+  "name": "Paulo Jacinto",
+  "slug": "paulo-jacinto",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-paulo-jacinto",
+      "name": "Aniversário de Paulo Jacinto",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paulo-jacinto-1202",
+      "name": "Feriado Municipal de Paulo Jacinto",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

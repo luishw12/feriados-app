@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2923001,
+  "name": "Nova Viçosa",
+  "slug": "nova-vicosa",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-nova-vicosa",
+      "name": "Aniversário de Nova Viçosa",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-vicosa-1208",
+      "name": "Feriado Municipal de Nova Viçosa",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

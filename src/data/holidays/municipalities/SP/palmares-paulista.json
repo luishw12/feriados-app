@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3535101,
+  "name": "Palmares Paulista",
+  "slug": "palmares-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-palmares-paulista",
+      "name": "Aniversário de Palmares Paulista",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2905602,
+  "name": "Camacan",
+  "slug": "camacan",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-camacan",
+      "name": "Aniversário de Camacan",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camacan-0624",
+      "name": "Feriado Municipal de Camacan",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camacan-0831",
+      "name": "Feriado Municipal de Camacan",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

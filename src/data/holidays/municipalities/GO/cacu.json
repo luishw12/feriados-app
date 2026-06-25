@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5204300,
+  "name": "Caçu",
+  "slug": "cacu",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-cacu",
+      "name": "Aniversário de Caçu",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

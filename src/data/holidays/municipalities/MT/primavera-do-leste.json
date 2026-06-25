@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5107040,
+  "name": "Primavera do Leste",
+  "slug": "primavera-do-leste",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-primavera-do-leste",
+      "name": "Aniversário de Primavera do Leste",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-primavera-do-leste-0725",
+      "name": "Feriado Municipal de Primavera do Leste",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2803708,
+  "name": "Macambira",
+  "slug": "macambira",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-macambira",
+      "name": "Aniversário de Macambira",
+      "date": "11-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

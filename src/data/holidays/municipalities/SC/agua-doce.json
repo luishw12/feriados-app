@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4200408,
+  "name": "Água Doce",
+  "slug": "agua-doce",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-agua-doce",
+      "name": "Aniversário de Água Doce",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

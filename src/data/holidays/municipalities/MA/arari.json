@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2101004,
+  "name": "Arari",
+  "slug": "arari",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-arari",
+      "name": "Aniversário de Arari",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arari-0815",
+      "name": "Feriado Municipal de Arari",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arari-0914",
+      "name": "Feriado Municipal de Arari",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

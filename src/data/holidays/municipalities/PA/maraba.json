@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1504208,
+  "name": "Marabá",
+  "slug": "maraba",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-maraba",
+      "name": "Aniversário de Marabá",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

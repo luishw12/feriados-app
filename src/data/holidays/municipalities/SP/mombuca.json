@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3530904,
+  "name": "Mombuca",
+  "slug": "mombuca",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-mombuca",
+      "name": "Aniversário de Mombuca",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mombuca-0629",
+      "name": "Feriado Municipal de Mombuca",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mombuca-1101",
+      "name": "Feriado Municipal de Mombuca",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

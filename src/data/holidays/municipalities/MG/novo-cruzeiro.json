@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3145307,
+  "name": "Novo Cruzeiro",
+  "slug": "novo-cruzeiro",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-novo-cruzeiro",
+      "name": "Aniversário de Novo Cruzeiro",
+      "date": "07-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

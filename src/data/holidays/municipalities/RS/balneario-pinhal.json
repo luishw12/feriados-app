@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4301636,
+  "name": "Balneário Pinhal",
+  "slug": "balneario-pinhal",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-balneario-pinhal",
+      "name": "Aniversário de Balneário Pinhal",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

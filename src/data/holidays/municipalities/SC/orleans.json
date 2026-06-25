@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4211702,
+  "name": "Orleans",
+  "slug": "orleans",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-orleans",
+      "name": "Aniversário de Orleans",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

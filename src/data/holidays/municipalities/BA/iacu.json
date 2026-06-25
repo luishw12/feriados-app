@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2911907,
+  "name": "Iaçu",
+  "slug": "iacu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-iacu",
+      "name": "Aniversário de Iaçu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iacu-0814",
+      "name": "Feriado Municipal de Iaçu",
+      "date": "08-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iacu-1213",
+      "name": "Feriado Municipal de Iaçu",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

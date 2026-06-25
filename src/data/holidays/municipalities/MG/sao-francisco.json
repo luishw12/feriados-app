@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3161106,
+  "name": "São Francisco",
+  "slug": "sao-francisco",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-francisco",
+      "name": "Aniversário de São Francisco",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-francisco-1105",
+      "name": "Feriado Municipal de São Francisco",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-francisco-1208",
+      "name": "Feriado Municipal de São Francisco",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

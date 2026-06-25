@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2925709,
+  "name": "Presidente Jânio Quadros",
+  "slug": "presidente-janio-quadros",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-janio-quadros",
+      "name": "Aniversário de Presidente Jânio Quadros",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-janio-quadros-0624",
+      "name": "Feriado Municipal de Presidente Jânio Quadros",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-janio-quadros-1228",
+      "name": "Feriado Municipal de Presidente Jânio Quadros",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

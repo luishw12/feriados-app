@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4213401,
+  "name": "Ponte Serrada",
+  "slug": "ponte-serrada",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ponte-serrada",
+      "name": "Aniversário de Ponte Serrada",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ponte-serrada-0727",
+      "name": "Feriado Municipal de Ponte Serrada",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

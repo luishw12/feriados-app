@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3545605,
+  "name": "Santa Adélia",
+  "slug": "santa-adelia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-adelia",
+      "name": "Aniversário de Santa Adélia",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-adelia-1216",
+      "name": "Feriado Municipal de Santa Adélia",
+      "date": "12-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

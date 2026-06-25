@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3506607,
+  "name": "Biritiba Mirim",
+  "slug": "biritiba-mirim",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-biritiba-mirim",
+      "name": "Aniversário de Biritiba Mirim",
+      "date": "05-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

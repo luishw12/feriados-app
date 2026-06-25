@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2310902,
+  "name": "Piquet Carneiro",
+  "slug": "piquet-carneiro",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-piquet-carneiro",
+      "name": "Aniversário de Piquet Carneiro",
+      "date": "07-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

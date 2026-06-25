@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2930303,
+  "name": "Serra Dourada",
+  "slug": "serra-dourada",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-serra-dourada",
+      "name": "Aniversário de Serra Dourada",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serra-dourada-0412",
+      "name": "Feriado Municipal de Serra Dourada",
+      "date": "04-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

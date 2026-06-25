@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3516606,
+  "name": "Gália",
+  "slug": "galia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-galia",
+      "name": "Aniversário de Gália",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-galia-0414",
+      "name": "Feriado Municipal de Gália",
+      "date": "04-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

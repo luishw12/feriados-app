@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3304110,
+  "name": "Porto Real",
+  "slug": "porto-real",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-porto-real",
+      "name": "Aniversário de Porto Real",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-real-1105",
+      "name": "Feriado Municipal de Porto Real",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4200101,
+  "name": "Abelardo Luz",
+  "slug": "abelardo-luz",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-abelardo-luz",
+      "name": "Aniversário de Abelardo Luz",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-abelardo-luz-0525",
+      "name": "Feriado Municipal de Abelardo Luz",
+      "date": "05-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-abelardo-luz-0727",
+      "name": "Feriado Municipal de Abelardo Luz",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

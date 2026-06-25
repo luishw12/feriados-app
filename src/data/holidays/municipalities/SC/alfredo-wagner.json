@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4200705,
+  "name": "Alfredo Wagner",
+  "slug": "alfredo-wagner",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-alfredo-wagner",
+      "name": "Aniversário de Alfredo Wagner",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alfredo-wagner-1031",
+      "name": "Feriado Municipal de Alfredo Wagner",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

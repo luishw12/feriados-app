@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3138906,
+  "name": "Machacalis",
+  "slug": "machacalis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-machacalis",
+      "name": "Aniversário de Machacalis",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-machacalis-0624",
+      "name": "Feriado Municipal de Machacalis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

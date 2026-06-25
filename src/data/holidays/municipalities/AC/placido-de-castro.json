@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1200385,
+  "name": "Plácido de Castro",
+  "slug": "placido-de-castro",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-placido-de-castro",
+      "name": "Aniversário de Plácido de Castro",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-placido-de-castro-0330",
+      "name": "Feriado Municipal de Plácido de Castro",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-placido-de-castro-0906",
+      "name": "Feriado Municipal de Plácido de Castro",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

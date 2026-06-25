@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4109104,
+  "name": "Guaporema",
+  "slug": "guaporema",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-guaporema",
+      "name": "Aniversário de Guaporema",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaporema-0126",
+      "name": "Feriado Municipal de Guaporema",
+      "date": "01-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaporema-0319",
+      "name": "Feriado Municipal de Guaporema",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

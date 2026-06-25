@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2924108,
+  "name": "Pedrão",
+  "slug": "pedrao",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-pedrao",
+      "name": "Aniversário de Pedrão",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedrao-0629",
+      "name": "Feriado Municipal de Pedrão",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3518602,
+  "name": "Guariba",
+  "slug": "guariba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guariba",
+      "name": "Aniversário de Guariba",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

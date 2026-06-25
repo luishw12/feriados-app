@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3203403,
+  "name": "Mimoso do Sul",
+  "slug": "mimoso-do-sul",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-mimoso-do-sul",
+      "name": "Aniversário de Mimoso do Sul",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mimoso-do-sul-1126",
+      "name": "Feriado Municipal de Mimoso do Sul",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3145901,
+  "name": "Ouro Branco",
+  "slug": "ouro-branco",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ouro-branco",
+      "name": "Aniversário de Ouro Branco",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ouro-branco-1212",
+      "name": "Feriado Municipal de Ouro Branco",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

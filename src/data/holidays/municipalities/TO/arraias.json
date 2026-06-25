@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1702406,
+  "name": "Arraias",
+  "slug": "arraias",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-arraias",
+      "name": "Aniversário de Arraias",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arraias-0801",
+      "name": "Feriado Municipal de Arraias",
+      "date": "08-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

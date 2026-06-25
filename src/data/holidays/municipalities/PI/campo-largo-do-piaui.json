@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2202174,
+  "name": "Campo Largo do Piauí",
+  "slug": "campo-largo-do-piaui",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-campo-largo-do-piaui",
+      "name": "Aniversário de Campo Largo do Piauí",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

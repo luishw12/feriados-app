@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4316709,
+  "name": "Santa Bárbara do Sul",
+  "slug": "santa-barbara-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santa-barbara-do-sul",
+      "name": "Aniversário de Santa Bárbara do Sul",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

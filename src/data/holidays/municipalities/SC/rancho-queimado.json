@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4214300,
+  "name": "Rancho Queimado",
+  "slug": "rancho-queimado",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-rancho-queimado",
+      "name": "Aniversário de Rancho Queimado",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rancho-queimado-1108",
+      "name": "Feriado Municipal de Rancho Queimado",
+      "date": "11-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

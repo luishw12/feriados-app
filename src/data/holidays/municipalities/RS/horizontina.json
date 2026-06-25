@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4309605,
+  "name": "Horizontina",
+  "slug": "horizontina",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-horizontina",
+      "name": "Aniversário de Horizontina",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-horizontina-0725",
+      "name": "Feriado Municipal de Horizontina",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

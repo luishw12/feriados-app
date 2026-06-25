@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5203906,
+  "name": "Buriti Alegre",
+  "slug": "buriti-alegre",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-buriti-alegre",
+      "name": "Aniversário de Buriti Alegre",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buriti-alegre-0815",
+      "name": "Feriado Municipal de Buriti Alegre",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

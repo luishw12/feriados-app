@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5102686,
+  "name": "Campos de Júlio",
+  "slug": "campos-de-julio",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-campos-de-julio",
+      "name": "Aniversário de Campos de Júlio",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campos-de-julio-1128",
+      "name": "Feriado Municipal de Campos de Júlio",
+      "date": "11-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

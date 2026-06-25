@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519808,
+  "name": "Icém",
+  "slug": "icem",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-icem",
+      "name": "Aniversário de Icém",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-icem-1230",
+      "name": "Feriado Municipal de Icém",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2403251,
+  "name": "Parnamirim",
+  "slug": "parnamirim",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-parnamirim",
+      "name": "Aniversário de Parnamirim",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parnamirim-1217",
+      "name": "Feriado Municipal de Parnamirim",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

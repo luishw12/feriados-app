@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3532405,
+  "name": "Nazaré Paulista",
+  "slug": "nazare-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-nazare-paulista",
+      "name": "Aniversário de Nazaré Paulista",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nazare-paulista-1121",
+      "name": "Feriado Municipal de Nazaré Paulista",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

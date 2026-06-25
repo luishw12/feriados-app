@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3167905,
+  "name": "Tabuleiro",
+  "slug": "tabuleiro",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-tabuleiro",
+      "name": "Aniversário de Tabuleiro",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1301605,
+  "name": "Fonte Boa",
+  "slug": "fonte-boa",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-fonte-boa",
+      "name": "Aniversário de Fonte Boa",
+      "date": "03-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fonte-boa-1212",
+      "name": "Feriado Municipal de Fonte Boa",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

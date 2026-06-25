@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2404200,
+  "name": "Goianinha",
+  "slug": "goianinha",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-goianinha",
+      "name": "Aniversário de Goianinha",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

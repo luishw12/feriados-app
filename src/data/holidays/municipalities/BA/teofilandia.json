@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2931509,
+  "name": "Teofilândia",
+  "slug": "teofilandia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-teofilandia",
+      "name": "Aniversário de Teofilândia",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teofilandia-0613",
+      "name": "Feriado Municipal de Teofilândia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teofilandia-0629",
+      "name": "Feriado Municipal de Teofilândia",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teofilandia-0923",
+      "name": "Feriado Municipal de Teofilândia",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

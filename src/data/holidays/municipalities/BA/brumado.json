@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2904605,
+  "name": "Brumado",
+  "slug": "brumado",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-brumado",
+      "name": "Aniversário de Brumado",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brumado-0611",
+      "name": "Feriado Municipal de Brumado",
+      "date": "06-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brumado-0624",
+      "name": "Feriado Municipal de Brumado",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brumado-0806",
+      "name": "Feriado Municipal de Brumado",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

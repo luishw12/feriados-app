@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2804805,
+  "name": "Nossa Senhora do Socorro",
+  "slug": "nossa-senhora-do-socorro",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-nossa-senhora-do-socorro",
+      "name": "Aniversário de Nossa Senhora do Socorro",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nossa-senhora-do-socorro-0707",
+      "name": "Feriado Municipal de Nossa Senhora do Socorro",
+      "date": "07-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nossa-senhora-do-socorro-0815",
+      "name": "Feriado Municipal de Nossa Senhora do Socorro",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

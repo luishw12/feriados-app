@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2108702,
+  "name": "Pio XII",
+  "slug": "pio-xii",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-pio-xii",
+      "name": "Aniversário de Pio XII",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pio-xii-0726",
+      "name": "Feriado Municipal de Pio XII",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pio-xii-0811",
+      "name": "Feriado Municipal de Pio XII",
+      "date": "08-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pio-xii-1119",
+      "name": "Feriado Municipal de Pio XII",
+      "date": "11-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

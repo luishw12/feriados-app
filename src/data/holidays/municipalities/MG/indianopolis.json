@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3130705,
+  "name": "Indianópolis",
+  "slug": "indianopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-indianopolis",
+      "name": "Aniversário de Indianópolis",
+      "date": "05-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-indianopolis-0726",
+      "name": "Feriado Municipal de Indianópolis",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-indianopolis-1217",
+      "name": "Feriado Municipal de Indianópolis",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3205010,
+  "name": "Sooretama",
+  "slug": "sooretama",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-sooretama",
+      "name": "Aniversário de Sooretama",
+      "date": "03-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

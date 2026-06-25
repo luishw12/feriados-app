@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3204658,
+  "name": "São Domingos do Norte",
+  "slug": "sao-domingos-do-norte",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-sao-domingos-do-norte",
+      "name": "Aniversário de São Domingos do Norte",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-domingos-do-norte-0808",
+      "name": "Feriado Municipal de São Domingos do Norte",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-domingos-do-norte-1031",
+      "name": "Feriado Municipal de São Domingos do Norte",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

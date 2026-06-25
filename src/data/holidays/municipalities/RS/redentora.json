@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4315404,
+  "name": "Redentora",
+  "slug": "redentora",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-redentora",
+      "name": "Aniversário de Redentora",
+      "date": "04-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-redentora-0419",
+      "name": "Feriado Municipal de Redentora",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-redentora-0725",
+      "name": "Feriado Municipal de Redentora",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

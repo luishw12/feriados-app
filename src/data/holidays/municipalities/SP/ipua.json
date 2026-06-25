@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3521309,
+  "name": "Ipuã",
+  "slug": "ipua",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ipua",
+      "name": "Aniversário de Ipuã",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipua-0726",
+      "name": "Feriado Municipal de Ipuã",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

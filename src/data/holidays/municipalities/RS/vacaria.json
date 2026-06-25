@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4322509,
+  "name": "Vacaria",
+  "slug": "vacaria",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vacaria",
+      "name": "Aniversário de Vacaria",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

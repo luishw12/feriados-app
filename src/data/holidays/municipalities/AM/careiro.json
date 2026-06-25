@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1301100,
+  "name": "Careiro",
+  "slug": "careiro",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-careiro",
+      "name": "Aniversário de Careiro",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-careiro-1219",
+      "name": "Feriado Municipal de Careiro",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4206900,
+  "name": "Ibirama",
+  "slug": "ibirama",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ibirama",
+      "name": "Aniversário de Ibirama",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

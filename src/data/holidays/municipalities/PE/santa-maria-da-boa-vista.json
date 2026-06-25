@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2612604,
+  "name": "Santa Maria da Boa Vista",
+  "slug": "santa-maria-da-boa-vista",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-santa-maria-da-boa-vista",
+      "name": "Aniversário de Santa Maria da Boa Vista",
+      "date": "06-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-maria-da-boa-vista-1208",
+      "name": "Feriado Municipal de Santa Maria da Boa Vista",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

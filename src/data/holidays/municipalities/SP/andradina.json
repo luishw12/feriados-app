@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3502101,
+  "name": "Andradina",
+  "slug": "andradina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-andradina",
+      "name": "Aniversário de Andradina",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-andradina-0711",
+      "name": "Feriado Municipal de Andradina",
+      "date": "07-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4307401,
+  "name": "Esmeralda",
+  "slug": "esmeralda",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-esmeralda",
+      "name": "Aniversário de Esmeralda",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-esmeralda-0806",
+      "name": "Feriado Municipal de Esmeralda",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-esmeralda-1127",
+      "name": "Feriado Municipal de Esmeralda",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

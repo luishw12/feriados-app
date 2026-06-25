@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2927101,
+  "name": "Rodelas",
+  "slug": "rodelas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-rodelas",
+      "name": "Aniversário de Rodelas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rodelas-0731",
+      "name": "Feriado Municipal de Rodelas",
+      "date": "07-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

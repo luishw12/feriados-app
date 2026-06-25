@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2511509,
+  "name": "Pilar",
+  "slug": "pilar",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-pilar",
+      "name": "Aniversário de Pilar",
+      "date": "04-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pilar-0603",
+      "name": "Feriado Municipal de Pilar",
+      "date": "06-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

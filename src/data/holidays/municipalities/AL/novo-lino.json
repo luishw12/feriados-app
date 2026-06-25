@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2705606,
+  "name": "Novo Lino",
+  "slug": "novo-lino",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-novo-lino",
+      "name": "Aniversário de Novo Lino",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-lino-1201",
+      "name": "Feriado Municipal de Novo Lino",
+      "date": "12-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

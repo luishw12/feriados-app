@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4100202,
+  "name": "Adrianópolis",
+  "slug": "adrianopolis",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-adrianopolis",
+      "name": "Aniversário de Adrianópolis",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-adrianopolis-1204",
+      "name": "Feriado Municipal de Adrianópolis",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

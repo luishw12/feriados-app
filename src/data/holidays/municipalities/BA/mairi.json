@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2920106,
+  "name": "Mairi",
+  "slug": "mairi",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-mairi",
+      "name": "Aniversário de Mairi",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mairi-0915",
+      "name": "Feriado Municipal de Mairi",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

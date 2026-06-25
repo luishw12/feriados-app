@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2919108,
+  "name": "Lamarão",
+  "slug": "lamarao",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-lamarao",
+      "name": "Aniversário de Lamarão",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

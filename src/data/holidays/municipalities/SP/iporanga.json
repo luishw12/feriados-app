@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3521200,
+  "name": "Iporanga",
+  "slug": "iporanga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-iporanga",
+      "name": "Aniversário de Iporanga",
+      "date": "01-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iporanga-0726",
+      "name": "Feriado Municipal de Iporanga",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iporanga-1231",
+      "name": "Feriado Municipal de Iporanga",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

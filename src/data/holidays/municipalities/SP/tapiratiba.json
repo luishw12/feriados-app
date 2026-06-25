@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3553609,
+  "name": "Tapiratiba",
+  "slug": "tapiratiba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-tapiratiba",
+      "name": "Aniversário de Tapiratiba",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

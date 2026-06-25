@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3521507,
+  "name": "Irapuã",
+  "slug": "irapua",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-irapua",
+      "name": "Aniversário de Irapuã",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irapua-1101",
+      "name": "Feriado Municipal de Irapuã",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irapua-1130",
+      "name": "Feriado Municipal de Irapuã",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

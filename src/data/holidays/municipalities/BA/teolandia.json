@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2931608,
+  "name": "Teolândia",
+  "slug": "teolandia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-teolandia",
+      "name": "Aniversário de Teolândia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teolandia-0624",
+      "name": "Feriado Municipal de Teolândia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teolandia-0719",
+      "name": "Feriado Municipal de Teolândia",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

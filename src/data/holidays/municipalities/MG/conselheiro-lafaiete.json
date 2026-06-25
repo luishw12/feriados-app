@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3118304,
+  "name": "Conselheiro Lafaiete",
+  "slug": "conselheiro-lafaiete",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-conselheiro-lafaiete",
+      "name": "Aniversário de Conselheiro Lafaiete",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

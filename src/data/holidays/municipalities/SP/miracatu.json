@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3529906,
+  "name": "Miracatu",
+  "slug": "miracatu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-miracatu",
+      "name": "Aniversário de Miracatu",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miracatu-1130",
+      "name": "Feriado Municipal de Miracatu",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

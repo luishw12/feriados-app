@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2200608,
+  "name": "Angical do Piauí",
+  "slug": "angical-do-piaui",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-angical-do-piaui",
+      "name": "Aniversário de Angical do Piauí",
+      "date": "07-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-angical-do-piaui-1208",
+      "name": "Feriado Municipal de Angical do Piauí",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

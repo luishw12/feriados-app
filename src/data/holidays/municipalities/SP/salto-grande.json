@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3545407,
+  "name": "Salto Grande",
+  "slug": "salto-grande",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-salto-grande",
+      "name": "Aniversário de Salto Grande",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-grande-0604",
+      "name": "Feriado Municipal de Salto Grande",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-grande-0915",
+      "name": "Feriado Municipal de Salto Grande",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-grande-1227",
+      "name": "Feriado Municipal de Salto Grande",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

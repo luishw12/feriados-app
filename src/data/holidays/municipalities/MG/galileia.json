@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3127305,
+  "name": "Galiléia",
+  "slug": "galileia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-galileia",
+      "name": "Aniversário de Galiléia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-galileia-0725",
+      "name": "Feriado Municipal de Galiléia",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-galileia-1031",
+      "name": "Feriado Municipal de Galiléia",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-galileia-1227",
+      "name": "Feriado Municipal de Galiléia",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

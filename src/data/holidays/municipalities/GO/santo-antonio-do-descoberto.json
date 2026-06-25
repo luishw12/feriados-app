@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5219753,
+  "name": "Santo Antônio do Descoberto",
+  "slug": "santo-antonio-do-descoberto",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-descoberto",
+      "name": "Aniversário de Santo Antônio do Descoberto",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-descoberto-0514",
+      "name": "Feriado Municipal de Santo Antônio do Descoberto",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-descoberto-0613",
+      "name": "Feriado Municipal de Santo Antônio do Descoberto",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-descoberto-1130",
+      "name": "Feriado Municipal de Santo Antônio do Descoberto",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

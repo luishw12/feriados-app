@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3554508,
+  "name": "Tietê",
+  "slug": "tiete",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-tiete",
+      "name": "Aniversário de Tietê",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tiete-0815",
+      "name": "Feriado Municipal de Tietê",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

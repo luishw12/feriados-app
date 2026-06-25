@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3549201,
+  "name": "São João das Duas Pontes",
+  "slug": "sao-joao-das-duas-pontes",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-das-duas-pontes",
+      "name": "Aniversário de São João das Duas Pontes",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

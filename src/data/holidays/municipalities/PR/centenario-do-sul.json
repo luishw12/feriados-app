@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4105102,
+  "name": "Centenário do Sul",
+  "slug": "centenario-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-centenario-do-sul",
+      "name": "Aniversário de Centenário do Sul",
+      "date": "01-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-centenario-do-sul-1127",
+      "name": "Feriado Municipal de Centenário do Sul",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

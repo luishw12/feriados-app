@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519105,
+  "name": "Iacanga",
+  "slug": "iacanga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-iacanga",
+      "name": "Aniversário de Iacanga",
+      "date": "04-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iacanga-0624",
+      "name": "Feriado Municipal de Iacanga",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

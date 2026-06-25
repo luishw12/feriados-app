@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2506103,
+  "name": "Fagundes",
+  "slug": "fagundes",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-fagundes",
+      "name": "Aniversário de Fagundes",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fagundes-0613",
+      "name": "Feriado Municipal de Fagundes",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fagundes-0624",
+      "name": "Feriado Municipal de Fagundes",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fagundes-1222",
+      "name": "Feriado Municipal de Fagundes",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

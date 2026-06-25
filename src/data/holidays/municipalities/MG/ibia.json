@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3129509,
+  "name": "Ibiá",
+  "slug": "ibia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ibia",
+      "name": "Aniversário de Ibiá",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

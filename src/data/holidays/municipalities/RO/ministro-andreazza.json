@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1101203,
+  "name": "Ministro Andreazza",
+  "slug": "ministro-andreazza",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-ministro-andreazza",
+      "name": "Aniversário de Ministro Andreazza",
+      "date": "02-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

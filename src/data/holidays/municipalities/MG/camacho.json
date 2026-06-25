@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3110400,
+  "name": "Camacho",
+  "slug": "camacho",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-camacho",
+      "name": "Aniversário de Camacho",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camacho-0915",
+      "name": "Feriado Municipal de Camacho",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

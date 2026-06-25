@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3142601,
+  "name": "Monsenhor Paulo",
+  "slug": "monsenhor-paulo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-monsenhor-paulo",
+      "name": "Aniversário de Monsenhor Paulo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

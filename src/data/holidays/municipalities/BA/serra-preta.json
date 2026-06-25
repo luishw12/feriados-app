@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2930402,
+  "name": "Serra Preta",
+  "slug": "serra-preta",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-serra-preta",
+      "name": "Aniversário de Serra Preta",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serra-preta-0426",
+      "name": "Feriado Municipal de Serra Preta",
+      "date": "04-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serra-preta-0624",
+      "name": "Feriado Municipal de Serra Preta",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serra-preta-1201",
+      "name": "Feriado Municipal de Serra Preta",
+      "date": "12-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

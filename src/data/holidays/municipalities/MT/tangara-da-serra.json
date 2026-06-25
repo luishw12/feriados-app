@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5107958,
+  "name": "Tangará da Serra",
+  "slug": "tangara-da-serra",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-tangara-da-serra",
+      "name": "Aniversário de Tangará da Serra",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

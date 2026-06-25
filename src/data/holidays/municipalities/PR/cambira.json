@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4103800,
+  "name": "Cambira",
+  "slug": "cambira",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cambira",
+      "name": "Aniversário de Cambira",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cambira-1022",
+      "name": "Feriado Municipal de Cambira",
+      "date": "10-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

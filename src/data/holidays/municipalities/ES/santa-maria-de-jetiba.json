@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3204559,
+  "name": "Santa Maria de Jetibá",
+  "slug": "santa-maria-de-jetiba",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-santa-maria-de-jetiba",
+      "name": "Aniversário de Santa Maria de Jetibá",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

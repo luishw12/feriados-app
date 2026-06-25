@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2310209,
+  "name": "Paracuru",
+  "slug": "paracuru",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-paracuru",
+      "name": "Aniversário de Paracuru",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paracuru-1122",
+      "name": "Feriado Municipal de Paracuru",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2313351,
+  "name": "Tejuçuoca",
+  "slug": "tejucuoca",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-tejucuoca",
+      "name": "Aniversário de Tejuçuoca",
+      "date": "01-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tejucuoca-0629",
+      "name": "Feriado Municipal de Tejuçuoca",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

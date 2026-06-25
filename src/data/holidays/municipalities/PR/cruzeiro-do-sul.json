@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4106704,
+  "name": "Cruzeiro do Sul",
+  "slug": "cruzeiro-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cruzeiro-do-sul",
+      "name": "Aniversário de Cruzeiro do Sul",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2801702,
+  "name": "Cristinápolis",
+  "slug": "cristinapolis",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-cristinapolis",
+      "name": "Aniversário de Cristinápolis",
+      "date": "04-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristinapolis-0624",
+      "name": "Feriado Municipal de Cristinápolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristinapolis-0629",
+      "name": "Feriado Municipal de Cristinápolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

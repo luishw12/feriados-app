@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3548203,
+  "name": "Santo Antônio do Pinhal",
+  "slug": "santo-antonio-do-pinhal",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-pinhal",
+      "name": "Aniversário de Santo Antônio do Pinhal",
+      "date": "01-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-pinhal-0613",
+      "name": "Feriado Municipal de Santo Antônio do Pinhal",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3167400,
+  "name": "Silvianópolis",
+  "slug": "silvianopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-silvianopolis",
+      "name": "Aniversário de Silvianópolis",
+      "date": "06-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-silvianopolis-0726",
+      "name": "Feriado Municipal de Silvianópolis",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-silvianopolis-0830",
+      "name": "Feriado Municipal de Silvianópolis",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

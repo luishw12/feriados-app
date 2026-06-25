@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 1400209,
+  "name": "Caracaraí",
+  "slug": "caracarai",
+  "uf": "RR",
+  "holidays": [
+    {
+      "id": "aniversario-caracarai",
+      "name": "Aniversário de Caracaraí",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caracarai-0319",
+      "name": "Feriado Municipal de Caracaraí",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caracarai-0527",
+      "name": "Feriado Municipal de Caracaraí",
+      "date": "05-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caracarai-1213",
+      "name": "Feriado Municipal de Caracaraí",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caracarai-1231",
+      "name": "Feriado Municipal de Caracaraí",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

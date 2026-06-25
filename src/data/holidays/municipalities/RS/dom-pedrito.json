@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4306601,
+  "name": "Dom Pedrito",
+  "slug": "dom-pedrito",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-dom-pedrito",
+      "name": "Aniversário de Dom Pedrito",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dom-pedrito-0403",
+      "name": "Feriado Municipal de Dom Pedrito",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dom-pedrito-0604",
+      "name": "Feriado Municipal de Dom Pedrito",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dom-pedrito-1030",
+      "name": "Feriado Municipal de Dom Pedrito",
+      "date": "10-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

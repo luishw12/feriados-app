@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3106309,
+  "name": "Belo Oriente",
+  "slug": "belo-oriente",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-belo-oriente",
+      "name": "Aniversário de Belo Oriente",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-belo-oriente-0915",
+      "name": "Feriado Municipal de Belo Oriente",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

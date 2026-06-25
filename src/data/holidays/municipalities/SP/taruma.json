@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3553955,
+  "name": "Tarumã",
+  "slug": "taruma",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-taruma",
+      "name": "Aniversário de Tarumã",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

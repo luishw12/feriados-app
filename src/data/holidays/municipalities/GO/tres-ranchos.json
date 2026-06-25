@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5221304,
+  "name": "Três Ranchos",
+  "slug": "tres-ranchos",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-tres-ranchos",
+      "name": "Aniversário de Três Ranchos",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tres-ranchos-0815",
+      "name": "Feriado Municipal de Três Ranchos",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

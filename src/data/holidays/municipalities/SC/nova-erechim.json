@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4211405,
+  "name": "Nova Erechim",
+  "slug": "nova-erechim",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-nova-erechim",
+      "name": "Aniversário de Nova Erechim",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-erechim-0725",
+      "name": "Feriado Municipal de Nova Erechim",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-erechim-1125",
+      "name": "Feriado Municipal de Nova Erechim",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-erechim-1228",
+      "name": "Feriado Municipal de Nova Erechim",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

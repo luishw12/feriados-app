@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4217501,
+  "name": "Seara",
+  "slug": "seara",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-seara",
+      "name": "Aniversário de Seara",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

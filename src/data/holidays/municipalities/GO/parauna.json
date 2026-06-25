@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5216403,
+  "name": "Paraúna",
+  "slug": "parauna",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-parauna",
+      "name": "Aniversário de Paraúna",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parauna-1110",
+      "name": "Feriado Municipal de Paraúna",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

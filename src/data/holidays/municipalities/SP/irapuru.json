@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3521606,
+  "name": "Irapuru",
+  "slug": "irapuru",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-irapuru",
+      "name": "Aniversário de Irapuru",
+      "date": "01-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irapuru-0506",
+      "name": "Feriado Municipal de Irapuru",
+      "date": "05-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

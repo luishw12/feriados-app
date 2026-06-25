@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4119152,
+  "name": "Pinhais",
+  "slug": "pinhais",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-pinhais",
+      "name": "Aniversário de Pinhais",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

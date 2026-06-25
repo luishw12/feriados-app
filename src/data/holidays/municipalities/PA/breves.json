@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1501808,
+  "name": "Breves",
+  "slug": "breves",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-breves",
+      "name": "Aniversário de Breves",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

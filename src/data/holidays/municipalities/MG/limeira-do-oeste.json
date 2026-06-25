@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3138625,
+  "name": "Limeira do Oeste",
+  "slug": "limeira-do-oeste",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-limeira-do-oeste",
+      "name": "Aniversário de Limeira do Oeste",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

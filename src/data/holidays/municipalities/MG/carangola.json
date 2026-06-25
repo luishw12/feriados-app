@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3113305,
+  "name": "Carangola",
+  "slug": "carangola",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carangola",
+      "name": "Aniversário de Carangola",
+      "date": "01-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carangola-1213",
+      "name": "Feriado Municipal de Carangola",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

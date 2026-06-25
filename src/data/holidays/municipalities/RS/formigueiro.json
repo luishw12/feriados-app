@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4308409,
+  "name": "Formigueiro",
+  "slug": "formigueiro",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-formigueiro",
+      "name": "Aniversário de Formigueiro",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

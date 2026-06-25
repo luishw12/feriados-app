@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5105259,
+  "name": "Lucas do Rio Verde",
+  "slug": "lucas-do-rio-verde",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-lucas-do-rio-verde",
+      "name": "Aniversário de Lucas do Rio Verde",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lucas-do-rio-verde-0805",
+      "name": "Feriado Municipal de Lucas do Rio Verde",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

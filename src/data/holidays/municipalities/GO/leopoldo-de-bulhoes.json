@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5212303,
+  "name": "Leopoldo de Bulhões",
+  "slug": "leopoldo-de-bulhoes",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-leopoldo-de-bulhoes",
+      "name": "Aniversário de Leopoldo de Bulhões",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leopoldo-de-bulhoes-0524",
+      "name": "Feriado Municipal de Leopoldo de Bulhões",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leopoldo-de-bulhoes-0815",
+      "name": "Feriado Municipal de Leopoldo de Bulhões",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leopoldo-de-bulhoes-0902",
+      "name": "Feriado Municipal de Leopoldo de Bulhões",
+      "date": "09-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

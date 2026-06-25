@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3110806,
+  "name": "Campanário",
+  "slug": "campanario",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-campanario",
+      "name": "Aniversário de Campanário",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campanario-0926",
+      "name": "Feriado Municipal de Campanário",
+      "date": "09-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campanario-1213",
+      "name": "Feriado Municipal de Campanário",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

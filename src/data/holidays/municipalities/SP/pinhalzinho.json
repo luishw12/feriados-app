@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3538204,
+  "name": "Pinhalzinho",
+  "slug": "pinhalzinho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pinhalzinho",
+      "name": "Aniversário de Pinhalzinho",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pinhalzinho-0924",
+      "name": "Feriado Municipal de Pinhalzinho",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

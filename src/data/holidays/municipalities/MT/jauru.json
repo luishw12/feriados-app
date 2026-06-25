@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5105002,
+  "name": "Jauru",
+  "slug": "jauru",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-jauru",
+      "name": "Aniversário de Jauru",
+      "date": "02-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jauru-0429",
+      "name": "Feriado Municipal de Jauru",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jauru-0920",
+      "name": "Feriado Municipal de Jauru",
+      "date": "09-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

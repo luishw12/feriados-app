@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2407401,
+  "name": "Martins",
+  "slug": "martins",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-martins",
+      "name": "Aniversário de Martins",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-martins-1110",
+      "name": "Feriado Municipal de Martins",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

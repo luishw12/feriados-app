@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5107941,
+  "name": "Tabaporã",
+  "slug": "tabapora",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-tabapora",
+      "name": "Aniversário de Tabaporã",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tabapora-0920",
+      "name": "Feriado Municipal de Tabaporã",
+      "date": "09-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3171105,
+  "name": "Veríssimo",
+  "slug": "verissimo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-verissimo",
+      "name": "Aniversário de Veríssimo",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-verissimo-0929",
+      "name": "Feriado Municipal de Veríssimo",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-verissimo-1217",
+      "name": "Feriado Municipal de Veríssimo",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

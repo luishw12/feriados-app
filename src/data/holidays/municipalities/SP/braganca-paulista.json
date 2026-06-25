@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3507605,
+  "name": "Bragança Paulista",
+  "slug": "braganca-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-braganca-paulista",
+      "name": "Aniversário de Bragança Paulista",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

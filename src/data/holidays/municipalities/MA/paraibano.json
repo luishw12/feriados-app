@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2107704,
+  "name": "Paraibano",
+  "slug": "paraibano",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-paraibano",
+      "name": "Aniversário de Paraibano",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraibano-0815",
+      "name": "Feriado Municipal de Paraibano",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

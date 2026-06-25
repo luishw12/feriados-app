@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4218954,
+  "name": "Urupema",
+  "slug": "urupema",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-urupema",
+      "name": "Aniversário de Urupema",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-urupema-0726",
+      "name": "Feriado Municipal de Urupema",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

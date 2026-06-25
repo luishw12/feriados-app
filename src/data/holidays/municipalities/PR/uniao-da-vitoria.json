@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4128203,
+  "name": "União da Vitória",
+  "slug": "uniao-da-vitoria",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-uniao-da-vitoria",
+      "name": "Aniversário de União da Vitória",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uniao-da-vitoria-0615",
+      "name": "Feriado Municipal de União da Vitória",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

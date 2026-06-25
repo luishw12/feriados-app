@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3535804,
+  "name": "Paranapanema",
+  "slug": "paranapanema",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-paranapanema",
+      "name": "Aniversário de Paranapanema",
+      "date": "04-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranapanema-0509",
+      "name": "Feriado Municipal de Paranapanema",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranapanema-0815",
+      "name": "Feriado Municipal de Paranapanema",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

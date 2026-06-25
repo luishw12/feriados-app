@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 2929206,
+  "name": "São Francisco do Conde",
+  "slug": "sao-francisco-do-conde",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-francisco-do-conde",
+      "name": "Aniversário de São Francisco do Conde",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-francisco-do-conde-0403",
+      "name": "Feriado Municipal de São Francisco do Conde",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-francisco-do-conde-0604",
+      "name": "Feriado Municipal de São Francisco do Conde",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-francisco-do-conde-0629",
+      "name": "Feriado Municipal de São Francisco do Conde",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-francisco-do-conde-1004",
+      "name": "Feriado Municipal de São Francisco do Conde",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

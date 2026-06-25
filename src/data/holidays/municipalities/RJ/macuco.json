@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3302452,
+  "name": "Macuco",
+  "slug": "macuco",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-macuco",
+      "name": "Aniversário de Macuco",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-macuco-1228",
+      "name": "Feriado Municipal de Macuco",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4205456,
+  "name": "Forquilhinha",
+  "slug": "forquilhinha",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-forquilhinha",
+      "name": "Aniversário de Forquilhinha",
+      "date": "04-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-forquilhinha-1204",
+      "name": "Feriado Municipal de Forquilhinha",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

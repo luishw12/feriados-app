@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2304707,
+  "name": "Granja",
+  "slug": "granja",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-granja",
+      "name": "Aniversário de Granja",
+      "date": "07-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-granja-1103",
+      "name": "Feriado Municipal de Granja",
+      "date": "11-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

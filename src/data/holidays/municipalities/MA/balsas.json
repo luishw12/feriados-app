@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2101400,
+  "name": "Balsas",
+  "slug": "balsas",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-balsas",
+      "name": "Aniversário de Balsas",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-balsas-0612",
+      "name": "Feriado Municipal de Balsas",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-balsas-0613",
+      "name": "Feriado Municipal de Balsas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

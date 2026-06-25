@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2913507,
+  "name": "Iguaí",
+  "slug": "iguai",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-iguai",
+      "name": "Aniversário de Iguaí",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iguai-1212",
+      "name": "Feriado Municipal de Iguaí",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

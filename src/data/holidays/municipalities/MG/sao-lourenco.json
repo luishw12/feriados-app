@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3163706,
+  "name": "São Lourenço",
+  "slug": "sao-lourenco",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-lourenco",
+      "name": "Aniversário de São Lourenço",
+      "date": "04-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-lourenco-0810",
+      "name": "Feriado Municipal de São Lourenço",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

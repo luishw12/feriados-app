@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3102308,
+  "name": "Alvinópolis",
+  "slug": "alvinopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-alvinopolis",
+      "name": "Aniversário de Alvinópolis",
+      "date": "02-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3556305,
+  "name": "Valparaíso",
+  "slug": "valparaiso",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-valparaiso",
+      "name": "Aniversário de Valparaíso",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-valparaiso-0530",
+      "name": "Feriado Municipal de Valparaíso",
+      "date": "05-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-valparaiso-0815",
+      "name": "Feriado Municipal de Valparaíso",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3532702,
+  "name": "Nipoã",
+  "slug": "nipoa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-nipoa",
+      "name": "Aniversário de Nipoã",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nipoa-0908",
+      "name": "Feriado Municipal de Nipoã",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nipoa-1208",
+      "name": "Feriado Municipal de Nipoã",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

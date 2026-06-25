@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3525607,
+  "name": "João Ramalho",
+  "slug": "joao-ramalho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-joao-ramalho",
+      "name": "Aniversário de João Ramalho",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joao-ramalho-0624",
+      "name": "Feriado Municipal de João Ramalho",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

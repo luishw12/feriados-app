@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5000708,
+  "name": "Anastácio",
+  "slug": "anastacio",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-anastacio",
+      "name": "Aniversário de Anastácio",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anastacio-0508",
+      "name": "Feriado Municipal de Anastácio",
+      "date": "05-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

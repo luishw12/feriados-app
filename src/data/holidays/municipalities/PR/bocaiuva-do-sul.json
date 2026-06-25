@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4103107,
+  "name": "Bocaiúva do Sul",
+  "slug": "bocaiuva-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-bocaiuva-do-sul",
+      "name": "Aniversário de Bocaiúva do Sul",
+      "date": "04-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bocaiuva-do-sul-0613",
+      "name": "Feriado Municipal de Bocaiúva do Sul",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bocaiuva-do-sul-0806",
+      "name": "Feriado Municipal de Bocaiúva do Sul",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

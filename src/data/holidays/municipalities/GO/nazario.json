@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5214408,
+  "name": "Nazário",
+  "slug": "nazario",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-nazario",
+      "name": "Aniversário de Nazário",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

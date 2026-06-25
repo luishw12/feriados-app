@@ -1,0 +1,74 @@
+{
+  "ibgeCode": 4116059,
+  "name": "Missal",
+  "slug": "missal",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-missal",
+      "name": "Aniversário de Missal",
+      "date": "02-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-missal-0403",
+      "name": "Feriado Municipal de Missal",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-missal-0604",
+      "name": "Feriado Municipal de Missal",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-missal-0725",
+      "name": "Feriado Municipal de Missal",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-missal-1031",
+      "name": "Feriado Municipal de Missal",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-missal-1208",
+      "name": "Feriado Municipal de Missal",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

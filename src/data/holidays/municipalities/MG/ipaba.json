@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3131158,
+  "name": "Ipaba",
+  "slug": "ipaba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ipaba",
+      "name": "Aniversário de Ipaba",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipaba-0901",
+      "name": "Feriado Municipal de Ipaba",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

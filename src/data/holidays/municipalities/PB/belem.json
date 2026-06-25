@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2501906,
+  "name": "Belém",
+  "slug": "belem",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-belem",
+      "name": "Aniversário de Belém",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-belem-0906",
+      "name": "Feriado Municipal de Belém",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-belem-1208",
+      "name": "Feriado Municipal de Belém",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

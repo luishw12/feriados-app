@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4201604,
+  "name": "Arroio Trinta",
+  "slug": "arroio-trinta",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-arroio-trinta",
+      "name": "Aniversário de Arroio Trinta",
+      "date": "07-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arroio-trinta-1215",
+      "name": "Feriado Municipal de Arroio Trinta",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

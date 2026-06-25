@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2904001,
+  "name": "Boninal",
+  "slug": "boninal",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-boninal",
+      "name": "Aniversário de Boninal",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boninal-0624",
+      "name": "Feriado Municipal de Boninal",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

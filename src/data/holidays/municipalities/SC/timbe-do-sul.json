@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4218103,
+  "name": "Timbé do Sul",
+  "slug": "timbe-do-sul",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-timbe-do-sul",
+      "name": "Aniversário de Timbé do Sul",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-timbe-do-sul-0923",
+      "name": "Feriado Municipal de Timbé do Sul",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

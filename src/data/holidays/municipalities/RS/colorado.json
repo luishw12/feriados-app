@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4305603,
+  "name": "Colorado",
+  "slug": "colorado",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-colorado",
+      "name": "Aniversário de Colorado",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colorado-0913",
+      "name": "Feriado Municipal de Colorado",
+      "date": "09-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

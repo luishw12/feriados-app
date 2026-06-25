@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2104057,
+  "name": "Estreito",
+  "slug": "estreito",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-estreito",
+      "name": "Aniversário de Estreito",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estreito-0512",
+      "name": "Feriado Municipal de Estreito",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estreito-0716",
+      "name": "Feriado Municipal de Estreito",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

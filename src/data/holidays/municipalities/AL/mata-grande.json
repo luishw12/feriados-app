@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2705002,
+  "name": "Mata Grande",
+  "slug": "mata-grande",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-mata-grande",
+      "name": "Aniversário de Mata Grande",
+      "date": "03-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

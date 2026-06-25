@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3146305,
+  "name": "Padre Paraíso",
+  "slug": "padre-paraiso",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-padre-paraiso",
+      "name": "Aniversário de Padre Paraíso",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-padre-paraiso-1231",
+      "name": "Feriado Municipal de Padre Paraíso",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

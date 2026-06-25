@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4314423,
+  "name": "Picada Café",
+  "slug": "picada-cafe",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-picada-cafe",
+      "name": "Aniversário de Picada Café",
+      "date": "05-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

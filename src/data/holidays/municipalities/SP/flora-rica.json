@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3515806,
+  "name": "Flora Rica",
+  "slug": "flora-rica",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-flora-rica",
+      "name": "Aniversário de Flora Rica",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

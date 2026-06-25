@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5218904,
+  "name": "Rubiataba",
+  "slug": "rubiataba",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-rubiataba",
+      "name": "Aniversário de Rubiataba",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

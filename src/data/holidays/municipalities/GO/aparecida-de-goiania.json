@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5201405,
+  "name": "Aparecida de Goiânia",
+  "slug": "aparecida-de-goiania",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-aparecida-de-goiania",
+      "name": "Aniversário de Aparecida de Goiânia",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aparecida-de-goiania-0511",
+      "name": "Feriado Municipal de Aparecida de Goiânia",
+      "date": "05-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aparecida-de-goiania-0604",
+      "name": "Feriado Municipal de Aparecida de Goiânia",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aparecida-de-goiania-1114",
+      "name": "Feriado Municipal de Aparecida de Goiânia",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

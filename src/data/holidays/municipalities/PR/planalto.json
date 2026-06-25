@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4119806,
+  "name": "Planalto",
+  "slug": "planalto",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-planalto",
+      "name": "Aniversário de Planalto",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

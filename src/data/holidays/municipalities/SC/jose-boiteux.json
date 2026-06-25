@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4209151,
+  "name": "José Boiteux",
+  "slug": "jose-boiteux",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-jose-boiteux",
+      "name": "Aniversário de José Boiteux",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jose-boiteux-1226",
+      "name": "Feriado Municipal de José Boiteux",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

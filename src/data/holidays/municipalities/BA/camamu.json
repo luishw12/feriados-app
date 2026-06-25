@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2905800,
+  "name": "Camamu",
+  "slug": "camamu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-camamu",
+      "name": "Aniversário de Camamu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camamu-0627",
+      "name": "Feriado Municipal de Camamu",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camamu-0815",
+      "name": "Feriado Municipal de Camamu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camamu-1231",
+      "name": "Feriado Municipal de Camamu",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

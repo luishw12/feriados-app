@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1500305,
+  "name": "Afuá",
+  "slug": "afua",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-afua",
+      "name": "Aniversário de Afuá",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

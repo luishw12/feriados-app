@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1709500,
+  "name": "Gurupi",
+  "slug": "gurupi",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-gurupi",
+      "name": "Aniversário de Gurupi",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gurupi-0927",
+      "name": "Feriado Municipal de Gurupi",
+      "date": "09-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gurupi-1114",
+      "name": "Feriado Municipal de Gurupi",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gurupi-1130",
+      "name": "Feriado Municipal de Gurupi",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

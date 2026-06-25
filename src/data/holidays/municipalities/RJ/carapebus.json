@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3300936,
+  "name": "Carapebus",
+  "slug": "carapebus",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-carapebus",
+      "name": "Aniversário de Carapebus",
+      "date": "03-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carapebus-0815",
+      "name": "Feriado Municipal de Carapebus",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2312007,
+  "name": "Santana do Acaraú",
+  "slug": "santana-do-acarau",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-santana-do-acarau",
+      "name": "Aniversário de Santana do Acaraú",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-do-acarau-1103",
+      "name": "Feriado Municipal de Santana do Acaraú",
+      "date": "11-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

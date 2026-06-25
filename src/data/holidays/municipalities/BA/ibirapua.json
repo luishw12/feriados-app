@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2912806,
+  "name": "Ibirapuã",
+  "slug": "ibirapua",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ibirapua",
+      "name": "Aniversário de Ibirapuã",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

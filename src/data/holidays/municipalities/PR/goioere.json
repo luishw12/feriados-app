@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4108601,
+  "name": "Goioerê",
+  "slug": "goioere",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-goioere",
+      "name": "Aniversário de Goioerê",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goioere-0811",
+      "name": "Feriado Municipal de Goioerê",
+      "date": "08-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

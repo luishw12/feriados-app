@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3205069,
+  "name": "Venda Nova do Imigrante",
+  "slug": "venda-nova-do-imigrante",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-venda-nova-do-imigrante",
+      "name": "Aniversário de Venda Nova do Imigrante",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

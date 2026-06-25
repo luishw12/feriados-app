@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5209101,
+  "name": "Goiatuba",
+  "slug": "goiatuba",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-goiatuba",
+      "name": "Aniversário de Goiatuba",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goiatuba-0121",
+      "name": "Feriado Municipal de Goiatuba",
+      "date": "01-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

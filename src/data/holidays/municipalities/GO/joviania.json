@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5212105,
+  "name": "Joviânia",
+  "slug": "joviania",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-joviania",
+      "name": "Aniversário de Joviânia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joviania-1114",
+      "name": "Feriado Municipal de Joviânia",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

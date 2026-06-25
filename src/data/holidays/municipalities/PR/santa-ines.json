@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4123600,
+  "name": "Santa Inês",
+  "slug": "santa-ines",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-ines",
+      "name": "Aniversário de Santa Inês",
+      "date": "01-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-ines-0125",
+      "name": "Feriado Municipal de Santa Inês",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-ines-1203",
+      "name": "Feriado Municipal de Santa Inês",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

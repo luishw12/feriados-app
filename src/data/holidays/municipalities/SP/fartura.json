@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3515400,
+  "name": "Fartura",
+  "slug": "fartura",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-fartura",
+      "name": "Aniversário de Fartura",
+      "date": "03-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fartura-0915",
+      "name": "Feriado Municipal de Fartura",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

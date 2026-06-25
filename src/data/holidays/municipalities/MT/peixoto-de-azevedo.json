@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5106422,
+  "name": "Peixoto de Azevedo",
+  "slug": "peixoto-de-azevedo",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-peixoto-de-azevedo",
+      "name": "Aniversário de Peixoto de Azevedo",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

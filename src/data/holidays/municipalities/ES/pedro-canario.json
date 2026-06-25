@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3204054,
+  "name": "Pedro Canário",
+  "slug": "pedro-canario",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-pedro-canario",
+      "name": "Aniversário de Pedro Canário",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedro-canario-1226",
+      "name": "Feriado Municipal de Pedro Canário",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

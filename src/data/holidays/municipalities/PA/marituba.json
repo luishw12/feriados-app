@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1504422,
+  "name": "Marituba",
+  "slug": "marituba",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-marituba",
+      "name": "Aniversário de Marituba",
+      "date": "09-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

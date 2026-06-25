@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3539004,
+  "name": "Pirangi",
+  "slug": "pirangi",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pirangi",
+      "name": "Aniversário de Pirangi",
+      "date": "03-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirangi-0613",
+      "name": "Feriado Municipal de Pirangi",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

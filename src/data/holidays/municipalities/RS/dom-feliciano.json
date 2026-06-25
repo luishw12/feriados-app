@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4306502,
+  "name": "Dom Feliciano",
+  "slug": "dom-feliciano",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-dom-feliciano",
+      "name": "Aniversário de Dom Feliciano",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dom-feliciano-1209",
+      "name": "Feriado Municipal de Dom Feliciano",
+      "date": "12-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

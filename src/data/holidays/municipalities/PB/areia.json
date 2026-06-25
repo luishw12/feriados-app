@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2501104,
+  "name": "Areia",
+  "slug": "areia",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-areia",
+      "name": "Aniversário de Areia",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-areia-0624",
+      "name": "Feriado Municipal de Areia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-areia-1208",
+      "name": "Feriado Municipal de Areia",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

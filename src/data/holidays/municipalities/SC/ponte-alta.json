@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4213302,
+  "name": "Ponte Alta",
+  "slug": "ponte-alta",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ponte-alta",
+      "name": "Aniversário de Ponte Alta",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ponte-alta-0920",
+      "name": "Feriado Municipal de Ponte Alta",
+      "date": "09-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2502508,
+  "name": "Boqueirão",
+  "slug": "boqueirao",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-boqueirao",
+      "name": "Aniversário de Boqueirão",
+      "date": "04-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boqueirao-0624",
+      "name": "Feriado Municipal de Boqueirão",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

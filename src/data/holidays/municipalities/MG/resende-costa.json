@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3154200,
+  "name": "Resende Costa",
+  "slug": "resende-costa",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-resende-costa",
+      "name": "Aniversário de Resende Costa",
+      "date": "06-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-resende-costa-0901",
+      "name": "Feriado Municipal de Resende Costa",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

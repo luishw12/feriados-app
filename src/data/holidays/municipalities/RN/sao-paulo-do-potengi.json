@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2412609,
+  "name": "São Paulo do Potengi",
+  "slug": "sao-paulo-do-potengi",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-sao-paulo-do-potengi",
+      "name": "Aniversário de São Paulo do Potengi",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-paulo-do-potengi-0629",
+      "name": "Feriado Municipal de São Paulo do Potengi",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-paulo-do-potengi-1230",
+      "name": "Feriado Municipal de São Paulo do Potengi",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

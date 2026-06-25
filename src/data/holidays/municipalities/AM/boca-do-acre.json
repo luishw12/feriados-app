@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1300706,
+  "name": "Boca do Acre",
+  "slug": "boca-do-acre",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-boca-do-acre",
+      "name": "Aniversário de Boca do Acre",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

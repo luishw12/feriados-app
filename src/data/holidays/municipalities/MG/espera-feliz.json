@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3124203,
+  "name": "Espera Feliz",
+  "slug": "espera-feliz",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-espera-feliz",
+      "name": "Aniversário de Espera Feliz",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

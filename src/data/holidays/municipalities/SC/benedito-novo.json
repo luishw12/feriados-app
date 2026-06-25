@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4202206,
+  "name": "Benedito Novo",
+  "slug": "benedito-novo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-benedito-novo",
+      "name": "Aniversário de Benedito Novo",
+      "date": "06-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

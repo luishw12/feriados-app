@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5210208,
+  "name": "Iporá",
+  "slug": "ipora",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-ipora",
+      "name": "Aniversário de Iporá",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipora-1119",
+      "name": "Feriado Municipal de Iporá",
+      "date": "11-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

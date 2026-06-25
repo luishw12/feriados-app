@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2901353,
+  "name": "Andorinha",
+  "slug": "andorinha",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-andorinha",
+      "name": "Aniversário de Andorinha",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-andorinha-0613",
+      "name": "Feriado Municipal de Andorinha",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

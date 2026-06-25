@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3156304,
+  "name": "Rodeiro",
+  "slug": "rodeiro",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-rodeiro",
+      "name": "Aniversário de Rodeiro",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rodeiro-0222",
+      "name": "Feriado Municipal de Rodeiro",
+      "date": "02-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rodeiro-0301",
+      "name": "Feriado Municipal de Rodeiro",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

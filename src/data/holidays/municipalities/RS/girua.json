@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4309001,
+  "name": "Giruá",
+  "slug": "girua",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-girua",
+      "name": "Aniversário de Giruá",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-girua-0725",
+      "name": "Feriado Municipal de Giruá",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5000856,
+  "name": "Angélica",
+  "slug": "angelica",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-angelica",
+      "name": "Aniversário de Angélica",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-angelica-0629",
+      "name": "Feriado Municipal de Angélica",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

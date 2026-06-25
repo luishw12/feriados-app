@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3518909,
+  "name": "Guzolândia",
+  "slug": "guzolandia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guzolandia",
+      "name": "Aniversário de Guzolândia",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guzolandia-0629",
+      "name": "Feriado Municipal de Guzolândia",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guzolandia-0815",
+      "name": "Feriado Municipal de Guzolândia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

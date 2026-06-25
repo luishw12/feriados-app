@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1508084,
+  "name": "Tucumã",
+  "slug": "tucuma",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-tucuma",
+      "name": "Aniversário de Tucumã",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tucuma-0513",
+      "name": "Feriado Municipal de Tucumã",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3305901,
+  "name": "Trajano de Moraes",
+  "slug": "trajano-de-moraes",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-trajano-de-moraes",
+      "name": "Aniversário de Trajano de Moraes",
+      "date": "04-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

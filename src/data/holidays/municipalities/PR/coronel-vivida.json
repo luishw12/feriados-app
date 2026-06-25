@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4106506,
+  "name": "Coronel Vivida",
+  "slug": "coronel-vivida",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-coronel-vivida",
+      "name": "Aniversário de Coronel Vivida",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-vivida-1214",
+      "name": "Feriado Municipal de Coronel Vivida",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

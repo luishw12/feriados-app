@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4318465,
+  "name": "São José do Herval",
+  "slug": "sao-jose-do-herval",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-herval",
+      "name": "Aniversário de São José do Herval",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

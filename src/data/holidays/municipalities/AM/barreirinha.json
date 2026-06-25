@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1300508,
+  "name": "Barreirinha",
+  "slug": "barreirinha",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-barreirinha",
+      "name": "Aniversário de Barreirinha",
+      "date": "06-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barreirinha-0815",
+      "name": "Feriado Municipal de Barreirinha",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3551009,
+  "name": "São Vicente",
+  "slug": "sao-vicente",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-vicente",
+      "name": "Aniversário de São Vicente",
+      "date": "01-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-vicente-0403",
+      "name": "Feriado Municipal de São Vicente",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-vicente-0604",
+      "name": "Feriado Municipal de São Vicente",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

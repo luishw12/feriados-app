@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3527801,
+  "name": "Lupércio",
+  "slug": "lupercio",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-lupercio",
+      "name": "Aniversário de Lupércio",
+      "date": "07-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lupercio-1230",
+      "name": "Feriado Municipal de Lupércio",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

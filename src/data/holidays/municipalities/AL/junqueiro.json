@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2704005,
+  "name": "Junqueiro",
+  "slug": "junqueiro",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-junqueiro",
+      "name": "Aniversário de Junqueiro",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

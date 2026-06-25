@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3541307,
+  "name": "Presidente Epitácio",
+  "slug": "presidente-epitacio",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-epitacio",
+      "name": "Aniversário de Presidente Epitácio",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-epitacio-0629",
+      "name": "Feriado Municipal de Presidente Epitácio",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-epitacio-0815",
+      "name": "Feriado Municipal de Presidente Epitácio",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

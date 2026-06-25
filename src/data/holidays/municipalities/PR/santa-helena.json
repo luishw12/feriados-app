@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4123501,
+  "name": "Santa Helena",
+  "slug": "santa-helena",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-helena",
+      "name": "Aniversário de Santa Helena",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-helena-0725",
+      "name": "Feriado Municipal de Santa Helena",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-helena-1031",
+      "name": "Feriado Municipal de Santa Helena",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

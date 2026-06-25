@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5211404,
+  "name": "Itauçu",
+  "slug": "itaucu",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-itaucu",
+      "name": "Aniversário de Itauçu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

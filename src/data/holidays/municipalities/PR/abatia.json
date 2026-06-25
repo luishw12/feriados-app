@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4100103,
+  "name": "Abatiá",
+  "slug": "abatia",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-abatia",
+      "name": "Aniversário de Abatiá",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

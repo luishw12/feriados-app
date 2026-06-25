@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2802106,
+  "name": "Estância",
+  "slug": "estancia",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-estancia",
+      "name": "Aniversário de Estância",
+      "date": "05-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estancia-0624",
+      "name": "Feriado Municipal de Estância",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estancia-1212",
+      "name": "Feriado Municipal de Estância",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

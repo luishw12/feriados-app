@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2313500,
+  "name": "Trairi",
+  "slug": "trairi",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-trairi",
+      "name": "Aniversário de Trairi",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

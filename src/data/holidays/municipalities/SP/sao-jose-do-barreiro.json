@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3549607,
+  "name": "São José do Barreiro",
+  "slug": "sao-jose-do-barreiro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-barreiro",
+      "name": "Aniversário de São José do Barreiro",
+      "date": "03-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-barreiro-0319",
+      "name": "Feriado Municipal de São José do Barreiro",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3549003,
+  "name": "São Francisco",
+  "slug": "sao-francisco",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-francisco",
+      "name": "Aniversário de São Francisco",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

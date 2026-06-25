@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3128808,
+  "name": "Guidoval",
+  "slug": "guidoval",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-guidoval",
+      "name": "Aniversário de Guidoval",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guidoval-0725",
+      "name": "Feriado Municipal de Guidoval",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guidoval-0726",
+      "name": "Feriado Municipal de Guidoval",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

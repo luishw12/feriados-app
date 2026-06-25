@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3303856,
+  "name": "Paty do Alferes",
+  "slug": "paty-do-alferes",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-paty-do-alferes",
+      "name": "Aniversário de Paty do Alferes",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paty-do-alferes-1208",
+      "name": "Feriado Municipal de Paty do Alferes",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

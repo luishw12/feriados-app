@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1303809,
+  "name": "São Gabriel da Cachoeira",
+  "slug": "sao-gabriel-da-cachoeira",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-sao-gabriel-da-cachoeira",
+      "name": "Aniversário de São Gabriel da Cachoeira",
+      "date": "09-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-gabriel-da-cachoeira-0929",
+      "name": "Feriado Municipal de São Gabriel da Cachoeira",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

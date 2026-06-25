@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3155504,
+  "name": "Rio Paranaíba",
+  "slug": "rio-paranaiba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-rio-paranaiba",
+      "name": "Aniversário de Rio Paranaíba",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

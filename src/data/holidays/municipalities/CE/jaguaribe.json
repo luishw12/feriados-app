@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2306900,
+  "name": "Jaguaribe",
+  "slug": "jaguaribe",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-jaguaribe",
+      "name": "Aniversário de Jaguaribe",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaguaribe-1108",
+      "name": "Feriado Municipal de Jaguaribe",
+      "date": "11-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

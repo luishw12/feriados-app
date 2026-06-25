@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5211206,
+  "name": "Itapuranga",
+  "slug": "itapuranga",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-itapuranga",
+      "name": "Aniversário de Itapuranga",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

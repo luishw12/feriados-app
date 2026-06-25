@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2609303,
+  "name": "Mirandiba",
+  "slug": "mirandiba",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-mirandiba",
+      "name": "Aniversário de Mirandiba",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirandiba-0311",
+      "name": "Feriado Municipal de Mirandiba",
+      "date": "03-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

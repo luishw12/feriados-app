@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2414605,
+  "name": "Upanema",
+  "slug": "upanema",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-upanema",
+      "name": "Aniversário de Upanema",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-upanema-1116",
+      "name": "Feriado Municipal de Upanema",
+      "date": "11-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

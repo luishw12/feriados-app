@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3304607,
+  "name": "Santa Maria Madalena",
+  "slug": "santa-maria-madalena",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-santa-maria-madalena",
+      "name": "Aniversário de Santa Maria Madalena",
+      "date": "06-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-maria-madalena-0613",
+      "name": "Feriado Municipal de Santa Maria Madalena",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-maria-madalena-0629",
+      "name": "Feriado Municipal de Santa Maria Madalena",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

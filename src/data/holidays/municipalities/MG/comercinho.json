@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3117009,
+  "name": "Comercinho",
+  "slug": "comercinho",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-comercinho",
+      "name": "Aniversário de Comercinho",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-comercinho-1116",
+      "name": "Feriado Municipal de Comercinho",
+      "date": "11-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

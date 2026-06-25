@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5219258,
+  "name": "Santa Fé de Goiás",
+  "slug": "santa-fe-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-santa-fe-de-goias",
+      "name": "Aniversário de Santa Fé de Goiás",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

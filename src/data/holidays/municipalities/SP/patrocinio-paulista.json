@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3536307,
+  "name": "Patrocínio Paulista",
+  "slug": "patrocinio-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-patrocinio-paulista",
+      "name": "Aniversário de Patrocínio Paulista",
+      "date": "03-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-patrocinio-paulista-0728",
+      "name": "Feriado Municipal de Patrocínio Paulista",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

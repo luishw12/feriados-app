@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4104907,
+  "name": "Castro",
+  "slug": "castro",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-castro",
+      "name": "Aniversário de Castro",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-castro-0726",
+      "name": "Feriado Municipal de Castro",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

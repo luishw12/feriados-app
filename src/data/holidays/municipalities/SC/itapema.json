@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4208302,
+  "name": "Itapema",
+  "slug": "itapema",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-itapema",
+      "name": "Aniversário de Itapema",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapema-0613",
+      "name": "Feriado Municipal de Itapema",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

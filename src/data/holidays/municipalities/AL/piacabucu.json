@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2706802,
+  "name": "Piaçabuçu",
+  "slug": "piacabucu",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-piacabucu",
+      "name": "Aniversário de Piaçabuçu",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piacabucu-1208",
+      "name": "Feriado Municipal de Piaçabuçu",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

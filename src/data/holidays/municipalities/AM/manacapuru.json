@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1302504,
+  "name": "Manacapuru",
+  "slug": "manacapuru",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-manacapuru",
+      "name": "Aniversário de Manacapuru",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

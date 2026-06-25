@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2304236,
+  "name": "Croatá",
+  "slug": "croata",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-croata",
+      "name": "Aniversário de Croatá",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

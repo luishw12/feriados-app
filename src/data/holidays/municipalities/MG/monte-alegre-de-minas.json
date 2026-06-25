@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3142809,
+  "name": "Monte Alegre de Minas",
+  "slug": "monte-alegre-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-monte-alegre-de-minas",
+      "name": "Aniversário de Monte Alegre de Minas",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-alegre-de-minas-0815",
+      "name": "Feriado Municipal de Monte Alegre de Minas",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-alegre-de-minas-0916",
+      "name": "Feriado Municipal de Monte Alegre de Minas",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

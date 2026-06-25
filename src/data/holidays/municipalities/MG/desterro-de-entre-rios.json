@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3121407,
+  "name": "Desterro de Entre Rios",
+  "slug": "desterro-de-entre-rios",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-desterro-de-entre-rios",
+      "name": "Aniversário de Desterro de Entre Rios",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-desterro-de-entre-rios-0701",
+      "name": "Feriado Municipal de Desterro de Entre Rios",
+      "date": "07-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-desterro-de-entre-rios-0915",
+      "name": "Feriado Municipal de Desterro de Entre Rios",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-desterro-de-entre-rios-1212",
+      "name": "Feriado Municipal de Desterro de Entre Rios",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

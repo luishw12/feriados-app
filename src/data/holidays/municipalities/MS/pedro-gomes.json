@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5006408,
+  "name": "Pedro Gomes",
+  "slug": "pedro-gomes",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-pedro-gomes",
+      "name": "Aniversário de Pedro Gomes",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedro-gomes-1111",
+      "name": "Feriado Municipal de Pedro Gomes",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

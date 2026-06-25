@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3503901,
+  "name": "Arujá",
+  "slug": "aruja",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aruja",
+      "name": "Aniversário de Arujá",
+      "date": "06-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aruja-0806",
+      "name": "Feriado Municipal de Arujá",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

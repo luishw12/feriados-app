@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3522901,
+  "name": "Itapuí",
+  "slug": "itapui",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itapui",
+      "name": "Aniversário de Itapuí",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapui-0911",
+      "name": "Feriado Municipal de Itapuí",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

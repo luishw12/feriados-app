@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3154150,
+  "name": "Reduto",
+  "slug": "reduto",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-reduto",
+      "name": "Aniversário de Reduto",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

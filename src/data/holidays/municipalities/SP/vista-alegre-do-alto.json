@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3556909,
+  "name": "Vista Alegre do Alto",
+  "slug": "vista-alegre-do-alto",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-vista-alegre-do-alto",
+      "name": "Aniversário de Vista Alegre do Alto",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vista-alegre-do-alto-0325",
+      "name": "Feriado Municipal de Vista Alegre do Alto",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vista-alegre-do-alto-0522",
+      "name": "Feriado Municipal de Vista Alegre do Alto",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

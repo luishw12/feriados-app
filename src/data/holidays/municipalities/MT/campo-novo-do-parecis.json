@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5102637,
+  "name": "Campo Novo do Parecis",
+  "slug": "campo-novo-do-parecis",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-campo-novo-do-parecis",
+      "name": "Aniversário de Campo Novo do Parecis",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-novo-do-parecis-0725",
+      "name": "Feriado Municipal de Campo Novo do Parecis",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

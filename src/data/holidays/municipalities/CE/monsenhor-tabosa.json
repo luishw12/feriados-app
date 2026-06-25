@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2308609,
+  "name": "Monsenhor Tabosa",
+  "slug": "monsenhor-tabosa",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-monsenhor-tabosa",
+      "name": "Aniversário de Monsenhor Tabosa",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monsenhor-tabosa-1122",
+      "name": "Feriado Municipal de Monsenhor Tabosa",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monsenhor-tabosa-1213",
+      "name": "Feriado Municipal de Monsenhor Tabosa",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

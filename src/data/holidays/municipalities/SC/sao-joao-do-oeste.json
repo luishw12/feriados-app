@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4216255,
+  "name": "São João do Oeste",
+  "slug": "sao-joao-do-oeste",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-oeste",
+      "name": "Aniversário de São João do Oeste",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-do-oeste-1212",
+      "name": "Feriado Municipal de São João do Oeste",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

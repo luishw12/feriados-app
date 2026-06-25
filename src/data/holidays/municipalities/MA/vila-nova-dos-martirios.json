@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2112852,
+  "name": "Vila Nova dos Martírios",
+  "slug": "vila-nova-dos-martirios",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-vila-nova-dos-martirios",
+      "name": "Aniversário de Vila Nova dos Martírios",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vila-nova-dos-martirios-1110",
+      "name": "Feriado Municipal de Vila Nova dos Martírios",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

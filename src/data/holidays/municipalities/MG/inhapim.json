@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3130903,
+  "name": "Inhapim",
+  "slug": "inhapim",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-inhapim",
+      "name": "Aniversário de Inhapim",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-inhapim-1217",
+      "name": "Feriado Municipal de Inhapim",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

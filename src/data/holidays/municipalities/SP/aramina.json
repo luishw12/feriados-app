@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3503000,
+  "name": "Aramina",
+  "slug": "aramina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aramina",
+      "name": "Aniversário de Aramina",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aramina-0613",
+      "name": "Feriado Municipal de Aramina",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

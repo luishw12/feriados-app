@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4100905,
+  "name": "Amaporã",
+  "slug": "amapora",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-amapora",
+      "name": "Aniversário de Amaporã",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amapora-1112",
+      "name": "Feriado Municipal de Amaporã",
+      "date": "11-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

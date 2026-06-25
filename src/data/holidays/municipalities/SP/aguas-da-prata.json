@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3500402,
+  "name": "Águas da Prata",
+  "slug": "aguas-da-prata",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aguas-da-prata",
+      "name": "Aniversário de Águas da Prata",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aguas-da-prata-0703",
+      "name": "Feriado Municipal de Águas da Prata",
+      "date": "07-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

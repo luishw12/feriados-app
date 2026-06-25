@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2504306,
+  "name": "Catolé do Rocha",
+  "slug": "catole-do-rocha",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-catole-do-rocha",
+      "name": "Aniversário de Catolé do Rocha",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-catole-do-rocha-0908",
+      "name": "Feriado Municipal de Catolé do Rocha",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-catole-do-rocha-1109",
+      "name": "Feriado Municipal de Catolé do Rocha",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

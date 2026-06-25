@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2613305,
+  "name": "São Joaquim do Monte",
+  "slug": "sao-joaquim-do-monte",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joaquim-do-monte",
+      "name": "Aniversário de São Joaquim do Monte",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joaquim-do-monte-0726",
+      "name": "Feriado Municipal de São Joaquim do Monte",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joaquim-do-monte-0911",
+      "name": "Feriado Municipal de São Joaquim do Monte",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

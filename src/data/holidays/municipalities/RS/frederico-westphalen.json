@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4308508,
+  "name": "Frederico Westphalen",
+  "slug": "frederico-westphalen",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-frederico-westphalen",
+      "name": "Aniversário de Frederico Westphalen",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-frederico-westphalen-0403",
+      "name": "Feriado Municipal de Frederico Westphalen",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-frederico-westphalen-0604",
+      "name": "Feriado Municipal de Frederico Westphalen",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-frederico-westphalen-0613",
+      "name": "Feriado Municipal de Frederico Westphalen",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4204251,
+  "name": "Cocal do Sul",
+  "slug": "cocal-do-sul",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-cocal-do-sul",
+      "name": "Aniversário de Cocal do Sul",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cocal-do-sul-0926",
+      "name": "Feriado Municipal de Cocal do Sul",
+      "date": "09-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

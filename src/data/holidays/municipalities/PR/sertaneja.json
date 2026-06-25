@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4126405,
+  "name": "Sertaneja",
+  "slug": "sertaneja",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sertaneja",
+      "name": "Aniversário de Sertaneja",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sertaneja-1214",
+      "name": "Feriado Municipal de Sertaneja",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

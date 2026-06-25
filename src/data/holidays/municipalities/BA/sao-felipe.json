@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2929107,
+  "name": "São Felipe",
+  "slug": "sao-felipe",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-felipe",
+      "name": "Aniversário de São Felipe",
+      "date": "05-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-felipe-0624",
+      "name": "Feriado Municipal de São Felipe",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

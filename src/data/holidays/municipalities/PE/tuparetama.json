@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2615904,
+  "name": "Tuparetama",
+  "slug": "tuparetama",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-tuparetama",
+      "name": "Aniversário de Tuparetama",
+      "date": "04-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

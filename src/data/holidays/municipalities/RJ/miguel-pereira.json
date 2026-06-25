@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3302908,
+  "name": "Miguel Pereira",
+  "slug": "miguel-pereira",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-miguel-pereira",
+      "name": "Aniversário de Miguel Pereira",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miguel-pereira-0613",
+      "name": "Feriado Municipal de Miguel Pereira",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miguel-pereira-0815",
+      "name": "Feriado Municipal de Miguel Pereira",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5203807,
+  "name": "Britânia",
+  "slug": "britania",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-britania",
+      "name": "Aniversário de Britânia",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-britania-0629",
+      "name": "Feriado Municipal de Britânia",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

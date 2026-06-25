@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3129707,
+  "name": "Ibiraci",
+  "slug": "ibiraci",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ibiraci",
+      "name": "Aniversário de Ibiraci",
+      "date": "04-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibiraci-0915",
+      "name": "Feriado Municipal de Ibiraci",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

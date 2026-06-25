@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4206801,
+  "name": "Ibicaré",
+  "slug": "ibicare",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ibicare",
+      "name": "Aniversário de Ibicaré",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

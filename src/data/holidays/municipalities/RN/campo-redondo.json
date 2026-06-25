@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2402105,
+  "name": "Campo Redondo",
+  "slug": "campo-redondo",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-campo-redondo",
+      "name": "Aniversário de Campo Redondo",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-redondo-0624",
+      "name": "Feriado Municipal de Campo Redondo",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-redondo-1122",
+      "name": "Feriado Municipal de Campo Redondo",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

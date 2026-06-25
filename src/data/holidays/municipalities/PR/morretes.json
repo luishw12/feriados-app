@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4116208,
+  "name": "Morretes",
+  "slug": "morretes",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-morretes",
+      "name": "Aniversário de Morretes",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-morretes-1031",
+      "name": "Feriado Municipal de Morretes",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

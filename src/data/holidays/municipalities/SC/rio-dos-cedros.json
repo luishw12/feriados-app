@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4214706,
+  "name": "Rio dos Cedros",
+  "slug": "rio-dos-cedros",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-rio-dos-cedros",
+      "name": "Aniversário de Rio dos Cedros",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

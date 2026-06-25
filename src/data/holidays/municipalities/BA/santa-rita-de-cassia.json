@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2928406,
+  "name": "Santa Rita de Cássia",
+  "slug": "santa-rita-de-cassia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rita-de-cassia",
+      "name": "Aniversário de Santa Rita de Cássia",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rita-de-cassia-0522",
+      "name": "Feriado Municipal de Santa Rita de Cássia",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rita-de-cassia-0802",
+      "name": "Feriado Municipal de Santa Rita de Cássia",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rita-de-cassia-1101",
+      "name": "Feriado Municipal de Santa Rita de Cássia",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

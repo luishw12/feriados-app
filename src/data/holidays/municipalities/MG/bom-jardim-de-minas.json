@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3107505,
+  "name": "Bom Jardim de Minas",
+  "slug": "bom-jardim-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jardim-de-minas",
+      "name": "Aniversário de Bom Jardim de Minas",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jardim-de-minas-1217",
+      "name": "Feriado Municipal de Bom Jardim de Minas",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

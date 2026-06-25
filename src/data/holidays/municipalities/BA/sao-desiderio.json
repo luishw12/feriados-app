@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2928901,
+  "name": "São Desidério",
+  "slug": "sao-desiderio",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-desiderio",
+      "name": "Aniversário de São Desidério",
+      "date": "02-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-desiderio-0802",
+      "name": "Feriado Municipal de São Desidério",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-desiderio-0919",
+      "name": "Feriado Municipal de São Desidério",
+      "date": "09-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-desiderio-0920",
+      "name": "Feriado Municipal de São Desidério",
+      "date": "09-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

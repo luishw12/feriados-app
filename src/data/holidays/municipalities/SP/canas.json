@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3509957,
+  "name": "Canas",
+  "slug": "canas",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-canas",
+      "name": "Aniversário de Canas",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canas-0524",
+      "name": "Feriado Municipal de Canas",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

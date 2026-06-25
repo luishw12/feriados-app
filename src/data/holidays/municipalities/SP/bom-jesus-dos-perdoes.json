@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3507100,
+  "name": "Bom Jesus dos Perdões",
+  "slug": "bom-jesus-dos-perdoes",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jesus-dos-perdoes",
+      "name": "Aniversário de Bom Jesus dos Perdões",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jesus-dos-perdoes-0806",
+      "name": "Feriado Municipal de Bom Jesus dos Perdões",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

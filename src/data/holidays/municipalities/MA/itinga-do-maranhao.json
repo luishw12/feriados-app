@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2105427,
+  "name": "Itinga do Maranhão",
+  "slug": "itinga-do-maranhao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-itinga-do-maranhao",
+      "name": "Aniversário de Itinga do Maranhão",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itinga-do-maranhao-1110",
+      "name": "Feriado Municipal de Itinga do Maranhão",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

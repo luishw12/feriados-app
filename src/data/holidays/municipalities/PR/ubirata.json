@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4128005,
+  "name": "Ubiratã",
+  "slug": "ubirata",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ubirata",
+      "name": "Aniversário de Ubiratã",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubirata-0613",
+      "name": "Feriado Municipal de Ubiratã",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubirata-0619",
+      "name": "Feriado Municipal de Ubiratã",
+      "date": "06-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubirata-1104",
+      "name": "Feriado Municipal de Ubiratã",
+      "date": "11-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

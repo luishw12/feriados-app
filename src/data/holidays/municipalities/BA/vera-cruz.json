@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2933208,
+  "name": "Vera Cruz",
+  "slug": "vera-cruz",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-vera-cruz",
+      "name": "Aniversário de Vera Cruz",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vera-cruz-0731",
+      "name": "Feriado Municipal de Vera Cruz",
+      "date": "07-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vera-cruz-0914",
+      "name": "Feriado Municipal de Vera Cruz",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

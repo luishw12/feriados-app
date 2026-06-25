@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5212709,
+  "name": "Mambaí",
+  "slug": "mambai",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-mambai",
+      "name": "Aniversário de Mambaí",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mambai-1208",
+      "name": "Feriado Municipal de Mambaí",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

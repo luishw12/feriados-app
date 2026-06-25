@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2512101,
+  "name": "Pombal",
+  "slug": "pombal",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-pombal",
+      "name": "Aniversário de Pombal",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pombal-0624",
+      "name": "Feriado Municipal de Pombal",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pombal-0629",
+      "name": "Feriado Municipal de Pombal",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pombal-0721",
+      "name": "Feriado Municipal de Pombal",
+      "date": "07-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

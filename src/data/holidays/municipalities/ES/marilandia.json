@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3203353,
+  "name": "Marilândia",
+  "slug": "marilandia",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-marilandia",
+      "name": "Aniversário de Marilândia",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

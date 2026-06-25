@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1101302,
+  "name": "Mirante da Serra",
+  "slug": "mirante-da-serra",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-mirante-da-serra",
+      "name": "Aniversário de Mirante da Serra",
+      "date": "02-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirante-da-serra-0815",
+      "name": "Feriado Municipal de Mirante da Serra",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

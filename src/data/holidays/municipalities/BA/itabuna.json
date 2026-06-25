@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2914802,
+  "name": "Itabuna",
+  "slug": "itabuna",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itabuna",
+      "name": "Aniversário de Itabuna",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itabuna-0604",
+      "name": "Feriado Municipal de Itabuna",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itabuna-0624",
+      "name": "Feriado Municipal de Itabuna",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itabuna-0728",
+      "name": "Feriado Municipal de Itabuna",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

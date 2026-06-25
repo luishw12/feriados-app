@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1303106,
+  "name": "Nova Olinda do Norte",
+  "slug": "nova-olinda-do-norte",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-nova-olinda-do-norte",
+      "name": "Aniversário de Nova Olinda do Norte",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

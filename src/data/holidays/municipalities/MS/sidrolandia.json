@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5007901,
+  "name": "Sidrolândia",
+  "slug": "sidrolandia",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-sidrolandia",
+      "name": "Aniversário de Sidrolândia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sidrolandia-1211",
+      "name": "Feriado Municipal de Sidrolândia",
+      "date": "12-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

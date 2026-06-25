@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4313904,
+  "name": "Panambi",
+  "slug": "panambi",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-panambi",
+      "name": "Aniversário de Panambi",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-panambi-0725",
+      "name": "Feriado Municipal de Panambi",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2919553,
+  "name": "Luís Eduardo Magalhães",
+  "slug": "luis-eduardo-magalhaes",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-luis-eduardo-magalhaes",
+      "name": "Aniversário de Luís Eduardo Magalhães",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-luis-eduardo-magalhaes-0624",
+      "name": "Feriado Municipal de Luís Eduardo Magalhães",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-luis-eduardo-magalhaes-0802",
+      "name": "Feriado Municipal de Luís Eduardo Magalhães",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

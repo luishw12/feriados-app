@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3510807,
+  "name": "Casa Branca",
+  "slug": "casa-branca",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-casa-branca",
+      "name": "Aniversário de Casa Branca",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

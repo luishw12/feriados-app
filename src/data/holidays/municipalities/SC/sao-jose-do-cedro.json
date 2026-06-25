@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4216701,
+  "name": "São José do Cedro",
+  "slug": "sao-jose-do-cedro",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-cedro",
+      "name": "Aniversário de São José do Cedro",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-cedro-0403",
+      "name": "Feriado Municipal de São José do Cedro",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-cedro-0604",
+      "name": "Feriado Municipal de São José do Cedro",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-cedro-0727",
+      "name": "Feriado Municipal de São José do Cedro",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

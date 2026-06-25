@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1400472,
+  "name": "Rorainópolis",
+  "slug": "rorainopolis",
+  "uf": "RR",
+  "holidays": [
+    {
+      "id": "aniversario-rorainopolis",
+      "name": "Aniversário de Rorainópolis",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

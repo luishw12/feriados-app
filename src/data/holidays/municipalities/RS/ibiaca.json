@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4309803,
+  "name": "Ibiaçá",
+  "slug": "ibiaca",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-ibiaca",
+      "name": "Aniversário de Ibiaçá",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1700350,
+  "name": "Aliança do Tocantins",
+  "slug": "alianca-do-tocantins",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-alianca-do-tocantins",
+      "name": "Aniversário de Aliança do Tocantins",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alianca-do-tocantins-0624",
+      "name": "Feriado Municipal de Aliança do Tocantins",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

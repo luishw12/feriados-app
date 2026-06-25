@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4202859,
+  "name": "Braço do Trombudo",
+  "slug": "braco-do-trombudo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-braco-do-trombudo",
+      "name": "Aniversário de Braço do Trombudo",
+      "date": "09-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-braco-do-trombudo-1226",
+      "name": "Feriado Municipal de Braço do Trombudo",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

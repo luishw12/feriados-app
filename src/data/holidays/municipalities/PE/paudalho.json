@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2610608,
+  "name": "Paudalho",
+  "slug": "paudalho",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-paudalho",
+      "name": "Aniversário de Paudalho",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

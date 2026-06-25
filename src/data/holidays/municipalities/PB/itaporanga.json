@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2507002,
+  "name": "Itaporanga",
+  "slug": "itaporanga",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-itaporanga",
+      "name": "Aniversário de Itaporanga",
+      "date": "01-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaporanga-0624",
+      "name": "Feriado Municipal de Itaporanga",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaporanga-0629",
+      "name": "Feriado Municipal de Itaporanga",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaporanga-1208",
+      "name": "Feriado Municipal de Itaporanga",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

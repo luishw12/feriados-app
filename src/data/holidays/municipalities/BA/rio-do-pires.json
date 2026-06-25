@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2926905,
+  "name": "Rio do Pires",
+  "slug": "rio-do-pires",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-rio-do-pires",
+      "name": "Aniversário de Rio do Pires",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-do-pires-1117",
+      "name": "Feriado Municipal de Rio do Pires",
+      "date": "11-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2205805,
+  "name": "Luzilândia",
+  "slug": "luzilandia",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-luzilandia",
+      "name": "Aniversário de Luzilândia",
+      "date": "03-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-luzilandia-1213",
+      "name": "Feriado Municipal de Luzilândia",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

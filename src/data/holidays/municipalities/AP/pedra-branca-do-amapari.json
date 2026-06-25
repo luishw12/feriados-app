@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1600154,
+  "name": "Pedra Branca do Amapari",
+  "slug": "pedra-branca-do-amapari",
+  "uf": "AP",
+  "holidays": [
+    {
+      "id": "aniversario-pedra-branca-do-amapari",
+      "name": "Aniversário de Pedra Branca do Amapari",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

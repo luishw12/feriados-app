@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2928802,
+  "name": "Santo Estêvão",
+  "slug": "santo-estevao",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santo-estevao",
+      "name": "Aniversário de Santo Estêvão",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-estevao-0921",
+      "name": "Feriado Municipal de Santo Estêvão",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-estevao-1226",
+      "name": "Feriado Municipal de Santo Estêvão",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

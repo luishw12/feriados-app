@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2906907,
+  "name": "Caravelas",
+  "slug": "caravelas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-caravelas",
+      "name": "Aniversário de Caravelas",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caravelas-0613",
+      "name": "Feriado Municipal de Caravelas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

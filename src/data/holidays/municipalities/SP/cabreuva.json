@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3508405,
+  "name": "Cabreúva",
+  "slug": "cabreuva",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cabreuva",
+      "name": "Aniversário de Cabreúva",
+      "date": "03-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cabreuva-0915",
+      "name": "Feriado Municipal de Cabreúva",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

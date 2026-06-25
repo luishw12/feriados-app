@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5213509,
+  "name": "Monte Alegre de Goiás",
+  "slug": "monte-alegre-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-monte-alegre-de-goias",
+      "name": "Aniversário de Monte Alegre de Goiás",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-alegre-de-goias-0815",
+      "name": "Feriado Municipal de Monte Alegre de Goiás",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

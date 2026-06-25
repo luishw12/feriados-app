@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3170008,
+  "name": "Ubaí",
+  "slug": "ubai",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ubai",
+      "name": "Aniversário de Ubaí",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubai-0522",
+      "name": "Feriado Municipal de Ubaí",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubai-0624",
+      "name": "Feriado Municipal de Ubaí",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

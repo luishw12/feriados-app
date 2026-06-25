@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4211603,
+  "name": "Nova Veneza",
+  "slug": "nova-veneza",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-nova-veneza",
+      "name": "Aniversário de Nova Veneza",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

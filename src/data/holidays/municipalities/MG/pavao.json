@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3148509,
+  "name": "Pavão",
+  "slug": "pavao",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pavao",
+      "name": "Aniversário de Pavão",
+      "date": "07-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

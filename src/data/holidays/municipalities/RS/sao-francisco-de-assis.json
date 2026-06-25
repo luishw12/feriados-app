@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4318101,
+  "name": "São Francisco de Assis",
+  "slug": "sao-francisco-de-assis",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-francisco-de-assis",
+      "name": "Aniversário de São Francisco de Assis",
+      "date": "01-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

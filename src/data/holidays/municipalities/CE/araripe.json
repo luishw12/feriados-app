@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2301307,
+  "name": "Araripe",
+  "slug": "araripe",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-araripe",
+      "name": "Aniversário de Araripe",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araripe-0803",
+      "name": "Feriado Municipal de Araripe",
+      "date": "08-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araripe-1105",
+      "name": "Feriado Municipal de Araripe",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

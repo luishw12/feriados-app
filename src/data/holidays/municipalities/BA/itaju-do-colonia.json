@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2915403,
+  "name": "Itaju do Colônia",
+  "slug": "itaju-do-colonia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itaju-do-colonia",
+      "name": "Aniversário de Itaju do Colônia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaju-do-colonia-0624",
+      "name": "Feriado Municipal de Itaju do Colônia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaju-do-colonia-0719",
+      "name": "Feriado Municipal de Itaju do Colônia",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaju-do-colonia-1123",
+      "name": "Feriado Municipal de Itaju do Colônia",
+      "date": "11-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

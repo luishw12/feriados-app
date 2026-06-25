@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4211751,
+  "name": "Otacílio Costa",
+  "slug": "otacilio-costa",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-otacilio-costa",
+      "name": "Aniversário de Otacílio Costa",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

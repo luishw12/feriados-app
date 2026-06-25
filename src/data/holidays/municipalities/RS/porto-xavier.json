@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4315107,
+  "name": "Porto Xavier",
+  "slug": "porto-xavier",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-porto-xavier",
+      "name": "Aniversário de Porto Xavier",
+      "date": "05-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-xavier-1031",
+      "name": "Feriado Municipal de Porto Xavier",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-xavier-1203",
+      "name": "Feriado Municipal de Porto Xavier",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

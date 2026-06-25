@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2807204,
+  "name": "Siriri",
+  "slug": "siriri",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-siriri",
+      "name": "Aniversário de Siriri",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

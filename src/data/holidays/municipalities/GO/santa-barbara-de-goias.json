@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5219100,
+  "name": "Santa Bárbara de Goiás",
+  "slug": "santa-barbara-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-santa-barbara-de-goias",
+      "name": "Aniversário de Santa Bárbara de Goiás",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-barbara-de-goias-1023",
+      "name": "Feriado Municipal de Santa Bárbara de Goiás",
+      "date": "10-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-barbara-de-goias-1204",
+      "name": "Feriado Municipal de Santa Bárbara de Goiás",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

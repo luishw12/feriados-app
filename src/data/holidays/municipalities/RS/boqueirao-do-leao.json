@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4302451,
+  "name": "Boqueirão do Leão",
+  "slug": "boqueirao-do-leao",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-boqueirao-do-leao",
+      "name": "Aniversário de Boqueirão do Leão",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boqueirao-do-leao-1208",
+      "name": "Feriado Municipal de Boqueirão do Leão",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5209705,
+  "name": "Hidrolândia",
+  "slug": "hidrolandia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-hidrolandia",
+      "name": "Aniversário de Hidrolândia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-hidrolandia-1105",
+      "name": "Feriado Municipal de Hidrolândia",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

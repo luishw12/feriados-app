@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3522604,
+  "name": "Itapira",
+  "slug": "itapira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itapira",
+      "name": "Aniversário de Itapira",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapira-0908",
+      "name": "Feriado Municipal de Itapira",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

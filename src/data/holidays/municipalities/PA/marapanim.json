@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1504406,
+  "name": "Marapanim",
+  "slug": "marapanim",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-marapanim",
+      "name": "Aniversário de Marapanim",
+      "date": "07-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

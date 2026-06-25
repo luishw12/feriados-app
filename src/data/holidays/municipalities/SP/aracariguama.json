@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3502754,
+  "name": "Araçariguama",
+  "slug": "aracariguama",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aracariguama",
+      "name": "Aniversário de Araçariguama",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracariguama-0916",
+      "name": "Feriado Municipal de Araçariguama",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

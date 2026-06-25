@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3124906,
+  "name": "Eugenópolis",
+  "slug": "eugenopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-eugenopolis",
+      "name": "Aniversário de Eugenópolis",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-eugenopolis-0503",
+      "name": "Feriado Municipal de Eugenópolis",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

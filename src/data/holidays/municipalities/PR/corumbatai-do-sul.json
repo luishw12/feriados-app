@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4106555,
+  "name": "Corumbataí do Sul",
+  "slug": "corumbatai-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-corumbatai-do-sul",
+      "name": "Aniversário de Corumbataí do Sul",
+      "date": "05-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-corumbatai-do-sul-0629",
+      "name": "Feriado Municipal de Corumbataí do Sul",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

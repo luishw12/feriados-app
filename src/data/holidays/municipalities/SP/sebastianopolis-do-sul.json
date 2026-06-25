@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3551306,
+  "name": "Sebastianópolis do Sul",
+  "slug": "sebastianopolis-do-sul",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sebastianopolis-do-sul",
+      "name": "Aniversário de Sebastianópolis do Sul",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sebastianopolis-do-sul-0228",
+      "name": "Feriado Municipal de Sebastianópolis do Sul",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sebastianopolis-do-sul-0806",
+      "name": "Feriado Municipal de Sebastianópolis do Sul",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

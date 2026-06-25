@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2928703,
+  "name": "Santo Antônio de Jesus",
+  "slug": "santo-antonio-de-jesus",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-de-jesus",
+      "name": "Aniversário de Santo Antônio de Jesus",
+      "date": "05-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-de-jesus-0613",
+      "name": "Feriado Municipal de Santo Antônio de Jesus",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-de-jesus-0624",
+      "name": "Feriado Municipal de Santo Antônio de Jesus",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

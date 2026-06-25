@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4304408,
+  "name": "Canela",
+  "slug": "canela",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-canela",
+      "name": "Aniversário de Canela",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

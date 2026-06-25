@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2931103,
+  "name": "Tanquinho",
+  "slug": "tanquinho",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-tanquinho",
+      "name": "Aniversário de Tanquinho",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tanquinho-0814",
+      "name": "Feriado Municipal de Tanquinho",
+      "date": "08-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tanquinho-0923",
+      "name": "Feriado Municipal de Tanquinho",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4104808,
+  "name": "Cascavel",
+  "slug": "cascavel",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cascavel",
+      "name": "Aniversário de Cascavel",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cascavel-0604",
+      "name": "Feriado Municipal de Cascavel",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cascavel-0815",
+      "name": "Feriado Municipal de Cascavel",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cascavel-1114",
+      "name": "Feriado Municipal de Cascavel",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

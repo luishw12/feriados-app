@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2925907,
+  "name": "Quijingue",
+  "slug": "quijingue",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-quijingue",
+      "name": "Aniversário de Quijingue",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quijingue-0315",
+      "name": "Feriado Municipal de Quijingue",
+      "date": "03-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quijingue-0623",
+      "name": "Feriado Municipal de Quijingue",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quijingue-0624",
+      "name": "Feriado Municipal de Quijingue",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

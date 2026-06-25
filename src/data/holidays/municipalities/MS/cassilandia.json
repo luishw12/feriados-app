@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5002902,
+  "name": "Cassilândia",
+  "slug": "cassilandia",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-cassilandia",
+      "name": "Aniversário de Cassilândia",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cassilandia-0803",
+      "name": "Feriado Municipal de Cassilândia",
+      "date": "08-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

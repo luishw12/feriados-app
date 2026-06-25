@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3152402,
+  "name": "Poté",
+  "slug": "pote",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pote",
+      "name": "Aniversário de Poté",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

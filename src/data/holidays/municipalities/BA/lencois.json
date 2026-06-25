@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2919306,
+  "name": "Lençóis",
+  "slug": "lencois",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-lencois",
+      "name": "Aniversário de Lençóis",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lencois-0520",
+      "name": "Feriado Municipal de Lençóis",
+      "date": "05-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lencois-0624",
+      "name": "Feriado Municipal de Lençóis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lencois-1208",
+      "name": "Feriado Municipal de Lençóis",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

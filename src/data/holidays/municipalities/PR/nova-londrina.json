@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4117107,
+  "name": "Nova Londrina",
+  "slug": "nova-londrina",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-nova-londrina",
+      "name": "Aniversário de Nova Londrina",
+      "date": "03-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-londrina-0821",
+      "name": "Feriado Municipal de Nova Londrina",
+      "date": "08-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2112902,
+  "name": "Vitória do Mearim",
+  "slug": "vitoria-do-mearim",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-vitoria-do-mearim",
+      "name": "Aniversário de Vitória do Mearim",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitoria-do-mearim-0624",
+      "name": "Feriado Municipal de Vitória do Mearim",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitoria-do-mearim-0908",
+      "name": "Feriado Municipal de Vitória do Mearim",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

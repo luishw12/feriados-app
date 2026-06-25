@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4314159,
+  "name": "Paverama",
+  "slug": "paverama",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-paverama",
+      "name": "Aniversário de Paverama",
+      "date": "04-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paverama-1031",
+      "name": "Feriado Municipal de Paverama",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

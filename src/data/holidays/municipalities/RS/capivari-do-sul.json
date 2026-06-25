@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4304671,
+  "name": "Capivari do Sul",
+  "slug": "capivari-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-capivari-do-sul",
+      "name": "Aniversário de Capivari do Sul",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capivari-do-sul-0423",
+      "name": "Feriado Municipal de Capivari do Sul",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

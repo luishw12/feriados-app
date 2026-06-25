@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3303955,
+  "name": "Pinheiral",
+  "slug": "pinheiral",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-pinheiral",
+      "name": "Aniversário de Pinheiral",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

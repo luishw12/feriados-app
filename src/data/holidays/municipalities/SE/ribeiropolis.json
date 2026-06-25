@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2806008,
+  "name": "Ribeirópolis",
+  "slug": "ribeiropolis",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-ribeiropolis",
+      "name": "Aniversário de Ribeirópolis",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

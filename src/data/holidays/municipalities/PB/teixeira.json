@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2516706,
+  "name": "Teixeira",
+  "slug": "teixeira",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-teixeira",
+      "name": "Aniversário de Teixeira",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teixeira-0629",
+      "name": "Feriado Municipal de Teixeira",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teixeira-0722",
+      "name": "Feriado Municipal de Teixeira",
+      "date": "07-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teixeira-0829",
+      "name": "Feriado Municipal de Teixeira",
+      "date": "08-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

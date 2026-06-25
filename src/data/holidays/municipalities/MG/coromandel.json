@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3119302,
+  "name": "Coromandel",
+  "slug": "coromandel",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-coromandel",
+      "name": "Aniversário de Coromandel",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coromandel-0815",
+      "name": "Feriado Municipal de Coromandel",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

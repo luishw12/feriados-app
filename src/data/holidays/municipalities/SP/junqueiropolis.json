@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3526001,
+  "name": "Junqueirópolis",
+  "slug": "junqueiropolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-junqueiropolis",
+      "name": "Aniversário de Junqueirópolis",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

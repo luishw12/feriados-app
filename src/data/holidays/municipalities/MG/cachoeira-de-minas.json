@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3109709,
+  "name": "Cachoeira de Minas",
+  "slug": "cachoeira-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cachoeira-de-minas",
+      "name": "Aniversário de Cachoeira de Minas",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cachoeira-de-minas-0624",
+      "name": "Feriado Municipal de Cachoeira de Minas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

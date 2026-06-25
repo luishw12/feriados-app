@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3116803,
+  "name": "Coluna",
+  "slug": "coluna",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-coluna",
+      "name": "Aniversário de Coluna",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coluna-0723",
+      "name": "Feriado Municipal de Coluna",
+      "date": "07-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

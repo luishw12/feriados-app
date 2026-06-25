@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2612802,
+  "name": "Santa Terezinha",
+  "slug": "santa-terezinha",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-santa-terezinha",
+      "name": "Aniversário de Santa Terezinha",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4101507,
+  "name": "Arapongas",
+  "slug": "arapongas",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-arapongas",
+      "name": "Aniversário de Arapongas",
+      "date": "10-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

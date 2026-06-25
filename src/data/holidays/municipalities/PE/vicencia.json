@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2616308,
+  "name": "Vicência",
+  "slug": "vicencia",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-vicencia",
+      "name": "Aniversário de Vicência",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vicencia-0911",
+      "name": "Feriado Municipal de Vicência",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

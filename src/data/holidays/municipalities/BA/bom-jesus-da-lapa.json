@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2903904,
+  "name": "Bom Jesus da Lapa",
+  "slug": "bom-jesus-da-lapa",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jesus-da-lapa",
+      "name": "Aniversário de Bom Jesus da Lapa",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jesus-da-lapa-0915",
+      "name": "Feriado Municipal de Bom Jesus da Lapa",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

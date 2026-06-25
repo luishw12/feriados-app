@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3157401,
+  "name": "Santa Cruz do Escalvado",
+  "slug": "santa-cruz-do-escalvado",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cruz-do-escalvado",
+      "name": "Aniversário de Santa Cruz do Escalvado",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3306107,
+  "name": "Valença",
+  "slug": "valenca",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-valenca",
+      "name": "Aniversário de Valença",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

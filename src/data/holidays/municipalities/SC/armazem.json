@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4201505,
+  "name": "Armazém",
+  "slug": "armazem",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-armazem",
+      "name": "Aniversário de Armazém",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

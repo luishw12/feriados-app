@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3546702,
+  "name": "Santa Gertrudes",
+  "slug": "santa-gertrudes",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-gertrudes",
+      "name": "Aniversário de Santa Gertrudes",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-gertrudes-0816",
+      "name": "Feriado Municipal de Santa Gertrudes",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

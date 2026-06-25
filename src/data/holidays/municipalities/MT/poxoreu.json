@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5107008,
+  "name": "Poxoréu",
+  "slug": "poxoreu",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-poxoreu",
+      "name": "Aniversário de Poxoréu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4304903,
+  "name": "Casca",
+  "slug": "casca",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-casca",
+      "name": "Aniversário de Casca",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-casca-0621",
+      "name": "Feriado Municipal de Casca",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

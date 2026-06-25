@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3519055,
+  "name": "Holambra",
+  "slug": "holambra",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-holambra",
+      "name": "Aniversário de Holambra",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-holambra-0525",
+      "name": "Feriado Municipal de Holambra",
+      "date": "05-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-holambra-0604",
+      "name": "Feriado Municipal de Holambra",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-holambra-1027",
+      "name": "Feriado Municipal de Holambra",
+      "date": "10-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

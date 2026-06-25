@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2601508,
+  "name": "Belém de Maria",
+  "slug": "belem-de-maria",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-belem-de-maria",
+      "name": "Aniversário de Belém de Maria",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-belem-de-maria-0503",
+      "name": "Feriado Municipal de Belém de Maria",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-belem-de-maria-0915",
+      "name": "Feriado Municipal de Belém de Maria",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1101401,
+  "name": "Monte Negro",
+  "slug": "monte-negro",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-monte-negro",
+      "name": "Aniversário de Monte Negro",
+      "date": "02-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-negro-0319",
+      "name": "Feriado Municipal de Monte Negro",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

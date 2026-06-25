@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4212700,
+  "name": "Petrolândia",
+  "slug": "petrolandia",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-petrolandia",
+      "name": "Aniversário de Petrolândia",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-petrolandia-0816",
+      "name": "Feriado Municipal de Petrolândia",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-petrolandia-1031",
+      "name": "Feriado Municipal de Petrolândia",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

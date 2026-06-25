@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3506300,
+  "name": "Bernardino de Campos",
+  "slug": "bernardino-de-campos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bernardino-de-campos",
+      "name": "Aniversário de Bernardino de Campos",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bernardino-de-campos-1009",
+      "name": "Feriado Municipal de Bernardino de Campos",
+      "date": "10-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

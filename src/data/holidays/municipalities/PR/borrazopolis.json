@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4103305,
+  "name": "Borrazópolis",
+  "slug": "borrazopolis",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-borrazopolis",
+      "name": "Aniversário de Borrazópolis",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

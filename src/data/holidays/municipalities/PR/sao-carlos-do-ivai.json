@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4124608,
+  "name": "São Carlos do Ivaí",
+  "slug": "sao-carlos-do-ivai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-carlos-do-ivai",
+      "name": "Aniversário de São Carlos do Ivaí",
+      "date": "11-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

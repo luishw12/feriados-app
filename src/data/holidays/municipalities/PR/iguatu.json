@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4110052,
+  "name": "Iguatu",
+  "slug": "iguatu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-iguatu",
+      "name": "Aniversário de Iguatu",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

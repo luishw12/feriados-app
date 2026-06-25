@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4112900,
+  "name": "Jundiaí do Sul",
+  "slug": "jundiai-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-jundiai-do-sul",
+      "name": "Aniversário de Jundiaí do Sul",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

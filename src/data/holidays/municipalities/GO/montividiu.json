@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5213756,
+  "name": "Montividiu",
+  "slug": "montividiu",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-montividiu",
+      "name": "Aniversário de Montividiu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-montividiu-1230",
+      "name": "Feriado Municipal de Montividiu",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

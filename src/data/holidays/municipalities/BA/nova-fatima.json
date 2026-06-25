@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2922730,
+  "name": "Nova Fátima",
+  "slug": "nova-fatima",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-nova-fatima",
+      "name": "Aniversário de Nova Fátima",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-fatima-0613",
+      "name": "Feriado Municipal de Nova Fátima",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-fatima-0624",
+      "name": "Feriado Municipal de Nova Fátima",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-fatima-0923",
+      "name": "Feriado Municipal de Nova Fátima",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

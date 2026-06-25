@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3556354,
+  "name": "Vargem",
+  "slug": "vargem",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-vargem",
+      "name": "Aniversário de Vargem",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vargem-1230",
+      "name": "Feriado Municipal de Vargem",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

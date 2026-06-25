@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3542800,
+  "name": "Ribeira",
+  "slug": "ribeira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ribeira",
+      "name": "Aniversário de Ribeira",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeira-0806",
+      "name": "Feriado Municipal de Ribeira",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3516101,
+  "name": "Florínea",
+  "slug": "florinea",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-florinea",
+      "name": "Aniversário de Florínea",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-florinea-0319",
+      "name": "Feriado Municipal de Florínea",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-florinea-1230",
+      "name": "Feriado Municipal de Florínea",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

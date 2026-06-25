@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5207402,
+  "name": "Edéia",
+  "slug": "edeia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-edeia",
+      "name": "Aniversário de Edéia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4207007,
+  "name": "Içara",
+  "slug": "icara",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-icara",
+      "name": "Aniversário de Içara",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-icara-0807",
+      "name": "Feriado Municipal de Içara",
+      "date": "08-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-icara-1226",
+      "name": "Feriado Municipal de Içara",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

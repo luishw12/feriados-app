@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3520004,
+  "name": "Igaraçu do Tietê",
+  "slug": "igaracu-do-tiete",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-igaracu-do-tiete",
+      "name": "Aniversário de Igaraçu do Tietê",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-igaracu-do-tiete-0403",
+      "name": "Feriado Municipal de Igaraçu do Tietê",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-igaracu-do-tiete-0726",
+      "name": "Feriado Municipal de Igaraçu do Tietê",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-igaracu-do-tiete-1019",
+      "name": "Feriado Municipal de Igaraçu do Tietê",
+      "date": "10-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

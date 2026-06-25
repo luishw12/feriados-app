@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2611200,
+  "name": "Poção",
+  "slug": "pocao",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-pocao",
+      "name": "Aniversário de Poção",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pocao-1113",
+      "name": "Feriado Municipal de Poção",
+      "date": "11-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pocao-1229",
+      "name": "Feriado Municipal de Poção",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2314003,
+  "name": "Várzea Alegre",
+  "slug": "varzea-alegre",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-varzea-alegre",
+      "name": "Aniversário de Várzea Alegre",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3536109,
+  "name": "Pardinho",
+  "slug": "pardinho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pardinho",
+      "name": "Aniversário de Pardinho",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pardinho-0531",
+      "name": "Feriado Municipal de Pardinho",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3114808,
+  "name": "Carvalhos",
+  "slug": "carvalhos",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carvalhos",
+      "name": "Aniversário de Carvalhos",
+      "date": "04-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carvalhos-0802",
+      "name": "Feriado Municipal de Carvalhos",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

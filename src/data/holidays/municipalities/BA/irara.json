@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2914505,
+  "name": "Irará",
+  "slug": "irara",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-irara",
+      "name": "Aniversário de Irará",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irara-0527",
+      "name": "Feriado Municipal de Irará",
+      "date": "05-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irara-0624",
+      "name": "Feriado Municipal de Irará",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

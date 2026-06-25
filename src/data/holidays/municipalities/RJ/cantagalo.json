@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3301108,
+  "name": "Cantagalo",
+  "slug": "cantagalo",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-cantagalo",
+      "name": "Aniversário de Cantagalo",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cantagalo-0629",
+      "name": "Feriado Municipal de Cantagalo",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

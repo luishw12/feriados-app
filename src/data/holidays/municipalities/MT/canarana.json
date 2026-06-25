@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5102702,
+  "name": "Canarana",
+  "slug": "canarana",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-canarana",
+      "name": "Aniversário de Canarana",
+      "date": "02-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canarana-0524",
+      "name": "Feriado Municipal de Canarana",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canarana-0725",
+      "name": "Feriado Municipal de Canarana",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

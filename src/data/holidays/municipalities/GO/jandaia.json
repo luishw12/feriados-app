@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5211701,
+  "name": "Jandaia",
+  "slug": "jandaia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-jandaia",
+      "name": "Aniversário de Jandaia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

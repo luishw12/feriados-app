@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2400109,
+  "name": "Acari",
+  "slug": "acari",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-acari",
+      "name": "Aniversário de Acari",
+      "date": "04-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-acari-0815",
+      "name": "Feriado Municipal de Acari",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

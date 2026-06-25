@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4305405,
+  "name": "Chiapetta",
+  "slug": "chiapetta",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-chiapetta",
+      "name": "Aniversário de Chiapetta",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-chiapetta-1215",
+      "name": "Feriado Municipal de Chiapetta",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

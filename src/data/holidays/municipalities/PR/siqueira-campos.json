@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4126603,
+  "name": "Siqueira Campos",
+  "slug": "siqueira-campos",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-siqueira-campos",
+      "name": "Aniversário de Siqueira Campos",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-siqueira-campos-0923",
+      "name": "Feriado Municipal de Siqueira Campos",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

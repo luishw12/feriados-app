@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3162948,
+  "name": "São José da Barra",
+  "slug": "sao-jose-da-barra",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-da-barra",
+      "name": "Aniversário de São José da Barra",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-da-barra-1221",
+      "name": "Feriado Municipal de São José da Barra",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

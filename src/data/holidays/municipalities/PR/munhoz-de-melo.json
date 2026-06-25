@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4116307,
+  "name": "Munhoz de Melo",
+  "slug": "munhoz-de-melo",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-munhoz-de-melo",
+      "name": "Aniversário de Munhoz de Melo",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

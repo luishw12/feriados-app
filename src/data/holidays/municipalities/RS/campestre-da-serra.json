@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4303673,
+  "name": "Campestre da Serra",
+  "slug": "campestre-da-serra",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-campestre-da-serra",
+      "name": "Aniversário de Campestre da Serra",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

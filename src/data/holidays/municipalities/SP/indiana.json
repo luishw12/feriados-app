@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3520608,
+  "name": "Indiana",
+  "slug": "indiana",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-indiana",
+      "name": "Aniversário de Indiana",
+      "date": "03-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

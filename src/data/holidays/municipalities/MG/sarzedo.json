@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3165537,
+  "name": "Sarzedo",
+  "slug": "sarzedo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sarzedo",
+      "name": "Aniversário de Sarzedo",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sarzedo-1221",
+      "name": "Feriado Municipal de Sarzedo",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

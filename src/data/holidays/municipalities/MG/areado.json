@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3104304,
+  "name": "Areado",
+  "slug": "areado",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-areado",
+      "name": "Aniversário de Areado",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-areado-0910",
+      "name": "Feriado Municipal de Areado",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

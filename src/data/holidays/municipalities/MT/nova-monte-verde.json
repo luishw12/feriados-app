@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5108956,
+  "name": "Nova Monte Verde",
+  "slug": "nova-monte-verde",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-nova-monte-verde",
+      "name": "Aniversário de Nova Monte Verde",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-monte-verde-0819",
+      "name": "Feriado Municipal de Nova Monte Verde",
+      "date": "08-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

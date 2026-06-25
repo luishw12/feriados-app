@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3203346,
+  "name": "Marechal Floriano",
+  "slug": "marechal-floriano",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-marechal-floriano",
+      "name": "Aniversário de Marechal Floriano",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-marechal-floriano-0726",
+      "name": "Feriado Municipal de Marechal Floriano",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-marechal-floriano-1031",
+      "name": "Feriado Municipal de Marechal Floriano",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

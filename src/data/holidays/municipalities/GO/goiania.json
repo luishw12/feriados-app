@@ -7,9 +7,42 @@
     {
       "id": "aniversario-goiania",
       "name": "Aniversário de Goiânia",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goiania-0524",
+      "name": "Feriado Municipal de Goiânia",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goiania-0604",
+      "name": "Feriado Municipal de Goiânia",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goiania-1024",
+      "name": "Feriado Municipal de Goiânia",
       "date": "10-24",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

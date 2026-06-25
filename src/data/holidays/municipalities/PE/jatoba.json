@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2608057,
+  "name": "Jatobá",
+  "slug": "jatoba",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-jatoba",
+      "name": "Aniversário de Jatobá",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

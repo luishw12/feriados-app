@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2807501,
+  "name": "Tomar do Geru",
+  "slug": "tomar-do-geru",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-tomar-do-geru",
+      "name": "Aniversário de Tomar do Geru",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tomar-do-geru-0908",
+      "name": "Feriado Municipal de Tomar do Geru",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tomar-do-geru-1125",
+      "name": "Feriado Municipal de Tomar do Geru",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2922607,
+  "name": "Nilo Peçanha",
+  "slug": "nilo-pecanha",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-nilo-pecanha",
+      "name": "Aniversário de Nilo Peçanha",
+      "date": "04-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nilo-pecanha-0624",
+      "name": "Feriado Municipal de Nilo Peçanha",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

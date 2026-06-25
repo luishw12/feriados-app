@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1701002,
+  "name": "Ananás",
+  "slug": "ananas",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-ananas",
+      "name": "Aniversário de Ananás",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3134707,
+  "name": "Jacinto",
+  "slug": "jacinto",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-jacinto",
+      "name": "Aniversário de Jacinto",
+      "date": "02-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacinto-0305",
+      "name": "Feriado Municipal de Jacinto",
+      "date": "03-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacinto-0613",
+      "name": "Feriado Municipal de Jacinto",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacinto-1101",
+      "name": "Feriado Municipal de Jacinto",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacinto-1231",
+      "name": "Feriado Municipal de Jacinto",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

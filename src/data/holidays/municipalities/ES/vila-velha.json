@@ -7,9 +7,42 @@
     {
       "id": "aniversario-vila-velha",
       "name": "Aniversário de Vila Velha",
-      "date": "05-27",
+      "date": "04-03",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vila-velha-0413",
+      "name": "Feriado Municipal de Vila Velha",
+      "date": "04-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vila-velha-0523",
+      "name": "Feriado Municipal de Vila Velha",
+      "date": "05-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vila-velha-0604",
+      "name": "Feriado Municipal de Vila Velha",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

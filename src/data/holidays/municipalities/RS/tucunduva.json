@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4322103,
+  "name": "Tucunduva",
+  "slug": "tucunduva",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tucunduva",
+      "name": "Aniversário de Tucunduva",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tucunduva-0910",
+      "name": "Feriado Municipal de Tucunduva",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tucunduva-1121",
+      "name": "Feriado Municipal de Tucunduva",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4110904,
+  "name": "Itaguajé",
+  "slug": "itaguaje",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-itaguaje",
+      "name": "Aniversário de Itaguajé",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

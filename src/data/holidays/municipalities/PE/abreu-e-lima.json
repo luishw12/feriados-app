@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2600054,
+  "name": "Abreu e Lima",
+  "slug": "abreu-e-lima",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-abreu-e-lima",
+      "name": "Aniversário de Abreu e Lima",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-abreu-e-lima-0514",
+      "name": "Feriado Municipal de Abreu e Lima",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-abreu-e-lima-1031",
+      "name": "Feriado Municipal de Abreu e Lima",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

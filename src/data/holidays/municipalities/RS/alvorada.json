@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4300604,
+  "name": "Alvorada",
+  "slug": "alvorada",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-alvorada",
+      "name": "Aniversário de Alvorada",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1303908,
+  "name": "São Paulo de Olivença",
+  "slug": "sao-paulo-de-olivenca",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-sao-paulo-de-olivenca",
+      "name": "Aniversário de São Paulo de Olivença",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-paulo-de-olivenca-0629",
+      "name": "Feriado Municipal de São Paulo de Olivença",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

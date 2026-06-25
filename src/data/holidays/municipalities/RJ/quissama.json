@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3304151,
+  "name": "Quissamã",
+  "slug": "quissama",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-quissama",
+      "name": "Aniversário de Quissamã",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quissama-0612",
+      "name": "Feriado Municipal de Quissamã",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

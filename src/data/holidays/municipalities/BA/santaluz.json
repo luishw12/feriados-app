@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2928000,
+  "name": "Santaluz",
+  "slug": "santaluz",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santaluz",
+      "name": "Aniversário de Santaluz",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santaluz-0923",
+      "name": "Feriado Municipal de Santaluz",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santaluz-1213",
+      "name": "Feriado Municipal de Santaluz",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

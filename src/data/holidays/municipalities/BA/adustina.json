@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2900355,
+  "name": "Adustina",
+  "slug": "adustina",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-adustina",
+      "name": "Aniversário de Adustina",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

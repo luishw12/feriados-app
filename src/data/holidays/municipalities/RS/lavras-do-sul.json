@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4311502,
+  "name": "Lavras do Sul",
+  "slug": "lavras-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-lavras-do-sul",
+      "name": "Aniversário de Lavras do Sul",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lavras-do-sul-0613",
+      "name": "Feriado Municipal de Lavras do Sul",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

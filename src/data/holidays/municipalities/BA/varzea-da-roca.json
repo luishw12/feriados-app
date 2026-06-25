@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2933059,
+  "name": "Várzea da Roça",
+  "slug": "varzea-da-roca",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-varzea-da-roca",
+      "name": "Aniversário de Várzea da Roça",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-varzea-da-roca-1031",
+      "name": "Feriado Municipal de Várzea da Roça",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

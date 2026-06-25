@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4204202,
+  "name": "Chapecó",
+  "slug": "chapeco",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-chapeco",
+      "name": "Aniversário de Chapecó",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-chapeco-0604",
+      "name": "Feriado Municipal de Chapecó",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-chapeco-0825",
+      "name": "Feriado Municipal de Chapecó",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

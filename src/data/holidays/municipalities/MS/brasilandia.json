@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5002308,
+  "name": "Brasilândia",
+  "slug": "brasilandia",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-brasilandia",
+      "name": "Aniversário de Brasilândia",
+      "date": "04-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

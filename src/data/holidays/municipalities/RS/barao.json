@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4301651,
+  "name": "Barão",
+  "slug": "barao",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-barao",
+      "name": "Aniversário de Barão",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barao-0512",
+      "name": "Feriado Municipal de Barão",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barao-0725",
+      "name": "Feriado Municipal de Barão",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

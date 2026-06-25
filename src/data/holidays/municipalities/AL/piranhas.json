@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2707107,
+  "name": "Piranhas",
+  "slug": "piranhas",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-piranhas",
+      "name": "Aniversário de Piranhas",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piranhas-0322",
+      "name": "Feriado Municipal de Piranhas",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piranhas-0603",
+      "name": "Feriado Municipal de Piranhas",
+      "date": "06-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

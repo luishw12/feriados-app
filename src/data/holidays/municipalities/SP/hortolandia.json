@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3519071,
+  "name": "Hortolândia",
+  "slug": "hortolandia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-hortolandia",
+      "name": "Aniversário de Hortolândia",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4321808,
+  "name": "Três de Maio",
+  "slug": "tres-de-maio",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tres-de-maio",
+      "name": "Aniversário de Três de Maio",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tres-de-maio-1031",
+      "name": "Feriado Municipal de Três de Maio",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

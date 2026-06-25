@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3149507,
+  "name": "Pequeri",
+  "slug": "pequeri",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pequeri",
+      "name": "Aniversário de Pequeri",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pequeri-1213",
+      "name": "Feriado Municipal de Pequeri",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

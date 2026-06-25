@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1100338,
+  "name": "Nova Mamoré",
+  "slug": "nova-mamore",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-nova-mamore",
+      "name": "Aniversário de Nova Mamoré",
+      "date": "07-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

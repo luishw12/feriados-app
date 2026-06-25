@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 2903607,
+  "name": "Biritinga",
+  "slug": "biritinga",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-biritinga",
+      "name": "Aniversário de Biritinga",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-biritinga-0305",
+      "name": "Feriado Municipal de Biritinga",
+      "date": "03-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-biritinga-0423",
+      "name": "Feriado Municipal de Biritinga",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-biritinga-0624",
+      "name": "Feriado Municipal de Biritinga",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-biritinga-1208",
+      "name": "Feriado Municipal de Biritinga",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

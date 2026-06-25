@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2602100,
+  "name": "Bom Conselho",
+  "slug": "bom-conselho",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-bom-conselho",
+      "name": "Aniversário de Bom Conselho",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-conselho-0426",
+      "name": "Feriado Municipal de Bom Conselho",
+      "date": "04-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-conselho-0803",
+      "name": "Feriado Municipal de Bom Conselho",
+      "date": "08-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

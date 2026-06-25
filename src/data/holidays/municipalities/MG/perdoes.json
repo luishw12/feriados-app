@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3149903,
+  "name": "Perdões",
+  "slug": "perdoes",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-perdoes",
+      "name": "Aniversário de Perdões",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-perdoes-0815",
+      "name": "Feriado Municipal de Perdões",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

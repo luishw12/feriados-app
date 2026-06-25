@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4121000,
+  "name": "Querência do Norte",
+  "slug": "querencia-do-norte",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-querencia-do-norte",
+      "name": "Aniversário de Querência do Norte",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-querencia-do-norte-1205",
+      "name": "Feriado Municipal de Querência do Norte",
+      "date": "12-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

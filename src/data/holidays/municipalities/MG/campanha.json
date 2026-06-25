@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3110905,
+  "name": "Campanha",
+  "slug": "campanha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-campanha",
+      "name": "Aniversário de Campanha",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

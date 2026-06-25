@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5003504,
+  "name": "Douradina",
+  "slug": "douradina",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-douradina",
+      "name": "Aniversário de Douradina",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

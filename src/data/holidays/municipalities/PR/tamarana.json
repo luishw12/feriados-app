@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4126678,
+  "name": "Tamarana",
+  "slug": "tamarana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-tamarana",
+      "name": "Aniversário de Tamarana",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tamarana-1213",
+      "name": "Feriado Municipal de Tamarana",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

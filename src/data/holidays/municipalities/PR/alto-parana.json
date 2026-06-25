@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4100608,
+  "name": "Alto Paraná",
+  "slug": "alto-parana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-alto-parana",
+      "name": "Aniversário de Alto Paraná",
+      "date": "05-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-parana-0613",
+      "name": "Feriado Municipal de Alto Paraná",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

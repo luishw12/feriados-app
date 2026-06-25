@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3502507,
+  "name": "Aparecida",
+  "slug": "aparecida",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aparecida",
+      "name": "Aniversário de Aparecida",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

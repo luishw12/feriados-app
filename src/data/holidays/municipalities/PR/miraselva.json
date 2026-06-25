@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4116000,
+  "name": "Miraselva",
+  "slug": "miraselva",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-miraselva",
+      "name": "Aniversário de Miraselva",
+      "date": "04-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miraselva-1111",
+      "name": "Feriado Municipal de Miraselva",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

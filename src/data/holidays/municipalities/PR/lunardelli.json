@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4113759,
+  "name": "Lunardelli",
+  "slug": "lunardelli",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-lunardelli",
+      "name": "Aniversário de Lunardelli",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lunardelli-1226",
+      "name": "Feriado Municipal de Lunardelli",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

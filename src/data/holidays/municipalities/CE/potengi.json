@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2311207,
+  "name": "Potengi",
+  "slug": "potengi",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-potengi",
+      "name": "Aniversário de Potengi",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-potengi-0405",
+      "name": "Feriado Municipal de Potengi",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-potengi-0904",
+      "name": "Feriado Municipal de Potengi",
+      "date": "09-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

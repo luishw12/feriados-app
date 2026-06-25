@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3532900,
+  "name": "Nova Europa",
+  "slug": "nova-europa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-nova-europa",
+      "name": "Aniversário de Nova Europa",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

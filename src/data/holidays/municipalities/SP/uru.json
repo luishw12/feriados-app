@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3555901,
+  "name": "Uru",
+  "slug": "uru",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-uru",
+      "name": "Aniversário de Uru",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uru-0613",
+      "name": "Feriado Municipal de Uru",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

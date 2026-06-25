@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2108454,
+  "name": "Peritoró",
+  "slug": "peritoro",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-peritoro",
+      "name": "Aniversário de Peritoró",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

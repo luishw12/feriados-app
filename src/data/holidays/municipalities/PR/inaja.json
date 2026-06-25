@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4110300,
+  "name": "Inajá",
+  "slug": "inaja",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-inaja",
+      "name": "Aniversário de Inajá",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

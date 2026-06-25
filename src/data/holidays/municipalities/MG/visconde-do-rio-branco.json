@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3172004,
+  "name": "Visconde do Rio Branco",
+  "slug": "visconde-do-rio-branco",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-visconde-do-rio-branco",
+      "name": "Aniversário de Visconde do Rio Branco",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-visconde-do-rio-branco-0624",
+      "name": "Feriado Municipal de Visconde do Rio Branco",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-visconde-do-rio-branco-0928",
+      "name": "Feriado Municipal de Visconde do Rio Branco",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

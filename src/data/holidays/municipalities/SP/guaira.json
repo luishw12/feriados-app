@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3517406,
+  "name": "Guaíra",
+  "slug": "guaira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guaira",
+      "name": "Aniversário de Guaíra",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaira-0518",
+      "name": "Feriado Municipal de Guaíra",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

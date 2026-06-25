@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3202009,
+  "name": "Dores do Rio Preto",
+  "slug": "dores-do-rio-preto",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-dores-do-rio-preto",
+      "name": "Aniversário de Dores do Rio Preto",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dores-do-rio-preto-0914",
+      "name": "Feriado Municipal de Dores do Rio Preto",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dores-do-rio-preto-0915",
+      "name": "Feriado Municipal de Dores do Rio Preto",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

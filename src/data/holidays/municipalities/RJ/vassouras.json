@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3306206,
+  "name": "Vassouras",
+  "slug": "vassouras",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-vassouras",
+      "name": "Aniversário de Vassouras",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vassouras-0929",
+      "name": "Feriado Municipal de Vassouras",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vassouras-1208",
+      "name": "Feriado Municipal de Vassouras",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

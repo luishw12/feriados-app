@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1303205,
+  "name": "Novo Airão",
+  "slug": "novo-airao",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-novo-airao",
+      "name": "Aniversário de Novo Airão",
+      "date": "05-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-airao-0720",
+      "name": "Feriado Municipal de Novo Airão",
+      "date": "07-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-airao-1219",
+      "name": "Feriado Municipal de Novo Airão",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5206305,
+  "name": "Cristianópolis",
+  "slug": "cristianopolis",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-cristianopolis",
+      "name": "Aniversário de Cristianópolis",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

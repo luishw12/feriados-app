@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3535200,
+  "name": "Palmeira d'Oeste",
+  "slug": "palmeira-d-oeste",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-palmeira-d-oeste",
+      "name": "Aniversário de Palmeira d'Oeste",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

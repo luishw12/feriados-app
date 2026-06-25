@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2901502,
+  "name": "Anguera",
+  "slug": "anguera",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-anguera",
+      "name": "Aniversário de Anguera",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4217808,
+  "name": "Taió",
+  "slug": "taio",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-taio",
+      "name": "Aniversário de Taió",
+      "date": "02-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taio-0403",
+      "name": "Feriado Municipal de Taió",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taio-0604",
+      "name": "Feriado Municipal de Taió",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

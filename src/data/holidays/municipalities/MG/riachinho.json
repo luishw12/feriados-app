@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3154457,
+  "name": "Riachinho",
+  "slug": "riachinho",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-riachinho",
+      "name": "Aniversário de Riachinho",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riachinho-0725",
+      "name": "Feriado Municipal de Riachinho",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riachinho-1031",
+      "name": "Feriado Municipal de Riachinho",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

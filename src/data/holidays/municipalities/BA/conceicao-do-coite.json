@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2908408,
+  "name": "Conceição do Coité",
+  "slug": "conceicao-do-coite",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-conceicao-do-coite",
+      "name": "Aniversário de Conceição do Coité",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-conceicao-do-coite-0707",
+      "name": "Feriado Municipal de Conceição do Coité",
+      "date": "07-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-conceicao-do-coite-0923",
+      "name": "Feriado Municipal de Conceição do Coité",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-conceicao-do-coite-1208",
+      "name": "Feriado Municipal de Conceição do Coité",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

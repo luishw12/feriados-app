@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2600906,
+  "name": "Amaraji",
+  "slug": "amaraji",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-amaraji",
+      "name": "Aniversário de Amaraji",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amaraji-0629",
+      "name": "Feriado Municipal de Amaraji",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amaraji-0723",
+      "name": "Feriado Municipal de Amaraji",
+      "date": "07-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amaraji-1031",
+      "name": "Feriado Municipal de Amaraji",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

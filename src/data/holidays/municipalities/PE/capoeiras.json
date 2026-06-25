@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2603801,
+  "name": "Capoeiras",
+  "slug": "capoeiras",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-capoeiras",
+      "name": "Aniversário de Capoeiras",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capoeiras-1028",
+      "name": "Feriado Municipal de Capoeiras",
+      "date": "10-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capoeiras-1221",
+      "name": "Feriado Municipal de Capoeiras",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

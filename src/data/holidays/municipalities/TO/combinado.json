@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1705557,
+  "name": "Combinado",
+  "slug": "combinado",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-combinado",
+      "name": "Aniversário de Combinado",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

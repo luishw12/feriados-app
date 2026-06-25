@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3539707,
+  "name": "Platina",
+  "slug": "platina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-platina",
+      "name": "Aniversário de Platina",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-platina-1230",
+      "name": "Feriado Municipal de Platina",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

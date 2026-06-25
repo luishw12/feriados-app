@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3133402,
+  "name": "Itapagipe",
+  "slug": "itapagipe",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itapagipe",
+      "name": "Aniversário de Itapagipe",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapagipe-1227",
+      "name": "Feriado Municipal de Itapagipe",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

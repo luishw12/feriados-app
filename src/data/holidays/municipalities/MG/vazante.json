@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3171006,
+  "name": "Vazante",
+  "slug": "vazante",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-vazante",
+      "name": "Aniversário de Vazante",
+      "date": "05-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vazante-0503",
+      "name": "Feriado Municipal de Vazante",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vazante-1212",
+      "name": "Feriado Municipal de Vazante",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

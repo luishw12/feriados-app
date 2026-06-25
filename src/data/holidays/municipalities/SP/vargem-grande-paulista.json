@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3556453,
+  "name": "Vargem Grande Paulista",
+  "slug": "vargem-grande-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-vargem-grande-paulista",
+      "name": "Aniversário de Vargem Grande Paulista",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

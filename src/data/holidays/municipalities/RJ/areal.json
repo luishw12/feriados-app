@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3300225,
+  "name": "Areal",
+  "slug": "areal",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-areal",
+      "name": "Aniversário de Areal",
+      "date": "04-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-areal-0915",
+      "name": "Feriado Municipal de Areal",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

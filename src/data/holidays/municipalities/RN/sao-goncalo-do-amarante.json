@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2412005,
+  "name": "São Gonçalo do Amarante",
+  "slug": "sao-goncalo-do-amarante",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-sao-goncalo-do-amarante",
+      "name": "Aniversário de São Gonçalo do Amarante",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-goncalo-do-amarante-1211",
+      "name": "Feriado Municipal de São Gonçalo do Amarante",
+      "date": "12-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

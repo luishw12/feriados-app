@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2705705,
+  "name": "Olho d'Água das Flores",
+  "slug": "olho-d-agua-das-flores",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-olho-d-agua-das-flores",
+      "name": "Aniversário de Olho d'Água das Flores",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-olho-d-agua-das-flores-1202",
+      "name": "Feriado Municipal de Olho d'Água das Flores",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

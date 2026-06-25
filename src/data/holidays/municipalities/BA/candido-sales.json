@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2906709,
+  "name": "Cândido Sales",
+  "slug": "candido-sales",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-candido-sales",
+      "name": "Aniversário de Cândido Sales",
+      "date": "06-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-candido-sales-0624",
+      "name": "Feriado Municipal de Cândido Sales",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-candido-sales-0705",
+      "name": "Feriado Municipal de Cândido Sales",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-candido-sales-1127",
+      "name": "Feriado Municipal de Cândido Sales",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

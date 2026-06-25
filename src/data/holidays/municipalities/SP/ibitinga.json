@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519600,
+  "name": "Ibitinga",
+  "slug": "ibitinga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ibitinga",
+      "name": "Aniversário de Ibitinga",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibitinga-0806",
+      "name": "Feriado Municipal de Ibitinga",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

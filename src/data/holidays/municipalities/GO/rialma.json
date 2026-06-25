@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5218607,
+  "name": "Rialma",
+  "slug": "rialma",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-rialma",
+      "name": "Aniversário de Rialma",
+      "date": "03-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rialma-0531",
+      "name": "Feriado Municipal de Rialma",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rialma-0716",
+      "name": "Feriado Municipal de Rialma",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rialma-0904",
+      "name": "Feriado Municipal de Rialma",
+      "date": "09-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

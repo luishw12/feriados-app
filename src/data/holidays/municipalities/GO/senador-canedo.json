@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5220454,
+  "name": "Senador Canedo",
+  "slug": "senador-canedo",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-senador-canedo",
+      "name": "Aniversário de Senador Canedo",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-canedo-0601",
+      "name": "Feriado Municipal de Senador Canedo",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

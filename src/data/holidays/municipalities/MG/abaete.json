@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3100203,
+  "name": "Abaeté",
+  "slug": "abaete",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-abaete",
+      "name": "Aniversário de Abaeté",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-abaete-1105",
+      "name": "Feriado Municipal de Abaeté",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

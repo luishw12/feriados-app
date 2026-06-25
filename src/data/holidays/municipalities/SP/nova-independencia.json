@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3533205,
+  "name": "Nova Independência",
+  "slug": "nova-independencia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-nova-independencia",
+      "name": "Aniversário de Nova Independência",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-independencia-0806",
+      "name": "Feriado Municipal de Nova Independência",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

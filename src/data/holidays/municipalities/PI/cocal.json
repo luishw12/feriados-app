@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2202703,
+  "name": "Cocal",
+  "slug": "cocal",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-cocal",
+      "name": "Aniversário de Cocal",
+      "date": "05-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cocal-0527",
+      "name": "Feriado Municipal de Cocal",
+      "date": "05-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cocal-0815",
+      "name": "Feriado Municipal de Cocal",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cocal-0822",
+      "name": "Feriado Municipal de Cocal",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

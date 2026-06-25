@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2800506,
+  "name": "Areia Branca",
+  "slug": "areia-branca",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-areia-branca",
+      "name": "Aniversário de Areia Branca",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-areia-branca-1111",
+      "name": "Feriado Municipal de Areia Branca",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

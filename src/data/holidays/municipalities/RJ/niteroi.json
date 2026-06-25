@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3303302,
+  "name": "Niterói",
+  "slug": "niteroi",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-niteroi",
+      "name": "Aniversário de Niterói",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-niteroi-0604",
+      "name": "Feriado Municipal de Niterói",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-niteroi-0624",
+      "name": "Feriado Municipal de Niterói",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-niteroi-1122",
+      "name": "Feriado Municipal de Niterói",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

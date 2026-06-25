@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2914307,
+  "name": "Iramaia",
+  "slug": "iramaia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-iramaia",
+      "name": "Aniversário de Iramaia",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iramaia-0613",
+      "name": "Feriado Municipal de Iramaia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iramaia-0624",
+      "name": "Feriado Municipal de Iramaia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

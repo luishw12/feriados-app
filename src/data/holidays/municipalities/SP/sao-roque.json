@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3550605,
+  "name": "São Roque",
+  "slug": "sao-roque",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-roque",
+      "name": "Aniversário de São Roque",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

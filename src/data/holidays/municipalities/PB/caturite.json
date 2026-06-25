@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2504355,
+  "name": "Caturité",
+  "slug": "caturite",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-caturite",
+      "name": "Aniversário de Caturité",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caturite-0624",
+      "name": "Feriado Municipal de Caturité",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caturite-1208",
+      "name": "Feriado Municipal de Caturité",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

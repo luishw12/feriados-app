@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2103307,
+  "name": "Codó",
+  "slug": "codo",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-codo",
+      "name": "Aniversário de Codó",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-codo-0416",
+      "name": "Feriado Municipal de Codó",
+      "date": "04-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-codo-0810",
+      "name": "Feriado Municipal de Codó",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

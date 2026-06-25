@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3139102,
+  "name": "Madre de Deus de Minas",
+  "slug": "madre-de-deus-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-madre-de-deus-de-minas",
+      "name": "Aniversário de Madre de Deus de Minas",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

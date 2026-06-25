@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4123857,
+  "name": "Santa Maria do Oeste",
+  "slug": "santa-maria-do-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-maria-do-oeste",
+      "name": "Aniversário de Santa Maria do Oeste",
+      "date": "07-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-maria-do-oeste-0908",
+      "name": "Feriado Municipal de Santa Maria do Oeste",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-maria-do-oeste-1208",
+      "name": "Feriado Municipal de Santa Maria do Oeste",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

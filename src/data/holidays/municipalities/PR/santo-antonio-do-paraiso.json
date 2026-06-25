@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4124301,
+  "name": "Santo Antônio do Paraíso",
+  "slug": "santo-antonio-do-paraiso",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-paraiso",
+      "name": "Aniversário de Santo Antônio do Paraíso",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-paraiso-0725",
+      "name": "Feriado Municipal de Santo Antônio do Paraíso",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

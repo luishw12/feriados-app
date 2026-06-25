@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2300705,
+  "name": "Alto Santo",
+  "slug": "alto-santo",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-alto-santo",
+      "name": "Aniversário de Alto Santo",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

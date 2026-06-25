@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1720978,
+  "name": "Talismã",
+  "slug": "talisma",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-talisma",
+      "name": "Aniversário de Talismã",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

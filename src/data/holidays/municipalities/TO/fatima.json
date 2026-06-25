@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1707553,
+  "name": "Fátima",
+  "slug": "fatima",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-fatima",
+      "name": "Aniversário de Fátima",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fatima-0514",
+      "name": "Feriado Municipal de Fátima",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fatima-1221",
+      "name": "Feriado Municipal de Fátima",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

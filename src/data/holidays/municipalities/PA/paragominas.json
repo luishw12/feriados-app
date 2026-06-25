@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1505502,
+  "name": "Paragominas",
+  "slug": "paragominas",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-paragominas",
+      "name": "Aniversário de Paragominas",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

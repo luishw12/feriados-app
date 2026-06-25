@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3128907,
+  "name": "Guimarânia",
+  "slug": "guimarania",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-guimarania",
+      "name": "Aniversário de Guimarânia",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guimarania-0301",
+      "name": "Feriado Municipal de Guimarânia",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guimarania-0815",
+      "name": "Feriado Municipal de Guimarânia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

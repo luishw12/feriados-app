@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2802908,
+  "name": "Itabaiana",
+  "slug": "itabaiana",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-itabaiana",
+      "name": "Aniversário de Itabaiana",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itabaiana-0828",
+      "name": "Feriado Municipal de Itabaiana",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

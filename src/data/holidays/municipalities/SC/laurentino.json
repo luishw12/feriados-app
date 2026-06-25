@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4209508,
+  "name": "Laurentino",
+  "slug": "laurentino",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-laurentino",
+      "name": "Aniversário de Laurentino",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

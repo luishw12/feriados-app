@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4215000,
+  "name": "Rio Negrinho",
+  "slug": "rio-negrinho",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-rio-negrinho",
+      "name": "Aniversário de Rio Negrinho",
+      "date": "04-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2105401,
+  "name": "Itapecuru Mirim",
+  "slug": "itapecuru-mirim",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-itapecuru-mirim",
+      "name": "Aniversário de Itapecuru Mirim",
+      "date": "07-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapecuru-mirim-0915",
+      "name": "Feriado Municipal de Itapecuru Mirim",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapecuru-mirim-1130",
+      "name": "Feriado Municipal de Itapecuru Mirim",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

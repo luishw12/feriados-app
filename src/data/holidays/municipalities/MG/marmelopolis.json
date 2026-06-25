@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3140407,
+  "name": "Marmelópolis",
+  "slug": "marmelopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-marmelopolis",
+      "name": "Aniversário de Marmelópolis",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

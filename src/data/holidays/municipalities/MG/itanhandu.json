@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3133105,
+  "name": "Itanhandu",
+  "slug": "itanhandu",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itanhandu",
+      "name": "Aniversário de Itanhandu",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

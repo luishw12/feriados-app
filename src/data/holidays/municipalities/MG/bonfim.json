@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3108107,
+  "name": "Bonfim",
+  "slug": "bonfim",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bonfim",
+      "name": "Aniversário de Bonfim",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bonfim-0815",
+      "name": "Feriado Municipal de Bonfim",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

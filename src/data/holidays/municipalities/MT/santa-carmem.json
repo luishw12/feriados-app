@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5107248,
+  "name": "Santa Carmem",
+  "slug": "santa-carmem",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-santa-carmem",
+      "name": "Aniversário de Santa Carmem",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-carmem-0915",
+      "name": "Feriado Municipal de Santa Carmem",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-carmem-1219",
+      "name": "Feriado Municipal de Santa Carmem",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

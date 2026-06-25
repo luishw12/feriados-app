@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3165602,
+  "name": "Senador Cortes",
+  "slug": "senador-cortes",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-senador-cortes",
+      "name": "Aniversário de Senador Cortes",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-cortes-0301",
+      "name": "Feriado Municipal de Senador Cortes",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-cortes-0629",
+      "name": "Feriado Municipal de Senador Cortes",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-cortes-1213",
+      "name": "Feriado Municipal de Senador Cortes",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

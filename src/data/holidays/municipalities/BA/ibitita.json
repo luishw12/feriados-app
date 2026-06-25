@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2913101,
+  "name": "Ibititá",
+  "slug": "ibitita",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ibitita",
+      "name": "Aniversário de Ibititá",
+      "date": "01-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

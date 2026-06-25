@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2920007,
+  "name": "Maiquinique",
+  "slug": "maiquinique",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-maiquinique",
+      "name": "Aniversário de Maiquinique",
+      "date": "05-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maiquinique-0624",
+      "name": "Feriado Municipal de Maiquinique",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maiquinique-0716",
+      "name": "Feriado Municipal de Maiquinique",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

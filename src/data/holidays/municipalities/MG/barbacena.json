@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3105608,
+  "name": "Barbacena",
+  "slug": "barbacena",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-barbacena",
+      "name": "Aniversário de Barbacena",
+      "date": "08-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barbacena-0915",
+      "name": "Feriado Municipal de Barbacena",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barbacena-1208",
+      "name": "Feriado Municipal de Barbacena",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

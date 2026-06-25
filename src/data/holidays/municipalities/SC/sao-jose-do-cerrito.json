@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4216800,
+  "name": "São José do Cerrito",
+  "slug": "sao-jose-do-cerrito",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-cerrito",
+      "name": "Aniversário de São José do Cerrito",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

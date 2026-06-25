@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4118105,
+  "name": "Paranacity",
+  "slug": "paranacity",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-paranacity",
+      "name": "Aniversário de Paranacity",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranacity-1126",
+      "name": "Feriado Municipal de Paranacity",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

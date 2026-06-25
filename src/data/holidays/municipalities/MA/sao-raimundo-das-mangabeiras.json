@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2111607,
+  "name": "São Raimundo das Mangabeiras",
+  "slug": "sao-raimundo-das-mangabeiras",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-raimundo-das-mangabeiras",
+      "name": "Aniversário de São Raimundo das Mangabeiras",
+      "date": "02-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-raimundo-das-mangabeiras-0830",
+      "name": "Feriado Municipal de São Raimundo das Mangabeiras",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-raimundo-das-mangabeiras-0831",
+      "name": "Feriado Municipal de São Raimundo das Mangabeiras",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4312005,
+  "name": "Mariano Moro",
+  "slug": "mariano-moro",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-mariano-moro",
+      "name": "Aniversário de Mariano Moro",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

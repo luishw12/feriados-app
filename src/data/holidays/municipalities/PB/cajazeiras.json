@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2503704,
+  "name": "Cajazeiras",
+  "slug": "cajazeiras",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-cajazeiras",
+      "name": "Aniversário de Cajazeiras",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cajazeiras-0915",
+      "name": "Feriado Municipal de Cajazeiras",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

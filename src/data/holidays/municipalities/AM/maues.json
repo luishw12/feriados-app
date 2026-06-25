@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1302900,
+  "name": "Maués",
+  "slug": "maues",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-maues",
+      "name": "Aniversário de Maués",
+      "date": "06-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

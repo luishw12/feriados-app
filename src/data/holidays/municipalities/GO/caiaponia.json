@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5204409,
+  "name": "Caiapônia",
+  "slug": "caiaponia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-caiaponia",
+      "name": "Aniversário de Caiapônia",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caiaponia-0729",
+      "name": "Feriado Municipal de Caiapônia",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caiaponia-1101",
+      "name": "Feriado Municipal de Caiapônia",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2703205,
+  "name": "Igreja Nova",
+  "slug": "igreja-nova",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-igreja-nova",
+      "name": "Aniversário de Igreja Nova",
+      "date": "05-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

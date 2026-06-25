@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1505700,
+  "name": "Ponta de Pedras",
+  "slug": "ponta-de-pedras",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-ponta-de-pedras",
+      "name": "Aniversário de Ponta de Pedras",
+      "date": "04-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

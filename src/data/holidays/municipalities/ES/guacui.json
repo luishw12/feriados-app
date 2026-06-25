@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3202306,
+  "name": "Guaçuí",
+  "slug": "guacui",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-guacui",
+      "name": "Aniversário de Guaçuí",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

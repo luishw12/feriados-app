@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2412500,
+  "name": "São Miguel",
+  "slug": "sao-miguel",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel",
+      "name": "Aniversário de São Miguel",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-1211",
+      "name": "Feriado Municipal de São Miguel",
+      "date": "12-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

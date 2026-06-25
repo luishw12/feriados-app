@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1504703,
+  "name": "Moju",
+  "slug": "moju",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-moju",
+      "name": "Aniversário de Moju",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

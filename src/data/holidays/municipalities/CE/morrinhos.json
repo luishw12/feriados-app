@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2308906,
+  "name": "Morrinhos",
+  "slug": "morrinhos",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-morrinhos",
+      "name": "Aniversário de Morrinhos",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

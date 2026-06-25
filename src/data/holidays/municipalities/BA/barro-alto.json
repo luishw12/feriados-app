@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2903235,
+  "name": "Barro Alto",
+  "slug": "barro-alto",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-barro-alto",
+      "name": "Aniversário de Barro Alto",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

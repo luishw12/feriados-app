@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2610103,
+  "name": "Palmeirina",
+  "slug": "palmeirina",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-palmeirina",
+      "name": "Aniversário de Palmeirina",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmeirina-1231",
+      "name": "Feriado Municipal de Palmeirina",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

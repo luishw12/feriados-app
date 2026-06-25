@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2106102,
+  "name": "Loreto",
+  "slug": "loreto",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-loreto",
+      "name": "Aniversário de Loreto",
+      "date": "03-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3542909,
+  "name": "Ribeirão Bonito",
+  "slug": "ribeirao-bonito",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ribeirao-bonito",
+      "name": "Aniversário de Ribeirão Bonito",
+      "date": "03-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-bonito-0806",
+      "name": "Feriado Municipal de Ribeirão Bonito",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

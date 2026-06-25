@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1705508,
+  "name": "Colinas do Tocantins",
+  "slug": "colinas-do-tocantins",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-colinas-do-tocantins",
+      "name": "Aniversário de Colinas do Tocantins",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

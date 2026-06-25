@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3168903,
+  "name": "Tiros",
+  "slug": "tiros",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-tiros",
+      "name": "Aniversário de Tiros",
+      "date": "02-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tiros-0613",
+      "name": "Feriado Municipal de Tiros",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -7,9 +7,31 @@
     {
       "id": "aniversario-campinas",
       "name": "Aniversário de Campinas",
-      "date": "07-14",
+      "date": "04-03",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campinas-0604",
+      "name": "Feriado Municipal de Campinas",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campinas-1208",
+      "name": "Feriado Municipal de Campinas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3518008,
+  "name": "Guarani d'Oeste",
+  "slug": "guarani-d-oeste",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guarani-d-oeste",
+      "name": "Aniversário de Guarani d'Oeste",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guarani-d-oeste-0818",
+      "name": "Feriado Municipal de Guarani d'Oeste",
+      "date": "08-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

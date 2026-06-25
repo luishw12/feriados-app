@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4109401,
+  "name": "Guarapuava",
+  "slug": "guarapuava",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-guarapuava",
+      "name": "Aniversário de Guarapuava",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

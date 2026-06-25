@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2924900,
+  "name": "Planaltino",
+  "slug": "planaltino",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-planaltino",
+      "name": "Aniversário de Planaltino",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-planaltino-0730",
+      "name": "Feriado Municipal de Planaltino",
+      "date": "07-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-planaltino-0915",
+      "name": "Feriado Municipal de Planaltino",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

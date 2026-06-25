@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5107859,
+  "name": "São Félix do Araguaia",
+  "slug": "sao-felix-do-araguaia",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-sao-felix-do-araguaia",
+      "name": "Aniversário de São Félix do Araguaia",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-felix-do-araguaia-0815",
+      "name": "Feriado Municipal de São Félix do Araguaia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

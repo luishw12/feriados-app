@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3517505,
+  "name": "Guapiaçu",
+  "slug": "guapiacu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guapiacu",
+      "name": "Aniversário de Guapiaçu",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guapiacu-1130",
+      "name": "Feriado Municipal de Guapiaçu",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1505403,
+  "name": "Ourém",
+  "slug": "ourem",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-ourem",
+      "name": "Aniversário de Ourém",
+      "date": "05-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

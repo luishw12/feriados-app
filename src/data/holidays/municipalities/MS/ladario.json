@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5005202,
+  "name": "Ladário",
+  "slug": "ladario",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-ladario",
+      "name": "Aniversário de Ladário",
+      "date": "09-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

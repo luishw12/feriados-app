@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4314050,
+  "name": "Parobé",
+  "slug": "parobe",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-parobe",
+      "name": "Aniversário de Parobé",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parobe-0403",
+      "name": "Feriado Municipal de Parobé",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parobe-0604",
+      "name": "Feriado Municipal de Parobé",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parobe-0725",
+      "name": "Feriado Municipal de Parobé",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

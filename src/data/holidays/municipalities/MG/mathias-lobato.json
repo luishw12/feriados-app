@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3171501,
+  "name": "Mathias Lobato",
+  "slug": "mathias-lobato",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-mathias-lobato",
+      "name": "Aniversário de Mathias Lobato",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mathias-lobato-1213",
+      "name": "Feriado Municipal de Mathias Lobato",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

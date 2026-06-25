@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4200507,
+  "name": "Águas de Chapecó",
+  "slug": "aguas-de-chapeco",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-aguas-de-chapeco",
+      "name": "Aniversário de Águas de Chapecó",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aguas-de-chapeco-1214",
+      "name": "Feriado Municipal de Águas de Chapecó",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

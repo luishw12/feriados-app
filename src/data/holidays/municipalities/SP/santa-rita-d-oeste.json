@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3547403,
+  "name": "Santa Rita d'Oeste",
+  "slug": "santa-rita-d-oeste",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rita-d-oeste",
+      "name": "Aniversário de Santa Rita d'Oeste",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

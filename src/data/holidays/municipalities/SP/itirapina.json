@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3523602,
+  "name": "Itirapina",
+  "slug": "itirapina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itirapina",
+      "name": "Aniversário de Itirapina",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itirapina-0613",
+      "name": "Feriado Municipal de Itirapina",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

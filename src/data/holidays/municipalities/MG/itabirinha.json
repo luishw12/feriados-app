@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3131802,
+  "name": "Itabirinha",
+  "slug": "itabirinha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itabirinha",
+      "name": "Aniversário de Itabirinha",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itabirinha-1208",
+      "name": "Feriado Municipal de Itabirinha",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

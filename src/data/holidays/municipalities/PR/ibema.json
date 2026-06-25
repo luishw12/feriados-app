@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4109757,
+  "name": "Ibema",
+  "slug": "ibema",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ibema",
+      "name": "Aniversário de Ibema",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

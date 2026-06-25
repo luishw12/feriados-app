@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3505203,
+  "name": "Bariri",
+  "slug": "bariri",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bariri",
+      "name": "Aniversário de Bariri",
+      "date": "06-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bariri-0915",
+      "name": "Feriado Municipal de Bariri",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

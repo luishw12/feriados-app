@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2927804,
+  "name": "Santa Cruz da Vitória",
+  "slug": "santa-cruz-da-vitoria",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cruz-da-vitoria",
+      "name": "Aniversário de Santa Cruz da Vitória",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cruz-da-vitoria-0815",
+      "name": "Feriado Municipal de Santa Cruz da Vitória",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cruz-da-vitoria-1123",
+      "name": "Feriado Municipal de Santa Cruz da Vitória",
+      "date": "11-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2515500,
+  "name": "Serra Branca",
+  "slug": "serra-branca",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-serra-branca",
+      "name": "Aniversário de Serra Branca",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serra-branca-0624",
+      "name": "Feriado Municipal de Serra Branca",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serra-branca-1208",
+      "name": "Feriado Municipal de Serra Branca",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

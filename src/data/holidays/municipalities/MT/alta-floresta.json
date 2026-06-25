@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5100250,
+  "name": "Alta Floresta",
+  "slug": "alta-floresta",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-alta-floresta",
+      "name": "Aniversário de Alta Floresta",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

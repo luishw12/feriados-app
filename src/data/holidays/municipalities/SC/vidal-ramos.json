@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4219200,
+  "name": "Vidal Ramos",
+  "slug": "vidal-ramos",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-vidal-ramos",
+      "name": "Aniversário de Vidal Ramos",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

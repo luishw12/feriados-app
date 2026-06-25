@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4218756,
+  "name": "Tunápolis",
+  "slug": "tunapolis",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-tunapolis",
+      "name": "Aniversário de Tunápolis",
+      "date": "04-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tunapolis-0725",
+      "name": "Feriado Municipal de Tunápolis",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

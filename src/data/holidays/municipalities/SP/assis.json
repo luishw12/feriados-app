@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3504008,
+  "name": "Assis",
+  "slug": "assis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-assis",
+      "name": "Aniversário de Assis",
+      "date": "07-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

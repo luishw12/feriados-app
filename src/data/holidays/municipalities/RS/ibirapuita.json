@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4309951,
+  "name": "Ibirapuitã",
+  "slug": "ibirapuita",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-ibirapuita",
+      "name": "Aniversário de Ibirapuitã",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

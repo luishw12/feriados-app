@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5217609,
+  "name": "Planaltina",
+  "slug": "planaltina",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-planaltina",
+      "name": "Aniversário de Planaltina",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-planaltina-1130",
+      "name": "Feriado Municipal de Planaltina",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

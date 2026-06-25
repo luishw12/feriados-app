@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2916906,
+  "name": "Itiruçu",
+  "slug": "itirucu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itirucu",
+      "name": "Aniversário de Itiruçu",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itirucu-0901",
+      "name": "Feriado Municipal de Itiruçu",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

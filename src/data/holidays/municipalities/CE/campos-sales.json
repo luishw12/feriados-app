@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2302701,
+  "name": "Campos Sales",
+  "slug": "campos-sales",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-campos-sales",
+      "name": "Aniversário de Campos Sales",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

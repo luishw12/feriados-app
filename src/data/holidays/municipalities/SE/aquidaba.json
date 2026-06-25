@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2800209,
+  "name": "Aquidabã",
+  "slug": "aquidaba",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-aquidaba",
+      "name": "Aniversário de Aquidabã",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aquidaba-1101",
+      "name": "Feriado Municipal de Aquidabã",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

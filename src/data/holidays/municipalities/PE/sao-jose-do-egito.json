@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2613602,
+  "name": "São José do Egito",
+  "slug": "sao-jose-do-egito",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-egito",
+      "name": "Aniversário de São José do Egito",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-egito-0309",
+      "name": "Feriado Municipal de São José do Egito",
+      "date": "03-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-egito-0319",
+      "name": "Feriado Municipal de São José do Egito",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

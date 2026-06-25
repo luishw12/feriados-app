@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3121902,
+  "name": "Divinésia",
+  "slug": "divinesia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-divinesia",
+      "name": "Aniversário de Divinésia",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

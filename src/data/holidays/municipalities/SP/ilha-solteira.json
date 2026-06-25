@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3520442,
+  "name": "Ilha Solteira",
+  "slug": "ilha-solteira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ilha-solteira",
+      "name": "Aniversário de Ilha Solteira",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

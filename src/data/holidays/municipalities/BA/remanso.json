@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2926004,
+  "name": "Remanso",
+  "slug": "remanso",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-remanso",
+      "name": "Aniversário de Remanso",
+      "date": "08-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-remanso-1030",
+      "name": "Feriado Municipal de Remanso",
+      "date": "10-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

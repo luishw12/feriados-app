@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3529708,
+  "name": "Miguelópolis",
+  "slug": "miguelopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-miguelopolis",
+      "name": "Aniversário de Miguelópolis",
+      "date": "01-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miguelopolis-0308",
+      "name": "Feriado Municipal de Miguelópolis",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miguelopolis-0929",
+      "name": "Feriado Municipal de Miguelópolis",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4308300,
+  "name": "Fontoura Xavier",
+  "slug": "fontoura-xavier",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-fontoura-xavier",
+      "name": "Aniversário de Fontoura Xavier",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2205201,
+  "name": "Jaicós",
+  "slug": "jaicos",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-jaicos",
+      "name": "Aniversário de Jaicós",
+      "date": "02-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaicos-0503",
+      "name": "Feriado Municipal de Jaicós",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaicos-0924",
+      "name": "Feriado Municipal de Jaicós",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

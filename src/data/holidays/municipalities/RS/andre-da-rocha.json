@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4300661,
+  "name": "André da Rocha",
+  "slug": "andre-da-rocha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-andre-da-rocha",
+      "name": "Aniversário de André da Rocha",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-andre-da-rocha-0403",
+      "name": "Feriado Municipal de André da Rocha",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-andre-da-rocha-0512",
+      "name": "Feriado Municipal de André da Rocha",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

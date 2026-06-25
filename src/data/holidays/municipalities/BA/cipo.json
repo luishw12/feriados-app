@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2907905,
+  "name": "Cipó",
+  "slug": "cipo",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-cipo",
+      "name": "Aniversário de Cipó",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cipo-0503",
+      "name": "Feriado Municipal de Cipó",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cipo-0708",
+      "name": "Feriado Municipal de Cipó",
+      "date": "07-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cipo-1204",
+      "name": "Feriado Municipal de Cipó",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3555604,
+  "name": "Uchoa",
+  "slug": "uchoa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-uchoa",
+      "name": "Aniversário de Uchoa",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uchoa-0708",
+      "name": "Feriado Municipal de Uchoa",
+      "date": "07-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

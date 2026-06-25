@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5104203,
+  "name": "Guiratinga",
+  "slug": "guiratinga",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-guiratinga",
+      "name": "Aniversário de Guiratinga",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guiratinga-0802",
+      "name": "Feriado Municipal de Guiratinga",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

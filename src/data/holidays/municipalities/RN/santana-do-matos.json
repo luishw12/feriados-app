@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2411403,
+  "name": "Santana do Matos",
+  "slug": "santana-do-matos",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-santana-do-matos",
+      "name": "Aniversário de Santana do Matos",
+      "date": "03-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-do-matos-0726",
+      "name": "Feriado Municipal de Santana do Matos",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-do-matos-0806",
+      "name": "Feriado Municipal de Santana do Matos",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-do-matos-1213",
+      "name": "Feriado Municipal de Santana do Matos",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

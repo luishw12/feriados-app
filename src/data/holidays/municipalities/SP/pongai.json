@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3540101,
+  "name": "Pongaí",
+  "slug": "pongai",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pongai",
+      "name": "Aniversário de Pongaí",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pongai-0402",
+      "name": "Feriado Municipal de Pongaí",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pongai-1208",
+      "name": "Feriado Municipal de Pongaí",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

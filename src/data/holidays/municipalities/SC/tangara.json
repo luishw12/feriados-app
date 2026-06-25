@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4217907,
+  "name": "Tangará",
+  "slug": "tangara",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-tangara",
+      "name": "Aniversário de Tangará",
+      "date": "02-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tangara-0613",
+      "name": "Feriado Municipal de Tangará",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

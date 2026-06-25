@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4314027,
+  "name": "Paraíso do Sul",
+  "slug": "paraiso-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-paraiso-do-sul",
+      "name": "Aniversário de Paraíso do Sul",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraiso-do-sul-0725",
+      "name": "Feriado Municipal de Paraíso do Sul",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraiso-do-sul-1031",
+      "name": "Feriado Municipal de Paraíso do Sul",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

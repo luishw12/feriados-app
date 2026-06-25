@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5214804,
+  "name": "Nova Aurora",
+  "slug": "nova-aurora",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-nova-aurora",
+      "name": "Aniversário de Nova Aurora",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-aurora-0513",
+      "name": "Feriado Municipal de Nova Aurora",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-aurora-0815",
+      "name": "Feriado Municipal de Nova Aurora",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-aurora-1113",
+      "name": "Feriado Municipal de Nova Aurora",
+      "date": "11-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

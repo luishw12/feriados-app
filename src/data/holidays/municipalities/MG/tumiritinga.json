@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3169505,
+  "name": "Tumiritinga",
+  "slug": "tumiritinga",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-tumiritinga",
+      "name": "Aniversário de Tumiritinga",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tumiritinga-1031",
+      "name": "Feriado Municipal de Tumiritinga",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

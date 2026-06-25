@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2512507,
+  "name": "Queimadas",
+  "slug": "queimadas",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-queimadas",
+      "name": "Aniversário de Queimadas",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-queimadas-0624",
+      "name": "Feriado Municipal de Queimadas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-queimadas-0924",
+      "name": "Feriado Municipal de Queimadas",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-queimadas-1214",
+      "name": "Feriado Municipal de Queimadas",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

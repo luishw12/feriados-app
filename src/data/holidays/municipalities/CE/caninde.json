@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2302800,
+  "name": "Canindé",
+  "slug": "caninde",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-caninde",
+      "name": "Aniversário de Canindé",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

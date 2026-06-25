@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3128006,
+  "name": "Guanhães",
+  "slug": "guanhaes",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-guanhaes",
+      "name": "Aniversário de Guanhães",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5101704,
+  "name": "Barra do Bugres",
+  "slug": "barra-do-bugres",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-barra-do-bugres",
+      "name": "Aniversário de Barra do Bugres",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-do-bugres-0914",
+      "name": "Feriado Municipal de Barra do Bugres",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

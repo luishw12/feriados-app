@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3204104,
+  "name": "Pinheiros",
+  "slug": "pinheiros",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-pinheiros",
+      "name": "Aniversário de Pinheiros",
+      "date": "04-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pinheiros-1031",
+      "name": "Feriado Municipal de Pinheiros",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pinheiros-1227",
+      "name": "Feriado Municipal de Pinheiros",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

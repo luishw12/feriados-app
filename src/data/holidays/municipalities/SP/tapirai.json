@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3553500,
+  "name": "Tapiraí",
+  "slug": "tapirai",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-tapirai",
+      "name": "Aniversário de Tapiraí",
+      "date": "02-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tapirai-1125",
+      "name": "Feriado Municipal de Tapiraí",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

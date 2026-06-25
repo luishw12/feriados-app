@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2803203,
+  "name": "Itaporanga d'Ajuda",
+  "slug": "itaporanga-d-ajuda",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-itaporanga-d-ajuda",
+      "name": "Aniversário de Itaporanga d'Ajuda",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaporanga-d-ajuda-0328",
+      "name": "Feriado Municipal de Itaporanga d'Ajuda",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaporanga-d-ajuda-0624",
+      "name": "Feriado Municipal de Itaporanga d'Ajuda",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaporanga-d-ajuda-0629",
+      "name": "Feriado Municipal de Itaporanga d'Ajuda",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

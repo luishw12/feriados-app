@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4103040,
+  "name": "Boa Ventura de São Roque",
+  "slug": "boa-ventura-de-sao-roque",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-boa-ventura-de-sao-roque",
+      "name": "Aniversário de Boa Ventura de São Roque",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boa-ventura-de-sao-roque-0918",
+      "name": "Feriado Municipal de Boa Ventura de São Roque",
+      "date": "09-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boa-ventura-de-sao-roque-1108",
+      "name": "Feriado Municipal de Boa Ventura de São Roque",
+      "date": "11-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

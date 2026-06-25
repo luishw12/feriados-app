@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1500503,
+  "name": "Almeirim",
+  "slug": "almeirim",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-almeirim",
+      "name": "Aniversário de Almeirim",
+      "date": "06-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-almeirim-0823",
+      "name": "Feriado Municipal de Almeirim",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

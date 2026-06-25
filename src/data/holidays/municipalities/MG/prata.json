@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3152808,
+  "name": "Prata",
+  "slug": "prata",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-prata",
+      "name": "Aniversário de Prata",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-prata-0513",
+      "name": "Feriado Municipal de Prata",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-prata-0716",
+      "name": "Feriado Municipal de Prata",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

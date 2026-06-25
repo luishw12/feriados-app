@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1502103,
+  "name": "Cametá",
+  "slug": "cameta",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-cameta",
+      "name": "Aniversário de Cametá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cameta-1224",
+      "name": "Feriado Municipal de Cametá",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

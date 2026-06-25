@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2910859,
+  "name": "Filadélfia",
+  "slug": "filadelfia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-filadelfia",
+      "name": "Aniversário de Filadélfia",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-filadelfia-0429",
+      "name": "Feriado Municipal de Filadélfia",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-filadelfia-0509",
+      "name": "Feriado Municipal de Filadélfia",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-filadelfia-0921",
+      "name": "Feriado Municipal de Filadélfia",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4303202,
+  "name": "Cacique Doble",
+  "slug": "cacique-doble",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cacique-doble",
+      "name": "Aniversário de Cacique Doble",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cacique-doble-0601",
+      "name": "Feriado Municipal de Cacique Doble",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

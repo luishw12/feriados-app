@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4321006,
+  "name": "Tapera",
+  "slug": "tapera",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tapera",
+      "name": "Aniversário de Tapera",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

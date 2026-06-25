@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4125407,
+  "name": "São José da Boa Vista",
+  "slug": "sao-jose-da-boa-vista",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-da-boa-vista",
+      "name": "Aniversário de São José da Boa Vista",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

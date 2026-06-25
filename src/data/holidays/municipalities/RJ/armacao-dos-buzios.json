@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3300233,
+  "name": "Armação dos Búzios",
+  "slug": "armacao-dos-buzios",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-armacao-dos-buzios",
+      "name": "Aniversário de Armação dos Búzios",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-armacao-dos-buzios-1112",
+      "name": "Feriado Municipal de Armação dos Búzios",
+      "date": "11-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2919504,
+  "name": "Livramento de Nossa Senhora",
+  "slug": "livramento-de-nossa-senhora",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-livramento-de-nossa-senhora",
+      "name": "Aniversário de Livramento de Nossa Senhora",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-livramento-de-nossa-senhora-0806",
+      "name": "Feriado Municipal de Livramento de Nossa Senhora",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-livramento-de-nossa-senhora-0815",
+      "name": "Feriado Municipal de Livramento de Nossa Senhora",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

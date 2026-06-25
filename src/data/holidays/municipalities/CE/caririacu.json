@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2303204,
+  "name": "Caririaçu",
+  "slug": "caririacu",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-caririacu",
+      "name": "Aniversário de Caririaçu",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caririacu-0818",
+      "name": "Feriado Municipal de Caririaçu",
+      "date": "08-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

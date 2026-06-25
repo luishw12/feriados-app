@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4307302,
+  "name": "Erval Seco",
+  "slug": "erval-seco",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-erval-seco",
+      "name": "Aniversário de Erval Seco",
+      "date": "04-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

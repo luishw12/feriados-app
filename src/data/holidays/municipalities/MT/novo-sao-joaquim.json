@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5106281,
+  "name": "Novo São Joaquim",
+  "slug": "novo-sao-joaquim",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-novo-sao-joaquim",
+      "name": "Aniversário de Novo São Joaquim",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-sao-joaquim-0726",
+      "name": "Feriado Municipal de Novo São Joaquim",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

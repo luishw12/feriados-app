@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2914703,
+  "name": "Itaberaba",
+  "slug": "itaberaba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itaberaba",
+      "name": "Aniversário de Itaberaba",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaberaba-0518",
+      "name": "Feriado Municipal de Itaberaba",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaberaba-0624",
+      "name": "Feriado Municipal de Itaberaba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

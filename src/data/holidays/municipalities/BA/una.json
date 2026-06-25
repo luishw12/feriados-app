@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2932507,
+  "name": "Una",
+  "slug": "una",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-una",
+      "name": "Aniversário de Una",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-una-0319",
+      "name": "Feriado Municipal de Una",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-una-0613",
+      "name": "Feriado Municipal de Una",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-una-0802",
+      "name": "Feriado Municipal de Una",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4127965,
+  "name": "Turvo",
+  "slug": "turvo",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-turvo",
+      "name": "Aniversário de Turvo",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

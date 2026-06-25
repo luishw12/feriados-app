@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4205001,
+  "name": "Dionísio Cerqueira",
+  "slug": "dionisio-cerqueira",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-dionisio-cerqueira",
+      "name": "Aniversário de Dionísio Cerqueira",
+      "date": "03-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

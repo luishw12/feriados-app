@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4119301,
+  "name": "Pinhão",
+  "slug": "pinhao",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-pinhao",
+      "name": "Aniversário de Pinhão",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

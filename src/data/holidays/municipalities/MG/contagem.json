@@ -7,9 +7,42 @@
     {
       "id": "aniversario-contagem",
       "name": "Aniversário de Contagem",
-      "date": "08-30",
+      "date": "03-27",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-contagem-0403",
+      "name": "Feriado Municipal de Contagem",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-contagem-0604",
+      "name": "Feriado Municipal de Contagem",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-contagem-1208",
+      "name": "Feriado Municipal de Contagem",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

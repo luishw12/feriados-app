@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5007505,
+  "name": "Rochedo",
+  "slug": "rochedo",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-rochedo",
+      "name": "Aniversário de Rochedo",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rochedo-1123",
+      "name": "Feriado Municipal de Rochedo",
+      "date": "11-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3162005,
+  "name": "São Gonçalo do Sapucaí",
+  "slug": "sao-goncalo-do-sapucai",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-goncalo-do-sapucai",
+      "name": "Aniversário de São Gonçalo do Sapucaí",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

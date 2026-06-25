@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5007950,
+  "name": "Tacuru",
+  "slug": "tacuru",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-tacuru",
+      "name": "Aniversário de Tacuru",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tacuru-0513",
+      "name": "Feriado Municipal de Tacuru",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tacuru-1208",
+      "name": "Feriado Municipal de Tacuru",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4209201,
+  "name": "Lacerdópolis",
+  "slug": "lacerdopolis",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-lacerdopolis",
+      "name": "Aniversário de Lacerdópolis",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lacerdopolis-1111",
+      "name": "Feriado Municipal de Lacerdópolis",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

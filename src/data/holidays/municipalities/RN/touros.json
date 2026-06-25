@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2414407,
+  "name": "Touros",
+  "slug": "touros",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-touros",
+      "name": "Aniversário de Touros",
+      "date": "01-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-touros-0327",
+      "name": "Feriado Municipal de Touros",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-touros-0629",
+      "name": "Feriado Municipal de Touros",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-touros-0905",
+      "name": "Feriado Municipal de Touros",
+      "date": "09-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

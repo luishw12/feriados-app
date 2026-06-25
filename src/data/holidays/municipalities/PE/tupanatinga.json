@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2615805,
+  "name": "Tupanatinga",
+  "slug": "tupanatinga",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-tupanatinga",
+      "name": "Aniversário de Tupanatinga",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tupanatinga-0811",
+      "name": "Feriado Municipal de Tupanatinga",
+      "date": "08-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tupanatinga-1220",
+      "name": "Feriado Municipal de Tupanatinga",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

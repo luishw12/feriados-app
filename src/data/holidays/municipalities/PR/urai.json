@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4128401,
+  "name": "Uraí",
+  "slug": "urai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-urai",
+      "name": "Aniversário de Uraí",
+      "date": "05-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

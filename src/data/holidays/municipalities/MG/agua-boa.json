@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3100609,
+  "name": "Água Boa",
+  "slug": "agua-boa",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-agua-boa",
+      "name": "Aniversário de Água Boa",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agua-boa-1212",
+      "name": "Feriado Municipal de Água Boa",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

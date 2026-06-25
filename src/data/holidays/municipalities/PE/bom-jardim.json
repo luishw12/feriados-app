@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2602209,
+  "name": "Bom Jardim",
+  "slug": "bom-jardim",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jardim",
+      "name": "Aniversário de Bom Jardim",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jardim-0203",
+      "name": "Feriado Municipal de Bom Jardim",
+      "date": "02-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jardim-0629",
+      "name": "Feriado Municipal de Bom Jardim",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jardim-0719",
+      "name": "Feriado Municipal de Bom Jardim",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

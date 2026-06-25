@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3305703,
+  "name": "Sumidouro",
+  "slug": "sumidouro",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-sumidouro",
+      "name": "Aniversário de Sumidouro",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sumidouro-0610",
+      "name": "Feriado Municipal de Sumidouro",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sumidouro-1208",
+      "name": "Feriado Municipal de Sumidouro",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

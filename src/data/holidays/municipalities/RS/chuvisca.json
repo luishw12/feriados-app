@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4305447,
+  "name": "Chuvisca",
+  "slug": "chuvisca",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-chuvisca",
+      "name": "Aniversário de Chuvisca",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

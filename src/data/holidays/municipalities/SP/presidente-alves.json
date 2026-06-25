@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3541109,
+  "name": "Presidente Alves",
+  "slug": "presidente-alves",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-alves",
+      "name": "Aniversário de Presidente Alves",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-alves-1202",
+      "name": "Feriado Municipal de Presidente Alves",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

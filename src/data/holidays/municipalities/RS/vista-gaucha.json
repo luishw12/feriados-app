@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4323705,
+  "name": "Vista Gaúcha",
+  "slug": "vista-gaucha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vista-gaucha",
+      "name": "Aniversário de Vista Gaúcha",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vista-gaucha-1208",
+      "name": "Feriado Municipal de Vista Gaúcha",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

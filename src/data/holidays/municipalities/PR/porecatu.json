@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4120002,
+  "name": "Porecatu",
+  "slug": "porecatu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-porecatu",
+      "name": "Aniversário de Porecatu",
+      "date": "01-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4120606,
+  "name": "Prudentópolis",
+  "slug": "prudentopolis",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-prudentopolis",
+      "name": "Aniversário de Prudentópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-prudentopolis-0812",
+      "name": "Feriado Municipal de Prudentópolis",
+      "date": "08-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-prudentopolis-1112",
+      "name": "Feriado Municipal de Prudentópolis",
+      "date": "11-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

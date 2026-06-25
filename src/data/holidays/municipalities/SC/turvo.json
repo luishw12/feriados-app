@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4218806,
+  "name": "Turvo",
+  "slug": "turvo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-turvo",
+      "name": "Aniversário de Turvo",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-turvo-0712",
+      "name": "Feriado Municipal de Turvo",
+      "date": "07-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

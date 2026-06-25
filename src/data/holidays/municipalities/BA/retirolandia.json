@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2926103,
+  "name": "Retirolândia",
+  "slug": "retirolandia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-retirolandia",
+      "name": "Aniversário de Retirolândia",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-retirolandia-0613",
+      "name": "Feriado Municipal de Retirolândia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-retirolandia-0727",
+      "name": "Feriado Municipal de Retirolândia",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-retirolandia-0923",
+      "name": "Feriado Municipal de Retirolândia",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

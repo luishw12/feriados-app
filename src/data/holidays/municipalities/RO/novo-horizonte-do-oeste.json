@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100502,
+  "name": "Novo Horizonte do Oeste",
+  "slug": "novo-horizonte-do-oeste",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-novo-horizonte-do-oeste",
+      "name": "Aniversário de Novo Horizonte do Oeste",
+      "date": "02-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-horizonte-do-oeste-0618",
+      "name": "Feriado Municipal de Novo Horizonte do Oeste",
+      "date": "06-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

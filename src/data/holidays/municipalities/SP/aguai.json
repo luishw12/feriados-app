@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3500303,
+  "name": "Aguaí",
+  "slug": "aguai",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aguai",
+      "name": "Aniversário de Aguaí",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

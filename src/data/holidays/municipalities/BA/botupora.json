@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2904209,
+  "name": "Botuporã",
+  "slug": "botupora",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-botupora",
+      "name": "Aniversário de Botuporã",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

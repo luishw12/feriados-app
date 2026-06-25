@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1501709,
+  "name": "Bragança",
+  "slug": "braganca",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-braganca",
+      "name": "Aniversário de Bragança",
+      "date": "07-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-braganca-0828",
+      "name": "Feriado Municipal de Bragança",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-braganca-1226",
+      "name": "Feriado Municipal de Bragança",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

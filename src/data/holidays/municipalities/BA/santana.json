@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2928208,
+  "name": "Santana",
+  "slug": "santana",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santana",
+      "name": "Aniversário de Santana",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-0726",
+      "name": "Feriado Municipal de Santana",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-1216",
+      "name": "Feriado Municipal de Santana",
+      "date": "12-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

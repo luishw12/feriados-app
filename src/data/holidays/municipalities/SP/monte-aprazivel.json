@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3531407,
+  "name": "Monte Aprazível",
+  "slug": "monte-aprazivel",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-monte-aprazivel",
+      "name": "Aniversário de Monte Aprazível",
+      "date": "03-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-aprazivel-0806",
+      "name": "Feriado Municipal de Monte Aprazível",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

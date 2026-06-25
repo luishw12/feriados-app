@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3113602,
+  "name": "Careaçu",
+  "slug": "careacu",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-careacu",
+      "name": "Aniversário de Careaçu",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

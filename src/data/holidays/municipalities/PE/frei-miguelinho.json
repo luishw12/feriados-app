@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2605806,
+  "name": "Frei Miguelinho",
+  "slug": "frei-miguelinho",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-frei-miguelinho",
+      "name": "Aniversário de Frei Miguelinho",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-frei-miguelinho-1220",
+      "name": "Feriado Municipal de Frei Miguelinho",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

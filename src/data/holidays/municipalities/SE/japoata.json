@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2803401,
+  "name": "Japoatã",
+  "slug": "japoata",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-japoata",
+      "name": "Aniversário de Japoatã",
+      "date": "02-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-japoata-1125",
+      "name": "Feriado Municipal de Japoatã",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

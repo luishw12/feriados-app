@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2904050,
+  "name": "Bonito",
+  "slug": "bonito",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-bonito",
+      "name": "Aniversário de Bonito",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

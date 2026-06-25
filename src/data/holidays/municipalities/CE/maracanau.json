@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2307650,
+  "name": "Maracanaú",
+  "slug": "maracanau",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-maracanau",
+      "name": "Aniversário de Maracanaú",
+      "date": "03-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maracanau-0319",
+      "name": "Feriado Municipal de Maracanaú",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maracanau-0613",
+      "name": "Feriado Municipal de Maracanaú",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

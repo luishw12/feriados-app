@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5002951,
+  "name": "Chapadão do Sul",
+  "slug": "chapadao-do-sul",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-chapadao-do-sul",
+      "name": "Aniversário de Chapadão do Sul",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2807402,
+  "name": "Tobias Barreto",
+  "slug": "tobias-barreto",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-tobias-barreto",
+      "name": "Aniversário de Tobias Barreto",
+      "date": "06-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tobias-barreto-0815",
+      "name": "Feriado Municipal de Tobias Barreto",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5107792,
+  "name": "Santo Antônio do Leste",
+  "slug": "santo-antonio-do-leste",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-leste",
+      "name": "Aniversário de Santo Antônio do Leste",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-leste-0613",
+      "name": "Feriado Municipal de Santo Antônio do Leste",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

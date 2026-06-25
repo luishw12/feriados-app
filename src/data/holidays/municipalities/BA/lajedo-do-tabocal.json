@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2919058,
+  "name": "Lajedo do Tabocal",
+  "slug": "lajedo-do-tabocal",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-lajedo-do-tabocal",
+      "name": "Aniversário de Lajedo do Tabocal",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lajedo-do-tabocal-0613",
+      "name": "Feriado Municipal de Lajedo do Tabocal",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lajedo-do-tabocal-0929",
+      "name": "Feriado Municipal de Lajedo do Tabocal",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

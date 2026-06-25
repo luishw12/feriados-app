@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2916500,
+  "name": "Itapicuru",
+  "slug": "itapicuru",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itapicuru",
+      "name": "Aniversário de Itapicuru",
+      "date": "04-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapicuru-0624",
+      "name": "Feriado Municipal de Itapicuru",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapicuru-1224",
+      "name": "Feriado Municipal de Itapicuru",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

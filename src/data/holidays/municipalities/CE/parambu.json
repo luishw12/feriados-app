@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2310308,
+  "name": "Parambu",
+  "slug": "parambu",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-parambu",
+      "name": "Aniversário de Parambu",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parambu-0915",
+      "name": "Feriado Municipal de Parambu",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

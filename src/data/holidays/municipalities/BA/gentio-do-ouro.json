@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2911303,
+  "name": "Gentio do Ouro",
+  "slug": "gentio-do-ouro",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-gentio-do-ouro",
+      "name": "Aniversário de Gentio do Ouro",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gentio-do-ouro-0709",
+      "name": "Feriado Municipal de Gentio do Ouro",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gentio-do-ouro-0814",
+      "name": "Feriado Municipal de Gentio do Ouro",
+      "date": "08-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

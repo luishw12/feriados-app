@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4316303,
+  "name": "Roque Gonzales",
+  "slug": "roque-gonzales",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-roque-gonzales",
+      "name": "Aniversário de Roque Gonzales",
+      "date": "05-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-roque-gonzales-1031",
+      "name": "Feriado Municipal de Roque Gonzales",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4126272,
+  "name": "Saudade do Iguaçu",
+  "slug": "saudade-do-iguacu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-saudade-do-iguacu",
+      "name": "Aniversário de Saudade do Iguaçu",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-saudade-do-iguacu-1121",
+      "name": "Feriado Municipal de Saudade do Iguaçu",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

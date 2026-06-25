@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3523404,
+  "name": "Itatiba",
+  "slug": "itatiba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itatiba",
+      "name": "Aniversário de Itatiba",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

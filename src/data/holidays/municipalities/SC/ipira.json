@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4207601,
+  "name": "Ipira",
+  "slug": "ipira",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ipira",
+      "name": "Aniversário de Ipira",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipira-0815",
+      "name": "Feriado Municipal de Ipira",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipira-1031",
+      "name": "Feriado Municipal de Ipira",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

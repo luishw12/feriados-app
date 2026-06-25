@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2608503,
+  "name": "Lagoa de Itaenga",
+  "slug": "lagoa-de-itaenga",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-lagoa-de-itaenga",
+      "name": "Aniversário de Lagoa de Itaenga",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-de-itaenga-1220",
+      "name": "Feriado Municipal de Lagoa de Itaenga",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

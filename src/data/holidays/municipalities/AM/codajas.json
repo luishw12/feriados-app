@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1301308,
+  "name": "Codajás",
+  "slug": "codajas",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-codajas",
+      "name": "Aniversário de Codajás",
+      "date": "03-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-codajas-0531",
+      "name": "Feriado Municipal de Codajás",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-codajas-1128",
+      "name": "Feriado Municipal de Codajás",
+      "date": "11-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

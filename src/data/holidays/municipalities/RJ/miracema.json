@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3303005,
+  "name": "Miracema",
+  "slug": "miracema",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-miracema",
+      "name": "Aniversário de Miracema",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miracema-0613",
+      "name": "Feriado Municipal de Miracema",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

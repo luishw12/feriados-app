@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2604502,
+  "name": "Chã Grande",
+  "slug": "cha-grande",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-cha-grande",
+      "name": "Aniversário de Chã Grande",
+      "date": "03-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cha-grande-0319",
+      "name": "Feriado Municipal de Chã Grande",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cha-grande-1220",
+      "name": "Feriado Municipal de Chã Grande",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

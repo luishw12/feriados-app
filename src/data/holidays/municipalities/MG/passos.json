@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3147907,
+  "name": "Passos",
+  "slug": "passos",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-passos",
+      "name": "Aniversário de Passos",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-passos-0806",
+      "name": "Feriado Municipal de Passos",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1100320,
+  "name": "São Miguel do Guaporé",
+  "slug": "sao-miguel-do-guapore",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-do-guapore",
+      "name": "Aniversário de São Miguel do Guaporé",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

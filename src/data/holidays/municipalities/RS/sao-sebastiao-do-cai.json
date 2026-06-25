@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4319505,
+  "name": "São Sebastião do Caí",
+  "slug": "sao-sebastiao-do-cai",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-sebastiao-do-cai",
+      "name": "Aniversário de São Sebastião do Caí",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

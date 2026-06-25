@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5200258,
+  "name": "Águas Lindas de Goiás",
+  "slug": "aguas-lindas-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-aguas-lindas-de-goias",
+      "name": "Aniversário de Águas Lindas de Goiás",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aguas-lindas-de-goias-1215",
+      "name": "Feriado Municipal de Águas Lindas de Goiás",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1304104,
+  "name": "Tapauá",
+  "slug": "tapaua",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-tapaua",
+      "name": "Aniversário de Tapauá",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

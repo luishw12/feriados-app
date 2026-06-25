@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2904803,
+  "name": "Caatiba",
+  "slug": "caatiba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-caatiba",
+      "name": "Aniversário de Caatiba",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caatiba-0401",
+      "name": "Feriado Municipal de Caatiba",
+      "date": "04-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caatiba-0624",
+      "name": "Feriado Municipal de Caatiba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

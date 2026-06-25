@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4323770,
+  "name": "Westfália",
+  "slug": "westfalia",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-westfalia",
+      "name": "Aniversário de Westfália",
+      "date": "03-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-westfalia-1031",
+      "name": "Feriado Municipal de Westfália",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

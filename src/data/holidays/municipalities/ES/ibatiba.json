@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3202454,
+  "name": "Ibatiba",
+  "slug": "ibatiba",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-ibatiba",
+      "name": "Aniversário de Ibatiba",
+      "date": "11-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

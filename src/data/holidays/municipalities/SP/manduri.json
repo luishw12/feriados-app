@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3528601,
+  "name": "Manduri",
+  "slug": "manduri",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-manduri",
+      "name": "Aniversário de Manduri",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manduri-1130",
+      "name": "Feriado Municipal de Manduri",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

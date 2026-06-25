@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3167202,
+  "name": "Sete Lagoas",
+  "slug": "sete-lagoas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sete-lagoas",
+      "name": "Aniversário de Sete Lagoas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sete-lagoas-1208",
+      "name": "Feriado Municipal de Sete Lagoas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

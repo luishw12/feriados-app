@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3136603,
+  "name": "Nova União",
+  "slug": "nova-uniao",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-nova-uniao",
+      "name": "Aniversário de Nova União",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-uniao-0716",
+      "name": "Feriado Municipal de Nova União",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

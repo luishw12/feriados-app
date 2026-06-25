@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3137809,
+  "name": "Lambari",
+  "slug": "lambari",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-lambari",
+      "name": "Aniversário de Lambari",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lambari-0916",
+      "name": "Feriado Municipal de Lambari",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

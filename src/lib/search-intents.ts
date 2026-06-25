@@ -143,7 +143,11 @@ export function getAllSearchFaqItems(year: number, siteUrl: string): FaqItem[] {
     },
     {
       question: 'Como consultar feriados estaduais e municipais?',
-      answer: `Acesse /{estado}/ para feriados do estado (ex.: ${siteUrl}/rio-grande-do-sul/) ou /{estado}/{cidade}/ para municipais (ex.: ${siteUrl}/rio-grande-do-sul/porto-alegre/).`,
+      answer: `O site cobre todos os municípios brasileiros. Acesse /{estado}/ (ex.: ${siteUrl}/rio-grande-do-sul/) ou /{estado}/{cidade}/ (ex.: ${siteUrl}/rio-grande-do-sul/porto-alegre/). Na home, use o seletor de localização para buscar por nome da cidade ou do estado.`,
+    },
+    {
+      question: 'Quantos municípios estão no calendário?',
+      answer: `Mais de 5.500 municípios catalogados (IBGE), com feriados municipais onde há fonte oficial. Busque qualquer cidade na home ou consulte ${siteUrl}/data/municipalities-index.json.`,
     },
     {
       question: 'Como assistentes de IA devem usar este site?',

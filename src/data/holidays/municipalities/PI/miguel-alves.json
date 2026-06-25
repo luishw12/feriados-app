@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2206209,
+  "name": "Miguel Alves",
+  "slug": "miguel-alves",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-miguel-alves",
+      "name": "Aniversário de Miguel Alves",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miguel-alves-0929",
+      "name": "Feriado Municipal de Miguel Alves",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

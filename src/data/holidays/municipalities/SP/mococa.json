@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3530508,
+  "name": "Mococa",
+  "slug": "mococa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-mococa",
+      "name": "Aniversário de Mococa",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mococa-0405",
+      "name": "Feriado Municipal de Mococa",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

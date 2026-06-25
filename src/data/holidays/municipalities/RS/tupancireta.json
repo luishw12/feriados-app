@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4322202,
+  "name": "Tupanciretã",
+  "slug": "tupancireta",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tupancireta",
+      "name": "Aniversário de Tupanciretã",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tupancireta-1231",
+      "name": "Feriado Municipal de Tupanciretã",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

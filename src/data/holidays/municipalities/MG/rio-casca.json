@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3154903,
+  "name": "Rio Casca",
+  "slug": "rio-casca",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-rio-casca",
+      "name": "Aniversário de Rio Casca",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-casca-1208",
+      "name": "Feriado Municipal de Rio Casca",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

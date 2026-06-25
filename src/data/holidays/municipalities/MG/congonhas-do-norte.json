@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3118106,
+  "name": "Congonhas do Norte",
+  "slug": "congonhas-do-norte",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-congonhas-do-norte",
+      "name": "Aniversário de Congonhas do Norte",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

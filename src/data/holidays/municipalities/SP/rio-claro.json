@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3543907,
+  "name": "Rio Claro",
+  "slug": "rio-claro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-rio-claro",
+      "name": "Aniversário de Rio Claro",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-claro-0604",
+      "name": "Feriado Municipal de Rio Claro",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-claro-0624",
+      "name": "Feriado Municipal de Rio Claro",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3521804,
+  "name": "Itaí",
+  "slug": "itai",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itai",
+      "name": "Aniversário de Itaí",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itai-0831",
+      "name": "Feriado Municipal de Itaí",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2918209,
+  "name": "Jiquiriçá",
+  "slug": "jiquirica",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-jiquirica",
+      "name": "Aniversário de Jiquiriçá",
+      "date": "01-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jiquirica-0624",
+      "name": "Feriado Municipal de Jiquiriçá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

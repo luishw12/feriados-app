@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3119203,
+  "name": "Coroaci",
+  "slug": "coroaci",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-coroaci",
+      "name": "Aniversário de Coroaci",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

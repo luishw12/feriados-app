@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2111102,
+  "name": "São João dos Patos",
+  "slug": "sao-joao-dos-patos",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-dos-patos",
+      "name": "Aniversário de São João dos Patos",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-dos-patos-0624",
+      "name": "Feriado Municipal de São João dos Patos",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

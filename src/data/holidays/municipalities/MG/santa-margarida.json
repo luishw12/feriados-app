@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3157906,
+  "name": "Santa Margarida",
+  "slug": "santa-margarida",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-santa-margarida",
+      "name": "Aniversário de Santa Margarida",
+      "date": "07-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-margarida-0725",
+      "name": "Feriado Municipal de Santa Margarida",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-margarida-1105",
+      "name": "Feriado Municipal de Santa Margarida",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

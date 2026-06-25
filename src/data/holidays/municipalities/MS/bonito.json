@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5002209,
+  "name": "Bonito",
+  "slug": "bonito",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-bonito",
+      "name": "Aniversário de Bonito",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bonito-1002",
+      "name": "Feriado Municipal de Bonito",
+      "date": "10-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

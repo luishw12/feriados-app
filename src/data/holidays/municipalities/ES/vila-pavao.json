@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3205150,
+  "name": "Vila Pavão",
+  "slug": "vila-pavao",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-vila-pavao",
+      "name": "Aniversário de Vila Pavão",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vila-pavao-1031",
+      "name": "Feriado Municipal de Vila Pavão",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

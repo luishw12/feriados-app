@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2102002,
+  "name": "Bom Jardim",
+  "slug": "bom-jardim",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jardim",
+      "name": "Aniversário de Bom Jardim",
+      "date": "03-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jardim-0629",
+      "name": "Feriado Municipal de Bom Jardim",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

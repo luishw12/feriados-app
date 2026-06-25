@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3557204,
+  "name": "Chavantes",
+  "slug": "chavantes",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-chavantes",
+      "name": "Aniversário de Chavantes",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

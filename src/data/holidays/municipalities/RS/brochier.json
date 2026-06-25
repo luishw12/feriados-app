@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4302659,
+  "name": "Brochier",
+  "slug": "brochier",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-brochier",
+      "name": "Aniversário de Brochier",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

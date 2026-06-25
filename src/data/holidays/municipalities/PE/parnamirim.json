@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2610400,
+  "name": "Parnamirim",
+  "slug": "parnamirim",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-parnamirim",
+      "name": "Aniversário de Parnamirim",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parnamirim-0701",
+      "name": "Feriado Municipal de Parnamirim",
+      "date": "07-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1508308,
+  "name": "Viseu",
+  "slug": "viseu",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-viseu",
+      "name": "Aniversário de Viseu",
+      "date": "07-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5208806,
+  "name": "Goianira",
+  "slug": "goianira",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-goianira",
+      "name": "Aniversário de Goianira",
+      "date": "01-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goianira-0325",
+      "name": "Feriado Municipal de Goianira",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

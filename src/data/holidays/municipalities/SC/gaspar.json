@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4205902,
+  "name": "Gaspar",
+  "slug": "gaspar",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-gaspar",
+      "name": "Aniversário de Gaspar",
+      "date": "03-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gaspar-0403",
+      "name": "Feriado Municipal de Gaspar",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gaspar-0604",
+      "name": "Feriado Municipal de Gaspar",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

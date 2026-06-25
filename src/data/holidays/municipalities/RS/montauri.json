@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4312351,
+  "name": "Montauri",
+  "slug": "montauri",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-montauri",
+      "name": "Aniversário de Montauri",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

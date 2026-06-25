@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2612505,
+  "name": "Santa Cruz do Capibaribe",
+  "slug": "santa-cruz-do-capibaribe",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cruz-do-capibaribe",
+      "name": "Aniversário de Santa Cruz do Capibaribe",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cruz-do-capibaribe-1005",
+      "name": "Feriado Municipal de Santa Cruz do Capibaribe",
+      "date": "10-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cruz-do-capibaribe-1229",
+      "name": "Feriado Municipal de Santa Cruz do Capibaribe",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

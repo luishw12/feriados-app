@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3527504,
+  "name": "Lucianópolis",
+  "slug": "lucianopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-lucianopolis",
+      "name": "Aniversário de Lucianópolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3139003,
+  "name": "Machado",
+  "slug": "machado",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-machado",
+      "name": "Aniversário de Machado",
+      "date": "09-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

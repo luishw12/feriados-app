@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2308302,
+  "name": "Milagres",
+  "slug": "milagres",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-milagres",
+      "name": "Aniversário de Milagres",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

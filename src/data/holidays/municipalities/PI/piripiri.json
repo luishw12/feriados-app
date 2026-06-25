@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2208403,
+  "name": "Piripiri",
+  "slug": "piripiri",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-piripiri",
+      "name": "Aniversário de Piripiri",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

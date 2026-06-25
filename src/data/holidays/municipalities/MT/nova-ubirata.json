@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5106240,
+  "name": "Nova Ubiratã",
+  "slug": "nova-ubirata",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-nova-ubirata",
+      "name": "Aniversário de Nova Ubiratã",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5215603,
+  "name": "Padre Bernardo",
+  "slug": "padre-bernardo",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-padre-bernardo",
+      "name": "Aniversário de Padre Bernardo",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-padre-bernardo-0716",
+      "name": "Feriado Municipal de Padre Bernardo",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-padre-bernardo-1101",
+      "name": "Feriado Municipal de Padre Bernardo",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

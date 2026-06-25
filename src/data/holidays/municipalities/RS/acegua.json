@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4300034,
+  "name": "Aceguá",
+  "slug": "acegua",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-acegua",
+      "name": "Aniversário de Aceguá",
+      "date": "04-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

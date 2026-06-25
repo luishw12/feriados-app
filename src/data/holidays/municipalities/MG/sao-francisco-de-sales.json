@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3161304,
+  "name": "São Francisco de Sales",
+  "slug": "sao-francisco-de-sales",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-francisco-de-sales",
+      "name": "Aniversário de São Francisco de Sales",
+      "date": "01-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-francisco-de-sales-1212",
+      "name": "Feriado Municipal de São Francisco de Sales",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-francisco-de-sales-1230",
+      "name": "Feriado Municipal de São Francisco de Sales",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

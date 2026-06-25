@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4115309,
+  "name": "Mariópolis",
+  "slug": "mariopolis",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-mariopolis",
+      "name": "Aniversário de Mariópolis",
+      "date": "01-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mariopolis-0725",
+      "name": "Feriado Municipal de Mariópolis",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

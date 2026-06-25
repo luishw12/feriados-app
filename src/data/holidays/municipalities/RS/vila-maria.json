@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4323408,
+  "name": "Vila Maria",
+  "slug": "vila-maria",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vila-maria",
+      "name": "Aniversário de Vila Maria",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

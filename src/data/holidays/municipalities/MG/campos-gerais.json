@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3111606,
+  "name": "Campos Gerais",
+  "slug": "campos-gerais",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-campos-gerais",
+      "name": "Aniversário de Campos Gerais",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

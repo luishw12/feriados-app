@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3135209,
+  "name": "Januária",
+  "slug": "januaria",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-januaria",
+      "name": "Aniversário de Januária",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-januaria-0915",
+      "name": "Feriado Municipal de Januária",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

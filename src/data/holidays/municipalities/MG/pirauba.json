@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3151305,
+  "name": "Piraúba",
+  "slug": "pirauba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pirauba",
+      "name": "Aniversário de Piraúba",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirauba-1212",
+      "name": "Feriado Municipal de Piraúba",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

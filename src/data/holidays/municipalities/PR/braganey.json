@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4103354,
+  "name": "Braganey",
+  "slug": "braganey",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-braganey",
+      "name": "Aniversário de Braganey",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-braganey-0919",
+      "name": "Feriado Municipal de Braganey",
+      "date": "09-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

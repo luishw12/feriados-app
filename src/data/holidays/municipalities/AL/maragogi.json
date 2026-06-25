@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2704500,
+  "name": "Maragogi",
+  "slug": "maragogi",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-maragogi",
+      "name": "Aniversário de Maragogi",
+      "date": "04-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maragogi-0613",
+      "name": "Feriado Municipal de Maragogi",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

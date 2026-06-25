@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4209409,
+  "name": "Laguna",
+  "slug": "laguna",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-laguna",
+      "name": "Aniversário de Laguna",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-laguna-0613",
+      "name": "Feriado Municipal de Laguna",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

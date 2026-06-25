@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2604106,
+  "name": "Caruaru",
+  "slug": "caruaru",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-caruaru",
+      "name": "Aniversário de Caruaru",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caruaru-0629",
+      "name": "Feriado Municipal de Caruaru",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caruaru-0915",
+      "name": "Feriado Municipal de Caruaru",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

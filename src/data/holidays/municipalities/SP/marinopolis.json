@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3529104,
+  "name": "Marinópolis",
+  "slug": "marinopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-marinopolis",
+      "name": "Aniversário de Marinópolis",
+      "date": "06-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

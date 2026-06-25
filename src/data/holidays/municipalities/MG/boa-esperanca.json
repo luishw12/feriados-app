@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3107109,
+  "name": "Boa Esperança",
+  "slug": "boa-esperanca",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-boa-esperanca",
+      "name": "Aniversário de Boa Esperança",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

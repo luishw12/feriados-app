@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3164407,
+  "name": "São Sebastião da Bela Vista",
+  "slug": "sao-sebastiao-da-bela-vista",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-sebastiao-da-bela-vista",
+      "name": "Aniversário de São Sebastião da Bela Vista",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-da-bela-vista-0301",
+      "name": "Feriado Municipal de São Sebastião da Bela Vista",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

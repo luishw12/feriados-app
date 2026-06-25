@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3120805,
+  "name": "Cruzília",
+  "slug": "cruzilia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cruzilia",
+      "name": "Aniversário de Cruzília",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cruzilia-1227",
+      "name": "Feriado Municipal de Cruzília",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

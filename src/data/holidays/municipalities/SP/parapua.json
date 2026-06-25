@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3536000,
+  "name": "Parapuã",
+  "slug": "parapua",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-parapua",
+      "name": "Aniversário de Parapuã",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

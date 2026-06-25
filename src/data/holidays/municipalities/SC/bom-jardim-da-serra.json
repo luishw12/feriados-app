@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4202503,
+  "name": "Bom Jardim da Serra",
+  "slug": "bom-jardim-da-serra",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jardim-da-serra",
+      "name": "Aniversário de Bom Jardim da Serra",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jardim-da-serra-0305",
+      "name": "Feriado Municipal de Bom Jardim da Serra",
+      "date": "03-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jardim-da-serra-0627",
+      "name": "Feriado Municipal de Bom Jardim da Serra",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4118501,
+  "name": "Pato Branco",
+  "slug": "pato-branco",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-pato-branco",
+      "name": "Aniversário de Pato Branco",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pato-branco-1214",
+      "name": "Feriado Municipal de Pato Branco",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

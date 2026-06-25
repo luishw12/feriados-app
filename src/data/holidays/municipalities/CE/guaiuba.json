@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2304954,
+  "name": "Guaiúba",
+  "slug": "guaiuba",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-guaiuba",
+      "name": "Aniversário de Guaiúba",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

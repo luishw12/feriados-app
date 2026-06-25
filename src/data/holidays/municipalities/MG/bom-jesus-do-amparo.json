@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3107703,
+  "name": "Bom Jesus do Amparo",
+  "slug": "bom-jesus-do-amparo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jesus-do-amparo",
+      "name": "Aniversário de Bom Jesus do Amparo",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jesus-do-amparo-1212",
+      "name": "Feriado Municipal de Bom Jesus do Amparo",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

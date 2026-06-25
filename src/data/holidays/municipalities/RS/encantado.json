@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4306809,
+  "name": "Encantado",
+  "slug": "encantado",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-encantado",
+      "name": "Aniversário de Encantado",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

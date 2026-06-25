@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3203304,
+  "name": "Mantenópolis",
+  "slug": "mantenopolis",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-mantenopolis",
+      "name": "Aniversário de Mantenópolis",
+      "date": "01-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

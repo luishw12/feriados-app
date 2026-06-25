@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3533007,
+  "name": "Nova Granada",
+  "slug": "nova-granada",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-nova-granada",
+      "name": "Aniversário de Nova Granada",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

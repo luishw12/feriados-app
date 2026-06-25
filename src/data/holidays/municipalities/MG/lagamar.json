@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3137106,
+  "name": "Lagamar",
+  "slug": "lagamar",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-lagamar",
+      "name": "Aniversário de Lagamar",
+      "date": "03-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagamar-0622",
+      "name": "Feriado Municipal de Lagamar",
+      "date": "06-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagamar-1122",
+      "name": "Feriado Municipal de Lagamar",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

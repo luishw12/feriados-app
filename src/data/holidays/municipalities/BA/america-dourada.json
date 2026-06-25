@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2901155,
+  "name": "América Dourada",
+  "slug": "america-dourada",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-america-dourada",
+      "name": "Aniversário de América Dourada",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-america-dourada-0406",
+      "name": "Feriado Municipal de América Dourada",
+      "date": "04-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

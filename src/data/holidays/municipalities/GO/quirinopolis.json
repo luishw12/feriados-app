@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5218508,
+  "name": "Quirinópolis",
+  "slug": "quirinopolis",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-quirinopolis",
+      "name": "Aniversário de Quirinópolis",
+      "date": "01-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quirinopolis-0815",
+      "name": "Feriado Municipal de Quirinópolis",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2111748,
+  "name": "Senador Alexandre Costa",
+  "slug": "senador-alexandre-costa",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-senador-alexandre-costa",
+      "name": "Aniversário de Senador Alexandre Costa",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-alexandre-costa-0912",
+      "name": "Feriado Municipal de Senador Alexandre Costa",
+      "date": "09-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-alexandre-costa-1110",
+      "name": "Feriado Municipal de Senador Alexandre Costa",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

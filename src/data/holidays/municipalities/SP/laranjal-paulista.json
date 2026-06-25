@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3526407,
+  "name": "Laranjal Paulista",
+  "slug": "laranjal-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-laranjal-paulista",
+      "name": "Aniversário de Laranjal Paulista",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-laranjal-paulista-1010",
+      "name": "Feriado Municipal de Laranjal Paulista",
+      "date": "10-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

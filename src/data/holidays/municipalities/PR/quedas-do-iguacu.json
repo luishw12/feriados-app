@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4120903,
+  "name": "Quedas do Iguaçu",
+  "slug": "quedas-do-iguacu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-quedas-do-iguacu",
+      "name": "Aniversário de Quedas do Iguaçu",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quedas-do-iguacu-1215",
+      "name": "Feriado Municipal de Quedas do Iguaçu",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

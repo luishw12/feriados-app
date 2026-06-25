@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3205176,
+  "name": "Vila Valério",
+  "slug": "vila-valerio",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-vila-valerio",
+      "name": "Aniversário de Vila Valério",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vila-valerio-1031",
+      "name": "Feriado Municipal de Vila Valério",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vila-valerio-1127",
+      "name": "Feriado Municipal de Vila Valério",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

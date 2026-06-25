@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4305306,
+  "name": "Chapada",
+  "slug": "chapada",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-chapada",
+      "name": "Aniversário de Chapada",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-chapada-0603",
+      "name": "Feriado Municipal de Chapada",
+      "date": "06-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5107701,
+  "name": "Rosário Oeste",
+  "slug": "rosario-oeste",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-rosario-oeste",
+      "name": "Aniversário de Rosário Oeste",
+      "date": "06-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

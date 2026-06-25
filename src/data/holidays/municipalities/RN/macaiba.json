@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2407104,
+  "name": "Macaíba",
+  "slug": "macaiba",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-macaiba",
+      "name": "Aniversário de Macaíba",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

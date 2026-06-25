@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2303808,
+  "name": "Cedro",
+  "slug": "cedro",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-cedro",
+      "name": "Aniversário de Cedro",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cedro-0624",
+      "name": "Feriado Municipal de Cedro",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

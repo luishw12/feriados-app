@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4215604,
+  "name": "Santa Rosa de Lima",
+  "slug": "santa-rosa-de-lima",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rosa-de-lima",
+      "name": "Aniversário de Santa Rosa de Lima",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rosa-de-lima-0725",
+      "name": "Feriado Municipal de Santa Rosa de Lima",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rosa-de-lima-0830",
+      "name": "Feriado Municipal de Santa Rosa de Lima",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

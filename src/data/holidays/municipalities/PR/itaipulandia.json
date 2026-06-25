@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4110953,
+  "name": "Itaipulândia",
+  "slug": "itaipulandia",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-itaipulandia",
+      "name": "Aniversário de Itaipulândia",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaipulandia-1031",
+      "name": "Feriado Municipal de Itaipulândia",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaipulandia-1110",
+      "name": "Feriado Municipal de Itaipulândia",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

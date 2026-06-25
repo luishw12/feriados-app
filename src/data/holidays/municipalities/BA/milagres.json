@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2921302,
+  "name": "Milagres",
+  "slug": "milagres",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-milagres",
+      "name": "Aniversário de Milagres",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-milagres-0624",
+      "name": "Feriado Municipal de Milagres",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-milagres-0725",
+      "name": "Feriado Municipal de Milagres",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-milagres-1222",
+      "name": "Feriado Municipal de Milagres",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

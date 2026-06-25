@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3101508,
+  "name": "Além Paraíba",
+  "slug": "alem-paraiba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-alem-paraiba",
+      "name": "Aniversário de Além Paraíba",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alem-paraiba-0403",
+      "name": "Feriado Municipal de Além Paraíba",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alem-paraiba-0604",
+      "name": "Feriado Municipal de Além Paraíba",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alem-paraiba-0928",
+      "name": "Feriado Municipal de Além Paraíba",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

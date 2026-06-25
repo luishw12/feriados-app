@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4104402,
+  "name": "Cândido de Abreu",
+  "slug": "candido-de-abreu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-candido-de-abreu",
+      "name": "Aniversário de Cândido de Abreu",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-candido-de-abreu-1126",
+      "name": "Feriado Municipal de Cândido de Abreu",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

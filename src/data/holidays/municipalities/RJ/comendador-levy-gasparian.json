@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3300951,
+  "name": "Comendador Levy Gasparian",
+  "slug": "comendador-levy-gasparian",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-comendador-levy-gasparian",
+      "name": "Aniversário de Comendador Levy Gasparian",
+      "date": "06-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

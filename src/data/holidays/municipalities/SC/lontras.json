@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4209904,
+  "name": "Lontras",
+  "slug": "lontras",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-lontras",
+      "name": "Aniversário de Lontras",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lontras-1231",
+      "name": "Feriado Municipal de Lontras",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4116950,
+  "name": "Nova Esperança do Sudoeste",
+  "slug": "nova-esperanca-do-sudoeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-nova-esperanca-do-sudoeste",
+      "name": "Aniversário de Nova Esperança do Sudoeste",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-esperanca-do-sudoeste-0725",
+      "name": "Feriado Municipal de Nova Esperança do Sudoeste",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

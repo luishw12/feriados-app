@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2803609,
+  "name": "Laranjeiras",
+  "slug": "laranjeiras",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-laranjeiras",
+      "name": "Aniversário de Laranjeiras",
+      "date": "07-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-laranjeiras-0807",
+      "name": "Feriado Municipal de Laranjeiras",
+      "date": "08-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2920601,
+  "name": "Maragogipe",
+  "slug": "maragogipe",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-maragogipe",
+      "name": "Aniversário de Maragogipe",
+      "date": "05-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maragogipe-0624",
+      "name": "Feriado Municipal de Maragogipe",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maragogipe-0824",
+      "name": "Feriado Municipal de Maragogipe",
+      "date": "08-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

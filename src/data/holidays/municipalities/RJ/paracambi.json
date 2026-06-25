@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3303609,
+  "name": "Paracambi",
+  "slug": "paracambi",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-paracambi",
+      "name": "Aniversário de Paracambi",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paracambi-0808",
+      "name": "Feriado Municipal de Paracambi",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

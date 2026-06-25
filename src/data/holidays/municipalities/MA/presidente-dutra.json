@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2109106,
+  "name": "Presidente Dutra",
+  "slug": "presidente-dutra",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-dutra",
+      "name": "Aniversário de Presidente Dutra",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-dutra-0628",
+      "name": "Feriado Municipal de Presidente Dutra",
+      "date": "06-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

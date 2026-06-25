@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3110608,
+  "name": "Cambuí",
+  "slug": "cambui",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cambui",
+      "name": "Aniversário de Cambuí",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cambui-0716",
+      "name": "Feriado Municipal de Cambuí",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

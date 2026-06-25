@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4108502,
+  "name": "General Carneiro",
+  "slug": "general-carneiro",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-general-carneiro",
+      "name": "Aniversário de General Carneiro",
+      "date": "11-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

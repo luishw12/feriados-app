@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3204252,
+  "name": "Ponto Belo",
+  "slug": "ponto-belo",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-ponto-belo",
+      "name": "Aniversário de Ponto Belo",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

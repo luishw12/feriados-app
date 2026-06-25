@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2108306,
+  "name": "Penalva",
+  "slug": "penalva",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-penalva",
+      "name": "Aniversário de Penalva",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

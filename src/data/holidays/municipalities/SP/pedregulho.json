@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3537008,
+  "name": "Pedregulho",
+  "slug": "pedregulho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pedregulho",
+      "name": "Aniversário de Pedregulho",
+      "date": "03-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedregulho-0815",
+      "name": "Feriado Municipal de Pedregulho",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2111029,
+  "name": "São João do Carú",
+  "slug": "sao-joao-do-caru",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-caru",
+      "name": "Aniversário de São João do Carú",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

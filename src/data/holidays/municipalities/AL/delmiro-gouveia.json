@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2702405,
+  "name": "Delmiro Gouveia",
+  "slug": "delmiro-gouveia",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-delmiro-gouveia",
+      "name": "Aniversário de Delmiro Gouveia",
+      "date": "02-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

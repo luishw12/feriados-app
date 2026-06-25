@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3551504,
+  "name": "Serrana",
+  "slug": "serrana",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-serrana",
+      "name": "Aniversário de Serrana",
+      "date": "04-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serrana-0915",
+      "name": "Feriado Municipal de Serrana",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

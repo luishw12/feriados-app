@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4318499,
+  "name": "São José do Inhacorá",
+  "slug": "sao-jose-do-inhacora",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-inhacora",
+      "name": "Aniversário de São José do Inhacorá",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4100400,
+  "name": "Almirante Tamandaré",
+  "slug": "almirante-tamandare",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-almirante-tamandare",
+      "name": "Aniversário de Almirante Tamandaré",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-almirante-tamandare-0604",
+      "name": "Feriado Municipal de Almirante Tamandaré",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-almirante-tamandare-1028",
+      "name": "Feriado Municipal de Almirante Tamandaré",
+      "date": "10-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-almirante-tamandare-1208",
+      "name": "Feriado Municipal de Almirante Tamandaré",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

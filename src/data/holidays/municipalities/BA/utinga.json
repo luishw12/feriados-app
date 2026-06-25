@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2932804,
+  "name": "Utinga",
+  "slug": "utinga",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-utinga",
+      "name": "Aniversário de Utinga",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-utinga-0624",
+      "name": "Feriado Municipal de Utinga",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

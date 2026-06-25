@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3138609,
+  "name": "Lima Duarte",
+  "slug": "lima-duarte",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-lima-duarte",
+      "name": "Aniversário de Lima Duarte",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

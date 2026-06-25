@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5004403,
+  "name": "Inocência",
+  "slug": "inocencia",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-inocencia",
+      "name": "Aniversário de Inocência",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-inocencia-0806",
+      "name": "Feriado Municipal de Inocência",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

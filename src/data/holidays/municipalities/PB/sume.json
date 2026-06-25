@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2516300,
+  "name": "Sumé",
+  "slug": "sume",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-sume",
+      "name": "Aniversário de Sumé",
+      "date": "04-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sume-0624",
+      "name": "Feriado Municipal de Sumé",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sume-1208",
+      "name": "Feriado Municipal de Sumé",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

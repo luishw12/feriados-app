@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2107357,
+  "name": "Nova Olinda do Maranhão",
+  "slug": "nova-olinda-do-maranhao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-nova-olinda-do-maranhao",
+      "name": "Aniversário de Nova Olinda do Maranhão",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

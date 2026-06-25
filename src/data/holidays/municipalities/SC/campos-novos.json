@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4203600,
+  "name": "Campos Novos",
+  "slug": "campos-novos",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-campos-novos",
+      "name": "Aniversário de Campos Novos",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campos-novos-0624",
+      "name": "Feriado Municipal de Campos Novos",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

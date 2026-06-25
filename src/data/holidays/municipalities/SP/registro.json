@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3542602,
+  "name": "Registro",
+  "slug": "registro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-registro",
+      "name": "Aniversário de Registro",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-registro-1203",
+      "name": "Feriado Municipal de Registro",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

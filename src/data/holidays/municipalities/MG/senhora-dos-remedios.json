@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3166204,
+  "name": "Senhora dos Remédios",
+  "slug": "senhora-dos-remedios",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-senhora-dos-remedios",
+      "name": "Aniversário de Senhora dos Remédios",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senhora-dos-remedios-1212",
+      "name": "Feriado Municipal de Senhora dos Remédios",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

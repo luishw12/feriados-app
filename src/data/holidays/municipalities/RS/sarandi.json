@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4320107,
+  "name": "Sarandi",
+  "slug": "sarandi",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sarandi",
+      "name": "Aniversário de Sarandi",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sarandi-0627",
+      "name": "Feriado Municipal de Sarandi",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4321451,
+  "name": "Teutônia",
+  "slug": "teutonia",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-teutonia",
+      "name": "Aniversário de Teutônia",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

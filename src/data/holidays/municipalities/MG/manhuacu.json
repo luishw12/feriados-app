@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3139409,
+  "name": "Manhuaçu",
+  "slug": "manhuacu",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-manhuacu",
+      "name": "Aniversário de Manhuaçu",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manhuacu-1105",
+      "name": "Feriado Municipal de Manhuaçu",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

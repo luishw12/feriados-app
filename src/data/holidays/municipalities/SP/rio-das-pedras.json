@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3544004,
+  "name": "Rio das Pedras",
+  "slug": "rio-das-pedras",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-rio-das-pedras",
+      "name": "Aniversário de Rio das Pedras",
+      "date": "07-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-das-pedras-0806",
+      "name": "Feriado Municipal de Rio das Pedras",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

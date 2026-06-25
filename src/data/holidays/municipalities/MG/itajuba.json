@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3132404,
+  "name": "Itajubá",
+  "slug": "itajuba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itajuba",
+      "name": "Aniversário de Itajubá",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itajuba-0815",
+      "name": "Feriado Municipal de Itajubá",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5204953,
+  "name": "Campos Verdes",
+  "slug": "campos-verdes",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-campos-verdes",
+      "name": "Aniversário de Campos Verdes",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

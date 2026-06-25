@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2919603,
+  "name": "Macajuba",
+  "slug": "macajuba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-macajuba",
+      "name": "Aniversário de Macajuba",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

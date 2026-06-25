@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3511904,
+  "name": "Clementina",
+  "slug": "clementina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-clementina",
+      "name": "Aniversário de Clementina",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

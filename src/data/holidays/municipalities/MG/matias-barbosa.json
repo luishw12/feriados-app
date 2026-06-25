@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3140803,
+  "name": "Matias Barbosa",
+  "slug": "matias-barbosa",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-matias-barbosa",
+      "name": "Aniversário de Matias Barbosa",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4204608,
+  "name": "Criciúma",
+  "slug": "criciuma",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-criciuma",
+      "name": "Aniversário de Criciúma",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-criciuma-0403",
+      "name": "Feriado Municipal de Criciúma",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-criciuma-0604",
+      "name": "Feriado Municipal de Criciúma",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-criciuma-1204",
+      "name": "Feriado Municipal de Criciúma",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

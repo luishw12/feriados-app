@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4319406,
+  "name": "São Pedro do Sul",
+  "slug": "sao-pedro-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-pedro-do-sul",
+      "name": "Aniversário de São Pedro do Sul",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-pedro-do-sul-0629",
+      "name": "Feriado Municipal de São Pedro do Sul",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

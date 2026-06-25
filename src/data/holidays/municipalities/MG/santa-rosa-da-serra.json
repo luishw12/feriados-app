@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3159704,
+  "name": "Santa Rosa da Serra",
+  "slug": "santa-rosa-da-serra",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rosa-da-serra",
+      "name": "Aniversário de Santa Rosa da Serra",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rosa-da-serra-0403",
+      "name": "Feriado Municipal de Santa Rosa da Serra",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rosa-da-serra-0604",
+      "name": "Feriado Municipal de Santa Rosa da Serra",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rosa-da-serra-1208",
+      "name": "Feriado Municipal de Santa Rosa da Serra",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

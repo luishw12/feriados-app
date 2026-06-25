@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5221858,
+  "name": "Valparaíso de Goiás",
+  "slug": "valparaiso-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-valparaiso-de-goias",
+      "name": "Aniversário de Valparaíso de Goiás",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-valparaiso-de-goias-0615",
+      "name": "Feriado Municipal de Valparaíso de Goiás",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-valparaiso-de-goias-1004",
+      "name": "Feriado Municipal de Valparaíso de Goiás",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-valparaiso-de-goias-1130",
+      "name": "Feriado Municipal de Valparaíso de Goiás",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

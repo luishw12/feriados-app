@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4124509,
+  "name": "Santo Inácio",
+  "slug": "santo-inacio",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santo-inacio",
+      "name": "Aniversário de Santo Inácio",
+      "date": "07-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-inacio-1214",
+      "name": "Feriado Municipal de Santo Inácio",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

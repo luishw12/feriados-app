@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5000807,
+  "name": "Anaurilândia",
+  "slug": "anaurilandia",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-anaurilandia",
+      "name": "Aniversário de Anaurilândia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anaurilandia-1111",
+      "name": "Feriado Municipal de Anaurilândia",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

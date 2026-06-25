@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2102903,
+  "name": "Carutapera",
+  "slug": "carutapera",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-carutapera",
+      "name": "Aniversário de Carutapera",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carutapera-0603",
+      "name": "Feriado Municipal de Carutapera",
+      "date": "06-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

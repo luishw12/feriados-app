@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5003306,
+  "name": "Coxim",
+  "slug": "coxim",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-coxim",
+      "name": "Aniversário de Coxim",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coxim-0411",
+      "name": "Feriado Municipal de Coxim",
+      "date": "04-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

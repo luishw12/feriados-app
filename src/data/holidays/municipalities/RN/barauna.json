@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2401453,
+  "name": "Baraúna",
+  "slug": "barauna",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-barauna",
+      "name": "Aniversário de Baraúna",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barauna-1215",
+      "name": "Feriado Municipal de Baraúna",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

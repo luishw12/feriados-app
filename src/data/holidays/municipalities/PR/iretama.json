@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4110805,
+  "name": "Iretama",
+  "slug": "iretama",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-iretama",
+      "name": "Aniversário de Iretama",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

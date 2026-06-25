@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5222005,
+  "name": "Vianópolis",
+  "slug": "vianopolis",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-vianopolis",
+      "name": "Aniversário de Vianópolis",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vianopolis-0819",
+      "name": "Feriado Municipal de Vianópolis",
+      "date": "08-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

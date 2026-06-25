@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3528007,
+  "name": "Macatuba",
+  "slug": "macatuba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-macatuba",
+      "name": "Aniversário de Macatuba",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

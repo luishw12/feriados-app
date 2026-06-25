@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2100600,
+  "name": "Amarante do Maranhão",
+  "slug": "amarante-do-maranhao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-amarante-do-maranhao",
+      "name": "Aniversário de Amarante do Maranhão",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amarante-do-maranhao-0419",
+      "name": "Feriado Municipal de Amarante do Maranhão",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

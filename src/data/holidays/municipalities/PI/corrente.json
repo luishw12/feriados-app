@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2202901,
+  "name": "Corrente",
+  "slug": "corrente",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-corrente",
+      "name": "Aniversário de Corrente",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

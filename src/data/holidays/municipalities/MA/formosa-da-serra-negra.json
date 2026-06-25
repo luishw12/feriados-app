@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2104099,
+  "name": "Formosa da Serra Negra",
+  "slug": "formosa-da-serra-negra",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-formosa-da-serra-negra",
+      "name": "Aniversário de Formosa da Serra Negra",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-formosa-da-serra-negra-1110",
+      "name": "Feriado Municipal de Formosa da Serra Negra",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-formosa-da-serra-negra-1224",
+      "name": "Feriado Municipal de Formosa da Serra Negra",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

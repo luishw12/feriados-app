@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2805505,
+  "name": "Poço Verde",
+  "slug": "poco-verde",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-poco-verde",
+      "name": "Aniversário de Poço Verde",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-poco-verde-0503",
+      "name": "Feriado Municipal de Poço Verde",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-poco-verde-0624",
+      "name": "Feriado Municipal de Poço Verde",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-poco-verde-1125",
+      "name": "Feriado Municipal de Poço Verde",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

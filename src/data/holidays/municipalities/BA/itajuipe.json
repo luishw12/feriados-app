@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2915502,
+  "name": "Itajuípe",
+  "slug": "itajuipe",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itajuipe",
+      "name": "Aniversário de Itajuípe",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itajuipe-1212",
+      "name": "Feriado Municipal de Itajuípe",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

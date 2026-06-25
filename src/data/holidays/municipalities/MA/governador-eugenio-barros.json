@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2104602,
+  "name": "Governador Eugênio Barros",
+  "slug": "governador-eugenio-barros",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-governador-eugenio-barros",
+      "name": "Aniversário de Governador Eugênio Barros",
+      "date": "03-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-governador-eugenio-barros-0831",
+      "name": "Feriado Municipal de Governador Eugênio Barros",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

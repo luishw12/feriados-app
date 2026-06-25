@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4120655,
+  "name": "Quarto Centenário",
+  "slug": "quarto-centenario",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-quarto-centenario",
+      "name": "Aniversário de Quarto Centenário",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quarto-centenario-0513",
+      "name": "Feriado Municipal de Quarto Centenário",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

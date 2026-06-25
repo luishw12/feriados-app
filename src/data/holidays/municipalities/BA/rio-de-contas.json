@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2926707,
+  "name": "Rio de Contas",
+  "slug": "rio-de-contas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-rio-de-contas",
+      "name": "Aniversário de Rio de Contas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-de-contas-1127",
+      "name": "Feriado Municipal de Rio de Contas",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

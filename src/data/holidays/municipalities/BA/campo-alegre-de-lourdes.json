@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2905909,
+  "name": "Campo Alegre de Lourdes",
+  "slug": "campo-alegre-de-lourdes",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-campo-alegre-de-lourdes",
+      "name": "Aniversário de Campo Alegre de Lourdes",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

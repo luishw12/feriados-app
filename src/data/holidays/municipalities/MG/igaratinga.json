@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3130200,
+  "name": "Igaratinga",
+  "slug": "igaratinga",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-igaratinga",
+      "name": "Aniversário de Igaratinga",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-igaratinga-0613",
+      "name": "Feriado Municipal de Igaratinga",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

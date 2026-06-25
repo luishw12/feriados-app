@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2313609,
+  "name": "Ubajara",
+  "slug": "ubajara",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-ubajara",
+      "name": "Aniversário de Ubajara",
+      "date": "08-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubajara-1231",
+      "name": "Feriado Municipal de Ubajara",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

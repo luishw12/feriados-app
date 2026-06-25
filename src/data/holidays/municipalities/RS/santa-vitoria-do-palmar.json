@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4317301,
+  "name": "Santa Vitória do Palmar",
+  "slug": "santa-vitoria-do-palmar",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santa-vitoria-do-palmar",
+      "name": "Aniversário de Santa Vitória do Palmar",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

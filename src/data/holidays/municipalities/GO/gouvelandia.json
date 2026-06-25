@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5209150,
+  "name": "Gouvelândia",
+  "slug": "gouvelandia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-gouvelandia",
+      "name": "Aniversário de Gouvelândia",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gouvelandia-0624",
+      "name": "Feriado Municipal de Gouvelândia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

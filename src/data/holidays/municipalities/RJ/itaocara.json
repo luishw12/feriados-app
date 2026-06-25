@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3302106,
+  "name": "Itaocara",
+  "slug": "itaocara",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-itaocara",
+      "name": "Aniversário de Itaocara",
+      "date": "02-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

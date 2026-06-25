@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4313508,
+  "name": "Osório",
+  "slug": "osorio",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-osorio",
+      "name": "Aniversário de Osório",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

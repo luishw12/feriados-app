@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3514908,
+  "name": "Elias Fausto",
+  "slug": "elias-fausto",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-elias-fausto",
+      "name": "Aniversário de Elias Fausto",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-elias-fausto-1130",
+      "name": "Feriado Municipal de Elias Fausto",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

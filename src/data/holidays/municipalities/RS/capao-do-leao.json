@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4304663,
+  "name": "Capão do Leão",
+  "slug": "capao-do-leao",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-capao-do-leao",
+      "name": "Aniversário de Capão do Leão",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

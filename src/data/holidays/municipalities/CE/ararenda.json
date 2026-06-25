@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2301257,
+  "name": "Ararendá",
+  "slug": "ararenda",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-ararenda",
+      "name": "Aniversário de Ararendá",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ararenda-1221",
+      "name": "Feriado Municipal de Ararendá",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4114104,
+  "name": "Mandaguaçu",
+  "slug": "mandaguacu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-mandaguacu",
+      "name": "Aniversário de Mandaguaçu",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mandaguacu-0403",
+      "name": "Feriado Municipal de Mandaguaçu",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mandaguacu-0604",
+      "name": "Feriado Municipal de Mandaguaçu",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mandaguacu-1214",
+      "name": "Feriado Municipal de Mandaguaçu",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

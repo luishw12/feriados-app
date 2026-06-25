@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4114500,
+  "name": "Manoel Ribas",
+  "slug": "manoel-ribas",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-manoel-ribas",
+      "name": "Aniversário de Manoel Ribas",
+      "date": "01-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manoel-ribas-0613",
+      "name": "Feriado Municipal de Manoel Ribas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manoel-ribas-0919",
+      "name": "Feriado Municipal de Manoel Ribas",
+      "date": "09-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manoel-ribas-1025",
+      "name": "Feriado Municipal de Manoel Ribas",
+      "date": "10-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

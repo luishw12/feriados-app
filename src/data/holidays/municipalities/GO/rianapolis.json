@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5218706,
+  "name": "Rianápolis",
+  "slug": "rianapolis",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-rianapolis",
+      "name": "Aniversário de Rianápolis",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

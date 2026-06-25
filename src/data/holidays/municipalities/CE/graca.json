@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2304657,
+  "name": "Graça",
+  "slug": "graca",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-graca",
+      "name": "Aniversário de Graça",
+      "date": "04-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-graca-0815",
+      "name": "Feriado Municipal de Graça",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

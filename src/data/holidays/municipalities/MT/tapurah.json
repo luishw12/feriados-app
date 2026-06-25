@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5108006,
+  "name": "Tapurah",
+  "slug": "tapurah",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-tapurah",
+      "name": "Aniversário de Tapurah",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

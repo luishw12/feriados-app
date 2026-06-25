@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2505105,
+  "name": "Cuité",
+  "slug": "cuite",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-cuite",
+      "name": "Aniversário de Cuité",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cuite-0624",
+      "name": "Feriado Municipal de Cuité",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cuite-0717",
+      "name": "Feriado Municipal de Cuité",
+      "date": "07-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cuite-0924",
+      "name": "Feriado Municipal de Cuité",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

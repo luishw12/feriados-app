@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3553203,
+  "name": "Taiúva",
+  "slug": "taiuva",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-taiuva",
+      "name": "Aniversário de Taiúva",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

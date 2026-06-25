@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2609907,
+  "name": "Ouricuri",
+  "slug": "ouricuri",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-ouricuri",
+      "name": "Aniversário de Ouricuri",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ouricuri-0203",
+      "name": "Feriado Municipal de Ouricuri",
+      "date": "02-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ouricuri-0514",
+      "name": "Feriado Municipal de Ouricuri",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ouricuri-0716",
+      "name": "Feriado Municipal de Ouricuri",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

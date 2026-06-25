@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4313201,
+  "name": "Nova Petrópolis",
+  "slug": "nova-petropolis",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-nova-petropolis",
+      "name": "Aniversário de Nova Petrópolis",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-petropolis-1031",
+      "name": "Feriado Municipal de Nova Petrópolis",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

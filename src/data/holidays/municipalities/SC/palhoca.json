@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4211900,
+  "name": "Palhoça",
+  "slug": "palhoca",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-palhoca",
+      "name": "Aniversário de Palhoça",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palhoca-0424",
+      "name": "Feriado Municipal de Palhoça",
+      "date": "04-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palhoca-0604",
+      "name": "Feriado Municipal de Palhoça",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

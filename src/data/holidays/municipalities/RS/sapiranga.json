@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4319901,
+  "name": "Sapiranga",
+  "slug": "sapiranga",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sapiranga",
+      "name": "Aniversário de Sapiranga",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

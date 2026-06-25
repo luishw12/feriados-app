@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4316006,
+  "name": "Rolante",
+  "slug": "rolante",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-rolante",
+      "name": "Aniversário de Rolante",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

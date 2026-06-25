@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5101001,
+  "name": "Araguaiana",
+  "slug": "araguaiana",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-araguaiana",
+      "name": "Aniversário de Araguaiana",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

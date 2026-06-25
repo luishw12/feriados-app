@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3116001,
+  "name": "Chalé",
+  "slug": "chale",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-chale",
+      "name": "Aniversário de Chalé",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-chale-0816",
+      "name": "Feriado Municipal de Chalé",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-chale-1031",
+      "name": "Feriado Municipal de Chalé",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

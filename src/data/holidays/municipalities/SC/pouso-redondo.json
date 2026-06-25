@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4213708,
+  "name": "Pouso Redondo",
+  "slug": "pouso-redondo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-pouso-redondo",
+      "name": "Aniversário de Pouso Redondo",
+      "date": "07-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pouso-redondo-1226",
+      "name": "Feriado Municipal de Pouso Redondo",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

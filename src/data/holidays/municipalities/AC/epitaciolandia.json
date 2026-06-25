@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1200252,
+  "name": "Epitaciolândia",
+  "slug": "epitaciolandia",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-epitaciolandia",
+      "name": "Aniversário de Epitaciolândia",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-epitaciolandia-0123",
+      "name": "Feriado Municipal de Epitaciolândia",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-epitaciolandia-0428",
+      "name": "Feriado Municipal de Epitaciolândia",
+      "date": "04-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-epitaciolandia-0906",
+      "name": "Feriado Municipal de Epitaciolândia",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

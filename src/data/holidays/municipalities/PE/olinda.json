@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2609600,
+  "name": "Olinda",
+  "slug": "olinda",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-olinda",
+      "name": "Aniversário de Olinda",
+      "date": "03-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-olinda-0403",
+      "name": "Feriado Municipal de Olinda",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-olinda-0806",
+      "name": "Feriado Municipal de Olinda",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-olinda-1110",
+      "name": "Feriado Municipal de Olinda",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

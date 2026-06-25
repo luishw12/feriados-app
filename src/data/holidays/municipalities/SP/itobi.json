@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3523800,
+  "name": "Itobi",
+  "slug": "itobi",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itobi",
+      "name": "Aniversário de Itobi",
+      "date": "08-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itobi-0915",
+      "name": "Feriado Municipal de Itobi",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itobi-1101",
+      "name": "Feriado Municipal de Itobi",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

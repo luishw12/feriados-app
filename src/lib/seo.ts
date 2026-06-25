@@ -7,15 +7,24 @@ export interface PageMeta {
 export function getHomeMeta(year: number): PageMeta {
   return {
     title: `Feriados no Brasil ${year} — Calendário Completo por Estado e Cidade`,
-    description: `Veja todos os feriados nacionais, estaduais e municipais do Brasil em ${year}. Calendário atualizado com datas fixas e móveis por estado e cidade.`,
+    description: `Calendário de feriados ${year} em mais de 5.500 municípios brasileiros. Nacionais, estaduais e municipais com busca por cidade ou estado.`,
     canonical: '/',
   };
 }
 
-export function getStateMeta(stateName: string, year: number, stateSlug: string): PageMeta {
+export function getStateMeta(
+  stateName: string,
+  year: number,
+  stateSlug: string,
+  municipalityCount?: number,
+): PageMeta {
+  const coverage =
+    municipalityCount !== undefined
+      ? ` Inclui ${municipalityCount.toLocaleString('pt-BR')} municípios.`
+      : '';
   return {
     title: `Feriados em ${stateName} ${year} — Nacionais, Estaduais e Municipais`,
-    description: `Calendário completo de feriados em ${stateName} para ${year}. Inclui feriados nacionais, estaduais e facultativos com todas as datas.`,
+    description: `Calendário completo de feriados em ${stateName} para ${year}. Feriados nacionais, estaduais e municipais por cidade.${coverage}`,
     canonical: `/${stateSlug}/`,
   };
 }

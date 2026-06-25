@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100049,
+  "name": "Cacoal",
+  "slug": "cacoal",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-cacoal",
+      "name": "Aniversário de Cacoal",
+      "date": "06-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cacoal-1126",
+      "name": "Feriado Municipal de Cacoal",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5105622,
+  "name": "Mirassol d'Oeste",
+  "slug": "mirassol-d-oeste",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-mirassol-d-oeste",
+      "name": "Aniversário de Mirassol d'Oeste",
+      "date": "02-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirassol-d-oeste-0403",
+      "name": "Feriado Municipal de Mirassol d'Oeste",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirassol-d-oeste-0514",
+      "name": "Feriado Municipal de Mirassol d'Oeste",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4214102,
+  "name": "Presidente Nereu",
+  "slug": "presidente-nereu",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-nereu",
+      "name": "Aniversário de Presidente Nereu",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-nereu-0815",
+      "name": "Feriado Municipal de Presidente Nereu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-nereu-1212",
+      "name": "Feriado Municipal de Presidente Nereu",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

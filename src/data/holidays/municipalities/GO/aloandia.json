@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5200506,
+  "name": "Aloândia",
+  "slug": "aloandia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-aloandia",
+      "name": "Aniversário de Aloândia",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aloandia-0617",
+      "name": "Feriado Municipal de Aloândia",
+      "date": "06-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

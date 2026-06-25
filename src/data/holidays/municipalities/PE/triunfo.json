@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2615706,
+  "name": "Triunfo",
+  "slug": "triunfo",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-triunfo",
+      "name": "Aniversário de Triunfo",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-triunfo-0915",
+      "name": "Feriado Municipal de Triunfo",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

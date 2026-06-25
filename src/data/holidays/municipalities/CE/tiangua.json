@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2313401,
+  "name": "Tianguá",
+  "slug": "tiangua",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-tiangua",
+      "name": "Aniversário de Tianguá",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tiangua-0731",
+      "name": "Feriado Municipal de Tianguá",
+      "date": "07-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

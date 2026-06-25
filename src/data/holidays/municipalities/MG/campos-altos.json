@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3111507,
+  "name": "Campos Altos",
+  "slug": "campos-altos",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-campos-altos",
+      "name": "Aniversário de Campos Altos",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

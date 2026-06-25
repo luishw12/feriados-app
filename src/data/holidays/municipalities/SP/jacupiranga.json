@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3524600,
+  "name": "Jacupiranga",
+  "slug": "jacupiranga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jacupiranga",
+      "name": "Aniversário de Jacupiranga",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacupiranga-0629",
+      "name": "Feriado Municipal de Jacupiranga",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacupiranga-1208",
+      "name": "Feriado Municipal de Jacupiranga",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

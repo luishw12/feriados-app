@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3163300,
+  "name": "São José do Divino",
+  "slug": "sao-jose-do-divino",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-divino",
+      "name": "Aniversário de São José do Divino",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-divino-0624",
+      "name": "Feriado Municipal de São José do Divino",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2905107,
+  "name": "Caém",
+  "slug": "caem",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-caem",
+      "name": "Aniversário de Caém",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caem-0408",
+      "name": "Feriado Municipal de Caém",
+      "date": "04-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

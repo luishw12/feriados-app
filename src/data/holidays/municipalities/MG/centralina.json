@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3115805,
+  "name": "Centralina",
+  "slug": "centralina",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-centralina",
+      "name": "Aniversário de Centralina",
+      "date": "01-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-centralina-0716",
+      "name": "Feriado Municipal de Centralina",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-centralina-0815",
+      "name": "Feriado Municipal de Centralina",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

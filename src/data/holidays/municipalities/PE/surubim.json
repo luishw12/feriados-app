@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2614501,
+  "name": "Surubim",
+  "slug": "surubim",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-surubim",
+      "name": "Aniversário de Surubim",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-surubim-0319",
+      "name": "Feriado Municipal de Surubim",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-surubim-0604",
+      "name": "Feriado Municipal de Surubim",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-surubim-0911",
+      "name": "Feriado Municipal de Surubim",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

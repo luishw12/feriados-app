@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1702554,
+  "name": "Augustinópolis",
+  "slug": "augustinopolis",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-augustinopolis",
+      "name": "Aniversário de Augustinópolis",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

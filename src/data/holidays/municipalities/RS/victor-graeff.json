@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4323200,
+  "name": "Victor Graeff",
+  "slug": "victor-graeff",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-victor-graeff",
+      "name": "Aniversário de Victor Graeff",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

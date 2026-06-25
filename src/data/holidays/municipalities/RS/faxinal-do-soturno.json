@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4308003,
+  "name": "Faxinal do Soturno",
+  "slug": "faxinal-do-soturno",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-faxinal-do-soturno",
+      "name": "Aniversário de Faxinal do Soturno",
+      "date": "02-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-faxinal-do-soturno-0403",
+      "name": "Feriado Municipal de Faxinal do Soturno",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-faxinal-do-soturno-0604",
+      "name": "Feriado Municipal de Faxinal do Soturno",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-faxinal-do-soturno-0816",
+      "name": "Feriado Municipal de Faxinal do Soturno",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

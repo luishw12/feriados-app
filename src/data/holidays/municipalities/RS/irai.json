@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4310504,
+  "name": "Iraí",
+  "slug": "irai",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-irai",
+      "name": "Aniversário de Iraí",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irai-0701",
+      "name": "Feriado Municipal de Iraí",
+      "date": "07-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irai-1031",
+      "name": "Feriado Municipal de Iraí",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

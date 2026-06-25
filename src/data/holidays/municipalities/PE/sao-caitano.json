@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2613107,
+  "name": "São Caitano",
+  "slug": "sao-caitano",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-sao-caitano",
+      "name": "Aniversário de São Caitano",
+      "date": "08-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-caitano-0911",
+      "name": "Feriado Municipal de São Caitano",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

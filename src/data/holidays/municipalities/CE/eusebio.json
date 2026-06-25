@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2304285,
+  "name": "Eusébio",
+  "slug": "eusebio",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-eusebio",
+      "name": "Aniversário de Eusébio",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-eusebio-0726",
+      "name": "Feriado Municipal de Eusébio",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

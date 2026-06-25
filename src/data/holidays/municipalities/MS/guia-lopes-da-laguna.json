@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5004106,
+  "name": "Guia Lopes da Laguna",
+  "slug": "guia-lopes-da-laguna",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-guia-lopes-da-laguna",
+      "name": "Aniversário de Guia Lopes da Laguna",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

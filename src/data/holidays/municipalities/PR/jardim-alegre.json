@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4112504,
+  "name": "Jardim Alegre",
+  "slug": "jardim-alegre",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-jardim-alegre",
+      "name": "Aniversário de Jardim Alegre",
+      "date": "04-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

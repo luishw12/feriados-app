@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3541059,
+  "name": "Pratânia",
+  "slug": "pratania",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pratania",
+      "name": "Aniversário de Pratânia",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pratania-0806",
+      "name": "Feriado Municipal de Pratânia",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3546603,
+  "name": "Santa Fé do Sul",
+  "slug": "santa-fe-do-sul",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-fe-do-sul",
+      "name": "Aniversário de Santa Fé do Sul",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

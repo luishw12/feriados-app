@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1503507,
+  "name": "Irituia",
+  "slug": "irituia",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-irituia",
+      "name": "Aniversário de Irituia",
+      "date": "06-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irituia-1216",
+      "name": "Feriado Municipal de Irituia",
+      "date": "12-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

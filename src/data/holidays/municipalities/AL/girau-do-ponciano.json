@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2702900,
+  "name": "Girau do Ponciano",
+  "slug": "girau-do-ponciano",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-girau-do-ponciano",
+      "name": "Aniversário de Girau do Ponciano",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

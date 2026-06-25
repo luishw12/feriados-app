@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2919702,
+  "name": "Macarani",
+  "slug": "macarani",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-macarani",
+      "name": "Aniversário de Macarani",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

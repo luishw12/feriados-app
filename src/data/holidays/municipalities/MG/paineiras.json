@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3146404,
+  "name": "Paineiras",
+  "slug": "paineiras",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-paineiras",
+      "name": "Aniversário de Paineiras",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

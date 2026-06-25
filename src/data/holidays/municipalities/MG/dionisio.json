@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3121803,
+  "name": "Dionísio",
+  "slug": "dionisio",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-dionisio",
+      "name": "Aniversário de Dionísio",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dionisio-1227",
+      "name": "Feriado Municipal de Dionísio",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

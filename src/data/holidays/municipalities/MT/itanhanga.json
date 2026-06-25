@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5104542,
+  "name": "Itanhangá",
+  "slug": "itanhanga",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-itanhanga",
+      "name": "Aniversário de Itanhangá",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2516102,
+  "name": "Soledade",
+  "slug": "soledade",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-soledade",
+      "name": "Aniversário de Soledade",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-soledade-0924",
+      "name": "Feriado Municipal de Soledade",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

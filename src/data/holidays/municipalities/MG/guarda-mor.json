@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3128600,
+  "name": "Guarda-Mor",
+  "slug": "guarda-mor",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-guarda-mor",
+      "name": "Aniversário de Guarda-Mor",
+      "date": "05-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guarda-mor-0522",
+      "name": "Feriado Municipal de Guarda-Mor",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guarda-mor-1031",
+      "name": "Feriado Municipal de Guarda-Mor",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

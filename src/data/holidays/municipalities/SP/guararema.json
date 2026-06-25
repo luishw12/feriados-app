@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3518305,
+  "name": "Guararema",
+  "slug": "guararema",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guararema",
+      "name": "Aniversário de Guararema",
+      "date": "09-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

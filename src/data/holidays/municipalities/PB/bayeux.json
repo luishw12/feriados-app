@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2501807,
+  "name": "Bayeux",
+  "slug": "bayeux",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-bayeux",
+      "name": "Aniversário de Bayeux",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

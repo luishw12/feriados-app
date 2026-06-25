@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2615201,
+  "name": "Terra Nova",
+  "slug": "terra-nova",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-terra-nova",
+      "name": "Aniversário de Terra Nova",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-terra-nova-0301",
+      "name": "Feriado Municipal de Terra Nova",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-terra-nova-0915",
+      "name": "Feriado Municipal de Terra Nova",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

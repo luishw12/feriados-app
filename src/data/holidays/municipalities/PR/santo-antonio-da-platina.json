@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4124103,
+  "name": "Santo Antônio da Platina",
+  "slug": "santo-antonio-da-platina",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-da-platina",
+      "name": "Aniversário de Santo Antônio da Platina",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-da-platina-0820",
+      "name": "Feriado Municipal de Santo Antônio da Platina",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

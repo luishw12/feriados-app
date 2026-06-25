@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3506359,
+  "name": "Bertioga",
+  "slug": "bertioga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bertioga",
+      "name": "Aniversário de Bertioga",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bertioga-0624",
+      "name": "Feriado Municipal de Bertioga",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2925758,
+  "name": "Presidente Tancredo Neves",
+  "slug": "presidente-tancredo-neves",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-tancredo-neves",
+      "name": "Aniversário de Presidente Tancredo Neves",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

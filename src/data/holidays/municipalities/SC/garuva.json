@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4205803,
+  "name": "Garuva",
+  "slug": "garuva",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-garuva",
+      "name": "Aniversário de Garuva",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-garuva-0604",
+      "name": "Feriado Municipal de Garuva",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-garuva-0624",
+      "name": "Feriado Municipal de Garuva",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-garuva-1220",
+      "name": "Feriado Municipal de Garuva",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

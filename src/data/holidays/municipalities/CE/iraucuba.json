@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2306108,
+  "name": "Irauçuba",
+  "slug": "iraucuba",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-iraucuba",
+      "name": "Aniversário de Irauçuba",
+      "date": "05-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iraucuba-0621",
+      "name": "Feriado Municipal de Irauçuba",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

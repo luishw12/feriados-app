@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4215505,
+  "name": "Santa Cecília",
+  "slug": "santa-cecilia",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cecilia",
+      "name": "Aniversário de Santa Cecília",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cecilia-1122",
+      "name": "Feriado Municipal de Santa Cecília",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

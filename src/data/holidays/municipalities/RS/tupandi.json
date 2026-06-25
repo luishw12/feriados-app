@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4322251,
+  "name": "Tupandi",
+  "slug": "tupandi",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tupandi",
+      "name": "Aniversário de Tupandi",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3509809,
+  "name": "Campos Novos Paulista",
+  "slug": "campos-novos-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-campos-novos-paulista",
+      "name": "Aniversário de Campos Novos Paulista",
+      "date": "03-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campos-novos-paulista-0319",
+      "name": "Feriado Municipal de Campos Novos Paulista",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campos-novos-paulista-0624",
+      "name": "Feriado Municipal de Campos Novos Paulista",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

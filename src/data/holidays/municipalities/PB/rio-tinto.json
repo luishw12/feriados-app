@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2512903,
+  "name": "Rio Tinto",
+  "slug": "rio-tinto",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-rio-tinto",
+      "name": "Aniversário de Rio Tinto",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-tinto-0624",
+      "name": "Feriado Municipal de Rio Tinto",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-tinto-1206",
+      "name": "Feriado Municipal de Rio Tinto",
+      "date": "12-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3200607,
+  "name": "Aracruz",
+  "slug": "aracruz",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-aracruz",
+      "name": "Aniversário de Aracruz",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4114906,
+  "name": "Marilândia do Sul",
+  "slug": "marilandia-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-marilandia-do-sul",
+      "name": "Aniversário de Marilândia do Sul",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-marilandia-do-sul-1031",
+      "name": "Feriado Municipal de Marilândia do Sul",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-marilandia-do-sul-1214",
+      "name": "Feriado Municipal de Marilândia do Sul",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5215009,
+  "name": "Nova Veneza",
+  "slug": "nova-veneza",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-nova-veneza",
+      "name": "Aniversário de Nova Veneza",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-veneza-1114",
+      "name": "Feriado Municipal de Nova Veneza",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

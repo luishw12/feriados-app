@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4307500,
+  "name": "Espumoso",
+  "slug": "espumoso",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-espumoso",
+      "name": "Aniversário de Espumoso",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1300607,
+  "name": "Benjamin Constant",
+  "slug": "benjamin-constant",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-benjamin-constant",
+      "name": "Aniversário de Benjamin Constant",
+      "date": "01-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

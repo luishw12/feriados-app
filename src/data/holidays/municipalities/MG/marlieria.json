@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3140308,
+  "name": "Marliéria",
+  "slug": "marlieria",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-marlieria",
+      "name": "Aniversário de Marliéria",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4322004,
+  "name": "Triunfo",
+  "slug": "triunfo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-triunfo",
+      "name": "Aniversário de Triunfo",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-triunfo-0806",
+      "name": "Feriado Municipal de Triunfo",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

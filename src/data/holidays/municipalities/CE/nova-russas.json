@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2309300,
+  "name": "Nova Russas",
+  "slug": "nova-russas",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-nova-russas",
+      "name": "Aniversário de Nova Russas",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-russas-1111",
+      "name": "Feriado Municipal de Nova Russas",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

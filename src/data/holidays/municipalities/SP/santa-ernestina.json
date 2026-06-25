@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3546504,
+  "name": "Santa Ernestina",
+  "slug": "santa-ernestina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-ernestina",
+      "name": "Aniversário de Santa Ernestina",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

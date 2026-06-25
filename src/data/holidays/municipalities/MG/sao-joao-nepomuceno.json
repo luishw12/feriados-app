@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3162906,
+  "name": "São João Nepomuceno",
+  "slug": "sao-joao-nepomuceno",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-nepomuceno",
+      "name": "Aniversário de São João Nepomuceno",
+      "date": "05-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

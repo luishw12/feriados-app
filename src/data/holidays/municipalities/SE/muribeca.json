@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2804300,
+  "name": "Muribeca",
+  "slug": "muribeca",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-muribeca",
+      "name": "Aniversário de Muribeca",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3538105,
+  "name": "Pindorama",
+  "slug": "pindorama",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pindorama",
+      "name": "Aniversário de Pindorama",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pindorama-0613",
+      "name": "Feriado Municipal de Pindorama",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pindorama-0629",
+      "name": "Feriado Municipal de Pindorama",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

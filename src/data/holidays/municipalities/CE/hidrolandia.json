@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2305209,
+  "name": "Hidrolândia",
+  "slug": "hidrolandia",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-hidrolandia",
+      "name": "Aniversário de Hidrolândia",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-hidrolandia-1227",
+      "name": "Feriado Municipal de Hidrolândia",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

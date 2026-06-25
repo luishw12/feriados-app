@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4201208,
+  "name": "Antônio Carlos",
+  "slug": "antonio-carlos",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-antonio-carlos",
+      "name": "Aniversário de Antônio Carlos",
+      "date": "11-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

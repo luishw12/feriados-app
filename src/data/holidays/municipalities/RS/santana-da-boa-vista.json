@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4317004,
+  "name": "Santana da Boa Vista",
+  "slug": "santana-da-boa-vista",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santana-da-boa-vista",
+      "name": "Aniversário de Santana da Boa Vista",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-da-boa-vista-0917",
+      "name": "Feriado Municipal de Santana da Boa Vista",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2600708,
+  "name": "Aliança",
+  "slug": "alianca",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-alianca",
+      "name": "Aniversário de Aliança",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alianca-0915",
+      "name": "Feriado Municipal de Aliança",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5211909,
+  "name": "Jataí",
+  "slug": "jatai",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-jatai",
+      "name": "Aniversário de Jataí",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

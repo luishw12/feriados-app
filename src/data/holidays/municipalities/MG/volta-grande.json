@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3172103,
+  "name": "Volta Grande",
+  "slug": "volta-grande",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-volta-grande",
+      "name": "Aniversário de Volta Grande",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-volta-grande-0530",
+      "name": "Feriado Municipal de Volta Grande",
+      "date": "05-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-volta-grande-1217",
+      "name": "Feriado Municipal de Volta Grande",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

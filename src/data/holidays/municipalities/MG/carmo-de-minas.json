@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3114105,
+  "name": "Carmo de Minas",
+  "slug": "carmo-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carmo-de-minas",
+      "name": "Aniversário de Carmo de Minas",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmo-de-minas-0916",
+      "name": "Feriado Municipal de Carmo de Minas",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

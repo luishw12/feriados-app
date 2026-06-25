@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3537602,
+  "name": "Peruíbe",
+  "slug": "peruibe",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-peruibe",
+      "name": "Aniversário de Peruíbe",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-peruibe-0624",
+      "name": "Feriado Municipal de Peruíbe",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3540705,
+  "name": "Porto Ferreira",
+  "slug": "porto-ferreira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-porto-ferreira",
+      "name": "Aniversário de Porto Ferreira",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-ferreira-0729",
+      "name": "Feriado Municipal de Porto Ferreira",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1707652,
+  "name": "Figueirópolis",
+  "slug": "figueiropolis",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-figueiropolis",
+      "name": "Aniversário de Figueirópolis",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-figueiropolis-0624",
+      "name": "Feriado Municipal de Figueirópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

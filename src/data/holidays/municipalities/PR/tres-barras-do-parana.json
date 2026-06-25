@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4127858,
+  "name": "Três Barras do Paraná",
+  "slug": "tres-barras-do-parana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-tres-barras-do-parana",
+      "name": "Aniversário de Três Barras do Paraná",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

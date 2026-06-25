@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2307700,
+  "name": "Maranguape",
+  "slug": "maranguape",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-maranguape",
+      "name": "Aniversário de Maranguape",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maranguape-0908",
+      "name": "Feriado Municipal de Maranguape",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maranguape-1117",
+      "name": "Feriado Municipal de Maranguape",
+      "date": "11-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3510401,
+  "name": "Capivari",
+  "slug": "capivari",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-capivari",
+      "name": "Aniversário de Capivari",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

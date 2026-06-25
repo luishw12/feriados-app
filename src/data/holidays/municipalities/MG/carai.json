@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3113008,
+  "name": "Caraí",
+  "slug": "carai",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carai",
+      "name": "Aniversário de Caraí",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

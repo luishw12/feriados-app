@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1504307,
+  "name": "Maracanã",
+  "slug": "maracana",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-maracana",
+      "name": "Aniversário de Maracanã",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

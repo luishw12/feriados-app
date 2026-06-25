@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4122909,
+  "name": "Salto do Itararé",
+  "slug": "salto-do-itarare",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-salto-do-itarare",
+      "name": "Aniversário de Salto do Itararé",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-do-itarare-0925",
+      "name": "Feriado Municipal de Salto do Itararé",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

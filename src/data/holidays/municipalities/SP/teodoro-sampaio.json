@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3554300,
+  "name": "Teodoro Sampaio",
+  "slug": "teodoro-sampaio",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-teodoro-sampaio",
+      "name": "Aniversário de Teodoro Sampaio",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teodoro-sampaio-0627",
+      "name": "Feriado Municipal de Teodoro Sampaio",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2112100,
+  "name": "Timbiras",
+  "slug": "timbiras",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-timbiras",
+      "name": "Aniversário de Timbiras",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-timbiras-0522",
+      "name": "Feriado Municipal de Timbiras",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

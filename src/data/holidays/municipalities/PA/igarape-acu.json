@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1503200,
+  "name": "Igarapé-Açu",
+  "slug": "igarape-acu",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-igarape-acu",
+      "name": "Aniversário de Igarapé-Açu",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-igarape-acu-0623",
+      "name": "Feriado Municipal de Igarapé-Açu",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

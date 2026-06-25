@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2111763,
+  "name": "Senador La Rocque",
+  "slug": "senador-la-rocque",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-senador-la-rocque",
+      "name": "Aniversário de Senador La Rocque",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-la-rocque-1110",
+      "name": "Feriado Municipal de Senador La Rocque",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

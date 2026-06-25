@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1200708,
+  "name": "Xapuri",
+  "slug": "xapuri",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-xapuri",
+      "name": "Aniversário de Xapuri",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-xapuri-1222",
+      "name": "Feriado Municipal de Xapuri",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

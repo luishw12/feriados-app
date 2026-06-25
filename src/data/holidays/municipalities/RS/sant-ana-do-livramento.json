@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4317103,
+  "name": "Sant'Ana do Livramento",
+  "slug": "sant-ana-do-livramento",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sant-ana-do-livramento",
+      "name": "Aniversário de Sant'Ana do Livramento",
+      "date": "07-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

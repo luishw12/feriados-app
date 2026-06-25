@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2203503,
+  "name": "Elesbão Veloso",
+  "slug": "elesbao-veloso",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-elesbao-veloso",
+      "name": "Aniversário de Elesbão Veloso",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

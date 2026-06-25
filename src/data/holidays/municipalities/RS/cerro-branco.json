@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4305132,
+  "name": "Cerro Branco",
+  "slug": "cerro-branco",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cerro-branco",
+      "name": "Aniversário de Cerro Branco",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cerro-branco-0613",
+      "name": "Feriado Municipal de Cerro Branco",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cerro-branco-1031",
+      "name": "Feriado Municipal de Cerro Branco",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

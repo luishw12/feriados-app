@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5002407,
+  "name": "Caarapó",
+  "slug": "caarapo",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-caarapo",
+      "name": "Aniversário de Caarapó",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caarapo-1226",
+      "name": "Feriado Municipal de Caarapó",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

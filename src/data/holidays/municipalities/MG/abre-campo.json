@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3100302,
+  "name": "Abre Campo",
+  "slug": "abre-campo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-abre-campo",
+      "name": "Aniversário de Abre Campo",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

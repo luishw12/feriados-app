@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2602704,
+  "name": "Buenos Aires",
+  "slug": "buenos-aires",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-buenos-aires",
+      "name": "Aniversário de Buenos Aires",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

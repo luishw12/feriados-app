@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3501202,
+  "name": "Álvares Florence",
+  "slug": "alvares-florence",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-alvares-florence",
+      "name": "Aniversário de Álvares Florence",
+      "date": "04-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alvares-florence-0624",
+      "name": "Feriado Municipal de Álvares Florence",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

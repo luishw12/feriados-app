@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2209104,
+  "name": "Santa Cruz do Piauí",
+  "slug": "santa-cruz-do-piaui",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cruz-do-piaui",
+      "name": "Aniversário de Santa Cruz do Piauí",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cruz-do-piaui-1220",
+      "name": "Feriado Municipal de Santa Cruz do Piauí",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

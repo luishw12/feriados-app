@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4200200,
+  "name": "Agrolândia",
+  "slug": "agrolandia",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-agrolandia",
+      "name": "Aniversário de Agrolândia",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agrolandia-1226",
+      "name": "Feriado Municipal de Agrolândia",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

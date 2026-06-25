@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2111052,
+  "name": "São João do Paraíso",
+  "slug": "sao-joao-do-paraiso",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-paraiso",
+      "name": "Aniversário de São João do Paraíso",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-do-paraiso-0901",
+      "name": "Feriado Municipal de São João do Paraíso",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

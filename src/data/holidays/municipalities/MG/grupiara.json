@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3127909,
+  "name": "Grupiara",
+  "slug": "grupiara",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-grupiara",
+      "name": "Aniversário de Grupiara",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-grupiara-0301",
+      "name": "Feriado Municipal de Grupiara",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-grupiara-0815",
+      "name": "Feriado Municipal de Grupiara",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

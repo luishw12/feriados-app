@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5208608,
+  "name": "Goianésia",
+  "slug": "goianesia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-goianesia",
+      "name": "Aniversário de Goianésia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goianesia-0714",
+      "name": "Feriado Municipal de Goianésia",
+      "date": "07-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goianesia-0815",
+      "name": "Feriado Municipal de Goianésia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goianesia-0927",
+      "name": "Feriado Municipal de Goianésia",
+      "date": "09-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

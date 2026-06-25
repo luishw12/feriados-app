@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3500808,
+  "name": "Alfredo Marcondes",
+  "slug": "alfredo-marcondes",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-alfredo-marcondes",
+      "name": "Aniversário de Alfredo Marcondes",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alfredo-marcondes-1224",
+      "name": "Feriado Municipal de Alfredo Marcondes",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

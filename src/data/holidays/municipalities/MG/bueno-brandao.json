@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3109105,
+  "name": "Bueno Brandão",
+  "slug": "bueno-brandao",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bueno-brandao",
+      "name": "Aniversário de Bueno Brandão",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bueno-brandao-0806",
+      "name": "Feriado Municipal de Bueno Brandão",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bueno-brandao-1217",
+      "name": "Feriado Municipal de Bueno Brandão",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

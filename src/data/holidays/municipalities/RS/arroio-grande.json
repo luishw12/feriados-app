@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4301305,
+  "name": "Arroio Grande",
+  "slug": "arroio-grande",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-arroio-grande",
+      "name": "Aniversário de Arroio Grande",
+      "date": "03-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arroio-grande-1208",
+      "name": "Feriado Municipal de Arroio Grande",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

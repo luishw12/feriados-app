@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3533601,
+  "name": "Nuporanga",
+  "slug": "nuporanga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-nuporanga",
+      "name": "Aniversário de Nuporanga",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nuporanga-0815",
+      "name": "Feriado Municipal de Nuporanga",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nuporanga-0909",
+      "name": "Feriado Municipal de Nuporanga",
+      "date": "09-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

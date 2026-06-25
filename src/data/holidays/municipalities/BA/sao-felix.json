@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2929008,
+  "name": "São Félix",
+  "slug": "sao-felix",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-felix",
+      "name": "Aniversário de São Félix",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

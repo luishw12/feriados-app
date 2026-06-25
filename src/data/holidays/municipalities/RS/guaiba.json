@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4309308,
+  "name": "Guaíba",
+  "slug": "guaiba",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-guaiba",
+      "name": "Aniversário de Guaíba",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

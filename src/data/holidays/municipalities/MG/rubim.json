@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3156601,
+  "name": "Rubim",
+  "slug": "rubim",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-rubim",
+      "name": "Aniversário de Rubim",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rubim-0806",
+      "name": "Feriado Municipal de Rubim",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rubim-1231",
+      "name": "Feriado Municipal de Rubim",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2804508,
+  "name": "Nossa Senhora da Glória",
+  "slug": "nossa-senhora-da-gloria",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-nossa-senhora-da-gloria",
+      "name": "Aniversário de Nossa Senhora da Glória",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nossa-senhora-da-gloria-0815",
+      "name": "Feriado Municipal de Nossa Senhora da Glória",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nossa-senhora-da-gloria-0926",
+      "name": "Feriado Municipal de Nossa Senhora da Glória",
+      "date": "09-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nossa-senhora-da-gloria-1126",
+      "name": "Feriado Municipal de Nossa Senhora da Glória",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

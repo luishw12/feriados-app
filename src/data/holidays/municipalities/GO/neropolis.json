@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5214507,
+  "name": "Nerópolis",
+  "slug": "neropolis",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-neropolis",
+      "name": "Aniversário de Nerópolis",
+      "date": "08-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

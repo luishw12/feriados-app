@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4311122,
+  "name": "Jaquirana",
+  "slug": "jaquirana",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-jaquirana",
+      "name": "Aniversário de Jaquirana",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

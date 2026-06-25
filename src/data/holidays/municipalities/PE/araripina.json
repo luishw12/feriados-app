@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2601102,
+  "name": "Araripina",
+  "slug": "araripina",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-araripina",
+      "name": "Aniversário de Araripina",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araripina-1031",
+      "name": "Feriado Municipal de Araripina",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araripina-1208",
+      "name": "Feriado Municipal de Araripina",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100189,
+  "name": "Pimenta Bueno",
+  "slug": "pimenta-bueno",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-pimenta-bueno",
+      "name": "Aniversário de Pimenta Bueno",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pimenta-bueno-1124",
+      "name": "Feriado Municipal de Pimenta Bueno",
+      "date": "11-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

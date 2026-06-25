@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3202801,
+  "name": "Itapemirim",
+  "slug": "itapemirim",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-itapemirim",
+      "name": "Aniversário de Itapemirim",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapemirim-0612",
+      "name": "Feriado Municipal de Itapemirim",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapemirim-0908",
+      "name": "Feriado Municipal de Itapemirim",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

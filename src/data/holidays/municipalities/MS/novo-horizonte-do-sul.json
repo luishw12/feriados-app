@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5006259,
+  "name": "Novo Horizonte do Sul",
+  "slug": "novo-horizonte-do-sul",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-novo-horizonte-do-sul",
+      "name": "Aniversário de Novo Horizonte do Sul",
+      "date": "04-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-novo-horizonte-do-sul-0614",
+      "name": "Feriado Municipal de Novo Horizonte do Sul",
+      "date": "06-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

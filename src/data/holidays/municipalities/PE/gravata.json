@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2606408,
+  "name": "Gravatá",
+  "slug": "gravata",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-gravata",
+      "name": "Aniversário de Gravatá",
+      "date": "03-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gravata-0726",
+      "name": "Feriado Municipal de Gravatá",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

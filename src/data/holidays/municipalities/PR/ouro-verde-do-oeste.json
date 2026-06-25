@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4117453,
+  "name": "Ouro Verde do Oeste",
+  "slug": "ouro-verde-do-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ouro-verde-do-oeste",
+      "name": "Aniversário de Ouro Verde do Oeste",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

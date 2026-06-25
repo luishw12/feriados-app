@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4321501,
+  "name": "Torres",
+  "slug": "torres",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-torres",
+      "name": "Aniversário de Torres",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-torres-0521",
+      "name": "Feriado Municipal de Torres",
+      "date": "05-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-torres-0808",
+      "name": "Feriado Municipal de Torres",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

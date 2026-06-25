@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2900801,
+  "name": "Alcobaça",
+  "slug": "alcobaca",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-alcobaca",
+      "name": "Aniversário de Alcobaça",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alcobaca-0820",
+      "name": "Feriado Municipal de Alcobaça",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alcobaca-1112",
+      "name": "Feriado Municipal de Alcobaça",
+      "date": "11-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

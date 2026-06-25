@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2904506,
+  "name": "Brotas de Macaúbas",
+  "slug": "brotas-de-macaubas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-brotas-de-macaubas",
+      "name": "Aniversário de Brotas de Macaúbas",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brotas-de-macaubas-0624",
+      "name": "Feriado Municipal de Brotas de Macaúbas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brotas-de-macaubas-0908",
+      "name": "Feriado Municipal de Brotas de Macaúbas",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brotas-de-macaubas-0917",
+      "name": "Feriado Municipal de Brotas de Macaúbas",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2613206,
+  "name": "São João",
+  "slug": "sao-joao",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao",
+      "name": "Aniversário de São João",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-1220",
+      "name": "Feriado Municipal de São João",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

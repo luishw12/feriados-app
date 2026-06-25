@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2603207,
+  "name": "Caetés",
+  "slug": "caetes",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-caetes",
+      "name": "Aniversário de Caetés",
+      "date": "02-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caetes-0807",
+      "name": "Feriado Municipal de Caetés",
+      "date": "08-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caetes-0812",
+      "name": "Feriado Municipal de Caetés",
+      "date": "08-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caetes-0913",
+      "name": "Feriado Municipal de Caetés",
+      "date": "09-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

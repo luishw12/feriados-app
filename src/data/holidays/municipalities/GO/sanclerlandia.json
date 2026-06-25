@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5219001,
+  "name": "Sanclerlândia",
+  "slug": "sanclerlandia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-sanclerlandia",
+      "name": "Aniversário de Sanclerlândia",
+      "date": "01-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sanclerlandia-0815",
+      "name": "Feriado Municipal de Sanclerlândia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

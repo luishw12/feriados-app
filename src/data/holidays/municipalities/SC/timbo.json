@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4218202,
+  "name": "Timbó",
+  "slug": "timbo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-timbo",
+      "name": "Aniversário de Timbó",
+      "date": "04-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

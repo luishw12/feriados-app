@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3544202,
+  "name": "Riolândia",
+  "slug": "riolandia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-riolandia",
+      "name": "Aniversário de Riolândia",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riolandia-0613",
+      "name": "Feriado Municipal de Riolândia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4113601,
+  "name": "Lobato",
+  "slug": "lobato",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-lobato",
+      "name": "Aniversário de Lobato",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lobato-0813",
+      "name": "Feriado Municipal de Lobato",
+      "date": "08-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

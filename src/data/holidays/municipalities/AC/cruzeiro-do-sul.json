@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1200203,
+  "name": "Cruzeiro do Sul",
+  "slug": "cruzeiro-do-sul",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-cruzeiro-do-sul",
+      "name": "Aniversário de Cruzeiro do Sul",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cruzeiro-do-sul-0928",
+      "name": "Feriado Municipal de Cruzeiro do Sul",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

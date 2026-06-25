@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3162807,
+  "name": "São João Evangelista",
+  "slug": "sao-joao-evangelista",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-evangelista",
+      "name": "Aniversário de São João Evangelista",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-evangelista-1227",
+      "name": "Feriado Municipal de São João Evangelista",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

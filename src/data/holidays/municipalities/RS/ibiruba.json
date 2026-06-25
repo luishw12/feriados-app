@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4310009,
+  "name": "Ibirubá",
+  "slug": "ibiruba",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-ibiruba",
+      "name": "Aniversário de Ibirubá",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibiruba-0725",
+      "name": "Feriado Municipal de Ibirubá",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

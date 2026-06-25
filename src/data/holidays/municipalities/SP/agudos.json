@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3500709,
+  "name": "Agudos",
+  "slug": "agudos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-agudos",
+      "name": "Aniversário de Agudos",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

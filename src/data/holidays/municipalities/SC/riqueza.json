@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4215075,
+  "name": "Riqueza",
+  "slug": "riqueza",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-riqueza",
+      "name": "Aniversário de Riqueza",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riqueza-1212",
+      "name": "Feriado Municipal de Riqueza",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2404705,
+  "name": "Ipanguaçu",
+  "slug": "ipanguacu",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-ipanguacu",
+      "name": "Aniversário de Ipanguaçu",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipanguacu-0624",
+      "name": "Feriado Municipal de Ipanguaçu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipanguacu-1223",
+      "name": "Feriado Municipal de Ipanguaçu",
+      "date": "12-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

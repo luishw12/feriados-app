@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3512704,
+  "name": "Corumbataí",
+  "slug": "corumbatai",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-corumbatai",
+      "name": "Aniversário de Corumbataí",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

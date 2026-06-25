@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4301503,
+  "name": "Augusto Pestana",
+  "slug": "augusto-pestana",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-augusto-pestana",
+      "name": "Aniversário de Augusto Pestana",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

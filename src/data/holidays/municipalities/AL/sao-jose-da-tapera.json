@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2708402,
+  "name": "São José da Tapera",
+  "slug": "sao-jose-da-tapera",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-da-tapera",
+      "name": "Aniversário de São José da Tapera",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-da-tapera-0915",
+      "name": "Feriado Municipal de São José da Tapera",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-da-tapera-1224",
+      "name": "Feriado Municipal de São José da Tapera",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2605103,
+  "name": "Custódia",
+  "slug": "custodia",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-custodia",
+      "name": "Aniversário de Custódia",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-custodia-0911",
+      "name": "Feriado Municipal de Custódia",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

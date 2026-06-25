@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2208205,
+  "name": "Pio IX",
+  "slug": "pio-ix",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-pio-ix",
+      "name": "Aniversário de Pio IX",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pio-ix-0815",
+      "name": "Feriado Municipal de Pio IX",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

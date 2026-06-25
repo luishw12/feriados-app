@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4207908,
+  "name": "Irineópolis",
+  "slug": "irineopolis",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-irineopolis",
+      "name": "Aniversário de Irineópolis",
+      "date": "07-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irineopolis-0728",
+      "name": "Feriado Municipal de Irineópolis",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-irineopolis-0806",
+      "name": "Feriado Municipal de Irineópolis",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

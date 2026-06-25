@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3128402,
+  "name": "Guarani",
+  "slug": "guarani",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-guarani",
+      "name": "Aniversário de Guarani",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4311304,
+  "name": "Lagoa Vermelha",
+  "slug": "lagoa-vermelha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-lagoa-vermelha",
+      "name": "Aniversário de Lagoa Vermelha",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

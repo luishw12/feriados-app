@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2931905,
+  "name": "Tucano",
+  "slug": "tucano",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-tucano",
+      "name": "Aniversário de Tucano",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tucano-0613",
+      "name": "Feriado Municipal de Tucano",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tucano-0624",
+      "name": "Feriado Municipal de Tucano",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tucano-0726",
+      "name": "Feriado Municipal de Tucano",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

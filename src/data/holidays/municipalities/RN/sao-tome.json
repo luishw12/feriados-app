@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2412906,
+  "name": "São Tomé",
+  "slug": "sao-tome",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-sao-tome",
+      "name": "Aniversário de São Tomé",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

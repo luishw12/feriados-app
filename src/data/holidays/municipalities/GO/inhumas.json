@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5210000,
+  "name": "Inhumas",
+  "slug": "inhumas",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-inhumas",
+      "name": "Aniversário de Inhumas",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-inhumas-0726",
+      "name": "Feriado Municipal de Inhumas",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

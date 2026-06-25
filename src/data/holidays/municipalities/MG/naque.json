@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3144359,
+  "name": "Naque",
+  "slug": "naque",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-naque",
+      "name": "Aniversário de Naque",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-naque-1221",
+      "name": "Feriado Municipal de Naque",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

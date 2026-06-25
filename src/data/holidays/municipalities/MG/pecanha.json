@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3148608,
+  "name": "Peçanha",
+  "slug": "pecanha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pecanha",
+      "name": "Aniversário de Peçanha",
+      "date": "01-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pecanha-0613",
+      "name": "Feriado Municipal de Peçanha",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pecanha-0815",
+      "name": "Feriado Municipal de Peçanha",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

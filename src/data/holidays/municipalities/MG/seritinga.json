@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3166402,
+  "name": "Seritinga",
+  "slug": "seritinga",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-seritinga",
+      "name": "Aniversário de Seritinga",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-seritinga-1230",
+      "name": "Feriado Municipal de Seritinga",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

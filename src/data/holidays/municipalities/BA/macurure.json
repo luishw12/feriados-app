@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2919900,
+  "name": "Macururé",
+  "slug": "macurure",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-macurure",
+      "name": "Aniversário de Macururé",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-macurure-0727",
+      "name": "Feriado Municipal de Macururé",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

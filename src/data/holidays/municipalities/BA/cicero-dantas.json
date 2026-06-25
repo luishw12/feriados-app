@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2907806,
+  "name": "Cícero Dantas",
+  "slug": "cicero-dantas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-cicero-dantas",
+      "name": "Aniversário de Cícero Dantas",
+      "date": "06-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cicero-dantas-0815",
+      "name": "Feriado Municipal de Cícero Dantas",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

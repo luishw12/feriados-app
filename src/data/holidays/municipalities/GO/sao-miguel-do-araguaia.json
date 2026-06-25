@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5220207,
+  "name": "São Miguel do Araguaia",
+  "slug": "sao-miguel-do-araguaia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-do-araguaia",
+      "name": "Aniversário de São Miguel do Araguaia",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-do-araguaia-1114",
+      "name": "Feriado Municipal de São Miguel do Araguaia",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

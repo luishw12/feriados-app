@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3139805,
+  "name": "Mar de Espanha",
+  "slug": "mar-de-espanha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-mar-de-espanha",
+      "name": "Aniversário de Mar de Espanha",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5210406,
+  "name": "Itaberaí",
+  "slug": "itaberai",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-itaberai",
+      "name": "Aniversário de Itaberaí",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaberai-0815",
+      "name": "Feriado Municipal de Itaberaí",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaberai-1109",
+      "name": "Feriado Municipal de Itaberaí",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

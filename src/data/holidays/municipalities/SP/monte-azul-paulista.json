@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3531506,
+  "name": "Monte Azul Paulista",
+  "slug": "monte-azul-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-monte-azul-paulista",
+      "name": "Aniversário de Monte Azul Paulista",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-azul-paulista-0806",
+      "name": "Feriado Municipal de Monte Azul Paulista",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4320263,
+  "name": "Segredo",
+  "slug": "segredo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-segredo",
+      "name": "Aniversário de Segredo",
+      "date": "05-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-segredo-0725",
+      "name": "Feriado Municipal de Segredo",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

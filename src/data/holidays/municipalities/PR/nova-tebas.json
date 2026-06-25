@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4117271,
+  "name": "Nova Tebas",
+  "slug": "nova-tebas",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-nova-tebas",
+      "name": "Aniversário de Nova Tebas",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-tebas-1208",
+      "name": "Feriado Municipal de Nova Tebas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

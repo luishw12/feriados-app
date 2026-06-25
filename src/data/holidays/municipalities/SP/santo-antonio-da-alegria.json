@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3547908,
+  "name": "Santo Antônio da Alegria",
+  "slug": "santo-antonio-da-alegria",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-da-alegria",
+      "name": "Aniversário de Santo Antônio da Alegria",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-da-alegria-0613",
+      "name": "Feriado Municipal de Santo Antônio da Alegria",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

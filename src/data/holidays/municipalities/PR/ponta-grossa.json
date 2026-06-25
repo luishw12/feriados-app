@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4119905,
+  "name": "Ponta Grossa",
+  "slug": "ponta-grossa",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ponta-grossa",
+      "name": "Aniversário de Ponta Grossa",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ponta-grossa-0915",
+      "name": "Feriado Municipal de Ponta Grossa",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

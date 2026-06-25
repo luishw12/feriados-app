@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3112307,
+  "name": "Capelinha",
+  "slug": "capelinha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-capelinha",
+      "name": "Aniversário de Capelinha",
+      "date": "02-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capelinha-0224",
+      "name": "Feriado Municipal de Capelinha",
+      "date": "02-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capelinha-0723",
+      "name": "Feriado Municipal de Capelinha",
+      "date": "07-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capelinha-0815",
+      "name": "Feriado Municipal de Capelinha",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capelinha-1208",
+      "name": "Feriado Municipal de Capelinha",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

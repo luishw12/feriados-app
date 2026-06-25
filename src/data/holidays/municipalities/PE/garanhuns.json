@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2606002,
+  "name": "Garanhuns",
+  "slug": "garanhuns",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-garanhuns",
+      "name": "Aniversário de Garanhuns",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-garanhuns-0604",
+      "name": "Feriado Municipal de Garanhuns",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-garanhuns-0613",
+      "name": "Feriado Municipal de Garanhuns",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

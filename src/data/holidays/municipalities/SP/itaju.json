@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3522000,
+  "name": "Itaju",
+  "slug": "itaju",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itaju",
+      "name": "Aniversário de Itaju",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaju-0815",
+      "name": "Feriado Municipal de Itaju",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

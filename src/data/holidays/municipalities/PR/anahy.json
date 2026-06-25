@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4101051,
+  "name": "Anahy",
+  "slug": "anahy",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-anahy",
+      "name": "Aniversário de Anahy",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

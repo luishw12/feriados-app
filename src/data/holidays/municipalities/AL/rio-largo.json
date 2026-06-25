@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2707701,
+  "name": "Rio Largo",
+  "slug": "rio-largo",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-rio-largo",
+      "name": "Aniversário de Rio Largo",
+      "date": "07-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-largo-1208",
+      "name": "Feriado Municipal de Rio Largo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

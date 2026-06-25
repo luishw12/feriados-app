@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3553807,
+  "name": "Taquarituba",
+  "slug": "taquarituba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-taquarituba",
+      "name": "Aniversário de Taquarituba",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

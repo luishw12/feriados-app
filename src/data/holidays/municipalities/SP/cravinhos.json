@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3513108,
+  "name": "Cravinhos",
+  "slug": "cravinhos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cravinhos",
+      "name": "Aniversário de Cravinhos",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2908903,
+  "name": "Coração de Maria",
+  "slug": "coracao-de-maria",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-coracao-de-maria",
+      "name": "Aniversário de Coração de Maria",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coracao-de-maria-0629",
+      "name": "Feriado Municipal de Coração de Maria",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coracao-de-maria-0822",
+      "name": "Feriado Municipal de Coração de Maria",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

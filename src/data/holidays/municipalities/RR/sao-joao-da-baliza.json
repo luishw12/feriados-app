@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1400506,
+  "name": "São João da Baliza",
+  "slug": "sao-joao-da-baliza",
+  "uf": "RR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-da-baliza",
+      "name": "Aniversário de São João da Baliza",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-da-baliza-0701",
+      "name": "Feriado Municipal de São João da Baliza",
+      "date": "07-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

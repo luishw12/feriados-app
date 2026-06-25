@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4212908,
+  "name": "Pinhalzinho",
+  "slug": "pinhalzinho",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-pinhalzinho",
+      "name": "Aniversário de Pinhalzinho",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

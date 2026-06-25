@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3135076,
+  "name": "Jampruca",
+  "slug": "jampruca",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-jampruca",
+      "name": "Aniversário de Jampruca",
+      "date": "04-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

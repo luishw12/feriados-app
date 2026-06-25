@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3503406,
+  "name": "Arealva",
+  "slug": "arealva",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-arealva",
+      "name": "Aniversário de Arealva",
+      "date": "04-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arealva-1125",
+      "name": "Feriado Municipal de Arealva",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

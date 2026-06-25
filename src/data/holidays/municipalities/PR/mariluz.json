@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4115101,
+  "name": "Mariluz",
+  "slug": "mariluz",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-mariluz",
+      "name": "Aniversário de Mariluz",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

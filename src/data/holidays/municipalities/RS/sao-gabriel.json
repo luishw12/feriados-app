@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4318309,
+  "name": "São Gabriel",
+  "slug": "sao-gabriel",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-gabriel",
+      "name": "Aniversário de São Gabriel",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

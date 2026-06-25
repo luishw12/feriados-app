@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3111903,
+  "name": "Cana Verde",
+  "slug": "cana-verde",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cana-verde",
+      "name": "Aniversário de Cana Verde",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cana-verde-0901",
+      "name": "Feriado Municipal de Cana Verde",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

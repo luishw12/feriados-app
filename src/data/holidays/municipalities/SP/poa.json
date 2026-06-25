@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3539806,
+  "name": "Poá",
+  "slug": "poa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-poa",
+      "name": "Aniversário de Poá",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

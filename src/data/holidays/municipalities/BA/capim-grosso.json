@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2906873,
+  "name": "Capim Grosso",
+  "slug": "capim-grosso",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-capim-grosso",
+      "name": "Aniversário de Capim Grosso",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capim-grosso-0624",
+      "name": "Feriado Municipal de Capim Grosso",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capim-grosso-0725",
+      "name": "Feriado Municipal de Capim Grosso",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

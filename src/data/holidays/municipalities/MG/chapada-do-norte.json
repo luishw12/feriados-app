@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3116100,
+  "name": "Chapada do Norte",
+  "slug": "chapada-do-norte",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-chapada-do-norte",
+      "name": "Aniversário de Chapada do Norte",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

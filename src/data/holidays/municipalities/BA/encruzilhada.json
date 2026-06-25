@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2910404,
+  "name": "Encruzilhada",
+  "slug": "encruzilhada",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-encruzilhada",
+      "name": "Aniversário de Encruzilhada",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-encruzilhada-0624",
+      "name": "Feriado Municipal de Encruzilhada",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-encruzilhada-1212",
+      "name": "Feriado Municipal de Encruzilhada",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

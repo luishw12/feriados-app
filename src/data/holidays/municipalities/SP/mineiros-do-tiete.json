@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3529807,
+  "name": "Mineiros do Tietê",
+  "slug": "mineiros-do-tiete",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-mineiros-do-tiete",
+      "name": "Aniversário de Mineiros do Tietê",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mineiros-do-tiete-0829",
+      "name": "Feriado Municipal de Mineiros do Tietê",
+      "date": "08-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

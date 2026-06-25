@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2400802,
+  "name": "Angicos",
+  "slug": "angicos",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-angicos",
+      "name": "Aniversário de Angicos",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

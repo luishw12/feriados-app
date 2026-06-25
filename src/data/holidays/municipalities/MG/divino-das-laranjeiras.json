@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3122108,
+  "name": "Divino das Laranjeiras",
+  "slug": "divino-das-laranjeiras",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-divino-das-laranjeiras",
+      "name": "Aniversário de Divino das Laranjeiras",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

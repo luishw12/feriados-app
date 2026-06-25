@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4103701,
+  "name": "Cambé",
+  "slug": "cambe",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cambe",
+      "name": "Aniversário de Cambé",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cambe-1011",
+      "name": "Feriado Municipal de Cambé",
+      "date": "10-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

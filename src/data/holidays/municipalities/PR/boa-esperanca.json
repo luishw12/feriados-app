@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4103008,
+  "name": "Boa Esperança",
+  "slug": "boa-esperanca",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-boa-esperanca",
+      "name": "Aniversário de Boa Esperança",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boa-esperanca-1214",
+      "name": "Feriado Municipal de Boa Esperança",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1708205,
+  "name": "Formoso do Araguaia",
+  "slug": "formoso-do-araguaia",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-formoso-do-araguaia",
+      "name": "Aniversário de Formoso do Araguaia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-formoso-do-araguaia-0823",
+      "name": "Feriado Municipal de Formoso do Araguaia",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

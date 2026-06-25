@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 4105805,
+  "name": "Colombo",
+  "slug": "colombo",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-colombo",
+      "name": "Aniversário de Colombo",
+      "date": "02-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colombo-0403",
+      "name": "Feriado Municipal de Colombo",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colombo-0526",
+      "name": "Feriado Municipal de Colombo",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colombo-0604",
+      "name": "Feriado Municipal de Colombo",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colombo-1007",
+      "name": "Feriado Municipal de Colombo",
+      "date": "10-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

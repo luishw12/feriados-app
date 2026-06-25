@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4210902,
+  "name": "Modelo",
+  "slug": "modelo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-modelo",
+      "name": "Aniversário de Modelo",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-modelo-1208",
+      "name": "Feriado Municipal de Modelo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-modelo-1230",
+      "name": "Feriado Municipal de Modelo",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

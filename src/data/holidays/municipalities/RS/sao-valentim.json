@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4319703,
+  "name": "São Valentim",
+  "slug": "sao-valentim",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-valentim",
+      "name": "Aniversário de São Valentim",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

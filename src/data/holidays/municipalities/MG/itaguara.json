@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3132206,
+  "name": "Itaguara",
+  "slug": "itaguara",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itaguara",
+      "name": "Aniversário de Itaguara",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaguara-1231",
+      "name": "Feriado Municipal de Itaguara",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

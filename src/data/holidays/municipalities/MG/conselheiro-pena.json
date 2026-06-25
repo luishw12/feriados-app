@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3118403,
+  "name": "Conselheiro Pena",
+  "slug": "conselheiro-pena",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-conselheiro-pena",
+      "name": "Aniversário de Conselheiro Pena",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-conselheiro-pena-1031",
+      "name": "Feriado Municipal de Conselheiro Pena",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-conselheiro-pena-1231",
+      "name": "Feriado Municipal de Conselheiro Pena",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

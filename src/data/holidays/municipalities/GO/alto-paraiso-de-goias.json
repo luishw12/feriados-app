@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5200605,
+  "name": "Alto Paraíso de Goiás",
+  "slug": "alto-paraiso-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-alto-paraiso-de-goias",
+      "name": "Aniversário de Alto Paraíso de Goiás",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-paraiso-de-goias-1127",
+      "name": "Feriado Municipal de Alto Paraíso de Goiás",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-paraiso-de-goias-1212",
+      "name": "Feriado Municipal de Alto Paraíso de Goiás",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

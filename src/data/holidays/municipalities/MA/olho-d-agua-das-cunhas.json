@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2107407,
+  "name": "Olho d'Água das Cunhãs",
+  "slug": "olho-d-agua-das-cunhas",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-olho-d-agua-das-cunhas",
+      "name": "Aniversário de Olho d'Água das Cunhãs",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

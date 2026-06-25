@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1501600,
+  "name": "Bonito",
+  "slug": "bonito",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-bonito",
+      "name": "Aniversário de Bonito",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bonito-1129",
+      "name": "Feriado Municipal de Bonito",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

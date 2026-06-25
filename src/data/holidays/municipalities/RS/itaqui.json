@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4310603,
+  "name": "Itaqui",
+  "slug": "itaqui",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-itaqui",
+      "name": "Aniversário de Itaqui",
+      "date": "03-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaqui-1206",
+      "name": "Feriado Municipal de Itaqui",
+      "date": "12-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

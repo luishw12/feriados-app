@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2927606,
+  "name": "Santa Brígida",
+  "slug": "santa-brigida",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santa-brigida",
+      "name": "Aniversário de Santa Brígida",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-brigida-0727",
+      "name": "Feriado Municipal de Santa Brígida",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-brigida-0828",
+      "name": "Feriado Municipal de Santa Brígida",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-brigida-1111",
+      "name": "Feriado Municipal de Santa Brígida",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

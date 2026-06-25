@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4123709,
+  "name": "Santa Isabel do Ivaí",
+  "slug": "santa-isabel-do-ivai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-isabel-do-ivai",
+      "name": "Aniversário de Santa Isabel do Ivaí",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

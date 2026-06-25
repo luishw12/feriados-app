@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3509700,
+  "name": "Campos do Jordão",
+  "slug": "campos-do-jordao",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-campos-do-jordao",
+      "name": "Aniversário de Campos do Jordão",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campos-do-jordao-1001",
+      "name": "Feriado Municipal de Campos do Jordão",
+      "date": "10-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

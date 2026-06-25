@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1504950,
+  "name": "Nova Esperança do Piriá",
+  "slug": "nova-esperanca-do-piria",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-nova-esperanca-do-piria",
+      "name": "Aniversário de Nova Esperança do Piriá",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

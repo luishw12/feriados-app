@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4117503,
+  "name": "Paiçandu",
+  "slug": "paicandu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-paicandu",
+      "name": "Aniversário de Paiçandu",
+      "date": "08-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paicandu-1119",
+      "name": "Feriado Municipal de Paiçandu",
+      "date": "11-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

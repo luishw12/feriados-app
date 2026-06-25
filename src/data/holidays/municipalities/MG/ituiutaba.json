@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3134202,
+  "name": "Ituiutaba",
+  "slug": "ituiutaba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ituiutaba",
+      "name": "Aniversário de Ituiutaba",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ituiutaba-0403",
+      "name": "Feriado Municipal de Ituiutaba",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ituiutaba-0604",
+      "name": "Feriado Municipal de Ituiutaba",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ituiutaba-0815",
+      "name": "Feriado Municipal de Ituiutaba",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ituiutaba-0916",
+      "name": "Feriado Municipal de Ituiutaba",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

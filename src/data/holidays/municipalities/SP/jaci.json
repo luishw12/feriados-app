@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3524501,
+  "name": "Jaci",
+  "slug": "jaci",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jaci",
+      "name": "Aniversário de Jaci",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaci-0925",
+      "name": "Feriado Municipal de Jaci",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

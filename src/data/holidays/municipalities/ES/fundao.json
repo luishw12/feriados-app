@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3202207,
+  "name": "Fundão",
+  "slug": "fundao",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-fundao",
+      "name": "Aniversário de Fundão",
+      "date": "01-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

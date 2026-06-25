@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4311205,
+  "name": "Júlio de Castilhos",
+  "slug": "julio-de-castilhos",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-julio-de-castilhos",
+      "name": "Aniversário de Júlio de Castilhos",
+      "date": "07-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

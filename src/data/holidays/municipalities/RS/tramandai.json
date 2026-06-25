@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4321600,
+  "name": "Tramandaí",
+  "slug": "tramandai",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tramandai",
+      "name": "Aniversário de Tramandaí",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tramandai-0629",
+      "name": "Feriado Municipal de Tramandaí",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

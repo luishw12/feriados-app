@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2108603,
+  "name": "Pinheiro",
+  "slug": "pinheiro",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-pinheiro",
+      "name": "Aniversário de Pinheiro",
+      "date": "04-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pinheiro-0731",
+      "name": "Feriado Municipal de Pinheiro",
+      "date": "07-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pinheiro-0903",
+      "name": "Feriado Municipal de Pinheiro",
+      "date": "09-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

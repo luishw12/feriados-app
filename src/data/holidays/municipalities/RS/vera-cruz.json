@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4322707,
+  "name": "Vera Cruz",
+  "slug": "vera-cruz",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vera-cruz",
+      "name": "Aniversário de Vera Cruz",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3557006,
+  "name": "Votorantim",
+  "slug": "votorantim",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-votorantim",
+      "name": "Aniversário de Votorantim",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1101500,
+  "name": "Seringueiras",
+  "slug": "seringueiras",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-seringueiras",
+      "name": "Aniversário de Seringueiras",
+      "date": "02-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

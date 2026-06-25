@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2607752,
+  "name": "Itapissuma",
+  "slug": "itapissuma",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-itapissuma",
+      "name": "Aniversário de Itapissuma",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapissuma-0515",
+      "name": "Feriado Municipal de Itapissuma",
+      "date": "05-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapissuma-0629",
+      "name": "Feriado Municipal de Itapissuma",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapissuma-1208",
+      "name": "Feriado Municipal de Itapissuma",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

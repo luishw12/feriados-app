@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4121802,
+  "name": "Ribeirão Claro",
+  "slug": "ribeirao-claro",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ribeirao-claro",
+      "name": "Aniversário de Ribeirão Claro",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-claro-0615",
+      "name": "Feriado Municipal de Ribeirão Claro",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-claro-0701",
+      "name": "Feriado Municipal de Ribeirão Claro",
+      "date": "07-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

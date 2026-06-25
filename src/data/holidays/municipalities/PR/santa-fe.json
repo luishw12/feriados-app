@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4123402,
+  "name": "Santa Fé",
+  "slug": "santa-fe",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-fe",
+      "name": "Aniversário de Santa Fé",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-fe-1209",
+      "name": "Feriado Municipal de Santa Fé",
+      "date": "12-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3143807,
+  "name": "Munhoz",
+  "slug": "munhoz",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-munhoz",
+      "name": "Aniversário de Munhoz",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-munhoz-1101",
+      "name": "Feriado Municipal de Munhoz",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-munhoz-1212",
+      "name": "Feriado Municipal de Munhoz",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

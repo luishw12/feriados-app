@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3533908,
+  "name": "Olímpia",
+  "slug": "olimpia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-olimpia",
+      "name": "Aniversário de Olímpia",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-olimpia-0624",
+      "name": "Feriado Municipal de Olímpia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

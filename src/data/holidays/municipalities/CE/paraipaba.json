@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2310258,
+  "name": "Paraipaba",
+  "slug": "paraipaba",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-paraipaba",
+      "name": "Aniversário de Paraipaba",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

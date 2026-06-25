@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2907608,
+  "name": "Central",
+  "slug": "central",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-central",
+      "name": "Aniversário de Central",
+      "date": "05-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-central-0812",
+      "name": "Feriado Municipal de Central",
+      "date": "08-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

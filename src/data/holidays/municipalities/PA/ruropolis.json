@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1506195,
+  "name": "Rurópolis",
+  "slug": "ruropolis",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-ruropolis",
+      "name": "Aniversário de Rurópolis",
+      "date": "02-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ruropolis-0212",
+      "name": "Feriado Municipal de Rurópolis",
+      "date": "02-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ruropolis-0510",
+      "name": "Feriado Municipal de Rurópolis",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

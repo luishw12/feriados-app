@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2905008,
+  "name": "Caculé",
+  "slug": "cacule",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-cacule",
+      "name": "Aniversário de Caculé",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cacule-0814",
+      "name": "Feriado Municipal de Caculé",
+      "date": "08-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cacule-0908",
+      "name": "Feriado Municipal de Caculé",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cacule-1106",
+      "name": "Feriado Municipal de Caculé",
+      "date": "11-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

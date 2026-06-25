@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3517604,
+  "name": "Guapiara",
+  "slug": "guapiara",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guapiara",
+      "name": "Aniversário de Guapiara",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guapiara-0502",
+      "name": "Feriado Municipal de Guapiara",
+      "date": "05-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guapiara-1224",
+      "name": "Feriado Municipal de Guapiara",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3501806,
+  "name": "Américo de Campos",
+  "slug": "americo-de-campos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-americo-de-campos",
+      "name": "Aniversário de Américo de Campos",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

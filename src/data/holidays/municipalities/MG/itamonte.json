@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3133006,
+  "name": "Itamonte",
+  "slug": "itamonte",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itamonte",
+      "name": "Aniversário de Itamonte",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itamonte-1217",
+      "name": "Feriado Municipal de Itamonte",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

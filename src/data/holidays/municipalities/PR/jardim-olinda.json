@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4112603,
+  "name": "Jardim Olinda",
+  "slug": "jardim-olinda",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-jardim-olinda",
+      "name": "Aniversário de Jardim Olinda",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jardim-olinda-1211",
+      "name": "Feriado Municipal de Jardim Olinda",
+      "date": "12-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

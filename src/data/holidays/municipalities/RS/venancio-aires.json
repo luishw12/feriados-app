@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4322608,
+  "name": "Venâncio Aires",
+  "slug": "venancio-aires",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-venancio-aires",
+      "name": "Aniversário de Venâncio Aires",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-venancio-aires-0511",
+      "name": "Feriado Municipal de Venâncio Aires",
+      "date": "05-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

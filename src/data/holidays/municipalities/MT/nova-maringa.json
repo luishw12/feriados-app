@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5108907,
+  "name": "Nova Maringá",
+  "slug": "nova-maringa",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-nova-maringa",
+      "name": "Aniversário de Nova Maringá",
+      "date": "08-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

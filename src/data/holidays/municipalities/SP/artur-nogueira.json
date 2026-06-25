@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3503802,
+  "name": "Artur Nogueira",
+  "slug": "artur-nogueira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-artur-nogueira",
+      "name": "Aniversário de Artur Nogueira",
+      "date": "04-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-artur-nogueira-0915",
+      "name": "Feriado Municipal de Artur Nogueira",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

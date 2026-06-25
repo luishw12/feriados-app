@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4100459,
+  "name": "Altamira do Paraná",
+  "slug": "altamira-do-parana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-altamira-do-parana",
+      "name": "Aniversário de Altamira do Paraná",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

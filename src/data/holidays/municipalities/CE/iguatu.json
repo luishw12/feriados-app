@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2305506,
+  "name": "Iguatu",
+  "slug": "iguatu",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-iguatu",
+      "name": "Aniversário de Iguatu",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iguatu-0319",
+      "name": "Feriado Municipal de Iguatu",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iguatu-0726",
+      "name": "Feriado Municipal de Iguatu",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

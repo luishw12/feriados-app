@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4203006,
+  "name": "Caçador",
+  "slug": "cacador",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-cacador",
+      "name": "Aniversário de Caçador",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3104700,
+  "name": "Ataléia",
+  "slug": "ataleia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ataleia",
+      "name": "Aniversário de Ataléia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ataleia-0806",
+      "name": "Feriado Municipal de Ataléia",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ataleia-1231",
+      "name": "Feriado Municipal de Ataléia",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

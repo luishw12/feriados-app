@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2926400,
+  "name": "Riacho de Santana",
+  "slug": "riacho-de-santana",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-riacho-de-santana",
+      "name": "Aniversário de Riacho de Santana",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riacho-de-santana-0813",
+      "name": "Feriado Municipal de Riacho de Santana",
+      "date": "08-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

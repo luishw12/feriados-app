@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2801405,
+  "name": "Carira",
+  "slug": "carira",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-carira",
+      "name": "Aniversário de Carira",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

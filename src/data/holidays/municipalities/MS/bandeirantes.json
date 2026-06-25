@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5001508,
+  "name": "Bandeirantes",
+  "slug": "bandeirantes",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-bandeirantes",
+      "name": "Aniversário de Bandeirantes",
+      "date": "06-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

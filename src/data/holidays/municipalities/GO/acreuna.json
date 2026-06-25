@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5200134,
+  "name": "Acreúna",
+  "slug": "acreuna",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-acreuna",
+      "name": "Aniversário de Acreúna",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-acreuna-0514",
+      "name": "Feriado Municipal de Acreúna",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

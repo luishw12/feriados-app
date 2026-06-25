@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3303906,
+  "name": "Petrópolis",
+  "slug": "petropolis",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-petropolis",
+      "name": "Aniversário de Petrópolis",
+      "date": "03-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-petropolis-0629",
+      "name": "Feriado Municipal de Petrópolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

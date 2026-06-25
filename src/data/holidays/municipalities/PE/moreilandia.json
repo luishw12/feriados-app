@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2614303,
+  "name": "Moreilândia",
+  "slug": "moreilandia",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-moreilandia",
+      "name": "Aniversário de Moreilândia",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-moreilandia-0917",
+      "name": "Feriado Municipal de Moreilândia",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

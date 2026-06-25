@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4321907,
+  "name": "Três Passos",
+  "slug": "tres-passos",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tres-passos",
+      "name": "Aniversário de Três Passos",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tres-passos-1228",
+      "name": "Feriado Municipal de Três Passos",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

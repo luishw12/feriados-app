@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3545704,
+  "name": "Santa Albertina",
+  "slug": "santa-albertina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-albertina",
+      "name": "Aniversário de Santa Albertina",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

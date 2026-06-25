@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4300703,
+  "name": "Anta Gorda",
+  "slug": "anta-gorda",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-anta-gorda",
+      "name": "Aniversário de Anta Gorda",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anta-gorda-1104",
+      "name": "Feriado Municipal de Anta Gorda",
+      "date": "11-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

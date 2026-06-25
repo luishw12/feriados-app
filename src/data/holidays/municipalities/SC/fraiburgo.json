@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4205506,
+  "name": "Fraiburgo",
+  "slug": "fraiburgo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-fraiburgo",
+      "name": "Aniversário de Fraiburgo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fraiburgo-1231",
+      "name": "Feriado Municipal de Fraiburgo",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

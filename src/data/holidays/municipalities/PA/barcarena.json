@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1501303,
+  "name": "Barcarena",
+  "slug": "barcarena",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-barcarena",
+      "name": "Aniversário de Barcarena",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

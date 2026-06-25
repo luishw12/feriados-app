@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3554409,
+  "name": "Terra Roxa",
+  "slug": "terra-roxa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-terra-roxa",
+      "name": "Aniversário de Terra Roxa",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-terra-roxa-0326",
+      "name": "Feriado Municipal de Terra Roxa",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-terra-roxa-0403",
+      "name": "Feriado Municipal de Terra Roxa",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-terra-roxa-0604",
+      "name": "Feriado Municipal de Terra Roxa",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

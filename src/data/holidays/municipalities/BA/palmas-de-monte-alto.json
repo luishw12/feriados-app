@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2923407,
+  "name": "Palmas de Monte Alto",
+  "slug": "palmas-de-monte-alto",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-palmas-de-monte-alto",
+      "name": "Aniversário de Palmas de Monte Alto",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmas-de-monte-alto-0624",
+      "name": "Feriado Municipal de Palmas de Monte Alto",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmas-de-monte-alto-0908",
+      "name": "Feriado Municipal de Palmas de Monte Alto",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

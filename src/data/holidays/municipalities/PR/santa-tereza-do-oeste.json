@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4124020,
+  "name": "Santa Tereza do Oeste",
+  "slug": "santa-tereza-do-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-tereza-do-oeste",
+      "name": "Aniversário de Santa Tereza do Oeste",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

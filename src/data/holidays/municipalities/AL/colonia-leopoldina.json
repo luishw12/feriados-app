@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2702108,
+  "name": "Colônia Leopoldina",
+  "slug": "colonia-leopoldina",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-colonia-leopoldina",
+      "name": "Aniversário de Colônia Leopoldina",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5007554,
+  "name": "Santa Rita do Pardo",
+  "slug": "santa-rita-do-pardo",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rita-do-pardo",
+      "name": "Aniversário de Santa Rita do Pardo",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rita-do-pardo-1218",
+      "name": "Feriado Municipal de Santa Rita do Pardo",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

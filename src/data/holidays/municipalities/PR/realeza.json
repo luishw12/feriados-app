@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4121406,
+  "name": "Realeza",
+  "slug": "realeza",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-realeza",
+      "name": "Aniversário de Realeza",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4118709,
+  "name": "Paulo Frontin",
+  "slug": "paulo-frontin",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-paulo-frontin",
+      "name": "Aniversário de Paulo Frontin",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4128500,
+  "name": "Wenceslau Braz",
+  "slug": "wenceslau-braz",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-wenceslau-braz",
+      "name": "Aniversário de Wenceslau Braz",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-wenceslau-braz-1126",
+      "name": "Feriado Municipal de Wenceslau Braz",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2605608,
+  "name": "Flores",
+  "slug": "flores",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-flores",
+      "name": "Aniversário de Flores",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-flores-1208",
+      "name": "Feriado Municipal de Flores",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

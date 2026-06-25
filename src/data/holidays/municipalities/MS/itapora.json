@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5004502,
+  "name": "Itaporã",
+  "slug": "itapora",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-itapora",
+      "name": "Aniversário de Itaporã",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapora-1210",
+      "name": "Feriado Municipal de Itaporã",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

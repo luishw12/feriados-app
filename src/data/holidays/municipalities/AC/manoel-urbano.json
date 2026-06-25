@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1200344,
+  "name": "Manoel Urbano",
+  "slug": "manoel-urbano",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-manoel-urbano",
+      "name": "Aniversário de Manoel Urbano",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manoel-urbano-0514",
+      "name": "Feriado Municipal de Manoel Urbano",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manoel-urbano-0906",
+      "name": "Feriado Municipal de Manoel Urbano",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manoel-urbano-1118",
+      "name": "Feriado Municipal de Manoel Urbano",
+      "date": "11-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

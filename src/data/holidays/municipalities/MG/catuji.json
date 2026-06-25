@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3115458,
+  "name": "Catuji",
+  "slug": "catuji",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-catuji",
+      "name": "Aniversário de Catuji",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4115507,
+  "name": "Marumbi",
+  "slug": "marumbi",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-marumbi",
+      "name": "Aniversário de Marumbi",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-marumbi-0806",
+      "name": "Feriado Municipal de Marumbi",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3154606,
+  "name": "Ribeirão das Neves",
+  "slug": "ribeirao-das-neves",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ribeirao-das-neves",
+      "name": "Aniversário de Ribeirão das Neves",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-das-neves-0604",
+      "name": "Feriado Municipal de Ribeirão das Neves",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-das-neves-0805",
+      "name": "Feriado Municipal de Ribeirão das Neves",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-das-neves-1212",
+      "name": "Feriado Municipal de Ribeirão das Neves",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4107538,
+  "name": "Entre Rios do Oeste",
+  "slug": "entre-rios-do-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-entre-rios-do-oeste",
+      "name": "Aniversário de Entre Rios do Oeste",
+      "date": "06-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-entre-rios-do-oeste-1031",
+      "name": "Feriado Municipal de Entre Rios do Oeste",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

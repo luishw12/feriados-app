@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3533403,
+  "name": "Nova Odessa",
+  "slug": "nova-odessa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-nova-odessa",
+      "name": "Aniversário de Nova Odessa",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

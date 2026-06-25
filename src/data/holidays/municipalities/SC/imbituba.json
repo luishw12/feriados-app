@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4207304,
+  "name": "Imbituba",
+  "slug": "imbituba",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-imbituba",
+      "name": "Aniversário de Imbituba",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

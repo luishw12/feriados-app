@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2101905,
+  "name": "Bequimão",
+  "slug": "bequimao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-bequimao",
+      "name": "Aniversário de Bequimão",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bequimao-0619",
+      "name": "Feriado Municipal de Bequimão",
+      "date": "06-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

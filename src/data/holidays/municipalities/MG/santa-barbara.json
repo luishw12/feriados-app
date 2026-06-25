@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3157203,
+  "name": "Santa Bárbara",
+  "slug": "santa-barbara",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-santa-barbara",
+      "name": "Aniversário de Santa Bárbara",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-barbara-0604",
+      "name": "Feriado Municipal de Santa Bárbara",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-barbara-0613",
+      "name": "Feriado Municipal de Santa Bárbara",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-barbara-1204",
+      "name": "Feriado Municipal de Santa Bárbara",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

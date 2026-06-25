@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4314209,
+  "name": "Pedro Osório",
+  "slug": "pedro-osorio",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-pedro-osorio",
+      "name": "Aniversário de Pedro Osório",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

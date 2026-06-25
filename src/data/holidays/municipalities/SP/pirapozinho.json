@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3539202,
+  "name": "Pirapozinho",
+  "slug": "pirapozinho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pirapozinho",
+      "name": "Aniversário de Pirapozinho",
+      "date": "04-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirapozinho-0624",
+      "name": "Feriado Municipal de Pirapozinho",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

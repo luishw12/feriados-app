@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 5208509,
+  "name": "Goiandira",
+  "slug": "goiandira",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-goiandira",
+      "name": "Aniversário de Goiandira",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goiandira-0506",
+      "name": "Feriado Municipal de Goiandira",
+      "date": "05-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goiandira-0630",
+      "name": "Feriado Municipal de Goiandira",
+      "date": "06-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goiandira-1101",
+      "name": "Feriado Municipal de Goiandira",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goiandira-1208",
+      "name": "Feriado Municipal de Goiandira",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

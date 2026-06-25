@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4310702,
+  "name": "Itatiba do Sul",
+  "slug": "itatiba-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-itatiba-do-sul",
+      "name": "Aniversário de Itatiba do Sul",
+      "date": "04-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itatiba-do-sul-0816",
+      "name": "Feriado Municipal de Itatiba do Sul",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

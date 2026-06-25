@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5202601,
+  "name": "Aurilândia",
+  "slug": "aurilandia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-aurilandia",
+      "name": "Aniversário de Aurilândia",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5103452,
+  "name": "Denise",
+  "slug": "denise",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-denise",
+      "name": "Aniversário de Denise",
+      "date": "05-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-denise-0725",
+      "name": "Feriado Municipal de Denise",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

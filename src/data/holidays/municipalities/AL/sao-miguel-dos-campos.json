@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2708600,
+  "name": "São Miguel dos Campos",
+  "slug": "sao-miguel-dos-campos",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-dos-campos",
+      "name": "Aniversário de São Miguel dos Campos",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-dos-campos-1208",
+      "name": "Feriado Municipal de São Miguel dos Campos",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-dos-campos-1218",
+      "name": "Feriado Municipal de São Miguel dos Campos",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

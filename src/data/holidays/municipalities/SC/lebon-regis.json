@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4209706,
+  "name": "Lebon Régis",
+  "slug": "lebon-regis",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-lebon-regis",
+      "name": "Aniversário de Lebon Régis",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lebon-regis-1219",
+      "name": "Feriado Municipal de Lebon Régis",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

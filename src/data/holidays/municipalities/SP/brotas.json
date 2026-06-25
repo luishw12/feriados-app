@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3507902,
+  "name": "Brotas",
+  "slug": "brotas",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-brotas",
+      "name": "Aniversário de Brotas",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brotas-0915",
+      "name": "Feriado Municipal de Brotas",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

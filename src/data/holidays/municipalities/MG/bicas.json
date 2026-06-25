@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3106903,
+  "name": "Bicas",
+  "slug": "bicas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bicas",
+      "name": "Aniversário de Bicas",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bicas-0613",
+      "name": "Feriado Municipal de Bicas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bicas-0815",
+      "name": "Feriado Municipal de Bicas",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

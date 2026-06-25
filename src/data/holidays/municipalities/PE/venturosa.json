@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2616001,
+  "name": "Venturosa",
+  "slug": "venturosa",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-venturosa",
+      "name": "Aniversário de Venturosa",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-venturosa-0320",
+      "name": "Feriado Municipal de Venturosa",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

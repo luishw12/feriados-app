@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3526704,
+  "name": "Leme",
+  "slug": "leme",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-leme",
+      "name": "Aniversário de Leme",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leme-0604",
+      "name": "Feriado Municipal de Leme",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leme-0617",
+      "name": "Feriado Municipal de Leme",
+      "date": "06-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leme-0829",
+      "name": "Feriado Municipal de Leme",
+      "date": "08-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

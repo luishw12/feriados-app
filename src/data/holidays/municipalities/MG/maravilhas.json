@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3139706,
+  "name": "Maravilhas",
+  "slug": "maravilhas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-maravilhas",
+      "name": "Aniversário de Maravilhas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maravilhas-1212",
+      "name": "Feriado Municipal de Maravilhas",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maravilhas-1213",
+      "name": "Feriado Municipal de Maravilhas",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

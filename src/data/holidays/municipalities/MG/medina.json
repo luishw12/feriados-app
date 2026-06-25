@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3141405,
+  "name": "Medina",
+  "slug": "medina",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-medina",
+      "name": "Aniversário de Medina",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

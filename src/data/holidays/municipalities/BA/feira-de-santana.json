@@ -7,9 +7,53 @@
     {
       "id": "aniversario-feira-de-santana",
       "name": "Aniversário de Feira de Santana",
-      "date": "11-16",
+      "date": "04-03",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-de-santana-0604",
+      "name": "Feriado Municipal de Feira de Santana",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-de-santana-0624",
+      "name": "Feriado Municipal de Feira de Santana",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-de-santana-0726",
+      "name": "Feriado Municipal de Feira de Santana",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-feira-de-santana-0918",
+      "name": "Feriado Municipal de Feira de Santana",
+      "date": "09-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

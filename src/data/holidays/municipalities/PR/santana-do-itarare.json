@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4124004,
+  "name": "Santana do Itararé",
+  "slug": "santana-do-itarare",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santana-do-itarare",
+      "name": "Aniversário de Santana do Itararé",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

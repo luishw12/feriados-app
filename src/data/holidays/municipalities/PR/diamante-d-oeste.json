@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4107157,
+  "name": "Diamante D'Oeste",
+  "slug": "diamante-d-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-diamante-d-oeste",
+      "name": "Aniversário de Diamante D'Oeste",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-diamante-d-oeste-1201",
+      "name": "Feriado Municipal de Diamante D'Oeste",
+      "date": "12-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-diamante-d-oeste-1221",
+      "name": "Feriado Municipal de Diamante D'Oeste",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

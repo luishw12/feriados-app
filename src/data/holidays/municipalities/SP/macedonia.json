@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3528205,
+  "name": "Macedônia",
+  "slug": "macedonia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-macedonia",
+      "name": "Aniversário de Macedônia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

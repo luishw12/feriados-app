@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4323804,
+  "name": "Xangri-lá",
+  "slug": "xangri-la",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-xangri-la",
+      "name": "Aniversário de Xangri-lá",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-xangri-la-0629",
+      "name": "Feriado Municipal de Xangri-lá",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2928604,
+  "name": "Santo Amaro",
+  "slug": "santo-amaro",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santo-amaro",
+      "name": "Aniversário de Santo Amaro",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-amaro-0202",
+      "name": "Feriado Municipal de Santo Amaro",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

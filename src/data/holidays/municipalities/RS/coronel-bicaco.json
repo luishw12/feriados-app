@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4305900,
+  "name": "Coronel Bicaco",
+  "slug": "coronel-bicaco",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-coronel-bicaco",
+      "name": "Aniversário de Coronel Bicaco",
+      "date": "04-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-bicaco-0613",
+      "name": "Feriado Municipal de Coronel Bicaco",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

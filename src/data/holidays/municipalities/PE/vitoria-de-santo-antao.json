@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2616407,
+  "name": "Vitória de Santo Antão",
+  "slug": "vitoria-de-santo-antao",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-vitoria-de-santo-antao",
+      "name": "Aniversário de Vitória de Santo Antão",
+      "date": "01-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitoria-de-santo-antao-0506",
+      "name": "Feriado Municipal de Vitória de Santo Antão",
+      "date": "05-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitoria-de-santo-antao-0803",
+      "name": "Feriado Municipal de Vitória de Santo Antão",
+      "date": "08-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

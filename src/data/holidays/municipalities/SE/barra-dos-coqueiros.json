@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2800605,
+  "name": "Barra dos Coqueiros",
+  "slug": "barra-dos-coqueiros",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-barra-dos-coqueiros",
+      "name": "Aniversário de Barra dos Coqueiros",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

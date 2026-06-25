@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3163805,
+  "name": "São Miguel do Anta",
+  "slug": "sao-miguel-do-anta",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-do-anta",
+      "name": "Aniversário de São Miguel do Anta",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-do-anta-1212",
+      "name": "Feriado Municipal de São Miguel do Anta",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

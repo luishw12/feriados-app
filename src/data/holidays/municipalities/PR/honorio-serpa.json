@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4109658,
+  "name": "Honório Serpa",
+  "slug": "honorio-serpa",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-honorio-serpa",
+      "name": "Aniversário de Honório Serpa",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-honorio-serpa-1116",
+      "name": "Feriado Municipal de Honório Serpa",
+      "date": "11-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

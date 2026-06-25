@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4125209,
+  "name": "São Jorge d'Oeste",
+  "slug": "sao-jorge-d-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jorge-d-oeste",
+      "name": "Aniversário de São Jorge d'Oeste",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jorge-d-oeste-1123",
+      "name": "Feriado Municipal de São Jorge d'Oeste",
+      "date": "11-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

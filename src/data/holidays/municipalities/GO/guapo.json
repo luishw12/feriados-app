@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5209200,
+  "name": "Guapó",
+  "slug": "guapo",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-guapo",
+      "name": "Aniversário de Guapó",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

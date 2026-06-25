@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4202305,
+  "name": "Biguaçu",
+  "slug": "biguacu",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-biguacu",
+      "name": "Aniversário de Biguaçu",
+      "date": "05-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

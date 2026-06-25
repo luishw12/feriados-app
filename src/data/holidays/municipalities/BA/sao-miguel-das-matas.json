@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2929404,
+  "name": "São Miguel das Matas",
+  "slug": "sao-miguel-das-matas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-das-matas",
+      "name": "Aniversário de São Miguel das Matas",
+      "date": "06-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-das-matas-0624",
+      "name": "Feriado Municipal de São Miguel das Matas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-das-matas-0929",
+      "name": "Feriado Municipal de São Miguel das Matas",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

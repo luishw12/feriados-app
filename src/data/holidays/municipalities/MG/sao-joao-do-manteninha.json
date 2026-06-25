@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3162575,
+  "name": "São João do Manteninha",
+  "slug": "sao-joao-do-manteninha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-manteninha",
+      "name": "Aniversário de São João do Manteninha",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

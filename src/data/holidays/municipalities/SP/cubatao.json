@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3513504,
+  "name": "Cubatão",
+  "slug": "cubatao",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cubatao",
+      "name": "Aniversário de Cubatão",
+      "date": "04-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cubatao-0815",
+      "name": "Feriado Municipal de Cubatão",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

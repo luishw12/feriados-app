@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3536802,
+  "name": "Pedra Bela",
+  "slug": "pedra-bela",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pedra-bela",
+      "name": "Aniversário de Pedra Bela",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedra-bela-0406",
+      "name": "Feriado Municipal de Pedra Bela",
+      "date": "04-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedra-bela-0809",
+      "name": "Feriado Municipal de Pedra Bela",
+      "date": "08-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

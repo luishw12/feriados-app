@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4123907,
+  "name": "Santa Mariana",
+  "slug": "santa-mariana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-mariana",
+      "name": "Aniversário de Santa Mariana",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

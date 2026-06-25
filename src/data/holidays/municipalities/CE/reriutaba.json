@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2311702,
+  "name": "Reriutaba",
+  "slug": "reriutaba",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-reriutaba",
+      "name": "Aniversário de Reriutaba",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-reriutaba-0925",
+      "name": "Feriado Municipal de Reriutaba",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

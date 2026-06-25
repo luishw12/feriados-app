@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3524303,
+  "name": "Jaboticabal",
+  "slug": "jaboticabal",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jaboticabal",
+      "name": "Aniversário de Jaboticabal",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

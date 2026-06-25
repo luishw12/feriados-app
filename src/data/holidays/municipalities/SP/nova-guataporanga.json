@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3533106,
+  "name": "Nova Guataporanga",
+  "slug": "nova-guataporanga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-nova-guataporanga",
+      "name": "Aniversário de Nova Guataporanga",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-guataporanga-1020",
+      "name": "Feriado Municipal de Nova Guataporanga",
+      "date": "10-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

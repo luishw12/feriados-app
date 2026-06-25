@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5106372,
+  "name": "Pedra Preta",
+  "slug": "pedra-preta",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-pedra-preta",
+      "name": "Aniversário de Pedra Preta",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedra-preta-0629",
+      "name": "Feriado Municipal de Pedra Preta",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

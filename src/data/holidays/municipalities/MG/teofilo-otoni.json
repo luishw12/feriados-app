@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3168606,
+  "name": "Teófilo Otoni",
+  "slug": "teofilo-otoni",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-teofilo-otoni",
+      "name": "Aniversário de Teófilo Otoni",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teofilo-otoni-1208",
+      "name": "Feriado Municipal de Teófilo Otoni",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3138401,
+  "name": "Leopoldina",
+  "slug": "leopoldina",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-leopoldina",
+      "name": "Aniversário de Leopoldina",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leopoldina-0427",
+      "name": "Feriado Municipal de Leopoldina",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

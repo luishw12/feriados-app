@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2929909,
+  "name": "Seabra",
+  "slug": "seabra",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-seabra",
+      "name": "Aniversário de Seabra",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-seabra-0514",
+      "name": "Feriado Municipal de Seabra",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-seabra-0624",
+      "name": "Feriado Municipal de Seabra",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-seabra-1208",
+      "name": "Feriado Municipal de Seabra",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

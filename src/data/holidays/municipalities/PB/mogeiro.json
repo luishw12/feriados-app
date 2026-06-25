@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2509404,
+  "name": "Mogeiro",
+  "slug": "mogeiro",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-mogeiro",
+      "name": "Aniversário de Mogeiro",
+      "date": "06-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mogeiro-0915",
+      "name": "Feriado Municipal de Mogeiro",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mogeiro-1107",
+      "name": "Feriado Municipal de Mogeiro",
+      "date": "11-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mogeiro-1212",
+      "name": "Feriado Municipal de Mogeiro",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

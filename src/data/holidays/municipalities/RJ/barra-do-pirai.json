@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3300308,
+  "name": "Barra do Piraí",
+  "slug": "barra-do-pirai",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-barra-do-pirai",
+      "name": "Aniversário de Barra do Piraí",
+      "date": "03-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-do-pirai-0726",
+      "name": "Feriado Municipal de Barra do Piraí",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

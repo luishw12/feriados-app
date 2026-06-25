@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2931004,
+  "name": "Tanhaçu",
+  "slug": "tanhacu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-tanhacu",
+      "name": "Aniversário de Tanhaçu",
+      "date": "07-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tanhacu-0922",
+      "name": "Feriado Municipal de Tanhaçu",
+      "date": "09-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

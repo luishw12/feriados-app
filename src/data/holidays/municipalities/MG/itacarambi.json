@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3132107,
+  "name": "Itacarambi",
+  "slug": "itacarambi",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itacarambi",
+      "name": "Aniversário de Itacarambi",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itacarambi-0624",
+      "name": "Feriado Municipal de Itacarambi",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itacarambi-1208",
+      "name": "Feriado Municipal de Itacarambi",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

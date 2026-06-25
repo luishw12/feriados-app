@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2902906,
+  "name": "Barra do Choça",
+  "slug": "barra-do-choca",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-barra-do-choca",
+      "name": "Aniversário de Barra do Choça",
+      "date": "06-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-do-choca-0624",
+      "name": "Feriado Municipal de Barra do Choça",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

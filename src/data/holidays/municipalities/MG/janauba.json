@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3135100,
+  "name": "Janaúba",
+  "slug": "janauba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-janauba",
+      "name": "Aniversário de Janaúba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

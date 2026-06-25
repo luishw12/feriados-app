@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5106299,
+  "name": "Paranaíta",
+  "slug": "paranaita",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-paranaita",
+      "name": "Aniversário de Paranaíta",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

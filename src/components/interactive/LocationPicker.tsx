@@ -1,7 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { MapPin, Loader2, ChevronDown } from 'lucide-react';
+import LocationCombobox from '@/components/interactive/LocationCombobox';
 import { detectUserLocation } from '@/lib/geolocation';
 import { findMunicipalityByName } from '@/lib/municipality-match';
+import { loadMunicipalityIndex } from '@/lib/municipality-index';
+import type { MunicipalityOption, StateOption } from '@/lib/municipality-search';
 import {
   clearLocationPromptDismissed,
   clearStoredLocation,
@@ -10,21 +13,8 @@ import {
   type LocationContext,
 } from '@/lib/location-storage';
 
-interface MunicipalityOption {
-  slug: string;
-  name: string;
-  uf: string;
-}
-
-interface StateOption {
-  uf: string;
-  name: string;
-  slug: string;
-}
-
 interface Props {
   states: StateOption[];
-  municipalities: MunicipalityOption[];
   location: LocationContext | null;
   onLocationChange: (location: LocationContext | null) => void;
   variant?: 'default' | 'header';
@@ -34,74 +24,41 @@ export type { LocationContext };
 
 export default function LocationPicker({
   states,
-  municipalities,
   location,
   onLocationChange,
   variant = 'default',
 }: Props) {
-  const [selectedUf, setSelectedUf] = useState('');
-  const [selectedCity, setSelectedCity] = useState('');
   const [loading, setLoading] = useState(false);
   const [open, setOpen] = useState(false);
   const [detectError, setDetectError] = useState<string | null>(null);
   const panelRef = useRef<HTMLDivElement>(null);
 
-  const citiesForState = municipalities.filter((m) => m.uf === selectedUf);
   const locationLabel = getLocationLabel(location);
 
-  useEffect(() => {
-    if (location) {
-      setSelectedUf(location.uf);
-      setSelectedCity(location.citySlug ?? '');
+  function applyContext(context: LocationContext | null) {
+    onLocationChange(context);
+    if (context) {
+      saveStoredLocation(context, getLocationLabel(context));
       return;
     }
-    setSelectedUf('');
-    setSelectedCity('');
-  }, [location]);
-
-  function applyContext(context: LocationContext) {
-    onLocationChange(context);
-    saveStoredLocation(context, getLocationLabel(context));
-  }
-
-  function clearLocation() {
-    onLocationChange(null);
     clearStoredLocation();
     clearLocationPromptDismissed();
   }
 
-  function applyManualSelection(uf: string, citySlug?: string) {
-    setDetectError(null);
-    if (!uf) {
-      clearLocation();
-      return;
-    }
-
-    const state = states.find((s) => s.uf === uf);
-    if (!state) return;
-
-    const city = citySlug ? municipalities.find((m) => m.slug === citySlug && m.uf === uf) : undefined;
-
-    const context: LocationContext = {
-      uf: state.uf,
-      stateName: state.name,
-      stateSlug: state.slug,
-    };
-
-    if (city) {
-      context.citySlug = city.slug;
-      context.cityName = city.name;
-    }
-
-    applyContext(context);
-  }
-
-  function applyDetectionResult(
+  async function applyDetectionResult(
     uf: string,
     stateName: string,
     stateSlug: string,
     detectedCityName?: string,
   ) {
+    let municipalities: MunicipalityOption[] = [];
+    try {
+      municipalities = await loadMunicipalityIndex();
+    } catch {
+      setDetectError('Não foi possível carregar a lista de cidades.');
+      return;
+    }
+
     const city = detectedCityName
       ? findMunicipalityByName(detectedCityName, uf, municipalities)
       : undefined;
@@ -117,8 +74,6 @@ export default function LocationPicker({
       context.cityName = city.name;
     }
 
-    setSelectedUf(uf);
-    setSelectedCity(city?.slug ?? '');
     applyContext(context);
   }
 
@@ -134,7 +89,7 @@ export default function LocationPicker({
       return;
     }
 
-    applyDetectionResult(result.uf, result.stateName, result.stateSlug, result.cityName);
+    await applyDetectionResult(result.uf, result.stateName, result.stateSlug, result.cityName);
     setLoading(false);
     setOpen(false);
   }
@@ -177,12 +132,12 @@ export default function LocationPicker({
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full z-50 mt-2 w-64 rounded-xl border bg-white p-3 shadow-lg dark:border-neutral-700 dark:bg-neutral-900">
+        <div className="absolute right-0 top-full z-50 mt-2 w-72 rounded-xl border bg-white p-3 shadow-lg dark:border-neutral-700 dark:bg-neutral-900">
           <button
             type="button"
             onClick={handleDetectLocation}
             disabled={loading}
-            className="mb-2 w-full rounded-lg bg-emerald-600 px-3 py-2 text-left text-sm font-medium text-white transition-colors duration-150 hover:bg-emerald-700 disabled:opacity-60"
+            className="mb-3 w-full rounded-lg bg-emerald-600 px-3 py-2 text-left text-sm font-medium text-white transition-colors duration-150 hover:bg-emerald-700 disabled:opacity-60"
           >
             {loading ? 'Detectando...' : 'Usar minha localização'}
           </button>
@@ -191,47 +146,11 @@ export default function LocationPicker({
             <p className="mb-2 text-xs text-amber-600 dark:text-amber-400">{detectError}</p>
           )}
 
-          <label className="mb-2 block space-y-1 text-sm">
-            <span className="text-neutral-500">Estado</span>
-            <select
-              value={selectedUf}
-              onChange={(e) => {
-                const uf = e.target.value;
-                setSelectedUf(uf);
-                setSelectedCity('');
-                applyManualSelection(uf);
-              }}
-              className="w-full rounded-lg border bg-white px-2.5 py-1.5 text-sm dark:border-neutral-700 dark:bg-neutral-800"
-            >
-              <option value="">Todo o Brasil</option>
-              {states.map((state) => (
-                <option key={state.uf} value={state.uf}>
-                  {state.name}
-                </option>
-              ))}
-            </select>
-          </label>
-
-          <label className="block space-y-1 text-sm">
-            <span className="text-neutral-500">Cidade</span>
-            <select
-              value={selectedCity}
-              disabled={!selectedUf}
-              onChange={(e) => {
-                const citySlug = e.target.value;
-                setSelectedCity(citySlug);
-                applyManualSelection(selectedUf, citySlug || undefined);
-              }}
-              className="w-full rounded-lg border bg-white px-2.5 py-1.5 text-sm disabled:opacity-50 dark:border-neutral-700 dark:bg-neutral-800"
-            >
-              <option value="">—</option>
-              {citiesForState.map((city) => (
-                <option key={city.slug} value={city.slug}>
-                  {city.name}
-                </option>
-              ))}
-            </select>
-          </label>
+          <LocationCombobox
+            states={states}
+            location={location}
+            onSelect={applyContext}
+          />
         </div>
       )}
     </div>

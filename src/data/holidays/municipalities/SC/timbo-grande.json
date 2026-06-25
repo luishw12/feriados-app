@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4218251,
+  "name": "Timbó Grande",
+  "slug": "timbo-grande",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-timbo-grande",
+      "name": "Aniversário de Timbó Grande",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-timbo-grande-0426",
+      "name": "Feriado Municipal de Timbó Grande",
+      "date": "04-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

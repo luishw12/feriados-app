@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2803104,
+  "name": "Itabi",
+  "slug": "itabi",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-itabi",
+      "name": "Aniversário de Itabi",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

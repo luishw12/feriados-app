@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3528700,
+  "name": "Marabá Paulista",
+  "slug": "maraba-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-maraba-paulista",
+      "name": "Aniversário de Marabá Paulista",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maraba-paulista-0911",
+      "name": "Feriado Municipal de Marabá Paulista",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

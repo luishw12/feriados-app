@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2603900,
+  "name": "Carnaíba",
+  "slug": "carnaiba",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-carnaiba",
+      "name": "Aniversário de Carnaíba",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carnaiba-0804",
+      "name": "Feriado Municipal de Carnaíba",
+      "date": "08-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carnaiba-1230",
+      "name": "Feriado Municipal de Carnaíba",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

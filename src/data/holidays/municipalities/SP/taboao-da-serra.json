@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3552809,
+  "name": "Taboão da Serra",
+  "slug": "taboao-da-serra",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-taboao-da-serra",
+      "name": "Aniversário de Taboão da Serra",
+      "date": "02-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taboao-da-serra-0403",
+      "name": "Feriado Municipal de Taboão da Serra",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taboao-da-serra-0604",
+      "name": "Feriado Municipal de Taboão da Serra",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taboao-da-serra-1001",
+      "name": "Feriado Municipal de Taboão da Serra",
+      "date": "10-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

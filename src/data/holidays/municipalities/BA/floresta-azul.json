@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2911006,
+  "name": "Floresta Azul",
+  "slug": "floresta-azul",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-floresta-azul",
+      "name": "Aniversário de Floresta Azul",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-floresta-azul-0624",
+      "name": "Feriado Municipal de Floresta Azul",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-floresta-azul-0726",
+      "name": "Feriado Municipal de Floresta Azul",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

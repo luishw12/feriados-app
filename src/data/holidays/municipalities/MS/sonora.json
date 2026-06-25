@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5007935,
+  "name": "Sonora",
+  "slug": "sonora",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-sonora",
+      "name": "Aniversário de Sonora",
+      "date": "06-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

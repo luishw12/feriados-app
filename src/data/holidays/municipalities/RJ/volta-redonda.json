@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3306305,
+  "name": "Volta Redonda",
+  "slug": "volta-redonda",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-volta-redonda",
+      "name": "Aniversário de Volta Redonda",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-volta-redonda-0613",
+      "name": "Feriado Municipal de Volta Redonda",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-volta-redonda-0717",
+      "name": "Feriado Municipal de Volta Redonda",
+      "date": "07-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

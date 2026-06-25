@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3510906,
+  "name": "Cássia dos Coqueiros",
+  "slug": "cassia-dos-coqueiros",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cassia-dos-coqueiros",
+      "name": "Aniversário de Cássia dos Coqueiros",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cassia-dos-coqueiros-0218",
+      "name": "Feriado Municipal de Cássia dos Coqueiros",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cassia-dos-coqueiros-0522",
+      "name": "Feriado Municipal de Cássia dos Coqueiros",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cassia-dos-coqueiros-0629",
+      "name": "Feriado Municipal de Cássia dos Coqueiros",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

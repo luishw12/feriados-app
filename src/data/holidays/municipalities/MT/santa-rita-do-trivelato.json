@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5107768,
+  "name": "Santa Rita do Trivelato",
+  "slug": "santa-rita-do-trivelato",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rita-do-trivelato",
+      "name": "Aniversário de Santa Rita do Trivelato",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-rita-do-trivelato-0925",
+      "name": "Feriado Municipal de Santa Rita do Trivelato",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

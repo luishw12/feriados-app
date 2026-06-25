@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3520806,
+  "name": "Inúbia Paulista",
+  "slug": "inubia-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-inubia-paulista",
+      "name": "Aniversário de Inúbia Paulista",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

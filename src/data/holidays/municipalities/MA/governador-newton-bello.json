@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2104651,
+  "name": "Governador Newton Bello",
+  "slug": "governador-newton-bello",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-governador-newton-bello",
+      "name": "Aniversário de Governador Newton Bello",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3505609,
+  "name": "Barrinha",
+  "slug": "barrinha",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-barrinha",
+      "name": "Aniversário de Barrinha",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barrinha-1230",
+      "name": "Feriado Municipal de Barrinha",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

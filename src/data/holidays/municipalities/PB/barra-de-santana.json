@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2501575,
+  "name": "Barra de Santana",
+  "slug": "barra-de-santana",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-barra-de-santana",
+      "name": "Aniversário de Barra de Santana",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-de-santana-0624",
+      "name": "Feriado Municipal de Barra de Santana",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-de-santana-0726",
+      "name": "Feriado Municipal de Barra de Santana",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

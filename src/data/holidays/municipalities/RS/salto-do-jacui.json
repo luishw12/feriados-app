@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4316451,
+  "name": "Salto do Jacuí",
+  "slug": "salto-do-jacui",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-salto-do-jacui",
+      "name": "Aniversário de Salto do Jacuí",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-do-jacui-0512",
+      "name": "Feriado Municipal de Salto do Jacuí",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-do-jacui-0725",
+      "name": "Feriado Municipal de Salto do Jacuí",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

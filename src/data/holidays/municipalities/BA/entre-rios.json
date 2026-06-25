@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2910503,
+  "name": "Entre Rios",
+  "slug": "entre-rios",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-entre-rios",
+      "name": "Aniversário de Entre Rios",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-entre-rios-0815",
+      "name": "Feriado Municipal de Entre Rios",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

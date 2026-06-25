@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4104501,
+  "name": "Capanema",
+  "slug": "capanema",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-capanema",
+      "name": "Aniversário de Capanema",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capanema-1114",
+      "name": "Feriado Municipal de Capanema",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

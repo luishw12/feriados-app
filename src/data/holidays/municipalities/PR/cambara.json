@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4103602,
+  "name": "Cambará",
+  "slug": "cambara",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cambara",
+      "name": "Aniversário de Cambará",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cambara-0921",
+      "name": "Feriado Municipal de Cambará",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3504404,
+  "name": "Avanhandava",
+  "slug": "avanhandava",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-avanhandava",
+      "name": "Aniversário de Avanhandava",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-avanhandava-1229",
+      "name": "Feriado Municipal de Avanhandava",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5106752,
+  "name": "Pontes e Lacerda",
+  "slug": "pontes-e-lacerda",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-pontes-e-lacerda",
+      "name": "Aniversário de Pontes e Lacerda",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

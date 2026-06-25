@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2701407,
+  "name": "Campo Alegre",
+  "slug": "campo-alegre",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-campo-alegre",
+      "name": "Aniversário de Campo Alegre",
+      "date": "06-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3548104,
+  "name": "Santo Antônio do Jardim",
+  "slug": "santo-antonio-do-jardim",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-jardim",
+      "name": "Aniversário de Santo Antônio do Jardim",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-jardim-0613",
+      "name": "Feriado Municipal de Santo Antônio do Jardim",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4201257,
+  "name": "Apiúna",
+  "slug": "apiuna",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-apiuna",
+      "name": "Aniversário de Apiúna",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

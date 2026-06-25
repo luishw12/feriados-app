@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2910750,
+  "name": "Fátima",
+  "slug": "fatima",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-fatima",
+      "name": "Aniversário de Fátima",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fatima-0401",
+      "name": "Feriado Municipal de Fátima",
+      "date": "04-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fatima-0624",
+      "name": "Feriado Municipal de Fátima",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

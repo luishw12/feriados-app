@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4315800,
+  "name": "Roca Sales",
+  "slug": "roca-sales",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-roca-sales",
+      "name": "Aniversário de Roca Sales",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

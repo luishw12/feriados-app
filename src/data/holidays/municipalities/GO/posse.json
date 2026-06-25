@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5218300,
+  "name": "Posse",
+  "slug": "posse",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-posse",
+      "name": "Aniversário de Posse",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-posse-0726",
+      "name": "Feriado Municipal de Posse",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

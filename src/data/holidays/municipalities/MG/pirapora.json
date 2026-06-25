@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3151206,
+  "name": "Pirapora",
+  "slug": "pirapora",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pirapora",
+      "name": "Aniversário de Pirapora",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirapora-0601",
+      "name": "Feriado Municipal de Pirapora",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

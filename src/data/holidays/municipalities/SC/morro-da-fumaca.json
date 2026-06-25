@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4211207,
+  "name": "Morro da Fumaça",
+  "slug": "morro-da-fumaca",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-morro-da-fumaca",
+      "name": "Aniversário de Morro da Fumaça",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

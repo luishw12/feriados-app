@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5210802,
+  "name": "Itajá",
+  "slug": "itaja",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-itaja",
+      "name": "Aniversário de Itajá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaja-1114",
+      "name": "Feriado Municipal de Itajá",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

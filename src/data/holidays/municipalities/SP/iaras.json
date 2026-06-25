@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519253,
+  "name": "Iaras",
+  "slug": "iaras",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-iaras",
+      "name": "Aniversário de Iaras",
+      "date": "01-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iaras-1213",
+      "name": "Feriado Municipal de Iaras",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

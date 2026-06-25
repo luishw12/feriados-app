@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3145000,
+  "name": "Nova Ponte",
+  "slug": "nova-ponte",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-nova-ponte",
+      "name": "Aniversário de Nova Ponte",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-ponte-0929",
+      "name": "Feriado Municipal de Nova Ponte",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-ponte-1217",
+      "name": "Feriado Municipal de Nova Ponte",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

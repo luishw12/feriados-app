@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 2301109,
+  "name": "Aracati",
+  "slug": "aracati",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-aracati",
+      "name": "Aniversário de Aracati",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracati-0319",
+      "name": "Feriado Municipal de Aracati",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracati-0403",
+      "name": "Feriado Municipal de Aracati",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracati-1007",
+      "name": "Feriado Municipal de Aracati",
+      "date": "10-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracati-1025",
+      "name": "Feriado Municipal de Aracati",
+      "date": "10-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

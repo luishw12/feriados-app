@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3514502,
+  "name": "Duartina",
+  "slug": "duartina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-duartina",
+      "name": "Aniversário de Duartina",
+      "date": "12-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-duartina-1213",
+      "name": "Feriado Municipal de Duartina",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3509007,
+  "name": "Caieiras",
+  "slug": "caieiras",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-caieiras",
+      "name": "Aniversário de Caieiras",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caieiras-1214",
+      "name": "Feriado Municipal de Caieiras",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

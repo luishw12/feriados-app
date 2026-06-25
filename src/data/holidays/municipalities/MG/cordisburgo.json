@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3118908,
+  "name": "Cordisburgo",
+  "slug": "cordisburgo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cordisburgo",
+      "name": "Aniversário de Cordisburgo",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

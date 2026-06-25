@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2112001,
+  "name": "Tasso Fragoso",
+  "slug": "tasso-fragoso",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-tasso-fragoso",
+      "name": "Aniversário de Tasso Fragoso",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tasso-fragoso-1208",
+      "name": "Feriado Municipal de Tasso Fragoso",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tasso-fragoso-1219",
+      "name": "Feriado Municipal de Tasso Fragoso",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

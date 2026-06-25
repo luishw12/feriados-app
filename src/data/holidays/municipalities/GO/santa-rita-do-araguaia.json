@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5219407,
+  "name": "Santa Rita do Araguaia",
+  "slug": "santa-rita-do-araguaia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rita-do-araguaia",
+      "name": "Aniversário de Santa Rita do Araguaia",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

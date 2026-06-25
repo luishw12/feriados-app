@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3164506,
+  "name": "São Sebastião do Maranhão",
+  "slug": "sao-sebastiao-do-maranhao",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-sebastiao-do-maranhao",
+      "name": "Aniversário de São Sebastião do Maranhão",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-do-maranhao-0921",
+      "name": "Feriado Municipal de São Sebastião do Maranhão",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3537305,
+  "name": "Penápolis",
+  "slug": "penapolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-penapolis",
+      "name": "Aniversário de Penápolis",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-penapolis-1025",
+      "name": "Feriado Municipal de Penápolis",
+      "date": "10-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

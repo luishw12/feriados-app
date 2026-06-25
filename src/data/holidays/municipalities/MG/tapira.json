@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3168101,
+  "name": "Tapira",
+  "slug": "tapira",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-tapira",
+      "name": "Aniversário de Tapira",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tapira-0301",
+      "name": "Feriado Municipal de Tapira",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tapira-0604",
+      "name": "Feriado Municipal de Tapira",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tapira-0815",
+      "name": "Feriado Municipal de Tapira",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

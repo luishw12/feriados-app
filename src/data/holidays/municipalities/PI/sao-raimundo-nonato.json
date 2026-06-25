@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2210607,
+  "name": "São Raimundo Nonato",
+  "slug": "sao-raimundo-nonato",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-sao-raimundo-nonato",
+      "name": "Aniversário de São Raimundo Nonato",
+      "date": "06-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-raimundo-nonato-0831",
+      "name": "Feriado Municipal de São Raimundo Nonato",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-raimundo-nonato-1213",
+      "name": "Feriado Municipal de São Raimundo Nonato",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

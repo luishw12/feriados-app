@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3548609,
+  "name": "São Bento do Sapucaí",
+  "slug": "sao-bento-do-sapucai",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-bento-do-sapucai",
+      "name": "Aniversário de São Bento do Sapucaí",
+      "date": "07-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bento-do-sapucai-0816",
+      "name": "Feriado Municipal de São Bento do Sapucaí",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

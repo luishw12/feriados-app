@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4109203,
+  "name": "Guaraci",
+  "slug": "guaraci",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-guaraci",
+      "name": "Aniversário de Guaraci",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaraci-1201",
+      "name": "Feriado Municipal de Guaraci",
+      "date": "12-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

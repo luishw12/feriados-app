@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3200169,
+  "name": "Água Doce do Norte",
+  "slug": "agua-doce-do-norte",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-agua-doce-do-norte",
+      "name": "Aniversário de Água Doce do Norte",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

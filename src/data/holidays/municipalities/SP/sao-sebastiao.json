@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3550704,
+  "name": "São Sebastião",
+  "slug": "sao-sebastiao",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-sebastiao",
+      "name": "Aniversário de São Sebastião",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-0316",
+      "name": "Feriado Municipal de São Sebastião",
+      "date": "03-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2917003,
+  "name": "Itiúba",
+  "slug": "itiuba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itiuba",
+      "name": "Aniversário de Itiúba",
+      "date": "01-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itiuba-0624",
+      "name": "Feriado Municipal de Itiúba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itiuba-0923",
+      "name": "Feriado Municipal de Itiúba",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itiuba-1208",
+      "name": "Feriado Municipal de Itiúba",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

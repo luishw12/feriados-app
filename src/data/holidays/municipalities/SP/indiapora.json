@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3520707,
+  "name": "Indiaporã",
+  "slug": "indiapora",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-indiapora",
+      "name": "Aniversário de Indiaporã",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-indiapora-0624",
+      "name": "Feriado Municipal de Indiaporã",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

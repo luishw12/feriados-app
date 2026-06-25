@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4204558,
+  "name": "Correia Pinto",
+  "slug": "correia-pinto",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-correia-pinto",
+      "name": "Aniversário de Correia Pinto",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-correia-pinto-0712",
+      "name": "Feriado Municipal de Correia Pinto",
+      "date": "07-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

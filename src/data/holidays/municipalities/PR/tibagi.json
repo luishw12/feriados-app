@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4127502,
+  "name": "Tibagi",
+  "slug": "tibagi",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-tibagi",
+      "name": "Aniversário de Tibagi",
+      "date": "03-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tibagi-0726",
+      "name": "Feriado Municipal de Tibagi",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

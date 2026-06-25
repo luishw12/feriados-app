@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4313391,
+  "name": "Novo Cabrais",
+  "slug": "novo-cabrais",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-novo-cabrais",
+      "name": "Aniversário de Novo Cabrais",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

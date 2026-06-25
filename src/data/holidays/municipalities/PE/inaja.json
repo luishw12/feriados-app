@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2607000,
+  "name": "Inajá",
+  "slug": "inaja",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-inaja",
+      "name": "Aniversário de Inajá",
+      "date": "01-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-inaja-0319",
+      "name": "Feriado Municipal de Inajá",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-inaja-0613",
+      "name": "Feriado Municipal de Inajá",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

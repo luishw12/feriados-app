@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5106505,
+  "name": "Poconé",
+  "slug": "pocone",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-pocone",
+      "name": "Aniversário de Poconé",
+      "date": "01-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

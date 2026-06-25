@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4207205,
+  "name": "Imaruí",
+  "slug": "imarui",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-imarui",
+      "name": "Aniversário de Imaruí",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-imarui-0827",
+      "name": "Feriado Municipal de Imaruí",
+      "date": "08-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

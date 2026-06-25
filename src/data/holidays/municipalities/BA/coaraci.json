@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2908002,
+  "name": "Coaraci",
+  "slug": "coaraci",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-coaraci",
+      "name": "Aniversário de Coaraci",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coaraci-1212",
+      "name": "Feriado Municipal de Coaraci",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

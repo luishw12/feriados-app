@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3117306,
+  "name": "Conceição das Alagoas",
+  "slug": "conceicao-das-alagoas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-conceicao-das-alagoas",
+      "name": "Aniversário de Conceição das Alagoas",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

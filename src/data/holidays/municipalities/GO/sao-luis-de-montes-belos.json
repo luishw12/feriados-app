@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5220108,
+  "name": "São Luís de Montes Belos",
+  "slug": "sao-luis-de-montes-belos",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-sao-luis-de-montes-belos",
+      "name": "Aniversário de São Luís de Montes Belos",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4321667,
+  "name": "Três Cachoeiras",
+  "slug": "tres-cachoeiras",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tres-cachoeiras",
+      "name": "Aniversário de Três Cachoeiras",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tres-cachoeiras-0429",
+      "name": "Feriado Municipal de Três Cachoeiras",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2906204,
+  "name": "Canarana",
+  "slug": "canarana",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-canarana",
+      "name": "Aniversário de Canarana",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

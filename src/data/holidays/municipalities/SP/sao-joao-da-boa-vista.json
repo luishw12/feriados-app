@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3549102,
+  "name": "São João da Boa Vista",
+  "slug": "sao-joao-da-boa-vista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-da-boa-vista",
+      "name": "Aniversário de São João da Boa Vista",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

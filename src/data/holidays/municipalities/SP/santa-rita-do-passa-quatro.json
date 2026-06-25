@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3547502,
+  "name": "Santa Rita do Passa Quatro",
+  "slug": "santa-rita-do-passa-quatro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-rita-do-passa-quatro",
+      "name": "Aniversário de Santa Rita do Passa Quatro",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

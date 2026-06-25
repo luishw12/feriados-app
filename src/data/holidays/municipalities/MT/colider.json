@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5103205,
+  "name": "Colíder",
+  "slug": "colider",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-colider",
+      "name": "Aniversário de Colíder",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colider-1218",
+      "name": "Feriado Municipal de Colíder",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

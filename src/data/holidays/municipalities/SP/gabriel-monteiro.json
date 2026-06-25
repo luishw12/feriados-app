@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3516507,
+  "name": "Gabriel Monteiro",
+  "slug": "gabriel-monteiro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-gabriel-monteiro",
+      "name": "Aniversário de Gabriel Monteiro",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gabriel-monteiro-1103",
+      "name": "Feriado Municipal de Gabriel Monteiro",
+      "date": "11-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

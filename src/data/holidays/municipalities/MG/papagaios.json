@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3146909,
+  "name": "Papagaios",
+  "slug": "papagaios",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-papagaios",
+      "name": "Aniversário de Papagaios",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-papagaios-1213",
+      "name": "Feriado Municipal de Papagaios",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

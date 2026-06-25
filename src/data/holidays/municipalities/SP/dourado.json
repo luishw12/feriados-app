@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3514304,
+  "name": "Dourado",
+  "slug": "dourado",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-dourado",
+      "name": "Aniversário de Dourado",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dourado-0624",
+      "name": "Feriado Municipal de Dourado",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1720903,
+  "name": "Taguatinga",
+  "slug": "taguatinga",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-taguatinga",
+      "name": "Aniversário de Taguatinga",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2204709,
+  "name": "Inhuma",
+  "slug": "inhuma",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-inhuma",
+      "name": "Aniversário de Inhuma",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-inhuma-0613",
+      "name": "Feriado Municipal de Inhuma",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

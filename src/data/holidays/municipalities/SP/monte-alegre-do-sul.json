@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3531209,
+  "name": "Monte Alegre do Sul",
+  "slug": "monte-alegre-do-sul",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-monte-alegre-do-sul",
+      "name": "Aniversário de Monte Alegre do Sul",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-alegre-do-sul-1224",
+      "name": "Feriado Municipal de Monte Alegre do Sul",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2913606,
+  "name": "Ilhéus",
+  "slug": "ilheus",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ilheus",
+      "name": "Aniversário de Ilhéus",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ilheus-0628",
+      "name": "Feriado Municipal de Ilhéus",
+      "date": "06-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ilheus-0815",
+      "name": "Feriado Municipal de Ilhéus",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

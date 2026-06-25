@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4211504,
+  "name": "Nova Trento",
+  "slug": "nova-trento",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-nova-trento",
+      "name": "Aniversário de Nova Trento",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-trento-0709",
+      "name": "Feriado Municipal de Nova Trento",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-trento-0808",
+      "name": "Feriado Municipal de Nova Trento",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4212650,
+  "name": "Pescaria Brava",
+  "slug": "pescaria-brava",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-pescaria-brava",
+      "name": "Aniversário de Pescaria Brava",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pescaria-brava-1025",
+      "name": "Feriado Municipal de Pescaria Brava",
+      "date": "10-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

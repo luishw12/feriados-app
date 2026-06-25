@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2203420,
+  "name": "Domingos Mourão",
+  "slug": "domingos-mourao",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-domingos-mourao",
+      "name": "Aniversário de Domingos Mourão",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

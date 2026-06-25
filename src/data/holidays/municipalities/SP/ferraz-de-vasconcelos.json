@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3515707,
+  "name": "Ferraz de Vasconcelos",
+  "slug": "ferraz-de-vasconcelos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ferraz-de-vasconcelos",
+      "name": "Aniversário de Ferraz de Vasconcelos",
+      "date": "10-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

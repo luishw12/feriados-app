@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3170107,
+  "name": "Uberaba",
+  "slug": "uberaba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-uberaba",
+      "name": "Aniversário de Uberaba",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uberaba-0403",
+      "name": "Feriado Municipal de Uberaba",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uberaba-0604",
+      "name": "Feriado Municipal de Uberaba",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uberaba-0815",
+      "name": "Feriado Municipal de Uberaba",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uberaba-1120",
+      "name": "Feriado Municipal de Uberaba",
+      "date": "11-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

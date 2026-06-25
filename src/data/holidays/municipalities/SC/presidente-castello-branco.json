@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4213906,
+  "name": "Presidente Castello Branco",
+  "slug": "presidente-castello-branco",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-castello-branco",
+      "name": "Aniversário de Presidente Castello Branco",
+      "date": "02-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-castello-branco-1031",
+      "name": "Feriado Municipal de Presidente Castello Branco",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

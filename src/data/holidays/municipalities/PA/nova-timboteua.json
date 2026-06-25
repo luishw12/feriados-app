@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1505007,
+  "name": "Nova Timboteua",
+  "slug": "nova-timboteua",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-nova-timboteua",
+      "name": "Aniversário de Nova Timboteua",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

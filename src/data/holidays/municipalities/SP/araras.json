@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3503307,
+  "name": "Araras",
+  "slug": "araras",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-araras",
+      "name": "Aniversário de Araras",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

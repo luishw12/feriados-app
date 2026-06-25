@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3155108,
+  "name": "Rio do Prado",
+  "slug": "rio-do-prado",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-rio-do-prado",
+      "name": "Aniversário de Rio do Prado",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-do-prado-0806",
+      "name": "Feriado Municipal de Rio do Prado",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-do-prado-1212",
+      "name": "Feriado Municipal de Rio do Prado",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

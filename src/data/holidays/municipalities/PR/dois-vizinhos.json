@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4107207,
+  "name": "Dois Vizinhos",
+  "slug": "dois-vizinhos",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-dois-vizinhos",
+      "name": "Aniversário de Dois Vizinhos",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dois-vizinhos-1128",
+      "name": "Feriado Municipal de Dois Vizinhos",
+      "date": "11-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

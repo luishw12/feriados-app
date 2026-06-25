@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3544301,
+  "name": "Roseira",
+  "slug": "roseira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-roseira",
+      "name": "Aniversário de Roseira",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-roseira-0726",
+      "name": "Feriado Municipal de Roseira",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

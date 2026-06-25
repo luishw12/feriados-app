@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4112009,
+  "name": "Jaguariaíva",
+  "slug": "jaguariaiva",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-jaguariaiva",
+      "name": "Aniversário de Jaguariaíva",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaguariaiva-0915",
+      "name": "Feriado Municipal de Jaguariaíva",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

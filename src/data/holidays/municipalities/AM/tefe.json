@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1304203,
+  "name": "Tefé",
+  "slug": "tefe",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-tefe",
+      "name": "Aniversário de Tefé",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5213087,
+  "name": "Minaçu",
+  "slug": "minacu",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-minacu",
+      "name": "Aniversário de Minaçu",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

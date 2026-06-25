@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3124609,
+  "name": "Estrela Dalva",
+  "slug": "estrela-dalva",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-estrela-dalva",
+      "name": "Aniversário de Estrela Dalva",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

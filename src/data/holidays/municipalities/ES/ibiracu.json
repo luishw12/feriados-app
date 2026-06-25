@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3202504,
+  "name": "Ibiraçu",
+  "slug": "ibiracu",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-ibiracu",
+      "name": "Aniversário de Ibiraçu",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibiracu-1121",
+      "name": "Feriado Municipal de Ibiraçu",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

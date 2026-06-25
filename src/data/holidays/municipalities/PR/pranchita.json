@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4120358,
+  "name": "Pranchita",
+  "slug": "pranchita",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-pranchita",
+      "name": "Aniversário de Pranchita",
+      "date": "05-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

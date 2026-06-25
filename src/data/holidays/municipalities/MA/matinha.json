@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2106508,
+  "name": "Matinha",
+  "slug": "matinha",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-matinha",
+      "name": "Aniversário de Matinha",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

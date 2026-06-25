@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2306405,
+  "name": "Itapipoca",
+  "slug": "itapipoca",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-itapipoca",
+      "name": "Aniversário de Itapipoca",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapipoca-0831",
+      "name": "Feriado Municipal de Itapipoca",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapipoca-0924",
+      "name": "Feriado Municipal de Itapipoca",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

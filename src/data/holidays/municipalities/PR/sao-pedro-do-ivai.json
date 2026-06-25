@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4125803,
+  "name": "São Pedro do Ivaí",
+  "slug": "sao-pedro-do-ivai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-pedro-do-ivai",
+      "name": "Aniversário de São Pedro do Ivaí",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-pedro-do-ivai-1030",
+      "name": "Feriado Municipal de São Pedro do Ivaí",
+      "date": "10-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

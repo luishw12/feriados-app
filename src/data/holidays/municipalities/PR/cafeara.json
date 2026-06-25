@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4103404,
+  "name": "Cafeara",
+  "slug": "cafeara",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cafeara",
+      "name": "Aniversário de Cafeara",
+      "date": "11-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cafeara-1213",
+      "name": "Feriado Municipal de Cafeara",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

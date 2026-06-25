@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4309654,
+  "name": "Hulha Negra",
+  "slug": "hulha-negra",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-hulha-negra",
+      "name": "Aniversário de Hulha Negra",
+      "date": "07-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-hulha-negra-1129",
+      "name": "Feriado Municipal de Hulha Negra",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

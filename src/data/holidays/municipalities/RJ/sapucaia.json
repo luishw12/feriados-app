@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3305406,
+  "name": "Sapucaia",
+  "slug": "sapucaia",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-sapucaia",
+      "name": "Aniversário de Sapucaia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sapucaia-1207",
+      "name": "Feriado Municipal de Sapucaia",
+      "date": "12-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

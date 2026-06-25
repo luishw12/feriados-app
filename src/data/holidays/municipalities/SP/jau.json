@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3525300,
+  "name": "Jaú",
+  "slug": "jau",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jau",
+      "name": "Aniversário de Jaú",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

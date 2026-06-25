@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3103751,
+  "name": "Araporã",
+  "slug": "arapora",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-arapora",
+      "name": "Aniversário de Araporã",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arapora-0917",
+      "name": "Feriado Municipal de Araporã",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

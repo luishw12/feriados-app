@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1100023,
+  "name": "Ariquemes",
+  "slug": "ariquemes",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-ariquemes",
+      "name": "Aniversário de Ariquemes",
+      "date": "06-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ariquemes-1004",
+      "name": "Feriado Municipal de Ariquemes",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ariquemes-1011",
+      "name": "Feriado Municipal de Ariquemes",
+      "date": "10-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

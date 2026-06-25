@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3525805,
+  "name": "Júlio Mesquita",
+  "slug": "julio-mesquita",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-julio-mesquita",
+      "name": "Aniversário de Júlio Mesquita",
+      "date": "02-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

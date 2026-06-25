@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4119004,
+  "name": "Pérola d'Oeste",
+  "slug": "perola-d-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-perola-d-oeste",
+      "name": "Aniversário de Pérola d'Oeste",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-perola-d-oeste-0725",
+      "name": "Feriado Municipal de Pérola d'Oeste",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-perola-d-oeste-1127",
+      "name": "Feriado Municipal de Pérola d'Oeste",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

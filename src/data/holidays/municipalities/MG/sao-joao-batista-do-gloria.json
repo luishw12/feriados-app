@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3162203,
+  "name": "São João Batista do Glória",
+  "slug": "sao-joao-batista-do-gloria",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-batista-do-gloria",
+      "name": "Aniversário de São João Batista do Glória",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-batista-do-gloria-0815",
+      "name": "Feriado Municipal de São João Batista do Glória",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-batista-do-gloria-1208",
+      "name": "Feriado Municipal de São João Batista do Glória",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

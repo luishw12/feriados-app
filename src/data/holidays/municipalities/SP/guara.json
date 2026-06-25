@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3517703,
+  "name": "Guará",
+  "slug": "guara",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guara",
+      "name": "Aniversário de Guará",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guara-0915",
+      "name": "Feriado Municipal de Guará",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

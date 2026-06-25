@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2910008,
+  "name": "Dário Meira",
+  "slug": "dario-meira",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-dario-meira",
+      "name": "Aniversário de Dário Meira",
+      "date": "04-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dario-meira-0531",
+      "name": "Feriado Municipal de Dário Meira",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

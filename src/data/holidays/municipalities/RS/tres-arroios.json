@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4321634,
+  "name": "Três Arroios",
+  "slug": "tres-arroios",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tres-arroios",
+      "name": "Aniversário de Três Arroios",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

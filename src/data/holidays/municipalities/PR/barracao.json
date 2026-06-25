@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4102604,
+  "name": "Barracão",
+  "slug": "barracao",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-barracao",
+      "name": "Aniversário de Barracão",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

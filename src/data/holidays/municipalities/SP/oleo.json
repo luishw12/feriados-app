@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3533809,
+  "name": "Óleo",
+  "slug": "oleo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-oleo",
+      "name": "Aniversário de Óleo",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oleo-0806",
+      "name": "Feriado Municipal de Óleo",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

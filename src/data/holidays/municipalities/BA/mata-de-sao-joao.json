@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2921005,
+  "name": "Mata de São João",
+  "slug": "mata-de-sao-joao",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-mata-de-sao-joao",
+      "name": "Aniversário de Mata de São João",
+      "date": "04-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mata-de-sao-joao-0624",
+      "name": "Feriado Municipal de Mata de São João",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3514403,
+  "name": "Dracena",
+  "slug": "dracena",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-dracena",
+      "name": "Aniversário de Dracena",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

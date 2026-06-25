@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4312807,
+  "name": "Nova Araçá",
+  "slug": "nova-araca",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-nova-araca",
+      "name": "Aniversário de Nova Araçá",
+      "date": "04-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-araca-1125",
+      "name": "Feriado Municipal de Nova Araçá",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

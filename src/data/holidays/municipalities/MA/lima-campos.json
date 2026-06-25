@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2106003,
+  "name": "Lima Campos",
+  "slug": "lima-campos",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-lima-campos",
+      "name": "Aniversário de Lima Campos",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lima-campos-0629",
+      "name": "Feriado Municipal de Lima Campos",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lima-campos-0930",
+      "name": "Feriado Municipal de Lima Campos",
+      "date": "09-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

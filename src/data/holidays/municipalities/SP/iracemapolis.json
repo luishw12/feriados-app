@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3521408,
+  "name": "Iracemápolis",
+  "slug": "iracemapolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-iracemapolis",
+      "name": "Aniversário de Iracemápolis",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

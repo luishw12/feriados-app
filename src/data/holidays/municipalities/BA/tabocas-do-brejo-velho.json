@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2930907,
+  "name": "Tabocas do Brejo Velho",
+  "slug": "tabocas-do-brejo-velho",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-tabocas-do-brejo-velho",
+      "name": "Aniversário de Tabocas do Brejo Velho",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5001243,
+  "name": "Aral Moreira",
+  "slug": "aral-moreira",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-aral-moreira",
+      "name": "Aniversário de Aral Moreira",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4216107,
+  "name": "São Domingos",
+  "slug": "sao-domingos",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-domingos",
+      "name": "Aniversário de São Domingos",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-domingos-0808",
+      "name": "Feriado Municipal de São Domingos",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

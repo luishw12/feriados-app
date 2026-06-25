@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4105003,
+  "name": "Catanduvas",
+  "slug": "catanduvas",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-catanduvas",
+      "name": "Aniversário de Catanduvas",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-catanduvas-0725",
+      "name": "Feriado Municipal de Catanduvas",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

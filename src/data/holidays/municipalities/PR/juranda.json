@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4112959,
+  "name": "Juranda",
+  "slug": "juranda",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-juranda",
+      "name": "Aniversário de Juranda",
+      "date": "02-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juranda-0815",
+      "name": "Feriado Municipal de Juranda",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juranda-1216",
+      "name": "Feriado Municipal de Juranda",
+      "date": "12-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

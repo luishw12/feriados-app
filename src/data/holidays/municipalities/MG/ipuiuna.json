@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3131505,
+  "name": "Ipuiúna",
+  "slug": "ipuiuna",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ipuiuna",
+      "name": "Aniversário de Ipuiúna",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipuiuna-0624",
+      "name": "Feriado Municipal de Ipuiúna",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipuiuna-1212",
+      "name": "Feriado Municipal de Ipuiúna",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

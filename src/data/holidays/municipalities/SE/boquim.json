@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2800670,
+  "name": "Boquim",
+  "slug": "boquim",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-boquim",
+      "name": "Aniversário de Boquim",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boquim-0624",
+      "name": "Feriado Municipal de Boquim",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boquim-0726",
+      "name": "Feriado Municipal de Boquim",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

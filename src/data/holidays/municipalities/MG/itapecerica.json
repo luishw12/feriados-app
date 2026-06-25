@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3133501,
+  "name": "Itapecerica",
+  "slug": "itapecerica",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itapecerica",
+      "name": "Aniversário de Itapecerica",
+      "date": "07-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

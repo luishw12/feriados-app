@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4312609,
+  "name": "Muçum",
+  "slug": "mucum",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-mucum",
+      "name": "Aniversário de Muçum",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

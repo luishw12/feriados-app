@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2912707,
+  "name": "Ibirapitanga",
+  "slug": "ibirapitanga",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ibirapitanga",
+      "name": "Aniversário de Ibirapitanga",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibirapitanga-0803",
+      "name": "Feriado Municipal de Ibirapitanga",
+      "date": "08-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibirapitanga-0815",
+      "name": "Feriado Municipal de Ibirapitanga",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

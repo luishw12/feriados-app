@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2408003,
+  "name": "Mossoró",
+  "slug": "mossoro",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-mossoro",
+      "name": "Aniversário de Mossoró",
+      "date": "09-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mossoro-1213",
+      "name": "Feriado Municipal de Mossoró",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

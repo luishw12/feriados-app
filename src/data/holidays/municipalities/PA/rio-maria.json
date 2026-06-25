@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1506161,
+  "name": "Rio Maria",
+  "slug": "rio-maria",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-rio-maria",
+      "name": "Aniversário de Rio Maria",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-maria-0813",
+      "name": "Feriado Municipal de Rio Maria",
+      "date": "08-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

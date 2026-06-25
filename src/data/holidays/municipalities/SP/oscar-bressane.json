@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3534500,
+  "name": "Oscar Bressane",
+  "slug": "oscar-bressane",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-oscar-bressane",
+      "name": "Aniversário de Oscar Bressane",
+      "date": "04-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oscar-bressane-0716",
+      "name": "Feriado Municipal de Oscar Bressane",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

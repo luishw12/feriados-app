@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4320305,
+  "name": "Selbach",
+  "slug": "selbach",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-selbach",
+      "name": "Aniversário de Selbach",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-selbach-0725",
+      "name": "Feriado Municipal de Selbach",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-selbach-0922",
+      "name": "Feriado Municipal de Selbach",
+      "date": "09-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

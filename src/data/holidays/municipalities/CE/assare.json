@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2301604,
+  "name": "Assaré",
+  "slug": "assare",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-assare",
+      "name": "Aniversário de Assaré",
+      "date": "03-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-assare-0719",
+      "name": "Feriado Municipal de Assaré",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-assare-0915",
+      "name": "Feriado Municipal de Assaré",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

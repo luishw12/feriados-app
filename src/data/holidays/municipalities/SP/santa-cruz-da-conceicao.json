@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3546207,
+  "name": "Santa Cruz da Conceição",
+  "slug": "santa-cruz-da-conceicao",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cruz-da-conceicao",
+      "name": "Aniversário de Santa Cruz da Conceição",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cruz-da-conceicao-1208",
+      "name": "Feriado Municipal de Santa Cruz da Conceição",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

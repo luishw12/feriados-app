@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2914109,
+  "name": "Ipupiara",
+  "slug": "ipupiara",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ipupiara",
+      "name": "Aniversário de Ipupiara",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipupiara-0809",
+      "name": "Feriado Municipal de Ipupiara",
+      "date": "08-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipupiara-0917",
+      "name": "Feriado Municipal de Ipupiara",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

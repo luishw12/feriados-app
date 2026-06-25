@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3113909,
+  "name": "Carmo da Cachoeira",
+  "slug": "carmo-da-cachoeira",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carmo-da-cachoeira",
+      "name": "Aniversário de Carmo da Cachoeira",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmo-da-cachoeira-1217",
+      "name": "Feriado Municipal de Carmo da Cachoeira",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3303807,
+  "name": "Paraty",
+  "slug": "paraty",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-paraty",
+      "name": "Aniversário de Paraty",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraty-0908",
+      "name": "Feriado Municipal de Paraty",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

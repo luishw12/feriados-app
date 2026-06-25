@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3141702,
+  "name": "Mesquita",
+  "slug": "mesquita",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-mesquita",
+      "name": "Aniversário de Mesquita",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mesquita-0815",
+      "name": "Feriado Municipal de Mesquita",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mesquita-1213",
+      "name": "Feriado Municipal de Mesquita",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

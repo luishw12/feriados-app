@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5004601,
+  "name": "Itaquiraí",
+  "slug": "itaquirai",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-itaquirai",
+      "name": "Aniversário de Itaquiraí",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaquirai-0627",
+      "name": "Feriado Municipal de Itaquiraí",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

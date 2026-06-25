@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1506203,
+  "name": "Salinópolis",
+  "slug": "salinopolis",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-salinopolis",
+      "name": "Aniversário de Salinópolis",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

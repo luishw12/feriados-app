@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3510500,
+  "name": "Caraguatatuba",
+  "slug": "caraguatatuba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-caraguatatuba",
+      "name": "Aniversário de Caraguatatuba",
+      "date": "04-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caraguatatuba-0613",
+      "name": "Feriado Municipal de Caraguatatuba",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

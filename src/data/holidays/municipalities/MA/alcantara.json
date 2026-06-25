@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2100204,
+  "name": "Alcântara",
+  "slug": "alcantara",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-alcantara",
+      "name": "Aniversário de Alcântara",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alcantara-1222",
+      "name": "Feriado Municipal de Alcântara",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

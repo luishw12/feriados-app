@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2920908,
+  "name": "Mascote",
+  "slug": "mascote",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-mascote",
+      "name": "Aniversário de Mascote",
+      "date": "01-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mascote-0221",
+      "name": "Feriado Municipal de Mascote",
+      "date": "02-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mascote-0624",
+      "name": "Feriado Municipal de Mascote",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mascote-0719",
+      "name": "Feriado Municipal de Mascote",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

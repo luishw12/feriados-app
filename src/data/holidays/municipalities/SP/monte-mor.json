@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3531803,
+  "name": "Monte Mor",
+  "slug": "monte-mor",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-monte-mor",
+      "name": "Aniversário de Monte Mor",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-mor-0604",
+      "name": "Feriado Municipal de Monte Mor",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-mor-0815",
+      "name": "Feriado Municipal de Monte Mor",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

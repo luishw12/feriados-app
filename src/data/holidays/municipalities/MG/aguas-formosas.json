@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3100906,
+  "name": "Águas Formosas",
+  "slug": "aguas-formosas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-aguas-formosas",
+      "name": "Aniversário de Águas Formosas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aguas-formosas-0715",
+      "name": "Feriado Municipal de Águas Formosas",
+      "date": "07-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aguas-formosas-1217",
+      "name": "Feriado Municipal de Águas Formosas",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

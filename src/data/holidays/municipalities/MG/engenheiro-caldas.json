@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3123700,
+  "name": "Engenheiro Caldas",
+  "slug": "engenheiro-caldas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-engenheiro-caldas",
+      "name": "Aniversário de Engenheiro Caldas",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

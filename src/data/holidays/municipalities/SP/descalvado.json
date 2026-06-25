@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3513702,
+  "name": "Descalvado",
+  "slug": "descalvado",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-descalvado",
+      "name": "Aniversário de Descalvado",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

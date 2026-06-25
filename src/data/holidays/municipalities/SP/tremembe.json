@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3554805,
+  "name": "Tremembé",
+  "slug": "tremembe",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-tremembe",
+      "name": "Aniversário de Tremembé",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tremembe-1126",
+      "name": "Feriado Municipal de Tremembé",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

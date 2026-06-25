@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5102504,
+  "name": "Cáceres",
+  "slug": "caceres",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-caceres",
+      "name": "Aniversário de Cáceres",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caceres-1006",
+      "name": "Feriado Municipal de Cáceres",
+      "date": "10-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3149200,
+  "name": "Pedrinópolis",
+  "slug": "pedrinopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pedrinopolis",
+      "name": "Aniversário de Pedrinópolis",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedrinopolis-0301",
+      "name": "Feriado Municipal de Pedrinópolis",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

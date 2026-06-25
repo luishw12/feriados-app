@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2601003,
+  "name": "Angelim",
+  "slug": "angelim",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-angelim",
+      "name": "Aniversário de Angelim",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

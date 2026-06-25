@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2300408,
+  "name": "Aiuaba",
+  "slug": "aiuaba",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-aiuaba",
+      "name": "Aniversário de Aiuaba",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aiuaba-0915",
+      "name": "Feriado Municipal de Aiuaba",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

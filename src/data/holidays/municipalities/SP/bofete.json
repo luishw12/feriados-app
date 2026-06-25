@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3506904,
+  "name": "Bofete",
+  "slug": "bofete",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bofete",
+      "name": "Aniversário de Bofete",
+      "date": "09-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

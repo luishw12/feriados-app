@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2313757,
+  "name": "Umirim",
+  "slug": "umirim",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-umirim",
+      "name": "Aniversário de Umirim",
+      "date": "02-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umirim-0908",
+      "name": "Feriado Municipal de Umirim",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-umirim-1208",
+      "name": "Feriado Municipal de Umirim",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

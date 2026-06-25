@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2608008,
+  "name": "Jataúba",
+  "slug": "jatauba",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-jatauba",
+      "name": "Aniversário de Jataúba",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jatauba-0302",
+      "name": "Feriado Municipal de Jataúba",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

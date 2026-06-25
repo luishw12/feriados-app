@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2909307,
+  "name": "Correntina",
+  "slug": "correntina",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-correntina",
+      "name": "Aniversário de Correntina",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-correntina-0624",
+      "name": "Feriado Municipal de Correntina",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-correntina-0815",
+      "name": "Feriado Municipal de Correntina",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-correntina-0901",
+      "name": "Feriado Municipal de Correntina",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

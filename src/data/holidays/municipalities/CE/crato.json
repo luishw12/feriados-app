@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2304202,
+  "name": "Crato",
+  "slug": "crato",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-crato",
+      "name": "Aniversário de Crato",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-crato-0621",
+      "name": "Feriado Municipal de Crato",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-crato-0901",
+      "name": "Feriado Municipal de Crato",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

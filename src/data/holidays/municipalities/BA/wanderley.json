@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2933455,
+  "name": "Wanderley",
+  "slug": "wanderley",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-wanderley",
+      "name": "Aniversário de Wanderley",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-wanderley-0225",
+      "name": "Feriado Municipal de Wanderley",
+      "date": "02-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-wanderley-0308",
+      "name": "Feriado Municipal de Wanderley",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-wanderley-0624",
+      "name": "Feriado Municipal de Wanderley",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

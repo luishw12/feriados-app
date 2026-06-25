@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3552304,
+  "name": "Sud Mennucci",
+  "slug": "sud-mennucci",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sud-mennucci",
+      "name": "Aniversário de Sud Mennucci",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

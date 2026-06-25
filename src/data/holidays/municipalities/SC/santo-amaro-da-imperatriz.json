@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4215703,
+  "name": "Santo Amaro da Imperatriz",
+  "slug": "santo-amaro-da-imperatriz",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-santo-amaro-da-imperatriz",
+      "name": "Aniversário de Santo Amaro da Imperatriz",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-amaro-da-imperatriz-0710",
+      "name": "Feriado Municipal de Santo Amaro da Imperatriz",
+      "date": "07-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

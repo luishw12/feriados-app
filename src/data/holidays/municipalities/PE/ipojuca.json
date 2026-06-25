@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2607208,
+  "name": "Ipojuca",
+  "slug": "ipojuca",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-ipojuca",
+      "name": "Aniversário de Ipojuca",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipojuca-0929",
+      "name": "Feriado Municipal de Ipojuca",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

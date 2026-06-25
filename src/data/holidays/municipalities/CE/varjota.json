@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2313955,
+  "name": "Varjota",
+  "slug": "varjota",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-varjota",
+      "name": "Aniversário de Varjota",
+      "date": "02-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-varjota-0726",
+      "name": "Feriado Municipal de Varjota",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

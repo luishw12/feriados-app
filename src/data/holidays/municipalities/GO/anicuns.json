@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5201306,
+  "name": "Anicuns",
+  "slug": "anicuns",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-anicuns",
+      "name": "Aniversário de Anicuns",
+      "date": "06-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

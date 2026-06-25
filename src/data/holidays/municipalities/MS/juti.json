@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5005152,
+  "name": "Juti",
+  "slug": "juti",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-juti",
+      "name": "Aniversário de Juti",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juti-1214",
+      "name": "Feriado Municipal de Juti",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2805406,
+  "name": "Poço Redondo",
+  "slug": "poco-redondo",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-poco-redondo",
+      "name": "Aniversário de Poço Redondo",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-poco-redondo-0815",
+      "name": "Feriado Municipal de Poço Redondo",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-poco-redondo-1123",
+      "name": "Feriado Municipal de Poço Redondo",
+      "date": "11-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

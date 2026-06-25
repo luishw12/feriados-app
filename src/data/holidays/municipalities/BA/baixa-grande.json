@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2902609,
+  "name": "Baixa Grande",
+  "slug": "baixa-grande",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-baixa-grande",
+      "name": "Aniversário de Baixa Grande",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baixa-grande-0717",
+      "name": "Feriado Municipal de Baixa Grande",
+      "date": "07-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baixa-grande-1208",
+      "name": "Feriado Municipal de Baixa Grande",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baixa-grande-1214",
+      "name": "Feriado Municipal de Baixa Grande",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

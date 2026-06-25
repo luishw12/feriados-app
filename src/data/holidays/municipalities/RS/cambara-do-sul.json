@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4303608,
+  "name": "Cambará do Sul",
+  "slug": "cambara-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cambara-do-sul",
+      "name": "Aniversário de Cambará do Sul",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

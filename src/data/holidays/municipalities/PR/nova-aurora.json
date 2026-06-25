@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4116703,
+  "name": "Nova Aurora",
+  "slug": "nova-aurora",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-nova-aurora",
+      "name": "Aniversário de Nova Aurora",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-aurora-0925",
+      "name": "Feriado Municipal de Nova Aurora",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

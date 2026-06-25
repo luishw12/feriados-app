@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4104204,
+  "name": "Campo Largo",
+  "slug": "campo-largo",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-campo-largo",
+      "name": "Aniversário de Campo Largo",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

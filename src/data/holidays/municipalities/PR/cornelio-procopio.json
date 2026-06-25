@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4106407,
+  "name": "Cornélio Procópio",
+  "slug": "cornelio-procopio",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cornelio-procopio",
+      "name": "Aniversário de Cornélio Procópio",
+      "date": "01-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cornelio-procopio-0215",
+      "name": "Feriado Municipal de Cornélio Procópio",
+      "date": "02-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

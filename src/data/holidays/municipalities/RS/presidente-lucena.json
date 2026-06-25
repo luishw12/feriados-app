@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4315149,
+  "name": "Presidente Lucena",
+  "slug": "presidente-lucena",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-lucena",
+      "name": "Aniversário de Presidente Lucena",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-lucena-0529",
+      "name": "Feriado Municipal de Presidente Lucena",
+      "date": "05-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-lucena-0604",
+      "name": "Feriado Municipal de Presidente Lucena",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-lucena-1110",
+      "name": "Feriado Municipal de Presidente Lucena",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

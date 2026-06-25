@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3528403,
+  "name": "Mairinque",
+  "slug": "mairinque",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-mairinque",
+      "name": "Aniversário de Mairinque",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

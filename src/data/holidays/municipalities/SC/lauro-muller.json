@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 4209607,
+  "name": "Lauro Müller",
+  "slug": "lauro-muller",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-lauro-muller",
+      "name": "Aniversário de Lauro Müller",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lauro-muller-0403",
+      "name": "Feriado Municipal de Lauro Müller",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lauro-muller-0604",
+      "name": "Feriado Municipal de Lauro Müller",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lauro-muller-0815",
+      "name": "Feriado Municipal de Lauro Müller",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lauro-muller-1204",
+      "name": "Feriado Municipal de Lauro Müller",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

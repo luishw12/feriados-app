@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2305308,
+  "name": "Ibiapina",
+  "slug": "ibiapina",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-ibiapina",
+      "name": "Aniversário de Ibiapina",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibiapina-0319",
+      "name": "Feriado Municipal de Ibiapina",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibiapina-0629",
+      "name": "Feriado Municipal de Ibiapina",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibiapina-1123",
+      "name": "Feriado Municipal de Ibiapina",
+      "date": "11-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

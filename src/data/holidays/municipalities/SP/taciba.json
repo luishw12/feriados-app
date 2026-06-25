@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3552908,
+  "name": "Taciba",
+  "slug": "taciba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-taciba",
+      "name": "Aniversário de Taciba",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taciba-1208",
+      "name": "Feriado Municipal de Taciba",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

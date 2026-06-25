@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3542107,
+  "name": "Rafard",
+  "slug": "rafard",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-rafard",
+      "name": "Aniversário de Rafard",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

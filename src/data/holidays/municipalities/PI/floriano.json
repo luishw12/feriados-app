@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2203909,
+  "name": "Floriano",
+  "slug": "floriano",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-floriano",
+      "name": "Aniversário de Floriano",
+      "date": "07-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-floriano-0708",
+      "name": "Feriado Municipal de Floriano",
+      "date": "07-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

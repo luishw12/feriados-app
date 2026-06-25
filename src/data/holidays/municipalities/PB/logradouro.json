@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2508554,
+  "name": "Logradouro",
+  "slug": "logradouro",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-logradouro",
+      "name": "Aniversário de Logradouro",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-logradouro-0429",
+      "name": "Feriado Municipal de Logradouro",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

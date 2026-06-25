@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2930006,
+  "name": "Sebastião Laranjeiras",
+  "slug": "sebastiao-laranjeiras",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sebastiao-laranjeiras",
+      "name": "Aniversário de Sebastião Laranjeiras",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sebastiao-laranjeiras-0613",
+      "name": "Feriado Municipal de Sebastião Laranjeiras",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

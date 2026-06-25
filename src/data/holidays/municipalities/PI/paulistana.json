@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2207801,
+  "name": "Paulistana",
+  "slug": "paulistana",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-paulistana",
+      "name": "Aniversário de Paulistana",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paulistana-1215",
+      "name": "Feriado Municipal de Paulistana",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

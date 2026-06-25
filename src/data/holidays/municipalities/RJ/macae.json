@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3302403,
+  "name": "Macaé",
+  "slug": "macae",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-macae",
+      "name": "Aniversário de Macaé",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-macae-0624",
+      "name": "Feriado Municipal de Macaé",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-macae-0729",
+      "name": "Feriado Municipal de Macaé",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

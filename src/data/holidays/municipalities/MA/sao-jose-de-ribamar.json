@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2111201,
+  "name": "São José de Ribamar",
+  "slug": "sao-jose-de-ribamar",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-de-ribamar",
+      "name": "Aniversário de São José de Ribamar",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-de-ribamar-0629",
+      "name": "Feriado Municipal de São José de Ribamar",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-de-ribamar-0924",
+      "name": "Feriado Municipal de São José de Ribamar",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

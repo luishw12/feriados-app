@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3553005,
+  "name": "Taguaí",
+  "slug": "taguai",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-taguai",
+      "name": "Aniversário de Taguaí",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taguai-0522",
+      "name": "Feriado Municipal de Taguaí",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

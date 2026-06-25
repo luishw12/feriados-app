@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3524204,
+  "name": "Jaborandi",
+  "slug": "jaborandi",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jaborandi",
+      "name": "Aniversário de Jaborandi",
+      "date": "03-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaborandi-0929",
+      "name": "Feriado Municipal de Jaborandi",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

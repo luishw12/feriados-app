@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2304509,
+  "name": "Frecheirinha",
+  "slug": "frecheirinha",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-frecheirinha",
+      "name": "Aniversário de Frecheirinha",
+      "date": "04-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-frecheirinha-0908",
+      "name": "Feriado Municipal de Frecheirinha",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

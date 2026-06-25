@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4319307,
+  "name": "São Paulo das Missões",
+  "slug": "sao-paulo-das-missoes",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-paulo-das-missoes",
+      "name": "Aniversário de São Paulo das Missões",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-paulo-das-missoes-1031",
+      "name": "Feriado Municipal de São Paulo das Missões",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

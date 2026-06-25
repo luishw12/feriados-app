@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3512902,
+  "name": "Cosmorama",
+  "slug": "cosmorama",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cosmorama",
+      "name": "Aniversário de Cosmorama",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

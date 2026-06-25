@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3200359,
+  "name": "Alto Rio Novo",
+  "slug": "alto-rio-novo",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-alto-rio-novo",
+      "name": "Aniversário de Alto Rio Novo",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-rio-novo-1031",
+      "name": "Feriado Municipal de Alto Rio Novo",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

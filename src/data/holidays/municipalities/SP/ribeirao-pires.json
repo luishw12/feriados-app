@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3543303,
+  "name": "Ribeirão Pires",
+  "slug": "ribeirao-pires",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ribeirao-pires",
+      "name": "Aniversário de Ribeirão Pires",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-pires-0604",
+      "name": "Feriado Municipal de Ribeirão Pires",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

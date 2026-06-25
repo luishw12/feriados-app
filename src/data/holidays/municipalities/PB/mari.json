@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2509107,
+  "name": "Mari",
+  "slug": "mari",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-mari",
+      "name": "Aniversário de Mari",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mari-0525",
+      "name": "Feriado Municipal de Mari",
+      "date": "05-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mari-0624",
+      "name": "Feriado Municipal de Mari",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mari-0629",
+      "name": "Feriado Municipal de Mari",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

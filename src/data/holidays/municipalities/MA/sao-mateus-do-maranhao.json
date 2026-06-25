@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2111508,
+  "name": "São Mateus do Maranhão",
+  "slug": "sao-mateus-do-maranhao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-mateus-do-maranhao",
+      "name": "Aniversário de São Mateus do Maranhão",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-mateus-do-maranhao-1226",
+      "name": "Feriado Municipal de São Mateus do Maranhão",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3551801,
+  "name": "Sete Barras",
+  "slug": "sete-barras",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sete-barras",
+      "name": "Aniversário de Sete Barras",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sete-barras-1218",
+      "name": "Feriado Municipal de Sete Barras",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

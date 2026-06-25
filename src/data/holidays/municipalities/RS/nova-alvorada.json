@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4312757,
+  "name": "Nova Alvorada",
+  "slug": "nova-alvorada",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-nova-alvorada",
+      "name": "Aniversário de Nova Alvorada",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-alvorada-0512",
+      "name": "Feriado Municipal de Nova Alvorada",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

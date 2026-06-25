@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3509205,
+  "name": "Cajamar",
+  "slug": "cajamar",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cajamar",
+      "name": "Aniversário de Cajamar",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cajamar-0218",
+      "name": "Feriado Municipal de Cajamar",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3133600,
+  "name": "Itapeva",
+  "slug": "itapeva",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itapeva",
+      "name": "Aniversário de Itapeva",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapeva-0301",
+      "name": "Feriado Municipal de Itapeva",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

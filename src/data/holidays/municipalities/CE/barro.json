@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2302008,
+  "name": "Barro",
+  "slug": "barro",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-barro",
+      "name": "Aniversário de Barro",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barro-1122",
+      "name": "Feriado Municipal de Barro",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

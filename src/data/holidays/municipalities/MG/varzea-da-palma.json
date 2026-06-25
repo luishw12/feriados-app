@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3170800,
+  "name": "Várzea da Palma",
+  "slug": "varzea-da-palma",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-varzea-da-palma",
+      "name": "Aniversário de Várzea da Palma",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

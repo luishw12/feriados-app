@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3163508,
+  "name": "São José do Jacuri",
+  "slug": "sao-jose-do-jacuri",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-jacuri",
+      "name": "Aniversário de São José do Jacuri",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-jacuri-1212",
+      "name": "Feriado Municipal de São José do Jacuri",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-jacuri-1224",
+      "name": "Feriado Municipal de São José do Jacuri",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

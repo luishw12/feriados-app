@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3511201,
+  "name": "Catiguá",
+  "slug": "catigua",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-catigua",
+      "name": "Aniversário de Catiguá",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-catigua-0503",
+      "name": "Feriado Municipal de Catiguá",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-catigua-0704",
+      "name": "Feriado Municipal de Catiguá",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

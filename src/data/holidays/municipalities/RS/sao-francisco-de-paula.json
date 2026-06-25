@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4318200,
+  "name": "São Francisco de Paula",
+  "slug": "sao-francisco-de-paula",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-francisco-de-paula",
+      "name": "Aniversário de São Francisco de Paula",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

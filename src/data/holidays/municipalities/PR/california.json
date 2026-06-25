@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4103503,
+  "name": "Califórnia",
+  "slug": "california",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-california",
+      "name": "Aniversário de Califórnia",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

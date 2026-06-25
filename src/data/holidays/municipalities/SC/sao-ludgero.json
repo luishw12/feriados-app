@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4217006,
+  "name": "São Ludgero",
+  "slug": "sao-ludgero",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-ludgero",
+      "name": "Aniversário de São Ludgero",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-ludgero-0612",
+      "name": "Feriado Municipal de São Ludgero",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

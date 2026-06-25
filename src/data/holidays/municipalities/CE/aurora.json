@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2301703,
+  "name": "Aurora",
+  "slug": "aurora",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-aurora",
+      "name": "Aniversário de Aurora",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aurora-1110",
+      "name": "Feriado Municipal de Aurora",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

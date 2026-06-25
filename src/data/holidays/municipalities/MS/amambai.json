@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5000609,
+  "name": "Amambai",
+  "slug": "amambai",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-amambai",
+      "name": "Aniversário de Amambai",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amambai-0928",
+      "name": "Feriado Municipal de Amambai",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

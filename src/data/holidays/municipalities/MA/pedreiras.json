@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2108207,
+  "name": "Pedreiras",
+  "slug": "pedreiras",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-pedreiras",
+      "name": "Aniversário de Pedreiras",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedreiras-0629",
+      "name": "Feriado Municipal de Pedreiras",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2801009,
+  "name": "Campo do Brito",
+  "slug": "campo-do-brito",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-campo-do-brito",
+      "name": "Aniversário de Campo do Brito",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-do-brito-0815",
+      "name": "Feriado Municipal de Campo do Brito",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-do-brito-0816",
+      "name": "Feriado Municipal de Campo do Brito",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4217303,
+  "name": "Saudades",
+  "slug": "saudades",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-saudades",
+      "name": "Aniversário de Saudades",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

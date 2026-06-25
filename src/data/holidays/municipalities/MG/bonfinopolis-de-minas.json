@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3108206,
+  "name": "Bonfinópolis de Minas",
+  "slug": "bonfinopolis-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-bonfinopolis-de-minas",
+      "name": "Aniversário de Bonfinópolis de Minas",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bonfinopolis-de-minas-0806",
+      "name": "Feriado Municipal de Bonfinópolis de Minas",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bonfinopolis-de-minas-1031",
+      "name": "Feriado Municipal de Bonfinópolis de Minas",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

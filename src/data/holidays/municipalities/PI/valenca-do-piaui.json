@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2211308,
+  "name": "Valença do Piauí",
+  "slug": "valenca-do-piaui",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-valenca-do-piaui",
+      "name": "Aniversário de Valença do Piauí",
+      "date": "09-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

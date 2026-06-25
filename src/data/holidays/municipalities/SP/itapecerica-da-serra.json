@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3522208,
+  "name": "Itapecerica da Serra",
+  "slug": "itapecerica-da-serra",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itapecerica-da-serra",
+      "name": "Aniversário de Itapecerica da Serra",
+      "date": "05-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

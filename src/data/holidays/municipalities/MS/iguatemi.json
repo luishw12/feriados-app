@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5004304,
+  "name": "Iguatemi",
+  "slug": "iguatemi",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-iguatemi",
+      "name": "Aniversário de Iguatemi",
+      "date": "05-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iguatemi-1208",
+      "name": "Feriado Municipal de Iguatemi",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

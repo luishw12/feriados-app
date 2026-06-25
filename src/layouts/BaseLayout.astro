@@ -12,7 +12,6 @@ import CookieConsent from '@/components/interactive/CookieConsent';
 import LocationPermissionGate from '@/components/interactive/LocationPermissionGate';
 import ContributionProvider from '@/components/interactive/ContributionProvider';
 import { getSiteUrl } from '@/lib/site-url';
-import { getAllStates, getAllMunicipalities } from '@/lib/holidays';
 
 interface Props {
   title: string;
@@ -45,13 +44,6 @@ const {
 } = Astro.props;
 
 const siteUrl = getSiteUrl(Astro.site);
-
-const gateStates = getAllStates().map((s) => ({ uf: s.uf, name: s.name, slug: s.slug }));
-const gateMunicipalities = getAllMunicipalities().map((m) => ({
-  slug: m.slug,
-  name: m.name,
-  uf: m.uf,
-}));
 ---
 
 <!doctype html>
@@ -97,10 +89,6 @@ const gateMunicipalities = getAllMunicipalities().map((m) => ({
     <LinkedInCTA />
     <CookieConsent client:load />
     <ContributionProvider client:load />
-    <LocationPermissionGate
-      client:load
-      states={gateStates}
-      municipalities={gateMunicipalities}
-    />
+    <LocationPermissionGate client:load />
   </body>
 </html>

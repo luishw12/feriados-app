@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4128708,
+  "name": "Vitorino",
+  "slug": "vitorino",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-vitorino",
+      "name": "Aniversário de Vitorino",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitorino-1129",
+      "name": "Feriado Municipal de Vitorino",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

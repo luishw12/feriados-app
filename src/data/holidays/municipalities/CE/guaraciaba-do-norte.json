@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2305001,
+  "name": "Guaraciaba do Norte",
+  "slug": "guaraciaba-do-norte",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-guaraciaba-do-norte",
+      "name": "Aniversário de Guaraciaba do Norte",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaraciaba-do-norte-0815",
+      "name": "Feriado Municipal de Guaraciaba do Norte",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

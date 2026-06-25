@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3117900,
+  "name": "Congonhal",
+  "slug": "congonhal",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-congonhal",
+      "name": "Aniversário de Congonhal",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-congonhal-0622",
+      "name": "Feriado Municipal de Congonhal",
+      "date": "06-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-congonhal-1212",
+      "name": "Feriado Municipal de Congonhal",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2408201,
+  "name": "Nísia Floresta",
+  "slug": "nisia-floresta",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-nisia-floresta",
+      "name": "Aniversário de Nísia Floresta",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nisia-floresta-1218",
+      "name": "Feriado Municipal de Nísia Floresta",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3203320,
+  "name": "Marataízes",
+  "slug": "marataizes",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-marataizes",
+      "name": "Aniversário de Marataízes",
+      "date": "10-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-marataizes-1209",
+      "name": "Feriado Municipal de Marataízes",
+      "date": "12-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

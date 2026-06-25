@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3123809,
+  "name": "Engenheiro Navarro",
+  "slug": "engenheiro-navarro",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-engenheiro-navarro",
+      "name": "Aniversário de Engenheiro Navarro",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

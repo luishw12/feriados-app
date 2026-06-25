@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3135605,
+  "name": "Jequitaí",
+  "slug": "jequitai",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-jequitai",
+      "name": "Aniversário de Jequitaí",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jequitai-1227",
+      "name": "Feriado Municipal de Jequitaí",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4107652,
+  "name": "Fazenda Rio Grande",
+  "slug": "fazenda-rio-grande",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-fazenda-rio-grande",
+      "name": "Aniversário de Fazenda Rio Grande",
+      "date": "01-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fazenda-rio-grande-0227",
+      "name": "Feriado Municipal de Fazenda Rio Grande",
+      "date": "02-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

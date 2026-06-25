@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1507409,
+  "name": "São Francisco do Pará",
+  "slug": "sao-francisco-do-para",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-francisco-do-para",
+      "name": "Aniversário de São Francisco do Pará",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

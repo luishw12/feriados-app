@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4214805,
+  "name": "Rio do Sul",
+  "slug": "rio-do-sul",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-rio-do-sul",
+      "name": "Aniversário de Rio do Sul",
+      "date": "04-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5104559,
+  "name": "Itaúba",
+  "slug": "itauba",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-itauba",
+      "name": "Aniversário de Itaúba",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itauba-0629",
+      "name": "Feriado Municipal de Itaúba",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

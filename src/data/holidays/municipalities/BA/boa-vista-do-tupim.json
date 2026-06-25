@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2903805,
+  "name": "Boa Vista do Tupim",
+  "slug": "boa-vista-do-tupim",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-boa-vista-do-tupim",
+      "name": "Aniversário de Boa Vista do Tupim",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boa-vista-do-tupim-0822",
+      "name": "Feriado Municipal de Boa Vista do Tupim",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

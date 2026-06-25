@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3535002,
+  "name": "Palestina",
+  "slug": "palestina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-palestina",
+      "name": "Aniversário de Palestina",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

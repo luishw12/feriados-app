@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1301852,
+  "name": "Iranduba",
+  "slug": "iranduba",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-iranduba",
+      "name": "Aniversário de Iranduba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iranduba-1210",
+      "name": "Feriado Municipal de Iranduba",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

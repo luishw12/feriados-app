@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4106100,
+  "name": "Conselheiro Mairinck",
+  "slug": "conselheiro-mairinck",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-conselheiro-mairinck",
+      "name": "Aniversário de Conselheiro Mairinck",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2929305,
+  "name": "São Gonçalo dos Campos",
+  "slug": "sao-goncalo-dos-campos",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-goncalo-dos-campos",
+      "name": "Aniversário de São Gonçalo dos Campos",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-goncalo-dos-campos-0624",
+      "name": "Feriado Municipal de São Gonçalo dos Campos",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-goncalo-dos-campos-0728",
+      "name": "Feriado Municipal de São Gonçalo dos Campos",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-goncalo-dos-campos-0930",
+      "name": "Feriado Municipal de São Gonçalo dos Campos",
+      "date": "09-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

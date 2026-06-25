@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3155801,
+  "name": "Rio Pomba",
+  "slug": "rio-pomba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-rio-pomba",
+      "name": "Aniversário de Rio Pomba",
+      "date": "04-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-pomba-0617",
+      "name": "Feriado Municipal de Rio Pomba",
+      "date": "06-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-pomba-0825",
+      "name": "Feriado Municipal de Rio Pomba",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

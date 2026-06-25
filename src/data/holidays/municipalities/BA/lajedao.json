@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2918902,
+  "name": "Lajedão",
+  "slug": "lajedao",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-lajedao",
+      "name": "Aniversário de Lajedão",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

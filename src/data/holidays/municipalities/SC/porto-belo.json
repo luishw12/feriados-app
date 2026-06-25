@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4213500,
+  "name": "Porto Belo",
+  "slug": "porto-belo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-porto-belo",
+      "name": "Aniversário de Porto Belo",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

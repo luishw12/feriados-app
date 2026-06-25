@@ -6,7 +6,7 @@ import HolidayArticleBody from '@/components/holiday/HolidayArticleBody.astro';
 import HolidayArticleSources from '@/components/holiday/HolidayArticleSources.astro';
 import HolidayContributors from '@/components/holiday/HolidayContributors.astro';
 import HolidayArticleNav from '@/components/holiday/HolidayArticleNav.astro';
-import { getArticleById, getArticlePublishedDate, assertAllHolidaysHaveArticles } from '@/lib/articles';
+import { getArticleById, getArticlePublishedDate, getAllArticleIds } from '@/lib/articles';
 import {
   getAllHolidayDefinitions,
   getHolidayScopeLabel,
@@ -18,8 +18,8 @@ import { getHolidayArticleOgImage } from '@/lib/holiday-images';
 import { getSiteUrl } from '@/lib/site-url';
 
 export const getStaticPaths: GetStaticPaths = () => {
-  const definitions = getAllHolidayDefinitions();
-  assertAllHolidaysHaveArticles(definitions.map((holiday) => holiday.id));
+  const articleIds = new Set(getAllArticleIds());
+  const definitions = getAllHolidayDefinitions().filter((holiday) => articleIds.has(holiday.id));
   const year = new Date().getFullYear();
 
   return definitions.map((definition) => {

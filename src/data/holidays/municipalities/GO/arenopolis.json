@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5202353,
+  "name": "Arenópolis",
+  "slug": "arenopolis",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-arenopolis",
+      "name": "Aniversário de Arenópolis",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arenopolis-0629",
+      "name": "Feriado Municipal de Arenópolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

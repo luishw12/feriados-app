@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5208103,
+  "name": "Formoso",
+  "slug": "formoso",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-formoso",
+      "name": "Aniversário de Formoso",
+      "date": "08-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-formoso-0925",
+      "name": "Feriado Municipal de Formoso",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

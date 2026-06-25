@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4302907,
+  "name": "Cacequi",
+  "slug": "cacequi",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cacequi",
+      "name": "Aniversário de Cacequi",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cacequi-1208",
+      "name": "Feriado Municipal de Cacequi",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 4210209,
+  "name": "Major Gercino",
+  "slug": "major-gercino",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-major-gercino",
+      "name": "Aniversário de Major Gercino",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-major-gercino-0725",
+      "name": "Feriado Municipal de Major Gercino",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-major-gercino-0806",
+      "name": "Feriado Municipal de Major Gercino",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-major-gercino-1208",
+      "name": "Feriado Municipal de Major Gercino",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-major-gercino-1228",
+      "name": "Feriado Municipal de Major Gercino",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

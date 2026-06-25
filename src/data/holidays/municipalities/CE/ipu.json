@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2305803,
+  "name": "Ipu",
+  "slug": "ipu",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-ipu",
+      "name": "Aniversário de Ipu",
+      "date": "08-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

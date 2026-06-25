@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3305307,
+  "name": "São Sebastião do Alto",
+  "slug": "sao-sebastiao-do-alto",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-sao-sebastiao-do-alto",
+      "name": "Aniversário de São Sebastião do Alto",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-do-alto-0325",
+      "name": "Feriado Municipal de São Sebastião do Alto",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-do-alto-1213",
+      "name": "Feriado Municipal de São Sebastião do Alto",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

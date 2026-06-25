@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1100098,
+  "name": "Espigão D'Oeste",
+  "slug": "espigao-d-oeste",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-espigao-d-oeste",
+      "name": "Aniversário de Espigão D'Oeste",
+      "date": "06-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

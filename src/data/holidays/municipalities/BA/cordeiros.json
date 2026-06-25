@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2909000,
+  "name": "Cordeiros",
+  "slug": "cordeiros",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-cordeiros",
+      "name": "Aniversário de Cordeiros",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cordeiros-0624",
+      "name": "Feriado Municipal de Cordeiros",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cordeiros-0825",
+      "name": "Feriado Municipal de Cordeiros",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

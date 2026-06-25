@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3122504,
+  "name": "Dom Cavati",
+  "slug": "dom-cavati",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-dom-cavati",
+      "name": "Aniversário de Dom Cavati",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

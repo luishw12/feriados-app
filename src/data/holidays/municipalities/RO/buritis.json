@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100452,
+  "name": "Buritis",
+  "slug": "buritis",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-buritis",
+      "name": "Aniversário de Buritis",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buritis-1227",
+      "name": "Feriado Municipal de Buritis",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4313300,
+  "name": "Nova Prata",
+  "slug": "nova-prata",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-nova-prata",
+      "name": "Aniversário de Nova Prata",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-prata-0624",
+      "name": "Feriado Municipal de Nova Prata",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

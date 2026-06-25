@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3524105,
+  "name": "Ituverava",
+  "slug": "ituverava",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ituverava",
+      "name": "Aniversário de Ituverava",
+      "date": "03-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ituverava-0716",
+      "name": "Feriado Municipal de Ituverava",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

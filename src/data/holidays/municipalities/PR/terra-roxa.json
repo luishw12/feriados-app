@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4127403,
+  "name": "Terra Roxa",
+  "slug": "terra-roxa",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-terra-roxa",
+      "name": "Aniversário de Terra Roxa",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-terra-roxa-1214",
+      "name": "Feriado Municipal de Terra Roxa",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

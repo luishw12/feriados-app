@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2103208,
+  "name": "Chapadinha",
+  "slug": "chapadinha",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-chapadinha",
+      "name": "Aniversário de Chapadinha",
+      "date": "03-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-chapadinha-0915",
+      "name": "Feriado Municipal de Chapadinha",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

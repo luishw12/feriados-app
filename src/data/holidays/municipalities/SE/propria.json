@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2805703,
+  "name": "Propriá",
+  "slug": "propria",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-propria",
+      "name": "Aniversário de Propriá",
+      "date": "02-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-propria-0613",
+      "name": "Feriado Municipal de Propriá",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-propria-0629",
+      "name": "Feriado Municipal de Propriá",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2306256,
+  "name": "Itaitinga",
+  "slug": "itaitinga",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-itaitinga",
+      "name": "Aniversário de Itaitinga",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaitinga-0613",
+      "name": "Feriado Municipal de Itaitinga",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

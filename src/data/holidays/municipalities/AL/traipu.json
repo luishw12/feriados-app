@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2709202,
+  "name": "Traipu",
+  "slug": "traipu",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-traipu",
+      "name": "Aniversário de Traipu",
+      "date": "05-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-traipu-1218",
+      "name": "Feriado Municipal de Traipu",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

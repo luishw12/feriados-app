@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3547205,
+  "name": "Santana da Ponte Pensa",
+  "slug": "santana-da-ponte-pensa",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santana-da-ponte-pensa",
+      "name": "Aniversário de Santana da Ponte Pensa",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-da-ponte-pensa-0726",
+      "name": "Feriado Municipal de Santana da Ponte Pensa",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

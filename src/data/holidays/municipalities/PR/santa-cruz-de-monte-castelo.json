@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4123303,
+  "name": "Santa Cruz de Monte Castelo",
+  "slug": "santa-cruz-de-monte-castelo",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cruz-de-monte-castelo",
+      "name": "Aniversário de Santa Cruz de Monte Castelo",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cruz-de-monte-castelo-1205",
+      "name": "Feriado Municipal de Santa Cruz de Monte Castelo",
+      "date": "12-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

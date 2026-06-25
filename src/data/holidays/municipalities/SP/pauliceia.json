@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3536406,
+  "name": "Paulicéia",
+  "slug": "pauliceia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pauliceia",
+      "name": "Aniversário de Paulicéia",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

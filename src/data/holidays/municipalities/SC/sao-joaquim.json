@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4216503,
+  "name": "São Joaquim",
+  "slug": "sao-joaquim",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joaquim",
+      "name": "Aniversário de São Joaquim",
+      "date": "05-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

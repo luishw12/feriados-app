@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5214606,
+  "name": "Niquelândia",
+  "slug": "niquelandia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-niquelandia",
+      "name": "Aniversário de Niquelândia",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-niquelandia-0725",
+      "name": "Feriado Municipal de Niquelândia",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-niquelandia-0815",
+      "name": "Feriado Municipal de Niquelândia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4213203,
+  "name": "Pomerode",
+  "slug": "pomerode",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-pomerode",
+      "name": "Aniversário de Pomerode",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

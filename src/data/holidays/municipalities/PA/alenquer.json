@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1500404,
+  "name": "Alenquer",
+  "slug": "alenquer",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-alenquer",
+      "name": "Aniversário de Alenquer",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alenquer-0120",
+      "name": "Feriado Municipal de Alenquer",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alenquer-0610",
+      "name": "Feriado Municipal de Alenquer",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alenquer-0613",
+      "name": "Feriado Municipal de Alenquer",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

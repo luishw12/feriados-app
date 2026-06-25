@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4215802,
+  "name": "São Bento do Sul",
+  "slug": "sao-bento-do-sul",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-bento-do-sul",
+      "name": "Aniversário de São Bento do Sul",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

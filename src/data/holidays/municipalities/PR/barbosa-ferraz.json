@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4102505,
+  "name": "Barbosa Ferraz",
+  "slug": "barbosa-ferraz",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-barbosa-ferraz",
+      "name": "Aniversário de Barbosa Ferraz",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barbosa-ferraz-0725",
+      "name": "Feriado Municipal de Barbosa Ferraz",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barbosa-ferraz-1127",
+      "name": "Feriado Municipal de Barbosa Ferraz",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

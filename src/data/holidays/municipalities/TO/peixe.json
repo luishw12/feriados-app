@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1716604,
+  "name": "Peixe",
+  "slug": "peixe",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-peixe",
+      "name": "Aniversário de Peixe",
+      "date": "06-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-peixe-0815",
+      "name": "Feriado Municipal de Peixe",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

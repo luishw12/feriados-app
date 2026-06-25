@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3525201,
+  "name": "Jarinu",
+  "slug": "jarinu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jarinu",
+      "name": "Aniversário de Jarinu",
+      "date": "04-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jarinu-0716",
+      "name": "Feriado Municipal de Jarinu",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

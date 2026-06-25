@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2924306,
+  "name": "Piatã",
+  "slug": "piata",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-piata",
+      "name": "Aniversário de Piatã",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piata-0624",
+      "name": "Feriado Municipal de Piatã",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piata-0711",
+      "name": "Feriado Municipal de Piatã",
+      "date": "07-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3501152,
+  "name": "Alumínio",
+  "slug": "aluminio",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aluminio",
+      "name": "Aniversário de Alumínio",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

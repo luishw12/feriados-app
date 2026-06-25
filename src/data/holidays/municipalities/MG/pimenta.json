@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3150505,
+  "name": "Pimenta",
+  "slug": "pimenta",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pimenta",
+      "name": "Aniversário de Pimenta",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

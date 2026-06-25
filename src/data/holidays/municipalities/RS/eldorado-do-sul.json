@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4306767,
+  "name": "Eldorado do Sul",
+  "slug": "eldorado-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-eldorado-do-sul",
+      "name": "Aniversário de Eldorado do Sul",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-eldorado-do-sul-0608",
+      "name": "Feriado Municipal de Eldorado do Sul",
+      "date": "06-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2201507,
+  "name": "Batalha",
+  "slug": "batalha",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-batalha",
+      "name": "Aniversário de Batalha",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-batalha-1215",
+      "name": "Feriado Municipal de Batalha",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

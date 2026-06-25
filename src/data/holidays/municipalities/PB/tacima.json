@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2516409,
+  "name": "Tacima",
+  "slug": "tacima",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-tacima",
+      "name": "Aniversário de Tacima",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tacima-0430",
+      "name": "Feriado Municipal de Tacima",
+      "date": "04-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tacima-0624",
+      "name": "Feriado Municipal de Tacima",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

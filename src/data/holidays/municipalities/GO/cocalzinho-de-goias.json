@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5205513,
+  "name": "Cocalzinho de Goiás",
+  "slug": "cocalzinho-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-cocalzinho-de-goias",
+      "name": "Aniversário de Cocalzinho de Goiás",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cocalzinho-de-goias-0703",
+      "name": "Feriado Municipal de Cocalzinho de Goiás",
+      "date": "07-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cocalzinho-de-goias-1130",
+      "name": "Feriado Municipal de Cocalzinho de Goiás",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

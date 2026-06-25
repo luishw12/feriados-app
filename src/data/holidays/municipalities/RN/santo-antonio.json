@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2411502,
+  "name": "Santo Antônio",
+  "slug": "santo-antonio",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio",
+      "name": "Aniversário de Santo Antônio",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-0705",
+      "name": "Feriado Municipal de Santo Antônio",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-1208",
+      "name": "Feriado Municipal de Santo Antônio",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

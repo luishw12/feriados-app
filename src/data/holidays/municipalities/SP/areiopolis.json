@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3503604,
+  "name": "Areiópolis",
+  "slug": "areiopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-areiopolis",
+      "name": "Aniversário de Areiópolis",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-areiopolis-0914",
+      "name": "Feriado Municipal de Areiópolis",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

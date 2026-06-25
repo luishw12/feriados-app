@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3557303,
+  "name": "Estiva Gerbi",
+  "slug": "estiva-gerbi",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-estiva-gerbi",
+      "name": "Aniversário de Estiva Gerbi",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estiva-gerbi-0519",
+      "name": "Feriado Municipal de Estiva Gerbi",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

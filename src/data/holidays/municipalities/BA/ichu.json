@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2913309,
+  "name": "Ichu",
+  "slug": "ichu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ichu",
+      "name": "Aniversário de Ichu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

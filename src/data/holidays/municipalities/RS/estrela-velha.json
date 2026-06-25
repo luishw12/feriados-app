@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4307815,
+  "name": "Estrela Velha",
+  "slug": "estrela-velha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-estrela-velha",
+      "name": "Aniversário de Estrela Velha",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estrela-velha-1228",
+      "name": "Feriado Municipal de Estrela Velha",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

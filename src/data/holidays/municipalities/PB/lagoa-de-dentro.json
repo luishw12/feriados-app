@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2508208,
+  "name": "Lagoa de Dentro",
+  "slug": "lagoa-de-dentro",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-lagoa-de-dentro",
+      "name": "Aniversário de Lagoa de Dentro",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-de-dentro-0624",
+      "name": "Feriado Municipal de Lagoa de Dentro",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-de-dentro-1220",
+      "name": "Feriado Municipal de Lagoa de Dentro",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

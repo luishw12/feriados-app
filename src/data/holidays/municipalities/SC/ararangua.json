@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4201406,
+  "name": "Araranguá",
+  "slug": "ararangua",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ararangua",
+      "name": "Aniversário de Araranguá",
+      "date": "05-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

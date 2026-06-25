@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3137205,
+  "name": "Lagoa da Prata",
+  "slug": "lagoa-da-prata",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-lagoa-da-prata",
+      "name": "Aniversário de Lagoa da Prata",
+      "date": "11-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-da-prata-1227",
+      "name": "Feriado Municipal de Lagoa da Prata",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

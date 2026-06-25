@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2210201,
+  "name": "São José do Piauí",
+  "slug": "sao-jose-do-piaui",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-piaui",
+      "name": "Aniversário de São José do Piauí",
+      "date": "04-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-piaui-1212",
+      "name": "Feriado Municipal de São José do Piauí",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

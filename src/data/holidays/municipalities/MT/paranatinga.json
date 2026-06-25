@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5106307,
+  "name": "Paranatinga",
+  "slug": "paranatinga",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-paranatinga",
+      "name": "Aniversário de Paranatinga",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranatinga-1203",
+      "name": "Feriado Municipal de Paranatinga",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranatinga-1217",
+      "name": "Feriado Municipal de Paranatinga",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3520905,
+  "name": "Ipaussu",
+  "slug": "ipaussu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ipaussu",
+      "name": "Aniversário de Ipaussu",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipaussu-0920",
+      "name": "Feriado Municipal de Ipaussu",
+      "date": "09-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

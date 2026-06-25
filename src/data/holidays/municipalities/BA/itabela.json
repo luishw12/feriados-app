@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2914653,
+  "name": "Itabela",
+  "slug": "itabela",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itabela",
+      "name": "Aniversário de Itabela",
+      "date": "06-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itabela-0624",
+      "name": "Feriado Municipal de Itabela",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

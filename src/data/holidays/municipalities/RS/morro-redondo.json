@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4312450,
+  "name": "Morro Redondo",
+  "slug": "morro-redondo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-morro-redondo",
+      "name": "Aniversário de Morro Redondo",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-morro-redondo-0914",
+      "name": "Feriado Municipal de Morro Redondo",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

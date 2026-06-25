@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2926608,
+  "name": "Ribeira do Pombal",
+  "slug": "ribeira-do-pombal",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ribeira-do-pombal",
+      "name": "Aniversário de Ribeira do Pombal",
+      "date": "09-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

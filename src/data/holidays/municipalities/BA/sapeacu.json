@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2929602,
+  "name": "Sapeaçu",
+  "slug": "sapeacu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sapeacu",
+      "name": "Aniversário de Sapeaçu",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sapeacu-0624",
+      "name": "Feriado Municipal de Sapeaçu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sapeacu-1208",
+      "name": "Feriado Municipal de Sapeaçu",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

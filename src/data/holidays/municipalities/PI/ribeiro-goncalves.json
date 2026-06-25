@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2208908,
+  "name": "Ribeiro Gonçalves",
+  "slug": "ribeiro-goncalves",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-ribeiro-goncalves",
+      "name": "Aniversário de Ribeiro Gonçalves",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeiro-goncalves-0726",
+      "name": "Feriado Municipal de Ribeiro Gonçalves",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

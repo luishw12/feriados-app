@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4115754,
+  "name": "Mauá da Serra",
+  "slug": "maua-da-serra",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-maua-da-serra",
+      "name": "Aniversário de Mauá da Serra",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maua-da-serra-1208",
+      "name": "Feriado Municipal de Mauá da Serra",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

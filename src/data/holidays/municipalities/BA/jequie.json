@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2918001,
+  "name": "Jequié",
+  "slug": "jequie",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-jequie",
+      "name": "Aniversário de Jequié",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jequie-0624",
+      "name": "Feriado Municipal de Jequié",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jequie-0820",
+      "name": "Feriado Municipal de Jequié",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jequie-1025",
+      "name": "Feriado Municipal de Jequié",
+      "date": "10-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

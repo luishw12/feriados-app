@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3202900,
+  "name": "Itarana",
+  "slug": "itarana",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-itarana",
+      "name": "Aniversário de Itarana",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itarana-0418",
+      "name": "Feriado Municipal de Itarana",
+      "date": "04-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itarana-0524",
+      "name": "Feriado Municipal de Itarana",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itarana-1031",
+      "name": "Feriado Municipal de Itarana",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

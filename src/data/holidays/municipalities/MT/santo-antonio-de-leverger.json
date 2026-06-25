@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5107800,
+  "name": "Santo Antônio de Leverger",
+  "slug": "santo-antonio-de-leverger",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-de-leverger",
+      "name": "Aniversário de Santo Antônio de Leverger",
+      "date": "05-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-de-leverger-0613",
+      "name": "Feriado Municipal de Santo Antônio de Leverger",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

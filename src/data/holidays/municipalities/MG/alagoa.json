@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3101300,
+  "name": "Alagoa",
+  "slug": "alagoa",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-alagoa",
+      "name": "Aniversário de Alagoa",
+      "date": "06-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alagoa-0915",
+      "name": "Feriado Municipal de Alagoa",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alagoa-1228",
+      "name": "Feriado Municipal de Alagoa",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3167707,
+  "name": "Sobrália",
+  "slug": "sobralia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sobralia",
+      "name": "Aniversário de Sobrália",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sobralia-1213",
+      "name": "Feriado Municipal de Sobrália",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

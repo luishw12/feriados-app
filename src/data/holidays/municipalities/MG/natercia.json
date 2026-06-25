@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3144409,
+  "name": "Natércia",
+  "slug": "natercia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-natercia",
+      "name": "Aniversário de Natércia",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-natercia-1125",
+      "name": "Feriado Municipal de Natércia",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

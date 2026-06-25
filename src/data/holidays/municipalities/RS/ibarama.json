@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4309753,
+  "name": "Ibarama",
+  "slug": "ibarama",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-ibarama",
+      "name": "Aniversário de Ibarama",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibarama-0725",
+      "name": "Feriado Municipal de Ibarama",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

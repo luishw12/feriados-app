@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4118303,
+  "name": "Paranapoema",
+  "slug": "paranapoema",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-paranapoema",
+      "name": "Aniversário de Paranapoema",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

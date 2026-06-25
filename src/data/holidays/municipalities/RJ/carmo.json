@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3301207,
+  "name": "Carmo",
+  "slug": "carmo",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-carmo",
+      "name": "Aniversário de Carmo",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmo-0716",
+      "name": "Feriado Municipal de Carmo",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

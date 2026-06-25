@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1304062,
+  "name": "Tabatinga",
+  "slug": "tabatinga",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-tabatinga",
+      "name": "Aniversário de Tabatinga",
+      "date": "02-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tabatinga-0929",
+      "name": "Feriado Municipal de Tabatinga",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

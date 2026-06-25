@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3503208,
+  "name": "Araraquara",
+  "slug": "araraquara",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-araraquara",
+      "name": "Aniversário de Araraquara",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

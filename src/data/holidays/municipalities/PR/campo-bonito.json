@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4104055,
+  "name": "Campo Bonito",
+  "slug": "campo-bonito",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-campo-bonito",
+      "name": "Aniversário de Campo Bonito",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-bonito-0121",
+      "name": "Feriado Municipal de Campo Bonito",
+      "date": "01-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-bonito-1031",
+      "name": "Feriado Municipal de Campo Bonito",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

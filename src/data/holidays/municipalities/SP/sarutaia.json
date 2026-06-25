@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3551207,
+  "name": "Sarutaiá",
+  "slug": "sarutaia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sarutaia",
+      "name": "Aniversário de Sarutaiá",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sarutaia-1208",
+      "name": "Feriado Municipal de Sarutaiá",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

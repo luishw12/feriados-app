@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4122404,
+  "name": "Rolândia",
+  "slug": "rolandia",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-rolandia",
+      "name": "Aniversário de Rolândia",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rolandia-0319",
+      "name": "Feriado Municipal de Rolândia",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

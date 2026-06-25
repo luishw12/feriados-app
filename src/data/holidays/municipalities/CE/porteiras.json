@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2311108,
+  "name": "Porteiras",
+  "slug": "porteiras",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-porteiras",
+      "name": "Aniversário de Porteiras",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

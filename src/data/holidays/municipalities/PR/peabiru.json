@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4118808,
+  "name": "Peabiru",
+  "slug": "peabiru",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-peabiru",
+      "name": "Aniversário de Peabiru",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-peabiru-1214",
+      "name": "Feriado Municipal de Peabiru",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

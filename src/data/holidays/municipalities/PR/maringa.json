@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4115200,
+  "name": "Maringá",
+  "slug": "maringa",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-maringa",
+      "name": "Aniversário de Maringá",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maringa-0512",
+      "name": "Feriado Municipal de Maringá",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maringa-0604",
+      "name": "Feriado Municipal de Maringá",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maringa-0815",
+      "name": "Feriado Municipal de Maringá",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5005400,
+  "name": "Maracaju",
+  "slug": "maracaju",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-maracaju",
+      "name": "Aniversário de Maracaju",
+      "date": "06-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

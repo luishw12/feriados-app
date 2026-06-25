@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4314555,
+  "name": "Pirapó",
+  "slug": "pirapo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-pirapo",
+      "name": "Aniversário de Pirapó",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirapo-1130",
+      "name": "Feriado Municipal de Pirapó",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3501004,
+  "name": "Altinópolis",
+  "slug": "altinopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-altinopolis",
+      "name": "Aniversário de Altinópolis",
+      "date": "03-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-altinopolis-0915",
+      "name": "Feriado Municipal de Altinópolis",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

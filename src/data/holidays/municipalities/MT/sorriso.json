@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5107925,
+  "name": "Sorriso",
+  "slug": "sorriso",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-sorriso",
+      "name": "Aniversário de Sorriso",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sorriso-0629",
+      "name": "Feriado Municipal de Sorriso",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

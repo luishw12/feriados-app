@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3165800,
+  "name": "Senador José Bento",
+  "slug": "senador-jose-bento",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-senador-jose-bento",
+      "name": "Aniversário de Senador José Bento",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-senador-jose-bento-0301",
+      "name": "Feriado Municipal de Senador José Bento",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

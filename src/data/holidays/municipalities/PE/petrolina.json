@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2611101,
+  "name": "Petrolina",
+  "slug": "petrolina",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-petrolina",
+      "name": "Aniversário de Petrolina",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-petrolina-0604",
+      "name": "Feriado Municipal de Petrolina",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-petrolina-0815",
+      "name": "Feriado Municipal de Petrolina",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-petrolina-0921",
+      "name": "Feriado Municipal de Petrolina",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

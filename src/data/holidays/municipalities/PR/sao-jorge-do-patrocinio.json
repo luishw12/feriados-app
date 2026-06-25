@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4125357,
+  "name": "São Jorge do Patrocínio",
+  "slug": "sao-jorge-do-patrocinio",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jorge-do-patrocinio",
+      "name": "Aniversário de São Jorge do Patrocínio",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

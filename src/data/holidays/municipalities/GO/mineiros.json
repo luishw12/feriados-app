@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5213103,
+  "name": "Mineiros",
+  "slug": "mineiros",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-mineiros",
+      "name": "Aniversário de Mineiros",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

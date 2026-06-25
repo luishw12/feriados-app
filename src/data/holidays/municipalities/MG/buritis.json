@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3109303,
+  "name": "Buritis",
+  "slug": "buritis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-buritis",
+      "name": "Aniversário de Buritis",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buritis-0908",
+      "name": "Feriado Municipal de Buritis",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buritis-1130",
+      "name": "Feriado Municipal de Buritis",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

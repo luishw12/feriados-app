@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2105500,
+  "name": "João Lisboa",
+  "slug": "joao-lisboa",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-joao-lisboa",
+      "name": "Aniversário de João Lisboa",
+      "date": "07-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joao-lisboa-1222",
+      "name": "Feriado Municipal de João Lisboa",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

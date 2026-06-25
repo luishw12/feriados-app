@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4303806,
+  "name": "Campinas do Sul",
+  "slug": "campinas-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-campinas-do-sul",
+      "name": "Aniversário de Campinas do Sul",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campinas-do-sul-0531",
+      "name": "Feriado Municipal de Campinas do Sul",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

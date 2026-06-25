@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100940,
+  "name": "Cujubim",
+  "slug": "cujubim",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-cujubim",
+      "name": "Aniversário de Cujubim",
+      "date": "06-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cujubim-0624",
+      "name": "Feriado Municipal de Cujubim",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

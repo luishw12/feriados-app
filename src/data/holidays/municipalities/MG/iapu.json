@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3129301,
+  "name": "Iapu",
+  "slug": "iapu",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-iapu",
+      "name": "Aniversário de Iapu",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

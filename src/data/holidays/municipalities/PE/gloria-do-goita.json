@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2606101,
+  "name": "Glória do Goitá",
+  "slug": "gloria-do-goita",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-gloria-do-goita",
+      "name": "Aniversário de Glória do Goitá",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gloria-do-goita-0815",
+      "name": "Feriado Municipal de Glória do Goitá",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gloria-do-goita-1208",
+      "name": "Feriado Municipal de Glória do Goitá",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

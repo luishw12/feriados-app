@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4206306,
+  "name": "Guabiruba",
+  "slug": "guabiruba",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-guabiruba",
+      "name": "Aniversário de Guabiruba",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

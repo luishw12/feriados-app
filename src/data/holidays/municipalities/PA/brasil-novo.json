@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1501725,
+  "name": "Brasil Novo",
+  "slug": "brasil-novo",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-brasil-novo",
+      "name": "Aniversário de Brasil Novo",
+      "date": "07-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

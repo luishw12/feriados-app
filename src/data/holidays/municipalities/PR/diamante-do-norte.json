@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4107108,
+  "name": "Diamante do Norte",
+  "slug": "diamante-do-norte",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-diamante-do-norte",
+      "name": "Aniversário de Diamante do Norte",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

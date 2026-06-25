@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3545001,
+  "name": "Salesópolis",
+  "slug": "salesopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-salesopolis",
+      "name": "Aniversário de Salesópolis",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salesopolis-0319",
+      "name": "Feriado Municipal de Salesópolis",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

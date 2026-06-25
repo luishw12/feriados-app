@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2901809,
+  "name": "Antônio Gonçalves",
+  "slug": "antonio-goncalves",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-antonio-goncalves",
+      "name": "Aniversário de Antônio Gonçalves",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

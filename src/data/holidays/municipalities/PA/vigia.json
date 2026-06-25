@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1508209,
+  "name": "Vigia",
+  "slug": "vigia",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-vigia",
+      "name": "Aniversário de Vigia",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vigia-0214",
+      "name": "Feriado Municipal de Vigia",
+      "date": "02-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vigia-0805",
+      "name": "Feriado Municipal de Vigia",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

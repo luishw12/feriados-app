@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2903276,
+  "name": "Barrocas",
+  "slug": "barrocas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-barrocas",
+      "name": "Aniversário de Barrocas",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barrocas-0624",
+      "name": "Feriado Municipal de Barrocas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barrocas-0923",
+      "name": "Feriado Municipal de Barrocas",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

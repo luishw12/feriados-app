@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2112407,
+  "name": "Turiaçu",
+  "slug": "turiacu",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-turiacu",
+      "name": "Aniversário de Turiaçu",
+      "date": "07-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-turiacu-1203",
+      "name": "Feriado Municipal de Turiaçu",
+      "date": "12-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3512605,
+  "name": "Coronel Macedo",
+  "slug": "coronel-macedo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-coronel-macedo",
+      "name": "Aniversário de Coronel Macedo",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-macedo-0405",
+      "name": "Feriado Municipal de Coronel Macedo",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-macedo-0606",
+      "name": "Feriado Municipal de Coronel Macedo",
+      "date": "06-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-macedo-1208",
+      "name": "Feriado Municipal de Coronel Macedo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

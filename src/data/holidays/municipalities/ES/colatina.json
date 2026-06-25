@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3201506,
+  "name": "Colatina",
+  "slug": "colatina",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-colatina",
+      "name": "Aniversário de Colatina",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

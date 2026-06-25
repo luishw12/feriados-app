@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3548906,
+  "name": "São Carlos",
+  "slug": "sao-carlos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-carlos",
+      "name": "Aniversário de São Carlos",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-carlos-0604",
+      "name": "Feriado Municipal de São Carlos",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-carlos-0815",
+      "name": "Feriado Municipal de São Carlos",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-carlos-1104",
+      "name": "Feriado Municipal de São Carlos",
+      "date": "11-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

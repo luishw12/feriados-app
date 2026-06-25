@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3540507,
+  "name": "Porangaba",
+  "slug": "porangaba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-porangaba",
+      "name": "Aniversário de Porangaba",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porangaba-0613",
+      "name": "Feriado Municipal de Porangaba",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porangaba-0721",
+      "name": "Feriado Municipal de Porangaba",
+      "date": "07-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

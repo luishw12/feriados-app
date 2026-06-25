@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3171303,
+  "name": "Viçosa",
+  "slug": "vicosa",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-vicosa",
+      "name": "Aniversário de Viçosa",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vicosa-0930",
+      "name": "Feriado Municipal de Viçosa",
+      "date": "09-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

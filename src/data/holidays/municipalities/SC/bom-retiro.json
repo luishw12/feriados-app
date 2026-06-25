@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4202602,
+  "name": "Bom Retiro",
+  "slug": "bom-retiro",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-bom-retiro",
+      "name": "Aniversário de Bom Retiro",
+      "date": "01-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-retiro-0627",
+      "name": "Feriado Municipal de Bom Retiro",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-retiro-1031",
+      "name": "Feriado Municipal de Bom Retiro",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

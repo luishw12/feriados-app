@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5219308,
+  "name": "Santa Helena de Goiás",
+  "slug": "santa-helena-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-santa-helena-de-goias",
+      "name": "Aniversário de Santa Helena de Goiás",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-helena-de-goias-0820",
+      "name": "Feriado Municipal de Santa Helena de Goiás",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

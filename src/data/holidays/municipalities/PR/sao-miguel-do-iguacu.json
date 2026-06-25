@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4125704,
+  "name": "São Miguel do Iguaçu",
+  "slug": "sao-miguel-do-iguacu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-do-iguacu",
+      "name": "Aniversário de São Miguel do Iguaçu",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-do-iguacu-0929",
+      "name": "Feriado Municipal de São Miguel do Iguaçu",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-do-iguacu-1128",
+      "name": "Feriado Municipal de São Miguel do Iguaçu",
+      "date": "11-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

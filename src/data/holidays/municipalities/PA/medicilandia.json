@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1504455,
+  "name": "Medicilândia",
+  "slug": "medicilandia",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-medicilandia",
+      "name": "Aniversário de Medicilândia",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-medicilandia-0725",
+      "name": "Feriado Municipal de Medicilândia",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

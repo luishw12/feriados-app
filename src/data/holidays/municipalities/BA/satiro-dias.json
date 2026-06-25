@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2929701,
+  "name": "Sátiro Dias",
+  "slug": "satiro-dias",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-satiro-dias",
+      "name": "Aniversário de Sátiro Dias",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-satiro-dias-0308",
+      "name": "Feriado Municipal de Sátiro Dias",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-satiro-dias-0624",
+      "name": "Feriado Municipal de Sátiro Dias",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-satiro-dias-0814",
+      "name": "Feriado Municipal de Sátiro Dias",
+      "date": "08-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

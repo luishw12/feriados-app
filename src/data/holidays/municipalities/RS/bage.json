@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4301602,
+  "name": "Bagé",
+  "slug": "bage",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-bage",
+      "name": "Aniversário de Bagé",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bage-0524",
+      "name": "Feriado Municipal de Bagé",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

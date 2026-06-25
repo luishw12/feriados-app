@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2804003,
+  "name": "Maruim",
+  "slug": "maruim",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-maruim",
+      "name": "Aniversário de Maruim",
+      "date": "01-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maruim-0815",
+      "name": "Feriado Municipal de Maruim",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

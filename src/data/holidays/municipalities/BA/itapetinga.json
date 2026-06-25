@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2916401,
+  "name": "Itapetinga",
+  "slug": "itapetinga",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itapetinga",
+      "name": "Aniversário de Itapetinga",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapetinga-0624",
+      "name": "Feriado Municipal de Itapetinga",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapetinga-1212",
+      "name": "Feriado Municipal de Itapetinga",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

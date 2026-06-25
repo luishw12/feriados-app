@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3132602,
+  "name": "Itamarati de Minas",
+  "slug": "itamarati-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itamarati-de-minas",
+      "name": "Aniversário de Itamarati de Minas",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

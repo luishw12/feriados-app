@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3542008,
+  "name": "Quintana",
+  "slug": "quintana",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-quintana",
+      "name": "Aniversário de Quintana",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

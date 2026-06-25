@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4112306,
+  "name": "Japira",
+  "slug": "japira",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-japira",
+      "name": "Aniversário de Japira",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-japira-1214",
+      "name": "Feriado Municipal de Japira",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

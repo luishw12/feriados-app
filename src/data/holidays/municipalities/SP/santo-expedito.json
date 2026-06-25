@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3548302,
+  "name": "Santo Expedito",
+  "slug": "santo-expedito",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santo-expedito",
+      "name": "Aniversário de Santo Expedito",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-expedito-1210",
+      "name": "Feriado Municipal de Santo Expedito",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

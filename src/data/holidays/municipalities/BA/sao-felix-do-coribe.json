@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2929057,
+  "name": "São Félix do Coribe",
+  "slug": "sao-felix-do-coribe",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-felix-do-coribe",
+      "name": "Aniversário de São Félix do Coribe",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-felix-do-coribe-0709",
+      "name": "Feriado Municipal de São Félix do Coribe",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

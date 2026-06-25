@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3200409,
+  "name": "Anchieta",
+  "slug": "anchieta",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-anchieta",
+      "name": "Aniversário de Anchieta",
+      "date": "06-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anchieta-0629",
+      "name": "Feriado Municipal de Anchieta",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anchieta-0815",
+      "name": "Feriado Municipal de Anchieta",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

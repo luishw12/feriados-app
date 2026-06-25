@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2615003,
+  "name": "Taquaritinga do Norte",
+  "slug": "taquaritinga-do-norte",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-taquaritinga-do-norte",
+      "name": "Aniversário de Taquaritinga do Norte",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taquaritinga-do-norte-0510",
+      "name": "Feriado Municipal de Taquaritinga do Norte",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

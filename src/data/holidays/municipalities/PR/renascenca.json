@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4121604,
+  "name": "Renascença",
+  "slug": "renascenca",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-renascenca",
+      "name": "Aniversário de Renascença",
+      "date": "09-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-renascenca-1129",
+      "name": "Feriado Municipal de Renascença",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

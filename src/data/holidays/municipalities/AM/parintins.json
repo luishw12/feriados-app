@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1303403,
+  "name": "Parintins",
+  "slug": "parintins",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-parintins",
+      "name": "Aniversário de Parintins",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parintins-0716",
+      "name": "Feriado Municipal de Parintins",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

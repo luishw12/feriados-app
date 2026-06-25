@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4318481,
+  "name": "São José do Hortêncio",
+  "slug": "sao-jose-do-hortencio",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-hortencio",
+      "name": "Aniversário de São José do Hortêncio",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3162708,
+  "name": "São João do Paraíso",
+  "slug": "sao-joao-do-paraiso",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-paraiso",
+      "name": "Aniversário de São João do Paraíso",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-do-paraiso-0629",
+      "name": "Feriado Municipal de São João do Paraíso",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-do-paraiso-0806",
+      "name": "Feriado Municipal de São João do Paraíso",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-do-paraiso-1101",
+      "name": "Feriado Municipal de São João do Paraíso",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2100477,
+  "name": "Alto Alegre do Pindaré",
+  "slug": "alto-alegre-do-pindare",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-alto-alegre-do-pindare",
+      "name": "Aniversário de Alto Alegre do Pindaré",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

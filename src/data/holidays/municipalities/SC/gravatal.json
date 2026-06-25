@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4206207,
+  "name": "Gravatal",
+  "slug": "gravatal",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-gravatal",
+      "name": "Aniversário de Gravatal",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

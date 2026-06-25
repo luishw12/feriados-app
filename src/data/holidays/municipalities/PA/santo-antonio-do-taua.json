@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1507003,
+  "name": "Santo Antônio do Tauá",
+  "slug": "santo-antonio-do-taua",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-taua",
+      "name": "Aniversário de Santo Antônio do Tauá",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-taua-0613",
+      "name": "Feriado Municipal de Santo Antônio do Tauá",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

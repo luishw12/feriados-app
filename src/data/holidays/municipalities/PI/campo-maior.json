@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2202208,
+  "name": "Campo Maior",
+  "slug": "campo-maior",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-campo-maior",
+      "name": "Aniversário de Campo Maior",
+      "date": "03-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-maior-0613",
+      "name": "Feriado Municipal de Campo Maior",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-maior-0808",
+      "name": "Feriado Municipal de Campo Maior",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

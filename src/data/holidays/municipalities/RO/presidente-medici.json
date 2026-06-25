@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100254,
+  "name": "Presidente Médici",
+  "slug": "presidente-medici",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-medici",
+      "name": "Aniversário de Presidente Médici",
+      "date": "06-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-medici-0624",
+      "name": "Feriado Municipal de Presidente Médici",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

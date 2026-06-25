@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2909406,
+  "name": "Cotegipe",
+  "slug": "cotegipe",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-cotegipe",
+      "name": "Aniversário de Cotegipe",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cotegipe-0624",
+      "name": "Feriado Municipal de Cotegipe",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cotegipe-0630",
+      "name": "Feriado Municipal de Cotegipe",
+      "date": "06-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3304003,
+  "name": "Piraí",
+  "slug": "pirai",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-pirai",
+      "name": "Aniversário de Piraí",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirai-1017",
+      "name": "Feriado Municipal de Piraí",
+      "date": "10-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

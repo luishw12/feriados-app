@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2701506,
+  "name": "Campo Grande",
+  "slug": "campo-grande",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-campo-grande",
+      "name": "Aniversário de Campo Grande",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-grande-0601",
+      "name": "Feriado Municipal de Campo Grande",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-grande-1213",
+      "name": "Feriado Municipal de Campo Grande",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

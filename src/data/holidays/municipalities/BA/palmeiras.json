@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2923506,
+  "name": "Palmeiras",
+  "slug": "palmeiras",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-palmeiras",
+      "name": "Aniversário de Palmeiras",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmeiras-0624",
+      "name": "Feriado Municipal de Palmeiras",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4105904,
+  "name": "Colorado",
+  "slug": "colorado",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-colorado",
+      "name": "Aniversário de Colorado",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-colorado-0524",
+      "name": "Feriado Municipal de Colorado",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

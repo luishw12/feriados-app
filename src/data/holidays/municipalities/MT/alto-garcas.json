@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5100409,
+  "name": "Alto Garças",
+  "slug": "alto-garcas",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-alto-garcas",
+      "name": "Aniversário de Alto Garças",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-garcas-1210",
+      "name": "Feriado Municipal de Alto Garças",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

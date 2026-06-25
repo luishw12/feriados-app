@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3124708,
+  "name": "Estrela do Indaiá",
+  "slug": "estrela-do-indaia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-estrela-do-indaia",
+      "name": "Aniversário de Estrela do Indaiá",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estrela-do-indaia-1227",
+      "name": "Feriado Municipal de Estrela do Indaiá",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

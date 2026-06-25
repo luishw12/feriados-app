@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3112604,
+  "name": "Capinópolis",
+  "slug": "capinopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-capinopolis",
+      "name": "Aniversário de Capinópolis",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capinopolis-0629",
+      "name": "Feriado Municipal de Capinópolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capinopolis-1127",
+      "name": "Feriado Municipal de Capinópolis",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

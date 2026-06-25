@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3136207,
+  "name": "João Monlevade",
+  "slug": "joao-monlevade",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-joao-monlevade",
+      "name": "Aniversário de João Monlevade",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joao-monlevade-1208",
+      "name": "Feriado Municipal de João Monlevade",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

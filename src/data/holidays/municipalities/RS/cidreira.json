@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4305454,
+  "name": "Cidreira",
+  "slug": "cidreira",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cidreira",
+      "name": "Aniversário de Cidreira",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cidreira-0624",
+      "name": "Feriado Municipal de Cidreira",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cidreira-1121",
+      "name": "Feriado Municipal de Cidreira",
+      "date": "11-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

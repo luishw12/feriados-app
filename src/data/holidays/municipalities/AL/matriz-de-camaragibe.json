@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2705101,
+  "name": "Matriz de Camaragibe",
+  "slug": "matriz-de-camaragibe",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-matriz-de-camaragibe",
+      "name": "Aniversário de Matriz de Camaragibe",
+      "date": "04-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matriz-de-camaragibe-0524",
+      "name": "Feriado Municipal de Matriz de Camaragibe",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matriz-de-camaragibe-1213",
+      "name": "Feriado Municipal de Matriz de Camaragibe",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5217104,
+  "name": "Piracanjuba",
+  "slug": "piracanjuba",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-piracanjuba",
+      "name": "Aniversário de Piracanjuba",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piracanjuba-1101",
+      "name": "Feriado Municipal de Piracanjuba",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piracanjuba-1122",
+      "name": "Feriado Municipal de Piracanjuba",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2312304,
+  "name": "São Benedito",
+  "slug": "sao-benedito",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-sao-benedito",
+      "name": "Aniversário de São Benedito",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-benedito-1125",
+      "name": "Feriado Municipal de São Benedito",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

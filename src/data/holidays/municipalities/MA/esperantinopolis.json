@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2104008,
+  "name": "Esperantinópolis",
+  "slug": "esperantinopolis",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-esperantinopolis",
+      "name": "Aniversário de Esperantinópolis",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-esperantinopolis-0815",
+      "name": "Feriado Municipal de Esperantinópolis",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-esperantinopolis-1031",
+      "name": "Feriado Municipal de Esperantinópolis",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

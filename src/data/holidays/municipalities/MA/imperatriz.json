@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2105302,
+  "name": "Imperatriz",
+  "slug": "imperatriz",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-imperatriz",
+      "name": "Aniversário de Imperatriz",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-imperatriz-1015",
+      "name": "Feriado Municipal de Imperatriz",
+      "date": "10-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4209300,
+  "name": "Lages",
+  "slug": "lages",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-lages",
+      "name": "Aniversário de Lages",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

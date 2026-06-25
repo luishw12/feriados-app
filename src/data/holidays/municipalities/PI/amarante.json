@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2200509,
+  "name": "Amarante",
+  "slug": "amarante",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-amarante",
+      "name": "Aniversário de Amarante",
+      "date": "03-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amarante-0804",
+      "name": "Feriado Municipal de Amarante",
+      "date": "08-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

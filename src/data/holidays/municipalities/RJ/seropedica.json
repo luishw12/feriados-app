@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3305554,
+  "name": "Seropédica",
+  "slug": "seropedica",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-seropedica",
+      "name": "Aniversário de Seropédica",
+      "date": "03-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-seropedica-0402",
+      "name": "Feriado Municipal de Seropédica",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

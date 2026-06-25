@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4113734,
+  "name": "Luiziana",
+  "slug": "luiziana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-luiziana",
+      "name": "Aniversário de Luiziana",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

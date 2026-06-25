@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4111258,
+  "name": "Itaperuçu",
+  "slug": "itaperucu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-itaperucu",
+      "name": "Aniversário de Itaperuçu",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaperucu-1210",
+      "name": "Feriado Municipal de Itaperuçu",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

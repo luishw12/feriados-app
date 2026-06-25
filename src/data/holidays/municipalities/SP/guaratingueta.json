@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3518404,
+  "name": "Guaratinguetá",
+  "slug": "guaratingueta",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guaratingueta",
+      "name": "Aniversário de Guaratinguetá",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaratingueta-0422",
+      "name": "Feriado Municipal de Guaratinguetá",
+      "date": "04-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaratingueta-0613",
+      "name": "Feriado Municipal de Guaratinguetá",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaratingueta-1025",
+      "name": "Feriado Municipal de Guaratinguetá",
+      "date": "10-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

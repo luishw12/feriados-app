@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3157104,
+  "name": "Salto da Divisa",
+  "slug": "salto-da-divisa",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-salto-da-divisa",
+      "name": "Aniversário de Salto da Divisa",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-da-divisa-1227",
+      "name": "Feriado Municipal de Salto da Divisa",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

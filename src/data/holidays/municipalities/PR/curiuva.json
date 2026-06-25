@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4107009,
+  "name": "Curiúva",
+  "slug": "curiuva",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-curiuva",
+      "name": "Aniversário de Curiúva",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

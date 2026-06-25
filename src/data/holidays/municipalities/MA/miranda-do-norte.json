@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2106755,
+  "name": "Miranda do Norte",
+  "slug": "miranda-do-norte",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-miranda-do-norte",
+      "name": "Aniversário de Miranda do Norte",
+      "date": "03-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miranda-do-norte-0629",
+      "name": "Feriado Municipal de Miranda do Norte",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miranda-do-norte-1208",
+      "name": "Feriado Municipal de Miranda do Norte",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

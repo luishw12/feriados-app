@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2906808,
+  "name": "Cansanção",
+  "slug": "cansancao",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-cansancao",
+      "name": "Aniversário de Cansanção",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cansancao-0726",
+      "name": "Feriado Municipal de Cansanção",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cansancao-0812",
+      "name": "Feriado Municipal de Cansanção",
+      "date": "08-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cansancao-0923",
+      "name": "Feriado Municipal de Cansanção",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3546900,
+  "name": "Santa Lúcia",
+  "slug": "santa-lucia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-lucia",
+      "name": "Aniversário de Santa Lúcia",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

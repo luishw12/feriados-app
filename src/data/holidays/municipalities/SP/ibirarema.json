@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519501,
+  "name": "Ibirarema",
+  "slug": "ibirarema",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ibirarema",
+      "name": "Aniversário de Ibirarema",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibirarema-1130",
+      "name": "Feriado Municipal de Ibirarema",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

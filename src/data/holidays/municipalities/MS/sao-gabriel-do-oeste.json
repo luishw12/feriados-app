@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5007695,
+  "name": "São Gabriel do Oeste",
+  "slug": "sao-gabriel-do-oeste",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-gabriel-do-oeste",
+      "name": "Aniversário de São Gabriel do Oeste",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-gabriel-do-oeste-0929",
+      "name": "Feriado Municipal de São Gabriel do Oeste",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

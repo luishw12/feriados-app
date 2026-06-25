@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4112207,
+  "name": "Janiópolis",
+  "slug": "janiopolis",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-janiopolis",
+      "name": "Aniversário de Janiópolis",
+      "date": "11-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

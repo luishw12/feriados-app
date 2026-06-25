@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2922656,
+  "name": "Nordestina",
+  "slug": "nordestina",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-nordestina",
+      "name": "Aniversário de Nordestina",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nordestina-0509",
+      "name": "Feriado Municipal de Nordestina",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nordestina-0624",
+      "name": "Feriado Municipal de Nordestina",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nordestina-0923",
+      "name": "Feriado Municipal de Nordestina",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

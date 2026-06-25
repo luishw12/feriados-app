@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519402,
+  "name": "Ibirá",
+  "slug": "ibira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ibira",
+      "name": "Aniversário de Ibirá",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibira-1212",
+      "name": "Feriado Municipal de Ibirá",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

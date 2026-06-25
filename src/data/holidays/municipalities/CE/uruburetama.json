@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2313807,
+  "name": "Uruburetama",
+  "slug": "uruburetama",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-uruburetama",
+      "name": "Aniversário de Uruburetama",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uruburetama-0624",
+      "name": "Feriado Municipal de Uruburetama",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uruburetama-0801",
+      "name": "Feriado Municipal de Uruburetama",
+      "date": "08-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uruburetama-1101",
+      "name": "Feriado Municipal de Uruburetama",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

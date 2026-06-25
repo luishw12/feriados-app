@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3122454,
+  "name": "Divisópolis",
+  "slug": "divisopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-divisopolis",
+      "name": "Aniversário de Divisópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-divisopolis-0904",
+      "name": "Feriado Municipal de Divisópolis",
+      "date": "09-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

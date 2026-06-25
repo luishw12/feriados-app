@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4215307,
+  "name": "Salete",
+  "slug": "salete",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-salete",
+      "name": "Aniversário de Salete",
+      "date": "09-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salete-1229",
+      "name": "Feriado Municipal de Salete",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

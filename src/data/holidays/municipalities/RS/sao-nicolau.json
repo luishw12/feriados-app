@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4319208,
+  "name": "São Nicolau",
+  "slug": "sao-nicolau",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-nicolau",
+      "name": "Aniversário de São Nicolau",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-nicolau-1206",
+      "name": "Feriado Municipal de São Nicolau",
+      "date": "12-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

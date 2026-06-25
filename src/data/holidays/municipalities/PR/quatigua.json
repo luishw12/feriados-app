@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4120705,
+  "name": "Quatiguá",
+  "slug": "quatigua",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-quatigua",
+      "name": "Aniversário de Quatiguá",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

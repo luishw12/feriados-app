@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5221809,
+  "name": "Urutaí",
+  "slug": "urutai",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-urutai",
+      "name": "Aniversário de Urutaí",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

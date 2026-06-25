@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4302709,
+  "name": "Butiá",
+  "slug": "butia",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-butia",
+      "name": "Aniversário de Butiá",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

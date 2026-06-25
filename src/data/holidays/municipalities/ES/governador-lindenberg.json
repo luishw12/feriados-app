@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3202256,
+  "name": "Governador Lindenberg",
+  "slug": "governador-lindenberg",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-governador-lindenberg",
+      "name": "Aniversário de Governador Lindenberg",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

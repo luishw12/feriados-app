@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3100401,
+  "name": "Acaiaca",
+  "slug": "acaiaca",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-acaiaca",
+      "name": "Aniversário de Acaiaca",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

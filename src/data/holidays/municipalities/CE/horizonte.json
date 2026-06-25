@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2305233,
+  "name": "Horizonte",
+  "slug": "horizonte",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-horizonte",
+      "name": "Aniversário de Horizonte",
+      "date": "03-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-horizonte-0319",
+      "name": "Feriado Municipal de Horizonte",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-horizonte-0624",
+      "name": "Feriado Municipal de Horizonte",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

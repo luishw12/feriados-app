@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2931400,
+  "name": "Teodoro Sampaio",
+  "slug": "teodoro-sampaio",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-teodoro-sampaio",
+      "name": "Aniversário de Teodoro Sampaio",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teodoro-sampaio-0908",
+      "name": "Feriado Municipal de Teodoro Sampaio",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

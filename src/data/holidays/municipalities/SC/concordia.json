@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4204301,
+  "name": "Concórdia",
+  "slug": "concordia",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-concordia",
+      "name": "Aniversário de Concórdia",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

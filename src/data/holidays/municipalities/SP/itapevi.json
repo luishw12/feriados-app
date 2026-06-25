@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3522505,
+  "name": "Itapevi",
+  "slug": "itapevi",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itapevi",
+      "name": "Aniversário de Itapevi",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapevi-0403",
+      "name": "Feriado Municipal de Itapevi",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapevi-0604",
+      "name": "Feriado Municipal de Itapevi",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapevi-1028",
+      "name": "Feriado Municipal de Itapevi",
+      "date": "10-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

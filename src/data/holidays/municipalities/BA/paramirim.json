@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2923605,
+  "name": "Paramirim",
+  "slug": "paramirim",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-paramirim",
+      "name": "Aniversário de Paramirim",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paramirim-0613",
+      "name": "Feriado Municipal de Paramirim",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paramirim-0916",
+      "name": "Feriado Municipal de Paramirim",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

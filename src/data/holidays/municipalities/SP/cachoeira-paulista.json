@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3508603,
+  "name": "Cachoeira Paulista",
+  "slug": "cachoeira-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cachoeira-paulista",
+      "name": "Aniversário de Cachoeira Paulista",
+      "date": "03-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cachoeira-paulista-0613",
+      "name": "Feriado Municipal de Cachoeira Paulista",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

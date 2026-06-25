@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3502606,
+  "name": "Aparecida d'Oeste",
+  "slug": "aparecida-d-oeste",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aparecida-d-oeste",
+      "name": "Aniversário de Aparecida d'Oeste",
+      "date": "03-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

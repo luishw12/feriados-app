@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3140555,
+  "name": "Mata Verde",
+  "slug": "mata-verde",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-mata-verde",
+      "name": "Aniversário de Mata Verde",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

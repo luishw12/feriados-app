@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3133808,
+  "name": "Itaúna",
+  "slug": "itauna",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itauna",
+      "name": "Aniversário de Itaúna",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itauna-0815",
+      "name": "Feriado Municipal de Itaúna",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itauna-0916",
+      "name": "Feriado Municipal de Itaúna",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

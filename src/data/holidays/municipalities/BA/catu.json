@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2907509,
+  "name": "Catu",
+  "slug": "catu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-catu",
+      "name": "Aniversário de Catu",
+      "date": "06-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-catu-0726",
+      "name": "Feriado Municipal de Catu",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4208005,
+  "name": "Itá",
+  "slug": "ita",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ita",
+      "name": "Aniversário de Itá",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ita-1213",
+      "name": "Feriado Municipal de Itá",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

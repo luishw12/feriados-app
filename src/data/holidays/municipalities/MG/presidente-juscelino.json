@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3153202,
+  "name": "Presidente Juscelino",
+  "slug": "presidente-juscelino",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-juscelino",
+      "name": "Aniversário de Presidente Juscelino",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-juscelino-0301",
+      "name": "Feriado Municipal de Presidente Juscelino",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

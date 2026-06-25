@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2501500,
+  "name": "Bananeiras",
+  "slug": "bananeiras",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-bananeiras",
+      "name": "Aniversário de Bananeiras",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

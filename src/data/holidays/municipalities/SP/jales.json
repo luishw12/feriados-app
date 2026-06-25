@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3524808,
+  "name": "Jales",
+  "slug": "jales",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jales",
+      "name": "Aniversário de Jales",
+      "date": "04-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jales-0815",
+      "name": "Feriado Municipal de Jales",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

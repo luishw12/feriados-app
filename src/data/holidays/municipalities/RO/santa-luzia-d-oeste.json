@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1100296,
+  "name": "Santa Luzia D'Oeste",
+  "slug": "santa-luzia-d-oeste",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-santa-luzia-d-oeste",
+      "name": "Aniversário de Santa Luzia D'Oeste",
+      "date": "05-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-luzia-d-oeste-0618",
+      "name": "Feriado Municipal de Santa Luzia D'Oeste",
+      "date": "06-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-luzia-d-oeste-1213",
+      "name": "Feriado Municipal de Santa Luzia D'Oeste",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

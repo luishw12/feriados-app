@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4312385,
+  "name": "Monte Belo do Sul",
+  "slug": "monte-belo-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-monte-belo-do-sul",
+      "name": "Aniversário de Monte Belo do Sul",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-belo-do-sul-0526",
+      "name": "Feriado Municipal de Monte Belo do Sul",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

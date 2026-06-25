@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5105507,
+  "name": "Vila Bela da Santíssima Trindade",
+  "slug": "vila-bela-da-santissima-trindade",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-vila-bela-da-santissima-trindade",
+      "name": "Aniversário de Vila Bela da Santíssima Trindade",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

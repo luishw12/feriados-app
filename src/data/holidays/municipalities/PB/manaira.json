@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2509008,
+  "name": "Manaíra",
+  "slug": "manaira",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-manaira",
+      "name": "Aniversário de Manaíra",
+      "date": "05-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manaira-0531",
+      "name": "Feriado Municipal de Manaíra",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manaira-0624",
+      "name": "Feriado Municipal de Manaíra",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manaira-1221",
+      "name": "Feriado Municipal de Manaíra",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

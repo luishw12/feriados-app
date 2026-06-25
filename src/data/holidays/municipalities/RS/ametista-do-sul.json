@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4300646,
+  "name": "Ametista do Sul",
+  "slug": "ametista-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-ametista-do-sul",
+      "name": "Aniversário de Ametista do Sul",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ametista-do-sul-0929",
+      "name": "Feriado Municipal de Ametista do Sul",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

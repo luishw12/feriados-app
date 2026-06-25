@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2916807,
+  "name": "Itarantim",
+  "slug": "itarantim",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itarantim",
+      "name": "Aniversário de Itarantim",
+      "date": "05-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itarantim-0613",
+      "name": "Feriado Municipal de Itarantim",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itarantim-0615",
+      "name": "Feriado Municipal de Itarantim",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itarantim-0624",
+      "name": "Feriado Municipal de Itarantim",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

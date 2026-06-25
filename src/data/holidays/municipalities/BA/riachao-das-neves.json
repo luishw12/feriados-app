@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2926202,
+  "name": "Riachão das Neves",
+  "slug": "riachao-das-neves",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-riachao-das-neves",
+      "name": "Aniversário de Riachão das Neves",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riachao-das-neves-0726",
+      "name": "Feriado Municipal de Riachão das Neves",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-riachao-das-neves-0920",
+      "name": "Feriado Municipal de Riachão das Neves",
+      "date": "09-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

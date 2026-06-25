@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4319109,
+  "name": "São Martinho",
+  "slug": "sao-martinho",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-martinho",
+      "name": "Aniversário de São Martinho",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-martinho-0725",
+      "name": "Feriado Municipal de São Martinho",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-martinho-1111",
+      "name": "Feriado Municipal de São Martinho",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

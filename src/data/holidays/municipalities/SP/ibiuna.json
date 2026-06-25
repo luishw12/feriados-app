@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519709,
+  "name": "Ibiúna",
+  "slug": "ibiuna",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ibiuna",
+      "name": "Aniversário de Ibiúna",
+      "date": "03-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibiuna-0915",
+      "name": "Feriado Municipal de Ibiúna",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

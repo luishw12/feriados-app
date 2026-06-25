@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3100500,
+  "name": "Açucena",
+  "slug": "acucena",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-acucena",
+      "name": "Aniversário de Açucena",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

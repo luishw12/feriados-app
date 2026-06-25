@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4303004,
+  "name": "Cachoeira do Sul",
+  "slug": "cachoeira-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cachoeira-do-sul",
+      "name": "Aniversário de Cachoeira do Sul",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

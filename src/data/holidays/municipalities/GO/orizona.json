@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5215306,
+  "name": "Orizona",
+  "slug": "orizona",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-orizona",
+      "name": "Aniversário de Orizona",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

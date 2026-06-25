@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2302602,
+  "name": "Camocim",
+  "slug": "camocim",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-camocim",
+      "name": "Aniversário de Camocim",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camocim-0929",
+      "name": "Feriado Municipal de Camocim",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

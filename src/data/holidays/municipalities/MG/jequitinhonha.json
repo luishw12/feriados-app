@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3135803,
+  "name": "Jequitinhonha",
+  "slug": "jequitinhonha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-jequitinhonha",
+      "name": "Aniversário de Jequitinhonha",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

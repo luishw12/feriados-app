@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4203956,
+  "name": "Capivari de Baixo",
+  "slug": "capivari-de-baixo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-capivari-de-baixo",
+      "name": "Aniversário de Capivari de Baixo",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capivari-de-baixo-0624",
+      "name": "Feriado Municipal de Capivari de Baixo",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3544400,
+  "name": "Rubiácea",
+  "slug": "rubiacea",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-rubiacea",
+      "name": "Aniversário de Rubiácea",
+      "date": "08-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rubiacea-1208",
+      "name": "Feriado Municipal de Rubiácea",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

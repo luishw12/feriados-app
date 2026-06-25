@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4204103,
+  "name": "Caxambu do Sul",
+  "slug": "caxambu-do-sul",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-caxambu-do-sul",
+      "name": "Aniversário de Caxambu do Sul",
+      "date": "09-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caxambu-do-sul-1214",
+      "name": "Feriado Municipal de Caxambu do Sul",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

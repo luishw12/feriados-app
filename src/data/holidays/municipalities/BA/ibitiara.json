@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2913002,
+  "name": "Ibitiara",
+  "slug": "ibitiara",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ibitiara",
+      "name": "Aniversário de Ibitiara",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibitiara-0908",
+      "name": "Feriado Municipal de Ibitiara",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3164704,
+  "name": "São Sebastião do Paraíso",
+  "slug": "sao-sebastiao-do-paraiso",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-sebastiao-do-paraiso",
+      "name": "Aniversário de São Sebastião do Paraíso",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-do-paraiso-0403",
+      "name": "Feriado Municipal de São Sebastião do Paraíso",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-do-paraiso-0604",
+      "name": "Feriado Municipal de São Sebastião do Paraíso",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-sebastiao-do-paraiso-1025",
+      "name": "Feriado Municipal de São Sebastião do Paraíso",
+      "date": "10-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

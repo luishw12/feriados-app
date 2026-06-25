@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3127404,
+  "name": "Gonçalves",
+  "slug": "goncalves",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-goncalves",
+      "name": "Aniversário de Gonçalves",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-goncalves-0915",
+      "name": "Feriado Municipal de Gonçalves",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

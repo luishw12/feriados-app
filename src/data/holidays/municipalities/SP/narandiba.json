@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3532207,
+  "name": "Narandiba",
+  "slug": "narandiba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-narandiba",
+      "name": "Aniversário de Narandiba",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-narandiba-0402",
+      "name": "Feriado Municipal de Narandiba",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-narandiba-0629",
+      "name": "Feriado Municipal de Narandiba",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-narandiba-1208",
+      "name": "Feriado Municipal de Narandiba",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

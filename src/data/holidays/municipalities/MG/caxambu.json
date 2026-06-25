@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3115508,
+  "name": "Caxambu",
+  "slug": "caxambu",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-caxambu",
+      "name": "Aniversário de Caxambu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caxambu-0916",
+      "name": "Feriado Municipal de Caxambu",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2204501,
+  "name": "Guadalupe",
+  "slug": "guadalupe",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-guadalupe",
+      "name": "Aniversário de Guadalupe",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guadalupe-0825",
+      "name": "Feriado Municipal de Guadalupe",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guadalupe-1108",
+      "name": "Feriado Municipal de Guadalupe",
+      "date": "11-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guadalupe-1212",
+      "name": "Feriado Municipal de Guadalupe",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

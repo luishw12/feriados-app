@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3534203,
+  "name": "Orindiúva",
+  "slug": "orindiuva",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-orindiuva",
+      "name": "Aniversário de Orindiúva",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

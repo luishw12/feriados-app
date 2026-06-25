@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4205159,
+  "name": "Doutor Pedrinho",
+  "slug": "doutor-pedrinho",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-doutor-pedrinho",
+      "name": "Aniversário de Doutor Pedrinho",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-doutor-pedrinho-0601",
+      "name": "Feriado Municipal de Doutor Pedrinho",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-doutor-pedrinho-0604",
+      "name": "Feriado Municipal de Doutor Pedrinho",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

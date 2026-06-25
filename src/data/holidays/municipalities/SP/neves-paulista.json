@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3532504,
+  "name": "Neves Paulista",
+  "slug": "neves-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-neves-paulista",
+      "name": "Aniversário de Neves Paulista",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-neves-paulista-1130",
+      "name": "Feriado Municipal de Neves Paulista",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

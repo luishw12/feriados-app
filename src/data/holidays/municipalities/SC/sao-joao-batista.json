@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4216305,
+  "name": "São João Batista",
+  "slug": "sao-joao-batista",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-batista",
+      "name": "Aniversário de São João Batista",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-batista-0604",
+      "name": "Feriado Municipal de São João Batista",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-batista-0624",
+      "name": "Feriado Municipal de São João Batista",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-batista-0719",
+      "name": "Feriado Municipal de São João Batista",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

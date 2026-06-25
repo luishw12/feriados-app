@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2602902,
+  "name": "Cabo de Santo Agostinho",
+  "slug": "cabo-de-santo-agostinho",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-cabo-de-santo-agostinho",
+      "name": "Aniversário de Cabo de Santo Agostinho",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cabo-de-santo-agostinho-0709",
+      "name": "Feriado Municipal de Cabo de Santo Agostinho",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cabo-de-santo-agostinho-1031",
+      "name": "Feriado Municipal de Cabo de Santo Agostinho",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

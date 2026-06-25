@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4301701,
+  "name": "Barão de Cotegipe",
+  "slug": "barao-de-cotegipe",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-barao-de-cotegipe",
+      "name": "Aniversário de Barão de Cotegipe",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

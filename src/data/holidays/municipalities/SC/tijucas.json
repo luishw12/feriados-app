@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4218004,
+  "name": "Tijucas",
+  "slug": "tijucas",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-tijucas",
+      "name": "Aniversário de Tijucas",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tijucas-0613",
+      "name": "Feriado Municipal de Tijucas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

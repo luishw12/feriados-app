@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3520202,
+  "name": "Igaratá",
+  "slug": "igarata",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-igarata",
+      "name": "Aniversário de Igaratá",
+      "date": "12-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4314308,
+  "name": "Pejuçara",
+  "slug": "pejucara",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-pejucara",
+      "name": "Aniversário de Pejuçara",
+      "date": "05-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

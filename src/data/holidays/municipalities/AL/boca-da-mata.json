@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2701001,
+  "name": "Boca da Mata",
+  "slug": "boca-da-mata",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-boca-da-mata",
+      "name": "Aniversário de Boca da Mata",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boca-da-mata-0720",
+      "name": "Feriado Municipal de Boca da Mata",
+      "date": "07-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-boca-da-mata-1111",
+      "name": "Feriado Municipal de Boca da Mata",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

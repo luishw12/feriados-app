@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3537909,
+  "name": "Pilar do Sul",
+  "slug": "pilar-do-sul",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pilar-do-sul",
+      "name": "Aniversário de Pilar do Sul",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pilar-do-sul-1105",
+      "name": "Feriado Municipal de Pilar do Sul",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

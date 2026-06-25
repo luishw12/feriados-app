@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4306932,
+  "name": "Entre-Ijuís",
+  "slug": "entre-ijuis",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-entre-ijuis",
+      "name": "Aniversário de Entre-Ijuís",
+      "date": "04-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

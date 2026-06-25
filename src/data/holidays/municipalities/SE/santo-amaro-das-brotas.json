@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2806602,
+  "name": "Santo Amaro das Brotas",
+  "slug": "santo-amaro-das-brotas",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-santo-amaro-das-brotas",
+      "name": "Aniversário de Santo Amaro das Brotas",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-amaro-das-brotas-0624",
+      "name": "Feriado Municipal de Santo Amaro das Brotas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

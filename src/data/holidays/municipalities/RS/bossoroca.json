@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4302501,
+  "name": "Bossoroca",
+  "slug": "bossoroca",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-bossoroca",
+      "name": "Aniversário de Bossoroca",
+      "date": "03-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

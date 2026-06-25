@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4125506,
+  "name": "São José dos Pinhais",
+  "slug": "sao-jose-dos-pinhais",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-dos-pinhais",
+      "name": "Aniversário de São José dos Pinhais",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

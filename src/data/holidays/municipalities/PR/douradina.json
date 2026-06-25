@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4107256,
+  "name": "Douradina",
+  "slug": "douradina",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-douradina",
+      "name": "Aniversário de Douradina",
+      "date": "01-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

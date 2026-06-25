@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5221403,
+  "name": "Trindade",
+  "slug": "trindade",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-trindade",
+      "name": "Aniversário de Trindade",
+      "date": "06-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-trindade-0629",
+      "name": "Feriado Municipal de Trindade",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-trindade-0702",
+      "name": "Feriado Municipal de Trindade",
+      "date": "07-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-trindade-0831",
+      "name": "Feriado Municipal de Trindade",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

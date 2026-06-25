@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2600203,
+  "name": "Afrânio",
+  "slug": "afranio",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-afranio",
+      "name": "Aniversário de Afrânio",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2208007,
+  "name": "Picos",
+  "slug": "picos",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-picos",
+      "name": "Aniversário de Picos",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-picos-1212",
+      "name": "Feriado Municipal de Picos",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

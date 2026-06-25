@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1707108,
+  "name": "Divinópolis do Tocantins",
+  "slug": "divinopolis-do-tocantins",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-divinopolis-do-tocantins",
+      "name": "Aniversário de Divinópolis do Tocantins",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-divinopolis-do-tocantins-0716",
+      "name": "Feriado Municipal de Divinópolis do Tocantins",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

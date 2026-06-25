@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3145109,
+  "name": "Nova Resende",
+  "slug": "nova-resende",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-nova-resende",
+      "name": "Aniversário de Nova Resende",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-resende-0910",
+      "name": "Feriado Municipal de Nova Resende",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

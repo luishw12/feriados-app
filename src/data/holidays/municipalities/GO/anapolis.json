@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5201108,
+  "name": "Anápolis",
+  "slug": "anapolis",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-anapolis",
+      "name": "Aniversário de Anápolis",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anapolis-0731",
+      "name": "Feriado Municipal de Anápolis",
+      "date": "07-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

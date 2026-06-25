@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3162401,
+  "name": "São João da Ponte",
+  "slug": "sao-joao-da-ponte",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-da-ponte",
+      "name": "Aniversário de São João da Ponte",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

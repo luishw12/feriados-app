@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2607307,
+  "name": "Ipubi",
+  "slug": "ipubi",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-ipubi",
+      "name": "Aniversário de Ipubi",
+      "date": "03-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipubi-0815",
+      "name": "Feriado Municipal de Ipubi",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipubi-1031",
+      "name": "Feriado Municipal de Ipubi",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

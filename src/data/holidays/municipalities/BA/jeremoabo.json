@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2918100,
+  "name": "Jeremoabo",
+  "slug": "jeremoabo",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-jeremoabo",
+      "name": "Aniversário de Jeremoabo",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jeremoabo-0624",
+      "name": "Feriado Municipal de Jeremoabo",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jeremoabo-0706",
+      "name": "Feriado Municipal de Jeremoabo",
+      "date": "07-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

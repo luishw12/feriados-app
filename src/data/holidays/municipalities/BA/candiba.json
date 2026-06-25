@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2906600,
+  "name": "Candiba",
+  "slug": "candiba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-candiba",
+      "name": "Aniversário de Candiba",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

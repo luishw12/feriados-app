@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4109708,
+  "name": "Ibaiti",
+  "slug": "ibaiti",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ibaiti",
+      "name": "Aniversário de Ibaiti",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1300144,
+  "name": "Apuí",
+  "slug": "apui",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-apui",
+      "name": "Aniversário de Apuí",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-apui-1230",
+      "name": "Feriado Municipal de Apuí",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

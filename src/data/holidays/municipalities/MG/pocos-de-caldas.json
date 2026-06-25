@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3151800,
+  "name": "Poços de Caldas",
+  "slug": "pocos-de-caldas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pocos-de-caldas",
+      "name": "Aniversário de Poços de Caldas",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pocos-de-caldas-1106",
+      "name": "Feriado Municipal de Poços de Caldas",
+      "date": "11-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

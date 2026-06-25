@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4116406,
+  "name": "Nossa Senhora das Graças",
+  "slug": "nossa-senhora-das-gracas",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-nossa-senhora-das-gracas",
+      "name": "Aniversário de Nossa Senhora das Graças",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2907004,
+  "name": "Cardeal da Silva",
+  "slug": "cardeal-da-silva",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-cardeal-da-silva",
+      "name": "Aniversário de Cardeal da Silva",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cardeal-da-silva-0730",
+      "name": "Feriado Municipal de Cardeal da Silva",
+      "date": "07-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2931053,
+  "name": "Tanque Novo",
+  "slug": "tanque-novo",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-tanque-novo",
+      "name": "Aniversário de Tanque Novo",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

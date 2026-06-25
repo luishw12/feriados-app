@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1503804,
+  "name": "Jacundá",
+  "slug": "jacunda",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-jacunda",
+      "name": "Aniversário de Jacundá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacunda-1229",
+      "name": "Feriado Municipal de Jacundá",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

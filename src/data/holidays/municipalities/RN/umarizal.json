@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2414506,
+  "name": "Umarizal",
+  "slug": "umarizal",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-umarizal",
+      "name": "Aniversário de Umarizal",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

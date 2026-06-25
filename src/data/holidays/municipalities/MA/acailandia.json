@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2100055,
+  "name": "Açailândia",
+  "slug": "acailandia",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-acailandia",
+      "name": "Aniversário de Açailândia",
+      "date": "06-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

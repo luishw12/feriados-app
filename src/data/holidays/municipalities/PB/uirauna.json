@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2516904,
+  "name": "Uiraúna",
+  "slug": "uirauna",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-uirauna",
+      "name": "Aniversário de Uiraúna",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uirauna-1202",
+      "name": "Feriado Municipal de Uiraúna",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uirauna-1208",
+      "name": "Feriado Municipal de Uiraúna",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

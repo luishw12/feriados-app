@@ -7,9 +7,31 @@
     {
       "id": "aniversario-sao-bernardo-do-campo",
       "name": "Aniversário de São Bernardo do Campo",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bernardo-do-campo-0604",
+      "name": "Feriado Municipal de São Bernardo do Campo",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bernardo-do-campo-0820",
+      "name": "Feriado Municipal de São Bernardo do Campo",
       "date": "08-20",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

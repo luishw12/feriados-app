@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2101301,
+  "name": "Bacuri",
+  "slug": "bacuri",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-bacuri",
+      "name": "Aniversário de Bacuri",
+      "date": "01-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

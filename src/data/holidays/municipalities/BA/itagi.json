@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2915106,
+  "name": "Itagi",
+  "slug": "itagi",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itagi",
+      "name": "Aniversário de Itagi",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itagi-1210",
+      "name": "Feriado Municipal de Itagi",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

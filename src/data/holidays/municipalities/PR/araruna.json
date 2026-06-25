@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4101705,
+  "name": "Araruna",
+  "slug": "araruna",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-araruna",
+      "name": "Aniversário de Araruna",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araruna-1129",
+      "name": "Feriado Municipal de Araruna",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

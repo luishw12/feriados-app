@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2301000,
+  "name": "Aquiraz",
+  "slug": "aquiraz",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-aquiraz",
+      "name": "Aniversário de Aquiraz",
+      "date": "02-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aquiraz-0319",
+      "name": "Feriado Municipal de Aquiraz",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

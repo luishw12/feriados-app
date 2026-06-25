@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3539301,
+  "name": "Pirassununga",
+  "slug": "pirassununga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pirassununga",
+      "name": "Aniversário de Pirassununga",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirassununga-0806",
+      "name": "Feriado Municipal de Pirassununga",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirassununga-1208",
+      "name": "Feriado Municipal de Pirassununga",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2709152,
+  "name": "Teotônio Vilela",
+  "slug": "teotonio-vilela",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-teotonio-vilela",
+      "name": "Aniversário de Teotônio Vilela",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

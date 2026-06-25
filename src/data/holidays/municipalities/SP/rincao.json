@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3543709,
+  "name": "Rincão",
+  "slug": "rincao",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-rincao",
+      "name": "Aniversário de Rincão",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

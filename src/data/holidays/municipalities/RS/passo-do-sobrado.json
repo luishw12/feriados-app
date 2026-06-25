@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4314076,
+  "name": "Passo do Sobrado",
+  "slug": "passo-do-sobrado",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-passo-do-sobrado",
+      "name": "Aniversário de Passo do Sobrado",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-passo-do-sobrado-0725",
+      "name": "Feriado Municipal de Passo do Sobrado",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

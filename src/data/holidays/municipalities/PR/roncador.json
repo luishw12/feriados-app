@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4122503,
+  "name": "Roncador",
+  "slug": "roncador",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-roncador",
+      "name": "Aniversário de Roncador",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-roncador-1105",
+      "name": "Feriado Municipal de Roncador",
+      "date": "11-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-roncador-1206",
+      "name": "Feriado Municipal de Roncador",
+      "date": "12-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

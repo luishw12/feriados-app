@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3525003,
+  "name": "Jandira",
+  "slug": "jandira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jandira",
+      "name": "Aniversário de Jandira",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

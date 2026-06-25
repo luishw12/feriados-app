@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5211503,
+  "name": "Itumbiara",
+  "slug": "itumbiara",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-itumbiara",
+      "name": "Aniversário de Itumbiara",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4212254,
+  "name": "Passo de Torres",
+  "slug": "passo-de-torres",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-passo-de-torres",
+      "name": "Aniversário de Passo de Torres",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-passo-de-torres-0629",
+      "name": "Feriado Municipal de Passo de Torres",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-passo-de-torres-0926",
+      "name": "Feriado Municipal de Passo de Torres",
+      "date": "09-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

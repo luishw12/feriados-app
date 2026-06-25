@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2303105,
+  "name": "Cariré",
+  "slug": "carire",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-carire",
+      "name": "Aniversário de Cariré",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carire-0916",
+      "name": "Feriado Municipal de Cariré",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1713205,
+  "name": "Miracema do Tocantins",
+  "slug": "miracema-do-tocantins",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-miracema-do-tocantins",
+      "name": "Aniversário de Miracema do Tocantins",
+      "date": "06-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miracema-do-tocantins-0825",
+      "name": "Feriado Municipal de Miracema do Tocantins",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miracema-do-tocantins-1001",
+      "name": "Feriado Municipal de Miracema do Tocantins",
+      "date": "10-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

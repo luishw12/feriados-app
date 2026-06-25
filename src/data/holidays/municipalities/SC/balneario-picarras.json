@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4212809,
+  "name": "Balneário Piçarras",
+  "slug": "balneario-picarras",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-balneario-picarras",
+      "name": "Aniversário de Balneário Piçarras",
+      "date": "01-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-balneario-picarras-1214",
+      "name": "Feriado Municipal de Balneário Piçarras",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

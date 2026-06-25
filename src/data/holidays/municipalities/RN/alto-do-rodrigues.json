@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2400703,
+  "name": "Alto do Rodrigues",
+  "slug": "alto-do-rodrigues",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-alto-do-rodrigues",
+      "name": "Aniversário de Alto do Rodrigues",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-do-rodrigues-0328",
+      "name": "Feriado Municipal de Alto do Rodrigues",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-do-rodrigues-1007",
+      "name": "Feriado Municipal de Alto do Rodrigues",
+      "date": "10-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

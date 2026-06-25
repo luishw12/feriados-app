@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2904704,
+  "name": "Buerarema",
+  "slug": "buerarema",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-buerarema",
+      "name": "Aniversário de Buerarema",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buerarema-0726",
+      "name": "Feriado Municipal de Buerarema",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buerarema-0917",
+      "name": "Feriado Municipal de Buerarema",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

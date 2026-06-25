@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4207650,
+  "name": "Iporã do Oeste",
+  "slug": "ipora-do-oeste",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ipora-do-oeste",
+      "name": "Aniversário de Iporã do Oeste",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipora-do-oeste-0725",
+      "name": "Feriado Municipal de Iporã do Oeste",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

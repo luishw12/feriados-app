@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4115705,
+  "name": "Matinhos",
+  "slug": "matinhos",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-matinhos",
+      "name": "Aniversário de Matinhos",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matinhos-0629",
+      "name": "Feriado Municipal de Matinhos",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

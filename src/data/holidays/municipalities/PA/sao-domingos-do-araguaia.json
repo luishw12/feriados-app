@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1507151,
+  "name": "São Domingos do Araguaia",
+  "slug": "sao-domingos-do-araguaia",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-domingos-do-araguaia",
+      "name": "Aniversário de São Domingos do Araguaia",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-domingos-do-araguaia-1227",
+      "name": "Feriado Municipal de São Domingos do Araguaia",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2921500,
+  "name": "Monte Santo",
+  "slug": "monte-santo",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-monte-santo",
+      "name": "Aniversário de Monte Santo",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-santo-0914",
+      "name": "Feriado Municipal de Monte Santo",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monte-santo-1101",
+      "name": "Feriado Municipal de Monte Santo",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

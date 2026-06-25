@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4201307,
+  "name": "Araquari",
+  "slug": "araquari",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-araquari",
+      "name": "Aniversário de Araquari",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araquari-0806",
+      "name": "Feriado Municipal de Araquari",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

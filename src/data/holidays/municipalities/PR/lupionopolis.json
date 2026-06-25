@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4113809,
+  "name": "Lupionópolis",
+  "slug": "lupionopolis",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-lupionopolis",
+      "name": "Aniversário de Lupionópolis",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

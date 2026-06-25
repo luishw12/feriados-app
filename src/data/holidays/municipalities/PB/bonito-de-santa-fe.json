@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2502409,
+  "name": "Bonito de Santa Fé",
+  "slug": "bonito-de-santa-fe",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-bonito-de-santa-fe",
+      "name": "Aniversário de Bonito de Santa Fé",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bonito-de-santa-fe-0624",
+      "name": "Feriado Municipal de Bonito de Santa Fé",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bonito-de-santa-fe-0629",
+      "name": "Feriado Municipal de Bonito de Santa Fé",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

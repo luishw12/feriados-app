@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3513900,
+  "name": "Divinolândia",
+  "slug": "divinolandia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-divinolandia",
+      "name": "Aniversário de Divinolândia",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-divinolandia-1230",
+      "name": "Feriado Municipal de Divinolândia",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5107180,
+  "name": "Ribeirão Cascalheira",
+  "slug": "ribeirao-cascalheira",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-ribeirao-cascalheira",
+      "name": "Aniversário de Ribeirão Cascalheira",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-cascalheira-0624",
+      "name": "Feriado Municipal de Ribeirão Cascalheira",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-cascalheira-0812",
+      "name": "Feriado Municipal de Ribeirão Cascalheira",
+      "date": "08-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

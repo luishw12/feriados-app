@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2801306,
+  "name": "Capela",
+  "slug": "capela",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-capela",
+      "name": "Aniversário de Capela",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capela-0601",
+      "name": "Feriado Municipal de Capela",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capela-0828",
+      "name": "Feriado Municipal de Capela",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

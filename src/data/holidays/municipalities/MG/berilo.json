@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3106507,
+  "name": "Berilo",
+  "slug": "berilo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-berilo",
+      "name": "Aniversário de Berilo",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-berilo-0531",
+      "name": "Feriado Municipal de Berilo",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-berilo-1208",
+      "name": "Feriado Municipal de Berilo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4322558,
+  "name": "Vanini",
+  "slug": "vanini",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vanini",
+      "name": "Aniversário de Vanini",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

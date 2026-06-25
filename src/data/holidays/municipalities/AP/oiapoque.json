@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1600501,
+  "name": "Oiapoque",
+  "slug": "oiapoque",
+  "uf": "AP",
+  "holidays": [
+    {
+      "id": "aniversario-oiapoque",
+      "name": "Aniversário de Oiapoque",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oiapoque-1201",
+      "name": "Feriado Municipal de Oiapoque",
+      "date": "12-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oiapoque-1224",
+      "name": "Feriado Municipal de Oiapoque",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oiapoque-1231",
+      "name": "Feriado Municipal de Oiapoque",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3163607,
+  "name": "São José do Mantimento",
+  "slug": "sao-jose-do-mantimento",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-mantimento",
+      "name": "Aniversário de São José do Mantimento",
+      "date": "07-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

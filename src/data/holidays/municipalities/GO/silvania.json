@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5220603,
+  "name": "Silvânia",
+  "slug": "silvania",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-silvania",
+      "name": "Aniversário de Silvânia",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

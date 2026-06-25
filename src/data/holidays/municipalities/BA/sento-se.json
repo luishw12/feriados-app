@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2930204,
+  "name": "Sento Sé",
+  "slug": "sento-se",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-sento-se",
+      "name": "Aniversário de Sento Sé",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sento-se-0624",
+      "name": "Feriado Municipal de Sento Sé",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sento-se-0706",
+      "name": "Feriado Municipal de Sento Sé",
+      "date": "07-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

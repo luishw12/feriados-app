@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5210109,
+  "name": "Ipameri",
+  "slug": "ipameri",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-ipameri",
+      "name": "Aniversário de Ipameri",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipameri-0912",
+      "name": "Feriado Municipal de Ipameri",
+      "date": "09-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

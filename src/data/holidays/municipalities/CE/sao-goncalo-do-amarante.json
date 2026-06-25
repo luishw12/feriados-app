@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2312403,
+  "name": "São Gonçalo do Amarante",
+  "slug": "sao-goncalo-do-amarante",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-sao-goncalo-do-amarante",
+      "name": "Aniversário de São Gonçalo do Amarante",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

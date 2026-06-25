@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3116902,
+  "name": "Comendador Gomes",
+  "slug": "comendador-gomes",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-comendador-gomes",
+      "name": "Aniversário de Comendador Gomes",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-comendador-gomes-1208",
+      "name": "Feriado Municipal de Comendador Gomes",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2300309,
+  "name": "Acopiara",
+  "slug": "acopiara",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-acopiara",
+      "name": "Aniversário de Acopiara",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-acopiara-0915",
+      "name": "Feriado Municipal de Acopiara",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-acopiara-0928",
+      "name": "Feriado Municipal de Acopiara",
+      "date": "09-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-acopiara-1004",
+      "name": "Feriado Municipal de Acopiara",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

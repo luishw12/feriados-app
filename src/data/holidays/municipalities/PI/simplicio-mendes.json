@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2210805,
+  "name": "Simplício Mendes",
+  "slug": "simplicio-mendes",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-simplicio-mendes",
+      "name": "Aniversário de Simplício Mendes",
+      "date": "06-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-simplicio-mendes-0904",
+      "name": "Feriado Municipal de Simplício Mendes",
+      "date": "09-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

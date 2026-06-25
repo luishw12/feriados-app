@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4126900,
+  "name": "Tapira",
+  "slug": "tapira",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-tapira",
+      "name": "Aniversário de Tapira",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

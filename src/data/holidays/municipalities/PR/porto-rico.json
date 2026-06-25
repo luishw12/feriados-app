@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4120200,
+  "name": "Porto Rico",
+  "slug": "porto-rico",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-porto-rico",
+      "name": "Aniversário de Porto Rico",
+      "date": "06-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

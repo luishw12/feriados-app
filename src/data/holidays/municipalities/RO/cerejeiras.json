@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1100056,
+  "name": "Cerejeiras",
+  "slug": "cerejeiras",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-cerejeiras",
+      "name": "Aniversário de Cerejeiras",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

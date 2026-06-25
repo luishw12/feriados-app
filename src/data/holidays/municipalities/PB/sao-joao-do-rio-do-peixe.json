@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2500700,
+  "name": "São João do Rio do Peixe",
+  "slug": "sao-joao-do-rio-do-peixe",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-rio-do-peixe",
+      "name": "Aniversário de São João do Rio do Peixe",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-do-rio-do-peixe-0629",
+      "name": "Feriado Municipal de São João do Rio do Peixe",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

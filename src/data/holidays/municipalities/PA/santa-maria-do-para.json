@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1506609,
+  "name": "Santa Maria do Pará",
+  "slug": "santa-maria-do-para",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-santa-maria-do-para",
+      "name": "Aniversário de Santa Maria do Pará",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-maria-do-para-1229",
+      "name": "Feriado Municipal de Santa Maria do Pará",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

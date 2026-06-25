@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4309555,
+  "name": "Harmonia",
+  "slug": "harmonia",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-harmonia",
+      "name": "Aniversário de Harmonia",
+      "date": "04-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

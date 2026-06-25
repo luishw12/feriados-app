@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3171204,
+  "name": "Vespasiano",
+  "slug": "vespasiano",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-vespasiano",
+      "name": "Aniversário de Vespasiano",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vespasiano-1227",
+      "name": "Feriado Municipal de Vespasiano",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

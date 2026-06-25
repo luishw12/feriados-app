@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2900702,
+  "name": "Alagoinhas",
+  "slug": "alagoinhas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-alagoinhas",
+      "name": "Aniversário de Alagoinhas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alagoinhas-0624",
+      "name": "Feriado Municipal de Alagoinhas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

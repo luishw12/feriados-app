@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2909208,
+  "name": "Coronel João Sá",
+  "slug": "coronel-joao-sa",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-coronel-joao-sa",
+      "name": "Aniversário de Coronel João Sá",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-joao-sa-0728",
+      "name": "Feriado Municipal de Coronel João Sá",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-joao-sa-1213",
+      "name": "Feriado Municipal de Coronel João Sá",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

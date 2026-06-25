@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3555109,
+  "name": "Tupi Paulista",
+  "slug": "tupi-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-tupi-paulista",
+      "name": "Aniversário de Tupi Paulista",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tupi-paulista-0828",
+      "name": "Feriado Municipal de Tupi Paulista",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4128658,
+  "name": "Virmond",
+  "slug": "virmond",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-virmond",
+      "name": "Aniversário de Virmond",
+      "date": "05-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-virmond-0826",
+      "name": "Feriado Municipal de Virmond",
+      "date": "08-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

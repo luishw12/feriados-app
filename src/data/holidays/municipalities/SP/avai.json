@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3504305,
+  "name": "Avaí",
+  "slug": "avai",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-avai",
+      "name": "Aniversário de Avaí",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-avai-1202",
+      "name": "Feriado Municipal de Avaí",
+      "date": "12-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

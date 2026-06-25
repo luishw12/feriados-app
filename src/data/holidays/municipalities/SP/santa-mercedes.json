@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3547106,
+  "name": "Santa Mercedes",
+  "slug": "santa-mercedes",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-mercedes",
+      "name": "Aniversário de Santa Mercedes",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

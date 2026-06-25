@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2906824,
+  "name": "Canudos",
+  "slug": "canudos",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-canudos",
+      "name": "Aniversário de Canudos",
+      "date": "02-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canudos-0613",
+      "name": "Feriado Municipal de Canudos",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

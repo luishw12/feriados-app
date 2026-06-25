@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3301900,
+  "name": "Itaboraí",
+  "slug": "itaborai",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-itaborai",
+      "name": "Aniversário de Itaboraí",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaborai-0624",
+      "name": "Feriado Municipal de Itaboraí",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

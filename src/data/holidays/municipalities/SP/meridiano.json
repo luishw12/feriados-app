@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3529609,
+  "name": "Meridiano",
+  "slug": "meridiano",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-meridiano",
+      "name": "Aniversário de Meridiano",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3524907,
+  "name": "Jambeiro",
+  "slug": "jambeiro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jambeiro",
+      "name": "Aniversário de Jambeiro",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jambeiro-0915",
+      "name": "Feriado Municipal de Jambeiro",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

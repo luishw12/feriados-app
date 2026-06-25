@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3114907,
+  "name": "Casa Grande",
+  "slug": "casa-grande",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-casa-grande",
+      "name": "Aniversário de Casa Grande",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

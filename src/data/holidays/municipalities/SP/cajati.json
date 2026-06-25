@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3509254,
+  "name": "Cajati",
+  "slug": "cajati",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cajati",
+      "name": "Aniversário de Cajati",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cajati-0613",
+      "name": "Feriado Municipal de Cajati",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1503309,
+  "name": "Igarapé-Miri",
+  "slug": "igarape-miri",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-igarape-miri",
+      "name": "Aniversário de Igarapé-Miri",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-igarape-miri-0726",
+      "name": "Feriado Municipal de Igarapé-Miri",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-igarape-miri-1208",
+      "name": "Feriado Municipal de Igarapé-Miri",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

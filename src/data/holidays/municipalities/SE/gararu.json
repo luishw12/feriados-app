@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2802403,
+  "name": "Gararu",
+  "slug": "gararu",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-gararu",
+      "name": "Aniversário de Gararu",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gararu-0815",
+      "name": "Feriado Municipal de Gararu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

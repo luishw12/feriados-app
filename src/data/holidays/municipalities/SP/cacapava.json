@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3508504,
+  "name": "Caçapava",
+  "slug": "cacapava",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cacapava",
+      "name": "Aniversário de Caçapava",
+      "date": "04-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cacapava-0624",
+      "name": "Feriado Municipal de Caçapava",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

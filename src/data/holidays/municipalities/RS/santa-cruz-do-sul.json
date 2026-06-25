@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4316808,
+  "name": "Santa Cruz do Sul",
+  "slug": "santa-cruz-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cruz-do-sul",
+      "name": "Aniversário de Santa Cruz do Sul",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

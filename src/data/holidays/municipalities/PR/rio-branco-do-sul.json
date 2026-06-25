@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4122206,
+  "name": "Rio Branco do Sul",
+  "slug": "rio-branco-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-rio-branco-do-sul",
+      "name": "Aniversário de Rio Branco do Sul",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-branco-do-sul-0816",
+      "name": "Feriado Municipal de Rio Branco do Sul",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

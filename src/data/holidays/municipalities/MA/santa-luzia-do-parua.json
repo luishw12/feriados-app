@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2110039,
+  "name": "Santa Luzia do Paruá",
+  "slug": "santa-luzia-do-parua",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-santa-luzia-do-parua",
+      "name": "Aniversário de Santa Luzia do Paruá",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-luzia-do-parua-1213",
+      "name": "Feriado Municipal de Santa Luzia do Paruá",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

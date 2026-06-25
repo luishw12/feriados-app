@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2920205,
+  "name": "Malhada",
+  "slug": "malhada",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-malhada",
+      "name": "Aniversário de Malhada",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-malhada-0503",
+      "name": "Feriado Municipal de Malhada",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

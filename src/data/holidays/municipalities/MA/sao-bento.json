@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2110500,
+  "name": "São Bento",
+  "slug": "sao-bento",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-bento",
+      "name": "Aniversário de São Bento",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bento-0816",
+      "name": "Feriado Municipal de São Bento",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

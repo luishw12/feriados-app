@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3540903,
+  "name": "Pradópolis",
+  "slug": "pradopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pradopolis",
+      "name": "Aniversário de Pradópolis",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

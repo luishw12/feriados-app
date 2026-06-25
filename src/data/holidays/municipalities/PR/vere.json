@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4128609,
+  "name": "Verê",
+  "slug": "vere",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-vere",
+      "name": "Aniversário de Verê",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

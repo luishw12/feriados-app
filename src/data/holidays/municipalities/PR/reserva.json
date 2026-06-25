@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4121703,
+  "name": "Reserva",
+  "slug": "reserva",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-reserva",
+      "name": "Aniversário de Reserva",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-reserva-0624",
+      "name": "Feriado Municipal de Reserva",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4208500,
+  "name": "Ituporanga",
+  "slug": "ituporanga",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ituporanga",
+      "name": "Aniversário de Ituporanga",
+      "date": "02-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ituporanga-1226",
+      "name": "Feriado Municipal de Ituporanga",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

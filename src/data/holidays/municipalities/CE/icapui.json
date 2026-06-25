@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2305357,
+  "name": "Icapuí",
+  "slug": "icapui",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-icapui",
+      "name": "Aniversário de Icapuí",
+      "date": "01-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-icapui-0319",
+      "name": "Feriado Municipal de Icapuí",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-icapui-0922",
+      "name": "Feriado Municipal de Icapuí",
+      "date": "09-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

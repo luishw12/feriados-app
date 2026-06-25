@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4214508,
+  "name": "Rio do Campo",
+  "slug": "rio-do-campo",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-rio-do-campo",
+      "name": "Aniversário de Rio do Campo",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

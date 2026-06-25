@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4125753,
+  "name": "São Pedro do Iguaçu",
+  "slug": "sao-pedro-do-iguacu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-pedro-do-iguacu",
+      "name": "Aniversário de São Pedro do Iguaçu",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-pedro-do-iguacu-0716",
+      "name": "Feriado Municipal de São Pedro do Iguaçu",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

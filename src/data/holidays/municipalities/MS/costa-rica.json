@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5003256,
+  "name": "Costa Rica",
+  "slug": "costa-rica",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-costa-rica",
+      "name": "Aniversário de Costa Rica",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-costa-rica-0613",
+      "name": "Feriado Municipal de Costa Rica",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

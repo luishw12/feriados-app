@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3110004,
+  "name": "Caeté",
+  "slug": "caete",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-caete",
+      "name": "Aniversário de Caeté",
+      "date": "02-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caete-0815",
+      "name": "Feriado Municipal de Caeté",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caete-1208",
+      "name": "Feriado Municipal de Caeté",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

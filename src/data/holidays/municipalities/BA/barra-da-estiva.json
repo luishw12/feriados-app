@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2902807,
+  "name": "Barra da Estiva",
+  "slug": "barra-da-estiva",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-barra-da-estiva",
+      "name": "Aniversário de Barra da Estiva",
+      "date": "07-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-da-estiva-0806",
+      "name": "Feriado Municipal de Barra da Estiva",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

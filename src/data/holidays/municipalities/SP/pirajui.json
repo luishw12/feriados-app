@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3538907,
+  "name": "Pirajuí",
+  "slug": "pirajui",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pirajui",
+      "name": "Aniversário de Pirajuí",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirajui-0329",
+      "name": "Feriado Municipal de Pirajuí",
+      "date": "03-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirajui-0613",
+      "name": "Feriado Municipal de Pirajuí",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirajui-0624",
+      "name": "Feriado Municipal de Pirajuí",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

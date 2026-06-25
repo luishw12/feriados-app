@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2917334,
+  "name": "Iuiu",
+  "slug": "iuiu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-iuiu",
+      "name": "Aniversário de Iuiu",
+      "date": "02-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-iuiu-1213",
+      "name": "Feriado Municipal de Iuiu",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

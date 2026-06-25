@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2611507,
+  "name": "Quipapá",
+  "slug": "quipapa",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-quipapa",
+      "name": "Aniversário de Quipapá",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quipapa-1208",
+      "name": "Feriado Municipal de Quipapá",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4313375,
+  "name": "Nova Santa Rita",
+  "slug": "nova-santa-rita",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-nova-santa-rita",
+      "name": "Aniversário de Nova Santa Rita",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

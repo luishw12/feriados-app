@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3556503,
+  "name": "Várzea Paulista",
+  "slug": "varzea-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-varzea-paulista",
+      "name": "Aniversário de Várzea Paulista",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-varzea-paulista-0915",
+      "name": "Feriado Municipal de Várzea Paulista",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1504802,
+  "name": "Monte Alegre",
+  "slug": "monte-alegre",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-monte-alegre",
+      "name": "Aniversário de Monte Alegre",
+      "date": "03-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

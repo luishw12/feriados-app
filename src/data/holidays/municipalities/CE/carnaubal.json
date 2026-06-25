@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2303402,
+  "name": "Carnaubal",
+  "slug": "carnaubal",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-carnaubal",
+      "name": "Aniversário de Carnaubal",
+      "date": "07-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carnaubal-0908",
+      "name": "Feriado Municipal de Carnaubal",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

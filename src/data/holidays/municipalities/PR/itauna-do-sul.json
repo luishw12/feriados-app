@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4111308,
+  "name": "Itaúna do Sul",
+  "slug": "itauna-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-itauna-do-sul",
+      "name": "Aniversário de Itaúna do Sul",
+      "date": "11-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

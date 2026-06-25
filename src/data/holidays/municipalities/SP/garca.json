@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3516705,
+  "name": "Garça",
+  "slug": "garca",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-garca",
+      "name": "Aniversário de Garça",
+      "date": "05-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-garca-0629",
+      "name": "Feriado Municipal de Garça",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

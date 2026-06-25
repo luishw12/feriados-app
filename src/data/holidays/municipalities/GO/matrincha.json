@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5212956,
+  "name": "Matrinchã",
+  "slug": "matrincha",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-matrincha",
+      "name": "Aniversário de Matrinchã",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matrincha-1213",
+      "name": "Feriado Municipal de Matrinchã",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

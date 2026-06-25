@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4126504,
+  "name": "Sertanópolis",
+  "slug": "sertanopolis",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sertanopolis",
+      "name": "Aniversário de Sertanópolis",
+      "date": "06-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

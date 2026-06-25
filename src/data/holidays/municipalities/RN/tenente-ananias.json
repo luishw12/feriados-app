@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2414100,
+  "name": "Tenente Ananias",
+  "slug": "tenente-ananias",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-tenente-ananias",
+      "name": "Aniversário de Tenente Ananias",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

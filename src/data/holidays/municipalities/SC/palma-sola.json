@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4212007,
+  "name": "Palma Sola",
+  "slug": "palma-sola",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-palma-sola",
+      "name": "Aniversário de Palma Sola",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palma-sola-1208",
+      "name": "Feriado Municipal de Palma Sola",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palma-sola-1230",
+      "name": "Feriado Municipal de Palma Sola",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

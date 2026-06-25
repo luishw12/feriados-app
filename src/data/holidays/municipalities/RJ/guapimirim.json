@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3301850,
+  "name": "Guapimirim",
+  "slug": "guapimirim",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-guapimirim",
+      "name": "Aniversário de Guapimirim",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guapimirim-1125",
+      "name": "Feriado Municipal de Guapimirim",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guapimirim-1126",
+      "name": "Feriado Municipal de Guapimirim",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

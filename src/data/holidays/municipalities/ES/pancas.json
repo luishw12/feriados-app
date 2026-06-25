@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3204005,
+  "name": "Pancas",
+  "slug": "pancas",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-pancas",
+      "name": "Aniversário de Pancas",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pancas-1031",
+      "name": "Feriado Municipal de Pancas",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pancas-1213",
+      "name": "Feriado Municipal de Pancas",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

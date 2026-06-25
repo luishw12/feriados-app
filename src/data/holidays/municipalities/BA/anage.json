@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2901205,
+  "name": "Anagé",
+  "slug": "anage",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-anage",
+      "name": "Aniversário de Anagé",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anage-0624",
+      "name": "Feriado Municipal de Anagé",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

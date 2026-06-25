@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5204904,
+  "name": "Campos Belos",
+  "slug": "campos-belos",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-campos-belos",
+      "name": "Aniversário de Campos Belos",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3304409,
+  "name": "Rio Claro",
+  "slug": "rio-claro",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-rio-claro",
+      "name": "Aniversário de Rio Claro",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

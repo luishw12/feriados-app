@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4124053,
+  "name": "Santa Terezinha de Itaipu",
+  "slug": "santa-terezinha-de-itaipu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-terezinha-de-itaipu",
+      "name": "Aniversário de Santa Terezinha de Itaipu",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

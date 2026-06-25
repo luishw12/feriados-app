@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4212304,
+  "name": "Paulo Lopes",
+  "slug": "paulo-lopes",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-paulo-lopes",
+      "name": "Aniversário de Paulo Lopes",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paulo-lopes-1230",
+      "name": "Feriado Municipal de Paulo Lopes",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

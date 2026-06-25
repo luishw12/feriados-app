@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2804904,
+  "name": "Pacatuba",
+  "slug": "pacatuba",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-pacatuba",
+      "name": "Aniversário de Pacatuba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pacatuba-0629",
+      "name": "Feriado Municipal de Pacatuba",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

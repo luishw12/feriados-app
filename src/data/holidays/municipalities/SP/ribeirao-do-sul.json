@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3543204,
+  "name": "Ribeirão do Sul",
+  "slug": "ribeirao-do-sul",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ribeirao-do-sul",
+      "name": "Aniversário de Ribeirão do Sul",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-do-sul-0613",
+      "name": "Feriado Municipal de Ribeirão do Sul",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

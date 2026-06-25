@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1503606,
+  "name": "Itaituba",
+  "slug": "itaituba",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-itaituba",
+      "name": "Aniversário de Itaituba",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaituba-1215",
+      "name": "Feriado Municipal de Itaituba",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

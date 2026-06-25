@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2412302,
+  "name": "São José do Campestre",
+  "slug": "sao-jose-do-campestre",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-campestre",
+      "name": "Aniversário de São José do Campestre",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-campestre-0319",
+      "name": "Feriado Municipal de São José do Campestre",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-campestre-1223",
+      "name": "Feriado Municipal de São José do Campestre",
+      "date": "12-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

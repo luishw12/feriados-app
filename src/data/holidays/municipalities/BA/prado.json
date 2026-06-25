@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2925501,
+  "name": "Prado",
+  "slug": "prado",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-prado",
+      "name": "Aniversário de Prado",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-prado-0802",
+      "name": "Feriado Municipal de Prado",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3547304,
+  "name": "Santana de Parnaíba",
+  "slug": "santana-de-parnaiba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santana-de-parnaiba",
+      "name": "Aniversário de Santana de Parnaíba",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santana-de-parnaiba-1114",
+      "name": "Feriado Municipal de Santana de Parnaíba",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

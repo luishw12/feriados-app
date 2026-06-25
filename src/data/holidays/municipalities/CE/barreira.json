@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2301950,
+  "name": "Barreira",
+  "slug": "barreira",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-barreira",
+      "name": "Aniversário de Barreira",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

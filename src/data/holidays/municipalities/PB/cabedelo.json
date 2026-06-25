@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2503209,
+  "name": "Cabedelo",
+  "slug": "cabedelo",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-cabedelo",
+      "name": "Aniversário de Cabedelo",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cabedelo-0624",
+      "name": "Feriado Municipal de Cabedelo",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cabedelo-1212",
+      "name": "Feriado Municipal de Cabedelo",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

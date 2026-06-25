@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3554904,
+  "name": "Três Fronteiras",
+  "slug": "tres-fronteiras",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-tres-fronteiras",
+      "name": "Aniversário de Três Fronteiras",
+      "date": "01-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tres-fronteiras-0218",
+      "name": "Feriado Municipal de Três Fronteiras",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

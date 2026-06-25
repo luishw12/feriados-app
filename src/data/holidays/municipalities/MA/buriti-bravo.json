@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2102309,
+  "name": "Buriti Bravo",
+  "slug": "buriti-bravo",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-buriti-bravo",
+      "name": "Aniversário de Buriti Bravo",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buriti-bravo-0705",
+      "name": "Feriado Municipal de Buriti Bravo",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

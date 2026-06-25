@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3132503,
+  "name": "Itamarandiba",
+  "slug": "itamarandiba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itamarandiba",
+      "name": "Aniversário de Itamarandiba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

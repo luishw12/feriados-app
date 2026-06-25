@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4315701,
+  "name": "Rio Pardo",
+  "slug": "rio-pardo",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-rio-pardo",
+      "name": "Aniversário de Rio Pardo",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-pardo-1007",
+      "name": "Feriado Municipal de Rio Pardo",
+      "date": "10-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

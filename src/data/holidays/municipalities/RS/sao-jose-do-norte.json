@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4318507,
+  "name": "São José do Norte",
+  "slug": "sao-jose-do-norte",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-norte",
+      "name": "Aniversário de São José do Norte",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-norte-0629",
+      "name": "Feriado Municipal de São José do Norte",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

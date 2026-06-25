@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5213806,
+  "name": "Morrinhos",
+  "slug": "morrinhos",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-morrinhos",
+      "name": "Aniversário de Morrinhos",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-morrinhos-0829",
+      "name": "Feriado Municipal de Morrinhos",
+      "date": "08-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

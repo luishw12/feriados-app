@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3305604,
+  "name": "Silva Jardim",
+  "slug": "silva-jardim",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-silva-jardim",
+      "name": "Aniversário de Silva Jardim",
+      "date": "05-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-silva-jardim-0908",
+      "name": "Feriado Municipal de Silva Jardim",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

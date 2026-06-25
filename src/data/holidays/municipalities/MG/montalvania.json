@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3142700,
+  "name": "Montalvânia",
+  "slug": "montalvania",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-montalvania",
+      "name": "Aniversário de Montalvânia",
+      "date": "04-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-montalvania-1126",
+      "name": "Feriado Municipal de Montalvânia",
+      "date": "11-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

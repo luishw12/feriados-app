@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2932309,
+  "name": "Ubatã",
+  "slug": "ubata",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ubata",
+      "name": "Aniversário de Ubatã",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubata-0926",
+      "name": "Feriado Municipal de Ubatã",
+      "date": "09-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubata-1208",
+      "name": "Feriado Municipal de Ubatã",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

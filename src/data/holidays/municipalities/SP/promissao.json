@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3541604,
+  "name": "Promissão",
+  "slug": "promissao",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-promissao",
+      "name": "Aniversário de Promissão",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

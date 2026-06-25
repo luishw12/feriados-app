@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4314001,
+  "name": "Paraí",
+  "slug": "parai",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-parai",
+      "name": "Aniversário de Paraí",
+      "date": "02-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-parai-0709",
+      "name": "Feriado Municipal de Paraí",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

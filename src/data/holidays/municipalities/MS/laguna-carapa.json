@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5005251,
+  "name": "Laguna Carapã",
+  "slug": "laguna-carapa",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-laguna-carapa",
+      "name": "Aniversário de Laguna Carapã",
+      "date": "04-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-laguna-carapa-0526",
+      "name": "Feriado Municipal de Laguna Carapã",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

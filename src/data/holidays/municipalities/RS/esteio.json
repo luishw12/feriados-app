@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4307708,
+  "name": "Esteio",
+  "slug": "esteio",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-esteio",
+      "name": "Aniversário de Esteio",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-esteio-0822",
+      "name": "Feriado Municipal de Esteio",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

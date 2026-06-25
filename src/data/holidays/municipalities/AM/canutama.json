@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1300904,
+  "name": "Canutama",
+  "slug": "canutama",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-canutama",
+      "name": "Aniversário de Canutama",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

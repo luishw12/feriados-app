@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4303103,
+  "name": "Cachoeirinha",
+  "slug": "cachoeirinha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cachoeirinha",
+      "name": "Aniversário de Cachoeirinha",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

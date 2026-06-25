@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2932101,
+  "name": "Ubaíra",
+  "slug": "ubaira",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ubaira",
+      "name": "Aniversário de Ubaíra",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ubaira-0630",
+      "name": "Feriado Municipal de Ubaíra",
+      "date": "06-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3511508,
+  "name": "Cerquilho",
+  "slug": "cerquilho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cerquilho",
+      "name": "Aniversário de Cerquilho",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

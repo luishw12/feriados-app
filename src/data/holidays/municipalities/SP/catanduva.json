@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3511102,
+  "name": "Catanduva",
+  "slug": "catanduva",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-catanduva",
+      "name": "Aniversário de Catanduva",
+      "date": "04-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-catanduva-0808",
+      "name": "Feriado Municipal de Catanduva",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

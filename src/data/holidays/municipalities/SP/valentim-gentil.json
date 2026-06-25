@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3556107,
+  "name": "Valentim Gentil",
+  "slug": "valentim-gentil",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-valentim-gentil",
+      "name": "Aniversário de Valentim Gentil",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-valentim-gentil-0503",
+      "name": "Feriado Municipal de Valentim Gentil",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4311155,
+  "name": "Jóia",
+  "slug": "joia",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-joia",
+      "name": "Aniversário de Jóia",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

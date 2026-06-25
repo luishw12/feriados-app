@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3501400,
+  "name": "Álvaro de Carvalho",
+  "slug": "alvaro-de-carvalho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-alvaro-de-carvalho",
+      "name": "Aniversário de Álvaro de Carvalho",
+      "date": "11-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

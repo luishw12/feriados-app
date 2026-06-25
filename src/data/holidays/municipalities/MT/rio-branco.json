@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5107206,
+  "name": "Rio Branco",
+  "slug": "rio-branco",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-rio-branco",
+      "name": "Aniversário de Rio Branco",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-branco-0816",
+      "name": "Feriado Municipal de Rio Branco",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

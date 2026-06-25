@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3545803,
+  "name": "Santa Bárbara d'Oeste",
+  "slug": "santa-barbara-d-oeste",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-barbara-d-oeste",
+      "name": "Aniversário de Santa Bárbara d'Oeste",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

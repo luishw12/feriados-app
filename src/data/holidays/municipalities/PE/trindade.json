@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2615607,
+  "name": "Trindade",
+  "slug": "trindade",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-trindade",
+      "name": "Aniversário de Trindade",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-trindade-1220",
+      "name": "Feriado Municipal de Trindade",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

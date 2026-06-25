@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3304128,
+  "name": "Quatis",
+  "slug": "quatis",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-quatis",
+      "name": "Aniversário de Quatis",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quatis-1125",
+      "name": "Feriado Municipal de Quatis",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4305702,
+  "name": "Condor",
+  "slug": "condor",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-condor",
+      "name": "Aniversário de Condor",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-condor-0725",
+      "name": "Feriado Municipal de Condor",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

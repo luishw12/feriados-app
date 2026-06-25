@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5106000,
+  "name": "Nortelândia",
+  "slug": "nortelandia",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-nortelandia",
+      "name": "Aniversário de Nortelândia",
+      "date": "02-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nortelandia-0726",
+      "name": "Feriado Municipal de Nortelândia",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

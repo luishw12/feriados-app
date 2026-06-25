@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4212056,
+  "name": "Palmeira",
+  "slug": "palmeira",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-palmeira",
+      "name": "Aniversário de Palmeira",
+      "date": "07-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmeira-0815",
+      "name": "Feriado Municipal de Palmeira",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

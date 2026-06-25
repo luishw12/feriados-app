@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4104428,
+  "name": "Candói",
+  "slug": "candoi",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-candoi",
+      "name": "Aniversário de Candói",
+      "date": "08-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-candoi-0827",
+      "name": "Feriado Municipal de Candói",
+      "date": "08-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

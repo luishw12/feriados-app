@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2803005,
+  "name": "Itabaianinha",
+  "slug": "itabaianinha",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-itabaianinha",
+      "name": "Aniversário de Itabaianinha",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itabaianinha-0624",
+      "name": "Feriado Municipal de Itabaianinha",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itabaianinha-1208",
+      "name": "Feriado Municipal de Itabaianinha",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

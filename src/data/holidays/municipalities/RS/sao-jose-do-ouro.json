@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4318606,
+  "name": "São José do Ouro",
+  "slug": "sao-jose-do-ouro",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-ouro",
+      "name": "Aniversário de São José do Ouro",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-ouro-0910",
+      "name": "Feriado Municipal de São José do Ouro",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

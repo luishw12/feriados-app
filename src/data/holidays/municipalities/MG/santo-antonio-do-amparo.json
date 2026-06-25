@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3159902,
+  "name": "Santo Antônio do Amparo",
+  "slug": "santo-antonio-do-amparo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-do-amparo",
+      "name": "Aniversário de Santo Antônio do Amparo",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-amparo-0613",
+      "name": "Feriado Municipal de Santo Antônio do Amparo",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-amparo-0815",
+      "name": "Feriado Municipal de Santo Antônio do Amparo",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-do-amparo-1208",
+      "name": "Feriado Municipal de Santo Antônio do Amparo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

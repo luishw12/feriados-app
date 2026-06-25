@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4206702,
+  "name": "Herval d'Oeste",
+  "slug": "herval-d-oeste",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-herval-d-oeste",
+      "name": "Aniversário de Herval d'Oeste",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

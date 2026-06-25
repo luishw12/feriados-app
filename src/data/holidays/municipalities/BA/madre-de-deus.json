@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2919926,
+  "name": "Madre de Deus",
+  "slug": "madre-de-deus",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-madre-de-deus",
+      "name": "Aniversário de Madre de Deus",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-madre-de-deus-0624",
+      "name": "Feriado Municipal de Madre de Deus",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-madre-de-deus-1227",
+      "name": "Feriado Municipal de Madre de Deus",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

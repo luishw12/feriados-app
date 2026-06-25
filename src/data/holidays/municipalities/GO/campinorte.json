@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5204706,
+  "name": "Campinorte",
+  "slug": "campinorte",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-campinorte",
+      "name": "Aniversário de Campinorte",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

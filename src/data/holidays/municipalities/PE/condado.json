@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2604601,
+  "name": "Condado",
+  "slug": "condado",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-condado",
+      "name": "Aniversário de Condado",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-condado-1111",
+      "name": "Feriado Municipal de Condado",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

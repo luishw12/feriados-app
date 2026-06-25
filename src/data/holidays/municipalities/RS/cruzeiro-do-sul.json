@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4306205,
+  "name": "Cruzeiro do Sul",
+  "slug": "cruzeiro-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cruzeiro-do-sul",
+      "name": "Aniversário de Cruzeiro do Sul",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

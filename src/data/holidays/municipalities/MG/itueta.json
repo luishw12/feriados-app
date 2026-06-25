@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3134103,
+  "name": "Itueta",
+  "slug": "itueta",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itueta",
+      "name": "Aniversário de Itueta",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itueta-0624",
+      "name": "Feriado Municipal de Itueta",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itueta-1031",
+      "name": "Feriado Municipal de Itueta",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itueta-1208",
+      "name": "Feriado Municipal de Itueta",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itueta-1227",
+      "name": "Feriado Municipal de Itueta",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

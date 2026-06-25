@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3102001,
+  "name": "Alterosa",
+  "slug": "alterosa",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-alterosa",
+      "name": "Aniversário de Alterosa",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alterosa-1217",
+      "name": "Feriado Municipal de Alterosa",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

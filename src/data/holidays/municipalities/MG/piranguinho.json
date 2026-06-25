@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3151008,
+  "name": "Piranguinho",
+  "slug": "piranguinho",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-piranguinho",
+      "name": "Aniversário de Piranguinho",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

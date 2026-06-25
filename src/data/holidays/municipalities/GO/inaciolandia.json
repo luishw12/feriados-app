@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5209937,
+  "name": "Inaciolândia",
+  "slug": "inaciolandia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-inaciolandia",
+      "name": "Aniversário de Inaciolândia",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-inaciolandia-0429",
+      "name": "Feriado Municipal de Inaciolândia",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3148004,
+  "name": "Patos de Minas",
+  "slug": "patos-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-patos-de-minas",
+      "name": "Aniversário de Patos de Minas",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-patos-de-minas-0604",
+      "name": "Feriado Municipal de Patos de Minas",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-patos-de-minas-0613",
+      "name": "Feriado Municipal de Patos de Minas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-patos-de-minas-0815",
+      "name": "Feriado Municipal de Patos de Minas",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

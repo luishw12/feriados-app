@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4303707,
+  "name": "Campina das Missões",
+  "slug": "campina-das-missoes",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-campina-das-missoes",
+      "name": "Aniversário de Campina das Missões",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3166709,
+  "name": "Serra dos Aimorés",
+  "slug": "serra-dos-aimores",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-serra-dos-aimores",
+      "name": "Aniversário de Serra dos Aimorés",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3512803,
+  "name": "Cosmópolis",
+  "slug": "cosmopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cosmopolis",
+      "name": "Aniversário de Cosmópolis",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

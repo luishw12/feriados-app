@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 3554102,
+  "name": "Taubaté",
+  "slug": "taubate",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-taubate",
+      "name": "Aniversário de Taubaté",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taubate-0422",
+      "name": "Feriado Municipal de Taubaté",
+      "date": "04-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taubate-0604",
+      "name": "Feriado Municipal de Taubaté",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taubate-1004",
+      "name": "Feriado Municipal de Taubaté",
+      "date": "10-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taubate-1205",
+      "name": "Feriado Municipal de Taubaté",
+      "date": "12-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

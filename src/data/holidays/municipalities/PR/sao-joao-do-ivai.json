@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4125001,
+  "name": "São João do Ivaí",
+  "slug": "sao-joao-do-ivai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-do-ivai",
+      "name": "Aniversário de São João do Ivaí",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

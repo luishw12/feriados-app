@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3304508,
+  "name": "Rio das Flores",
+  "slug": "rio-das-flores",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-rio-das-flores",
+      "name": "Aniversário de Rio das Flores",
+      "date": "03-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

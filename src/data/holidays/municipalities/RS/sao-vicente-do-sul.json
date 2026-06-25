@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4319802,
+  "name": "São Vicente do Sul",
+  "slug": "sao-vicente-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-vicente-do-sul",
+      "name": "Aniversário de São Vicente do Sul",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-vicente-do-sul-0429",
+      "name": "Feriado Municipal de São Vicente do Sul",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

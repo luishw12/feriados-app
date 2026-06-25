@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4219101,
+  "name": "Vargeão",
+  "slug": "vargeao",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-vargeao",
+      "name": "Aniversário de Vargeão",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

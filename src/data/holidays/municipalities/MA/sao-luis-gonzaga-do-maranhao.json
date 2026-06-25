@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2111409,
+  "name": "São Luís Gonzaga do Maranhão",
+  "slug": "sao-luis-gonzaga-do-maranhao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-luis-gonzaga-do-maranhao",
+      "name": "Aniversário de São Luís Gonzaga do Maranhão",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-luis-gonzaga-do-maranhao-0621",
+      "name": "Feriado Municipal de São Luís Gonzaga do Maranhão",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-luis-gonzaga-do-maranhao-1101",
+      "name": "Feriado Municipal de São Luís Gonzaga do Maranhão",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

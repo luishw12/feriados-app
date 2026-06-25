@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3526506,
+  "name": "Lavínia",
+  "slug": "lavinia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-lavinia",
+      "name": "Aniversário de Lavínia",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

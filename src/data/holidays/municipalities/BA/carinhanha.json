@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2907103,
+  "name": "Carinhanha",
+  "slug": "carinhanha",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-carinhanha",
+      "name": "Aniversário de Carinhanha",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carinhanha-0609",
+      "name": "Feriado Municipal de Carinhanha",
+      "date": "06-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carinhanha-0817",
+      "name": "Feriado Municipal de Carinhanha",
+      "date": "08-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

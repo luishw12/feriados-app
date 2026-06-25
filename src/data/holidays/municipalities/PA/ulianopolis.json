@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1508126,
+  "name": "Ulianópolis",
+  "slug": "ulianopolis",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-ulianopolis",
+      "name": "Aniversário de Ulianópolis",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

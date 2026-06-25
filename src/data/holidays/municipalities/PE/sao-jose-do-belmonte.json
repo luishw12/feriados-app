@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2613503,
+  "name": "São José do Belmonte",
+  "slug": "sao-jose-do-belmonte",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-belmonte",
+      "name": "Aniversário de São José do Belmonte",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-belmonte-0626",
+      "name": "Feriado Municipal de São José do Belmonte",
+      "date": "06-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-belmonte-0915",
+      "name": "Feriado Municipal de São José do Belmonte",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

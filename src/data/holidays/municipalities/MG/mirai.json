@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3142205,
+  "name": "Miraí",
+  "slug": "mirai",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-mirai",
+      "name": "Aniversário de Miraí",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirai-0912",
+      "name": "Feriado Municipal de Miraí",
+      "date": "09-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

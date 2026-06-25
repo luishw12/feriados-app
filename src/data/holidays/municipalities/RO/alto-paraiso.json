@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1100403,
+  "name": "Alto Paraíso",
+  "slug": "alto-paraiso",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-alto-paraiso",
+      "name": "Aniversário de Alto Paraíso",
+      "date": "02-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-paraiso-0524",
+      "name": "Feriado Municipal de Alto Paraíso",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

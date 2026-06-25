@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3556602,
+  "name": "Vera Cruz",
+  "slug": "vera-cruz",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-vera-cruz",
+      "name": "Aniversário de Vera Cruz",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vera-cruz-0615",
+      "name": "Feriado Municipal de Vera Cruz",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

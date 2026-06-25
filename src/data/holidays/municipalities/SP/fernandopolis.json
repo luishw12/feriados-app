@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3515509,
+  "name": "Fernandópolis",
+  "slug": "fernandopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-fernandopolis",
+      "name": "Aniversário de Fernandópolis",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

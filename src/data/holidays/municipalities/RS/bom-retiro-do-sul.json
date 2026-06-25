@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4302402,
+  "name": "Bom Retiro do Sul",
+  "slug": "bom-retiro-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-bom-retiro-do-sul",
+      "name": "Aniversário de Bom Retiro do Sul",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

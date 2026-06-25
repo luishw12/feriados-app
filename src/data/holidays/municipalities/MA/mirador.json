@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2106706,
+  "name": "Mirador",
+  "slug": "mirador",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-mirador",
+      "name": "Aniversário de Mirador",
+      "date": "03-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirador-0815",
+      "name": "Feriado Municipal de Mirador",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

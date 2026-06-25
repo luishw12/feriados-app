@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2902500,
+  "name": "Baianópolis",
+  "slug": "baianopolis",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-baianopolis",
+      "name": "Aniversário de Baianópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baianopolis-0730",
+      "name": "Feriado Municipal de Baianópolis",
+      "date": "07-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baianopolis-0910",
+      "name": "Feriado Municipal de Baianópolis",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baianopolis-0930",
+      "name": "Feriado Municipal de Baianópolis",
+      "date": "09-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

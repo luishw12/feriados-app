@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5006002,
+  "name": "Nova Alvorada do Sul",
+  "slug": "nova-alvorada-do-sul",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-nova-alvorada-do-sul",
+      "name": "Aniversário de Nova Alvorada do Sul",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

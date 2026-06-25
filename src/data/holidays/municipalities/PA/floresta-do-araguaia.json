@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1503044,
+  "name": "Floresta do Araguaia",
+  "slug": "floresta-do-araguaia",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-floresta-do-araguaia",
+      "name": "Aniversário de Floresta do Araguaia",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-floresta-do-araguaia-0813",
+      "name": "Feriado Municipal de Floresta do Araguaia",
+      "date": "08-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-floresta-do-araguaia-0915",
+      "name": "Feriado Municipal de Floresta do Araguaia",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

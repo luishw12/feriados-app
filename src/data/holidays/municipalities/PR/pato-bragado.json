@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4118451,
+  "name": "Pato Bragado",
+  "slug": "pato-bragado",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-pato-bragado",
+      "name": "Aniversário de Pato Bragado",
+      "date": "06-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pato-bragado-1031",
+      "name": "Feriado Municipal de Pato Bragado",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

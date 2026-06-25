@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3110301,
+  "name": "Caldas",
+  "slug": "caldas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-caldas",
+      "name": "Aniversário de Caldas",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caldas-0815",
+      "name": "Feriado Municipal de Caldas",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

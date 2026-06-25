@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4208401,
+  "name": "Itapiranga",
+  "slug": "itapiranga",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-itapiranga",
+      "name": "Aniversário de Itapiranga",
+      "date": "02-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapiranga-0725",
+      "name": "Feriado Municipal de Itapiranga",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

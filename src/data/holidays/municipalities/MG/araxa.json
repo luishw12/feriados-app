@@ -1,0 +1,74 @@
+{
+  "ibgeCode": 3104007,
+  "name": "Araxá",
+  "slug": "araxa",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-araxa",
+      "name": "Aniversário de Araxá",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araxa-0403",
+      "name": "Feriado Municipal de Araxá",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araxa-0604",
+      "name": "Feriado Municipal de Araxá",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araxa-0808",
+      "name": "Feriado Municipal de Araxá",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araxa-0815",
+      "name": "Feriado Municipal de Araxá",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araxa-1219",
+      "name": "Feriado Municipal de Araxá",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

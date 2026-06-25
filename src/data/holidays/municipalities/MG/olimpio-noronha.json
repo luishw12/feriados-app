@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3145505,
+  "name": "Olímpio Noronha",
+  "slug": "olimpio-noronha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-olimpio-noronha",
+      "name": "Aniversário de Olímpio Noronha",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

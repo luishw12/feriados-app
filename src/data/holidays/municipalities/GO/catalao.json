@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5205109,
+  "name": "Catalão",
+  "slug": "catalao",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-catalao",
+      "name": "Aniversário de Catalão",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

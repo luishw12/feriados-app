@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3549409,
+  "name": "São Joaquim da Barra",
+  "slug": "sao-joaquim-da-barra",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joaquim-da-barra",
+      "name": "Aniversário de São Joaquim da Barra",
+      "date": "05-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joaquim-da-barra-0726",
+      "name": "Feriado Municipal de São Joaquim da Barra",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

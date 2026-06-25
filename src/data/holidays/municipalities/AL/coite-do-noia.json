@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2702009,
+  "name": "Coité do Nóia",
+  "slug": "coite-do-noia",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-coite-do-noia",
+      "name": "Aniversário de Coité do Nóia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coite-do-noia-0921",
+      "name": "Feriado Municipal de Coité do Nóia",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

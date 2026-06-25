@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2932903,
+  "name": "Valença",
+  "slug": "valenca",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-valenca",
+      "name": "Aniversário de Valença",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-valenca-1108",
+      "name": "Feriado Municipal de Valença",
+      "date": "11-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-valenca-1110",
+      "name": "Feriado Municipal de Valença",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

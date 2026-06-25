@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2304103,
+  "name": "Crateús",
+  "slug": "crateus",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-crateus",
+      "name": "Aniversário de Crateús",
+      "date": "07-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

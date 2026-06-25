@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2110302,
+  "name": "Santo Antônio dos Lopes",
+  "slug": "santo-antonio-dos-lopes",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-santo-antonio-dos-lopes",
+      "name": "Aniversário de Santo Antônio dos Lopes",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-dos-lopes-0629",
+      "name": "Feriado Municipal de Santo Antônio dos Lopes",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-antonio-dos-lopes-1230",
+      "name": "Feriado Municipal de Santo Antônio dos Lopes",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

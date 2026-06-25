@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4100806,
+  "name": "Alvorada do Sul",
+  "slug": "alvorada-do-sul",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-alvorada-do-sul",
+      "name": "Aniversário de Alvorada do Sul",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alvorada-do-sul-1214",
+      "name": "Feriado Municipal de Alvorada do Sul",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2605707,
+  "name": "Floresta",
+  "slug": "floresta",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-floresta",
+      "name": "Aniversário de Floresta",
+      "date": "03-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-floresta-0620",
+      "name": "Feriado Municipal de Floresta",
+      "date": "06-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-floresta-1222",
+      "name": "Feriado Municipal de Floresta",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

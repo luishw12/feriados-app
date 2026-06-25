@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3522703,
+  "name": "Itápolis",
+  "slug": "itapolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itapolis",
+      "name": "Aniversário de Itápolis",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapolis-1020",
+      "name": "Feriado Municipal de Itápolis",
+      "date": "10-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

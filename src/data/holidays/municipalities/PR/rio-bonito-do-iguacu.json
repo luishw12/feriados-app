@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4122156,
+  "name": "Rio Bonito do Iguaçu",
+  "slug": "rio-bonito-do-iguacu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-rio-bonito-do-iguacu",
+      "name": "Aniversário de Rio Bonito do Iguaçu",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-bonito-do-iguacu-0417",
+      "name": "Feriado Municipal de Rio Bonito do Iguaçu",
+      "date": "04-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-bonito-do-iguacu-0613",
+      "name": "Feriado Municipal de Rio Bonito do Iguaçu",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-bonito-do-iguacu-0806",
+      "name": "Feriado Municipal de Rio Bonito do Iguaçu",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

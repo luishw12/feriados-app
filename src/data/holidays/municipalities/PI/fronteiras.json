@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2204303,
+  "name": "Fronteiras",
+  "slug": "fronteiras",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-fronteiras",
+      "name": "Aniversário de Fronteiras",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fronteiras-0609",
+      "name": "Feriado Municipal de Fronteiras",
+      "date": "06-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fronteiras-0908",
+      "name": "Feriado Municipal de Fronteiras",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

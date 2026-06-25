@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3124500,
+  "name": "Estiva",
+  "slug": "estiva",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-estiva",
+      "name": "Aniversário de Estiva",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estiva-1227",
+      "name": "Feriado Municipal de Estiva",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

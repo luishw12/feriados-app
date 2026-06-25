@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3520103,
+  "name": "Igarapava",
+  "slug": "igarapava",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-igarapava",
+      "name": "Aniversário de Igarapava",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-igarapava-0815",
+      "name": "Feriado Municipal de Igarapava",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

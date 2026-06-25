@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4308805,
+  "name": "General Câmara",
+  "slug": "general-camara",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-general-camara",
+      "name": "Aniversário de General Câmara",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-general-camara-0403",
+      "name": "Feriado Municipal de General Câmara",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-general-camara-0504",
+      "name": "Feriado Municipal de General Câmara",
+      "date": "05-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-general-camara-1206",
+      "name": "Feriado Municipal de General Câmara",
+      "date": "12-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

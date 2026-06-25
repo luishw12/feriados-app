@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1100155,
+  "name": "Ouro Preto do Oeste",
+  "slug": "ouro-preto-do-oeste",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-ouro-preto-do-oeste",
+      "name": "Aniversário de Ouro Preto do Oeste",
+      "date": "06-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5106232,
+  "name": "Nova Olímpia",
+  "slug": "nova-olimpia",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-nova-olimpia",
+      "name": "Aniversário de Nova Olímpia",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

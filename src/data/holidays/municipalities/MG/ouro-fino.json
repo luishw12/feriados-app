@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3146008,
+  "name": "Ouro Fino",
+  "slug": "ouro-fino",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ouro-fino",
+      "name": "Aniversário de Ouro Fino",
+      "date": "03-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ouro-fino-0513",
+      "name": "Feriado Municipal de Ouro Fino",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

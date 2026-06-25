@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4316956,
+  "name": "Santa Maria do Herval",
+  "slug": "santa-maria-do-herval",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santa-maria-do-herval",
+      "name": "Aniversário de Santa Maria do Herval",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-maria-do-herval-0725",
+      "name": "Feriado Municipal de Santa Maria do Herval",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

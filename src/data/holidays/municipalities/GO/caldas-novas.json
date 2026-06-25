@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5204508,
+  "name": "Caldas Novas",
+  "slug": "caldas-novas",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-caldas-novas",
+      "name": "Aniversário de Caldas Novas",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caldas-novas-1021",
+      "name": "Feriado Municipal de Caldas Novas",
+      "date": "10-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

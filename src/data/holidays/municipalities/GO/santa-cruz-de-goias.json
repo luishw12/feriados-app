@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5219209,
+  "name": "Santa Cruz de Goiás",
+  "slug": "santa-cruz-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cruz-de-goias",
+      "name": "Aniversário de Santa Cruz de Goiás",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

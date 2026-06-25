@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4103057,
+  "name": "Boa Vista da Aparecida",
+  "slug": "boa-vista-da-aparecida",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-boa-vista-da-aparecida",
+      "name": "Aniversário de Boa Vista da Aparecida",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

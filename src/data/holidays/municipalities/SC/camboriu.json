@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4203204,
+  "name": "Camboriú",
+  "slug": "camboriu",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-camboriu",
+      "name": "Aniversário de Camboriú",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camboriu-0405",
+      "name": "Feriado Municipal de Camboriú",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camboriu-0609",
+      "name": "Feriado Municipal de Camboriú",
+      "date": "06-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-camboriu-0619",
+      "name": "Feriado Municipal de Camboriú",
+      "date": "06-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

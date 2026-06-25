@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4123006,
+  "name": "Salto do Lontra",
+  "slug": "salto-do-lontra",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-salto-do-lontra",
+      "name": "Aniversário de Salto do Lontra",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salto-do-lontra-0725",
+      "name": "Feriado Municipal de Salto do Lontra",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

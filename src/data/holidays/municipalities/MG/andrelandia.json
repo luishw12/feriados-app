@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3102803,
+  "name": "Andrelândia",
+  "slug": "andrelandia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-andrelandia",
+      "name": "Aniversário de Andrelândia",
+      "date": "07-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-andrelandia-0815",
+      "name": "Feriado Municipal de Andrelândia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

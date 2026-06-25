@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4127304,
+  "name": "Terra Rica",
+  "slug": "terra-rica",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-terra-rica",
+      "name": "Aniversário de Terra Rica",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

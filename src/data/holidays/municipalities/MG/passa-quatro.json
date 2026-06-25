@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3147600,
+  "name": "Passa Quatro",
+  "slug": "passa-quatro",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-passa-quatro",
+      "name": "Aniversário de Passa Quatro",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-passa-quatro-0901",
+      "name": "Feriado Municipal de Passa Quatro",
+      "date": "09-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-passa-quatro-1213",
+      "name": "Feriado Municipal de Passa Quatro",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

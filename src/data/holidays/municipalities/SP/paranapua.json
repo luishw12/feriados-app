@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3535903,
+  "name": "Paranapuã",
+  "slug": "paranapua",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-paranapua",
+      "name": "Aniversário de Paranapuã",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranapua-0916",
+      "name": "Feriado Municipal de Paranapuã",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3108552,
+  "name": "Brasilândia de Minas",
+  "slug": "brasilandia-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-brasilandia-de-minas",
+      "name": "Aniversário de Brasilândia de Minas",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brasilandia-de-minas-1031",
+      "name": "Feriado Municipal de Brasilândia de Minas",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brasilandia-de-minas-1222",
+      "name": "Feriado Municipal de Brasilândia de Minas",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

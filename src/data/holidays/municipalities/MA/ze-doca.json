@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2114007,
+  "name": "Zé Doca",
+  "slug": "ze-doca",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-ze-doca",
+      "name": "Aniversário de Zé Doca",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

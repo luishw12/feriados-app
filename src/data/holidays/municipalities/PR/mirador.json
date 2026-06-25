@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4115903,
+  "name": "Mirador",
+  "slug": "mirador",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-mirador",
+      "name": "Aniversário de Mirador",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirador-1113",
+      "name": "Feriado Municipal de Mirador",
+      "date": "11-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2602001,
+  "name": "Bodocó",
+  "slug": "bodoco",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-bodoco",
+      "name": "Aniversário de Bodocó",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bodoco-0612",
+      "name": "Feriado Municipal de Bodocó",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

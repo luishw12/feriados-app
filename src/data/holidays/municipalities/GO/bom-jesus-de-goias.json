@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5203500,
+  "name": "Bom Jesus de Goiás",
+  "slug": "bom-jesus-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jesus-de-goias",
+      "name": "Aniversário de Bom Jesus de Goiás",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jesus-de-goias-1107",
+      "name": "Feriado Municipal de Bom Jesus de Goiás",
+      "date": "11-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

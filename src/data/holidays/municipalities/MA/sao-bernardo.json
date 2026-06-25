@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2110609,
+  "name": "São Bernardo",
+  "slug": "sao-bernardo",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-bernardo",
+      "name": "Aniversário de São Bernardo",
+      "date": "03-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bernardo-0820",
+      "name": "Feriado Municipal de São Bernardo",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

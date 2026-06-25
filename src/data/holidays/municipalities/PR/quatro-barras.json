@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4120804,
+  "name": "Quatro Barras",
+  "slug": "quatro-barras",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-quatro-barras",
+      "name": "Aniversário de Quatro Barras",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quatro-barras-0403",
+      "name": "Feriado Municipal de Quatro Barras",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quatro-barras-0604",
+      "name": "Feriado Municipal de Quatro Barras",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quatro-barras-1109",
+      "name": "Feriado Municipal de Quatro Barras",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3204955,
+  "name": "São Roque do Canaã",
+  "slug": "sao-roque-do-canaa",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-sao-roque-do-canaa",
+      "name": "Aniversário de São Roque do Canaã",
+      "date": "06-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-roque-do-canaa-0816",
+      "name": "Feriado Municipal de São Roque do Canaã",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

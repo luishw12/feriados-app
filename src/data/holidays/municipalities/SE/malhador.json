@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2803906,
+  "name": "Malhador",
+  "slug": "malhador",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-malhador",
+      "name": "Aniversário de Malhador",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-malhador-1125",
+      "name": "Feriado Municipal de Malhador",
+      "date": "11-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

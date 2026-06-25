@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3305752,
+  "name": "Tanguá",
+  "slug": "tangua",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-tangua",
+      "name": "Aniversário de Tanguá",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tangua-1228",
+      "name": "Feriado Municipal de Tanguá",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

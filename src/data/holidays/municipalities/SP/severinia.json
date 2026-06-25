@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3551900,
+  "name": "Severínia",
+  "slug": "severinia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-severinia",
+      "name": "Aniversário de Severínia",
+      "date": "02-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-severinia-0319",
+      "name": "Feriado Municipal de Severínia",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-severinia-1101",
+      "name": "Feriado Municipal de Severínia",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2510907,
+  "name": "Paulista",
+  "slug": "paulista",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-paulista",
+      "name": "Aniversário de Paulista",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paulista-1231",
+      "name": "Feriado Municipal de Paulista",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5004007,
+  "name": "Glória de Dourados",
+  "slug": "gloria-de-dourados",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-gloria-de-dourados",
+      "name": "Aniversário de Glória de Dourados",
+      "date": "05-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gloria-de-dourados-0815",
+      "name": "Feriado Municipal de Glória de Dourados",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

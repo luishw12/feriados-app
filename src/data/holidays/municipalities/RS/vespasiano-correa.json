@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4322855,
+  "name": "Vespasiano Corrêa",
+  "slug": "vespasiano-correa",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-vespasiano-correa",
+      "name": "Aniversário de Vespasiano Corrêa",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4115853,
+  "name": "Mercedes",
+  "slug": "mercedes",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-mercedes",
+      "name": "Aniversário de Mercedes",
+      "date": "09-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mercedes-1031",
+      "name": "Feriado Municipal de Mercedes",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

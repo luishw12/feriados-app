@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2912004,
+  "name": "Ibiassucê",
+  "slug": "ibiassuce",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ibiassuce",
+      "name": "Aniversário de Ibiassucê",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibiassuce-0624",
+      "name": "Feriado Municipal de Ibiassucê",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibiassuce-0718",
+      "name": "Feriado Municipal de Ibiassucê",
+      "date": "07-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4319158,
+  "name": "São Miguel das Missões",
+  "slug": "sao-miguel-das-missoes",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-das-missoes",
+      "name": "Aniversário de São Miguel das Missões",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-das-missoes-0929",
+      "name": "Feriado Municipal de São Miguel das Missões",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

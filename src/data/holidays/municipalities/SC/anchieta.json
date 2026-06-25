@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4200804,
+  "name": "Anchieta",
+  "slug": "anchieta",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-anchieta",
+      "name": "Aniversário de Anchieta",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anchieta-0725",
+      "name": "Feriado Municipal de Anchieta",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-anchieta-1213",
+      "name": "Feriado Municipal de Anchieta",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5101803,
+  "name": "Barra do Garças",
+  "slug": "barra-do-garcas",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-barra-do-garcas",
+      "name": "Aniversário de Barra do Garças",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-do-garcas-0915",
+      "name": "Feriado Municipal de Barra do Garças",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

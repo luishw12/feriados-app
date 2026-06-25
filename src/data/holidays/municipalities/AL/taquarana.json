@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2709103,
+  "name": "Taquarana",
+  "slug": "taquarana",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-taquarana",
+      "name": "Aniversário de Taquarana",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taquarana-0824",
+      "name": "Feriado Municipal de Taquarana",
+      "date": "08-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

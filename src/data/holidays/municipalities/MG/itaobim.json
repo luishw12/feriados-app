@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3133303,
+  "name": "Itaobim",
+  "slug": "itaobim",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itaobim",
+      "name": "Aniversário de Itaobim",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaobim-0816",
+      "name": "Feriado Municipal de Itaobim",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itaobim-1230",
+      "name": "Feriado Municipal de Itaobim",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

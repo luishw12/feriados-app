@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5210901,
+  "name": "Itapaci",
+  "slug": "itapaci",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-itapaci",
+      "name": "Aniversário de Itapaci",
+      "date": "08-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

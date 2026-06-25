@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4109609,
+  "name": "Guaratuba",
+  "slug": "guaratuba",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-guaratuba",
+      "name": "Aniversário de Guaratuba",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

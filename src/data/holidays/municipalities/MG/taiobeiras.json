@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3168002,
+  "name": "Taiobeiras",
+  "slug": "taiobeiras",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-taiobeiras",
+      "name": "Aniversário de Taiobeiras",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taiobeiras-0624",
+      "name": "Feriado Municipal de Taiobeiras",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

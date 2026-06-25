@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3528502,
+  "name": "Mairiporã",
+  "slug": "mairipora",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-mairipora",
+      "name": "Aniversário de Mairiporã",
+      "date": "03-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mairipora-0915",
+      "name": "Feriado Municipal de Mairiporã",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

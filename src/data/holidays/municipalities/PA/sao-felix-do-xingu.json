@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1507300,
+  "name": "São Félix do Xingu",
+  "slug": "sao-felix-do-xingu",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-felix-do-xingu",
+      "name": "Aniversário de São Félix do Xingu",
+      "date": "04-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

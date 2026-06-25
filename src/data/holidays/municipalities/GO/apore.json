@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5201504,
+  "name": "Aporé",
+  "slug": "apore",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-apore",
+      "name": "Aniversário de Aporé",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-apore-1114",
+      "name": "Feriado Municipal de Aporé",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

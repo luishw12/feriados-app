@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2608750,
+  "name": "Lagoa Grande",
+  "slug": "lagoa-grande",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-lagoa-grande",
+      "name": "Aniversário de Lagoa Grande",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-grande-0616",
+      "name": "Feriado Municipal de Lagoa Grande",
+      "date": "06-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

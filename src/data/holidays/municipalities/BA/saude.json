@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2929800,
+  "name": "Saúde",
+  "slug": "saude",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-saude",
+      "name": "Aniversário de Saúde",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-saude-0603",
+      "name": "Feriado Municipal de Saúde",
+      "date": "06-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-saude-0624",
+      "name": "Feriado Municipal de Saúde",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-saude-0908",
+      "name": "Feriado Municipal de Saúde",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

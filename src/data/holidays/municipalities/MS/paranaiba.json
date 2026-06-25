@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5006309,
+  "name": "Paranaíba",
+  "slug": "paranaiba",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-paranaiba",
+      "name": "Aniversário de Paranaíba",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paranaiba-0726",
+      "name": "Feriado Municipal de Paranaíba",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1721208,
+  "name": "Tocantinópolis",
+  "slug": "tocantinopolis",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-tocantinopolis",
+      "name": "Aniversário de Tocantinópolis",
+      "date": "07-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tocantinopolis-0728",
+      "name": "Feriado Municipal de Tocantinópolis",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tocantinopolis-0815",
+      "name": "Feriado Municipal de Tocantinópolis",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

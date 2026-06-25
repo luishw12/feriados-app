@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3546009,
+  "name": "Santa Branca",
+  "slug": "santa-branca",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-branca",
+      "name": "Aniversário de Santa Branca",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

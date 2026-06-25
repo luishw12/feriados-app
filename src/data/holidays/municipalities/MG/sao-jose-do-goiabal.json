@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3163409,
+  "name": "São José do Goiabal",
+  "slug": "sao-jose-do-goiabal",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-goiabal",
+      "name": "Aniversário de São José do Goiabal",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-goiabal-0815",
+      "name": "Feriado Municipal de São José do Goiabal",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-goiabal-0914",
+      "name": "Feriado Municipal de São José do Goiabal",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-goiabal-1212",
+      "name": "Feriado Municipal de São José do Goiabal",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

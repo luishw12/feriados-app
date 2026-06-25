@@ -7,7 +7,8 @@ export const GET: APIRoute = () => {
   const body = [
     '# Índice para assistentes de IA',
     `# Resumo: ${siteUrl}/llms.txt`,
-    `# Calendário completo: ${siteUrl}/llms-full.txt`,
+    `# Feriados estaduais e municipais: ${siteUrl}/llms-full.txt`,
+    `# Índice de municípios (JSON): ${siteUrl}/data/municipalities-index.json`,
     '',
     'User-agent: GPTBot',
     'Allow: /',

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3301306,
+  "name": "Casimiro de Abreu",
+  "slug": "casimiro-de-abreu",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-casimiro-de-abreu",
+      "name": "Aniversário de Casimiro de Abreu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-casimiro-de-abreu-0815",
+      "name": "Feriado Municipal de Casimiro de Abreu",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-casimiro-de-abreu-0915",
+      "name": "Feriado Municipal de Casimiro de Abreu",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

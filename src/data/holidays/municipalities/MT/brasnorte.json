@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5101902,
+  "name": "Brasnorte",
+  "slug": "brasnorte",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-brasnorte",
+      "name": "Aniversário de Brasnorte",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

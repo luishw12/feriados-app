@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3117207,
+  "name": "Conceição das Pedras",
+  "slug": "conceicao-das-pedras",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-conceicao-das-pedras",
+      "name": "Aniversário de Conceição das Pedras",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-conceicao-das-pedras-1208",
+      "name": "Feriado Municipal de Conceição das Pedras",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

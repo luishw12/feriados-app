@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4312203,
+  "name": "Maximiliano de Almeida",
+  "slug": "maximiliano-de-almeida",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-maximiliano-de-almeida",
+      "name": "Aniversário de Maximiliano de Almeida",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maximiliano-de-almeida-0315",
+      "name": "Feriado Municipal de Maximiliano de Almeida",
+      "date": "03-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maximiliano-de-almeida-1208",
+      "name": "Feriado Municipal de Maximiliano de Almeida",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

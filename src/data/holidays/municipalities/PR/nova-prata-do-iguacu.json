@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4117255,
+  "name": "Nova Prata do Iguaçu",
+  "slug": "nova-prata-do-iguacu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-nova-prata-do-iguacu",
+      "name": "Aniversário de Nova Prata do Iguaçu",
+      "date": "01-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-prata-do-iguacu-0201",
+      "name": "Feriado Municipal de Nova Prata do Iguaçu",
+      "date": "02-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-prata-do-iguacu-0725",
+      "name": "Feriado Municipal de Nova Prata do Iguaçu",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

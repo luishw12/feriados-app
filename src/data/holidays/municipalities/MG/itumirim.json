@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3134301,
+  "name": "Itumirim",
+  "slug": "itumirim",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itumirim",
+      "name": "Aniversário de Itumirim",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itumirim-1101",
+      "name": "Feriado Municipal de Itumirim",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

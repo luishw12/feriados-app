@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5207105,
+  "name": "Diorama",
+  "slug": "diorama",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-diorama",
+      "name": "Aniversário de Diorama",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

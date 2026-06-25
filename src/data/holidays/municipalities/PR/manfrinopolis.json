@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4114351,
+  "name": "Manfrinópolis",
+  "slug": "manfrinopolis",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-manfrinopolis",
+      "name": "Aniversário de Manfrinópolis",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-manfrinopolis-1221",
+      "name": "Feriado Municipal de Manfrinópolis",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

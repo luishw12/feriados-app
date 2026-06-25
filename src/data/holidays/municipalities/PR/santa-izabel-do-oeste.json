@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4123808,
+  "name": "Santa Izabel do Oeste",
+  "slug": "santa-izabel-do-oeste",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-santa-izabel-do-oeste",
+      "name": "Aniversário de Santa Izabel do Oeste",
+      "date": "11-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

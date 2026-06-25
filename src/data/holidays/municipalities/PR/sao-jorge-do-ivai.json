@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4125308,
+  "name": "São Jorge do Ivaí",
+  "slug": "sao-jorge-do-ivai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jorge-do-ivai",
+      "name": "Aniversário de São Jorge do Ivaí",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jorge-do-ivai-1209",
+      "name": "Feriado Municipal de São Jorge do Ivaí",
+      "date": "12-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

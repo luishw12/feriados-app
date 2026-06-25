@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2514503,
+  "name": "São José de Piranhas",
+  "slug": "sao-jose-de-piranhas",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-de-piranhas",
+      "name": "Aniversário de São José de Piranhas",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-de-piranhas-0319",
+      "name": "Feriado Municipal de São José de Piranhas",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-de-piranhas-0924",
+      "name": "Feriado Municipal de São José de Piranhas",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

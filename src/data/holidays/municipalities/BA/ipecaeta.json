@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2913804,
+  "name": "Ipecaetá",
+  "slug": "ipecaeta",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ipecaeta",
+      "name": "Aniversário de Ipecaetá",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipecaeta-0613",
+      "name": "Feriado Municipal de Ipecaetá",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipecaeta-0624",
+      "name": "Feriado Municipal de Ipecaetá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ipecaeta-0719",
+      "name": "Feriado Municipal de Ipecaetá",
+      "date": "07-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

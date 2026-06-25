@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2305407,
+  "name": "Icó",
+  "slug": "ico",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-ico",
+      "name": "Aniversário de Icó",
+      "date": "01-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ico-0319",
+      "name": "Feriado Municipal de Icó",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ico-1218",
+      "name": "Feriado Municipal de Icó",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

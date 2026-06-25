@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3508009,
+  "name": "Buri",
+  "slug": "buri",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-buri",
+      "name": "Aniversário de Buri",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buri-0613",
+      "name": "Feriado Municipal de Buri",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buri-0816",
+      "name": "Feriado Municipal de Buri",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

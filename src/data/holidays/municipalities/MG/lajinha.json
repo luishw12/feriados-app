@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3137700,
+  "name": "Lajinha",
+  "slug": "lajinha",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-lajinha",
+      "name": "Aniversário de Lajinha",
+      "date": "06-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

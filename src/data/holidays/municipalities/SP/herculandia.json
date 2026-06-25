@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519006,
+  "name": "Herculândia",
+  "slug": "herculandia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-herculandia",
+      "name": "Aniversário de Herculândia",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-herculandia-1130",
+      "name": "Feriado Municipal de Herculândia",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

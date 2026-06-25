@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3152105,
+  "name": "Ponte Nova",
+  "slug": "ponte-nova",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ponte-nova",
+      "name": "Aniversário de Ponte Nova",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ponte-nova-1030",
+      "name": "Feriado Municipal de Ponte Nova",
+      "date": "10-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4117305,
+  "name": "Ortigueira",
+  "slug": "ortigueira",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ortigueira",
+      "name": "Aniversário de Ortigueira",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ortigueira-1214",
+      "name": "Feriado Municipal de Ortigueira",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

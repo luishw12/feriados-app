@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4121307,
+  "name": "Rancho Alegre",
+  "slug": "rancho-alegre",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-rancho-alegre",
+      "name": "Aniversário de Rancho Alegre",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rancho-alegre-1119",
+      "name": "Feriado Municipal de Rancho Alegre",
+      "date": "11-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

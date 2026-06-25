@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2904753,
+  "name": "Buritirama",
+  "slug": "buritirama",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-buritirama",
+      "name": "Aniversário de Buritirama",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

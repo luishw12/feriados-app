@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2933406,
+  "name": "Wagner",
+  "slug": "wagner",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-wagner",
+      "name": "Aniversário de Wagner",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-wagner-0720",
+      "name": "Feriado Municipal de Wagner",
+      "date": "07-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

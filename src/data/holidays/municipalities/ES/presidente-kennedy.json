@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3204302,
+  "name": "Presidente Kennedy",
+  "slug": "presidente-kennedy",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-kennedy",
+      "name": "Aniversário de Presidente Kennedy",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-kennedy-0805",
+      "name": "Feriado Municipal de Presidente Kennedy",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

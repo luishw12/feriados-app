@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4321204,
+  "name": "Taquara",
+  "slug": "taquara",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-taquara",
+      "name": "Aniversário de Taquara",
+      "date": "04-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

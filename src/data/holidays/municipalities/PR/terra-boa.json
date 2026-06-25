@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4127205,
+  "name": "Terra Boa",
+  "slug": "terra-boa",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-terra-boa",
+      "name": "Aniversário de Terra Boa",
+      "date": "07-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

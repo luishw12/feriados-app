@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3136652,
+  "name": "Juatuba",
+  "slug": "juatuba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-juatuba",
+      "name": "Aniversário de Juatuba",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juatuba-0427",
+      "name": "Feriado Municipal de Juatuba",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4109005,
+  "name": "Guapirama",
+  "slug": "guapirama",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-guapirama",
+      "name": "Aniversário de Guapirama",
+      "date": "08-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guapirama-1219",
+      "name": "Feriado Municipal de Guapirama",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

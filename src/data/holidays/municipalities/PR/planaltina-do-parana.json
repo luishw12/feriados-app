@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4119707,
+  "name": "Planaltina do Paraná",
+  "slug": "planaltina-do-parana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-planaltina-do-parana",
+      "name": "Aniversário de Planaltina do Paraná",
+      "date": "11-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

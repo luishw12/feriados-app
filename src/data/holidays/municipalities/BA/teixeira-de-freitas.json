@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2931350,
+  "name": "Teixeira de Freitas",
+  "slug": "teixeira-de-freitas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-teixeira-de-freitas",
+      "name": "Aniversário de Teixeira de Freitas",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teixeira-de-freitas-0629",
+      "name": "Feriado Municipal de Teixeira de Freitas",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

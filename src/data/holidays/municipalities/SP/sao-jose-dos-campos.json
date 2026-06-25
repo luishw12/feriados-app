@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3549904,
+  "name": "São José dos Campos",
+  "slug": "sao-jose-dos-campos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-dos-campos",
+      "name": "Aniversário de São José dos Campos",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-dos-campos-0403",
+      "name": "Feriado Municipal de São José dos Campos",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-dos-campos-0604",
+      "name": "Feriado Municipal de São José dos Campos",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-dos-campos-0727",
+      "name": "Feriado Municipal de São José dos Campos",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

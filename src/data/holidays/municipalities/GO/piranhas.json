@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5217203,
+  "name": "Piranhas",
+  "slug": "piranhas",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-piranhas",
+      "name": "Aniversário de Piranhas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

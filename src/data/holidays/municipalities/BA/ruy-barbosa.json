@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2927200,
+  "name": "Ruy Barbosa",
+  "slug": "ruy-barbosa",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ruy-barbosa",
+      "name": "Aniversário de Ruy Barbosa",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ruy-barbosa-0624",
+      "name": "Feriado Municipal de Ruy Barbosa",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ruy-barbosa-0828",
+      "name": "Feriado Municipal de Ruy Barbosa",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ruy-barbosa-1031",
+      "name": "Feriado Municipal de Ruy Barbosa",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

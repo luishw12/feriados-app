@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4204178,
+  "name": "Cerro Negro",
+  "slug": "cerro-negro",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-cerro-negro",
+      "name": "Aniversário de Cerro Negro",
+      "date": "09-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

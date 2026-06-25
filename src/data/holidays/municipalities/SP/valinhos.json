@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3556206,
+  "name": "Valinhos",
+  "slug": "valinhos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-valinhos",
+      "name": "Aniversário de Valinhos",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

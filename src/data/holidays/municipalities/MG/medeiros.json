@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3141306,
+  "name": "Medeiros",
+  "slug": "medeiros",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-medeiros",
+      "name": "Aniversário de Medeiros",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-medeiros-0319",
+      "name": "Feriado Municipal de Medeiros",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-medeiros-0419",
+      "name": "Feriado Municipal de Medeiros",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

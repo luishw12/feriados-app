@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4204905,
+  "name": "Descanso",
+  "slug": "descanso",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-descanso",
+      "name": "Aniversário de Descanso",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-descanso-1216",
+      "name": "Feriado Municipal de Descanso",
+      "date": "12-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

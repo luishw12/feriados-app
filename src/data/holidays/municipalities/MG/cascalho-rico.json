@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3115003,
+  "name": "Cascalho Rico",
+  "slug": "cascalho-rico",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cascalho-rico",
+      "name": "Aniversário de Cascalho Rico",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cascalho-rico-0624",
+      "name": "Feriado Municipal de Cascalho Rico",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cascalho-rico-0815",
+      "name": "Feriado Municipal de Cascalho Rico",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cascalho-rico-1227",
+      "name": "Feriado Municipal de Cascalho Rico",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

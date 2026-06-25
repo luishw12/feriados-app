@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4213807,
+  "name": "Praia Grande",
+  "slug": "praia-grande",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-praia-grande",
+      "name": "Aniversário de Praia Grande",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2104503,
+  "name": "Governador Archer",
+  "slug": "governador-archer",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-governador-archer",
+      "name": "Aniversário de Governador Archer",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-governador-archer-0629",
+      "name": "Feriado Municipal de Governador Archer",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

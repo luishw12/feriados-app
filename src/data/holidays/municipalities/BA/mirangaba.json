@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2921401,
+  "name": "Mirangaba",
+  "slug": "mirangaba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-mirangaba",
+      "name": "Aniversário de Mirangaba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirangaba-1124",
+      "name": "Feriado Municipal de Mirangaba",
+      "date": "11-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mirangaba-1213",
+      "name": "Feriado Municipal de Mirangaba",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

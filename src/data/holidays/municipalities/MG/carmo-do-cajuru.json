@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3114204,
+  "name": "Carmo do Cajuru",
+  "slug": "carmo-do-cajuru",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carmo-do-cajuru",
+      "name": "Aniversário de Carmo do Cajuru",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmo-do-cajuru-0914",
+      "name": "Feriado Municipal de Carmo do Cajuru",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmo-do-cajuru-1227",
+      "name": "Feriado Municipal de Carmo do Cajuru",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

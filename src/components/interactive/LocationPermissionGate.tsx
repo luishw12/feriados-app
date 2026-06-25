@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import LocationPermissionPrompt from '@/components/interactive/LocationPermissionPrompt';
 import { buildContextFromDetection } from '@/lib/location-context';
+import { loadMunicipalityIndex } from '@/lib/municipality-index';
 import {
   detectUserLocation,
   getGeolocationPermissionState,
@@ -14,26 +15,9 @@ import {
   saveStoredLocation,
 } from '@/lib/location-storage';
 
-interface StateOption {
-  uf: string;
-  name: string;
-  slug: string;
-}
-
-interface MunicipalityOption {
-  slug: string;
-  name: string;
-  uf: string;
-}
-
-interface Props {
-  states: StateOption[];
-  municipalities: MunicipalityOption[];
-}
-
 type PromptStatus = 'idle' | 'loading' | 'error';
 
-export default function LocationPermissionGate({ states: _states, municipalities }: Props) {
+export default function LocationPermissionGate() {
   const [showPrompt, setShowPrompt] = useState(false);
   const [permissionState, setPermissionState] =
     useState<GeolocationPermissionState>('prompt');
@@ -41,17 +25,19 @@ export default function LocationPermissionGate({ states: _states, municipalities
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [initialized, setInitialized] = useState(false);
 
-  const saveDetectedLocation = useCallback(
-    async (): Promise<boolean> => {
-      const result = await detectUserLocation();
-      if (!result) return false;
+  const saveDetectedLocation = useCallback(async (): Promise<boolean> => {
+    const result = await detectUserLocation();
+    if (!result) return false;
 
+    try {
+      const municipalities = await loadMunicipalityIndex();
       const context = buildContextFromDetection(result, municipalities);
       saveStoredLocation(context, getLocationLabel(context));
       return true;
-    },
-    [municipalities],
-  );
+    } catch {
+      return false;
+    }
+  }, []);
 
   useEffect(() => {
     let cancelled = false;

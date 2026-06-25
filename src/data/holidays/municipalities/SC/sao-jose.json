@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4216602,
+  "name": "São José",
+  "slug": "sao-jose",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose",
+      "name": "Aniversário de São José",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4115804,
+  "name": "Medianeira",
+  "slug": "medianeira",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-medianeira",
+      "name": "Aniversário de Medianeira",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3544905,
+  "name": "Sales Oliveira",
+  "slug": "sales-oliveira",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sales-oliveira",
+      "name": "Aniversário de Sales Oliveira",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

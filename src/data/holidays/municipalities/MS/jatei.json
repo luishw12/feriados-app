@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5005103,
+  "name": "Jateí",
+  "slug": "jatei",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-jatei",
+      "name": "Aniversário de Jateí",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jatei-1111",
+      "name": "Feriado Municipal de Jateí",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jatei-1213",
+      "name": "Feriado Municipal de Jateí",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

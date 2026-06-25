@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4106803,
+  "name": "Cruz Machado",
+  "slug": "cruz-machado",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cruz-machado",
+      "name": "Aniversário de Cruz Machado",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cruz-machado-1214",
+      "name": "Feriado Municipal de Cruz Machado",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cruz-machado-1226",
+      "name": "Feriado Municipal de Cruz Machado",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

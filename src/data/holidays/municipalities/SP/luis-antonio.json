@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3527603,
+  "name": "Luís Antônio",
+  "slug": "luis-antonio",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-luis-antonio",
+      "name": "Aniversário de Luís Antônio",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

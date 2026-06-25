@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3304201,
+  "name": "Resende",
+  "slug": "resende",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-resende",
+      "name": "Aniversário de Resende",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-resende-0929",
+      "name": "Feriado Municipal de Resende",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

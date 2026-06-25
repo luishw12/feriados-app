@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2516607,
+  "name": "Tavares",
+  "slug": "tavares",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-tavares",
+      "name": "Aniversário de Tavares",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tavares-0929",
+      "name": "Feriado Municipal de Tavares",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tavares-1117",
+      "name": "Feriado Municipal de Tavares",
+      "date": "11-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

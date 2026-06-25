@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2406106,
+  "name": "Jucurutu",
+  "slug": "jucurutu",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-jucurutu",
+      "name": "Aniversário de Jucurutu",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jucurutu-0929",
+      "name": "Feriado Municipal de Jucurutu",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

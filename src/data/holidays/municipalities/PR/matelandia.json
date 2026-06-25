@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4115606,
+  "name": "Matelândia",
+  "slug": "matelandia",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-matelandia",
+      "name": "Aniversário de Matelândia",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matelandia-0725",
+      "name": "Feriado Municipal de Matelândia",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

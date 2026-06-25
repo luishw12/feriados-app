@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3512209,
+  "name": "Conchal",
+  "slug": "conchal",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-conchal",
+      "name": "Aniversário de Conchal",
+      "date": "04-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

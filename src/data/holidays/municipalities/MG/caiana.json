@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3110103,
+  "name": "Caiana",
+  "slug": "caiana",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-caiana",
+      "name": "Aniversário de Caiana",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

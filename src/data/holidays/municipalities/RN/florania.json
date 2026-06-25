@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2403806,
+  "name": "Florânia",
+  "slug": "florania",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-florania",
+      "name": "Aniversário de Florânia",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-florania-1127",
+      "name": "Feriado Municipal de Florânia",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-florania-1212",
+      "name": "Feriado Municipal de Florânia",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2708501,
+  "name": "São Luís do Quitunde",
+  "slug": "sao-luis-do-quitunde",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-sao-luis-do-quitunde",
+      "name": "Aniversário de São Luís do Quitunde",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-luis-do-quitunde-0516",
+      "name": "Feriado Municipal de São Luís do Quitunde",
+      "date": "05-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

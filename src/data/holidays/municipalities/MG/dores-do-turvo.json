@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3123304,
+  "name": "Dores do Turvo",
+  "slug": "dores-do-turvo",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-dores-do-turvo",
+      "name": "Aniversário de Dores do Turvo",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

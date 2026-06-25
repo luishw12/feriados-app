@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3525706,
+  "name": "José Bonifácio",
+  "slug": "jose-bonifacio",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jose-bonifacio",
+      "name": "Aniversário de José Bonifácio",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jose-bonifacio-0915",
+      "name": "Feriado Municipal de José Bonifácio",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

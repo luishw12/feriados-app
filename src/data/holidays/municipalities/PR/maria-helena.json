@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4114708,
+  "name": "Maria Helena",
+  "slug": "maria-helena",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-maria-helena",
+      "name": "Aniversário de Maria Helena",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maria-helena-0815",
+      "name": "Feriado Municipal de Maria Helena",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4107520,
+  "name": "Esperança Nova",
+  "slug": "esperanca-nova",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-esperanca-nova",
+      "name": "Aniversário de Esperança Nova",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-esperanca-nova-1221",
+      "name": "Feriado Municipal de Esperança Nova",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

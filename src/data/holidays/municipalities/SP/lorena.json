@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3527207,
+  "name": "Lorena",
+  "slug": "lorena",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-lorena",
+      "name": "Aniversário de Lorena",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lorena-1114",
+      "name": "Feriado Municipal de Lorena",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

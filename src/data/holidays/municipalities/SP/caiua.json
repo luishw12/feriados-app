@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3509106,
+  "name": "Caiuá",
+  "slug": "caiua",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-caiua",
+      "name": "Aniversário de Caiuá",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caiua-0629",
+      "name": "Feriado Municipal de Caiuá",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2919157,
+  "name": "Lapão",
+  "slug": "lapao",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-lapao",
+      "name": "Aniversário de Lapão",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lapao-0624",
+      "name": "Feriado Municipal de Lapão",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

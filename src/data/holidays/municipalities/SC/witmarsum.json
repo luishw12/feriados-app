@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4219408,
+  "name": "Witmarsum",
+  "slug": "witmarsum",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-witmarsum",
+      "name": "Aniversário de Witmarsum",
+      "date": "06-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-witmarsum-0725",
+      "name": "Feriado Municipal de Witmarsum",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-witmarsum-1226",
+      "name": "Feriado Municipal de Witmarsum",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4210803,
+  "name": "Meleiro",
+  "slug": "meleiro",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-meleiro",
+      "name": "Aniversário de Meleiro",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-meleiro-1220",
+      "name": "Feriado Municipal de Meleiro",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

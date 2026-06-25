@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3144102,
+  "name": "Muzambinho",
+  "slug": "muzambinho",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-muzambinho",
+      "name": "Aniversário de Muzambinho",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-muzambinho-1130",
+      "name": "Feriado Municipal de Muzambinho",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

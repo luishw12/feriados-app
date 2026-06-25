@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3534104,
+  "name": "Oriente",
+  "slug": "oriente",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-oriente",
+      "name": "Aniversário de Oriente",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oriente-1213",
+      "name": "Feriado Municipal de Oriente",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

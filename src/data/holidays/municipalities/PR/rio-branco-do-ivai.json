@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4122172,
+  "name": "Rio Branco do Ivaí",
+  "slug": "rio-branco-do-ivai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-rio-branco-do-ivai",
+      "name": "Aniversário de Rio Branco do Ivaí",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-branco-do-ivai-1226",
+      "name": "Feriado Municipal de Rio Branco do Ivaí",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3138302,
+  "name": "Leandro Ferreira",
+  "slug": "leandro-ferreira",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-leandro-ferreira",
+      "name": "Aniversário de Leandro Ferreira",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leandro-ferreira-0301",
+      "name": "Feriado Municipal de Leandro Ferreira",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leandro-ferreira-0630",
+      "name": "Feriado Municipal de Leandro Ferreira",
+      "date": "06-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-leandro-ferreira-1222",
+      "name": "Feriado Municipal de Leandro Ferreira",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

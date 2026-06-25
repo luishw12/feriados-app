@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4310363,
+  "name": "Imigrante",
+  "slug": "imigrante",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-imigrante",
+      "name": "Aniversário de Imigrante",
+      "date": "05-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-imigrante-1031",
+      "name": "Feriado Municipal de Imigrante",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

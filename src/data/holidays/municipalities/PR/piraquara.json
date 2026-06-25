@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4119509,
+  "name": "Piraquara",
+  "slug": "piraquara",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-piraquara",
+      "name": "Aniversário de Piraquara",
+      "date": "01-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piraquara-0806",
+      "name": "Feriado Municipal de Piraquara",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3152170,
+  "name": "Ponto dos Volantes",
+  "slug": "ponto-dos-volantes",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ponto-dos-volantes",
+      "name": "Aniversário de Ponto dos Volantes",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

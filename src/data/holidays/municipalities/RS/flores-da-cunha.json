@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4308201,
+  "name": "Flores da Cunha",
+  "slug": "flores-da-cunha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-flores-da-cunha",
+      "name": "Aniversário de Flores da Cunha",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

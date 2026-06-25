@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3551603,
+  "name": "Serra Negra",
+  "slug": "serra-negra",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-serra-negra",
+      "name": "Aniversário de Serra Negra",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serra-negra-1101",
+      "name": "Feriado Municipal de Serra Negra",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

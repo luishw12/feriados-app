@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2201903,
+  "name": "Bom Jesus",
+  "slug": "bom-jesus",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jesus",
+      "name": "Aniversário de Bom Jesus",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jesus-1215",
+      "name": "Feriado Municipal de Bom Jesus",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

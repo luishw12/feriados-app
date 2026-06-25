@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3161809,
+  "name": "São Gonçalo do Pará",
+  "slug": "sao-goncalo-do-para",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-goncalo-do-para",
+      "name": "Aniversário de São Gonçalo do Pará",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

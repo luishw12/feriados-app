@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3556800,
+  "name": "Viradouro",
+  "slug": "viradouro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-viradouro",
+      "name": "Aniversário de Viradouro",
+      "date": "03-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-viradouro-0404",
+      "name": "Feriado Municipal de Viradouro",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-viradouro-0629",
+      "name": "Feriado Municipal de Viradouro",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

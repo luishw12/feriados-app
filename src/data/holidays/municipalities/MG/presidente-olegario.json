@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3153400,
+  "name": "Presidente Olegário",
+  "slug": "presidente-olegario",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-olegario",
+      "name": "Aniversário de Presidente Olegário",
+      "date": "01-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-olegario-0522",
+      "name": "Feriado Municipal de Presidente Olegário",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-olegario-0815",
+      "name": "Feriado Municipal de Presidente Olegário",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

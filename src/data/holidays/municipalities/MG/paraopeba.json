@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3147402,
+  "name": "Paraopeba",
+  "slug": "paraopeba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-paraopeba",
+      "name": "Aniversário de Paraopeba",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraopeba-0716",
+      "name": "Feriado Municipal de Paraopeba",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

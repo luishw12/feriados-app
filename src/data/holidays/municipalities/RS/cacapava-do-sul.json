@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4302808,
+  "name": "Caçapava do Sul",
+  "slug": "cacapava-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cacapava-do-sul",
+      "name": "Aniversário de Caçapava do Sul",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2204402,
+  "name": "Gilbués",
+  "slug": "gilbues",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-gilbues",
+      "name": "Aniversário de Gilbués",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gilbues-0904",
+      "name": "Feriado Municipal de Gilbués",
+      "date": "09-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

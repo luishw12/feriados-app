@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2500304,
+  "name": "Alagoa Grande",
+  "slug": "alagoa-grande",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-alagoa-grande",
+      "name": "Aniversário de Alagoa Grande",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alagoa-grande-1101",
+      "name": "Feriado Municipal de Alagoa Grande",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

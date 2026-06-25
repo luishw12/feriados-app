@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2915809,
+  "name": "Itambé",
+  "slug": "itambe",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itambe",
+      "name": "Aniversário de Itambé",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itambe-0624",
+      "name": "Feriado Municipal de Itambé",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itambe-0812",
+      "name": "Feriado Municipal de Itambé",
+      "date": "08-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

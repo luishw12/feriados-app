@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4300455,
+  "name": "Alegria",
+  "slug": "alegria",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-alegria",
+      "name": "Aniversário de Alegria",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alegria-1031",
+      "name": "Feriado Municipal de Alegria",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alegria-1231",
+      "name": "Feriado Municipal de Alegria",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3120201,
+  "name": "Cristais",
+  "slug": "cristais",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cristais",
+      "name": "Aniversário de Cristais",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristais-0604",
+      "name": "Feriado Municipal de Cristais",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristais-1227",
+      "name": "Feriado Municipal de Cristais",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3124005,
+  "name": "Ervália",
+  "slug": "ervalia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ervalia",
+      "name": "Aniversário de Ervália",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ervalia-0617",
+      "name": "Feriado Municipal de Ervália",
+      "date": "06-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

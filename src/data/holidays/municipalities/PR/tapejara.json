@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4126801,
+  "name": "Tapejara",
+  "slug": "tapejara",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-tapejara",
+      "name": "Aniversário de Tapejara",
+      "date": "04-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

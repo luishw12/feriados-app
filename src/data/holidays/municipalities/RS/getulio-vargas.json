@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4308904,
+  "name": "Getúlio Vargas",
+  "slug": "getulio-vargas",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-getulio-vargas",
+      "name": "Aniversário de Getúlio Vargas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

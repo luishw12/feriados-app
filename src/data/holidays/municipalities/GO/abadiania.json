@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5200100,
+  "name": "Abadiânia",
+  "slug": "abadiania",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-abadiania",
+      "name": "Aniversário de Abadiânia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

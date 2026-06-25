@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3531100,
+  "name": "Mongaguá",
+  "slug": "mongagua",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-mongagua",
+      "name": "Aniversário de Mongaguá",
+      "date": "12-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3536208,
+  "name": "Pariquera-Açu",
+  "slug": "pariquera-acu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pariquera-acu",
+      "name": "Aniversário de Pariquera-Açu",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

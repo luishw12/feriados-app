@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2700607,
+  "name": "Barra de São Miguel",
+  "slug": "barra-de-sao-miguel",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-barra-de-sao-miguel",
+      "name": "Aniversário de Barra de São Miguel",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-de-sao-miguel-0802",
+      "name": "Feriado Municipal de Barra de São Miguel",
+      "date": "08-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

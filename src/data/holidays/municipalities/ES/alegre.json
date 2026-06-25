@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3200201,
+  "name": "Alegre",
+  "slug": "alegre",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-alegre",
+      "name": "Aniversário de Alegre",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alegre-0815",
+      "name": "Feriado Municipal de Alegre",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

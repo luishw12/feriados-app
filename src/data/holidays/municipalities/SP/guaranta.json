@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3518107,
+  "name": "Guarantã",
+  "slug": "guaranta",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guaranta",
+      "name": "Aniversário de Guarantã",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

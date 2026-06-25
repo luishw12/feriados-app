@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5217401,
+  "name": "Pires do Rio",
+  "slug": "pires-do-rio",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-pires-do-rio",
+      "name": "Aniversário de Pires do Rio",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pires-do-rio-1109",
+      "name": "Feriado Municipal de Pires do Rio",
+      "date": "11-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

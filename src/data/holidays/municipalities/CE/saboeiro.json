@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2311900,
+  "name": "Saboeiro",
+  "slug": "saboeiro",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-saboeiro",
+      "name": "Aniversário de Saboeiro",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-saboeiro-0203",
+      "name": "Feriado Municipal de Saboeiro",
+      "date": "02-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3203056,
+  "name": "Jaguaré",
+  "slug": "jaguare",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-jaguare",
+      "name": "Aniversário de Jaguaré",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3535606,
+  "name": "Paraibuna",
+  "slug": "paraibuna",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-paraibuna",
+      "name": "Aniversário de Paraibuna",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraibuna-0710",
+      "name": "Feriado Municipal de Paraibuna",
+      "date": "07-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

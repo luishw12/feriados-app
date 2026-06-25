@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3523503,
+  "name": "Itatinga",
+  "slug": "itatinga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itatinga",
+      "name": "Aniversário de Itatinga",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itatinga-0604",
+      "name": "Feriado Municipal de Itatinga",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itatinga-0724",
+      "name": "Feriado Municipal de Itatinga",
+      "date": "07-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

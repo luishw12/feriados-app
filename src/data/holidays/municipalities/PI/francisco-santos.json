@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2204204,
+  "name": "Francisco Santos",
+  "slug": "francisco-santos",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-francisco-santos",
+      "name": "Aniversário de Francisco Santos",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

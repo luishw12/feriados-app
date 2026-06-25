@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2302107,
+  "name": "Baturité",
+  "slug": "baturite",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-baturite",
+      "name": "Aniversário de Baturité",
+      "date": "08-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baturite-0815",
+      "name": "Feriado Municipal de Baturité",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baturite-1208",
+      "name": "Feriado Municipal de Baturité",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baturite-1213",
+      "name": "Feriado Municipal de Baturité",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

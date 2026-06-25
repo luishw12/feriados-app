@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3302858,
+  "name": "Mesquita",
+  "slug": "mesquita",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-mesquita",
+      "name": "Aniversário de Mesquita",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mesquita-0925",
+      "name": "Feriado Municipal de Mesquita",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mesquita-1127",
+      "name": "Feriado Municipal de Mesquita",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

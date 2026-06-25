@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2914901,
+  "name": "Itacaré",
+  "slug": "itacare",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itacare",
+      "name": "Aniversário de Itacaré",
+      "date": "01-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itacare-0929",
+      "name": "Feriado Municipal de Itacaré",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

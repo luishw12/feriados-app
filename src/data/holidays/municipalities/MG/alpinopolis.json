@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3101904,
+  "name": "Alpinópolis",
+  "slug": "alpinopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-alpinopolis",
+      "name": "Aniversário de Alpinópolis",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alpinopolis-1217",
+      "name": "Feriado Municipal de Alpinópolis",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alpinopolis-1228",
+      "name": "Feriado Municipal de Alpinópolis",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

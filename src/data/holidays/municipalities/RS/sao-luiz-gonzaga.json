@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4318903,
+  "name": "São Luiz Gonzaga",
+  "slug": "sao-luiz-gonzaga",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-luiz-gonzaga",
+      "name": "Aniversário de São Luiz Gonzaga",
+      "date": "06-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

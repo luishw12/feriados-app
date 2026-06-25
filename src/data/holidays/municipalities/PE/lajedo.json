@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2608800,
+  "name": "Lajedo",
+  "slug": "lajedo",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-lajedo",
+      "name": "Aniversário de Lajedo",
+      "date": "05-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lajedo-0613",
+      "name": "Feriado Municipal de Lajedo",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

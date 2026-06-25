@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3119807,
+  "name": "Córrego Danta",
+  "slug": "corrego-danta",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-corrego-danta",
+      "name": "Aniversário de Córrego Danta",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-corrego-danta-1208",
+      "name": "Feriado Municipal de Córrego Danta",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

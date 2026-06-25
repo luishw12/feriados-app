@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4101200,
+  "name": "Antonina",
+  "slug": "antonina",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-antonina",
+      "name": "Aniversário de Antonina",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-antonina-1106",
+      "name": "Feriado Municipal de Antonina",
+      "date": "11-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

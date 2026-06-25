@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4318002,
+  "name": "São Borja",
+  "slug": "sao-borja",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-borja",
+      "name": "Aniversário de São Borja",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-borja-1010",
+      "name": "Feriado Municipal de São Borja",
+      "date": "10-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

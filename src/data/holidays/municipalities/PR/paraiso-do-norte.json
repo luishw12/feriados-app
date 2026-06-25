@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4118006,
+  "name": "Paraíso do Norte",
+  "slug": "paraiso-do-norte",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-paraiso-do-norte",
+      "name": "Aniversário de Paraíso do Norte",
+      "date": "03-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraiso-do-norte-1127",
+      "name": "Feriado Municipal de Paraíso do Norte",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

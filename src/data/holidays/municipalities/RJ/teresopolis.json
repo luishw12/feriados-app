@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3305802,
+  "name": "Teresópolis",
+  "slug": "teresopolis",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-teresopolis",
+      "name": "Aniversário de Teresópolis",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-teresopolis-0706",
+      "name": "Feriado Municipal de Teresópolis",
+      "date": "07-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

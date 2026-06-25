@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3302809,
+  "name": "Mendes",
+  "slug": "mendes",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-mendes",
+      "name": "Aniversário de Mendes",
+      "date": "07-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mendes-0914",
+      "name": "Feriado Municipal de Mendes",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

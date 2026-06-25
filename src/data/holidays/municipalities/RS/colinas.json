@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4305587,
+  "name": "Colinas",
+  "slug": "colinas",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-colinas",
+      "name": "Aniversário de Colinas",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

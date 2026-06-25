@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4203808,
+  "name": "Canoinhas",
+  "slug": "canoinhas",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-canoinhas",
+      "name": "Aniversário de Canoinhas",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-canoinhas-0912",
+      "name": "Feriado Municipal de Canoinhas",
+      "date": "09-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4109807,
+  "name": "Ibiporã",
+  "slug": "ibipora",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-ibipora",
+      "name": "Aniversário de Ibiporã",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibipora-1108",
+      "name": "Feriado Municipal de Ibiporã",
+      "date": "11-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

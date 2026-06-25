@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2901106,
+  "name": "Amélia Rodrigues",
+  "slug": "amelia-rodrigues",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-amelia-rodrigues",
+      "name": "Aniversário de Amélia Rodrigues",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amelia-rodrigues-0531",
+      "name": "Feriado Municipal de Amélia Rodrigues",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amelia-rodrigues-0624",
+      "name": "Feriado Municipal de Amélia Rodrigues",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

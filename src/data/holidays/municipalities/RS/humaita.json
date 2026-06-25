@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4309704,
+  "name": "Humaitá",
+  "slug": "humaita",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-humaita",
+      "name": "Aniversário de Humaitá",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-humaita-0725",
+      "name": "Feriado Municipal de Humaitá",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

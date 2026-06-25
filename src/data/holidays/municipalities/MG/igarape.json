@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3130101,
+  "name": "Igarapé",
+  "slug": "igarape",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-igarape",
+      "name": "Aniversário de Igarapé",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-igarape-0613",
+      "name": "Feriado Municipal de Igarapé",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

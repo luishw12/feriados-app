@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1503457,
+  "name": "Ipixuna do Pará",
+  "slug": "ipixuna-do-para",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-ipixuna-do-para",
+      "name": "Aniversário de Ipixuna do Pará",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

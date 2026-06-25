@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2909802,
+  "name": "Cruz das Almas",
+  "slug": "cruz-das-almas",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-cruz-das-almas",
+      "name": "Aniversário de Cruz das Almas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cruz-das-almas-0729",
+      "name": "Feriado Municipal de Cruz das Almas",
+      "date": "07-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cruz-das-almas-0915",
+      "name": "Feriado Municipal de Cruz das Almas",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

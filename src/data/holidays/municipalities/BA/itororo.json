@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2917102,
+  "name": "Itororó",
+  "slug": "itororo",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itororo",
+      "name": "Aniversário de Itororó",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itororo-0822",
+      "name": "Feriado Municipal de Itororó",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

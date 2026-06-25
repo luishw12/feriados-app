@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4203105,
+  "name": "Caibi",
+  "slug": "caibi",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-caibi",
+      "name": "Aniversário de Caibi",
+      "date": "06-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caibi-0808",
+      "name": "Feriado Municipal de Caibi",
+      "date": "08-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caibi-1208",
+      "name": "Feriado Municipal de Caibi",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

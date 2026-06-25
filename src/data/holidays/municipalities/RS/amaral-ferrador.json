@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4300638,
+  "name": "Amaral Ferrador",
+  "slug": "amaral-ferrador",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-amaral-ferrador",
+      "name": "Aniversário de Amaral Ferrador",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amaral-ferrador-0319",
+      "name": "Feriado Municipal de Amaral Ferrador",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amaral-ferrador-0512",
+      "name": "Feriado Municipal de Amaral Ferrador",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

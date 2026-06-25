@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2924702,
+  "name": "Piripá",
+  "slug": "piripa",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-piripa",
+      "name": "Aniversário de Piripá",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

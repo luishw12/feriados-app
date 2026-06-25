@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2603108,
+  "name": "Cachoeirinha",
+  "slug": "cachoeirinha",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-cachoeirinha",
+      "name": "Aniversário de Cachoeirinha",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cachoeirinha-0629",
+      "name": "Feriado Municipal de Cachoeirinha",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cachoeirinha-1217",
+      "name": "Feriado Municipal de Cachoeirinha",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

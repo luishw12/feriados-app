@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3303401,
+  "name": "Nova Friburgo",
+  "slug": "nova-friburgo",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-nova-friburgo",
+      "name": "Aniversário de Nova Friburgo",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-friburgo-0516",
+      "name": "Feriado Municipal de Nova Friburgo",
+      "date": "05-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

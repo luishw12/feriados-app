@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4120853,
+  "name": "Quatro Pontes",
+  "slug": "quatro-pontes",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-quatro-pontes",
+      "name": "Aniversário de Quatro Pontes",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quatro-pontes-0913",
+      "name": "Feriado Municipal de Quatro Pontes",
+      "date": "09-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

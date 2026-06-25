@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4302352,
+  "name": "Bom Princípio",
+  "slug": "bom-principio",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-bom-principio",
+      "name": "Aniversário de Bom Princípio",
+      "date": "05-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

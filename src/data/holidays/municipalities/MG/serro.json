@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3167103,
+  "name": "Serro",
+  "slug": "serro",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-serro",
+      "name": "Aniversário de Serro",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

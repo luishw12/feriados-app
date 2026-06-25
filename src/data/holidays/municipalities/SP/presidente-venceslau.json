@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3541505,
+  "name": "Presidente Venceslau",
+  "slug": "presidente-venceslau",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-venceslau",
+      "name": "Aniversário de Presidente Venceslau",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-venceslau-0902",
+      "name": "Feriado Municipal de Presidente Venceslau",
+      "date": "09-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

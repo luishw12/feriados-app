@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2903508,
+  "name": "Belo Campo",
+  "slug": "belo-campo",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-belo-campo",
+      "name": "Aniversário de Belo Campo",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

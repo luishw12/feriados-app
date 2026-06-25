@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4214607,
+  "name": "Rio do Oeste",
+  "slug": "rio-do-oeste",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-rio-do-oeste",
+      "name": "Aniversário de Rio do Oeste",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

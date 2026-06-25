@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3515186,
+  "name": "Espírito Santo do Pinhal",
+  "slug": "espirito-santo-do-pinhal",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-espirito-santo-do-pinhal",
+      "name": "Aniversário de Espírito Santo do Pinhal",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-espirito-santo-do-pinhal-1227",
+      "name": "Feriado Municipal de Espírito Santo do Pinhal",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

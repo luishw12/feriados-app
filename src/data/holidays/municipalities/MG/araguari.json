@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3103504,
+  "name": "Araguari",
+  "slug": "araguari",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-araguari",
+      "name": "Aniversário de Araguari",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araguari-0815",
+      "name": "Feriado Municipal de Araguari",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-araguari-0828",
+      "name": "Feriado Municipal de Araguari",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

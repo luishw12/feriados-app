@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3105707,
+  "name": "Barra Longa",
+  "slug": "barra-longa",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-barra-longa",
+      "name": "Aniversário de Barra Longa",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

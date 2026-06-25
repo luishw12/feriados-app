@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3306008,
+  "name": "Três Rios",
+  "slug": "tres-rios",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-tres-rios",
+      "name": "Aniversário de Três Rios",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tres-rios-0423",
+      "name": "Feriado Municipal de Três Rios",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

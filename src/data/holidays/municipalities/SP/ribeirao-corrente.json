@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3543105,
+  "name": "Ribeirão Corrente",
+  "slug": "ribeirao-corrente",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ribeirao-corrente",
+      "name": "Aniversário de Ribeirão Corrente",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ribeirao-corrente-0914",
+      "name": "Feriado Municipal de Ribeirão Corrente",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

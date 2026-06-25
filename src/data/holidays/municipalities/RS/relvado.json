@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4315453,
+  "name": "Relvado",
+  "slug": "relvado",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-relvado",
+      "name": "Aniversário de Relvado",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-relvado-0613",
+      "name": "Feriado Municipal de Relvado",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

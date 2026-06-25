@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4117222,
+  "name": "Nova Santa Rosa",
+  "slug": "nova-santa-rosa",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-nova-santa-rosa",
+      "name": "Aniversário de Nova Santa Rosa",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-santa-rosa-0823",
+      "name": "Feriado Municipal de Nova Santa Rosa",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-santa-rosa-1031",
+      "name": "Feriado Municipal de Nova Santa Rosa",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

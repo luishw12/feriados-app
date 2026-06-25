@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3305109,
+  "name": "São João de Meriti",
+  "slug": "sao-joao-de-meriti",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-de-meriti",
+      "name": "Aniversário de São João de Meriti",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-de-meriti-0821",
+      "name": "Feriado Municipal de São João de Meriti",
+      "date": "08-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

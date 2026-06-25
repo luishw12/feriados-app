@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3143203,
+  "name": "Monte Santo de Minas",
+  "slug": "monte-santo-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-monte-santo-de-minas",
+      "name": "Aniversário de Monte Santo de Minas",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

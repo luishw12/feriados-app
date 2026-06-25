@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5106257,
+  "name": "Nova Xavantina",
+  "slug": "nova-xavantina",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-nova-xavantina",
+      "name": "Aniversário de Nova Xavantina",
+      "date": "04-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-xavantina-1127",
+      "name": "Feriado Municipal de Nova Xavantina",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

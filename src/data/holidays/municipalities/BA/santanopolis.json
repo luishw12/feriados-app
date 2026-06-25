@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2928307,
+  "name": "Santanópolis",
+  "slug": "santanopolis",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santanopolis",
+      "name": "Aniversário de Santanópolis",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santanopolis-0629",
+      "name": "Feriado Municipal de Santanópolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santanopolis-0713",
+      "name": "Feriado Municipal de Santanópolis",
+      "date": "07-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santanopolis-1231",
+      "name": "Feriado Municipal de Santanópolis",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

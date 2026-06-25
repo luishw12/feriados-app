@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4215059,
+  "name": "Rio Rufino",
+  "slug": "rio-rufino",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-rio-rufino",
+      "name": "Aniversário de Rio Rufino",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-rufino-1212",
+      "name": "Feriado Municipal de Rio Rufino",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

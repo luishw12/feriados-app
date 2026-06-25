@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5105903,
+  "name": "Nobres",
+  "slug": "nobres",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-nobres",
+      "name": "Aniversário de Nobres",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

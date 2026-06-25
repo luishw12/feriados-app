@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4213609,
+  "name": "Porto União",
+  "slug": "porto-uniao",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-porto-uniao",
+      "name": "Aniversário de Porto União",
+      "date": "09-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

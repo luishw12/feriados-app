@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3508306,
+  "name": "Cabrália Paulista",
+  "slug": "cabralia-paulista",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cabralia-paulista",
+      "name": "Aniversário de Cabrália Paulista",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cabralia-paulista-1226",
+      "name": "Feriado Municipal de Cabrália Paulista",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3130051,
+  "name": "Icaraí de Minas",
+  "slug": "icarai-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-icarai-de-minas",
+      "name": "Aniversário de Icaraí de Minas",
+      "date": "04-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3105509,
+  "name": "Barão do Monte Alto",
+  "slug": "barao-do-monte-alto",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-barao-do-monte-alto",
+      "name": "Aniversário de Barão do Monte Alto",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

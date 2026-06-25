@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1301902,
+  "name": "Itacoatiara",
+  "slug": "itacoatiara",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-itacoatiara",
+      "name": "Aniversário de Itacoatiara",
+      "date": "04-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itacoatiara-0629",
+      "name": "Feriado Municipal de Itacoatiara",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itacoatiara-1101",
+      "name": "Feriado Municipal de Itacoatiara",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

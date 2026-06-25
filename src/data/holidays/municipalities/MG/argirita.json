@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3104403,
+  "name": "Argirita",
+  "slug": "argirita",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-argirita",
+      "name": "Aniversário de Argirita",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

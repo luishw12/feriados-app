@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4301800,
+  "name": "Barracão",
+  "slug": "barracao",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-barracao",
+      "name": "Aniversário de Barracão",
+      "date": "05-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barracao-0915",
+      "name": "Feriado Municipal de Barracão",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

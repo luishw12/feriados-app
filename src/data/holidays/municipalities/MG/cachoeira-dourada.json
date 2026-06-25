@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3109808,
+  "name": "Cachoeira Dourada",
+  "slug": "cachoeira-dourada",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-cachoeira-dourada",
+      "name": "Aniversário de Cachoeira Dourada",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cachoeira-dourada-0831",
+      "name": "Feriado Municipal de Cachoeira Dourada",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3540408,
+  "name": "Populina",
+  "slug": "populina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-populina",
+      "name": "Aniversário de Populina",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

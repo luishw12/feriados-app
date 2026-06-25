@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5219902,
+  "name": "São Francisco de Goiás",
+  "slug": "sao-francisco-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-sao-francisco-de-goias",
+      "name": "Aniversário de São Francisco de Goiás",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

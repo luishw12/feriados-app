@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5217708,
+  "name": "Pontalina",
+  "slug": "pontalina",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-pontalina",
+      "name": "Aniversário de Pontalina",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pontalina-1031",
+      "name": "Feriado Municipal de Pontalina",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

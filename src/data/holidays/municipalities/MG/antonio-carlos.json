@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3102902,
+  "name": "Antônio Carlos",
+  "slug": "antonio-carlos",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-antonio-carlos",
+      "name": "Aniversário de Antônio Carlos",
+      "date": "02-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-antonio-carlos-0726",
+      "name": "Feriado Municipal de Antônio Carlos",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-antonio-carlos-1227",
+      "name": "Feriado Municipal de Antônio Carlos",
+      "date": "12-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

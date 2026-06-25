@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2705507,
+  "name": "Murici",
+  "slug": "murici",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-murici",
+      "name": "Aniversário de Murici",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

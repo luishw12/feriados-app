@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3534609,
+  "name": "Osvaldo Cruz",
+  "slug": "osvaldo-cruz",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-osvaldo-cruz",
+      "name": "Aniversário de Osvaldo Cruz",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-osvaldo-cruz-0606",
+      "name": "Feriado Municipal de Osvaldo Cruz",
+      "date": "06-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

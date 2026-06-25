@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4112801,
+  "name": "Joaquim Távora",
+  "slug": "joaquim-tavora",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-joaquim-tavora",
+      "name": "Aniversário de Joaquim Távora",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-joaquim-tavora-0921",
+      "name": "Feriado Municipal de Joaquim Távora",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

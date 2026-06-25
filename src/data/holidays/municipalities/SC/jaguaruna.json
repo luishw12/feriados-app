@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4208807,
+  "name": "Jaguaruna",
+  "slug": "jaguaruna",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-jaguaruna",
+      "name": "Aniversário de Jaguaruna",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaguaruna-1220",
+      "name": "Feriado Municipal de Jaguaruna",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

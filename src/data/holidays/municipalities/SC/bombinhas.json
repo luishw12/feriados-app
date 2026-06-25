@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4202453,
+  "name": "Bombinhas",
+  "slug": "bombinhas",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-bombinhas",
+      "name": "Aniversário de Bombinhas",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bombinhas-0315",
+      "name": "Feriado Municipal de Bombinhas",
+      "date": "03-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bombinhas-1101",
+      "name": "Feriado Municipal de Bombinhas",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

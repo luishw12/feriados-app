@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3202652,
+  "name": "Irupi",
+  "slug": "irupi",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-irupi",
+      "name": "Aniversário de Irupi",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

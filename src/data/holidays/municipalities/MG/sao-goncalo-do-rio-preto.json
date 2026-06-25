@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3125507,
+  "name": "São Gonçalo do Rio Preto",
+  "slug": "sao-goncalo-do-rio-preto",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-goncalo-do-rio-preto",
+      "name": "Aniversário de São Gonçalo do Rio Preto",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

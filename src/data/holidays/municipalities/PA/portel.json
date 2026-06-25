@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1505809,
+  "name": "Portel",
+  "slug": "portel",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-portel",
+      "name": "Aniversário de Portel",
+      "date": "01-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-portel-0202",
+      "name": "Feriado Municipal de Portel",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

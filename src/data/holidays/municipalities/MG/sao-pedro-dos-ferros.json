@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3164001,
+  "name": "São Pedro dos Ferros",
+  "slug": "sao-pedro-dos-ferros",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-pedro-dos-ferros",
+      "name": "Aniversário de São Pedro dos Ferros",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-pedro-dos-ferros-1231",
+      "name": "Feriado Municipal de São Pedro dos Ferros",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

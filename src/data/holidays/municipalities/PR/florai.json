@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4107801,
+  "name": "Floraí",
+  "slug": "florai",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-florai",
+      "name": "Aniversário de Floraí",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

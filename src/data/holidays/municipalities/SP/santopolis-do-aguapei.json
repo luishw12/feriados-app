@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3548401,
+  "name": "Santópolis do Aguapeí",
+  "slug": "santopolis-do-aguapei",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santopolis-do-aguapei",
+      "name": "Aniversário de Santópolis do Aguapeí",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santopolis-do-aguapei-1127",
+      "name": "Feriado Municipal de Santópolis do Aguapeí",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

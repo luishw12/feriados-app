@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3129004,
+  "name": "Guiricema",
+  "slug": "guiricema",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-guiricema",
+      "name": "Aniversário de Guiricema",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guiricema-0212",
+      "name": "Feriado Municipal de Guiricema",
+      "date": "02-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guiricema-0815",
+      "name": "Feriado Municipal de Guiricema",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

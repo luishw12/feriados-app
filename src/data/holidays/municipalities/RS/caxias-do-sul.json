@@ -7,9 +7,31 @@
     {
       "id": "aniversario-caxias-do-sul",
       "name": "Aniversário de Caxias do Sul",
-      "date": "06-20",
+      "date": "04-03",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caxias-do-sul-0526",
+      "name": "Feriado Municipal de Caxias do Sul",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caxias-do-sul-0604",
+      "name": "Feriado Municipal de Caxias do Sul",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

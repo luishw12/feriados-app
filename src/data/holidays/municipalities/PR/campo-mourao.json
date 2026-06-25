@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4104303,
+  "name": "Campo Mourão",
+  "slug": "campo-mourao",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-campo-mourao",
+      "name": "Aniversário de Campo Mourão",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-mourao-0403",
+      "name": "Feriado Municipal de Campo Mourão",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-mourao-0604",
+      "name": "Feriado Municipal de Campo Mourão",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-mourao-1013",
+      "name": "Feriado Municipal de Campo Mourão",
+      "date": "10-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

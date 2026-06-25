@@ -7,9 +7,42 @@
     {
       "id": "aniversario-uberlandia",
       "name": "Aniversário de Uberlândia",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uberlandia-0604",
+      "name": "Feriado Municipal de Uberlândia",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uberlandia-0815",
+      "name": "Feriado Municipal de Uberlândia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uberlandia-0831",
+      "name": "Feriado Municipal de Uberlândia",
       "date": "08-31",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

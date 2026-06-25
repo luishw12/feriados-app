@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4206504,
+  "name": "Guaramirim",
+  "slug": "guaramirim",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-guaramirim",
+      "name": "Aniversário de Guaramirim",
+      "date": "08-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

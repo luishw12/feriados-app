@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3503703,
+  "name": "Ariranha",
+  "slug": "ariranha",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ariranha",
+      "name": "Aniversário de Ariranha",
+      "date": "04-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ariranha-0624",
+      "name": "Feriado Municipal de Ariranha",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

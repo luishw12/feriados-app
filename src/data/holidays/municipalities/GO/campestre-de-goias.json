@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5204607,
+  "name": "Campestre de Goiás",
+  "slug": "campestre-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-campestre-de-goias",
+      "name": "Aniversário de Campestre de Goiás",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

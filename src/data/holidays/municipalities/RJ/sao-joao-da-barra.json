@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3305000,
+  "name": "São João da Barra",
+  "slug": "sao-joao-da-barra",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-da-barra",
+      "name": "Aniversário de São João da Barra",
+      "date": "06-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-da-barra-0624",
+      "name": "Feriado Municipal de São João da Barra",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-da-barra-1208",
+      "name": "Feriado Municipal de São João da Barra",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

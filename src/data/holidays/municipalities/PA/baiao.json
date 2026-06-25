@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1501204,
+  "name": "Baião",
+  "slug": "baiao",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-baiao",
+      "name": "Aniversário de Baião",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baiao-0613",
+      "name": "Feriado Municipal de Baião",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baiao-0831",
+      "name": "Feriado Municipal de Baião",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-baiao-1030",
+      "name": "Feriado Municipal de Baião",
+      "date": "10-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

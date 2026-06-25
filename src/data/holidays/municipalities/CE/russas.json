@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2311801,
+  "name": "Russas",
+  "slug": "russas",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-russas",
+      "name": "Aniversário de Russas",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-russas-1127",
+      "name": "Feriado Municipal de Russas",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

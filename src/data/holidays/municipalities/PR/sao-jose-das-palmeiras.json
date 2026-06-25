@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4125456,
+  "name": "São José das Palmeiras",
+  "slug": "sao-jose-das-palmeiras",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-das-palmeiras",
+      "name": "Aniversário de São José das Palmeiras",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-das-palmeiras-0417",
+      "name": "Feriado Municipal de São José das Palmeiras",
+      "date": "04-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

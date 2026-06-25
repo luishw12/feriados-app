@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2911204,
+  "name": "Gandu",
+  "slug": "gandu",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-gandu",
+      "name": "Aniversário de Gandu",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gandu-0624",
+      "name": "Feriado Municipal de Gandu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gandu-0728",
+      "name": "Feriado Municipal de Gandu",
+      "date": "07-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-gandu-0816",
+      "name": "Feriado Municipal de Gandu",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

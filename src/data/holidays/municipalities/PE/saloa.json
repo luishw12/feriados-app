@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2612307,
+  "name": "Saloá",
+  "slug": "saloa",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-saloa",
+      "name": "Aniversário de Saloá",
+      "date": "09-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-saloa-1220",
+      "name": "Feriado Municipal de Saloá",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

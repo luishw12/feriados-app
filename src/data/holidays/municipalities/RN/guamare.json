@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2404507,
+  "name": "Guamaré",
+  "slug": "guamare",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-guamare",
+      "name": "Aniversário de Guamaré",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guamare-0507",
+      "name": "Feriado Municipal de Guamaré",
+      "date": "05-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guamare-0815",
+      "name": "Feriado Municipal de Guamaré",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guamare-1208",
+      "name": "Feriado Municipal de Guamaré",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

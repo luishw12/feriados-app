@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5107305,
+  "name": "São José do Rio Claro",
+  "slug": "sao-jose-do-rio-claro",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-rio-claro",
+      "name": "Aniversário de São José do Rio Claro",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

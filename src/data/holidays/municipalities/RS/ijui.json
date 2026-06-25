@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4310207,
+  "name": "Ijuí",
+  "slug": "ijui",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-ijui",
+      "name": "Aniversário de Ijuí",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ijui-1019",
+      "name": "Feriado Municipal de Ijuí",
+      "date": "10-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

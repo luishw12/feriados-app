@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3519303,
+  "name": "Ibaté",
+  "slug": "ibate",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ibate",
+      "name": "Aniversário de Ibaté",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ibate-0815",
+      "name": "Feriado Municipal de Ibaté",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

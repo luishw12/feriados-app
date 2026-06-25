@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5100508,
+  "name": "Alto Paraguai",
+  "slug": "alto-paraguai",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-alto-paraguai",
+      "name": "Aniversário de Alto Paraguai",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-paraguai-0806",
+      "name": "Feriado Municipal de Alto Paraguai",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-alto-paraguai-1216",
+      "name": "Feriado Municipal de Alto Paraguai",
+      "date": "12-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

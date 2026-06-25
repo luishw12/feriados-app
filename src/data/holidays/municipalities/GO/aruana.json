@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5202502,
+  "name": "Aruanã",
+  "slug": "aruana",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-aruana",
+      "name": "Aniversário de Aruanã",
+      "date": "12-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

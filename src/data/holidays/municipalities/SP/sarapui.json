@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3551108,
+  "name": "Sarapuí",
+  "slug": "sarapui",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sarapui",
+      "name": "Aniversário de Sarapuí",
+      "date": "03-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sarapui-0915",
+      "name": "Feriado Municipal de Sarapuí",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

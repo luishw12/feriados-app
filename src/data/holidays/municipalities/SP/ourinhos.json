@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3534708,
+  "name": "Ourinhos",
+  "slug": "ourinhos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-ourinhos",
+      "name": "Aniversário de Ourinhos",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ourinhos-1213",
+      "name": "Feriado Municipal de Ourinhos",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

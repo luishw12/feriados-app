@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3515301,
+  "name": "Estrela do Norte",
+  "slug": "estrela-do-norte",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-estrela-do-norte",
+      "name": "Aniversário de Estrela do Norte",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estrela-do-norte-0321",
+      "name": "Feriado Municipal de Estrela do Norte",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estrela-do-norte-0629",
+      "name": "Feriado Municipal de Estrela do Norte",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estrela-do-norte-1213",
+      "name": "Feriado Municipal de Estrela do Norte",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

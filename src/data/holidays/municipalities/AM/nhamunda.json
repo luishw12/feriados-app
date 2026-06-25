@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1303007,
+  "name": "Nhamundá",
+  "slug": "nhamunda",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-nhamunda",
+      "name": "Aniversário de Nhamundá",
+      "date": "01-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

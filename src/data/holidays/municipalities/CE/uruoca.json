@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2313906,
+  "name": "Uruoca",
+  "slug": "uruoca",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-uruoca",
+      "name": "Aniversário de Uruoca",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uruoca-0815",
+      "name": "Feriado Municipal de Uruoca",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

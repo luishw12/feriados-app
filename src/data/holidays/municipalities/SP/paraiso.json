@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3535705,
+  "name": "Paraíso",
+  "slug": "paraiso",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-paraiso",
+      "name": "Aniversário de Paraíso",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

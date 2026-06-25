@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3504107,
+  "name": "Atibaia",
+  "slug": "atibaia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-atibaia",
+      "name": "Aniversário de Atibaia",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-atibaia-0604",
+      "name": "Feriado Municipal de Atibaia",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-atibaia-0624",
+      "name": "Feriado Municipal de Atibaia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3521903,
+  "name": "Itajobi",
+  "slug": "itajobi",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itajobi",
+      "name": "Aniversário de Itajobi",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itajobi-0404",
+      "name": "Feriado Municipal de Itajobi",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

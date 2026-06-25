@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3166808,
+  "name": "Serra do Salitre",
+  "slug": "serra-do-salitre",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-serra-do-salitre",
+      "name": "Aniversário de Serra do Salitre",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serra-do-salitre-0815",
+      "name": "Feriado Municipal de Serra do Salitre",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

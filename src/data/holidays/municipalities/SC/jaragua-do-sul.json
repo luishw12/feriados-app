@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4208906,
+  "name": "Jaraguá do Sul",
+  "slug": "jaragua-do-sul",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-jaragua-do-sul",
+      "name": "Aniversário de Jaraguá do Sul",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaragua-do-sul-0604",
+      "name": "Feriado Municipal de Jaraguá do Sul",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaragua-do-sul-0725",
+      "name": "Feriado Municipal de Jaraguá do Sul",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaragua-do-sul-1028",
+      "name": "Feriado Municipal de Jaraguá do Sul",
+      "date": "10-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

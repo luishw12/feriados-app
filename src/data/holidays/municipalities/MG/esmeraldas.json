@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3124104,
+  "name": "Esmeraldas",
+  "slug": "esmeraldas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-esmeraldas",
+      "name": "Aniversário de Esmeraldas",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-esmeraldas-0916",
+      "name": "Feriado Municipal de Esmeraldas",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

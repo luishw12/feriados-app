@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5218805,
+  "name": "Rio Verde",
+  "slug": "rio-verde",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-rio-verde",
+      "name": "Aniversário de Rio Verde",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-verde-0403",
+      "name": "Feriado Municipal de Rio Verde",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-verde-0604",
+      "name": "Feriado Municipal de Rio Verde",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-verde-0805",
+      "name": "Feriado Municipal de Rio Verde",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

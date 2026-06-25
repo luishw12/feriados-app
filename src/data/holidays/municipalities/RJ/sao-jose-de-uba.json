@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3305133,
+  "name": "São José de Ubá",
+  "slug": "sao-jose-de-uba",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-de-uba",
+      "name": "Aniversário de São José de Ubá",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-de-uba-1228",
+      "name": "Feriado Municipal de São José de Ubá",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

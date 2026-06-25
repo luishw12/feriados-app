@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3109204,
+  "name": "Buenópolis",
+  "slug": "buenopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-buenopolis",
+      "name": "Aniversário de Buenópolis",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-buenopolis-1217",
+      "name": "Feriado Municipal de Buenópolis",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

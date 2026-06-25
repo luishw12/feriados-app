@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 1200104,
+  "name": "Brasiléia",
+  "slug": "brasileia",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-brasileia",
+      "name": "Aniversário de Brasiléia",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brasileia-0703",
+      "name": "Feriado Municipal de Brasiléia",
+      "date": "07-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-brasileia-0906",
+      "name": "Feriado Municipal de Brasiléia",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

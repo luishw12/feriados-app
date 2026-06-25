@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2409803,
+  "name": "Pedro Velho",
+  "slug": "pedro-velho",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-pedro-velho",
+      "name": "Aniversário de Pedro Velho",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedro-velho-0629",
+      "name": "Feriado Municipal de Pedro Velho",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

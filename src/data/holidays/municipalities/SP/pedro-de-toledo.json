@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3537206,
+  "name": "Pedro de Toledo",
+  "slug": "pedro-de-toledo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pedro-de-toledo",
+      "name": "Aniversário de Pedro de Toledo",
+      "date": "04-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedro-de-toledo-0726",
+      "name": "Feriado Municipal de Pedro de Toledo",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

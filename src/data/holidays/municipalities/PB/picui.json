@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2511400,
+  "name": "Picuí",
+  "slug": "picui",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-picui",
+      "name": "Aniversário de Picuí",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-picui-0318",
+      "name": "Feriado Municipal de Picuí",
+      "date": "03-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-picui-0629",
+      "name": "Feriado Municipal de Picuí",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

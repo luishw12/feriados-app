@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2306553,
+  "name": "Itarema",
+  "slug": "itarema",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-itarema",
+      "name": "Aniversário de Itarema",
+      "date": "02-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itarema-0624",
+      "name": "Feriado Municipal de Itarema",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itarema-1013",
+      "name": "Feriado Municipal de Itarema",
+      "date": "10-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

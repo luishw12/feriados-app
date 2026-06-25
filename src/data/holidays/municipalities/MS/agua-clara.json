@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5000203,
+  "name": "Água Clara",
+  "slug": "agua-clara",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-agua-clara",
+      "name": "Aniversário de Água Clara",
+      "date": "02-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agua-clara-0628",
+      "name": "Feriado Municipal de Água Clara",
+      "date": "06-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-agua-clara-1031",
+      "name": "Feriado Municipal de Água Clara",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3553104,
+  "name": "Taiaçu",
+  "slug": "taiacu",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-taiacu",
+      "name": "Aniversário de Taiaçu",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-taiacu-1230",
+      "name": "Feriado Municipal de Taiaçu",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

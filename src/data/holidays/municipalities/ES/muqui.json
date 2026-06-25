@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3203809,
+  "name": "Muqui",
+  "slug": "muqui",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-muqui",
+      "name": "Aniversário de Muqui",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-muqui-1101",
+      "name": "Feriado Municipal de Muqui",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

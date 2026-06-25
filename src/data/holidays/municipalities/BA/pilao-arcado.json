@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2924405,
+  "name": "Pilão Arcado",
+  "slug": "pilao-arcado",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-pilao-arcado",
+      "name": "Aniversário de Pilão Arcado",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

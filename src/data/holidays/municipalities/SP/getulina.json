@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3517000,
+  "name": "Getulina",
+  "slug": "getulina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-getulina",
+      "name": "Aniversário de Getulina",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-getulina-0815",
+      "name": "Feriado Municipal de Getulina",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

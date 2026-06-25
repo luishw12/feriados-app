@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4312138,
+  "name": "Mato Castelhano",
+  "slug": "mato-castelhano",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-mato-castelhano",
+      "name": "Aniversário de Mato Castelhano",
+      "date": "03-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mato-castelhano-0403",
+      "name": "Feriado Municipal de Mato Castelhano",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mato-castelhano-0619",
+      "name": "Feriado Municipal de Mato Castelhano",
+      "date": "06-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

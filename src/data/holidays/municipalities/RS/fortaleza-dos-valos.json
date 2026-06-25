@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4308458,
+  "name": "Fortaleza dos Valos",
+  "slug": "fortaleza-dos-valos",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-fortaleza-dos-valos",
+      "name": "Aniversário de Fortaleza dos Valos",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fortaleza-dos-valos-0629",
+      "name": "Feriado Municipal de Fortaleza dos Valos",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

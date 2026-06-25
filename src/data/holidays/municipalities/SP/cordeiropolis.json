@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3512407,
+  "name": "Cordeirópolis",
+  "slug": "cordeiropolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cordeiropolis",
+      "name": "Aniversário de Cordeirópolis",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

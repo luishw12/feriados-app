@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3544806,
+  "name": "Sales",
+  "slug": "sales",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sales",
+      "name": "Aniversário de Sales",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

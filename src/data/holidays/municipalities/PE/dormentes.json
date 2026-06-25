@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2605152,
+  "name": "Dormentes",
+  "slug": "dormentes",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-dormentes",
+      "name": "Aniversário de Dormentes",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dormentes-1001",
+      "name": "Feriado Municipal de Dormentes",
+      "date": "10-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2104107,
+  "name": "Fortaleza dos Nogueiras",
+  "slug": "fortaleza-dos-nogueiras",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-fortaleza-dos-nogueiras",
+      "name": "Aniversário de Fortaleza dos Nogueiras",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fortaleza-dos-nogueiras-0806",
+      "name": "Feriado Municipal de Fortaleza dos Nogueiras",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fortaleza-dos-nogueiras-1231",
+      "name": "Feriado Municipal de Fortaleza dos Nogueiras",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

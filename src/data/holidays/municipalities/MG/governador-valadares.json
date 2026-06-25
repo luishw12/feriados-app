@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3127701,
+  "name": "Governador Valadares",
+  "slug": "governador-valadares",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-governador-valadares",
+      "name": "Aniversário de Governador Valadares",
+      "date": "01-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-governador-valadares-0613",
+      "name": "Feriado Municipal de Governador Valadares",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

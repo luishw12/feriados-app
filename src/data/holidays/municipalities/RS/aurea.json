@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4301552,
+  "name": "Áurea",
+  "slug": "aurea",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-aurea",
+      "name": "Aniversário de Áurea",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aurea-1124",
+      "name": "Feriado Municipal de Áurea",
+      "date": "11-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

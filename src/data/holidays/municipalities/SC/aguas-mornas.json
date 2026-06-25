@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4200606,
+  "name": "Águas Mornas",
+  "slug": "aguas-mornas",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-aguas-mornas",
+      "name": "Aniversário de Águas Mornas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aguas-mornas-1229",
+      "name": "Feriado Municipal de Águas Mornas",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

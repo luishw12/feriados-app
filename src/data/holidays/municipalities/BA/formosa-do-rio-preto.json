@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2911105,
+  "name": "Formosa do Rio Preto",
+  "slug": "formosa-do-rio-preto",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-formosa-do-rio-preto",
+      "name": "Aniversário de Formosa do Rio Preto",
+      "date": "12-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4315156,
+  "name": "Progresso",
+  "slug": "progresso",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-progresso",
+      "name": "Aniversário de Progresso",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-progresso-0725",
+      "name": "Feriado Municipal de Progresso",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

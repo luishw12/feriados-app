@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3515608,
+  "name": "Fernando Prestes",
+  "slug": "fernando-prestes",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-fernando-prestes",
+      "name": "Aniversário de Fernando Prestes",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fernando-prestes-0705",
+      "name": "Feriado Municipal de Fernando Prestes",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fernando-prestes-1213",
+      "name": "Feriado Municipal de Fernando Prestes",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3547809,
+  "name": "Santo André",
+  "slug": "santo-andre",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santo-andre",
+      "name": "Aniversário de Santo André",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-andre-0408",
+      "name": "Feriado Municipal de Santo André",
+      "date": "04-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-andre-0604",
+      "name": "Feriado Municipal de Santo André",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4111803,
+  "name": "Jacarezinho",
+  "slug": "jacarezinho",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-jacarezinho",
+      "name": "Aniversário de Jacarezinho",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jacarezinho-0402",
+      "name": "Feriado Municipal de Jacarezinho",
+      "date": "04-02",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

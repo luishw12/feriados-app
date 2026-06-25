@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3540606,
+  "name": "Porto Feliz",
+  "slug": "porto-feliz",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-porto-feliz",
+      "name": "Aniversário de Porto Feliz",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-feliz-1013",
+      "name": "Feriado Municipal de Porto Feliz",
+      "date": "10-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

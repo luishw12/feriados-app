@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3145406,
+  "name": "Olaria",
+  "slug": "olaria",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-olaria",
+      "name": "Aniversário de Olaria",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-olaria-0613",
+      "name": "Feriado Municipal de Olaria",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

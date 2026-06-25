@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2604205,
+  "name": "Catende",
+  "slug": "catende",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-catende",
+      "name": "Aniversário de Catende",
+      "date": "09-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

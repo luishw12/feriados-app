@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4320651,
+  "name": "Silveira Martins",
+  "slug": "silveira-martins",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-silveira-martins",
+      "name": "Aniversário de Silveira Martins",
+      "date": "12-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3531001,
+  "name": "Monções",
+  "slug": "moncoes",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-moncoes",
+      "name": "Aniversário de Monções",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-moncoes-1208",
+      "name": "Feriado Municipal de Monções",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

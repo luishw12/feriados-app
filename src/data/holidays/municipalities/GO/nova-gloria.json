@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5214861,
+  "name": "Nova Glória",
+  "slug": "nova-gloria",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-nova-gloria",
+      "name": "Aniversário de Nova Glória",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-gloria-0815",
+      "name": "Feriado Municipal de Nova Glória",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-gloria-0927",
+      "name": "Feriado Municipal de Nova Glória",
+      "date": "09-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

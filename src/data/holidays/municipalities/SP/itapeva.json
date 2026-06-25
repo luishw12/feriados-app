@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3522406,
+  "name": "Itapeva",
+  "slug": "itapeva",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-itapeva",
+      "name": "Aniversário de Itapeva",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapeva-0920",
+      "name": "Feriado Municipal de Itapeva",
+      "date": "09-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

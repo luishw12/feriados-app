@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3130606,
+  "name": "Inconfidentes",
+  "slug": "inconfidentes",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-inconfidentes",
+      "name": "Aniversário de Inconfidentes",
+      "date": "10-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

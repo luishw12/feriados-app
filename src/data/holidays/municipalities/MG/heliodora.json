@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3129202,
+  "name": "Heliodora",
+  "slug": "heliodora",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-heliodora",
+      "name": "Aniversário de Heliodora",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-heliodora-1226",
+      "name": "Feriado Municipal de Heliodora",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

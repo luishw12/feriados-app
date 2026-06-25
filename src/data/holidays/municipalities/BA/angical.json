@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2901403,
+  "name": "Angical",
+  "slug": "angical",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-angical",
+      "name": "Aniversário de Angical",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-angical-0629",
+      "name": "Feriado Municipal de Angical",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-angical-0705",
+      "name": "Feriado Municipal de Angical",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-angical-0726",
+      "name": "Feriado Municipal de Angical",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

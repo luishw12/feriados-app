@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3505500,
+  "name": "Barretos",
+  "slug": "barretos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-barretos",
+      "name": "Aniversário de Barretos",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

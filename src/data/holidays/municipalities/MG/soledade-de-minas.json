@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3167806,
+  "name": "Soledade de Minas",
+  "slug": "soledade-de-minas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-soledade-de-minas",
+      "name": "Aniversário de Soledade de Minas",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-soledade-de-minas-1217",
+      "name": "Feriado Municipal de Soledade de Minas",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

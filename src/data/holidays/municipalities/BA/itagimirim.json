@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2915304,
+  "name": "Itagimirim",
+  "slug": "itagimirim",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itagimirim",
+      "name": "Aniversário de Itagimirim",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1501501,
+  "name": "Benevides",
+  "slug": "benevides",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-benevides",
+      "name": "Aniversário de Benevides",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-benevides-0716",
+      "name": "Feriado Municipal de Benevides",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-benevides-1208",
+      "name": "Feriado Municipal de Benevides",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-benevides-1229",
+      "name": "Feriado Municipal de Benevides",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

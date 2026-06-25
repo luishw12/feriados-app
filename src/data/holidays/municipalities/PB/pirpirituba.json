@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2511806,
+  "name": "Pirpirituba",
+  "slug": "pirpirituba",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-pirpirituba",
+      "name": "Aniversário de Pirpirituba",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirpirituba-0624",
+      "name": "Feriado Municipal de Pirpirituba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirpirituba-0629",
+      "name": "Feriado Municipal de Pirpirituba",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirpirituba-1204",
+      "name": "Feriado Municipal de Pirpirituba",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

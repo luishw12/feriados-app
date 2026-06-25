@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4300307,
+  "name": "Alecrim",
+  "slug": "alecrim",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-alecrim",
+      "name": "Aniversário de Alecrim",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

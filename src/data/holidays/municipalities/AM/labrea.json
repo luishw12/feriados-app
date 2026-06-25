@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1302405,
+  "name": "Lábrea",
+  "slug": "labrea",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-labrea",
+      "name": "Aniversário de Lábrea",
+      "date": "03-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-labrea-0908",
+      "name": "Feriado Municipal de Lábrea",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

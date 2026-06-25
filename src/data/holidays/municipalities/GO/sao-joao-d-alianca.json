@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 5220009,
+  "name": "São João d'Aliança",
+  "slug": "sao-joao-d-alianca",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-sao-joao-d-alianca",
+      "name": "Aniversário de São João d'Aliança",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-d-alianca-0624",
+      "name": "Feriado Municipal de São João d'Aliança",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-d-alianca-0815",
+      "name": "Feriado Municipal de São João d'Aliança",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-d-alianca-1113",
+      "name": "Feriado Municipal de São João d'Aliança",
+      "date": "11-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-joao-d-alianca-1224",
+      "name": "Feriado Municipal de São João d'Aliança",
+      "date": "12-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

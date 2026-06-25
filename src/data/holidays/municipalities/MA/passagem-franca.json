@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2107902,
+  "name": "Passagem Franca",
+  "slug": "passagem-franca",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-passagem-franca",
+      "name": "Aniversário de Passagem Franca",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-passagem-franca-0508",
+      "name": "Feriado Municipal de Passagem Franca",
+      "date": "05-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

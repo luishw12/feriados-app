@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3510609,
+  "name": "Carapicuíba",
+  "slug": "carapicuiba",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-carapicuiba",
+      "name": "Aniversário de Carapicuíba",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carapicuiba-0629",
+      "name": "Feriado Municipal de Carapicuíba",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

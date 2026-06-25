@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2916609,
+  "name": "Itapitanga",
+  "slug": "itapitanga",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itapitanga",
+      "name": "Aniversário de Itapitanga",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itapitanga-1221",
+      "name": "Feriado Municipal de Itapitanga",
+      "date": "12-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

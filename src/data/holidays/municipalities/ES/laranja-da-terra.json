@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3203163,
+  "name": "Laranja da Terra",
+  "slug": "laranja-da-terra",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-laranja-da-terra",
+      "name": "Aniversário de Laranja da Terra",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-laranja-da-terra-0624",
+      "name": "Feriado Municipal de Laranja da Terra",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-laranja-da-terra-1031",
+      "name": "Feriado Municipal de Laranja da Terra",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

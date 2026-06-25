@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3132909,
+  "name": "Itamogi",
+  "slug": "itamogi",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-itamogi",
+      "name": "Aniversário de Itamogi",
+      "date": "01-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itamogi-0624",
+      "name": "Feriado Municipal de Itamogi",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itamogi-1213",
+      "name": "Feriado Municipal de Itamogi",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

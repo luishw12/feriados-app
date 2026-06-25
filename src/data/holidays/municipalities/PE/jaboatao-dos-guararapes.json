@@ -7,9 +7,42 @@
     {
       "id": "aniversario-jaboatao-dos-guararapes",
       "name": "Aniversário de Jaboatão dos Guararapes",
-      "date": "04-04",
+      "date": "01-15",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaboatao-dos-guararapes-0403",
+      "name": "Feriado Municipal de Jaboatão dos Guararapes",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaboatao-dos-guararapes-0428",
+      "name": "Feriado Municipal de Jaboatão dos Guararapes",
+      "date": "04-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaboatao-dos-guararapes-0504",
+      "name": "Feriado Municipal de Jaboatão dos Guararapes",
+      "date": "05-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

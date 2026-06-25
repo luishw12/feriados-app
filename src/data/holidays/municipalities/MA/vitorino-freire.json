@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2113009,
+  "name": "Vitorino Freire",
+  "slug": "vitorino-freire",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-vitorino-freire",
+      "name": "Aniversário de Vitorino Freire",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vitorino-freire-0925",
+      "name": "Feriado Municipal de Vitorino Freire",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

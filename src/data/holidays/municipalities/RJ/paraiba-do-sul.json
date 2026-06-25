@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3303708,
+  "name": "Paraíba do Sul",
+  "slug": "paraiba-do-sul",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-paraiba-do-sul",
+      "name": "Aniversário de Paraíba do Sul",
+      "date": "01-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraiba-do-sul-0423",
+      "name": "Feriado Municipal de Paraíba do Sul",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paraiba-do-sul-0629",
+      "name": "Feriado Municipal de Paraíba do Sul",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

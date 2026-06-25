@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3515004,
+  "name": "Embu das Artes",
+  "slug": "embu-das-artes",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-embu-das-artes",
+      "name": "Aniversário de Embu das Artes",
+      "date": "02-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-embu-das-artes-0403",
+      "name": "Feriado Municipal de Embu das Artes",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

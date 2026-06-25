@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3114709,
+  "name": "Carvalhópolis",
+  "slug": "carvalhopolis",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carvalhopolis",
+      "name": "Aniversário de Carvalhópolis",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carvalhopolis-1208",
+      "name": "Feriado Municipal de Carvalhópolis",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

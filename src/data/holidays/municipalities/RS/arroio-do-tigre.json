@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4301206,
+  "name": "Arroio do Tigre",
+  "slug": "arroio-do-tigre",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-arroio-do-tigre",
+      "name": "Aniversário de Arroio do Tigre",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arroio-do-tigre-1106",
+      "name": "Feriado Municipal de Arroio do Tigre",
+      "date": "11-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

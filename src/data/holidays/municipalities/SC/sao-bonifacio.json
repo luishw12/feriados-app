@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4215901,
+  "name": "São Bonifácio",
+  "slug": "sao-bonifacio",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-bonifacio",
+      "name": "Aniversário de São Bonifácio",
+      "date": "06-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bonifacio-1208",
+      "name": "Feriado Municipal de São Bonifácio",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bonifacio-1229",
+      "name": "Feriado Municipal de São Bonifácio",
+      "date": "12-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2902708,
+  "name": "Barra",
+  "slug": "barra",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-barra",
+      "name": "Aniversário de Barra",
+      "date": "06-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barra-0624",
+      "name": "Feriado Municipal de Barra",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

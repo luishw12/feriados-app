@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4128807,
+  "name": "Xambrê",
+  "slug": "xambre",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-xambre",
+      "name": "Aniversário de Xambrê",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-xambre-0726",
+      "name": "Feriado Municipal de Xambrê",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

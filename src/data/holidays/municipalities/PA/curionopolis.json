@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1502772,
+  "name": "Curionópolis",
+  "slug": "curionopolis",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-curionopolis",
+      "name": "Aniversário de Curionópolis",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-curionopolis-1127",
+      "name": "Feriado Municipal de Curionópolis",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

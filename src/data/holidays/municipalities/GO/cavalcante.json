@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 5205307,
+  "name": "Cavalcante",
+  "slug": "cavalcante",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-cavalcante",
+      "name": "Aniversário de Cavalcante",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cavalcante-0815",
+      "name": "Feriado Municipal de Cavalcante",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cavalcante-0916",
+      "name": "Feriado Municipal de Cavalcante",
+      "date": "09-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cavalcante-1111",
+      "name": "Feriado Municipal de Cavalcante",
+      "date": "11-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cavalcante-1130",
+      "name": "Feriado Municipal de Cavalcante",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

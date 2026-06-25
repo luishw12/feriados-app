@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2933109,
+  "name": "Várzea do Poço",
+  "slug": "varzea-do-poco",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-varzea-do-poco",
+      "name": "Aniversário de Várzea do Poço",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

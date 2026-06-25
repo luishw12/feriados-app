@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2908705,
+  "name": "Condeúba",
+  "slug": "condeuba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-condeuba",
+      "name": "Aniversário de Condeúba",
+      "date": "05-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-condeuba-0613",
+      "name": "Feriado Municipal de Condeúba",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-condeuba-0624",
+      "name": "Feriado Municipal de Condeúba",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-condeuba-0806",
+      "name": "Feriado Municipal de Condeúba",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

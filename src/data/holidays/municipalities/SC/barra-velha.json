@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4202107,
+  "name": "Barra Velha",
+  "slug": "barra-velha",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-barra-velha",
+      "name": "Aniversário de Barra Velha",
+      "date": "12-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

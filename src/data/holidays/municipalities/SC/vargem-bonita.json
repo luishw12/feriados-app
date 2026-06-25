@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4219176,
+  "name": "Vargem Bonita",
+  "slug": "vargem-bonita",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-vargem-bonita",
+      "name": "Aniversário de Vargem Bonita",
+      "date": "03-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vargem-bonita-0403",
+      "name": "Feriado Municipal de Vargem Bonita",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vargem-bonita-0604",
+      "name": "Feriado Municipal de Vargem Bonita",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vargem-bonita-1208",
+      "name": "Feriado Municipal de Vargem Bonita",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

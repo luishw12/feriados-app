@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5100300,
+  "name": "Alto Araguaia",
+  "slug": "alto-araguaia",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-alto-araguaia",
+      "name": "Aniversário de Alto Araguaia",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

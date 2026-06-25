@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3305158,
+  "name": "São José do Vale do Rio Preto",
+  "slug": "sao-jose-do-vale-do-rio-preto",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-do-vale-do-rio-preto",
+      "name": "Aniversário de São José do Vale do Rio Preto",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-vale-do-rio-preto-0815",
+      "name": "Feriado Municipal de São José do Vale do Rio Preto",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-jose-do-vale-do-rio-preto-1215",
+      "name": "Feriado Municipal de São José do Vale do Rio Preto",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3160900,
+  "name": "São Brás do Suaçuí",
+  "slug": "sao-bras-do-suacui",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-sao-bras-do-suacui",
+      "name": "Aniversário de São Brás do Suaçuí",
+      "date": "02-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bras-do-suacui-0528",
+      "name": "Feriado Municipal de São Brás do Suaçuí",
+      "date": "05-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-bras-do-suacui-1212",
+      "name": "Feriado Municipal de São Brás do Suaçuí",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

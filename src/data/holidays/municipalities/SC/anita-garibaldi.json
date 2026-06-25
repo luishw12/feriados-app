@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4201000,
+  "name": "Anita Garibaldi",
+  "slug": "anita-garibaldi",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-anita-garibaldi",
+      "name": "Aniversário de Anita Garibaldi",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

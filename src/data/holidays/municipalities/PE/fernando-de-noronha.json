@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2605459,
+  "name": "Fernando de Noronha",
+  "slug": "fernando-de-noronha",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-fernando-de-noronha",
+      "name": "Aniversário de Fernando de Noronha",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fernando-de-noronha-0810",
+      "name": "Feriado Municipal de Fernando de Noronha",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-fernando-de-noronha-0829",
+      "name": "Feriado Municipal de Fernando de Noronha",
+      "date": "08-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

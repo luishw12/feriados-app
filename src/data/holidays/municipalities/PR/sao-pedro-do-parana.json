@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4125902,
+  "name": "São Pedro do Paraná",
+  "slug": "sao-pedro-do-parana",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-pedro-do-parana",
+      "name": "Aniversário de São Pedro do Paraná",
+      "date": "12-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

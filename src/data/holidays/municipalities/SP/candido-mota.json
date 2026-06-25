@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3510005,
+  "name": "Cândido Mota",
+  "slug": "candido-mota",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-candido-mota",
+      "name": "Aniversário de Cândido Mota",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

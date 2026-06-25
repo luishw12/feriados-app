@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2610707,
+  "name": "Paulista",
+  "slug": "paulista",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-paulista",
+      "name": "Aniversário de Paulista",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paulista-0624",
+      "name": "Feriado Municipal de Paulista",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paulista-0904",
+      "name": "Feriado Municipal de Paulista",
+      "date": "09-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paulista-1215",
+      "name": "Feriado Municipal de Paulista",
+      "date": "12-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

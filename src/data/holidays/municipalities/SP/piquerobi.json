@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3538303,
+  "name": "Piquerobi",
+  "slug": "piquerobi",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-piquerobi",
+      "name": "Aniversário de Piquerobi",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piquerobi-0929",
+      "name": "Feriado Municipal de Piquerobi",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

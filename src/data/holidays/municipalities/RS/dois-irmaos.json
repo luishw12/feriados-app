@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4306403,
+  "name": "Dois Irmãos",
+  "slug": "dois-irmaos",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-dois-irmaos",
+      "name": "Aniversário de Dois Irmãos",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dois-irmaos-0929",
+      "name": "Feriado Municipal de Dois Irmãos",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

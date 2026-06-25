@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4113908,
+  "name": "Mallet",
+  "slug": "mallet",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-mallet",
+      "name": "Aniversário de Mallet",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mallet-0921",
+      "name": "Feriado Municipal de Mallet",
+      "date": "09-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

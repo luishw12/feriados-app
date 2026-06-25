@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2917904,
+  "name": "Jandaíra",
+  "slug": "jandaira",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-jandaira",
+      "name": "Aniversário de Jandaíra",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jandaira-0614",
+      "name": "Feriado Municipal de Jandaíra",
+      "date": "06-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jandaira-0624",
+      "name": "Feriado Municipal de Jandaíra",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

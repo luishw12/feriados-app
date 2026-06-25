@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2412203,
+  "name": "São José de Mipibu",
+  "slug": "sao-jose-de-mipibu",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jose-de-mipibu",
+      "name": "Aniversário de São José de Mipibu",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4210035,
+  "name": "Luzerna",
+  "slug": "luzerna",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-luzerna",
+      "name": "Aniversário de Luzerna",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

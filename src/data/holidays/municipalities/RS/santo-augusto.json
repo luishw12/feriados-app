@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4317806,
+  "name": "Santo Augusto",
+  "slug": "santo-augusto",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-santo-augusto",
+      "name": "Aniversário de Santo Augusto",
+      "date": "05-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santo-augusto-0624",
+      "name": "Feriado Municipal de Santo Augusto",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

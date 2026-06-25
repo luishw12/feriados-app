@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4322301,
+  "name": "Tuparendi",
+  "slug": "tuparendi",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tuparendi",
+      "name": "Aniversário de Tuparendi",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tuparendi-1031",
+      "name": "Feriado Municipal de Tuparendi",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

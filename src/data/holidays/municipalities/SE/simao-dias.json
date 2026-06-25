@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2807105,
+  "name": "Simão Dias",
+  "slug": "simao-dias",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-simao-dias",
+      "name": "Aniversário de Simão Dias",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-simao-dias-0612",
+      "name": "Feriado Municipal de Simão Dias",
+      "date": "06-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-simao-dias-0624",
+      "name": "Feriado Municipal de Simão Dias",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-simao-dias-0726",
+      "name": "Feriado Municipal de Simão Dias",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

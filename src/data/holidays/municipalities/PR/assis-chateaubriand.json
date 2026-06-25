@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4102000,
+  "name": "Assis Chateaubriand",
+  "slug": "assis-chateaubriand",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-assis-chateaubriand",
+      "name": "Aniversário de Assis Chateaubriand",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-assis-chateaubriand-0820",
+      "name": "Feriado Municipal de Assis Chateaubriand",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

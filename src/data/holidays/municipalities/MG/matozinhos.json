@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3141108,
+  "name": "Matozinhos",
+  "slug": "matozinhos",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-matozinhos",
+      "name": "Aniversário de Matozinhos",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matozinhos-0914",
+      "name": "Feriado Municipal de Matozinhos",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

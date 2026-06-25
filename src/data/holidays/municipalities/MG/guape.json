@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3128105,
+  "name": "Guapé",
+  "slug": "guape",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-guape",
+      "name": "Aniversário de Guapé",
+      "date": "02-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guape-0204",
+      "name": "Feriado Municipal de Guapé",
+      "date": "02-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guape-0815",
+      "name": "Feriado Municipal de Guapé",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guape-1208",
+      "name": "Feriado Municipal de Guapé",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

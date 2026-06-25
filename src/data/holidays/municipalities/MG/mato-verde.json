@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3141009,
+  "name": "Mato Verde",
+  "slug": "mato-verde",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-mato-verde",
+      "name": "Aniversário de Mato Verde",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mato-verde-0624",
+      "name": "Feriado Municipal de Mato Verde",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mato-verde-1212",
+      "name": "Feriado Municipal de Mato Verde",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1706100,
+  "name": "Cristalândia",
+  "slug": "cristalandia",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-cristalandia",
+      "name": "Aniversário de Cristalândia",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cristalandia-0727",
+      "name": "Feriado Municipal de Cristalândia",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

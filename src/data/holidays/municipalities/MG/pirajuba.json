@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3150703,
+  "name": "Pirajuba",
+  "slug": "pirajuba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pirajuba",
+      "name": "Aniversário de Pirajuba",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirajuba-0909",
+      "name": "Feriado Municipal de Pirajuba",
+      "date": "09-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pirajuba-1212",
+      "name": "Feriado Municipal de Pirajuba",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

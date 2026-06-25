@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4119103,
+  "name": "Piên",
+  "slug": "pien",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-pien",
+      "name": "Aniversário de Piên",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

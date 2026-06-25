@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4311809,
+  "name": "Marau",
+  "slug": "marau",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-marau",
+      "name": "Aniversário de Marau",
+      "date": "02-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

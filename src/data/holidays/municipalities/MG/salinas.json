@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3157005,
+  "name": "Salinas",
+  "slug": "salinas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-salinas",
+      "name": "Aniversário de Salinas",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salinas-0624",
+      "name": "Feriado Municipal de Salinas",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

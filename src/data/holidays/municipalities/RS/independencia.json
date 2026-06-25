@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4310405,
+  "name": "Independência",
+  "slug": "independencia",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-independencia",
+      "name": "Aniversário de Independência",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-independencia-0905",
+      "name": "Feriado Municipal de Independência",
+      "date": "09-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-independencia-1031",
+      "name": "Feriado Municipal de Independência",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

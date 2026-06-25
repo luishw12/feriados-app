@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3536604,
+  "name": "Paulo de Faria",
+  "slug": "paulo-de-faria",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-paulo-de-faria",
+      "name": "Aniversário de Paulo de Faria",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-paulo-de-faria-1130",
+      "name": "Feriado Municipal de Paulo de Faria",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

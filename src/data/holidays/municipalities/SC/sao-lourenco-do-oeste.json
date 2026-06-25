@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4216909,
+  "name": "São Lourenço do Oeste",
+  "slug": "sao-lourenco-do-oeste",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-sao-lourenco-do-oeste",
+      "name": "Aniversário de São Lourenço do Oeste",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

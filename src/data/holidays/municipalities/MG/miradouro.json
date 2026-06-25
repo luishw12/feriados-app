@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3142106,
+  "name": "Miradouro",
+  "slug": "miradouro",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-miradouro",
+      "name": "Aniversário de Miradouro",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-miradouro-1217",
+      "name": "Feriado Municipal de Miradouro",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5105606,
+  "name": "Matupá",
+  "slug": "matupa",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-matupa",
+      "name": "Aniversário de Matupá",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matupa-0725",
+      "name": "Feriado Municipal de Matupá",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

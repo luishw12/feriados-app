@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1709302,
+  "name": "Guaraí",
+  "slug": "guarai",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-guarai",
+      "name": "Aniversário de Guaraí",
+      "date": "04-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guarai-0629",
+      "name": "Feriado Municipal de Guaraí",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1200179,
+  "name": "Capixaba",
+  "slug": "capixaba",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-capixaba",
+      "name": "Aniversário de Capixaba",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capixaba-0906",
+      "name": "Feriado Municipal de Capixaba",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

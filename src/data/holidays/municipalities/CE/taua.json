@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2313302,
+  "name": "Tauá",
+  "slug": "taua",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-taua",
+      "name": "Aniversário de Tauá",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

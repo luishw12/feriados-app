@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3546306,
+  "name": "Santa Cruz das Palmeiras",
+  "slug": "santa-cruz-das-palmeiras",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-santa-cruz-das-palmeiras",
+      "name": "Aniversário de Santa Cruz das Palmeiras",
+      "date": "05-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-cruz-das-palmeiras-0914",
+      "name": "Feriado Municipal de Santa Cruz das Palmeiras",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2900306,
+  "name": "Acajutiba",
+  "slug": "acajutiba",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-acajutiba",
+      "name": "Aniversário de Acajutiba",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-acajutiba-1128",
+      "name": "Feriado Municipal de Acajutiba",
+      "date": "11-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

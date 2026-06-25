@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 4117909,
+  "name": "Palotina",
+  "slug": "palotina",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-palotina",
+      "name": "Aniversário de Palotina",
+      "date": "01-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palotina-0217",
+      "name": "Feriado Municipal de Palotina",
+      "date": "02-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palotina-0403",
+      "name": "Feriado Municipal de Palotina",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palotina-0604",
+      "name": "Feriado Municipal de Palotina",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palotina-0725",
+      "name": "Feriado Municipal de Palotina",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

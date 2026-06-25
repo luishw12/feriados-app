@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4111100,
+  "name": "Itambé",
+  "slug": "itambe",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-itambe",
+      "name": "Aniversário de Itambé",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

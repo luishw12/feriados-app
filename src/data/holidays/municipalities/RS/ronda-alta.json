@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4316105,
+  "name": "Ronda Alta",
+  "slug": "ronda-alta",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-ronda-alta",
+      "name": "Aniversário de Ronda Alta",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ronda-alta-0725",
+      "name": "Feriado Municipal de Ronda Alta",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ronda-alta-1226",
+      "name": "Feriado Municipal de Ronda Alta",
+      "date": "12-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

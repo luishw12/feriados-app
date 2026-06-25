@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2301851,
+  "name": "Banabuiú",
+  "slug": "banabuiu",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-banabuiu",
+      "name": "Aniversário de Banabuiú",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4219705,
+  "name": "Xaxim",
+  "slug": "xaxim",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-xaxim",
+      "name": "Aniversário de Xaxim",
+      "date": "02-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-xaxim-0621",
+      "name": "Feriado Municipal de Xaxim",
+      "date": "06-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

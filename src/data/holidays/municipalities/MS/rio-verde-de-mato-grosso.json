@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5007406,
+  "name": "Rio Verde de Mato Grosso",
+  "slug": "rio-verde-de-mato-grosso",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-rio-verde-de-mato-grosso",
+      "name": "Aniversário de Rio Verde de Mato Grosso",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rio-verde-de-mato-grosso-1216",
+      "name": "Feriado Municipal de Rio Verde de Mato Grosso",
+      "date": "12-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

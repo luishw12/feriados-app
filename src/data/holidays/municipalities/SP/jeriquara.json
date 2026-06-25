@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3525409,
+  "name": "Jeriquara",
+  "slug": "jeriquara",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jeriquara",
+      "name": "Aniversário de Jeriquara",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jeriquara-0407",
+      "name": "Feriado Municipal de Jeriquara",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

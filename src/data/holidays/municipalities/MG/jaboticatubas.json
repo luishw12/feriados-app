@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3134608,
+  "name": "Jaboticatubas",
+  "slug": "jaboticatubas",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-jaboticatubas",
+      "name": "Aniversário de Jaboticatubas",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaboticatubas-1217",
+      "name": "Feriado Municipal de Jaboticatubas",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

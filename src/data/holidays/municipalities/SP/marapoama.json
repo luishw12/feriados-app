@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3528858,
+  "name": "Marapoama",
+  "slug": "marapoama",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-marapoama",
+      "name": "Aniversário de Marapoama",
+      "date": "06-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

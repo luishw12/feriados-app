@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3121100,
+  "name": "Delfim Moreira",
+  "slug": "delfim-moreira",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-delfim-moreira",
+      "name": "Aniversário de Delfim Moreira",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

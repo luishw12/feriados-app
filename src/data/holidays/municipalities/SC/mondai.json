@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4211009,
+  "name": "Mondaí",
+  "slug": "mondai",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-mondai",
+      "name": "Aniversário de Mondaí",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mondai-1031",
+      "name": "Feriado Municipal de Mondaí",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

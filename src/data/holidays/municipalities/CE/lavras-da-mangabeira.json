@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2307502,
+  "name": "Lavras da Mangabeira",
+  "slug": "lavras-da-mangabeira",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-lavras-da-mangabeira",
+      "name": "Aniversário de Lavras da Mangabeira",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3170503,
+  "name": "Urucânia",
+  "slug": "urucania",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-urucania",
+      "name": "Aniversário de Urucânia",
+      "date": "07-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-urucania-1127",
+      "name": "Feriado Municipal de Urucânia",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4208104,
+  "name": "Itaiópolis",
+  "slug": "itaiopolis",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-itaiopolis",
+      "name": "Aniversário de Itaiópolis",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

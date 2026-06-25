@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4210555,
+  "name": "Marema",
+  "slug": "marema",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-marema",
+      "name": "Aniversário de Marema",
+      "date": "04-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-marema-0611",
+      "name": "Feriado Municipal de Marema",
+      "date": "06-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

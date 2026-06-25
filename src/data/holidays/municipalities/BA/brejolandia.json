@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2904407,
+  "name": "Brejolândia",
+  "slug": "brejolandia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-brejolandia",
+      "name": "Aniversário de Brejolândia",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5003488,
+  "name": "Dois Irmãos do Buriti",
+  "slug": "dois-irmaos-do-buriti",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-dois-irmaos-do-buriti",
+      "name": "Aniversário de Dois Irmãos do Buriti",
+      "date": "11-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

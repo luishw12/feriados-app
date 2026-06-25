@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3536703,
+  "name": "Pederneiras",
+  "slug": "pederneiras",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-pederneiras",
+      "name": "Aniversário de Pederneiras",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pederneiras-0522",
+      "name": "Feriado Municipal de Pederneiras",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

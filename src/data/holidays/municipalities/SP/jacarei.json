@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3524402,
+  "name": "Jacareí",
+  "slug": "jacarei",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jacarei",
+      "name": "Aniversário de Jacareí",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3126109,
+  "name": "Formiga",
+  "slug": "formiga",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-formiga",
+      "name": "Aniversário de Formiga",
+      "date": "06-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-formiga-0815",
+      "name": "Feriado Municipal de Formiga",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

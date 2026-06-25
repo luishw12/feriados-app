@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2307254,
+  "name": "Jijoca de Jericoacoara",
+  "slug": "jijoca-de-jericoacoara",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-jijoca-de-jericoacoara",
+      "name": "Aniversário de Jijoca de Jericoacoara",
+      "date": "03-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jijoca-de-jericoacoara-1213",
+      "name": "Feriado Municipal de Jijoca de Jericoacoara",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3510302,
+  "name": "Capela do Alto",
+  "slug": "capela-do-alto",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-capela-do-alto",
+      "name": "Aniversário de Capela do Alto",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capela-do-alto-0529",
+      "name": "Feriado Municipal de Capela do Alto",
+      "date": "05-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

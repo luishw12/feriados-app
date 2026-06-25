@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4304630,
+  "name": "Capão da Canoa",
+  "slug": "capao-da-canoa",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-capao-da-canoa",
+      "name": "Aniversário de Capão da Canoa",
+      "date": "02-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-capao-da-canoa-0412",
+      "name": "Feriado Municipal de Capão da Canoa",
+      "date": "04-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

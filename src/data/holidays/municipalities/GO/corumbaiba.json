@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5205901,
+  "name": "Corumbaíba",
+  "slug": "corumbaiba",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-corumbaiba",
+      "name": "Aniversário de Corumbaíba",
+      "date": "05-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-corumbaiba-0806",
+      "name": "Feriado Municipal de Corumbaíba",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

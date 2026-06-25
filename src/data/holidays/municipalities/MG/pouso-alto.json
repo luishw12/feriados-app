@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3152600,
+  "name": "Pouso Alto",
+  "slug": "pouso-alto",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-pouso-alto",
+      "name": "Aniversário de Pouso Alto",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

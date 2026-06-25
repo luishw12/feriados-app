@@ -13,22 +13,16 @@ import {
 } from '@/lib/category-filter-storage';
 import { filterHolidaysByCategory } from '@/lib/holiday-categories';
 import {
+  buildMunicipalHolidaysFromIndex,
+  findMunicipalityInIndex,
+  loadMunicipalityIndex,
+} from '@/lib/municipality-index';
+import type { StateOption } from '@/lib/municipality-search';
+import {
   isLocationPromptDismissed,
   loadStoredLocationContext,
   subscribeLocationUpdated,
 } from '@/lib/location-storage';
-
-interface StateOption {
-  uf: string;
-  name: string;
-  slug: string;
-}
-
-interface MunicipalityOption {
-  slug: string;
-  name: string;
-  uf: string;
-}
 
 interface RawHoliday extends Holiday {
   state?: string;
@@ -38,11 +32,9 @@ interface RawHoliday extends Holiday {
 interface Props {
   initialYear: number;
   states: StateOption[];
-  municipalities: MunicipalityOption[];
   nationalHolidays: Holiday[];
   stateHolidaysByUf: Record<string, Holiday[]>;
-  municipalHolidaysByKey: Record<string, Holiday[]>;
-  allRegionalHolidays: Holiday[];
+  stateRegionalHolidays: Holiday[];
 }
 
 function resolveForYear(holidays: RawHoliday[], year: number): SerializedResolvedHoliday[] {
@@ -70,11 +62,9 @@ function getInitialCalendarReady(): boolean {
 export default function HomeInteractive({
   initialYear,
   states,
-  municipalities,
   nationalHolidays,
   stateHolidaysByUf,
-  municipalHolidaysByKey,
-  allRegionalHolidays,
+  stateRegionalHolidays,
 }: Props) {
   const [year, setYear] = useState(initialYear);
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth());
@@ -84,6 +74,7 @@ export default function HomeInteractive({
   const [selectedCategories, setSelectedCategories] = useState<Set<HolidayCategory>>(
     getInitialCategoryFilters,
   );
+  const [municipalHolidays, setMunicipalHolidays] = useState<Holiday[]>([]);
 
   const handleCategoriesChange = useCallback((next: Set<HolidayCategory>) => {
     setSelectedCategories(next);
@@ -111,6 +102,33 @@ export default function HomeInteractive({
     return subscribeLocationUpdated(syncLocation);
   }, []);
 
+  useEffect(() => {
+    let cancelled = false;
+
+    if (!location?.citySlug) {
+      setMunicipalHolidays([]);
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    void loadMunicipalityIndex()
+      .then((index) => {
+        if (cancelled) return;
+        const municipality = findMunicipalityInIndex(index, location.uf, location.citySlug ?? '');
+        setMunicipalHolidays(
+          municipality ? buildMunicipalHolidaysFromIndex(municipality) : [],
+        );
+      })
+      .catch(() => {
+        if (!cancelled) setMunicipalHolidays([]);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [location?.citySlug, location?.uf]);
+
   const handleLocationChange = useCallback((next: LocationContext | null) => {
     setLocation(next);
   }, []);
@@ -121,29 +139,26 @@ export default function HomeInteractive({
   );
 
   const regional = useMemo(
-    () => resolveForYear(allRegionalHolidays, year),
-    [allRegionalHolidays, year],
+    () => resolveForYear(stateRegionalHolidays, year),
+    [stateRegionalHolidays, year],
   );
 
   const contextHolidays = useMemo(() => {
     if (!location) return [];
 
-    const stateHolidays = (stateHolidaysByUf[location.uf] ?? []).map((h) => ({
-      ...h,
+    const stateHolidays = (stateHolidaysByUf[location.uf] ?? []).map((holiday) => ({
+      ...holiday,
       state: location.uf,
     }));
 
-    const cityKey = location.citySlug ? `${location.uf}/${location.citySlug}` : '';
-    const cityHolidays = cityKey
-      ? (municipalHolidaysByKey[cityKey] ?? []).map((h) => ({
-          ...h,
-          state: location.uf,
-          city: location.citySlug,
-        }))
-      : [];
+    const cityHolidays = municipalHolidays.map((holiday) => ({
+      ...holiday,
+      state: location.uf,
+      city: location.citySlug,
+    }));
 
     return serializeUnique(resolveForYear([...stateHolidays, ...cityHolidays], year));
-  }, [location, stateHolidaysByUf, municipalHolidaysByKey, year]);
+  }, [location, stateHolidaysByUf, municipalHolidays, year]);
 
   const activeHolidays = useMemo(() => {
     const base = location
@@ -157,7 +172,6 @@ export default function HomeInteractive({
   const locationPicker = (
     <LocationPicker
       states={states}
-      municipalities={municipalities}
       location={location}
       onLocationChange={handleLocationChange}
       variant="header"

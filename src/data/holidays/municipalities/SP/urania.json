@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3555802,
+  "name": "Urânia",
+  "slug": "urania",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-urania",
+      "name": "Aniversário de Urânia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-urania-1208",
+      "name": "Feriado Municipal de Urânia",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

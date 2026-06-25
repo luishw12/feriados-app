@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2916203,
+  "name": "Itapé",
+  "slug": "itape",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-itape",
+      "name": "Aniversário de Itapé",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-itape-1228",
+      "name": "Feriado Municipal de Itapé",
+      "date": "12-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

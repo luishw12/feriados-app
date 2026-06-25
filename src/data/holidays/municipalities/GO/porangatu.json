@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5218003,
+  "name": "Porangatu",
+  "slug": "porangatu",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-porangatu",
+      "name": "Aniversário de Porangatu",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porangatu-0915",
+      "name": "Feriado Municipal de Porangatu",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porangatu-1213",
+      "name": "Feriado Municipal de Porangatu",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

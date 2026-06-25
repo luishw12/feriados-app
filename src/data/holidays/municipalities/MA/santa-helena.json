@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2109809,
+  "name": "Santa Helena",
+  "slug": "santa-helena",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-santa-helena",
+      "name": "Aniversário de Santa Helena",
+      "date": "08-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-helena-0930",
+      "name": "Feriado Municipal de Santa Helena",
+      "date": "09-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4319000,
+  "name": "São Marcos",
+  "slug": "sao-marcos",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sao-marcos",
+      "name": "Aniversário de São Marcos",
+      "date": "04-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

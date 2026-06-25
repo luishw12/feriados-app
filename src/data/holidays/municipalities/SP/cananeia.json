@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3509908,
+  "name": "Cananéia",
+  "slug": "cananeia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-cananeia",
+      "name": "Aniversário de Cananéia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cananeia-0812",
+      "name": "Feriado Municipal de Cananéia",
+      "date": "08-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cananeia-0815",
+      "name": "Feriado Municipal de Cananéia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

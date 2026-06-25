@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4303301,
+  "name": "Caibaté",
+  "slug": "caibate",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-caibate",
+      "name": "Aniversário de Caibaté",
+      "date": "05-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caibate-1213",
+      "name": "Feriado Municipal de Caibaté",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

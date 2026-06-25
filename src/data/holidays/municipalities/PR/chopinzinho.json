@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4105409,
+  "name": "Chopinzinho",
+  "slug": "chopinzinho",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-chopinzinho",
+      "name": "Aniversário de Chopinzinho",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

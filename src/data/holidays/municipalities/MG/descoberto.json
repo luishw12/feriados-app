@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3121308,
+  "name": "Descoberto",
+  "slug": "descoberto",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-descoberto",
+      "name": "Aniversário de Descoberto",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

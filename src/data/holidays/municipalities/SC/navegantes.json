@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4211306,
+  "name": "Navegantes",
+  "slug": "navegantes",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-navegantes",
+      "name": "Aniversário de Navegantes",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-navegantes-0604",
+      "name": "Feriado Municipal de Navegantes",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-navegantes-0826",
+      "name": "Feriado Municipal de Navegantes",
+      "date": "08-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

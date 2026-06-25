@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2806206,
+  "name": "Salgado",
+  "slug": "salgado",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-salgado",
+      "name": "Aniversário de Salgado",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-salgado-0629",
+      "name": "Feriado Municipal de Salgado",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

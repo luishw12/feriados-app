@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3302502,
+  "name": "Magé",
+  "slug": "mage",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-mage",
+      "name": "Aniversário de Magé",
+      "date": "06-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mage-0915",
+      "name": "Feriado Municipal de Magé",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mage-1028",
+      "name": "Feriado Municipal de Magé",
+      "date": "10-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

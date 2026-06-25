@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3300159,
+  "name": "Aperibé",
+  "slug": "aperibe",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-aperibe",
+      "name": "Aniversário de Aperibé",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

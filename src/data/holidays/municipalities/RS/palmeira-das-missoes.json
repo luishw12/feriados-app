@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4313706,
+  "name": "Palmeira das Missões",
+  "slug": "palmeira-das-missoes",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-palmeira-das-missoes",
+      "name": "Aniversário de Palmeira das Missões",
+      "date": "05-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-palmeira-das-missoes-0613",
+      "name": "Feriado Municipal de Palmeira das Missões",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

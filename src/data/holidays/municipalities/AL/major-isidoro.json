@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2704401,
+  "name": "Major Isidoro",
+  "slug": "major-isidoro",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-major-isidoro",
+      "name": "Aniversário de Major Isidoro",
+      "date": "06-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-major-isidoro-0613",
+      "name": "Feriado Municipal de Major Isidoro",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

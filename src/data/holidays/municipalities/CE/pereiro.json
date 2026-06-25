@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2310803,
+  "name": "Pereiro",
+  "slug": "pereiro",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-pereiro",
+      "name": "Aniversário de Pereiro",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pereiro-0927",
+      "name": "Feriado Municipal de Pereiro",
+      "date": "09-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

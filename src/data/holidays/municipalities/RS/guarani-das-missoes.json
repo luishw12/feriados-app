@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4309506,
+  "name": "Guarani das Missões",
+  "slug": "guarani-das-missoes",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-guarani-das-missoes",
+      "name": "Aniversário de Guarani das Missões",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

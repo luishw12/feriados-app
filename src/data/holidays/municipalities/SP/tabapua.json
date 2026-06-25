@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3552601,
+  "name": "Tabapuã",
+  "slug": "tabapua",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-tabapua",
+      "name": "Aniversário de Tabapuã",
+      "date": "11-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

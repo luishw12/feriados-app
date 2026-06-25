@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5203401,
+  "name": "Bom Jardim de Goiás",
+  "slug": "bom-jardim-de-goias",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-bom-jardim-de-goias",
+      "name": "Aniversário de Bom Jardim de Goiás",
+      "date": "06-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jardim-de-goias-0624",
+      "name": "Feriado Municipal de Bom Jardim de Goiás",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bom-jardim-de-goias-0818",
+      "name": "Feriado Municipal de Bom Jardim de Goiás",
+      "date": "08-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

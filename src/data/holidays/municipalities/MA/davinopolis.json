@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2103752,
+  "name": "Davinópolis",
+  "slug": "davinopolis",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-davinopolis",
+      "name": "Aniversário de Davinópolis",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-davinopolis-0725",
+      "name": "Feriado Municipal de Davinópolis",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-davinopolis-0923",
+      "name": "Feriado Municipal de Davinópolis",
+      "date": "09-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

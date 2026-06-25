@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4311007,
+  "name": "Jaguarão",
+  "slug": "jaguarao",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-jaguarao",
+      "name": "Aniversário de Jaguarão",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaguarao-1123",
+      "name": "Feriado Municipal de Jaguarão",
+      "date": "11-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

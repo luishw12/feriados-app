@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1716505,
+  "name": "Pedro Afonso",
+  "slug": "pedro-afonso",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-pedro-afonso",
+      "name": "Aniversário de Pedro Afonso",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pedro-afonso-0715",
+      "name": "Feriado Municipal de Pedro Afonso",
+      "date": "07-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

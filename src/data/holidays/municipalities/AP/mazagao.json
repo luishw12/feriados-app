@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1600402,
+  "name": "Mazagão",
+  "slug": "mazagao",
+  "uf": "AP",
+  "holidays": [
+    {
+      "id": "aniversario-mazagao",
+      "name": "Aniversário de Mazagão",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mazagao-0815",
+      "name": "Feriado Municipal de Mazagão",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

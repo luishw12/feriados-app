@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4315305,
+  "name": "Quaraí",
+  "slug": "quarai",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-quarai",
+      "name": "Aniversário de Quaraí",
+      "date": "04-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-quarai-0624",
+      "name": "Feriado Municipal de Quaraí",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

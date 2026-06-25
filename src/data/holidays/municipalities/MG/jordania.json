@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3136504,
+  "name": "Jordânia",
+  "slug": "jordania",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-jordania",
+      "name": "Aniversário de Jordânia",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

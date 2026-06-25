@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3130002,
+  "name": "Ibituruna",
+  "slug": "ibituruna",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-ibituruna",
+      "name": "Aniversário de Ibituruna",
+      "date": "01-28",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

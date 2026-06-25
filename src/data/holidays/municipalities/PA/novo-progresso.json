@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1505031,
+  "name": "Novo Progresso",
+  "slug": "novo-progresso",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-novo-progresso",
+      "name": "Aniversário de Novo Progresso",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

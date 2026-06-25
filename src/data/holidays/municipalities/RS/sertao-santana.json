@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4320552,
+  "name": "Sertão Santana",
+  "slug": "sertao-santana",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-sertao-santana",
+      "name": "Aniversário de Sertão Santana",
+      "date": "03-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sertao-santana-0725",
+      "name": "Feriado Municipal de Sertão Santana",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

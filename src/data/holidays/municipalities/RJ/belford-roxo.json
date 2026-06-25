@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3300456,
+  "name": "Belford Roxo",
+  "slug": "belford-roxo",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-belford-roxo",
+      "name": "Aniversário de Belford Roxo",
+      "date": "06-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-belford-roxo-1208",
+      "name": "Feriado Municipal de Belford Roxo",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3114303,
+  "name": "Carmo do Paranaíba",
+  "slug": "carmo-do-paranaiba",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carmo-do-paranaiba",
+      "name": "Aniversário de Carmo do Paranaíba",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carmo-do-paranaiba-0716",
+      "name": "Feriado Municipal de Carmo do Paranaíba",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

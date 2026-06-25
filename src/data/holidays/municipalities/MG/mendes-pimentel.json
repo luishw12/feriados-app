@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3141504,
+  "name": "Mendes Pimentel",
+  "slug": "mendes-pimentel",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-mendes-pimentel",
+      "name": "Aniversário de Mendes Pimentel",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mendes-pimentel-0823",
+      "name": "Feriado Municipal de Mendes Pimentel",
+      "date": "08-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

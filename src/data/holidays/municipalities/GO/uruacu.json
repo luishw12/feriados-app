@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5221601,
+  "name": "Uruaçu",
+  "slug": "uruacu",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-uruacu",
+      "name": "Aniversário de Uruaçu",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-uruacu-0726",
+      "name": "Feriado Municipal de Uruaçu",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

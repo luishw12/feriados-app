@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4120408,
+  "name": "Presidente Castelo Branco",
+  "slug": "presidente-castelo-branco",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-castelo-branco",
+      "name": "Aniversário de Presidente Castelo Branco",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-castelo-branco-1129",
+      "name": "Feriado Municipal de Presidente Castelo Branco",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

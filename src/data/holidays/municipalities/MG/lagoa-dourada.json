@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3137403,
+  "name": "Lagoa Dourada",
+  "slug": "lagoa-dourada",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-lagoa-dourada",
+      "name": "Aniversário de Lagoa Dourada",
+      "date": "06-06",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-dourada-0613",
+      "name": "Feriado Municipal de Lagoa Dourada",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-lagoa-dourada-1208",
+      "name": "Feriado Municipal de Lagoa Dourada",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3119500,
+  "name": "Coronel Murta",
+  "slug": "coronel-murta",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-coronel-murta",
+      "name": "Aniversário de Coronel Murta",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coronel-murta-1212",
+      "name": "Feriado Municipal de Coronel Murta",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2210409,
+  "name": "São Miguel do Tapuio",
+  "slug": "sao-miguel-do-tapuio",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-sao-miguel-do-tapuio",
+      "name": "Aniversário de São Miguel do Tapuio",
+      "date": "03-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-miguel-do-tapuio-0929",
+      "name": "Feriado Municipal de São Miguel do Tapuio",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

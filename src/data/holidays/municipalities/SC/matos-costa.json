@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4210704,
+  "name": "Matos Costa",
+  "slug": "matos-costa",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-matos-costa",
+      "name": "Aniversário de Matos Costa",
+      "date": "04-23",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matos-costa-0624",
+      "name": "Feriado Municipal de Matos Costa",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matos-costa-0906",
+      "name": "Feriado Municipal de Matos Costa",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-matos-costa-1101",
+      "name": "Feriado Municipal de Matos Costa",
+      "date": "11-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

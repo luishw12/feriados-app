@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3531704,
+  "name": "Monteiro Lobato",
+  "slug": "monteiro-lobato",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-monteiro-lobato",
+      "name": "Aniversário de Monteiro Lobato",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monteiro-lobato-0426",
+      "name": "Feriado Municipal de Monteiro Lobato",
+      "date": "04-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-monteiro-lobato-0908",
+      "name": "Feriado Municipal de Monteiro Lobato",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

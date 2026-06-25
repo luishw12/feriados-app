@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2925600,
+  "name": "Presidente Dutra",
+  "slug": "presidente-dutra",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-presidente-dutra",
+      "name": "Aniversário de Presidente Dutra",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-dutra-0908",
+      "name": "Feriado Municipal de Presidente Dutra",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-presidente-dutra-1208",
+      "name": "Feriado Municipal de Presidente Dutra",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3507704,
+  "name": "Braúna",
+  "slug": "brauna",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-brauna",
+      "name": "Aniversário de Braúna",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

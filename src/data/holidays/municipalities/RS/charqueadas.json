@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4305355,
+  "name": "Charqueadas",
+  "slug": "charqueadas",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-charqueadas",
+      "name": "Aniversário de Charqueadas",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-charqueadas-0328",
+      "name": "Feriado Municipal de Charqueadas",
+      "date": "03-28",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-charqueadas-1204",
+      "name": "Feriado Municipal de Charqueadas",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

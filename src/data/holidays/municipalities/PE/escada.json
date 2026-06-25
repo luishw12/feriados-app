@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2605202,
+  "name": "Escada",
+  "slug": "escada",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-escada",
+      "name": "Aniversário de Escada",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-escada-1208",
+      "name": "Feriado Municipal de Escada",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

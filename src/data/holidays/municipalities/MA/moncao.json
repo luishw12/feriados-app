@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2106904,
+  "name": "Monção",
+  "slug": "moncao",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-moncao",
+      "name": "Aniversário de Monção",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

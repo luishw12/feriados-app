@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4102802,
+  "name": "Bela Vista do Paraíso",
+  "slug": "bela-vista-do-paraiso",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-bela-vista-do-paraiso",
+      "name": "Aniversário de Bela Vista do Paraíso",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

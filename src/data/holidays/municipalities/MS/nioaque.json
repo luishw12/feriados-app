@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 5005806,
+  "name": "Nioaque",
+  "slug": "nioaque",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-nioaque",
+      "name": "Aniversário de Nioaque",
+      "date": "04-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nioaque-0419",
+      "name": "Feriado Municipal de Nioaque",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nioaque-0522",
+      "name": "Feriado Municipal de Nioaque",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nioaque-0718",
+      "name": "Feriado Municipal de Nioaque",
+      "date": "07-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

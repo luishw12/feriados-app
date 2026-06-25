@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3204500,
+  "name": "Santa Leopoldina",
+  "slug": "santa-leopoldina",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-santa-leopoldina",
+      "name": "Aniversário de Santa Leopoldina",
+      "date": "04-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-leopoldina-1031",
+      "name": "Feriado Municipal de Santa Leopoldina",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

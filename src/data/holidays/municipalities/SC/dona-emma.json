@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4205100,
+  "name": "Dona Emma",
+  "slug": "dona-emma",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-dona-emma",
+      "name": "Aniversário de Dona Emma",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dona-emma-0604",
+      "name": "Feriado Municipal de Dona Emma",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dona-emma-0725",
+      "name": "Feriado Municipal de Dona Emma",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

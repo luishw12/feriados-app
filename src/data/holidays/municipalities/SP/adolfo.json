@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3500204,
+  "name": "Adolfo",
+  "slug": "adolfo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-adolfo",
+      "name": "Aniversário de Adolfo",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-adolfo-1130",
+      "name": "Feriado Municipal de Adolfo",
+      "date": "11-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

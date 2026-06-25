@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3512506,
+  "name": "Coroados",
+  "slug": "coroados",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-coroados",
+      "name": "Aniversário de Coroados",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-coroados-0613",
+      "name": "Feriado Municipal de Coroados",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

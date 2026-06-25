@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5101407,
+  "name": "Aripuanã",
+  "slug": "aripuana",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-aripuana",
+      "name": "Aniversário de Aripuanã",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aripuana-1031",
+      "name": "Feriado Municipal de Aripuanã",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

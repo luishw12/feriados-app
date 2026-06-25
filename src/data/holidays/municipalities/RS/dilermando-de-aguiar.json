@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4306379,
+  "name": "Dilermando de Aguiar",
+  "slug": "dilermando-de-aguiar",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-dilermando-de-aguiar",
+      "name": "Aniversário de Dilermando de Aguiar",
+      "date": "05-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dilermando-de-aguiar-1022",
+      "name": "Feriado Municipal de Dilermando de Aguiar",
+      "date": "10-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

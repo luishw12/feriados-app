@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3138500,
+  "name": "Liberdade",
+  "slug": "liberdade",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-liberdade",
+      "name": "Aniversário de Liberdade",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-liberdade-1217",
+      "name": "Feriado Municipal de Liberdade",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4116802,
+  "name": "Nova Cantu",
+  "slug": "nova-cantu",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-nova-cantu",
+      "name": "Aniversário de Nova Cantu",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-cantu-0624",
+      "name": "Feriado Municipal de Nova Cantu",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-cantu-1129",
+      "name": "Feriado Municipal de Nova Cantu",
+      "date": "11-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

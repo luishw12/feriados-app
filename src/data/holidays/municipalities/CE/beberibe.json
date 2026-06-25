@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2302206,
+  "name": "Beberibe",
+  "slug": "beberibe",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-beberibe",
+      "name": "Aniversário de Beberibe",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-beberibe-0705",
+      "name": "Feriado Municipal de Beberibe",
+      "date": "07-05",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-beberibe-0716",
+      "name": "Feriado Municipal de Beberibe",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3506805,
+  "name": "Bocaina",
+  "slug": "bocaina",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-bocaina",
+      "name": "Aniversário de Bocaina",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-bocaina-1208",
+      "name": "Feriado Municipal de Bocaina",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

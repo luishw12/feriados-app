@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4311775,
+  "name": "Maquiné",
+  "slug": "maquine",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-maquine",
+      "name": "Aniversário de Maquiné",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-maquine-1110",
+      "name": "Feriado Municipal de Maquiné",
+      "date": "11-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

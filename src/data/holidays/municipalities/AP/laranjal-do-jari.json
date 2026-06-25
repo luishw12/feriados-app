@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1600279,
+  "name": "Laranjal do Jari",
+  "slug": "laranjal-do-jari",
+  "uf": "AP",
+  "holidays": [
+    {
+      "id": "aniversario-laranjal-do-jari",
+      "name": "Aniversário de Laranjal do Jari",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

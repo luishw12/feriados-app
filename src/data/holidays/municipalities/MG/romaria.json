@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3156403,
+  "name": "Romaria",
+  "slug": "romaria",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-romaria",
+      "name": "Aniversário de Romaria",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-romaria-0815",
+      "name": "Feriado Municipal de Romaria",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

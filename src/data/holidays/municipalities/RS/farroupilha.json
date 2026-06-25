@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4307906,
+  "name": "Farroupilha",
+  "slug": "farroupilha",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-farroupilha",
+      "name": "Aniversário de Farroupilha",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

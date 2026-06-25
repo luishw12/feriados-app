@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4126108,
+  "name": "São Tomé",
+  "slug": "sao-tome",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-tome",
+      "name": "Aniversário de São Tomé",
+      "date": "07-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sao-tome-0725",
+      "name": "Feriado Municipal de São Tomé",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

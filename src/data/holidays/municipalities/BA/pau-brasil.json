@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2923902,
+  "name": "Pau Brasil",
+  "slug": "pau-brasil",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-pau-brasil",
+      "name": "Aniversário de Pau Brasil",
+      "date": "04-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-pau-brasil-1213",
+      "name": "Feriado Municipal de Pau Brasil",
+      "date": "12-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

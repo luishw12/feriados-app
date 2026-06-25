@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4118857,
+  "name": "Perobal",
+  "slug": "perobal",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-perobal",
+      "name": "Aniversário de Perobal",
+      "date": "04-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-perobal-0629",
+      "name": "Feriado Municipal de Perobal",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

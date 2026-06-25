@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4212205,
+  "name": "Papanduva",
+  "slug": "papanduva",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-papanduva",
+      "name": "Aniversário de Papanduva",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-papanduva-0411",
+      "name": "Feriado Municipal de Papanduva",
+      "date": "04-11",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-papanduva-0613",
+      "name": "Feriado Municipal de Papanduva",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

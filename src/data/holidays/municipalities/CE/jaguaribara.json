@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2306801,
+  "name": "Jaguaribara",
+  "slug": "jaguaribara",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-jaguaribara",
+      "name": "Aniversário de Jaguaribara",
+      "date": "01-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaguaribara-0830",
+      "name": "Feriado Municipal de Jaguaribara",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jaguaribara-0925",
+      "name": "Feriado Municipal de Jaguaribara",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

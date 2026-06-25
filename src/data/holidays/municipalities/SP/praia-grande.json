@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 3541000,
+  "name": "Praia Grande",
+  "slug": "praia-grande",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-praia-grande",
+      "name": "Aniversário de Praia Grande",
+      "date": "01-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-praia-grande-0403",
+      "name": "Feriado Municipal de Praia Grande",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-praia-grande-0604",
+      "name": "Feriado Municipal de Praia Grande",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-praia-grande-0629",
+      "name": "Feriado Municipal de Praia Grande",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

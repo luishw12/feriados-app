@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2801504,
+  "name": "Carmópolis",
+  "slug": "carmopolis",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-carmopolis",
+      "name": "Aniversário de Carmópolis",
+      "date": "07-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

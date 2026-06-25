@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4315909,
+  "name": "Rodeio Bonito",
+  "slug": "rodeio-bonito",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-rodeio-bonito",
+      "name": "Aniversário de Rodeio Bonito",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-rodeio-bonito-0415",
+      "name": "Feriado Municipal de Rodeio Bonito",
+      "date": "04-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

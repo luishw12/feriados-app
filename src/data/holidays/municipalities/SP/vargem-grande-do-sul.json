@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3556404,
+  "name": "Vargem Grande do Sul",
+  "slug": "vargem-grande-do-sul",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-vargem-grande-do-sul",
+      "name": "Aniversário de Vargem Grande do Sul",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vargem-grande-do-sul-0926",
+      "name": "Feriado Municipal de Vargem Grande do Sul",
+      "date": "09-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

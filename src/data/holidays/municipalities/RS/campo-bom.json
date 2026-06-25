@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4303905,
+  "name": "Campo Bom",
+  "slug": "campo-bom",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-campo-bom",
+      "name": "Aniversário de Campo Bom",
+      "date": "01-31",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-bom-0403",
+      "name": "Feriado Municipal de Campo Bom",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-campo-bom-0604",
+      "name": "Feriado Municipal de Campo Bom",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

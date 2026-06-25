@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4206405,
+  "name": "Guaraciaba",
+  "slug": "guaraciaba",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-guaraciaba",
+      "name": "Aniversário de Guaraciaba",
+      "date": "05-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-guaraciaba-0725",
+      "name": "Feriado Municipal de Guaraciaba",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

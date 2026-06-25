@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2912103,
+  "name": "Ibicaraí",
+  "slug": "ibicarai",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ibicarai",
+      "name": "Aniversário de Ibicaraí",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

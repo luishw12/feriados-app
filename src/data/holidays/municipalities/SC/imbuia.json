@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4207403,
+  "name": "Imbuia",
+  "slug": "imbuia",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-imbuia",
+      "name": "Aniversário de Imbuia",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-imbuia-0910",
+      "name": "Feriado Municipal de Imbuia",
+      "date": "09-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-imbuia-1031",
+      "name": "Feriado Municipal de Imbuia",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

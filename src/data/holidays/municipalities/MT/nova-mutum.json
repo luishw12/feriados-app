@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5106224,
+  "name": "Nova Mutum",
+  "slug": "nova-mutum",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-nova-mutum",
+      "name": "Aniversário de Nova Mutum",
+      "date": "07-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

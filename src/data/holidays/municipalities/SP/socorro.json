@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3552106,
+  "name": "Socorro",
+  "slug": "socorro",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-socorro",
+      "name": "Aniversário de Socorro",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 5205497,
+  "name": "Cidade Ocidental",
+  "slug": "cidade-ocidental",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-cidade-ocidental",
+      "name": "Aniversário de Cidade Ocidental",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cidade-ocidental-1031",
+      "name": "Feriado Municipal de Cidade Ocidental",
+      "date": "10-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cidade-ocidental-1209",
+      "name": "Feriado Municipal de Cidade Ocidental",
+      "date": "12-09",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

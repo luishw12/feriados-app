@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 1720655,
+  "name": "Silvanópolis",
+  "slug": "silvanopolis",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-silvanopolis",
+      "name": "Aniversário de Silvanópolis",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-silvanopolis-0610",
+      "name": "Feriado Municipal de Silvanópolis",
+      "date": "06-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

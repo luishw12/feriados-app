@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4320909,
+  "name": "Tapejara",
+  "slug": "tapejara",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-tapejara",
+      "name": "Aniversário de Tapejara",
+      "date": "08-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-tapejara-1231",
+      "name": "Feriado Municipal de Tapejara",
+      "date": "12-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

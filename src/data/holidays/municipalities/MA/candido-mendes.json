@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2102606,
+  "name": "Cândido Mendes",
+  "slug": "candido-mendes",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-candido-mendes",
+      "name": "Aniversário de Cândido Mendes",
+      "date": "05-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-candido-mendes-0629",
+      "name": "Feriado Municipal de Cândido Mendes",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

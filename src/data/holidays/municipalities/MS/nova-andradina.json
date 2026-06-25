@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5006200,
+  "name": "Nova Andradina",
+  "slug": "nova-andradina",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-nova-andradina",
+      "name": "Aniversário de Nova Andradina",
+      "date": "04-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-andradina-0531",
+      "name": "Feriado Municipal de Nova Andradina",
+      "date": "05-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

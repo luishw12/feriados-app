@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3537800,
+  "name": "Piedade",
+  "slug": "piedade",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-piedade",
+      "name": "Aniversário de Piedade",
+      "date": "05-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-piedade-0815",
+      "name": "Feriado Municipal de Piedade",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

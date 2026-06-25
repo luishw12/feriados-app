@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3511003,
+  "name": "Castilho",
+  "slug": "castilho",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-castilho",
+      "name": "Aniversário de Castilho",
+      "date": "03-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-castilho-0810",
+      "name": "Feriado Municipal de Castilho",
+      "date": "08-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

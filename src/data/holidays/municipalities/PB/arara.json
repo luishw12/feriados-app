@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2500908,
+  "name": "Arara",
+  "slug": "arara",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-arara",
+      "name": "Aniversário de Arara",
+      "date": "02-19",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arara-0624",
+      "name": "Feriado Municipal de Arara",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arara-0908",
+      "name": "Feriado Municipal de Arara",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arara-1219",
+      "name": "Feriado Municipal de Arara",
+      "date": "12-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

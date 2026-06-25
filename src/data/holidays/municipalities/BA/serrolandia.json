@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2930600,
+  "name": "Serrolândia",
+  "slug": "serrolandia",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-serrolandia",
+      "name": "Aniversário de Serrolândia",
+      "date": "07-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serrolandia-0723",
+      "name": "Feriado Municipal de Serrolândia",
+      "date": "07-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-serrolandia-0816",
+      "name": "Feriado Municipal de Serrolândia",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

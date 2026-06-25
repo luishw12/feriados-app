@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2912301,
+  "name": "Ibicuí",
+  "slug": "ibicui",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-ibicui",
+      "name": "Aniversário de Ibicuí",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

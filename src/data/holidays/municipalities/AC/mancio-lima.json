@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1200336,
+  "name": "Mâncio Lima",
+  "slug": "mancio-lima",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-mancio-lima",
+      "name": "Aniversário de Mâncio Lima",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mancio-lima-0123",
+      "name": "Feriado Municipal de Mâncio Lima",
+      "date": "01-23",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mancio-lima-0530",
+      "name": "Feriado Municipal de Mâncio Lima",
+      "date": "05-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mancio-lima-0906",
+      "name": "Feriado Municipal de Mâncio Lima",
+      "date": "09-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

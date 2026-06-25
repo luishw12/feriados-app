@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4122800,
+  "name": "Salgado Filho",
+  "slug": "salgado-filho",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-salgado-filho",
+      "name": "Aniversário de Salgado Filho",
+      "date": "12-14",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

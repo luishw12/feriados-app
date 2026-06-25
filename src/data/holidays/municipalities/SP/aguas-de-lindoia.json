@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3500501,
+  "name": "Águas de Lindóia",
+  "slug": "aguas-de-lindoia",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-aguas-de-lindoia",
+      "name": "Aniversário de Águas de Lindóia",
+      "date": "07-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aguas-de-lindoia-1116",
+      "name": "Feriado Municipal de Águas de Lindóia",
+      "date": "11-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

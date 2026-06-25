@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5106778,
+  "name": "Porto Alegre do Norte",
+  "slug": "porto-alegre-do-norte",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-porto-alegre-do-norte",
+      "name": "Aniversário de Porto Alegre do Norte",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-alegre-do-norte-0924",
+      "name": "Feriado Municipal de Porto Alegre do Norte",
+      "date": "09-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

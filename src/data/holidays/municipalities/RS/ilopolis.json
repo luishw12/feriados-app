@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4310306,
+  "name": "Ilópolis",
+  "slug": "ilopolis",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-ilopolis",
+      "name": "Aniversário de Ilópolis",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

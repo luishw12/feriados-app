@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3138005,
+  "name": "Laranjal",
+  "slug": "laranjal",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-laranjal",
+      "name": "Aniversário de Laranjal",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-laranjal-1208",
+      "name": "Feriado Municipal de Laranjal",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-laranjal-1217",
+      "name": "Feriado Municipal de Laranjal",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

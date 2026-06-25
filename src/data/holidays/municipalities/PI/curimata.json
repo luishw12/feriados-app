@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2203206,
+  "name": "Curimatá",
+  "slug": "curimata",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-curimata",
+      "name": "Aniversário de Curimatá",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

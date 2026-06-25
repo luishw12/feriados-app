@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1502707,
+  "name": "Conceição do Araguaia",
+  "slug": "conceicao-do-araguaia",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-conceicao-do-araguaia",
+      "name": "Aniversário de Conceição do Araguaia",
+      "date": "05-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

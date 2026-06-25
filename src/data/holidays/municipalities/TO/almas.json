@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 1700400,
+  "name": "Almas",
+  "slug": "almas",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-almas",
+      "name": "Aniversário de Almas",
+      "date": "05-17",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-almas-0518",
+      "name": "Feriado Municipal de Almas",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-almas-1114",
+      "name": "Feriado Municipal de Almas",
+      "date": "11-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-almas-1210",
+      "name": "Feriado Municipal de Almas",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

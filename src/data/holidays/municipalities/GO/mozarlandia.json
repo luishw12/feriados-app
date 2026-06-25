@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5214002,
+  "name": "Mozarlândia",
+  "slug": "mozarlandia",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-mozarlandia",
+      "name": "Aniversário de Mozarlândia",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

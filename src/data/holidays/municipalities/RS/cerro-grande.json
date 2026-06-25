@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4305157,
+  "name": "Cerro Grande",
+  "slug": "cerro-grande",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-cerro-grande",
+      "name": "Aniversário de Cerro Grande",
+      "date": "03-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

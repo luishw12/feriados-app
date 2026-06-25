@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4301958,
+  "name": "Barra Funda",
+  "slug": "barra-funda",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-barra-funda",
+      "name": "Aniversário de Barra Funda",
+      "date": "03-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1100130,
+  "name": "Machadinho D'Oeste",
+  "slug": "machadinho-d-oeste",
+  "uf": "RO",
+  "holidays": [
+    {
+      "id": "aniversario-machadinho-d-oeste",
+      "name": "Aniversário de Machadinho D'Oeste",
+      "date": "05-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

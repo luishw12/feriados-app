@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3203908,
+  "name": "Nova Venécia",
+  "slug": "nova-venecia",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-nova-venecia",
+      "name": "Aniversário de Nova Venécia",
+      "date": "01-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-nova-venecia-0425",
+      "name": "Feriado Municipal de Nova Venécia",
+      "date": "04-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

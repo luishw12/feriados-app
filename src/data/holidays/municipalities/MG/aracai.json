@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3103207,
+  "name": "Araçaí",
+  "slug": "aracai",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-aracai",
+      "name": "Aniversário de Araçaí",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracai-0301",
+      "name": "Feriado Municipal de Araçaí",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-aracai-1208",
+      "name": "Feriado Municipal de Araçaí",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

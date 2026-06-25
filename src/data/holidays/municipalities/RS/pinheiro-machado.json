@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4314506,
+  "name": "Pinheiro Machado",
+  "slug": "pinheiro-machado",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-pinheiro-machado",
+      "name": "Aniversário de Pinheiro Machado",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

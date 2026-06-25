@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 3525102,
+  "name": "Jardinópolis",
+  "slug": "jardinopolis",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-jardinopolis",
+      "name": "Aniversário de Jardinópolis",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jardinopolis-0727",
+      "name": "Feriado Municipal de Jardinópolis",
+      "date": "07-27",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-jardinopolis-0806",
+      "name": "Feriado Municipal de Jardinópolis",
+      "date": "08-06",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

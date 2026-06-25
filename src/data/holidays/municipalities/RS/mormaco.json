@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4312427,
+  "name": "Mormaço",
+  "slug": "mormaco",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-mormaco",
+      "name": "Aniversário de Mormaço",
+      "date": "02-02",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mormaco-0320",
+      "name": "Feriado Municipal de Mormaço",
+      "date": "03-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-mormaco-0725",
+      "name": "Feriado Municipal de Mormaço",
+      "date": "07-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

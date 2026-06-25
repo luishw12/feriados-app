@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 5103700,
+  "name": "Feliz Natal",
+  "slug": "feliz-natal",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-feliz-natal",
+      "name": "Aniversário de Feliz Natal",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

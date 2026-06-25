@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4321436,
+  "name": "Terra de Areia",
+  "slug": "terra-de-areia",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-terra-de-areia",
+      "name": "Aniversário de Terra de Areia",
+      "date": "04-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-terra-de-areia-0629",
+      "name": "Feriado Municipal de Terra de Areia",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

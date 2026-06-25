@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4301107,
+  "name": "Arroio dos Ratos",
+  "slug": "arroio-dos-ratos",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-arroio-dos-ratos",
+      "name": "Aniversário de Arroio dos Ratos",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-arroio-dos-ratos-1204",
+      "name": "Feriado Municipal de Arroio dos Ratos",
+      "date": "12-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

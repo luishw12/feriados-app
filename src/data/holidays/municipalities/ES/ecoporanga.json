@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3202108,
+  "name": "Ecoporanga",
+  "slug": "ecoporanga",
+  "uf": "ES",
+  "holidays": [
+    {
+      "id": "aniversario-ecoporanga",
+      "name": "Aniversário de Ecoporanga",
+      "date": "04-09",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4124707,
+  "name": "São Jerônimo da Serra",
+  "slug": "sao-jeronimo-da-serra",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sao-jeronimo-da-serra",
+      "name": "Aniversário de São Jerônimo da Serra",
+      "date": "09-30",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

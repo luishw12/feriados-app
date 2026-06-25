@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 4201703,
+  "name": "Ascurra",
+  "slug": "ascurra",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-ascurra",
+      "name": "Aniversário de Ascurra",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ascurra-0407",
+      "name": "Feriado Municipal de Ascurra",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-ascurra-0604",
+      "name": "Feriado Municipal de Ascurra",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

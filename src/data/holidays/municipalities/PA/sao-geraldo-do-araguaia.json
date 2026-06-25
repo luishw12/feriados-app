@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 1507458,
+  "name": "São Geraldo do Araguaia",
+  "slug": "sao-geraldo-do-araguaia",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-geraldo-do-araguaia",
+      "name": "Aniversário de São Geraldo do Araguaia",
+      "date": "05-10",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

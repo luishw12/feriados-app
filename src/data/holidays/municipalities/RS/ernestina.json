@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4307054,
+  "name": "Ernestina",
+  "slug": "ernestina",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-ernestina",
+      "name": "Aniversário de Ernestina",
+      "date": "04-11",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

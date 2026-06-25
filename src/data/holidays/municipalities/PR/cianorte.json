@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 4105508,
+  "name": "Cianorte",
+  "slug": "cianorte",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-cianorte",
+      "name": "Aniversário de Cianorte",
+      "date": "05-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-cianorte-0726",
+      "name": "Feriado Municipal de Cianorte",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

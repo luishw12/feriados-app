@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3105400,
+  "name": "Barão de Cocais",
+  "slug": "barao-de-cocais",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-barao-de-cocais",
+      "name": "Aniversário de Barão de Cocais",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-barao-de-cocais-1208",
+      "name": "Feriado Municipal de Barão de Cocais",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

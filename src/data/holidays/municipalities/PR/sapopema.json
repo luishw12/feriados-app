@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 4126207,
+  "name": "Sapopema",
+  "slug": "sapopema",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-sapopema",
+      "name": "Aniversário de Sapopema",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sapopema-0726",
+      "name": "Feriado Municipal de Sapopema",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sapopema-0816",
+      "name": "Feriado Municipal de Sapopema",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sapopema-0922",
+      "name": "Feriado Municipal de Sapopema",
+      "date": "09-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

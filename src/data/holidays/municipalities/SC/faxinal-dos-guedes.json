@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4205308,
+  "name": "Faxinal dos Guedes",
+  "slug": "faxinal-dos-guedes",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-faxinal-dos-guedes",
+      "name": "Aniversário de Faxinal dos Guedes",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

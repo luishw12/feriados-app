@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2910107,
+  "name": "Dom Basílio",
+  "slug": "dom-basilio",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-dom-basilio",
+      "name": "Aniversário de Dom Basílio",
+      "date": "04-07",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-dom-basilio-0624",
+      "name": "Feriado Municipal de Dom Basílio",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

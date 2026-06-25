@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 2112704,
+  "name": "Vargem Grande",
+  "slug": "vargem-grande",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-vargem-grande",
+      "name": "Aniversário de Vargem Grande",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vargem-grande-0329",
+      "name": "Feriado Municipal de Vargem Grande",
+      "date": "03-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vargem-grande-0629",
+      "name": "Feriado Municipal de Vargem Grande",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vargem-grande-0822",
+      "name": "Feriado Municipal de Vargem Grande",
+      "date": "08-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-vargem-grande-0831",
+      "name": "Feriado Municipal de Vargem Grande",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2901007,
+  "name": "Amargosa",
+  "slug": "amargosa",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-amargosa",
+      "name": "Aniversário de Amargosa",
+      "date": "04-26",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amargosa-0619",
+      "name": "Feriado Municipal de Amargosa",
+      "date": "06-19",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-amargosa-0624",
+      "name": "Feriado Municipal de Amargosa",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

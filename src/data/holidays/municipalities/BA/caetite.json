@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2905206,
+  "name": "Caetité",
+  "slug": "caetite",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-caetite",
+      "name": "Aniversário de Caetité",
+      "date": "04-05",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caetite-0712",
+      "name": "Feriado Municipal de Caetité",
+      "date": "07-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caetite-0726",
+      "name": "Feriado Municipal de Caetité",
+      "date": "07-26",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-caetite-0917",
+      "name": "Feriado Municipal de Caetité",
+      "date": "09-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

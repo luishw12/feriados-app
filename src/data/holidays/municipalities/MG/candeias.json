@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3112000,
+  "name": "Candeias",
+  "slug": "candeias",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-candeias",
+      "name": "Aniversário de Candeias",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-candeias-1217",
+      "name": "Feriado Municipal de Candeias",
+      "date": "12-17",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

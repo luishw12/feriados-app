@@ -7,9 +7,53 @@
     {
       "id": "aniversario-porto-velho",
       "name": "Aniversário de Porto Velho",
+      "date": "01-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-velho-0403",
+      "name": "Feriado Municipal de Porto Velho",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-velho-0524",
+      "name": "Feriado Municipal de Porto Velho",
+      "date": "05-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-velho-0604",
+      "name": "Feriado Municipal de Porto Velho",
+      "date": "06-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-velho-1002",
+      "name": "Feriado Municipal de Porto Velho",
       "date": "10-02",
       "type": "municipal",
-      "description": "Fundação do município.",
+      "description": "Feriado municipal local.",
       "categories": [
         "historico",
         "civico"

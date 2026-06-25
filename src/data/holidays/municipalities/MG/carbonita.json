@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3113503,
+  "name": "Carbonita",
+  "slug": "carbonita",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-carbonita",
+      "name": "Aniversário de Carbonita",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-carbonita-0815",
+      "name": "Feriado Municipal de Carbonita",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

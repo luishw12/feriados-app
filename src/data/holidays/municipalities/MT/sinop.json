@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5107909,
+  "name": "Sinop",
+  "slug": "sinop",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-sinop",
+      "name": "Aniversário de Sinop",
+      "date": "06-13",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-sinop-0914",
+      "name": "Feriado Municipal de Sinop",
+      "date": "09-14",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

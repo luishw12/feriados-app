@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4300406,
+  "name": "Alegrete",
+  "slug": "alegrete",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-alegrete",
+      "name": "Aniversário de Alegrete",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

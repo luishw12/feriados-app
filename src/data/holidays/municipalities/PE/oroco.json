@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2609808,
+  "name": "Orocó",
+  "slug": "oroco",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-oroco",
+      "name": "Aniversário de Orocó",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-oroco-1220",
+      "name": "Feriado Municipal de Orocó",
+      "date": "12-20",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 2927903,
+  "name": "Santa Inês",
+  "slug": "santa-ines",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-santa-ines",
+      "name": "Aniversário de Santa Inês",
+      "date": "01-21",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-santa-ines-0624",
+      "name": "Feriado Municipal de Santa Inês",
+      "date": "06-24",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

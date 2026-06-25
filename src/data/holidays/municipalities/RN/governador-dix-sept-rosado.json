@@ -1,0 +1,41 @@
+{
+  "ibgeCode": 2404309,
+  "name": "Governador Dix-Sept Rosado",
+  "slug": "governador-dix-sept-rosado",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-governador-dix-sept-rosado",
+      "name": "Aniversário de Governador Dix-Sept Rosado",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-governador-dix-sept-rosado-0404",
+      "name": "Feriado Municipal de Governador Dix-Sept Rosado",
+      "date": "04-04",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-governador-dix-sept-rosado-0712",
+      "name": "Feriado Municipal de Governador Dix-Sept Rosado",
+      "date": "07-12",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

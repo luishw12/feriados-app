@@ -4,7 +4,9 @@ import {
   getAllMunicipalityPaths,
   getAllNationalCalendarEvents,
   getAllStates,
-  getAllHolidaysForContext,
+  getHolidaysByCity,
+  getHolidaysByState,
+  getMunicipalityCoverageStats,
   resolveHolidayForYear,
 } from '@/lib/holidays';
 import { getAllSearchFaqItems } from '@/lib/search-intents';
@@ -20,17 +22,14 @@ function isoDate(date: Date): string {
   return date.toISOString().split('T')[0];
 }
 
-function mdLink(label: string, url: string): string {
-  return `[${label}](${url})`;
-}
-
 export function getHomeFaqItems(year: number, siteUrl: string): FaqItem[] {
   return getAllSearchFaqItems(year, siteUrl);
 }
 
 export function buildLlmsTxt(siteUrl: string, year: number): string {
   const states = getAllStates();
-  const definitions = getAllHolidayDefinitions();
+  const coverage = getMunicipalityCoverageStats();
+  const articleCount = getAllHolidayDefinitions().filter((d) => getArticleById(d.id)).length;
   const insights = buildNationalYearInsights(year);
   const { stats } = insights;
 
@@ -41,6 +40,13 @@ export function buildLlmsTxt(siteUrl: string, year: number): string {
     '> Idioma: pt-BR. Site 100% estático. Dados atualizados para o ano de build.',
     '',
     `Ano de referência: **${year}**`,
+    '',
+    '## Cobertura territorial',
+    '',
+    `- **${coverage.totalMunicipalities.toLocaleString('pt-BR')} municípios** catalogados (IBGE) em todas as 27 UFs`,
+    `- **${coverage.municipalitiesWithHolidays.toLocaleString('pt-BR')} municípios** com feriados municipais`,
+    `- **${articleCount} artigos** educativos em \`/feriado/{id}/\``,
+    `- Índice de cidades para busca: ${siteUrl}/data/municipalities-index.json`,
     '',
     '## Respostas rápidas (buscas frequentes)',
     '',
@@ -63,17 +69,18 @@ export function buildLlmsTxt(siteUrl: string, year: number): string {
     '## Como usar (assistentes de IA)',
     '',
     '- Para visão geral: leia este arquivo (`/llms.txt`).',
-    `- Para calendário completo em texto: leia \`/llms-full.txt\` (${definitions.length} feriados, ${states.length} estados, calendário ${year}).`,
+    `- Para feriados municipais em texto: leia \`/llms-full.txt\` (feriados estaduais + municipais de ${year}).`,
     '- Para um estado: `/sao-paulo/`, `/rio-grande-do-sul/`, etc.',
-    '- Para uma cidade: `/sao-paulo/sao-paulo/`, `/rio-grande-do-sul/porto-alegre/`, etc.',
+    '- Para uma cidade: `/{estado}/{cidade}/` — ex.: `/rio-grande-do-sul/porto-alegre/`, `/sao-paulo/campinas/`',
     '- Para artigo sobre um feriado: `/feriado/tiradentes/`, `/feriado/natal/`, etc.',
     '- Sitemap: `/sitemap-index.xml`',
+    '- Busca de localização na home: combobox por nome de cidade ou estado (ex.: "Lajeado", "RS")',
     '',
     '## Páginas principais',
     '',
     `- [Calendário interativo](${siteUrl}/): feriados nacionais + filtro por estado/cidade`,
     `- [Sobre o projeto](${siteUrl}/sobre/): informações e contribuição`,
-    `- [Índice completo para IA](${siteUrl}/llms-full.txt): todas as datas de ${year} em Markdown`,
+    `- [Índice completo para IA](${siteUrl}/llms-full.txt): feriados estaduais e municipais de ${year}`,
     '',
     '## Feriados nacionais',
     '',
@@ -81,29 +88,56 @@ export function buildLlmsTxt(siteUrl: string, year: number): string {
 
   for (const holiday of getAllNationalCalendarEvents(year)) {
     const type = HOLIDAY_TYPE_LABELS[holiday.type];
+    const articleUrl = getArticleById(holiday.id) ? `${siteUrl}/feriado/${holiday.id}/` : null;
     lines.push(
-      `- [${holiday.name}](${siteUrl}/feriado/${holiday.id}/): ${isoDate(holiday.resolvedDate)} (${type})`,
+      articleUrl
+        ? `- [${holiday.name}](${articleUrl}): ${isoDate(holiday.resolvedDate)} (${type})`
+        : `- ${holiday.name}: ${isoDate(holiday.resolvedDate)} (${type})`,
     );
   }
 
   lines.push('', '## Estados (27 UFs)', '');
 
   for (const state of states) {
-    const count = getAllHolidaysForContext(year, state.uf).length;
+    const stateCoverage = coverage.byState.find((entry) => entry.uf === state.uf);
+    const stateHolidayCount = getHolidaysByState(state.uf, year).length;
+    const municipalityTotal = stateCoverage?.total ?? 0;
+    const municipalityWithHolidays = stateCoverage?.withHolidays ?? 0;
     lines.push(
-      `- [${state.name}](${siteUrl}/${state.slug}/): ${count} feriados em ${year} (capital: ${state.capital})`,
+      `- [${state.name}](${siteUrl}/${state.slug}/): ${stateHolidayCount} feriados estaduais · ${municipalityTotal} municípios (${municipalityWithHolidays} com feriado municipal) · capital: ${state.capital}`,
     );
   }
 
-  lines.push('', '## Cidades disponíveis', '');
+  lines.push(
+    '',
+    '## Municípios',
+    '',
+    `Todos os ${coverage.totalMunicipalities.toLocaleString('pt-BR')} municípios brasileiros têm página em \`/{estado}/{cidade}/\`.`,
+    'Exemplos:',
+    '',
+  );
 
-  for (const { state, municipality } of getAllMunicipalityPaths()) {
+  const examples = [
+    { state: 'rio-grande-do-sul', city: 'porto-alegre', label: 'Porto Alegre/RS' },
+    { state: 'sao-paulo', city: 'sao-paulo', label: 'São Paulo/SP' },
+    { state: 'rio-de-janeiro', city: 'rio-de-janeiro', label: 'Rio de Janeiro/RJ' },
+    { state: 'minas-gerais', city: 'belo-horizonte', label: 'Belo Horizonte/MG' },
+    { state: 'bahia', city: 'salvador', label: 'Salvador/BA' },
+  ];
+
+  for (const example of examples) {
     lines.push(
-      `- [${municipality.name}/${state.uf}](${siteUrl}/${state.slug}/${municipality.slug}/)`,
+      `- [${example.label}](${siteUrl}/${example.state}/${example.city}/)`,
     );
   }
 
-  lines.push('', '## Perguntas frequentes (buscas comuns)', '');
+  lines.push(
+    '',
+    `Lista completa por estado nas páginas \`/{estado}/\`. Índice JSON: ${siteUrl}/data/municipalities-index.json`,
+    '',
+    '## Perguntas frequentes (buscas comuns)',
+    '',
+  );
 
   for (const faq of getAllSearchFaqItems(year, siteUrl)) {
     lines.push(`### ${faq.question}`, '', faq.answer, '');
@@ -113,6 +147,7 @@ export function buildLlmsTxt(siteUrl: string, year: number): string {
 }
 
 export function buildLlmsFullTxt(siteUrl: string, year: number): string {
+  const coverage = getMunicipalityCoverageStats();
   const insights = buildNationalYearInsights(year);
   const { stats } = insights;
 
@@ -121,77 +156,66 @@ export function buildLlmsFullTxt(siteUrl: string, year: number): string {
     '',
     `Gerado em build. Site: ${siteUrl}`,
     '',
-    '## Estatísticas nacionais (respostas diretas)',
+    '## Estatísticas',
     '',
+    `- Municípios catalogados: ${coverage.totalMunicipalities.toLocaleString('pt-BR')}`,
+    `- Municípios com feriado municipal: ${coverage.municipalitiesWithHolidays.toLocaleString('pt-BR')}`,
     `- Feriados nacionais obrigatórios: ${stats.mandatoryTotal}`,
     `- Feriados em dias úteis (seg–sex): ${stats.mandatoryWeekdayCount}`,
-    `- Feriados no fim de semana: ${stats.mandatoryWeekendCount}`,
     `- Feriados facultativos federais: ${stats.optionalTotal}`,
-    `- Feriados com potencial de emenda: ${stats.bridgeCount}`,
-    `- Próximo feriado: ${insights.nextHoliday ? `${insights.nextHoliday.name} (${isoDate(insights.nextHoliday.resolvedDate)})` : 'N/A'}`,
+    `- Próximo feriado nacional: ${insights.nextHoliday ? `${insights.nextHoliday.name} (${isoDate(insights.nextHoliday.resolvedDate)})` : 'N/A'}`,
     '',
-    'Guias: ' + `${siteUrl}/guia/feriados-dias-uteis/ | ${siteUrl}/guia/feriados-nacionais/ | ${siteUrl}/guia/proximo-feriado/`,
+    'Nacionais e comemorativos: ver `/llms.txt`. Guias: ' +
+      `${siteUrl}/guia/feriados-dias-uteis/ | ${siteUrl}/guia/feriados-nacionais/`,
     '',
-    'Formato de cada linha: NOME | DATA-ISO | DATA-LONGA | TIPO | URL',
+    'Formato municipal: CIDADE/UF | DATA-ISO | NOME | URL-CIDADE',
     '',
     '---',
     '',
-    '## Feriados nacionais e comemorativos',
+    '## Feriados estaduais',
     '',
   ];
-
-  for (const holiday of getAllNationalCalendarEvents(year)) {
-    const type = HOLIDAY_TYPE_LABELS[holiday.type];
-    lines.push(
-      `${holiday.name} | ${isoDate(holiday.resolvedDate)} | ${formatHolidayDate(holiday.resolvedDate)} | ${type} | ${siteUrl}/feriado/${holiday.id}/`,
-    );
-  }
-
-  lines.push('', '## Calendários por estado', '');
 
   for (const state of getAllStates()) {
     lines.push(`### ${state.name} (${state.uf})`, `URL: ${siteUrl}/${state.slug}/`, '');
 
-    const holidays = getAllHolidaysForContext(year, state.uf);
+    const holidays = getHolidaysByState(state.uf, year);
     for (const holiday of holidays) {
       const type = HOLIDAY_TYPE_LABELS[holiday.type];
+      const articleUrl = getArticleById(holiday.id) ? ` | ${siteUrl}/feriado/${holiday.id}/` : '';
       lines.push(
-        `- ${holiday.name} | ${isoDate(holiday.resolvedDate)} | ${type} | ${siteUrl}/feriado/${holiday.id}/`,
+        `- ${holiday.name} | ${isoDate(holiday.resolvedDate)} | ${type}${articleUrl}`,
       );
     }
     lines.push('');
   }
 
-  lines.push('## Calendários por cidade', '');
+  lines.push('## Feriados municipais (por cidade)', '');
 
   for (const { state, municipality } of getAllMunicipalityPaths()) {
-    lines.push(
-      `### ${municipality.name} — ${state.name}/${state.uf}`,
-      `URL: ${siteUrl}/${state.slug}/${municipality.slug}/`,
-      '',
-    );
+    const municipalHolidays = getHolidaysByCity(state.uf, municipality.slug, year);
+    if (municipalHolidays.length === 0) continue;
 
-    const holidays = getAllHolidaysForContext(year, state.uf, municipality.slug);
-    for (const holiday of holidays) {
-      const type = HOLIDAY_TYPE_LABELS[holiday.type];
+    const cityUrl = `${siteUrl}/${state.slug}/${municipality.slug}/`;
+    for (const holiday of municipalHolidays) {
       lines.push(
-        `- ${holiday.name} | ${isoDate(holiday.resolvedDate)} | ${type} | ${siteUrl}/feriado/${holiday.id}/`,
+        `${municipality.name}/${state.uf} | ${isoDate(holiday.resolvedDate)} | ${holiday.name} | ${cityUrl}`,
       );
     }
-    lines.push('');
   }
 
-  lines.push('## Artigos de feriados (história e curiosidades)', '');
+  lines.push('', '## Artigos de feriados (história e curiosidades)', '');
 
   for (const definition of getAllHolidayDefinitions()) {
-    const resolved = resolveHolidayForYear(definition, year);
     const article = getArticleById(definition.id);
-    const lead = article?.lead ?? definition.description ?? '';
+    if (!article) continue;
+
+    const resolved = resolveHolidayForYear(definition, year);
     lines.push(
       `### ${definition.name}`,
       `- Data ${year}: ${isoDate(resolved.resolvedDate)} (${formatHolidayDate(resolved.resolvedDate)})`,
       `- URL: ${siteUrl}/feriado/${definition.id}/`,
-      `- Resumo: ${lead}`,
+      `- Resumo: ${article.lead}`,
       '',
     );
   }

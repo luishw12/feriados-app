@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 2306009,
+  "name": "Iracema",
+  "slug": "iracema",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-iracema",
+      "name": "Aniversário de Iracema",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

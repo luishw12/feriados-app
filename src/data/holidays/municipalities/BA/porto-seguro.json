@@ -1,0 +1,52 @@
+{
+  "ibgeCode": 2925303,
+  "name": "Porto Seguro",
+  "slug": "porto-seguro",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-porto-seguro",
+      "name": "Aniversário de Porto Seguro",
+      "date": "04-22",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-seguro-0630",
+      "name": "Feriado Municipal de Porto Seguro",
+      "date": "06-30",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-seguro-0815",
+      "name": "Feriado Municipal de Porto Seguro",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-porto-seguro-0908",
+      "name": "Feriado Municipal de Porto Seguro",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

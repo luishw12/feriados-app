@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3170909,
+  "name": "Varzelândia",
+  "slug": "varzelandia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-varzelandia",
+      "name": "Aniversário de Varzelândia",
+      "date": "03-03",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-varzelandia-0815",
+      "name": "Feriado Municipal de Varzelândia",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

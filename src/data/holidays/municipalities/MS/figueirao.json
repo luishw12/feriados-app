@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 5003900,
+  "name": "Figueirão",
+  "slug": "figueirao",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-figueirao",
+      "name": "Aniversário de Figueirão",
+      "date": "08-15",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-figueirao-0929",
+      "name": "Feriado Municipal de Figueirão",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

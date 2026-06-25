@@ -1,0 +1,63 @@
+{
+  "ibgeCode": 2307304,
+  "name": "Juazeiro do Norte",
+  "slug": "juazeiro-do-norte",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-juazeiro-do-norte",
+      "name": "Aniversário de Juazeiro do Norte",
+      "date": "03-24",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juazeiro-do-norte-0403",
+      "name": "Feriado Municipal de Juazeiro do Norte",
+      "date": "04-03",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juazeiro-do-norte-0622",
+      "name": "Feriado Municipal de Juazeiro do Norte",
+      "date": "06-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juazeiro-do-norte-0722",
+      "name": "Feriado Municipal de Juazeiro do Norte",
+      "date": "07-22",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-juazeiro-do-norte-0915",
+      "name": "Feriado Municipal de Juazeiro do Norte",
+      "date": "09-15",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

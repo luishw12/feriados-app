@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3507407,
+  "name": "Borborema",
+  "slug": "borborema",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-borborema",
+      "name": "Aniversário de Borborema",
+      "date": "01-20",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-borborema-0321",
+      "name": "Feriado Municipal de Borborema",
+      "date": "03-21",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

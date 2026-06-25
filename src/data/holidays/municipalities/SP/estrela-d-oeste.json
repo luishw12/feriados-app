@@ -1,0 +1,30 @@
+{
+  "ibgeCode": 3515202,
+  "name": "Estrela d'Oeste",
+  "slug": "estrela-d-oeste",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-estrela-d-oeste",
+      "name": "Aniversário de Estrela d'Oeste",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    },
+    {
+      "id": "feriado-municipal-estrela-d-oeste-0925",
+      "name": "Feriado Municipal de Estrela d'Oeste",
+      "date": "09-25",
+      "type": "municipal",
+      "description": "Feriado municipal local.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

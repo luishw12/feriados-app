@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3539400,
+  "name": "Piratininga",
+  "slug": "piratininga",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-piratininga",
+      "name": "Aniversário de Piratininga",
+      "date": "05-18",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

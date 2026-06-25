@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 4308607,
+  "name": "Garibaldi",
+  "slug": "garibaldi",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-garibaldi",
+      "name": "Aniversário de Garibaldi",
+      "date": "06-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}

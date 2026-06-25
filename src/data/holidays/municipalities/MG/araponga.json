@@ -1,0 +1,19 @@
+{
+  "ibgeCode": 3103702,
+  "name": "Araponga",
+  "slug": "araponga",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-araponga",
+      "name": "Aniversário de Araponga",
+      "date": "09-29",
+      "type": "municipal",
+      "description": "Feriado municipal — aniversário da cidade.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
+    }
+  ]
+}
