@@ -1,24 +1,27 @@
 ---
 import ThemeToggle from '@/components/interactive/ThemeToggle';
 import HolidaySearch from '@/components/interactive/HolidaySearch';
-
-interface Props {
-  showLocationSlot?: boolean;
-}
-
-const { showLocationSlot = false } = Astro.props;
+import HeaderLocation from '@/components/interactive/HeaderLocation';
+import { getAllStates } from '@/lib/holidays';
 
 const pathname = Astro.url.pathname;
 const isHome = pathname === '/' || pathname === '/index.html';
 const isAbout = pathname.startsWith('/sobre');
 const isGuia = pathname.startsWith('/guia');
+
+const states = getAllStates().map((s) => ({
+  uf: s.uf,
+  name: s.name,
+  slug: s.slug,
+  capital: s.capital,
+}));
 ---
 
 <header class="sticky top-0 z-40 border-b border-neutral-200/80 bg-white/90 px-4 py-3 backdrop-blur-md dark:border-neutral-800/80 dark:bg-neutral-950/90">
-  <div class="mx-auto flex max-w-5xl items-center justify-between gap-3">
+  <div class="mx-auto grid max-w-5xl grid-cols-[1fr_auto_1fr] items-center gap-3">
     <a
       href="/"
-      class="group flex min-w-0 items-center gap-2.5 rounded-lg outline-none ring-emerald-500 transition-colors duration-150 focus-visible:ring-2"
+      class="group flex min-w-0 items-center gap-2.5 justify-self-start rounded-lg outline-none ring-emerald-500 transition-colors duration-150 focus-visible:ring-2"
       aria-label="Feriados Brasil — início"
     >
       <span
@@ -45,7 +48,7 @@ const isGuia = pathname.startsWith('/guia');
       </span>
     </a>
 
-    <nav class="flex shrink-0 items-center gap-1.5 sm:gap-2" aria-label="Principal">
+    <nav class="flex shrink-0 items-center justify-self-center gap-1.5 sm:gap-2" aria-label="Principal">
       <a
         href="/"
         class:list={[
@@ -82,18 +85,18 @@ const isGuia = pathname.startsWith('/guia');
       >
         Sobre
       </a>
+    </nav>
+
+    <div class="flex shrink-0 items-center justify-self-end gap-1.5 sm:gap-2" aria-label="Ferramentas">
+      <div class="min-w-0">
+        <HeaderLocation client:load states={states} />
+      </div>
       <div class="border-l border-neutral-200 pl-1.5 dark:border-neutral-700 sm:pl-2">
         <HolidaySearch client:idle />
       </div>
-      {showLocationSlot && (
-        <div
-          id="header-location-slot"
-          class="min-w-0 border-l border-neutral-200 pl-1.5 dark:border-neutral-700 sm:pl-2"
-        />
-      )}
-      <div class:list={['border-l border-neutral-200 pl-1.5 dark:border-neutral-700 sm:pl-2', !showLocationSlot && 'ml-0.5 sm:ml-1']}>
+      <div class="border-l border-neutral-200 pl-1.5 dark:border-neutral-700 sm:pl-2">
         <ThemeToggle client:load />
       </div>
-    </nav>
+    </div>
   </div>
 </header>

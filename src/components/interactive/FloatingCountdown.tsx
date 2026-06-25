@@ -46,17 +46,14 @@ export default function FloatingCountdown({ holidays }: Props) {
   const [isMobile, setIsMobile] = useState(false);
 
   useLayoutEffect(() => {
-    const mobile = isMobileViewport();
-    setIsMobile(mobile);
-    setExpanded(!mobile);
+    // Inicia sempre fechado (apenas a "pílula"); o usuário expande quando quiser.
+    setIsMobile(isMobileViewport());
   }, []);
 
   useEffect(() => {
     const media = window.matchMedia('(max-width: 1023px)');
     function handleChange(event: MediaQueryListEvent) {
-      const mobile = event.matches;
-      setIsMobile(mobile);
-      if (!mobile) setExpanded(true);
+      setIsMobile(event.matches);
     }
     media.addEventListener('change', handleChange);
     return () => media.removeEventListener('change', handleChange);

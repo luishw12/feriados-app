@@ -1,9 +1,8 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from 'react';
-import { createPortal } from 'react-dom';
 import type { HolidayCategory, SerializedResolvedHoliday } from '@/data/schema';
 import { resolveHolidayDate } from '@/lib/dates';
 import type { Holiday } from '@/data/schema';
-import LocationPicker, { type LocationContext } from '@/components/interactive/LocationPicker';
+import type { LocationContext } from '@/components/interactive/LocationPicker';
 import FloatingCountdown from '@/components/interactive/FloatingCountdown';
 import HolidayCalendar from '@/components/interactive/HolidayCalendar';
 import CalendarSkeleton from '@/components/interactive/CalendarSkeleton';
@@ -17,7 +16,6 @@ import {
   findMunicipalityInIndex,
   loadMunicipalityIndex,
 } from '@/lib/municipality-index';
-import type { StateOption } from '@/lib/municipality-search';
 import {
   isLocationPromptDismissed,
   loadStoredLocationContext,
@@ -31,7 +29,6 @@ interface RawHoliday extends Holiday {
 
 interface Props {
   initialYear: number;
-  states: StateOption[];
   nationalHolidays: Holiday[];
   stateHolidaysByUf: Record<string, Holiday[]>;
   stateRegionalHolidays: Holiday[];
@@ -61,7 +58,6 @@ function getInitialCalendarReady(): boolean {
 
 export default function HomeInteractive({
   initialYear,
-  states,
   nationalHolidays,
   stateHolidaysByUf,
   stateRegionalHolidays,
@@ -70,7 +66,6 @@ export default function HomeInteractive({
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth());
   const [location, setLocation] = useState<LocationContext | null>(null);
   const [isCalendarReady, setIsCalendarReady] = useState(getInitialCalendarReady);
-  const [headerSlot, setHeaderSlot] = useState<HTMLElement | null>(null);
   const [selectedCategories, setSelectedCategories] = useState<Set<HolidayCategory>>(
     getInitialCategoryFilters,
   );
@@ -79,10 +74,6 @@ export default function HomeInteractive({
   const handleCategoriesChange = useCallback((next: Set<HolidayCategory>) => {
     setSelectedCategories(next);
     saveStoredCategoryFilters(next);
-  }, []);
-
-  useLayoutEffect(() => {
-    setHeaderSlot(document.getElementById('header-location-slot'));
   }, []);
 
   useLayoutEffect(() => {
@@ -129,10 +120,6 @@ export default function HomeInteractive({
     };
   }, [location?.citySlug, location?.uf]);
 
-  const handleLocationChange = useCallback((next: LocationContext | null) => {
-    setLocation(next);
-  }, []);
-
   const national = useMemo(
     () => resolveForYear(nationalHolidays, year),
     [nationalHolidays, year],
@@ -169,19 +156,8 @@ export default function HomeInteractive({
 
   const hasLocation = Boolean(location);
 
-  const locationPicker = (
-    <LocationPicker
-      states={states}
-      location={location}
-      onLocationChange={handleLocationChange}
-      variant="header"
-    />
-  );
-
   return (
     <div className="flex h-full min-h-0 flex-col">
-      {headerSlot && createPortal(locationPicker, headerSlot)}
-
       <div className="min-h-0 flex-1 pb-0">
         {!isCalendarReady ? (
           <CalendarSkeleton />

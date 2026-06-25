@@ -24,7 +24,6 @@ interface Props {
   publishedTime?: string;
   jsonLd?: Record<string, unknown>;
   fullHeight?: boolean;
-  showLocationSlot?: boolean;
   articleContribution?: import('@/lib/contributions').ArticleContributionContext;
 }
 
@@ -39,7 +38,6 @@ const {
   publishedTime,
   jsonLd,
   fullHeight = false,
-  showLocationSlot = false,
   articleContribution,
 } = Astro.props;
 
@@ -81,7 +79,7 @@ const siteUrl = getSiteUrl(Astro.site);
       fullHeight ? 'h-dvh overflow-hidden' : 'min-h-screen',
     ]}
   >
-    <Header showLocationSlot={showLocationSlot} />
+    <Header />
     <main class:list={['flex-1', fullHeight && 'min-h-0 overflow-hidden']}>
       <slot />
     </main>
