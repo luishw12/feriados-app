@@ -11,6 +11,12 @@ export interface ContributionOpenDetail {
   pageUrl?: string;
 }
 
+export interface ArticleContributionContext {
+  holidayId: string;
+  holidayName: string;
+  pageUrl: string;
+}
+
 export interface ContributionPayload {
   type: ContributionMode;
   holidayName?: string;

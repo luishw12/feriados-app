@@ -85,8 +85,12 @@ export function buildWebSiteSchema(siteUrl: string) {
   };
 }
 
-export function buildAboutPageSchema(siteUrl: string, authorName: string) {
-  return mergeSchemaGraph(
+export function buildAboutPageSchema(
+  siteUrl: string,
+  authorName: string,
+  faqItems?: FaqItem[],
+) {
+  const nodes: Record<string, unknown>[] = [
     {
       '@type': 'WebPage',
       name: 'Sobre — Feriados Brasil',
@@ -99,7 +103,11 @@ export function buildAboutPageSchema(siteUrl: string, authorName: string) {
       },
     },
     buildOrganizationSchema(siteUrl, authorName),
-  );
+  ];
+  if (faqItems && faqItems.length > 0) {
+    nodes.push(buildFaqSchema(faqItems));
+  }
+  return mergeSchemaGraph(...nodes);
 }
 
 export function buildFaqSchema(faqItems: FaqItem[]) {

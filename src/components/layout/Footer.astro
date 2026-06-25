@@ -1,41 +1,54 @@
 ---
+import type { ArticleContributionContext } from '@/lib/contributions';
+
+interface Props {
+  articleContribution?: ArticleContributionContext;
+}
+
 const authorName = import.meta.env.PUBLIC_AUTHOR_NAME ?? 'Luís Henrique Wendt';
 const linkedinUrl = import.meta.env.PUBLIC_LINKEDIN_URL ?? 'https://linkedin.com/in/luishw';
 const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12/feriados-app';
+
+const { articleContribution } = Astro.props;
+const contributionData = articleContribution ? JSON.stringify(articleContribution) : undefined;
+
+const linkClass =
+  'transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300';
 ---
 
-<footer class="px-4 py-8">
+<footer class="px-4 py-8" data-article-contribution={contributionData}>
   <div
     class="mx-auto flex max-w-5xl flex-col items-center gap-2 text-center text-xs text-neutral-400"
   >
+    {
+      articleContribution && (
+        <p>
+          <span>Algo incorreto ou incompleto?</span>
+          <span class="mx-2">·</span>
+          <button type="button" id="report-article-btn" class={linkClass}>
+            Reportar
+          </button>
+          <span class="mx-2">·</span>
+          <button type="button" id="enrich-article-btn" class={linkClass}>
+            Enriquecer
+          </button>
+        </p>
+      )
+    }
     <p>
-      <a
-        href="/privacidade/"
-        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
-      >
+      <a href="/privacidade/" class={linkClass}>
         Privacidade
       </a>
       <span class="mx-2">·</span>
-      <button
-        type="button"
-        id="manage-cookies-btn"
-        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
-      >
+      <button type="button" id="manage-cookies-btn" class={linkClass}>
         Gerenciar cookies
       </button>
       <span class="mx-2">·</span>
-      <button
-        type="button"
-        id="suggest-holiday-btn"
-        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
-      >
+      <button type="button" id="suggest-holiday-btn" class={linkClass}>
         Faltou algum feriado?
       </button>
       <span class="mx-2">·</span>
-      <a
-        href="/sobre/#contribuir"
-        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
-      >
+      <a href="/sobre/#contribuir" class={linkClass}>
         Contribuir
       </a>
       <span class="mx-2">·</span>
@@ -43,7 +56,7 @@ const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luish
         href={githubUrl}
         target="_blank"
         rel="noopener noreferrer"
-        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
+        class={linkClass}
       >
         GitHub
       </a>
@@ -52,7 +65,7 @@ const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luish
         href={linkedinUrl}
         target="_blank"
         rel="noopener noreferrer"
-        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
+        class={linkClass}
       >
         {authorName}
       </a>
@@ -77,4 +90,43 @@ const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luish
       }),
     );
   });
+
+  (function () {
+    const footer = document.querySelector('footer[data-article-contribution]');
+    const raw = footer?.getAttribute('data-article-contribution');
+    if (!raw) return;
+
+    let context;
+    try {
+      context = JSON.parse(raw);
+    } catch {
+      return;
+    }
+
+    document.getElementById('report-article-btn')?.addEventListener('click', function () {
+      window.dispatchEvent(
+        new CustomEvent('open-contribution', {
+          detail: {
+            mode: 'report_error',
+            holidayId: context.holidayId,
+            holidayName: context.holidayName,
+            pageUrl: context.pageUrl,
+          },
+        }),
+      );
+    });
+
+    document.getElementById('enrich-article-btn')?.addEventListener('click', function () {
+      window.dispatchEvent(
+        new CustomEvent('open-contribution', {
+          detail: {
+            mode: 'enrich_content',
+            holidayId: context.holidayId,
+            holidayName: context.holidayName,
+            pageUrl: context.pageUrl,
+          },
+        }),
+      );
+    });
+  })();
 </script>

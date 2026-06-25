@@ -6,7 +6,6 @@ import HolidayArticleBody from '@/components/holiday/HolidayArticleBody.astro';
 import HolidayArticleSources from '@/components/holiday/HolidayArticleSources.astro';
 import HolidayContributors from '@/components/holiday/HolidayContributors.astro';
 import HolidayArticleNav from '@/components/holiday/HolidayArticleNav.astro';
-import HolidayContributionActions from '@/components/interactive/HolidayContributionActions';
 import { getArticleById, getArticlePublishedDate, assertAllHolidaysHaveArticles } from '@/lib/articles';
 import {
   getAllHolidayDefinitions,
@@ -83,6 +82,11 @@ const holidayPageUrl = `${siteUrl}/feriado/${definition.id}/`;
   ogType="article"
   publishedTime={publishedTime}
   jsonLd={schema}
+  articleContribution={{
+    holidayId: definition.id,
+    holidayName: resolvedHoliday.name,
+    pageUrl: holidayPageUrl,
+  }}
 >
   <div class="mx-auto max-w-4xl space-y-10 px-4 py-10">
     <nav class="text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
@@ -138,14 +142,10 @@ const holidayPageUrl = `${siteUrl}/feriado/${definition.id}/`;
 
     <div class="mx-auto max-w-3xl space-y-10">
       <HolidayArticleBody article={article} />
-      <HolidayArticleSources article={article} />
-      <HolidayContributors article={article} />
-      <HolidayContributionActions
-        client:idle
-        holidayId={definition.id}
-        holidayName={resolvedHoliday.name}
-        pageUrl={holidayPageUrl}
-      />
+      <section class="space-y-6 border-t border-neutral-200 pt-8 dark:border-neutral-800">
+        <HolidayArticleSources article={article} />
+        <HolidayContributors article={article} />
+      </section>
       <HolidayArticleNav definition={definition} />
     </div>
   </div>

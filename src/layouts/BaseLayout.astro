@@ -26,6 +26,7 @@ interface Props {
   jsonLd?: Record<string, unknown>;
   fullHeight?: boolean;
   showLocationSlot?: boolean;
+  articleContribution?: import('@/lib/contributions').ArticleContributionContext;
 }
 
 const {
@@ -40,6 +41,7 @@ const {
   jsonLd,
   fullHeight = false,
   showLocationSlot = false,
+  articleContribution,
 } = Astro.props;
 
 const siteUrl = getSiteUrl(Astro.site);
@@ -91,7 +93,7 @@ const gateMunicipalities = getAllMunicipalities().map((m) => ({
     <main class:list={['flex-1', fullHeight && 'min-h-0 overflow-hidden']}>
       <slot />
     </main>
-    {!fullHeight && <Footer />}
+    {!fullHeight && <Footer articleContribution={articleContribution} />}
     <LinkedInCTA />
     <CookieConsent client:load />
     <ContributionProvider client:load />

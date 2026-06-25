@@ -1,18 +1,45 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import Button from '@/components/ui/Button.astro';
-import Card from '@/components/ui/Card.astro';
+import AboutStats from '@/components/about/AboutStats.astro';
+import AboutFeatures from '@/components/about/AboutFeatures.astro';
+import AboutAuthorCard from '@/components/about/AboutAuthorCard.astro';
 import ContributeCTA from '@/components/layout/ContributeCTA.astro';
+import FaqSection from '@/components/guide/FaqSection.astro';
 import { getAboutMeta } from '@/lib/seo';
 import { buildAboutPageSchema } from '@/lib/schema';
 import { getSiteUrl } from '@/lib/site-url';
+import { getAboutFaqItems, ABOUT_USEFUL_LINKS } from '@/lib/about-content';
+import {
+  getAllStates,
+  getAllMunicipalities,
+  getAllHolidayDefinitions,
+} from '@/lib/holidays';
+import { getAllArticles } from '@/lib/articles';
 
 const meta = getAboutMeta();
 const authorName = import.meta.env.PUBLIC_AUTHOR_NAME ?? 'Luís Henrique Wendt';
 const linkedinUrl = import.meta.env.PUBLIC_LINKEDIN_URL ?? 'https://linkedin.com/in/luishw';
 const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12/feriados-app';
 const siteUrl = getSiteUrl(Astro.site);
-const jsonLd = buildAboutPageSchema(siteUrl, authorName);
+const faqItems = getAboutFaqItems(siteUrl, githubUrl);
+const jsonLd = buildAboutPageSchema(siteUrl, authorName, faqItems);
+
+const stats = {
+  states: getAllStates().length,
+  municipalities: getAllMunicipalities().length,
+  holidays: getAllHolidayDefinitions().length,
+  articles: getAllArticles().length,
+};
+
+const usefulLinks = [
+  ...ABOUT_USEFUL_LINKS,
+  {
+    href: githubUrl,
+    title: 'Repositório MIT',
+    description: 'Código-fonte, issues e pull requests no GitHub.',
+    external: true,
+  },
+];
 ---
 
 <BaseLayout
@@ -21,29 +48,63 @@ const jsonLd = buildAboutPageSchema(siteUrl, authorName);
   canonical={meta.canonical}
   jsonLd={jsonLd}
 >
-  <div class="mx-auto max-w-3xl space-y-8 px-4 py-10">
+  <div class="mx-auto max-w-4xl space-y-10 px-4 py-10">
+    <nav class="text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="hover:text-emerald-600 dark:hover:text-emerald-400">Início</a></li>
+        <li aria-hidden="true">/</li>
+        <li><span class="text-neutral-700 dark:text-neutral-300">Sobre</span></li>
+      </ol>
+    </nav>
+
     <section class="space-y-4">
       <h1 class="text-3xl font-semibold text-neutral-900 dark:text-neutral-50">Sobre o projeto</h1>
       <p class="text-neutral-600 dark:text-neutral-400">
-        Feriados Brasil é um calendário open source com todos os feriados do Brasil — nacionais,
-        estaduais e municipais. O site é 100% estático, ultra rápido e otimizado para SEO.
+        Feriados Brasil é um calendário open source com feriados nacionais, estaduais e municipais
+        do Brasil. Os dados ficam versionados no repositório e o site é gerado estaticamente — sem
+        backend, sem banco de dados e sem chamadas de API em runtime.
+      </p>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        O objetivo é ser uma ferramenta útil para qualquer pessoa consultar feriados por localidade,
+        com performance e SEO de alto nível. Para respostas rápidas sobre calendário, dias úteis e
+        datas móveis, veja também os{' '}
+        <a href="/guia/" class="text-emerald-700 hover:underline dark:text-emerald-400">
+          guias de feriados
+        </a>.
       </p>
     </section>
 
-    <Card padding="lg" class="space-y-4">
-      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
-        Desenvolvido por {authorName}
+    <AboutStats {...stats} />
+    <AboutFeatures />
+    <AboutAuthorCard authorName={authorName} linkedinUrl={linkedinUrl} githubUrl={githubUrl} />
+
+    <section class="space-y-4" aria-labelledby="about-links-heading">
+      <h2 id="about-links-heading" class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        Links úteis
       </h2>
-      <p class="text-neutral-600 dark:text-neutral-400">
-        Este projeto foi criado como portfólio técnico, demonstrando Astro, React islands, Tailwind
-        CSS e TypeScript com foco em performance e SEO orgânico.
-      </p>
-      <div class="flex flex-wrap gap-3">
-        <Button href={linkedinUrl} external variant="primary">Conectar no LinkedIn</Button>
-        <Button href={githubUrl} external variant="secondary">Ver no GitHub</Button>
-      </div>
-    </Card>
+      <ul class="grid gap-3 sm:grid-cols-2">
+        {
+          usefulLinks.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                {...(link.external
+                  ? { target: '_blank', rel: 'noopener noreferrer' }
+                  : {})}
+                class="block rounded-xl border border-neutral-200 bg-white p-4 transition-colors duration-150 hover:border-emerald-300 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-emerald-700"
+              >
+                <span class="font-semibold text-neutral-900 dark:text-neutral-50">{link.title}</span>
+                <span class="mt-1 block text-sm text-neutral-500 dark:text-neutral-400">
+                  {link.description}
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
 
     <ContributeCTA />
+    <FaqSection items={faqItems} title="Perguntas sobre o projeto" />
   </div>
 </BaseLayout>

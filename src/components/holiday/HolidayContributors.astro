@@ -17,7 +17,7 @@ const ROLE_LABELS: Record<ContributorRole, string> = {
 
 {
   contributors.length > 0 && (
-    <section class="space-y-3 border-t border-neutral-200 pt-8 dark:border-neutral-800">
+    <div class="space-y-3">
       <h2 class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">Contribuidores</h2>
       <p class="text-sm text-neutral-600 dark:text-neutral-400">
         Este conteúdo foi enriquecido com a ajuda de:
@@ -43,6 +43,6 @@ const ROLE_LABELS: Record<ContributorRole, string> = {
           ))
         }
       </ul>
-    </section>
+    </div>
   )
 }

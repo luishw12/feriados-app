@@ -39,7 +39,7 @@ export function getAboutMeta(): PageMeta {
   return {
     title: 'Sobre — Feriados Brasil',
     description:
-      'Projeto open source de calendário de feriados brasileiros. Conheça o autor e contribua com dados de feriados municipais e estaduais.',
+      'Calendário open source de feriados brasileiros — nacionais, estaduais e municipais. Site 100% estático, com calendário interativo, artigos educativos e formulário para contribuir com novos feriados.',
     canonical: '/sobre/',
   };
 }
