@@ -2,7 +2,7 @@
 
 Calendário interativo com todos os feriados do Brasil — nacionais, estaduais e municipais.
 
-**[→ Acesse o site](https://feriados-brasil.vercel.app)** · **[→ Repositório](https://github.com/luishw12/feriados-app)**
+**[→ Acesse o site](https://feriados.luishw.com.br)** · **[→ Repositório](https://github.com/luishw12/feriados-app)**
 
 ## Funcionalidades
 
@@ -22,7 +22,7 @@ Astro · React · Tailwind CSS · TypeScript · Vercel
 Copie `.env.example` para `.env` e configure:
 
 ```env
-PUBLIC_SITE_URL=https://feriados-brasil.vercel.app
+PUBLIC_SITE_URL=https://feriados.luishw.com.br
 PUBLIC_AUTHOR_NAME=Luís Henrique Wendt
 PUBLIC_LINKEDIN_URL=https://linkedin.com/in/luishw
 PUBLIC_GITHUB_URL=https://github.com/luishw12/feriados-app

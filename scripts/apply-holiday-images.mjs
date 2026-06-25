@@ -4,7 +4,7 @@ import path from 'node:path';
 const ROOT = process.cwd();
 const ARTICLES_DIR = path.join(ROOT, 'src/data/articles');
 const HOLIDAYS_DIR = path.join(ROOT, 'src/data/holidays');
-const USER_AGENT = 'FeriadosBrasil/1.0 (https://feriados-brasil.vercel.app; educational project)';
+const USER_AGENT = 'FeriadosBrasil/1.0 (https://feriados.luishw.com.br; educational project)';
 const CREDIT = 'Wikimedia Commons — via Wikipédia';
 
 const WIKI_BY_ID = {

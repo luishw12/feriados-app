@@ -814,7 +814,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://feriados-brasil.vercel.app', // atualizar com domínio real
+  site: 'https://feriados.luishw.com.br',
   integrations: [
     react(),
     tailwind(),
@@ -924,7 +924,7 @@ export default {
 User-agent: *
 Allow: /
 
-Sitemap: https://feriados-brasil.vercel.app/sitemap-index.xml
+Sitemap: https://feriados.luishw.com.br/sitemap-index.xml
 ```
 
 ---
@@ -938,7 +938,7 @@ O README deve ser completo e profissional pois é cartão de visitas no GitHub:
 
 Calendário interativo com todos os feriados do Brasil — nacionais, estaduais e municipais.
 
-**[→ Acesse o site](https://feriados-brasil.vercel.app)**
+**[→ Acesse o site](https://feriados.luishw.com.br)**
 
 ## Funcionalidades
 

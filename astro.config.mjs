@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap';
 import { loadEnv } from 'vite';
 
 const env = loadEnv(process.env.NODE_ENV ?? 'production', process.cwd(), '');
-const site = env.PUBLIC_SITE_URL || 'https://feriados-brasil.vercel.app';
+const site = env.PUBLIC_SITE_URL || 'https://feriados.luishw.com.br';
 
 // https://astro.build/config
 export default defineConfig({

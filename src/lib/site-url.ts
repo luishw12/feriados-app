@@ -6,7 +6,7 @@ export function getSiteUrl(site?: URL | string | undefined): string {
   if (site) {
     return site.toString().replace(/\/$/, '');
   }
-  return 'https://feriados-brasil.vercel.app';
+  return 'https://feriados.luishw.com.br';
 }
 
 export function absoluteUrl(path: string, site?: URL | string | undefined): string {

@@ -1,7 +1,7 @@
 ---
 const authorName = import.meta.env.PUBLIC_AUTHOR_NAME ?? 'Luís Henrique Wendt';
 const linkedinUrl = import.meta.env.PUBLIC_LINKEDIN_URL ?? 'https://linkedin.com/in/luishw';
-const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12';
+const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12/feriados-app';
 ---
 
 <footer class="px-4 py-8">
@@ -9,6 +9,13 @@ const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luish
     class="mx-auto flex max-w-5xl flex-col items-center gap-2 text-center text-xs text-neutral-400"
   >
     <p>
+      <a
+        href="/sobre/#contribuir"
+        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
+      >
+        Contribuir
+      </a>
+      <span class="mx-2">·</span>
       <a
         href={githubUrl}
         target="_blank"

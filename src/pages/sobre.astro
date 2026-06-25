@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Button from '@/components/ui/Button.astro';
 import Card from '@/components/ui/Card.astro';
+import ContributeCTA from '@/components/layout/ContributeCTA.astro';
 import { getAboutMeta } from '@/lib/seo';
 import { buildAboutPageSchema } from '@/lib/schema';
 import { getSiteUrl } from '@/lib/site-url';
@@ -9,7 +10,7 @@ import { getSiteUrl } from '@/lib/site-url';
 const meta = getAboutMeta();
 const authorName = import.meta.env.PUBLIC_AUTHOR_NAME ?? 'Luís Henrique Wendt';
 const linkedinUrl = import.meta.env.PUBLIC_LINKEDIN_URL ?? 'https://linkedin.com/in/luishw';
-const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12';
+const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12/feriados-app';
 const siteUrl = getSiteUrl(Astro.site);
 const jsonLd = buildAboutPageSchema(siteUrl, authorName);
 ---
@@ -38,19 +39,11 @@ const jsonLd = buildAboutPageSchema(siteUrl, authorName);
         CSS e TypeScript com foco em performance e SEO orgânico.
       </p>
       <div class="flex flex-wrap gap-3">
-        <Button href={linkedinUrl} variant="primary">Conectar no LinkedIn</Button>
-        <Button href={githubUrl} variant="secondary">Ver no GitHub</Button>
+        <Button href={linkedinUrl} external variant="primary">Conectar no LinkedIn</Button>
+        <Button href={githubUrl} external variant="secondary">Ver no GitHub</Button>
       </div>
     </Card>
 
-    <section class="space-y-4">
-      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">Contribuir</h2>
-      <p class="text-neutral-600 dark:text-neutral-400">
-        Encontrou um feriado errado ou faltando? Os dados ficam em
-        <code class="rounded bg-neutral-100 px-1.5 py-0.5 text-sm dark:bg-neutral-800"
-          >src/data/holidays/</code
-        >. Abra uma issue ou envie um PR no GitHub.
-      </p>
-    </section>
+    <ContributeCTA />
   </div>
 </BaseLayout>

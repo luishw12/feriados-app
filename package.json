@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/luishw12/feriados-app/issues"
   },
-  "homepage": "https://feriados-brasil.vercel.app",
+  "homepage": "https://feriados.luishw.com.br",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
