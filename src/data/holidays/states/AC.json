@@ -8,14 +8,22 @@
       "name": "Aniversário do Acre",
       "date": "06-15",
       "type": "state",
-      "description": "Criação do Território do Acre em 1899."
+      "description": "Criação do Território do Acre em 1899.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     },
     {
       "id": "evangelizacao-indigenas-acre",
       "name": "Evangelização dos Povos Indígenas",
       "date": "06-05",
       "type": "state_optional",
-      "description": "Feriado facultativo estadual."
+      "description": "Feriado facultativo estadual.",
+      "categories": [
+        "historico",
+        "religioso"
+      ]
     }
   ]
 }

@@ -44,6 +44,15 @@ export function getAboutMeta(): PageMeta {
   };
 }
 
+export function getPrivacyMeta(): PageMeta {
+  return {
+    title: 'Política de Privacidade — Feriados Brasil',
+    description:
+      'Como tratamos seus dados pessoais, cookies de análise, geolocalização opcional e seus direitos sob a LGPD.',
+    canonical: '/privacidade/',
+  };
+}
+
 function truncateDescription(text: string, maxLength = 155): string {
   if (text.length <= maxLength) return text;
   return `${text.slice(0, maxLength - 1).trimEnd()}…`;

@@ -9,7 +9,11 @@
       "name": "Aniversário de Campo Grande",
       "date": "08-26",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

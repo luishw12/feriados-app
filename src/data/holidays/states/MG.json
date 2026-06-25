@@ -8,14 +8,20 @@
       "name": "Inconfidência Mineira",
       "date": "04-21",
       "type": "state",
-      "description": "Movimento de 1789 contra o domínio português."
+      "description": "Movimento de 1789 contra o domínio português.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "padroeira-mg",
       "name": "Nossa Senhora da Conceição",
       "date": "12-08",
       "type": "state_optional",
-      "description": "Padroeira de Minas Gerais, facultativo."
+      "description": "Padroeira de Minas Gerais, facultativo.",
+      "categories": [
+        "religioso"
+      ]
     }
   ]
 }

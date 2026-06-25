@@ -9,7 +9,11 @@
       "name": "Aniversário de São Bernardo do Campo",
       "date": "08-20",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

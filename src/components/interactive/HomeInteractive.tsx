@@ -1,15 +1,22 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
-import type { SerializedResolvedHoliday } from '@/data/schema';
+import type { HolidayCategory, SerializedResolvedHoliday } from '@/data/schema';
 import { resolveHolidayDate } from '@/lib/dates';
 import type { Holiday } from '@/data/schema';
 import LocationPicker, { type LocationContext } from '@/components/interactive/LocationPicker';
 import FloatingCountdown from '@/components/interactive/FloatingCountdown';
 import HolidayCalendar from '@/components/interactive/HolidayCalendar';
 import CalendarSkeleton from '@/components/interactive/CalendarSkeleton';
-import { detectUserLocation, hasGeolocationPermission } from '@/lib/geolocation';
-import { findMunicipalityByName } from '@/lib/municipality-match';
-import { loadStoredLocationContext } from '@/lib/location-storage';
+import {
+  getInitialCategoryFilters,
+  saveStoredCategoryFilters,
+} from '@/lib/category-filter-storage';
+import { filterHolidaysByCategory } from '@/lib/holiday-categories';
+import {
+  isLocationPromptDismissed,
+  loadStoredLocationContext,
+  subscribeLocationUpdated,
+} from '@/lib/location-storage';
 
 interface StateOption {
   uf: string;
@@ -55,26 +62,9 @@ function serializeUnique(holidays: SerializedResolvedHoliday[]): SerializedResol
   });
 }
 
-function buildContextFromDetection(
-  result: { uf: string; stateName: string; stateSlug: string; cityName?: string },
-  municipalities: MunicipalityOption[],
-): LocationContext {
-  const city = result.cityName
-    ? findMunicipalityByName(result.cityName, result.uf, municipalities)
-    : undefined;
-
-  const context: LocationContext = {
-    uf: result.uf,
-    stateName: result.stateName,
-    stateSlug: result.stateSlug,
-  };
-
-  if (city) {
-    context.citySlug = city.slug;
-    context.cityName = city.name;
-  }
-
-  return context;
+function getInitialCalendarReady(): boolean {
+  if (typeof window === 'undefined') return false;
+  return Boolean(loadStoredLocationContext()) || isLocationPromptDismissed();
 }
 
 export default function HomeInteractive({
@@ -89,8 +79,16 @@ export default function HomeInteractive({
   const [year, setYear] = useState(initialYear);
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth());
   const [location, setLocation] = useState<LocationContext | null>(null);
-  const [isCalendarReady, setIsCalendarReady] = useState(false);
+  const [isCalendarReady, setIsCalendarReady] = useState(getInitialCalendarReady);
   const [headerSlot, setHeaderSlot] = useState<HTMLElement | null>(null);
+  const [selectedCategories, setSelectedCategories] = useState<Set<HolidayCategory>>(
+    getInitialCategoryFilters,
+  );
+
+  const handleCategoriesChange = useCallback((next: Set<HolidayCategory>) => {
+    setSelectedCategories(next);
+    saveStoredCategoryFilters(next);
+  }, []);
 
   useLayoutEffect(() => {
     setHeaderSlot(document.getElementById('header-location-slot'));
@@ -105,28 +103,13 @@ export default function HomeInteractive({
   }, []);
 
   useEffect(() => {
-    if (isCalendarReady) return undefined;
-
-    let cancelled = false;
-
-    void (async () => {
-      const granted = await hasGeolocationPermission();
-      if (!granted) {
-        if (!cancelled) setIsCalendarReady(true);
-        return;
-      }
-
-      const result = await detectUserLocation();
-      if (!cancelled && result) {
-        setLocation(buildContextFromDetection(result, municipalities));
-      }
-      if (!cancelled) setIsCalendarReady(true);
-    })();
-
-    return () => {
-      cancelled = true;
+    const syncLocation = () => {
+      setLocation(loadStoredLocationContext());
+      setIsCalendarReady(true);
     };
-  }, [isCalendarReady, municipalities]);
+
+    return subscribeLocationUpdated(syncLocation);
+  }, []);
 
   const handleLocationChange = useCallback((next: LocationContext | null) => {
     setLocation(next);
@@ -163,11 +146,11 @@ export default function HomeInteractive({
   }, [location, stateHolidaysByUf, municipalHolidaysByKey, year]);
 
   const activeHolidays = useMemo(() => {
-    if (location) {
-      return serializeUnique([...national, ...contextHolidays]);
-    }
-    return national;
-  }, [location, national, contextHolidays]);
+    const base = location
+      ? serializeUnique([...national, ...contextHolidays])
+      : national;
+    return filterHolidaysByCategory(base, selectedCategories);
+  }, [location, national, contextHolidays, selectedCategories]);
 
   const hasLocation = Boolean(location);
 
@@ -198,6 +181,8 @@ export default function HomeInteractive({
             regionalHolidays={regional}
             contextHolidays={contextHolidays}
             hasLocation={hasLocation}
+            selectedCategories={selectedCategories}
+            onCategoriesChange={handleCategoriesChange}
           />
         )}
       </div>

@@ -8,14 +8,20 @@
       "name": "Criação de Santa Catarina",
       "date": "08-11",
       "type": "state",
-      "description": "Província criada em 1738."
+      "description": "Província criada em 1738.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "dia-de-santa-catarina",
       "name": "Dia de Santa Catarina de Alexandria",
       "date": "11-25",
       "type": "state_optional",
-      "description": "Padroeira do estado, facultativo."
+      "description": "Padroeira do estado, facultativo.",
+      "categories": [
+        "religioso"
+      ]
     }
   ]
 }

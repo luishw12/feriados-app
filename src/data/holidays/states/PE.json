@@ -8,14 +8,20 @@
       "name": "Revolução Pernambucana",
       "date": "03-06",
       "type": "state",
-      "description": "Revolução de 1817 contra o domínio português."
+      "description": "Revolução de 1817 contra o domínio português.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "sao-joao-pe",
       "name": "São João",
       "date": "06-24",
       "type": "state_optional",
-      "description": "Maior festa junina do Brasil, facultativo em PE."
+      "description": "Maior festa junina do Brasil, facultativo em PE.",
+      "categories": [
+        "cultural"
+      ]
     }
   ]
 }

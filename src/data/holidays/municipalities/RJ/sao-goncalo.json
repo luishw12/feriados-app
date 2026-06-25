@@ -9,7 +9,11 @@
       "name": "Aniversário de São Gonçalo",
       "date": "09-22",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

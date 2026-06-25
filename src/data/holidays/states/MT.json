@@ -8,14 +8,21 @@
       "name": "Criação do Estado de Mato Grosso",
       "date": "11-20",
       "type": "state",
-      "description": "Província criada em 1748."
+      "description": "Província criada em 1748.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "dia-do-indio-mt",
       "name": "Dia do Índio",
       "date": "04-19",
       "type": "state_optional",
-      "description": "Feriado facultativo no Mato Grosso."
+      "description": "Feriado facultativo no Mato Grosso.",
+      "categories": [
+        "social",
+        "cultural"
+      ]
     }
   ]
 }

@@ -8,14 +8,20 @@
       "name": "Criação do Estado do Tocantins",
       "date": "10-05",
       "type": "state",
-      "description": "Estado criado em 1988."
+      "description": "Estado criado em 1988.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "nossa-senhora-natividade",
       "name": "Nossa Senhora da Natividade",
       "date": "09-08",
       "type": "state_optional",
-      "description": "Padroeira do Tocantins, facultativo."
+      "description": "Padroeira do Tocantins, facultativo.",
+      "categories": [
+        "religioso"
+      ]
     }
   ]
 }

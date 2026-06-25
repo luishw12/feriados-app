@@ -8,14 +8,21 @@
       "name": "Aniversário de Brasília",
       "date": "04-21",
       "type": "state",
-      "description": "Inauguração de Brasília em 1960."
+      "description": "Inauguração de Brasília em 1960.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     },
     {
       "id": "dia-do-evangelho-df",
       "name": "Dia do Evangélico",
       "date": "11-30",
       "type": "state_optional",
-      "description": "Feriado facultativo no Distrito Federal."
+      "description": "Feriado facultativo no Distrito Federal.",
+      "categories": [
+        "religioso"
+      ]
     }
   ]
 }

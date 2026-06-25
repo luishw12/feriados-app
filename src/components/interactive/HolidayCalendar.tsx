@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from 'react';
-import type { HolidayType, ResolvedHoliday, SerializedResolvedHoliday } from '@/data/schema';
+import type { HolidayCategory, HolidayType, ResolvedHoliday, SerializedResolvedHoliday } from '@/data/schema';
 import {
   HOLIDAY_TYPE_COLORS,
   abbreviateHolidayName,
@@ -7,6 +7,7 @@ import {
   MONTH_NAMES,
   WEEKDAY_LABELS,
 } from '@/lib/constants';
+import { filterHolidaysByCategory } from '@/lib/holiday-categories';
 import { deserializeHolidays } from '@/lib/holidays';
 import { formatDateKey } from '@/lib/dates';
 import {
@@ -18,6 +19,7 @@ import {
 import YearDropdown from '@/components/interactive/YearDropdown';
 import MonthDropdown from '@/components/interactive/MonthDropdown';
 import HolidayLegendPopover from '@/components/interactive/HolidayLegendPopover';
+import CategoryFilter from '@/components/interactive/CategoryFilter';
 import YearStatsSummary from '@/components/interactive/YearStatsSummary';
 import DayHolidaysDialog from '@/components/interactive/DayHolidaysDialog';
 import ScrollArea from '@/components/ui/ScrollArea';
@@ -31,6 +33,8 @@ interface Props {
   regionalHolidays: SerializedResolvedHoliday[];
   contextHolidays?: SerializedResolvedHoliday[];
   hasLocation: boolean;
+  selectedCategories: ReadonlySet<HolidayCategory>;
+  onCategoriesChange: (selected: Set<HolidayCategory>) => void;
 }
 
 interface DayHolidayEntry {
@@ -352,21 +356,49 @@ export default function HolidayCalendar({
   regionalHolidays,
   contextHolidays = [],
   hasLocation,
+  selectedCategories,
+  onCategoriesChange,
 }: Props) {
   const [selectedDay, setSelectedDay] = useState<SelectedDay | null>(null);
 
+  const filteredNational = useMemo(
+    () => filterHolidaysByCategory(nationalHolidays, selectedCategories),
+    [nationalHolidays, selectedCategories],
+  );
+
+  const filteredRegional = useMemo(
+    () => filterHolidaysByCategory(regionalHolidays, selectedCategories),
+    [regionalHolidays, selectedCategories],
+  );
+
+  const filteredContext = useMemo(
+    () => filterHolidaysByCategory(contextHolidays, selectedCategories),
+    [contextHolidays, selectedCategories],
+  );
+
+  const hasCategorySelection = selectedCategories.size > 0;
+
   const dayMap = useMemo(() => {
-    const nationalMap = buildDayMap(nationalHolidays, year, false);
-    const regionalMap = buildDayMap(regionalHolidays, year, true);
-    const contextMap = buildDayMap(contextHolidays, year, false);
+    if (!hasCategorySelection) return new Map<string, DayMarker>();
+    const nationalMap = buildDayMap(filteredNational, year, false);
+    const regionalMap = buildDayMap(filteredRegional, year, true);
+    const contextMap = buildDayMap(filteredContext, year, false);
     return mergeDayMaps(nationalMap, regionalMap, contextMap, hasLocation);
-  }, [nationalHolidays, regionalHolidays, contextHolidays, hasLocation, year]);
+  }, [
+    filteredNational,
+    filteredRegional,
+    filteredContext,
+    hasLocation,
+    hasCategorySelection,
+    year,
+  ]);
 
   const getHolidaysForDay = useCallback(
     (month: number, day: number): ResolvedHoliday[] => {
+      if (!hasCategorySelection) return [];
       const all = deserializeHolidays([
-        ...nationalHolidays,
-        ...(hasLocation ? contextHolidays : regionalHolidays),
+        ...filteredNational,
+        ...(hasLocation ? filteredContext : filteredRegional),
       ]).filter((holiday) => {
         const date = holiday.resolvedDate;
         return date.getFullYear() === year && date.getMonth() === month && date.getDate() === day;
@@ -374,42 +406,67 @@ export default function HolidayCalendar({
 
       return dedupeCalendarHolidays(all, hasLocation);
     },
-    [nationalHolidays, regionalHolidays, contextHolidays, hasLocation, year],
+    [
+      filteredNational,
+      filteredRegional,
+      filteredContext,
+      hasLocation,
+      hasCategorySelection,
+      year,
+    ],
   );
 
   const holidayTypesByMonth = useMemo(
     () =>
-      buildHolidayTypesByMonth(
-        nationalHolidays,
-        regionalHolidays,
-        contextHolidays,
-        hasLocation,
-        year,
-      ),
-    [nationalHolidays, regionalHolidays, contextHolidays, hasLocation, year],
+      hasCategorySelection
+        ? buildHolidayTypesByMonth(
+            filteredNational,
+            filteredRegional,
+            filteredContext,
+            hasLocation,
+            year,
+          )
+        : Array.from({ length: 12 }, () => []),
+    [
+      filteredNational,
+      filteredRegional,
+      filteredContext,
+      hasLocation,
+      hasCategorySelection,
+      year,
+    ],
   );
 
   const monthHolidays = useMemo(() => {
+    if (!hasCategorySelection) return [];
     const all = deserializeHolidays([
-      ...nationalHolidays,
-      ...(hasLocation ? contextHolidays : regionalHolidays),
+      ...filteredNational,
+      ...(hasLocation ? filteredContext : filteredRegional),
     ]).filter(
       (h) => h.resolvedDate.getFullYear() === year && h.resolvedDate.getMonth() === selectedMonth,
     );
 
     return dedupeCalendarHolidays(all, hasLocation);
-  }, [nationalHolidays, regionalHolidays, contextHolidays, hasLocation, year, selectedMonth]);
+  }, [
+    filteredNational,
+    filteredRegional,
+    filteredContext,
+    hasLocation,
+    hasCategorySelection,
+    year,
+    selectedMonth,
+  ]);
 
   const yearStats = useMemo(
     () =>
       computeYearHolidayStats(
-        nationalHolidays,
-        regionalHolidays,
-        contextHolidays,
+        filteredNational,
+        filteredRegional,
+        filteredContext,
         hasLocation,
         year,
       ),
-    [nationalHolidays, regionalHolidays, contextHolidays, hasLocation, year],
+    [filteredNational, filteredRegional, filteredContext, hasLocation, year],
   );
 
   const handleDayClick = useCallback((day: number) => {
@@ -437,6 +494,8 @@ export default function HolidayCalendar({
 
         <YearStatsSummary stats={yearStats} year={year} />
 
+        <CategoryFilter selected={selectedCategories} onChange={onCategoriesChange} />
+
         <div className="shrink-0">
           <MonthGrid
             year={year}
@@ -458,7 +517,11 @@ export default function HolidayCalendar({
           </h3>
 
           {monthHolidays.length === 0 ? (
-            <p className="text-sm text-neutral-500">Nenhum feriado neste mês.</p>
+            <p className="text-sm text-neutral-500">
+              {hasCategorySelection
+                ? 'Nenhum feriado neste mês com os temas selecionados.'
+                : 'Selecione ao menos uma categoria para ver feriados.'}
+            </p>
           ) : (
             <ScrollArea className="min-h-0 flex-1">
               <ul className="space-y-2 pb-4 pr-2">

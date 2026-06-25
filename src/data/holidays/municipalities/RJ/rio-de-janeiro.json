@@ -9,7 +9,11 @@
       "name": "Aniversário de Rio de Janeiro",
       "date": "03-01",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

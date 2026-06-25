@@ -9,7 +9,11 @@
       "name": "Aniversário de Caucaia",
       "date": "01-27",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

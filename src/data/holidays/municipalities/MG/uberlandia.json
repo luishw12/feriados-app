@@ -9,7 +9,11 @@
       "name": "Aniversário de Uberlândia",
       "date": "08-31",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

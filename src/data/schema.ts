@@ -6,12 +6,20 @@ export type HolidayType =
   | 'state_optional'
   | 'commemorative';
 
+export type HolidayCategory =
+  | 'religioso'
+  | 'historico'
+  | 'civico'
+  | 'cultural'
+  | 'social';
+
 export interface Holiday {
   id: string;
   name: string;
   date?: string;
   dateRule?: string;
   type: HolidayType;
+  categories: HolidayCategory[];
   description?: string;
 }
 
@@ -63,6 +71,15 @@ export interface HolidayArticleSource {
   url: string;
 }
 
+export type ContributorRole = 'suggestion' | 'correction' | 'enrichment';
+
+export interface HolidayContributor {
+  name: string;
+  socialLabel: string;
+  socialUrl: string;
+  role: ContributorRole;
+}
+
 export interface HolidayArticle {
   id: string;
   lead: string;
@@ -72,6 +89,7 @@ export interface HolidayArticle {
   funFacts?: string[];
   image?: HolidayArticleImage;
   sources?: HolidayArticleSource[];
+  contributors?: HolidayContributor[];
 }
 
 export interface HolidayScope {

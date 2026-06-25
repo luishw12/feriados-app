@@ -9,7 +9,11 @@
       "name": "Aniversário de Rio Branco",
       "date": "08-25",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

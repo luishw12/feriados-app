@@ -8,14 +8,20 @@
       "name": "Independência da Bahia",
       "date": "07-02",
       "type": "state",
-      "description": "Data da Independência da Bahia em 1823."
+      "description": "Data da Independência da Bahia em 1823.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "sao-joao-bahia",
       "name": "São João",
       "date": "06-24",
       "type": "state_optional",
-      "description": "Festa junina, facultativo na Bahia."
+      "description": "Festa junina, facultativo na Bahia.",
+      "categories": [
+        "cultural"
+      ]
     }
   ]
 }

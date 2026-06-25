@@ -1,5 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { Info, X } from 'lucide-react';
+import {
+  HOLIDAY_CATEGORY_CHIP_COLORS,
+  HOLIDAY_CATEGORY_LABELS,
+  HOLIDAY_CATEGORY_ORDER,
+} from '@/lib/constants';
 
 interface Props {
   hasLocation: boolean;
@@ -69,6 +74,32 @@ function LegendContent({ hasLocation }: Props) {
             </li>
           ))}
         </ul>
+      </div>
+
+      <div className="border-t border-neutral-200 pt-4 dark:border-neutral-700">
+        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-neutral-400">
+          Temas
+        </p>
+        <ul className="space-y-2">
+          {HOLIDAY_CATEGORY_ORDER.map((category) => {
+            const colors = HOLIDAY_CATEGORY_CHIP_COLORS[category];
+            return (
+              <li key={category} className="flex items-center gap-2.5">
+                <span
+                  className={[
+                    'inline-flex shrink-0 rounded-full px-2 py-0.5 text-[10px] font-medium ring-1 ring-inset',
+                    colors.selected,
+                  ].join(' ')}
+                >
+                  {HOLIDAY_CATEGORY_LABELS[category]}
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+        <p className="mt-3 text-xs leading-relaxed text-neutral-500 dark:text-neutral-500">
+          Use os filtros de tema acima do calendário para exibir apenas os tipos desejados.
+        </p>
       </div>
     </div>
   );

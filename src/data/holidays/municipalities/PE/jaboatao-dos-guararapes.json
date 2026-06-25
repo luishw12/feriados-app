@@ -9,7 +9,11 @@
       "name": "Aniversário de Jaboatão dos Guararapes",
       "date": "04-04",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

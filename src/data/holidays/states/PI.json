@@ -8,7 +8,10 @@
       "name": "Dia do Piauí",
       "date": "10-19",
       "type": "state",
-      "description": "Província do Piauí criada em 1823."
+      "description": "Província do Piauí criada em 1823.",
+      "categories": [
+        "historico"
+      ]
     }
   ]
 }

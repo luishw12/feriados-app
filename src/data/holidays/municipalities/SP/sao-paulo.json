@@ -9,7 +9,11 @@
       "name": "Aniversário de São Paulo",
       "date": "01-25",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

@@ -52,8 +52,42 @@ Antes de abrir um PR, execute `npm run build` e confirme que não há erros.
 ## Tipos de contribuição
 
 - **Dados de feriados** — corrigir datas, nomes ou adicionar feriados estaduais/municipais em `src/data/holidays/`
+- **Conteúdo de artigos** — enriquecer textos em `src/data/articles/`
 - **Código** — melhorias de UI, componentes, performance ou correções de bugs
 - **Documentação** — README, guias ou comentários em código complexo
+
+## Contribuições pelo site (usuários)
+
+Visitantes podem enviar sugestões pelo formulário integrado ao site, sem conta no GitHub:
+
+| Tipo | Onde acessar | O que acontece |
+|---|---|---|
+| Sugerir feriado faltante | Rodapé ou `/sobre/#contribuir` | Cria issue com label `contribution` + `data` |
+| Reportar erro | Página `/feriado/[id]/` | Cria issue com label `contribution` + `data` |
+| Enriquecer artigo | Página `/feriado/[id]/` | Cria issue com label `contribution` + `content` |
+
+### Fluxo de aprovação (mantenedor)
+
+1. Revise a issue criada automaticamente no GitHub
+2. Atualize os JSONs em `src/data/holidays/` e/ou `src/data/articles/` conforme necessário
+3. Se o usuário autorizou crédito público, adicione o campo `contributors` no artigo:
+
+```json
+"contributors": [
+  {
+    "name": "Maria Silva",
+    "socialLabel": "LinkedIn",
+    "socialUrl": "https://linkedin.com/in/maria",
+    "role": "correction"
+  }
+]
+```
+
+Valores de `role`: `suggestion`, `correction`, `enrichment`.
+
+4. Feche a issue e faça deploy
+
+A API serverless fica em `api/contributions.ts` e requer `GITHUB_TOKEN` e `GITHUB_REPO` nas variáveis de ambiente da Vercel.
 
 ## Fluxo de trabalho
 

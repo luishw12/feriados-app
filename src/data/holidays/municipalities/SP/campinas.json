@@ -9,7 +9,11 @@
       "name": "Aniversário de Campinas",
       "date": "07-14",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

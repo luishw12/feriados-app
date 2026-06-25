@@ -8,14 +8,20 @@
       "name": "Elevação do Amazonas à categoria de província",
       "date": "09-05",
       "type": "state",
-      "description": "Província do Amazonas criada em 1850."
+      "description": "Província do Amazonas criada em 1850.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "dia-do-amazonense",
       "name": "Dia do Amazonense",
       "date": "09-05",
       "type": "state",
-      "description": "Comemoração da identidade amazonense."
+      "description": "Comemoração da identidade amazonense.",
+      "categories": [
+        "cultural"
+      ]
     }
   ]
 }

@@ -1,0 +1,232 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getPrivacyMeta } from '@/lib/seo';
+import { getSiteUrl } from '@/lib/site-url';
+
+const meta = getPrivacyMeta();
+const authorName = import.meta.env.PUBLIC_AUTHOR_NAME ?? 'Luís Henrique Wendt';
+const siteUrl = getSiteUrl(Astro.site);
+const effectiveDate = '25 de junho de 2026';
+---
+
+<BaseLayout title={meta.title} description={meta.description} canonical={meta.canonical}>
+  <div class="mx-auto max-w-3xl space-y-8 px-4 py-10">
+    <section class="space-y-4">
+      <h1 class="text-3xl font-semibold text-neutral-900 dark:text-neutral-50">
+        Política de Privacidade
+      </h1>
+      <p class="text-sm text-neutral-500 dark:text-neutral-500">
+        Vigente desde {effectiveDate}
+      </p>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Esta política descreve como o site Feriados Brasil ({siteUrl}) trata dados pessoais em
+        conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        1. Controlador dos dados
+      </h2>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        O controlador dos dados pessoais coletados por este site é <strong>{authorName}</strong>,
+        responsável pelo projeto Feriados Brasil.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        2. Dados coletados e finalidades
+      </h2>
+      <ul class="list-disc space-y-2 pl-5 text-neutral-600 dark:text-neutral-400">
+        <li>
+          <strong>Cookies de análise (Vercel Analytics e Google Analytics):</strong> dados
+          anonimizados de navegação, como páginas visitadas, dispositivo e origem do tráfego.
+          Finalidade: medir audiência e melhorar o site. Coletados <em>apenas</em> após seu
+          consentimento explícito no banner de cookies.
+        </li>
+        <li>
+          <strong>Geolocalização (opcional):</strong> se você autorizar no navegador, o site pode
+          usar suas coordenadas para sugerir estado e cidade. As coordenadas são enviadas ao serviço
+          BigDataCloud apenas para geocodificação reversa. Essa funcionalidade exige permissão
+          separada do navegador e não depende do banner de cookies.
+        </li>
+        <li>
+          <strong>Preferências locais:</strong> tema (claro/escuro) e localização selecionada são
+          armazenados no seu navegador (localStorage) para personalizar a experiência. São dados
+          estritamente necessários para a funcionalidade solicitada.
+        </li>
+        <li>
+          <strong>Preferência de consentimento:</strong> sua escolha sobre cookies de análise é
+          salva localmente para não solicitar novamente a cada visita.
+        </li>
+        <li>
+          <strong>Formulário de contribuição (opcional):</strong> se você usar o formulário para
+          sugerir feriados, reportar erros ou enriquecer artigos, podemos receber nome, link de rede
+          social, descrição da sugestão e fontes indicadas por você. Finalidade: revisão editorial
+          do conteúdo do site.
+        </li>
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        3. Formulário de contribuição
+      </h2>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        O formulário de contribuição permite enviar sugestões sem conta no GitHub. Os dados são
+        encaminhados para uma <strong>issue pública</strong> no repositório do projeto no GitHub,
+        onde são analisados manualmente.
+      </p>
+      <ul class="list-disc space-y-2 pl-5 text-neutral-600 dark:text-neutral-400">
+        <li>
+          <strong>Nome e rede social:</strong> opcionais. Só serão exibidos na página do feriado se
+          você autorizar e a contribuição for aprovada.
+        </li>
+        <li>
+          <strong>Conteúdo da sugestão:</strong> nome do feriado, datas, descrições, correções ou
+          informações adicionais, conforme o tipo de envio.
+        </li>
+        <li>
+          <strong>Base legal:</strong> legítimo interesse para processar a sugestão (art. 7º, IX) e
+          consentimento para crédito público com nome e rede social (art. 7º, I), quando informados.
+        </li>
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">4. Base legal</h2>
+      <ul class="list-disc space-y-2 pl-5 text-neutral-600 dark:text-neutral-400">
+        <li>
+          <strong>Consentimento (art. 7º, I):</strong> cookies de análise (Vercel Analytics e
+          Google Analytics).
+        </li>
+        <li>
+          <strong>Execução de funcionalidade solicitada (art. 7º, V):</strong> preferências de
+          tema, localização salva e registro da escolha de consentimento.
+        </li>
+        <li>
+          <strong>Consentimento do navegador:</strong> geolocalização, quando você autoriza
+          explicitamente no diálogo do sistema operacional ou navegador.
+        </li>
+        <li>
+          <strong>Formulário de contribuição:</strong> processamento da sugestão enviada e, se
+          autorizado, exibição de crédito público após aprovação editorial.
+        </li>
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        5. Compartilhamento com terceiros
+      </h2>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Os seguintes serviços podem processar dados em nosso nome, conforme descrito acima:
+      </p>
+      <ul class="list-disc space-y-2 pl-5 text-neutral-600 dark:text-neutral-400">
+        <li>
+          <strong>Vercel Inc.</strong> — hospedagem e analytics de navegação (
+          <a
+            href="https://vercel.com/legal/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-emerald-600 underline underline-offset-2 hover:text-emerald-700 dark:text-emerald-400"
+          >
+            política de privacidade
+          </a>
+          )
+        </li>
+        <li>
+          <strong>Google LLC</strong> — Google Analytics 4 (
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-emerald-600 underline underline-offset-2 hover:text-emerald-700 dark:text-emerald-400"
+          >
+            política de privacidade
+          </a>
+          )
+        </li>
+        <li>
+          <strong>BigDataCloud Pty Ltd</strong> — geocodificação reversa de coordenadas (
+          <a
+            href="https://www.bigdatacloud.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-emerald-600 underline underline-offset-2 hover:text-emerald-700 dark:text-emerald-400"
+          >
+            política de privacidade
+          </a>
+          )
+        </li>
+        <li>
+          <strong>GitHub Inc.</strong> — armazenamento de contribuições enviadas pelo formulário do
+          site como issues públicas (
+          <a
+            href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-emerald-600 underline underline-offset-2 hover:text-emerald-700 dark:text-emerald-400"
+          >
+            política de privacidade
+          </a>
+          )
+        </li>
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        6. Seus direitos (LGPD art. 18)
+      </h2>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Você tem direito a confirmar a existência de tratamento, acessar, corrigir, anonimizar,
+        bloquear ou eliminar dados desnecessários, solicitar portabilidade, revogar o consentimento
+        e obter informações sobre compartilhamento. Para exercer esses direitos, entre em contato
+        pelo LinkedIn indicado na página
+        <a
+          href="/sobre/"
+          class="text-emerald-600 underline underline-offset-2 hover:text-emerald-700 dark:text-emerald-400"
+        >
+          Sobre
+        </a>.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        7. Como revogar o consentimento
+      </h2>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Você pode revogar o consentimento para cookies de análise a qualquer momento clicando em
+        <strong>Gerenciar cookies</strong> no rodapé do site. Isso remove sua preferência salva e
+        recarrega a página para que você possa escolher novamente. Nenhum script de analytics será
+        carregado enquanto você não aceitar novamente.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        8. Retenção e segurança
+      </h2>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Dados de analytics são retidos conforme as políticas dos respectivos provedores (Vercel e
+        Google). Preferências locais permanecem no seu navegador até que você as apague manualmente
+        ou use a opção de gerenciar cookies. Contribuições do formulário ficam registradas em issues
+        públicas no GitHub, conforme a política da plataforma. O site não possui banco de dados
+        próprio.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        9. Alterações nesta política
+      </h2>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Esta política pode ser atualizada periodicamente. A data de vigência no topo da página
+        indica a versão mais recente. Alterações relevantes serão refletidas nesta página.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

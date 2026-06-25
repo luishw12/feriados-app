@@ -8,14 +8,20 @@
       "name": "Revolução Constitucionalista",
       "date": "07-09",
       "type": "state",
-      "description": "Revolução de 1932 contra o governo Vargas."
+      "description": "Revolução de 1932 contra o governo Vargas.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "padroeira-sp",
       "name": "Nossa Senhora da Aparecida",
       "date": "10-12",
       "type": "state_optional",
-      "description": "Padroeira de São Paulo, facultativo estadual."
+      "description": "Padroeira de São Paulo, facultativo estadual.",
+      "categories": [
+        "religioso"
+      ]
     }
   ]
 }

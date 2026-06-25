@@ -1,4 +1,51 @@
-import type { HolidayType } from '@/data/schema';
+import type { HolidayCategory, HolidayType } from '@/data/schema';
+
+export const HOLIDAY_CATEGORY_ORDER: HolidayCategory[] = [
+  'religioso',
+  'historico',
+  'civico',
+  'cultural',
+  'social',
+];
+
+export const HOLIDAY_CATEGORY_LABELS: Record<HolidayCategory, string> = {
+  religioso: 'Religioso',
+  historico: 'Histórico',
+  civico: 'Cívico',
+  cultural: 'Cultural',
+  social: 'Social',
+};
+
+export const HOLIDAY_CATEGORY_CHIP_COLORS: Record<
+  HolidayCategory,
+  { selected: string; unselected: string }
+> = {
+  religioso: {
+    selected: 'bg-violet-100 text-violet-800 ring-violet-300 dark:bg-violet-900/50 dark:text-violet-200 dark:ring-violet-700',
+    unselected:
+      'bg-neutral-100 text-neutral-600 ring-neutral-200 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-400 dark:ring-neutral-700 dark:hover:bg-neutral-700',
+  },
+  historico: {
+    selected: 'bg-amber-100 text-amber-800 ring-amber-300 dark:bg-amber-900/50 dark:text-amber-200 dark:ring-amber-700',
+    unselected:
+      'bg-neutral-100 text-neutral-600 ring-neutral-200 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-400 dark:ring-neutral-700 dark:hover:bg-neutral-700',
+  },
+  civico: {
+    selected: 'bg-sky-100 text-sky-800 ring-sky-300 dark:bg-sky-900/50 dark:text-sky-200 dark:ring-sky-700',
+    unselected:
+      'bg-neutral-100 text-neutral-600 ring-neutral-200 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-400 dark:ring-neutral-700 dark:hover:bg-neutral-700',
+  },
+  cultural: {
+    selected: 'bg-rose-100 text-rose-800 ring-rose-300 dark:bg-rose-900/50 dark:text-rose-200 dark:ring-rose-700',
+    unselected:
+      'bg-neutral-100 text-neutral-600 ring-neutral-200 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-400 dark:ring-neutral-700 dark:hover:bg-neutral-700',
+  },
+  social: {
+    selected: 'bg-teal-100 text-teal-800 ring-teal-300 dark:bg-teal-900/50 dark:text-teal-200 dark:ring-teal-700',
+    unselected:
+      'bg-neutral-100 text-neutral-600 ring-neutral-200 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-400 dark:ring-neutral-700 dark:hover:bg-neutral-700',
+  },
+};
 
 export const HOLIDAY_TYPE_LABELS: Record<HolidayType, string> = {
   national: 'Nacional',

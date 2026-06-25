@@ -8,7 +8,10 @@
       "name": "Independência de Sergipe",
       "date": "07-08",
       "type": "state",
-      "description": "Última província a aderir à Independência em 1823."
+      "description": "Última província a aderir à Independência em 1823.",
+      "categories": [
+        "historico"
+      ]
     }
   ]
 }

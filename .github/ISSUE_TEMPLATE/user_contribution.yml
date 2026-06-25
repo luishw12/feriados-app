@@ -1,0 +1,14 @@
+name: Contribuição de usuário
+description: Referência para issues criadas pelo formulário do site (não usar manualmente)
+title: "[contribuição]: "
+labels:
+  - contribution
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues com este template são criadas **automaticamente** pelo formulário de contribuição do site.
+        Para contribuir, use o botão "Faltou algum feriado?" no rodapé ou os botões nas páginas de feriado.
+
+        Se você é mantenedor, revise a issue, atualize os JSONs em `src/data/holidays/` e/ou `src/data/articles/`,
+        e adicione `contributors` no artigo se o usuário autorizou crédito público.

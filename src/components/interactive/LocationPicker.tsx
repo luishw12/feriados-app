@@ -3,6 +3,7 @@ import { MapPin, Loader2, ChevronDown } from 'lucide-react';
 import { detectUserLocation } from '@/lib/geolocation';
 import { findMunicipalityByName } from '@/lib/municipality-match';
 import {
+  clearLocationPromptDismissed,
   clearStoredLocation,
   getLocationLabel,
   saveStoredLocation,
@@ -66,6 +67,7 @@ export default function LocationPicker({
   function clearLocation() {
     onLocationChange(null);
     clearStoredLocation();
+    clearLocationPromptDismissed();
   }
 
   function applyManualSelection(uf: string, citySlug?: string) {

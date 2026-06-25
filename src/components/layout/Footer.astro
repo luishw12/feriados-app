@@ -10,6 +10,29 @@ const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luish
   >
     <p>
       <a
+        href="/privacidade/"
+        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
+      >
+        Privacidade
+      </a>
+      <span class="mx-2">·</span>
+      <button
+        type="button"
+        id="manage-cookies-btn"
+        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
+      >
+        Gerenciar cookies
+      </button>
+      <span class="mx-2">·</span>
+      <button
+        type="button"
+        id="suggest-holiday-btn"
+        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
+      >
+        Faltou algum feriado?
+      </button>
+      <span class="mx-2">·</span>
+      <a
         href="/sobre/#contribuir"
         class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
       >
@@ -36,3 +59,22 @@ const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luish
     </p>
   </div>
 </footer>
+
+<script is:inline>
+  document.getElementById('manage-cookies-btn')?.addEventListener('click', function () {
+    try {
+      localStorage.removeItem('cookie-consent');
+    } catch {
+      // localStorage bloqueado
+    }
+    window.location.reload();
+  });
+
+  document.getElementById('suggest-holiday-btn')?.addEventListener('click', function () {
+    window.dispatchEvent(
+      new CustomEvent('open-contribution', {
+        detail: { mode: 'suggest_holiday' },
+      }),
+    );
+  });
+</script>

@@ -8,14 +8,20 @@
       "name": "Emancipação Política de Alagoas",
       "date": "09-16",
       "type": "state",
-      "description": "Alagoas tornou-se província em 1817."
+      "description": "Alagoas tornou-se província em 1817.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "sao-joao-alagoas",
       "name": "São João",
       "date": "06-24",
       "type": "state_optional",
-      "description": "Festa junina tradicional, facultativo em Alagoas."
+      "description": "Festa junina tradicional, facultativo em Alagoas.",
+      "categories": [
+        "cultural"
+      ]
     }
   ]
 }

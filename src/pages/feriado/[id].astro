@@ -4,7 +4,9 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import HolidayArticleHero from '@/components/holiday/HolidayArticleHero.astro';
 import HolidayArticleBody from '@/components/holiday/HolidayArticleBody.astro';
 import HolidayArticleSources from '@/components/holiday/HolidayArticleSources.astro';
+import HolidayContributors from '@/components/holiday/HolidayContributors.astro';
 import HolidayArticleNav from '@/components/holiday/HolidayArticleNav.astro';
+import HolidayContributionActions from '@/components/interactive/HolidayContributionActions';
 import { getArticleById, getArticlePublishedDate, assertAllHolidaysHaveArticles } from '@/lib/articles';
 import {
   getAllHolidayDefinitions,
@@ -70,6 +72,7 @@ const publishedTime = `${getArticlePublishedDate(definition.id)}T00:00:00-03:00`
 
 const municipalScope = definition.scopes.find((scope) => scope.citySlug && scope.stateSlug);
 const stateScope = definition.scopes.find((scope) => scope.stateSlug && !scope.citySlug);
+const holidayPageUrl = `${siteUrl}/feriado/${definition.id}/`;
 ---
 
 <BaseLayout
@@ -136,6 +139,13 @@ const stateScope = definition.scopes.find((scope) => scope.stateSlug && !scope.c
     <div class="mx-auto max-w-3xl space-y-10">
       <HolidayArticleBody article={article} />
       <HolidayArticleSources article={article} />
+      <HolidayContributors article={article} />
+      <HolidayContributionActions
+        client:idle
+        holidayId={definition.id}
+        holidayName={resolvedHoliday.name}
+        pageUrl={holidayPageUrl}
+      />
       <HolidayArticleNav definition={definition} />
     </div>
   </div>

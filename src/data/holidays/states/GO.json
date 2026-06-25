@@ -8,14 +8,20 @@
       "name": "Criação do Estado de Goiás",
       "date": "10-24",
       "type": "state",
-      "description": "Goiás elevado à categoria de província em 1748."
+      "description": "Goiás elevado à categoria de província em 1748.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "padroeira-goias",
       "name": "Nossa Senhora Auxiliadora",
       "date": "05-24",
       "type": "state_optional",
-      "description": "Padroeira de Goiás, facultativo."
+      "description": "Padroeira de Goiás, facultativo.",
+      "categories": [
+        "religioso"
+      ]
     }
   ]
 }

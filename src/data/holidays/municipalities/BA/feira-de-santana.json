@@ -9,7 +9,11 @@
       "name": "Aniversário de Feira de Santana",
       "date": "11-16",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

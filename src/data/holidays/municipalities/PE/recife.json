@@ -9,7 +9,11 @@
       "name": "Aniversário de Recife",
       "date": "03-12",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

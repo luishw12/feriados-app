@@ -26,7 +26,8 @@ const contributingUrl = `${githubUrl}/blob/main/CONTRIBUTING.md`;
       </h2>
       <p class="text-neutral-600 dark:text-neutral-400">
         Feriados Brasil é open source. Você pode corrigir datas, adicionar feriados municipais,
-        melhorar a interface ou a documentação. Toda ajuda é bem-vinda!
+        melhorar a interface ou a documentação. Toda ajuda é bem-vinda — não é preciso saber
+        programar para sugerir um feriado que esteja faltando!
       </p>
     </div>
   </div>
@@ -43,7 +44,24 @@ const contributingUrl = `${githubUrl}/blob/main/CONTRIBUTING.md`;
   </ul>
 
   <div class="flex flex-wrap gap-3">
-    <Button href={githubUrl} external variant="primary">Ver repositório no GitHub</Button>
+    <button
+      type="button"
+      id="contribute-suggest-holiday-btn"
+      class="inline-flex items-center justify-center rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white transition-colors duration-150 hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 dark:bg-emerald-500 dark:hover:bg-emerald-600"
+    >
+      Faltou algum feriado? Nos conte
+    </button>
+    <Button href={githubUrl} external variant="secondary">Ver repositório no GitHub</Button>
     <Button href={contributingUrl} external variant="secondary">Guia de contribuição</Button>
   </div>
 </Card>
+
+<script is:inline>
+  document.getElementById('contribute-suggest-holiday-btn')?.addEventListener('click', function () {
+    window.dispatchEvent(
+      new CustomEvent('open-contribution', {
+        detail: { mode: 'suggest_holiday' },
+      }),
+    );
+  });
+</script>

@@ -9,7 +9,11 @@
       "name": "Aniversário de Maceió",
       "date": "12-09",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

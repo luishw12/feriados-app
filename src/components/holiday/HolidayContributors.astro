@@ -1,0 +1,48 @@
+---
+import type { HolidayArticle, ContributorRole } from '@/data/schema';
+
+interface Props {
+  article: HolidayArticle;
+}
+
+const { article } = Astro.props;
+const contributors = article.contributors ?? [];
+
+const ROLE_LABELS: Record<ContributorRole, string> = {
+  suggestion: 'Sugestão de feriado',
+  correction: 'Correção de dados',
+  enrichment: 'Enriquecimento do artigo',
+};
+---
+
+{
+  contributors.length > 0 && (
+    <section class="space-y-3 border-t border-neutral-200 pt-8 dark:border-neutral-800">
+      <h2 class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">Contribuidores</h2>
+      <p class="text-sm text-neutral-600 dark:text-neutral-400">
+        Este conteúdo foi enriquecido com a ajuda de:
+      </p>
+      <ul class="space-y-2">
+        {
+          contributors.map((contributor) => (
+            <li class="flex flex-wrap items-center gap-2 text-sm">
+              <a
+                href={contributor.socialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-medium text-emerald-700 underline decoration-emerald-300 underline-offset-2 transition-colors duration-150 hover:text-emerald-800 dark:text-emerald-400 dark:decoration-emerald-700 dark:hover:text-emerald-300"
+              >
+                {contributor.name}
+              </a>
+              <span class="text-neutral-400 dark:text-neutral-500">·</span>
+              <span class="text-neutral-500 dark:text-neutral-400">{contributor.socialLabel}</span>
+              <span class="rounded-full bg-neutral-100 px-2 py-0.5 text-[11px] font-medium text-neutral-600 dark:bg-neutral-800 dark:text-neutral-400">
+                {ROLE_LABELS[contributor.role]}
+              </span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  )
+}

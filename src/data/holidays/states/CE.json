@@ -8,14 +8,21 @@
       "name": "Abolição da Escravatura no Ceará",
       "date": "03-25",
       "type": "state",
-      "description": "Ceará aboliu a escravidão em 1884, antes do restante do país."
+      "description": "Ceará aboliu a escravidão em 1884, antes do restante do país.",
+      "categories": [
+        "historico",
+        "social"
+      ]
     },
     {
       "id": "padroeira-ceara",
       "name": "Nossa Senhora da Assunção",
       "date": "08-15",
       "type": "state_optional",
-      "description": "Padroeira do Ceará, facultativo."
+      "description": "Padroeira do Ceará, facultativo.",
+      "categories": [
+        "religioso"
+      ]
     }
   ]
 }

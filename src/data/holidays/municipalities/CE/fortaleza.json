@@ -9,7 +9,11 @@
       "name": "Aniversário de Fortaleza",
       "date": "04-13",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

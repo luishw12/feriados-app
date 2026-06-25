@@ -8,14 +8,20 @@
       "name": "Morte de Lamartine Babo",
       "date": "08-07",
       "type": "state",
-      "description": "Homenagem ao compositor do hino do RN."
+      "description": "Homenagem ao compositor do hino do RN.",
+      "categories": [
+        "historico"
+      ]
     },
     {
       "id": "sao-joao-rn",
       "name": "São João",
       "date": "06-24",
       "type": "state_optional",
-      "description": "Festa junina, facultativo no RN."
+      "description": "Festa junina, facultativo no RN.",
+      "categories": [
+        "cultural"
+      ]
     }
   ]
 }

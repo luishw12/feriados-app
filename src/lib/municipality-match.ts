@@ -1,21 +1,9 @@
+import { normalizeText, slugify } from '@/lib/text';
+
 interface MunicipalityRef {
   slug: string;
   name: string;
   uf: string;
-}
-
-function normalizeText(value: string): string {
-  return value
-    .normalize('NFD')
-    .replace(/\p{M}/gu, '')
-    .toLowerCase()
-    .trim();
-}
-
-function slugify(value: string): string {
-  return normalizeText(value)
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
 }
 
 export function findMunicipalityByName(

@@ -2,6 +2,7 @@ import nationalHolidays from '@/data/holidays/national.json';
 import commemorativeHolidays from '@/data/holidays/commemorative.json';
 import statesData from '@/data/states.json';
 import { resolveHolidayDate } from '@/lib/dates';
+import { isHolidayCategory } from '@/lib/holiday-categories';
 import type {
   Holiday,
   HolidayDefinition,
@@ -30,9 +31,50 @@ function isHoliday(value: unknown): value is Holiday {
     typeof record.id === 'string' &&
     typeof record.name === 'string' &&
     typeof record.type === 'string' &&
-    (typeof record.date === 'string' || typeof record.dateRule === 'string')
+    (typeof record.date === 'string' || typeof record.dateRule === 'string') &&
+    Array.isArray(record.categories) &&
+    record.categories.length >= 1 &&
+    record.categories.every(isHolidayCategory)
   );
 }
+
+function assertHolidayCategories(holidays: Holiday[], source: string): void {
+  for (const holiday of holidays) {
+    if (!holiday.categories || holiday.categories.length === 0) {
+      throw new Error(`Holiday "${holiday.id}" in ${source} is missing categories`);
+    }
+    for (const category of holiday.categories) {
+      if (!isHolidayCategory(category)) {
+        throw new Error(
+          `Holiday "${holiday.id}" in ${source} has invalid category: ${String(category)}`,
+        );
+      }
+    }
+  }
+}
+
+function validateAllHolidayData(): void {
+  assertHolidayCategories(nationalHolidays as Holiday[], 'national.json');
+  assertHolidayCategories(commemorativeHolidays as Holiday[], 'commemorative.json');
+
+  for (const [path, module] of Object.entries(stateFiles)) {
+    const data = module.default;
+    if (!isStateHolidayFile(data)) {
+      throw new Error(`Invalid state holiday file: ${path}`);
+    }
+    assertHolidayCategories(data.holidays, path);
+  }
+
+  for (const [path, module] of Object.entries(municipalityFiles)) {
+    const data = module.default;
+    if (!isMunicipalityHolidayFile(data)) {
+      throw new Error(`Invalid municipality holiday file: ${path}`);
+    }
+    assertHolidayCategories(data.holidays, path);
+  }
+}
+
+validateAllHolidayData();
 
 function isStateHolidayFile(value: unknown): value is StateHolidayFile {
   if (typeof value !== 'object' || value === null) return false;

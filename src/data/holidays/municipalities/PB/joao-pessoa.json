@@ -9,7 +9,11 @@
       "name": "Aniversário de João Pessoa",
       "date": "08-05",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

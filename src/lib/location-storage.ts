@@ -1,4 +1,6 @@
 const STORAGE_KEY = 'feriados-location';
+const PROMPT_DISMISSED_KEY = 'feriados-location-prompt-dismissed';
+export const LOCATION_UPDATED_EVENT = 'feriados-location-updated';
 
 export interface StoredLocation {
   uf: string;
@@ -58,6 +60,7 @@ export function buildStoredLocation(context: LocationContext, label: string): St
 
 export function saveStoredLocation(context: LocationContext, label: string): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(buildStoredLocation(context, label)));
+  dispatchLocationUpdated();
 }
 
 export function clearStoredLocation(): void {
@@ -68,4 +71,29 @@ export function getLocationLabel(context: LocationContext | null): string {
   if (!context) return 'Brasil';
   if (context.cityName) return `${context.cityName}, ${context.uf}`;
   return context.uf;
+}
+
+export function isLocationPromptDismissed(): boolean {
+  if (typeof window === 'undefined') return false;
+  return localStorage.getItem(PROMPT_DISMISSED_KEY) === 'true';
+}
+
+export function dismissLocationPrompt(): void {
+  localStorage.setItem(PROMPT_DISMISSED_KEY, 'true');
+  dispatchLocationUpdated();
+}
+
+export function clearLocationPromptDismissed(): void {
+  localStorage.removeItem(PROMPT_DISMISSED_KEY);
+}
+
+export function dispatchLocationUpdated(): void {
+  if (typeof window === 'undefined') return;
+  window.dispatchEvent(new CustomEvent(LOCATION_UPDATED_EVENT));
+}
+
+export function subscribeLocationUpdated(callback: () => void): () => void {
+  if (typeof window === 'undefined') return () => undefined;
+  window.addEventListener(LOCATION_UPDATED_EVENT, callback);
+  return () => window.removeEventListener(LOCATION_UPDATED_EVENT, callback);
 }

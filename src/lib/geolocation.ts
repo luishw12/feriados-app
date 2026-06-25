@@ -180,14 +180,27 @@ export async function detectUserLocation(): Promise<LocationResult | null> {
 /** @deprecated Use detectUserLocation */
 export const detectUserState = detectUserLocation;
 
-export async function hasGeolocationPermission(): Promise<boolean> {
-  if (typeof navigator === 'undefined' || !navigator.permissions) {
-    return false;
+export type GeolocationPermissionState = 'granted' | 'denied' | 'prompt' | 'unsupported';
+
+export async function getGeolocationPermissionState(): Promise<GeolocationPermissionState> {
+  if (typeof navigator === 'undefined' || !navigator.geolocation) {
+    return 'unsupported';
+  }
+  if (!navigator.permissions) {
+    return 'prompt';
   }
   try {
     const status = await navigator.permissions.query({ name: 'geolocation' });
-    return status.state === 'granted';
+    if (status.state === 'granted' || status.state === 'denied' || status.state === 'prompt') {
+      return status.state;
+    }
+    return 'prompt';
   } catch {
-    return false;
+    return 'prompt';
   }
+}
+
+export async function hasGeolocationPermission(): Promise<boolean> {
+  const state = await getGeolocationPermissionState();
+  return state === 'granted';
 }

@@ -8,7 +8,10 @@
       "name": "Adesão do Maranhão à Independência",
       "date": "07-28",
       "type": "state",
-      "description": "Maranhão aderiu à Independência em 1823."
+      "description": "Maranhão aderiu à Independência em 1823.",
+      "categories": [
+        "historico"
+      ]
     }
   ]
 }

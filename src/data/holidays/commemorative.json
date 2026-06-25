@@ -4,153 +4,224 @@
     "name": "Dia Internacional da Mulher",
     "date": "03-08",
     "type": "commemorative",
-    "description": "Data de luta pelos direitos das mulheres, celebrada em todo o mundo."
+    "description": "Data de luta pelos direitos das mulheres, celebrada em todo o mundo.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-da-mentira",
     "name": "Dia da Mentira",
     "date": "04-01",
     "type": "commemorative",
-    "description": "Tradição de brincadeiras e pegadinhas no Dia de April Fools."
+    "description": "Tradição de brincadeiras e pegadinhas no Dia de April Fools.",
+    "categories": [
+      "cultural"
+    ]
   },
   {
     "id": "dia-do-indio",
     "name": "Dia do Índio",
     "date": "04-19",
     "type": "commemorative",
-    "description": "Homenagem aos povos indígenas e à cultura originária do Brasil."
+    "description": "Homenagem aos povos indígenas e à cultura originária do Brasil.",
+    "categories": [
+      "social",
+      "cultural"
+    ]
   },
   {
     "id": "dia-da-terra",
     "name": "Dia da Terra",
     "date": "04-22",
     "type": "commemorative",
-    "description": "Conscientização sobre preservação ambiental e sustentabilidade."
+    "description": "Conscientização sobre preservação ambiental e sustentabilidade.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-das-maes",
     "name": "Dia das Mães",
     "dateRule": "nth:05-2-0",
     "type": "commemorative",
-    "description": "Segundo domingo de maio — homenagem às mães."
+    "description": "Segundo domingo de maio — homenagem às mães.",
+    "categories": [
+      "social",
+      "cultural"
+    ]
   },
   {
     "id": "dia-da-familia",
     "name": "Dia Internacional da Família",
     "date": "05-15",
     "type": "commemorative",
-    "description": "Celebração dos laços familiares e do convívio entre gerações."
+    "description": "Celebração dos laços familiares e do convívio entre gerações.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-do-meio-ambiente",
     "name": "Dia Mundial do Meio Ambiente",
     "date": "06-05",
     "type": "commemorative",
-    "description": "Data da ONU para reflexão sobre cuidado com o planeta."
+    "description": "Data da ONU para reflexão sobre cuidado com o planeta.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-dos-namorados",
     "name": "Dia dos Namorados",
     "date": "06-12",
     "type": "commemorative",
-    "description": "Celebração do amor romântico no Brasil, inspirada em Santo Antônio."
+    "description": "Celebração do amor romântico no Brasil, inspirada em Santo Antônio.",
+    "categories": [
+      "social",
+      "cultural"
+    ]
   },
   {
     "id": "dia-de-sao-joao",
     "name": "Dia de São João",
     "date": "06-24",
     "type": "commemorative",
-    "description": "Marco das festas juninas com fogueiras, quadrilhas e comidas típicas."
+    "description": "Marco das festas juninas com fogueiras, quadrilhas e comidas típicas.",
+    "categories": [
+      "cultural",
+      "religioso"
+    ]
   },
   {
     "id": "dia-do-amigo",
     "name": "Dia do Amigo",
     "date": "07-20",
     "type": "commemorative",
-    "description": "Data para celebrar a amizade e a convivência entre pessoas."
+    "description": "Data para celebrar a amizade e a convivência entre pessoas.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-dos-avos",
     "name": "Dia dos Avós",
     "date": "07-26",
     "type": "commemorative",
-    "description": "Homenagem aos avós e à importância da relação entre gerações."
+    "description": "Homenagem aos avós e à importância da relação entre gerações.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-do-estudante",
     "name": "Dia do Estudante",
     "date": "08-11",
     "type": "commemorative",
-    "description": "Data ligada à história do movimento estudantil brasileiro."
+    "description": "Data ligada à história do movimento estudantil brasileiro.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-dos-pais",
     "name": "Dia dos Pais",
     "dateRule": "nth:08-2-0",
     "type": "commemorative",
-    "description": "Segundo domingo de agosto — homenagem aos pais."
+    "description": "Segundo domingo de agosto — homenagem aos pais.",
+    "categories": [
+      "social",
+      "cultural"
+    ]
   },
   {
     "id": "dia-do-folclore",
     "name": "Dia do Folclore",
     "date": "08-22",
     "type": "commemorative",
-    "description": "Valorização das tradições, lendas e cultura popular brasileira."
+    "description": "Valorização das tradições, lendas e cultura popular brasileira.",
+    "categories": [
+      "cultural"
+    ]
   },
   {
     "id": "dia-do-cliente",
     "name": "Dia do Cliente",
     "date": "09-15",
     "type": "commemorative",
-    "description": "Data para reconhecer a importância do consumidor no mercado."
+    "description": "Data para reconhecer a importância do consumidor no mercado.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-da-arvore",
     "name": "Dia da Árvore",
     "date": "09-21",
     "type": "commemorative",
-    "description": "Conscientização sobre arborização urbana e preservação florestal."
+    "description": "Conscientização sobre arborização urbana e preservação florestal.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-do-idoso",
     "name": "Dia do Idoso",
     "date": "10-01",
     "type": "commemorative",
-    "description": "Homenagem às pessoas idosas e à promoção do envelhecimento ativo."
+    "description": "Homenagem às pessoas idosas e à promoção do envelhecimento ativo.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-das-criancas",
     "name": "Dia das Crianças",
     "date": "10-12",
     "type": "commemorative",
-    "description": "Celebração da infância e dos direitos das crianças no Brasil."
+    "description": "Celebração da infância e dos direitos das crianças no Brasil.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-do-professor",
     "name": "Dia do Professor",
     "date": "10-15",
     "type": "commemorative",
-    "description": "Homenagem aos educadores e ao papel da escola na sociedade."
+    "description": "Homenagem aos educadores e ao papel da escola na sociedade.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-do-servidor-publico",
     "name": "Dia do Servidor Público",
     "date": "10-28",
     "type": "commemorative",
-    "description": "Reconhecimento dos profissionais que atuam no serviço público."
+    "description": "Reconhecimento dos profissionais que atuam no serviço público.",
+    "categories": [
+      "social"
+    ]
   },
   {
     "id": "dia-da-bandeira",
     "name": "Dia da Bandeira",
     "date": "11-19",
     "type": "commemorative",
-    "description": "Homenagem ao símbolo nacional e ao hino da bandeira brasileira."
+    "description": "Homenagem ao símbolo nacional e ao hino da bandeira brasileira.",
+    "categories": [
+      "civico"
+    ]
   },
   {
     "id": "combate-violencia-mulher",
     "name": "Dia de Combate à Violência contra a Mulher",
     "date": "11-25",
     "type": "commemorative",
-    "description": "Mobilização contra a violência de gênero, em memória de Maria da Penha."
+    "description": "Mobilização contra a violência de gênero, em memória de Maria da Penha.",
+    "categories": [
+      "social"
+    ]
   }
 ]

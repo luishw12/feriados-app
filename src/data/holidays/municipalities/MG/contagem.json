@@ -9,7 +9,11 @@
       "name": "Aniversário de Contagem",
       "date": "08-30",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

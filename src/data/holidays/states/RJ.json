@@ -8,14 +8,21 @@
       "name": "São Sebastião",
       "date": "01-20",
       "type": "state",
-      "description": "Padroeiro do estado do Rio de Janeiro."
+      "description": "Padroeiro do estado do Rio de Janeiro.",
+      "categories": [
+        "religioso"
+      ]
     },
     {
       "id": "sao-jorge-rj",
       "name": "São Jorge",
       "date": "04-23",
       "type": "state_optional",
-      "description": "Feriado facultativo no RJ."
+      "description": "Feriado facultativo no RJ.",
+      "categories": [
+        "religioso",
+        "cultural"
+      ]
     }
   ]
 }

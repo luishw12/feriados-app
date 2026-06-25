@@ -9,7 +9,11 @@
       "name": "Aniversário de Palmas",
       "date": "05-22",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

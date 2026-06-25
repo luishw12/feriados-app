@@ -9,7 +9,11 @@
       "name": "Aniversário de Natal",
       "date": "12-25",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

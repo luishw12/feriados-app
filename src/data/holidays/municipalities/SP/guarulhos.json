@@ -9,7 +9,11 @@
       "name": "Aniversário de Guarulhos",
       "date": "12-08",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }

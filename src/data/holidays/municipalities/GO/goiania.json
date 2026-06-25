@@ -9,7 +9,11 @@
       "name": "Aniversário de Goiânia",
       "date": "10-24",
       "type": "municipal",
-      "description": "Fundação do município."
+      "description": "Fundação do município.",
+      "categories": [
+        "historico",
+        "civico"
+      ]
     }
   ]
 }
