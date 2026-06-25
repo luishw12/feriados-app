@@ -6,6 +6,9 @@ import HolidayArticleBody from '@/components/holiday/HolidayArticleBody.astro';
 import HolidayArticleSources from '@/components/holiday/HolidayArticleSources.astro';
 import HolidayContributors from '@/components/holiday/HolidayContributors.astro';
 import HolidayArticleNav from '@/components/holiday/HolidayArticleNav.astro';
+import HolidayNavButtons, {
+  type NavHoliday,
+} from '@/components/interactive/HolidayNavButtons';
 import { getArticleById, getArticlePublishedDate, getAllArticleIds } from '@/lib/articles';
 import {
   getAllHolidayDefinitions,
@@ -22,6 +25,30 @@ export const getStaticPaths: GetStaticPaths = () => {
   const definitions = getAllHolidayDefinitions().filter((holiday) => articleIds.has(holiday.id));
   const year = new Date().getFullYear();
 
+  // Lista de feriados navegáveis (com artigo) para a navegação por localização,
+  // resolvida no cliente conforme a localização salva pelo usuário.
+  const navHolidays: NavHoliday[] = definitions.map((holiday) => ({
+    id: holiday.id,
+    name: holiday.name,
+    ...(holiday.date ? { date: holiday.date } : {}),
+    ...(holiday.dateRule ? { dateRule: holiday.dateRule } : {}),
+    national: holiday.scopes.some((scope) => !scope.uf && !scope.citySlug),
+    ufs: [
+      ...new Set(
+        holiday.scopes
+          .filter((scope) => scope.uf && !scope.citySlug)
+          .map((scope) => scope.uf as string),
+      ),
+    ],
+    citySlugs: [
+      ...new Set(
+        holiday.scopes
+          .filter((scope) => scope.citySlug)
+          .map((scope) => scope.citySlug as string),
+      ),
+    ],
+  }));
+
   return definitions.map((definition) => {
     const article = getArticleById(definition.id);
     if (!article) {
@@ -36,6 +63,7 @@ export const getStaticPaths: GetStaticPaths = () => {
         resolvedHoliday: resolveHolidayForYear(definition, year),
         scopeLabel: getHolidayScopeLabel(definition),
         year,
+        navHolidays,
       },
     };
   });
@@ -47,9 +75,10 @@ interface Props {
   resolvedHoliday: import('@/data/schema').ResolvedHoliday;
   scopeLabel: string;
   year: number;
+  navHolidays: NavHoliday[];
 }
 
-const { definition, article, resolvedHoliday, scopeLabel, year } = Astro.props;
+const { definition, article, resolvedHoliday, scopeLabel, year, navHolidays } = Astro.props;
 const meta = getHolidayArticleMeta(resolvedHoliday.name, article.lead, definition.id, year);
 const ogImage = getHolidayArticleOgImage(article.image?.src);
 const siteUrl = getSiteUrl(Astro.site);
@@ -89,49 +118,53 @@ const holidayPageUrl = `${siteUrl}/feriado/${definition.id}/`;
   }}
 >
   <div class="mx-auto max-w-4xl space-y-10 px-4 py-10">
-    <nav class="text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
-      <ol class="flex flex-wrap items-center gap-2">
-        <li>
-          <a href="/" class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400">
-            Início
-          </a>
-        </li>
-        {
-          stateScope?.stateSlug && (
-            <>
-              <li aria-hidden="true">/</li>
-              <li>
-                <a
-                  href={`/${stateScope.stateSlug}/`}
-                  class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400"
-                >
-                  {stateScope.stateName ?? stateScope.uf}
-                </a>
-              </li>
-            </>
-          )
-        }
-        {
-          municipalScope?.stateSlug && municipalScope.citySlug && (
-            <>
-              <li aria-hidden="true">/</li>
-              <li>
-                <a
-                  href={`/${municipalScope.stateSlug}/${municipalScope.citySlug}/`}
-                  class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400"
-                >
-                  {municipalScope.cityName}
-                </a>
-              </li>
-            </>
-          )
-        }
-        <li aria-hidden="true">/</li>
-        <li>
-          <span class="text-neutral-700 dark:text-neutral-300">{resolvedHoliday.name}</span>
-        </li>
-      </ol>
-    </nav>
+    <div class="flex items-center gap-4">
+      <nav class="text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li>
+            <a href="/" class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400">
+              Início
+            </a>
+          </li>
+          {
+            stateScope?.stateSlug && (
+              <>
+                <li aria-hidden="true">/</li>
+                <li>
+                  <a
+                    href={`/${stateScope.stateSlug}/`}
+                    class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400"
+                  >
+                    {stateScope.stateName ?? stateScope.uf}
+                  </a>
+                </li>
+              </>
+            )
+          }
+          {
+            municipalScope?.stateSlug && municipalScope.citySlug && (
+              <>
+                <li aria-hidden="true">/</li>
+                <li>
+                  <a
+                    href={`/${municipalScope.stateSlug}/${municipalScope.citySlug}/`}
+                    class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400"
+                  >
+                    {municipalScope.cityName}
+                  </a>
+                </li>
+              </>
+            )
+          }
+          <li aria-hidden="true">/</li>
+          <li>
+            <span class="text-neutral-700 dark:text-neutral-300">{resolvedHoliday.name}</span>
+          </li>
+        </ol>
+      </nav>
+
+      <HolidayNavButtons client:load currentId={definition.id} year={year} holidays={navHolidays} />
+    </div>
 
     <HolidayArticleHero
       holiday={resolvedHoliday}

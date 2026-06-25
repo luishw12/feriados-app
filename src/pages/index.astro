@@ -49,7 +49,6 @@ const stateRegionalHolidays: Holiday[] = getAllStateRegionalHolidays(year).map(
   canonical={meta.canonical}
   jsonLd={jsonLd}
   fullHeight
-  showLocationSlot
 >
   <section class="sr-only" aria-label="Navegação por estado">
     <h1>Feriados no Brasil {year} — Calendário Completo por Estado e Cidade</h1>
@@ -92,7 +91,6 @@ const stateRegionalHolidays: Holiday[] = getAllStateRegionalHolidays(year).map(
     <HomeInteractive
       client:load
       initialYear={year}
-      states={states}
       nationalHolidays={nationalHolidays}
       stateHolidaysByUf={stateHolidaysByUf}
       stateRegionalHolidays={stateRegionalHolidays}
