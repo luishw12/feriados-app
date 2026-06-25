@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2704302,
+  "name": "Maceió",
+  "slug": "maceio",
+  "uf": "AL",
+  "holidays": [
+    {
+      "id": "aniversario-maceio",
+      "name": "Aniversário de Maceió",
+      "date": "12-09",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2927408,
+  "name": "Salvador",
+  "slug": "salvador",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-salvador",
+      "name": "Aniversário de Salvador",
+      "date": "03-29",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

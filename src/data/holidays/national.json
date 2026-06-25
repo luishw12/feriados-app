@@ -1,0 +1,107 @@
+[
+  {
+    "id": "confraternizacao-universal",
+    "name": "Confraternização Universal",
+    "date": "01-01",
+    "type": "national",
+    "description": "Celebrado mundialmente, marca o início do ano novo."
+  },
+  {
+    "id": "carnaval-segunda",
+    "name": "Carnaval (Segunda-feira)",
+    "dateRule": "easter-48",
+    "type": "optional",
+    "description": "Feriado facultativo. 48 dias antes da Páscoa."
+  },
+  {
+    "id": "carnaval-terca",
+    "name": "Carnaval (Terça-feira)",
+    "dateRule": "easter-47",
+    "type": "optional",
+    "description": "Feriado facultativo. 47 dias antes da Páscoa."
+  },
+  {
+    "id": "quarta-cinzas",
+    "name": "Quarta-feira de Cinzas",
+    "dateRule": "easter-46",
+    "type": "optional",
+    "description": "Feriado facultativo, meio período."
+  },
+  {
+    "id": "sexta-santa",
+    "name": "Sexta-feira Santa",
+    "dateRule": "easter-2",
+    "type": "national",
+    "description": "Paixão de Cristo. 2 dias antes da Páscoa."
+  },
+  {
+    "id": "pascoa",
+    "name": "Páscoa",
+    "dateRule": "easter+0",
+    "type": "national",
+    "description": "Data calculada pelo algoritmo de Meeus/Jones/Butcher."
+  },
+  {
+    "id": "tiradentes",
+    "name": "Tiradentes",
+    "date": "04-21",
+    "type": "national",
+    "description": "Homenagem ao mártir da Inconfidência Mineira."
+  },
+  {
+    "id": "dia-do-trabalho",
+    "name": "Dia do Trabalho",
+    "date": "05-01",
+    "type": "national",
+    "description": "Dia Internacional do Trabalho."
+  },
+  {
+    "id": "corpus-christi",
+    "name": "Corpus Christi",
+    "dateRule": "easter+60",
+    "type": "optional",
+    "description": "Feriado facultativo. 60 dias após a Páscoa."
+  },
+  {
+    "id": "independencia",
+    "name": "Independência do Brasil",
+    "date": "09-07",
+    "type": "national",
+    "description": "Proclamação da Independência em 1822."
+  },
+  {
+    "id": "nossa-senhora-aparecida",
+    "name": "Nossa Senhora Aparecida",
+    "date": "10-12",
+    "type": "national",
+    "description": "Padroeira do Brasil."
+  },
+  {
+    "id": "finados",
+    "name": "Finados",
+    "date": "11-02",
+    "type": "national",
+    "description": "Dia de homenagem aos mortos."
+  },
+  {
+    "id": "proclamacao-republica",
+    "name": "Proclamação da República",
+    "date": "11-15",
+    "type": "national",
+    "description": "Proclamação da República Federativa do Brasil em 1889."
+  },
+  {
+    "id": "consciencia-negra",
+    "name": "Dia da Consciência Negra",
+    "date": "11-20",
+    "type": "national",
+    "description": "Lei 14.759/2023 tornou feriado nacional a partir de 2024."
+  },
+  {
+    "id": "natal",
+    "name": "Natal",
+    "date": "12-25",
+    "type": "national",
+    "description": "Celebração do nascimento de Jesus Cristo."
+  }
+]

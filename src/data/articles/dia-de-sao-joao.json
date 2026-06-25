@@ -1,0 +1,27 @@
+{
+  "id": "dia-de-sao-joao",
+  "lead": "O Dia de São João, em 24 de junho, marca o ápice das festas juninas no Brasil, com fogueiras, quadrilhas, comidas típicas e celebrações populares.",
+  "history": [
+    "As festas juninas têm raízes europeias e se mesclaram com a cultura nordestina e brasileira.",
+    "São João é um dos santos mais associados às celebrações de junho, junto a Santo Antônio e São Pedro.",
+    "Cidades do interior e capitais promovem arraiais, festas públicas e eventos culturais."
+  ],
+  "traditions": [
+    "Quadrilhas, fogueiras, milho, pé-de-moleque e canjica.",
+    "Festas públicas em praças e escolas."
+  ],
+  "funFacts": [
+    "Em muitas regiões, as festas juninas se estendem por todo o mês de junho."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Festa_junina"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Midsummer_bonfire.jpg/1280px-Midsummer_bonfire.jpg",
+    "alt": "Dia de São João — Festa junina",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

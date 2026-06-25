@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 1501402,
+  "name": "Belém",
+  "slug": "belem",
+  "uf": "PA",
+  "holidays": [
+    {
+      "id": "aniversario-belem",
+      "name": "Aniversário de Belém",
+      "date": "01-12",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

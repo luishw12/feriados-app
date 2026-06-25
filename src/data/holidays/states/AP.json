@@ -1,0 +1,21 @@
+{
+  "uf": "AP",
+  "name": "Amapá",
+  "slug": "amapa",
+  "holidays": [
+    {
+      "id": "criacao-amapa",
+      "name": "Criação do Território Federal do Amapá",
+      "date": "09-13",
+      "type": "state",
+      "description": "Território criado em 1943."
+    },
+    {
+      "id": "sao-jose-amapa",
+      "name": "São José",
+      "date": "03-19",
+      "type": "state_optional",
+      "description": "Padroeiro do Amapá, facultativo."
+    }
+  ]
+}

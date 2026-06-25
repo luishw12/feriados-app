@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 1400100,
+  "name": "Boa Vista",
+  "slug": "boa-vista",
+  "uf": "RR",
+  "holidays": [
+    {
+      "id": "aniversario-boa-vista",
+      "name": "Aniversário de Boa Vista",
+      "date": "07-09",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

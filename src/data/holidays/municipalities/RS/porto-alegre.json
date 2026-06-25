@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 4314902,
+  "name": "Porto Alegre",
+  "slug": "porto-alegre",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-porto-alegre",
+      "name": "Aniversário de Porto Alegre",
+      "date": "03-26",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

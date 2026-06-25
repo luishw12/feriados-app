@@ -1,0 +1,21 @@
+{
+  "uf": "RR",
+  "name": "Roraima",
+  "slug": "roraima",
+  "holidays": [
+    {
+      "id": "criacao-roraima",
+      "name": "Criação do Estado de Roraima",
+      "date": "10-05",
+      "type": "state",
+      "description": "Estado criado em 1988."
+    },
+    {
+      "id": "dia-do-indio-rr",
+      "name": "Dia do Índio",
+      "date": "04-19",
+      "type": "state_optional",
+      "description": "Feriado facultativo em Roraima."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dia-dos-pais",
+  "lead": "O Dia dos Pais, no segundo domingo de agosto, homenageia os pais e figuras paternas, sendo uma das datas comemorativas mais populares do Brasil.",
+  "history": [
+    "Inspirado na tradição norte-americana, consolidou-se no Brasil a partir da década de 1950.",
+    "O comércio de presentes, eletrônicos, roupas e experiências cresce significativamente na semana da data.",
+    "Famílias costumam reunir-se para refeições e homenagens afetivas."
+  ],
+  "traditions": [
+    "Presentes e almoços em família.",
+    "Homenagens em escolas e clubes."
+  ],
+  "funFacts": [
+    "É o equivalente masculino do Dia das Mães no calendário comercial brasileiro."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_dos_Pais"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/BritaAndI_Selfportrait.jpg/1280px-BritaAndI_Selfportrait.jpg",
+    "alt": "Dia dos Pais — Dia dos Pais",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

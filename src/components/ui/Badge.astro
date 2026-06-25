@@ -1,0 +1,24 @@
+---
+import type { HolidayType } from '@/data/schema';
+import { HOLIDAY_TYPE_COLORS, HOLIDAY_TYPE_LABELS } from '@/lib/constants';
+
+interface Props {
+  type: HolidayType;
+  muted?: boolean;
+}
+
+const { type, muted = false } = Astro.props;
+const colors = HOLIDAY_TYPE_COLORS[type];
+const label = HOLIDAY_TYPE_LABELS[type];
+---
+
+<span
+  class:list={[
+    'inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium',
+    colors.bg,
+    colors.text,
+    muted && 'border border-dashed opacity-40',
+  ]}
+>
+  {label}
+</span>

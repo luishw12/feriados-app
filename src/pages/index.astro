@@ -1,0 +1,115 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import HomeInteractive from '@/components/interactive/HomeInteractive';
+import { getHomeMeta } from '@/lib/seo';
+import { buildHomeSchema } from '@/lib/schema';
+import { getSiteUrl } from '@/lib/site-url';
+import { getAllSearchFaqItems } from '@/lib/search-intents';
+import {
+  getAllStates,
+  getAllMunicipalities,
+  getAllNationalCalendarEvents,
+  getHolidaysByState,
+  getHolidaysByCity,
+  getAllRegionalHolidays,
+} from '@/lib/holidays';
+import type { Holiday } from '@/data/schema';
+
+const year = new Date().getFullYear();
+const meta = getHomeMeta(year);
+const authorName = import.meta.env.PUBLIC_AUTHOR_NAME ?? 'Luís Henrique Wendt';
+const siteUrl = getSiteUrl(Astro.site);
+const faqItems = getAllSearchFaqItems(year, siteUrl);
+const jsonLd = buildHomeSchema(siteUrl, authorName, faqItems);
+
+const states = getAllStates().map((s) => ({ uf: s.uf, name: s.name, slug: s.slug }));
+const municipalities = getAllMunicipalities().map((m) => ({
+  slug: m.slug,
+  name: m.name,
+  uf: m.uf,
+}));
+
+const nationalHolidays: Holiday[] = getAllNationalCalendarEvents(year).map(
+  ({ resolvedDate: _d, ...holiday }) => holiday,
+);
+
+const stateHolidaysByUf: Record<string, Holiday[]> = {};
+for (const state of getAllStates()) {
+  stateHolidaysByUf[state.uf] = getHolidaysByState(state.uf, year).map(
+    ({ resolvedDate: _d, ...holiday }) => holiday,
+  );
+}
+
+const municipalHolidaysByKey: Record<string, Holiday[]> = {};
+for (const municipality of getAllMunicipalities()) {
+  const key = `${municipality.uf}/${municipality.slug}`;
+  municipalHolidaysByKey[key] = getHolidaysByCity(
+    municipality.uf,
+    municipality.slug,
+    year,
+  ).map(({ resolvedDate: _d, ...holiday }) => holiday);
+}
+
+const allRegionalHolidays: Holiday[] = getAllRegionalHolidays(year).map(
+  ({ resolvedDate: _d, ...holiday }) => holiday,
+);
+---
+
+<BaseLayout
+  title={meta.title}
+  description={meta.description}
+  canonical={meta.canonical}
+  jsonLd={jsonLd}
+  fullHeight
+  showLocationSlot
+>
+  <section class="sr-only" aria-label="Navegação por estado">
+    <h1>Feriados no Brasil {year} — Calendário Completo por Estado e Cidade</h1>
+    <p>{meta.description}</p>
+    <p>
+      Guias de feriados {year}: <a href="/guia/">/guia/</a> — calendário, dias úteis, facultativos,
+      emendas e próximo feriado.
+    </p>
+    <p>
+      Índice para assistentes de IA: <a href="/llms.txt">/llms.txt</a> (resumo) e
+      <a href="/llms-full.txt">/llms-full.txt</a> (calendário completo {year}).
+    </p>
+    <nav aria-label="Estados">
+      <ul>
+        {
+          states.map((state) => (
+            <li>
+              <a href={`/${state.slug}/`}>Feriados em {state.name}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <section aria-label="Perguntas frequentes">
+      <h2>Perguntas frequentes</h2>
+      <dl>
+        {
+          faqItems.map((faq) => (
+            <>
+              <dt>{faq.question}</dt>
+              <dd>{faq.answer}</dd>
+            </>
+          ))
+        }
+      </dl>
+    </section>
+  </section>
+
+  <div class="mx-auto flex h-full max-w-5xl flex-col overflow-hidden px-4 pt-4">
+    <HomeInteractive
+      client:load
+      initialYear={year}
+      states={states}
+      municipalities={municipalities}
+      nationalHolidays={nationalHolidays}
+      stateHolidaysByUf={stateHolidaysByUf}
+      municipalHolidaysByKey={municipalHolidaysByKey}
+      allRegionalHolidays={allRegionalHolidays}
+    />
+  </div>
+</BaseLayout>

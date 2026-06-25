@@ -1,0 +1,21 @@
+{
+  "uf": "GO",
+  "name": "Goiás",
+  "slug": "goias",
+  "holidays": [
+    {
+      "id": "criacao-goias",
+      "name": "Criação do Estado de Goiás",
+      "date": "10-24",
+      "type": "state",
+      "description": "Goiás elevado à categoria de província em 1748."
+    },
+    {
+      "id": "padroeira-goias",
+      "name": "Nossa Senhora Auxiliadora",
+      "date": "05-24",
+      "type": "state_optional",
+      "description": "Padroeira de Goiás, facultativo."
+    }
+  ]
+}

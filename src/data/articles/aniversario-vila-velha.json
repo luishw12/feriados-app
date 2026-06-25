@@ -1,0 +1,34 @@
+{
+  "id": "aniversario-vila-velha",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Vila_Velha_ES_a_partir_do_Convento_da_Penha.JPG/1280px-Vila_Velha_ES_a_partir_do_Convento_da_Penha.JPG",
+    "alt": "Aniversário de Vila Velha — Vila Velha",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Prefeitura de Vila Velha",
+      "url": "https://www.gov.br"
+    },
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "Aniversário de Vila Velha é feriado municipal em Vila Velha/ES, celebrado em 27 de maio, quando a cidade relembra sua história, identidade e conquistas coletivas.",
+  "legalBasis": "Feriado municipal previsto na legislação de Vila Velha, integrando o calendário oficial de repouso do município.",
+  "history": [
+    "Fundação do município.",
+    "Em Vila Velha, o aniversário costuma mobilizar eventos culturais, shows e atividades cívicas que reforçam o orgulho local.",
+    "Feriados municipais variam conforme a legislação de cada prefeitura e podem coincidir com feriados estaduais ou nacionais."
+  ],
+  "traditions": [
+    "Programação cultural em praças e centros de convivência.",
+    "Hasteamento de bandeiras e cerimônias com autoridades locais.",
+    "Promoções comerciais e feiras gastronômicas em diversas cidades."
+  ],
+  "funFacts": [
+    "O feriado é válido no município de Vila Velha, não necessariamente em toda a unidade federativa.",
+    "Viajantes devem confirmar o calendário local ao planejar compromissos na cidade."
+  ]
+}

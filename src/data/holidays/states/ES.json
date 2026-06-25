@@ -1,0 +1,21 @@
+{
+  "uf": "ES",
+  "name": "Espírito Santo",
+  "slug": "espirito-santo",
+  "holidays": [
+    {
+      "id": "padroeira-es",
+      "name": "Nossa Senhora da Vitória",
+      "date": "09-08",
+      "type": "state",
+      "description": "Padroeira do Espírito Santo."
+    },
+    {
+      "id": "colonizacao-es",
+      "name": "Colonização do Espírito Santo",
+      "date": "05-23",
+      "type": "state_optional",
+      "description": "Feriado facultativo estadual."
+    }
+  ]
+}

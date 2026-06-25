@@ -1,0 +1,46 @@
+---
+import type { HolidayDefinition } from '@/data/schema';
+
+interface Props {
+  definition: HolidayDefinition;
+}
+
+const { definition } = Astro.props;
+
+const municipalScope = definition.scopes.find((scope) => scope.citySlug && scope.stateSlug);
+const stateScope = definition.scopes.find((scope) => scope.stateSlug && !scope.citySlug);
+---
+
+<nav
+  class="flex flex-wrap items-center gap-3 border-t border-neutral-200 pt-8 dark:border-neutral-800"
+  aria-label="Navegação do artigo"
+>
+  <a
+    href="/"
+    class="inline-flex items-center rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700 transition-colors duration-150 hover:border-emerald-300 hover:text-emerald-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:border-emerald-700 dark:hover:text-emerald-400"
+  >
+    Voltar ao calendário
+  </a>
+
+  {
+    stateScope?.stateSlug && (
+      <a
+        href={`/${stateScope.stateSlug}/`}
+        class="inline-flex items-center rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700 transition-colors duration-150 hover:border-emerald-300 hover:text-emerald-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:border-emerald-700 dark:hover:text-emerald-400"
+      >
+        Feriados em {stateScope.stateName ?? stateScope.uf}
+      </a>
+    )
+  }
+
+  {
+    municipalScope?.stateSlug && municipalScope.citySlug && (
+      <a
+        href={`/${municipalScope.stateSlug}/${municipalScope.citySlug}/`}
+        class="inline-flex items-center rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700 transition-colors duration-150 hover:border-emerald-300 hover:text-emerald-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:border-emerald-700 dark:hover:text-emerald-400"
+      >
+        Feriados em {municipalScope.cityName}
+      </a>
+    )
+  }
+</nav>

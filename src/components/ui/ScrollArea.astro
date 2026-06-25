@@ -1,0 +1,20 @@
+---
+interface Props {
+  orientation?: 'vertical' | 'horizontal' | 'both';
+  class?: string;
+  tag?: 'div' | 'nav' | 'section';
+}
+
+const { orientation = 'vertical', class: className = '', tag: Tag = 'div' } = Astro.props;
+
+const orientationClass =
+  orientation === 'horizontal'
+    ? 'scroll-area-x'
+    : orientation === 'both'
+      ? 'scroll-area-both'
+      : 'scroll-area-y';
+---
+
+<Tag class:list={['scroll-area', orientationClass, className]}>
+  <slot />
+</Tag>

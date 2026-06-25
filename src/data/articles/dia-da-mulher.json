@@ -1,0 +1,27 @@
+{
+  "id": "dia-da-mulher",
+  "lead": "O Dia Internacional da Mulher, em 8 de março, celebra conquistas sociais e reforça a luta por igualdade, respeito e direitos para todas as mulheres.",
+  "history": [
+    "A data remonta a movimentações trabalhistas do início do século XX e ganhou projeção internacional ao longo das décadas.",
+    "No Brasil, 8 de março é marcado por debates sobre igualdade salarial, representatividade política e combate à violência de gênero.",
+    "Empresas, sindicatos e organizações sociais promovem eventos de conscientização e homenagens."
+  ],
+  "traditions": [
+    "Marchas e atos públicos em capitais.",
+    "Campanhas nas redes sociais e na mídia."
+  ],
+  "funFacts": [
+    "Não é feriado nacional, mas é uma das datas comemorativas mais reconhecidas do calendário."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_Internacional_das_Mulheres"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Frauentag_1914_Heraus_mit_dem_Frauenwahlrecht.jpg/1280px-Frauentag_1914_Heraus_mit_dem_Frauenwahlrecht.jpg",
+    "alt": "Dia Internacional da Mulher — Dia Internacional das Mulheres",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

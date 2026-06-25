@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 1200401,
+  "name": "Rio Branco",
+  "slug": "rio-branco",
+  "uf": "AC",
+  "holidays": [
+    {
+      "id": "aniversario-rio-branco",
+      "name": "Aniversário de Rio Branco",
+      "date": "08-25",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

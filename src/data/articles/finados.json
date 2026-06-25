@@ -1,0 +1,29 @@
+{
+  "id": "finados",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/William-Adolphe_Bouguereau_%281825-1905%29_-_The_Day_of_the_Dead_%281859%29.jpg/1280px-William-Adolphe_Bouguereau_%281825-1905%29_-_The_Day_of_the_Dead_%281859%29.jpg",
+    "alt": "Finados — Dia de Finados",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "O Dia de Finados, em 2 de novembro, dedica-se à memória dos que já partiram e combina tradição católica com costumes brasileiros de visita aos cemitérios.",
+  "legalBasis": "Feriado nacional previsto na Lei nº 662/1949, ligado ao calendário católico de homenagem aos fiéis defuntos.",
+  "history": [
+    "A celebração remonta à prática medieval de orações pelos mortos, incorporada ao calendário colonial brasileiro.",
+    "No país, a data reforça laços familiares e rituais de cuidado com túmulos e mausoléus.",
+    "É feriado de reflexão, com menor presença de festividades comerciais em comparação a outras datas."
+  ],
+  "traditions": [
+    "Visitas a cemitérios com flores e velas.",
+    "Missas de finados em comunidades religiosas."
+  ],
+  "funFacts": [
+    "Flores e cânticos populares marcam o dia em cemitérios urbanos e rurais.",
+    "Costuma haver trânsito intenso nos acessos a cemitérios nas manhãs do feriado."
+  ]
+}

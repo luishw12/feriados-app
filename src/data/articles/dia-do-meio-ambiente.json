@@ -1,0 +1,27 @@
+{
+  "id": "dia-do-meio-ambiente",
+  "lead": "O Dia Mundial do Meio Ambiente, em 5 de junho, foi criado pela ONU para estimular ações em defesa do planeta e dos ecossistemas.",
+  "history": [
+    "Celebrado desde 1972, após a Conferência de Estocolmo sobre o meio humano.",
+    "No Brasil, a data dialoga com a Lei do Meio Ambiente e políticas de sustentabilidade.",
+    "Governos e organizações promovem seminários, mutirões e campanhas educativas."
+  ],
+  "traditions": [
+    "Palestras e eventos ambientais.",
+    "Ações de coleta seletiva e educação ecológica."
+  ],
+  "funFacts": [
+    "Cada edição costuma ter um tema oficial definido pelo Programa das Nações Unidas para o Meio Ambiente."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_Mundial_do_Meio_Ambiente"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/langpt-330px-Flag_of_Brazil.svg.png",
+    "alt": "Dia Mundial do Meio Ambiente — Brasil",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

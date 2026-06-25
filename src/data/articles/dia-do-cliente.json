@@ -1,0 +1,27 @@
+{
+  "id": "dia-do-cliente",
+  "lead": "O Dia do Cliente, em 15 de setembro, reconhece a importância do consumidor e costuma ser marcado por promoções e campanhas comerciais.",
+  "history": [
+    "A data surgiu no Brasil como estratégia do varejo para fidelizar consumidores.",
+    "Lojas físicas e e-commerce oferecem descontos, brindes e condições especiais.",
+    "Também dialoga com o Código de Defesa do Consumidor e os direitos do consumidor."
+  ],
+  "traditions": [
+    "Liquidações e promoções no comércio.",
+    "Campanhas de relacionamento de marcas com clientes."
+  ],
+  "funFacts": [
+    "É uma das datas favoritas do varejo online no Brasil."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_do_Cliente"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/langpt-330px-Flag_of_Brazil.svg.png",
+    "alt": "Dia do Cliente — Brasil",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

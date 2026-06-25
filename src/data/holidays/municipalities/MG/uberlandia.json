@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 3170206,
+  "name": "Uberlândia",
+  "slug": "uberlandia",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-uberlandia",
+      "name": "Aniversário de Uberlândia",
+      "date": "08-31",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

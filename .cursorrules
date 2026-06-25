@@ -1,0 +1,178 @@
+# Feriados Brasil — Cursor Rules
+
+## Projeto
+
+Site estático de feriados do Brasil. Portfólio técnico open source com foco em SEO orgânico e captação de leads via LinkedIn.
+
+**Stack:** Astro v4 + React islands + Tailwind CSS v3 + TypeScript  
+**Dados:** JSON estático em `src/data/holidays/` — sem API calls em runtime  
+**Deploy:** Vercel (SSG puro)
+
+---
+
+## Contexto Sempre Presente
+
+Antes de qualquer resposta, considere:
+- Este projeto é **100% estático** — sem backend, sem API routes, sem banco de dados
+- React é usado **apenas para interatividade** via Astro islands (HolidayCalendar, Countdown, LocationPicker, ThemeToggle, YearSelector)
+- Todos os dados de feriados estão em **JSON files** na pasta `src/data/holidays/`
+- Imports usam alias `@/` que aponta para `src/`
+- Dark mode via classe `dark` no `<html>` (Tailwind `darkMode: 'class'`)
+
+---
+
+## Regras de Código
+
+### TypeScript
+- `strict: true` — sem exceções
+- Nunca usar `any` — use `unknown` com type narrowing se necessário
+- Nunca usar `as Type` para escapar do sistema de tipos
+- Interfaces para objetos com chaves conhecidas
+- Types para unions e tipos complexos
+- Exportar tipos com `export type`, não `export`
+
+### Astro
+- Frontmatter sempre tipado com `interface Props`
+- Usar `<Image />` de `astro:assets` para todas as imagens — NUNCA `<img>` raw
+- Canonical URL e meta tags em toda página via componente `<SEO />`
+- `lang="pt-BR"` no `<html>` do BaseLayout
+- Sem lógica complexa no template — extrair para `src/lib/`
+- Componentes Astro = máx 150 linhas
+
+### React (islands)
+- Functional components com TypeScript — sem class components
+- Props tipadas com interface explícita sempre
+- Sem `use client` — não é Next.js
+- `useEffect` apenas para efeitos reais (timers, eventos DOM externos, localStorage)
+- Estado derivado computado no corpo do componente, não em effects
+- Export default em toda página e componente island
+- Componentes React = máx 200 linhas
+
+### Tailwind CSS
+- Sem `style={}` inline — tudo em classes Tailwind
+- `dark:` prefix para dark mode
+- Cores de feriado via extensão do tema: `bg-holiday-national`, `text-holiday-state`, etc.
+- Sem classes arbitrárias `[valor]` quando existe equivalente Tailwind nativo
+- Transitions: `transition-colors duration-150` ou `duration-200` — sem bibliotecas de animação
+
+### Importações
+- Alias `@/` para `src/` em todos os imports
+- Tipos importados com `import type { ... }` separado dos imports de valor
+- Ordem: tipos → utilitários → componentes → assets
+
+---
+
+## Arquitetura de Dados
+
+```
+Dados (JSON) → src/lib/holidays.ts → Componentes Astro → Passados como props → React islands
+```
+
+- JSON files são importados via `import.meta.glob` em `src/lib/holidays.ts`
+- Lógica de datas móveis (Páscoa, Carnaval, etc.) em `src/lib/dates.ts`
+- Componentes nunca importam JSON diretamente — sempre via funções de `src/lib/holidays.ts`
+
+---
+
+## Diretivas de Hidratação Astro
+
+| Diretiva | Quando usar | Exemplos neste projeto |
+|---|---|---|
+| `client:load` | Crítico, visível imediatamente | ThemeToggle, LocationPicker, YearSelector |
+| `client:idle` | Não crítico, carrega quando idle | Countdown |
+| `client:visible` | Fora do viewport inicial | HolidayCalendar (se abaixo do fold) |
+
+---
+
+## SEO — Obrigações
+
+Toda página DEVE ter:
+1. `<SEO />` component com title, description, canonical, ogImage
+2. Schema.org JSON-LD (Event) para páginas com feriados
+3. `lang="pt-BR"` no html
+4. OG image (padrão: `/og/default.png`)
+
+Formatos de title:
+- Home: `Feriados no Brasil {ano} — Calendário Completo por Estado e Cidade`
+- Estado: `Feriados em {Estado} {ano} — Nacionais, Estaduais e Municipais`
+- Cidade: `Feriados em {Cidade}/{UF} {ano} — Calendário Municipal Completo`
+
+---
+
+## Performance — Targets Inegociáveis
+
+- Lighthouse Performance > 95
+- Lighthouse SEO = 100
+- Lighthouse Accessibility > 95
+- LCP < 2.5s
+- CLS < 0.1
+
+Para atingir isso:
+- Fontes: `@fontsource/inter` (self-hosted) — NUNCA Google Fonts
+- Imagens: `<Image />` do Astro com width/height explícitos
+- JS no cliente: mínimo possível — apenas nas islands necessárias
+- Sem bibliotecas de animação pesadas (framer-motion, gsap, etc.)
+
+---
+
+## Estrutura de Componentes
+
+```
+src/components/
+├── ui/           → Átomos genéricos (Badge, Button, Card) — Astro, sem lógica de domínio
+├── holiday/      → Moléculas de feriado (HolidayCard, HolidayList) — Astro
+├── interactive/  → Organismos interativos (React islands)
+└── layout/       → Estrutura da página (Header, Footer, Nav, LinkedInCTA) — Astro
+```
+
+---
+
+## O Que Nunca Fazer
+
+- `<img>` raw — sempre `<Image />` do Astro
+- Google Fonts — sempre `@fontsource/inter`
+- `fetch()` em runtime para dados de feriados — são 100% estáticos
+- API routes no Astro — projeto é `output: 'static'`
+- `any` em TypeScript — usar `unknown` com type guards
+- `localStorage` para estado de UI crítico sem fallback (usuário pode ter bloqueado)
+- `document.write()`, `innerHTML` com strings não sanitizadas
+- Importar JSON diretamente em componentes — sempre via `src/lib/holidays.ts`
+- Bibliotecas de componentes prontas (shadcn, MUI, etc.) — construir os componentes
+- Bibliotecas de calendário prontas — o `HolidayCalendar` é construído do zero
+
+---
+
+## Convenções de Arquivo
+
+```
+PascalCase.astro    → componentes Astro
+PascalCase.tsx      → componentes React
+camelCase.ts        → utilitários
+kebab-case.astro    → páginas
+RS.json             → JSON de estado (MAIÚSCULO)
+porto-alegre.json   → JSON de cidade (kebab-case)
+```
+
+---
+
+## Quando Sugerir Código
+
+1. Sempre use TypeScript com tipos explícitos
+2. Sempre inclua o import path completo com alias `@/`
+3. Para componentes Astro, sempre inclua o frontmatter com `interface Props`
+4. Para componentes React, sempre inclua a interface de Props
+5. Para funções em `src/lib/`, sempre exporte com tipos de retorno explícitos
+6. Se a solução envolve dados de feriados, verifique se a função já existe em `src/lib/holidays.ts` antes de criar uma nova
+
+---
+
+## Datas Móveis — Referência Rápida
+
+| Feriado | Regra | Offset da Páscoa |
+|---|---|---|
+| Carnaval (segunda) | `easter-48` | -48 dias |
+| Carnaval (terça) | `easter-47` | -47 dias |
+| Quarta de Cinzas | `easter-46` | -46 dias |
+| Sexta-feira Santa | `easter-2` | -2 dias |
+| Páscoa | `easter+0` | 0 |
+| Corpus Christi | `easter+60` | +60 dias |

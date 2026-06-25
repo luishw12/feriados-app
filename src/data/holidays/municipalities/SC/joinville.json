@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 4209102,
+  "name": "Joinville",
+  "slug": "joinville",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-joinville",
+      "name": "Aniversário de Joinville",
+      "date": "03-09",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

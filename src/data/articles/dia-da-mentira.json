@@ -1,0 +1,27 @@
+{
+  "id": "dia-da-mentira",
+  "lead": "O Dia da Mentira, em 1º de abril, é tradicionalmente marcado por brincadeiras leves, pegadinhas e humor entre amigos, familiares e colegas.",
+  "history": [
+    "A tradição tem versões históricas na Europa e se popularizou no Brasil pela mídia e pela cultura popular.",
+    "Jornais e programas de TV já publicaram notícias fictícias como parte da brincadeira.",
+    "A data não possui caráter oficial, mas faz parte do calendário cultural brasileiro."
+  ],
+  "traditions": [
+    "Pegadinhas entre conhecidos.",
+    "Notícias humorísticas em veículos de comunicação."
+  ],
+  "funFacts": [
+    "Também é conhecido internacionalmente como April Fools' Day."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_da_Mentira"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Aprilsnar_2001.png/1280px-Aprilsnar_2001.png",
+    "alt": "Dia da Mentira — Dia da Mentira",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

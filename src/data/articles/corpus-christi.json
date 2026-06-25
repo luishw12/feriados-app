@@ -1,0 +1,29 @@
+{
+  "id": "corpus-christi",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Fronleichnam_in_Moosburg_Nr_1.jpg/1280px-Fronleichnam_in_Moosburg_Nr_1.jpg",
+    "alt": "Corpus Christi — Corpus Christi",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "Corpus Christi é feriado facultativo nacional dedicado à festa do Santíssimo Sacramento na tradição católica, celebrada 60 dias após a Páscoa.",
+  "legalBasis": "Ponto facultativo nacional; a adoção da folga varia entre União, estados, municípios e empresas privadas.",
+  "history": [
+    "A festa surgiu na Europa medieval e se consolidou no Brasil com procissões e tapetes de serragem colorida.",
+    "Em muitas cidades do interior, é uma das manifestações religiosas populares mais visíveis do ano.",
+    "A data móvel favorece longos fins de semana quando combinada com pontos facultativos locais."
+  ],
+  "traditions": [
+    "Procissões com tapetes artesanais nas ruas.",
+    "Missas solenes em paróquias católicas."
+  ],
+  "funFacts": [
+    "Tapetes de Corpus Christi são patrimônio cultural em cidades como Santana de Parnaíba (SP) e Olinda (PE).",
+    "Sempre cai em uma quinta-feira."
+  ]
+}

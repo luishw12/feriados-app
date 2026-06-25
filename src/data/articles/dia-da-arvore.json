@@ -1,0 +1,27 @@
+{
+  "id": "dia-da-arvore",
+  "lead": "O Dia da Árvore, em 21 de setembro, destaca a importância das árvores para o meio ambiente, o clima e a qualidade de vida nas cidades.",
+  "history": [
+    "A data foi proposta por pioneiros ambientalistas no Brasil no início do século XX.",
+    "Prefeituras e ONGs promovem plantios urbanos e educação ambiental.",
+    "Reforça a conexão entre arborização, sombra, biodiversidade e saúde pública."
+  ],
+  "traditions": [
+    "Mutirões de plantio de mudas.",
+    "Atividades educativas em escolas e parques."
+  ],
+  "funFacts": [
+    "Antecede a primavera no hemisfério sul, reforçando o simbolismo de renovação."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_da_%C3%81rvore"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Arbor_day_in_Algeria.jpg/1280px-Arbor_day_in_Algeria.jpg",
+    "alt": "Dia da Árvore — Dia da Árvore",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

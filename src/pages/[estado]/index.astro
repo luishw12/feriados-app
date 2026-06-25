@@ -1,0 +1,97 @@
+---
+import type { GetStaticPaths } from 'astro';
+import type { StateInfo } from '@/data/schema';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import HolidayList from '@/components/holiday/HolidayList.astro';
+import HolidayMonth from '@/components/holiday/HolidayMonth.astro';
+import { getAllStates, getAllHolidaysForContext, getAllMunicipalityPaths } from '@/lib/holidays';
+import { getStateMeta } from '@/lib/seo';
+import { buildStatePageSchema } from '@/lib/schema';
+import { getSiteUrl } from '@/lib/site-url';
+import { MONTH_NAMES } from '@/lib/constants';
+
+export const getStaticPaths: GetStaticPaths = () => {
+  const states = getAllStates();
+  return states.map((state) => ({
+    params: { estado: state.slug },
+    props: { state },
+  }));
+};
+
+interface Props {
+  state: StateInfo;
+}
+
+const { state } = Astro.props;
+const year = new Date().getFullYear();
+const meta = getStateMeta(state.name, year, state.slug);
+const holidays = getAllHolidaysForContext(year, state.uf);
+const siteUrl = getSiteUrl(Astro.site);
+const jsonLd = buildStatePageSchema(holidays, state.name, siteUrl, state.slug);
+const municipalities = getAllMunicipalityPaths()
+  .filter(({ state: s }) => s.uf === state.uf)
+  .map(({ municipality }) => municipality)
+  .sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+---
+
+<BaseLayout title={meta.title} description={meta.description} canonical={meta.canonical} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-6xl space-y-10 px-4 py-10">
+    <nav class="text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li>
+          <a href="/" class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400">
+            Início
+          </a>
+        </li>
+        <li aria-hidden="true">/</li>
+        <li>
+          <span class="text-neutral-700 dark:text-neutral-300">{state.name}</span>
+        </li>
+      </ol>
+    </nav>
+
+    <section class="space-y-3">
+      <h1 class="text-3xl font-semibold text-neutral-900 dark:text-neutral-50">
+        Feriados em {state.name} {year}
+      </h1>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Calendário com feriados nacionais e estaduais de {state.name}. Inclui {holidays.length}{' '}
+        feriados para {year}.
+      </p>
+    </section>
+
+    {
+      municipalities.length > 0 && (
+        <nav class="space-y-3" aria-label={`Cidades com feriados em ${state.name}`}>
+          <h2 class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">
+            Feriados por cidade
+          </h2>
+          <ul class="flex flex-wrap gap-2">
+            {
+              municipalities.map((municipality) => (
+                <li>
+                  <a
+                    href={`/${state.slug}/${municipality.slug}/`}
+                    class="inline-flex rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-sm text-neutral-700 transition-colors duration-150 hover:border-emerald-300 hover:text-emerald-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:border-emerald-700 dark:hover:text-emerald-400"
+                  >
+                    {municipality.name}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+      )
+    }
+
+    <section class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {
+        MONTH_NAMES.map((_, month) => (
+          <HolidayMonth holidays={holidays} year={year} month={month} />
+        ))
+      }
+    </section>
+
+    <HolidayList holidays={holidays} title="Todos os feriados" />
+  </div>
+</BaseLayout>

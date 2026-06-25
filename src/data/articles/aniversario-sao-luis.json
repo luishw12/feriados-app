@@ -1,0 +1,34 @@
+{
+  "id": "aniversario-sao-luis",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/S%C3%A3o_Lu%C3%ADs_A%C3%A9rea_%28cropped%29.jpg/1280px-S%C3%A3o_Lu%C3%ADs_A%C3%A9rea_%28cropped%29.jpg",
+    "alt": "Aniversário de São Luís — São Luís (Maranhão)",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Prefeitura de São Luís",
+      "url": "https://www.gov.br"
+    },
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "Aniversário de São Luís é feriado municipal em São Luís/MA, celebrado em 8 de setembro, quando a cidade relembra sua história, identidade e conquistas coletivas.",
+  "legalBasis": "Feriado municipal previsto na legislação de São Luís, integrando o calendário oficial de repouso do município.",
+  "history": [
+    "Fundação do município.",
+    "Em São Luís, o aniversário costuma mobilizar eventos culturais, shows e atividades cívicas que reforçam o orgulho local.",
+    "Feriados municipais variam conforme a legislação de cada prefeitura e podem coincidir com feriados estaduais ou nacionais."
+  ],
+  "traditions": [
+    "Programação cultural em praças e centros de convivência.",
+    "Hasteamento de bandeiras e cerimônias com autoridades locais.",
+    "Promoções comerciais e feiras gastronômicas em diversas cidades."
+  ],
+  "funFacts": [
+    "O feriado é válido no município de São Luís, não necessariamente em toda a unidade federativa.",
+    "Viajantes devem confirmar o calendário local ao planejar compromissos na cidade."
+  ]
+}

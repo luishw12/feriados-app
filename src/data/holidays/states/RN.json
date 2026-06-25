@@ -1,0 +1,21 @@
+{
+  "uf": "RN",
+  "name": "Rio Grande do Norte",
+  "slug": "rio-grande-do-norte",
+  "holidays": [
+    {
+      "id": "morte-lamartine-rn",
+      "name": "Morte de Lamartine Babo",
+      "date": "08-07",
+      "type": "state",
+      "description": "Homenagem ao compositor do hino do RN."
+    },
+    {
+      "id": "sao-joao-rn",
+      "name": "São João",
+      "date": "06-24",
+      "type": "state_optional",
+      "description": "Festa junina, facultativo no RN."
+    }
+  ]
+}

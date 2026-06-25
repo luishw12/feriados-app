@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2211001,
+  "name": "Teresina",
+  "slug": "teresina",
+  "uf": "PI",
+  "holidays": [
+    {
+      "id": "aniversario-teresina",
+      "name": "Aniversário de Teresina",
+      "date": "08-16",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

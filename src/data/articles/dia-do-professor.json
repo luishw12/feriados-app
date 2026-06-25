@@ -1,0 +1,27 @@
+{
+  "id": "dia-do-professor",
+  "lead": "O Dia do Professor, em 15 de outubro, homenageia educadores e reconhece o papel da escola na formação de cidadãos.",
+  "history": [
+    "A data remonta a homenagens a educadores no Brasil republicano e se consolidou no calendário escolar.",
+    "Alunos costumam preparar homenagens, cartazes e apresentações para professores.",
+    "Sindicatos e instituições de ensino debatem valorização da carreira docente."
+  ],
+  "traditions": [
+    "Homenagens em escolas públicas e privadas.",
+    "Eventos culturais em instituições de ensino."
+  ],
+  "funFacts": [
+    "No calendário internacional, o Dia Mundial dos Professores é celebrado em 5 de outubro."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_do_Professor"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/President_Obama%2C_teachers.jpg/1280px-President_Obama%2C_teachers.jpg",
+    "alt": "Dia do Professor — Dia do Professor",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

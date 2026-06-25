@@ -1,0 +1,24 @@
+---
+import type { FaqItem } from '@/lib/llms';
+
+interface Props {
+  items: FaqItem[];
+  title?: string;
+}
+
+const { items, title = 'Perguntas frequentes' } = Astro.props;
+---
+
+<section class="space-y-4" aria-label={title}>
+  <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">{title}</h2>
+  <dl class="space-y-4">
+    {
+      items.map((faq) => (
+        <div class="rounded-xl border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
+          <dt class="font-semibold text-neutral-900 dark:text-neutral-50">{faq.question}</dt>
+          <dd class="mt-2 text-sm text-neutral-600 dark:text-neutral-400">{faq.answer}</dd>
+        </div>
+      ))
+    }
+  </dl>
+</section>

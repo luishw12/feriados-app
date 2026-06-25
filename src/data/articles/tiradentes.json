@@ -1,0 +1,29 @@
+{
+  "id": "tiradentes",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Alferes_Tiradentes_01.jpg/1280px-Alferes_Tiradentes_01.jpg",
+    "alt": "Tiradentes — Tiradentes",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "O feriado de Tiradentes, em 21 de abril, homenageia Joaquim José da Silva Xavier, mártir da Inconfidência Mineira e patrono cívico da República.",
+  "legalBasis": "Feriado nacional instituído pela Lei nº 662/1949, em memória da execução de Tiradentes em 1792.",
+  "history": [
+    "A Inconfidência Mineira (1789) foi um movimento de crítica ao domínio português e às metas de cobrança fiscal na Capitania de Minas Gerais.",
+    "Tiradentes tornou-se símbolo de resistência e, posteriormente, de valores republicanos no imaginário nacional.",
+    "A data foi consolidada como feriado após o período republicano, reforçando a educação cívica."
+  ],
+  "traditions": [
+    "Cerimônias em praças públicas e escolas.",
+    "Desfiles cívicos em diversas cidades."
+  ],
+  "funFacts": [
+    "O apelido Tiradentes vem de sua atuação como dentista que arrancava dentes.",
+    "Em Brasília, a data coincide com o aniversário da cidade em algumas interpretações simbólicas do calendário."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dia-da-bandeira",
+  "lead": "O Dia da Bandeira, em 19 de novembro, homenageia o símbolo nacional brasileiro e o hino dedicado à bandeira verde e amarela.",
+  "history": [
+    "Instituído em 1939, a data celebra a bandeira adotada na República e seu simbolismo histórico.",
+    "Escolas realizam cerimônias de hasteamento e execução do Hino à Bandeira Nacional.",
+    "Reforça o civismo e a identidade nacional em eventos oficiais."
+  ],
+  "traditions": [
+    "Cerimônias cívicas em escolas.",
+    "Desfiles e eventos oficiais em algumas cidades."
+  ],
+  "funFacts": [
+    "O Hino à Bandeira Nacional tem letra de Olavo Bilac e música de Francisco Braga."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_da_Bandeira"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/MINISTRO_DE_DEFENSA_PARTICIP%C3%93_EN_CEREMONIA_POR_EL_D%C3%8DA_DE_LA_BANDERA_%288979053797%29.jpg/1280px-MINISTRO_DE_DEFENSA_PARTICIP%C3%93_EN_CEREMONIA_POR_EL_D%C3%8DA_DE_LA_BANDERA_%288979053797%29.jpg",
+    "alt": "Dia da Bandeira — Dia da Bandeira",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

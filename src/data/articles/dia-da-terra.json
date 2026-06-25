@@ -1,0 +1,27 @@
+{
+  "id": "dia-da-terra",
+  "lead": "O Dia da Terra, em 22 de abril, mobiliza reflexões sobre meio ambiente, mudanças climáticas e responsabilidade coletiva com o planeta.",
+  "history": [
+    "Criado nos Estados Unidos em 1970, o Dia da Terra se espalhou pelo mundo como símbolo ambiental.",
+    "No Brasil, a data reforça debates sobre desmatamento, recursos hídricos e cidades sustentáveis.",
+    "Escolas e ONGs costumam organizar mutirões de limpeza e plantio de árvores."
+  ],
+  "traditions": [
+    "Campanhas de conscientização ambiental.",
+    "Ações de reflorestamento e educação ecológica."
+  ],
+  "funFacts": [
+    "Costuma coincidir com a Semana Nacional do Meio Ambiente em muitas cidades."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_da_Terra"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Earth_flag_PD.jpg/1280px-Earth_flag_PD.jpg",
+    "alt": "Dia da Terra — Dia da Terra",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

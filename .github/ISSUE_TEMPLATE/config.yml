@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Guia de contribuição
+    url: https://github.com/luishw12/feriados-app/blob/main/CONTRIBUTING.md
+    about: Leia como configurar o ambiente e enviar um PR

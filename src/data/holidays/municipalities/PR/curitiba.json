@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 4106902,
+  "name": "Curitiba",
+  "slug": "curitiba",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-curitiba",
+      "name": "Aniversário de Curitiba",
+      "date": "03-29",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

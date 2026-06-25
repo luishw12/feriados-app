@@ -1,0 +1,29 @@
+{
+  "id": "independencia",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pedro_Am%C3%A9rico_-_Independ%C3%AAncia_ou_Morte_-_cores_ajustadas.jpg/1280px-Pedro_Am%C3%A9rico_-_Independ%C3%AAncia_ou_Morte_-_cores_ajustadas.jpg",
+    "alt": "Independência do Brasil — Independência do Brasil",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "O Dia da Independência, em 7 de setembro, marca a separação do Brasil de Portugal e é um dos feriados nacionais mais emblemáticos.",
+  "legalBasis": "Feriado nacional previsto na Lei nº 662/1949, em memória da proclamação às margens do rio Ipiranga em 1822.",
+  "history": [
+    "Dom Pedro I proclamou a independência em São Paulo, consolidando processo político que transformou a colônia em Império.",
+    "A data reforça símbolos como a bandeira verde e amarela, desfiles cívicos e narrativas de soberania.",
+    "Ao longo do século XX, tornou-se feriado com forte presença escolar e militar."
+  ],
+  "traditions": [
+    "Desfiles cívico-militares em Brasília e capitais.",
+    "Apresentações escolares e hasteamento da bandeira."
+  ],
+  "funFacts": [
+    "O Grito do Ipiranga é retratado em pinturas e monumentos espalhados pelo país.",
+    "7 de setembro costuma concentrar eventos oficiais de alto público."
+  ]
+}

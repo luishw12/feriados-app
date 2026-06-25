@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 1600303,
+  "name": "Macapá",
+  "slug": "macapa",
+  "uf": "AP",
+  "holidays": [
+    {
+      "id": "aniversario-macapa",
+      "name": "Aniversário de Macapá",
+      "date": "02-04",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

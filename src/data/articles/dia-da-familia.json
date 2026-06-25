@@ -1,0 +1,27 @@
+{
+  "id": "dia-da-familia",
+  "lead": "O Dia Internacional da Família, em 15 de maio, destaca a importância dos laços familiares e do apoio mútuo entre gerações.",
+  "history": [
+    "Proclamado pela ONU em 1993, o dia reforça o papel da família na formação social.",
+    "No Brasil, a data é lembrada em escolas, instituições religiosas e campanhas públicas.",
+    "Promove reflexões sobre acolhimento, diversidade familiar e cuidado intergeracional."
+  ],
+  "traditions": [
+    "Atividades escolares sobre convivência familiar.",
+    "Campanhas de conscientização em saúde e educação."
+  ],
+  "funFacts": [
+    "Não é ponto facultativo nem feriado nacional."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_Internacional_da_Fam%C3%ADlia"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/langpt-330px-Flag_of_Brazil.svg.png",
+    "alt": "Dia Internacional da Família — Brasil",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

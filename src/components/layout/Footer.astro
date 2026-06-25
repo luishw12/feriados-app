@@ -1,0 +1,31 @@
+---
+const authorName = import.meta.env.PUBLIC_AUTHOR_NAME ?? 'Luís Henrique Wendt';
+const linkedinUrl = import.meta.env.PUBLIC_LINKEDIN_URL ?? 'https://linkedin.com/in/luishw';
+const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12';
+---
+
+<footer class="px-4 py-8">
+  <div
+    class="mx-auto flex max-w-5xl flex-col items-center gap-2 text-center text-xs text-neutral-400"
+  >
+    <p>
+      <a
+        href={githubUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
+      >
+        GitHub
+      </a>
+      <span class="mx-2">·</span>
+      <a
+        href={linkedinUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300"
+      >
+        {authorName}
+      </a>
+    </p>
+  </div>
+</footer>

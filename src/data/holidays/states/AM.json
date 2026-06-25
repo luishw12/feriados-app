@@ -1,0 +1,21 @@
+{
+  "uf": "AM",
+  "name": "Amazonas",
+  "slug": "amazonas",
+  "holidays": [
+    {
+      "id": "eleicao-amazonas",
+      "name": "Elevação do Amazonas à categoria de província",
+      "date": "09-05",
+      "type": "state",
+      "description": "Província do Amazonas criada em 1850."
+    },
+    {
+      "id": "dia-do-amazonense",
+      "name": "Dia do Amazonense",
+      "date": "09-05",
+      "type": "state",
+      "description": "Comemoração da identidade amazonense."
+    }
+  ]
+}

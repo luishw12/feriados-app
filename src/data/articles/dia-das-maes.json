@@ -1,0 +1,27 @@
+{
+  "id": "dia-das-maes",
+  "lead": "O Dia das Mães, celebrado no segundo domingo de maio, é uma das datas comemorativas mais importantes do Brasil para homenagear as mães.",
+  "history": [
+    "A tradição brasileira se consolidou no século XX com forte apelo comercial e familiar.",
+    "Restaurantes, shoppings e o comércio em geral registram alto movimento na data.",
+    "Também inspira homenagens em escolas, igrejas e redes sociais."
+  ],
+  "traditions": [
+    "Presentes, cartões e refeições em família.",
+    "Homenagens em escolas e comunidades religiosas."
+  ],
+  "funFacts": [
+    "É considerada uma das datas de maior consumo no varejo brasileiro."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_das_M%C3%A3es"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Clara%27s_Card.jpg/1280px-Clara%27s_Card.jpg",
+    "alt": "Dia das Mães — Dia das Mães",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

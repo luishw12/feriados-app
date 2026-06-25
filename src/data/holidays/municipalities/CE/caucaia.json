@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2303709,
+  "name": "Caucaia",
+  "slug": "caucaia",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-caucaia",
+      "name": "Aniversário de Caucaia",
+      "date": "01-27",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

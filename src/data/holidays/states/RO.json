@@ -1,0 +1,21 @@
+{
+  "uf": "RO",
+  "name": "Rondônia",
+  "slug": "rondonia",
+  "holidays": [
+    {
+      "id": "criacao-rondonia",
+      "name": "Criação do Estado de Rondônia",
+      "date": "09-04",
+      "type": "state",
+      "description": "Estado criado em 1981."
+    },
+    {
+      "id": "dia-do-evangelho-ro",
+      "name": "Dia do Evangélico",
+      "date": "11-30",
+      "type": "state_optional",
+      "description": "Feriado facultativo em Rondônia."
+    }
+  ]
+}

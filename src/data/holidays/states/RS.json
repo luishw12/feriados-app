@@ -1,0 +1,21 @@
+{
+  "uf": "RS",
+  "name": "Rio Grande do Sul",
+  "slug": "rio-grande-do-sul",
+  "holidays": [
+    {
+      "id": "revolucao-farroupilha",
+      "name": "Revolução Farroupilha",
+      "date": "09-20",
+      "type": "state",
+      "description": "Comemora o início da Revolução Farroupilha em 1835."
+    },
+    {
+      "id": "dia-do-gaucho",
+      "name": "Dia do Gaúcho",
+      "date": "09-20",
+      "type": "state",
+      "description": "Celebração da cultura gaúcha."
+    }
+  ]
+}

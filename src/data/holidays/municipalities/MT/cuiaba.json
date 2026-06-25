@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 5103403,
+  "name": "Cuiabá",
+  "slug": "cuiaba",
+  "uf": "MT",
+  "holidays": [
+    {
+      "id": "aniversario-cuiaba",
+      "name": "Aniversário de Cuiabá",
+      "date": "04-08",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

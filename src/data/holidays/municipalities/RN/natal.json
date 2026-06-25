@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2408102,
+  "name": "Natal",
+  "slug": "natal",
+  "uf": "RN",
+  "holidays": [
+    {
+      "id": "aniversario-natal",
+      "name": "Aniversário de Natal",
+      "date": "12-25",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

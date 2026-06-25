@@ -1,0 +1,27 @@
+{
+  "id": "dia-dos-namorados",
+  "lead": "O Dia dos Namorados, em 12 de junho, é a principal data brasileira para celebrar o amor romântico, com inspiração em Santo Antônio, padroeiro dos casamentos.",
+  "history": [
+    "A data foi impulsionada pelo comércio a partir da década de 1940 e consolidada nacionalmente nas décadas seguintes.",
+    "Diferente do Valentine's Day (14 de fevereiro), o Brasil concentra a celebração em junho.",
+    "Restaurantes, floriculturas e lojas registram um dos picos anuais de vendas."
+  ],
+  "traditions": [
+    "Troca de presentes, jantares e mensagens afetivas.",
+    "Promoções comerciais em todo o país."
+  ],
+  "funFacts": [
+    "12 de junho é véspera do dia de Santo Antônio na tradição católica."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_dos_Namorados"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Prang%27s_Valentine_Cards2.jpg/1280px-Prang%27s_Valentine_Cards2.jpg",
+    "alt": "Dia dos Namorados — Dia dos Namorados",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

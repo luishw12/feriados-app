@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 3518800,
+  "name": "Guarulhos",
+  "slug": "guarulhos",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-guarulhos",
+      "name": "Aniversário de Guarulhos",
+      "date": "12-08",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

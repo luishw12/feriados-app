@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 1721000,
+  "name": "Palmas",
+  "slug": "palmas",
+  "uf": "TO",
+  "holidays": [
+    {
+      "id": "aniversario-palmas",
+      "name": "Aniversário de Palmas",
+      "date": "05-22",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

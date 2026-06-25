@@ -1,0 +1,33 @@
+---
+import { GUIDE_PAGES, type GuideSlug } from '@/lib/search-intents';
+
+interface Props {
+  currentSlug?: GuideSlug | 'hub';
+}
+
+const { currentSlug = 'hub' } = Astro.props;
+---
+
+<nav class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-800 dark:bg-neutral-900/50" aria-label="Guias de feriados">
+  <p class="mb-3 text-sm font-semibold text-neutral-900 dark:text-neutral-50">Guias por tema</p>
+  <ul class="flex flex-wrap gap-2">
+    {
+      GUIDE_PAGES.map((guide) => (
+        <li>
+          <a
+            href={`/guia/${guide.slug}/`}
+            class:list={[
+              'inline-flex rounded-lg px-3 py-1.5 text-sm transition-colors duration-150',
+              currentSlug === guide.slug
+                ? 'bg-emerald-600 text-white dark:bg-emerald-500'
+                : 'border border-neutral-200 bg-white text-neutral-700 hover:border-emerald-300 hover:text-emerald-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:border-emerald-700 dark:hover:text-emerald-400',
+            ]}
+            aria-current={currentSlug === guide.slug ? 'page' : undefined}
+          >
+            {guide.shortTitle}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

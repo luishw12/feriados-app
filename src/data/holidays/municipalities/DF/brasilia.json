@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 5300108,
+  "name": "Brasília",
+  "slug": "brasilia",
+  "uf": "DF",
+  "holidays": [
+    {
+      "id": "aniversario-brasilia",
+      "name": "Aniversário de Brasília",
+      "date": "04-21",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

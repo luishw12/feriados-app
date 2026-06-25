@@ -1,0 +1,29 @@
+{
+  "id": "proclamacao-republica",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Proclama%C3%A7%C3%A3o_da_Rep%C3%BAblica_by_Benedito_Calixto_1893.jpg/1280px-Proclama%C3%A7%C3%A3o_da_Rep%C3%BAblica_by_Benedito_Calixto_1893.jpg",
+    "alt": "Proclamação da República — Proclamação da República do Brasil",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "Em 15 de novembro, o Brasil celebra a Proclamação da República, marco de 1889 que encerrou o Império e inaugurou o regime republicano.",
+  "legalBasis": "Feriado nacional estabelecido pela Lei nº 662/1949, em memória do golpe republicano liderado por militares e civis no Rio de Janeiro.",
+  "history": [
+    "A deposição de Dom Pedro II respondeu a tensões políticas do Segundo Reinado, incluindo questões escravistas, militares e econômicas.",
+    "A República Velha estruturou novo ordenamento institucional com Constituição de 1891.",
+    "A data é lembrada em contextos educativos sobre democracia e cidadania."
+  ],
+  "traditions": [
+    "Atividades cívicas em escolas e praças públicas.",
+    "Debates históricos sobre república e participação popular."
+  ],
+  "funFacts": [
+    "A Proclamação ocorreu no Campo de Santana, no Rio de Janeiro.",
+    "A bandeira republicana substituiu progressivamente símbolos monárquicos."
+  ]
+}

@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+        env:
+          PUBLIC_SITE_URL: https://feriados-brasil.vercel.app
+          PUBLIC_AUTHOR_NAME: Luís Henrique Wendt
+          PUBLIC_LINKEDIN_URL: https://linkedin.com/in/luishw
+          PUBLIC_GITHUB_URL: https://github.com/luishw12/feriados-app

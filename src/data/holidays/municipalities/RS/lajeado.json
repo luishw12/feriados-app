@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 4311403,
+  "name": "Lajeado",
+  "slug": "lajeado",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-lajeado",
+      "name": "Aniversário de Lajeado",
+      "date": "06-08",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 3304904,
+  "name": "São Gonçalo",
+  "slug": "sao-goncalo",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-sao-goncalo",
+      "name": "Aniversário de São Gonçalo",
+      "date": "09-22",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+---
+import type { ResolvedHoliday } from '@/data/schema';
+import Badge from '@/components/ui/Badge.astro';
+import Card from '@/components/ui/Card.astro';
+import { formatHolidayDate } from '@/lib/constants';
+
+interface Props {
+  holiday: ResolvedHoliday;
+  muted?: boolean;
+}
+
+const { holiday, muted = false } = Astro.props;
+const formattedDate = formatHolidayDate(holiday.resolvedDate);
+const href = `/feriado/${holiday.id}/`;
+---
+
+<a
+  href={href}
+  class="group block rounded-xl transition-colors duration-150 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500"
+  aria-label={`Ver artigo sobre ${holiday.name}`}
+>
+  <Card class:list={[muted && 'border-dashed opacity-60', 'group-hover:border-emerald-300 dark:group-hover:border-emerald-700']}>
+    <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+      <div class="space-y-1">
+        <div class="flex flex-wrap items-center gap-2">
+          <h3 class="font-semibold text-neutral-900 group-hover:text-emerald-700 dark:text-neutral-50 dark:group-hover:text-emerald-400">
+            {holiday.name}
+          </h3>
+          <Badge type={holiday.type} muted={muted} />
+        </div>
+        <p class="text-sm capitalize text-neutral-600 dark:text-neutral-400">{formattedDate}</p>
+        {
+          holiday.description && (
+            <p class="text-sm text-neutral-600 dark:text-neutral-400">{holiday.description}</p>
+          )
+        }
+        {
+          muted && (
+            <p class="text-xs italic text-neutral-500 dark:text-neutral-500">
+              Varia conforme seu estado ou cidade
+            </p>
+          )
+        }
+      </div>
+    </div>
+  </Card>
+</a>

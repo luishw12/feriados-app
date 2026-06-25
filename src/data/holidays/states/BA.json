@@ -1,0 +1,21 @@
+{
+  "uf": "BA",
+  "name": "Bahia",
+  "slug": "bahia",
+  "holidays": [
+    {
+      "id": "independencia-bahia",
+      "name": "Independência da Bahia",
+      "date": "07-02",
+      "type": "state",
+      "description": "Data da Independência da Bahia em 1823."
+    },
+    {
+      "id": "sao-joao-bahia",
+      "name": "São João",
+      "date": "06-24",
+      "type": "state_optional",
+      "description": "Festa junina, facultativo na Bahia."
+    }
+  ]
+}

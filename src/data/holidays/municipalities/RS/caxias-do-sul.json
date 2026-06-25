@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 4305108,
+  "name": "Caxias do Sul",
+  "slug": "caxias-do-sul",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-caxias-do-sul",
+      "name": "Aniversário de Caxias do Sul",
+      "date": "06-20",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

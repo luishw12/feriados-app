@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2800308,
+  "name": "Aracaju",
+  "slug": "aracaju",
+  "uf": "SE",
+  "holidays": [
+    {
+      "id": "aniversario-aracaju",
+      "name": "Aniversário de Aracaju",
+      "date": "03-17",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sao-joao-pe",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Midsummer_bonfire.jpg/1280px-Midsummer_bonfire.jpg",
+    "alt": "São João — Festa junina",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "São João é celebrado em 24 de junho em Pernambuco (PE). Maior festa junina do Brasil, facultativo em PE.",
+  "legalBasis": "Trata-se de feriado facultativo, cuja observância depende de regulamento do empregador ou do ente público. Previsto no calendário oficial aplicável a Pernambuco (PE).",
+  "history": [
+    "Maior festa junina do Brasil, facultativo em PE.",
+    "Feriados brasileiros resultam da combinação entre tradição religiosa, marcos históricos e legislação federal, estadual e municipal.",
+    "Para viagens e operações comerciais, é essencial verificar o alcance territorial do feriado."
+  ],
+  "traditions": [
+    "Cerimônias oficiais e atividades educativas em escolas.",
+    "Eventos culturais abertos à comunidade."
+  ],
+  "funFacts": [
+    "O Brasil possui um dos calendários de feriados mais complexos das grandes economias, pela sobreposição de níveis federativos.",
+    "Datas fixas facilitam planejamento; datas móveis exigem cálculo anual."
+  ]
+}

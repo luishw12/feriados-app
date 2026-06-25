@@ -1,0 +1,27 @@
+{
+  "id": "dia-do-idoso",
+  "lead": "O Dia do Idoso, em 1º de outubro, homenageia pessoas idosas e promove reflexões sobre envelhecimento digno, saúde e inclusão social.",
+  "history": [
+    "A data coincide com o Dia Internacional do Idoso, instituído pela ONU.",
+    "No Brasil, dialoga com o Estatuto do Idoso e políticas de atenção à terceira idade.",
+    "Instituições promovem eventos sobre direitos, lazer e bem-estar da população idosa."
+  ],
+  "traditions": [
+    "Atividades em centros de convivência e clubes da melhor idade.",
+    "Campanhas de saúde preventiva."
+  ],
+  "funFacts": [
+    "O Brasil possui parcela crescente da população com mais de 60 anos."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_Internacional_do_Idoso"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/%E2%80%9CLa_ciudad_es_nuestra%E2%80%9D%2C_lema_para_conmemorar_el_D%C3%ADa_Internacional_de_las_Personas_Mayores_%2802%29.jpg/1280px-%E2%80%9CLa_ciudad_es_nuestra%E2%80%9D%2C_lema_para_conmemorar_el_D%C3%ADa_Internacional_de_las_Personas_Mayores_%2802%29.jpg",
+    "alt": "Dia do Idoso — Dia Internacional do Idoso",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

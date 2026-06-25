@@ -1,0 +1,21 @@
+{
+  "uf": "PA",
+  "name": "Pará",
+  "slug": "para",
+  "holidays": [
+    {
+      "id": "adesao-para",
+      "name": "Adesão do Grão-Pará à Independência",
+      "date": "08-15",
+      "type": "state",
+      "description": "Província aderiu à Independência em 1823."
+    },
+    {
+      "id": "criacao-para",
+      "name": "Criação do Estado do Pará",
+      "date": "08-15",
+      "type": "state",
+      "description": "Comemoração da criação do estado."
+    }
+  ]
+}

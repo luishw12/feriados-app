@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 3304557,
+  "name": "Rio de Janeiro",
+  "slug": "rio-de-janeiro",
+  "uf": "RJ",
+  "holidays": [
+    {
+      "id": "aniversario-rio-de-janeiro",
+      "name": "Aniversário de Rio de Janeiro",
+      "date": "03-01",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

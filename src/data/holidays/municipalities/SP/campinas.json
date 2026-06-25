@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 3509502,
+  "name": "Campinas",
+  "slug": "campinas",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-campinas",
+      "name": "Aniversário de Campinas",
+      "date": "07-14",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "padroeira-mg",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/langpt-330px-Bandeira_de_Minas_Gerais.svg.png",
+    "alt": "Nossa Senhora da Conceição — Minas Gerais",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "Nossa Senhora da Conceição é feriado em Minas Gerais/MG, celebrado em 8 de dezembro, com forte tradição religiosa e cultural.",
+  "legalBasis": "Feriado previsto na legislação estadual ou municipal de Minas Gerais, associado à devoção da santa padroeira.",
+  "history": [
+    "Padroeira de Minas Gerais, facultativo.",
+    "Padroeiras e santos patronos estruturam calendários religiosos que influenciaram feriados civis em diversas regiões.",
+    "Procissões e novenas antecedem a data em muitas comunidades."
+  ],
+  "traditions": [
+    "Missas solenes e procissões nas ruas centrais.",
+    "Feiras populares com comidas típicas e apresentações culturais."
+  ],
+  "funFacts": [
+    "Feriados religiosos locais atraem fiéis e turistas em cidades históricas.",
+    "A devoção costuma se manifestar em arte sacra, música e literatura regional."
+  ]
+}

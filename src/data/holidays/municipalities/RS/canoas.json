@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 4304606,
+  "name": "Canoas",
+  "slug": "canoas",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-canoas",
+      "name": "Aniversário de Canoas",
+      "date": "06-27",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

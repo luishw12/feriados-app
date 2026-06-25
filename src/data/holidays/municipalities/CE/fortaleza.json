@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2304400,
+  "name": "Fortaleza",
+  "slug": "fortaleza",
+  "uf": "CE",
+  "holidays": [
+    {
+      "id": "aniversario-fortaleza",
+      "name": "Aniversário de Fortaleza",
+      "date": "04-13",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dia-do-amigo",
+  "lead": "O Dia do Amigo, em 20 de julho, celebra as amizades e a importância das relações de afeto fora do núcleo familiar e romântico.",
+  "history": [
+    "A data ganhou popularidade no Brasil a partir da década de 1980, inspirada em experiências argentinas.",
+    "Redes sociais ampliaram as homenagens com mensagens, encontros e celebrações.",
+    "Bares, restaurantes e eventos temáticos costumam oferecer promoções na data."
+  ],
+  "traditions": [
+    "Encontros entre amigos e jantares coletivos.",
+    "Mensagens e publicações nas redes sociais."
+  ],
+  "funFacts": [
+    "No Brasil, 20 de julho é mais celebrado que o Dia da Amizade internacional em 30 de julho."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_do_Amigo"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tying_friendship_bracelet.jpg/1280px-Tying_friendship_bracelet.jpg",
+    "alt": "Dia do Amigo — Dia do Amigo",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

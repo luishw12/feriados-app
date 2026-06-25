@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 3118601,
+  "name": "Contagem",
+  "slug": "contagem",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-contagem",
+      "name": "Aniversário de Contagem",
+      "date": "08-30",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

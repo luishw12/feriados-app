@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 5002704,
+  "name": "Campo Grande",
+  "slug": "campo-grande",
+  "uf": "MS",
+  "holidays": [
+    {
+      "id": "aniversario-campo-grande",
+      "name": "Aniversário de Campo Grande",
+      "date": "08-26",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

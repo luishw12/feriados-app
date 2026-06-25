@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2611606,
+  "name": "Recife",
+  "slug": "recife",
+  "uf": "PE",
+  "holidays": [
+    {
+      "id": "aniversario-recife",
+      "name": "Aniversário de Recife",
+      "date": "03-12",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

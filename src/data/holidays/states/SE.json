@@ -1,0 +1,14 @@
+{
+  "uf": "SE",
+  "name": "Sergipe",
+  "slug": "sergipe",
+  "holidays": [
+    {
+      "id": "independencia-sergipe",
+      "name": "Independência de Sergipe",
+      "date": "07-08",
+      "type": "state",
+      "description": "Última província a aderir à Independência em 1823."
+    }
+  ]
+}

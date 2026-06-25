@@ -1,0 +1,34 @@
+{
+  "id": "aniversario-florianopolis",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg/1280px-Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg",
+    "alt": "Aniversário de Florianópolis — Florianópolis",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Prefeitura de Florianópolis",
+      "url": "https://www.gov.br"
+    },
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "Aniversário de Florianópolis é feriado municipal em Florianópolis/SC, celebrado em 23 de março, quando a cidade relembra sua história, identidade e conquistas coletivas.",
+  "legalBasis": "Feriado municipal previsto na legislação de Florianópolis, integrando o calendário oficial de repouso do município.",
+  "history": [
+    "Fundação do município.",
+    "Em Florianópolis, o aniversário costuma mobilizar eventos culturais, shows e atividades cívicas que reforçam o orgulho local.",
+    "Feriados municipais variam conforme a legislação de cada prefeitura e podem coincidir com feriados estaduais ou nacionais."
+  ],
+  "traditions": [
+    "Programação cultural em praças e centros de convivência.",
+    "Hasteamento de bandeiras e cerimônias com autoridades locais.",
+    "Promoções comerciais e feiras gastronômicas em diversas cidades."
+  ],
+  "funFacts": [
+    "O feriado é válido no município de Florianópolis, não necessariamente em toda a unidade federativa.",
+    "Viajantes devem confirmar o calendário local ao planejar compromissos na cidade."
+  ]
+}

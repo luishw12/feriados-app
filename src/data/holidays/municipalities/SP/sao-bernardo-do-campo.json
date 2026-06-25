@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 3548708,
+  "name": "São Bernardo do Campo",
+  "slug": "sao-bernardo-do-campo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-bernardo-do-campo",
+      "name": "Aniversário de São Bernardo do Campo",
+      "date": "08-20",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

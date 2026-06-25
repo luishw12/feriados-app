@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 3106200,
+  "name": "Belo Horizonte",
+  "slug": "belo-horizonte",
+  "uf": "MG",
+  "holidays": [
+    {
+      "id": "aniversario-belo-horizonte",
+      "name": "Aniversário de Belo Horizonte",
+      "date": "12-12",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

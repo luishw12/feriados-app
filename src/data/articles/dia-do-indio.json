@@ -1,0 +1,27 @@
+{
+  "id": "dia-do-indio",
+  "lead": "O Dia do Índio, em 19 de abril, homenageia os povos indígenas e reforça a importância de preservar culturas, línguas e territórios originários.",
+  "history": [
+    "A data foi instituída em referência ao cacique Maringá e ganhou força com o movimento indigenista no Brasil.",
+    "Escolas, museus e órgãos públicos promovem atividades educativas sobre a diversidade indígena.",
+    "É um marco para debates sobre demarcação de terras e direitos fundamentais."
+  ],
+  "traditions": [
+    "Eventos culturais em aldeias e instituições.",
+    "Atividades pedagógicas sobre povos originários."
+  ],
+  "funFacts": [
+    "O Brasil possui mais de 300 etnias indígenas reconhecidas."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_do_%C3%8Dndio"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/ATL_2017_d2.jpg/1280px-ATL_2017_d2.jpg",
+    "alt": "Dia do Índio — Dia do Índio",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "uf": "DF",
+  "name": "Distrito Federal",
+  "slug": "distrito-federal",
+  "holidays": [
+    {
+      "id": "aniversario-brasilia",
+      "name": "Aniversário de Brasília",
+      "date": "04-21",
+      "type": "state",
+      "description": "Inauguração de Brasília em 1960."
+    },
+    {
+      "id": "dia-do-evangelho-df",
+      "name": "Dia do Evangélico",
+      "date": "11-30",
+      "type": "state_optional",
+      "description": "Feriado facultativo no Distrito Federal."
+    }
+  ]
+}

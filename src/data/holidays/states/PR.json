@@ -1,0 +1,21 @@
+{
+  "uf": "PR",
+  "name": "Paraná",
+  "slug": "parana",
+  "holidays": [
+    {
+      "id": "emancipacao-parana",
+      "name": "Emancipação Política do Paraná",
+      "date": "12-19",
+      "type": "state",
+      "description": "Paraná separou-se de São Paulo em 1853."
+    },
+    {
+      "id": "padroeira-pr",
+      "name": "Nossa Senhora da Luz dos Pinhais",
+      "date": "12-08",
+      "type": "state_optional",
+      "description": "Padroeira do Paraná, facultativo."
+    }
+  ]
+}

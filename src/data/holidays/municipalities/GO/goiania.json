@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 5208707,
+  "name": "Goiânia",
+  "slug": "goiania",
+  "uf": "GO",
+  "holidays": [
+    {
+      "id": "aniversario-goiania",
+      "name": "Aniversário de Goiânia",
+      "date": "10-24",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

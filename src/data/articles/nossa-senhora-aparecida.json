@@ -1,0 +1,29 @@
+{
+  "id": "nossa-senhora-aparecida",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/NS_Aparecida.png/1280px-NS_Aparecida.png",
+    "alt": "Nossa Senhora Aparecida — Nossa Senhora Aparecida",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "O dia de Nossa Senhora Aparecida, em 12 de outubro, celebra a padroeira do Brasil e é feriado nacional de expressiva devoção popular.",
+  "legalBasis": "Feriado nacional instituído pela Lei nº 6.802/1980, reconhecendo a padroeira oficial do país.",
+  "history": [
+    "A devoção remete à tradicional narrativa da imagem encontrada no Rio Paraíba do Sul, em 1717.",
+    "O Santuário Nacional em Aparecida (SP) tornou-se um dos maiores centros de peregrinação da América Latina.",
+    "A data também se relaciona culturalmente com o Dia das Crianças no calendário brasileiro."
+  ],
+  "traditions": [
+    "Romarias e missas no Santuário de Aparecida.",
+    "Procissões e festas paroquiais em todo o território nacional."
+  ],
+  "funFacts": [
+    "Milhões de pessoas visitam Aparecida no período da festa.",
+    "É um dos feriados religiosos de maior adesão popular no Brasil."
+  ]
+}

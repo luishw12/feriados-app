@@ -1,0 +1,29 @@
+{
+  "id": "carnaval-terca",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Desfile_Portela_2014_%28906185%29.jpg/1280px-Desfile_Portela_2014_%28906185%29.jpg",
+    "alt": "Carnaval (Terça-feira) — Carnaval do Brasil",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "A terça-feira de Carnaval encerra o período mais intenso da folia no Brasil, também como feriado facultativo nacional.",
+  "legalBasis": "Assim como a segunda-feira, trata-se de ponto facultativo de abrangência nacional, sem obrigatoriedade de paralisação para todos os setores.",
+  "history": [
+    "Historicamente, a terça-feira concentra desfiles principais em cidades como Rio de Janeiro e São Paulo.",
+    "A data é definida 47 dias antes da Páscoa, seguindo o calendário litúrgico cristão.",
+    "Após a meia-noite de quarta-feira de Cinzas inicia-se simbolicamente a Quaresma."
+  ],
+  "traditions": [
+    "Último dia de grande festa antes da Quaresma em muitas tradições católicas.",
+    "Desfiles finais e encerramento de blocos em diversas capitais."
+  ],
+  "funFacts": [
+    "Em algumas cidades do interior, a terça é ainda mais movimentada que a segunda.",
+    "O impacto econômico do Carnaval envolve turismo, hotelaria e cultura em escala nacional."
+  ]
+}

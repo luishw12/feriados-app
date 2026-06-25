@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 4314407,
+  "name": "Pelotas",
+  "slug": "pelotas",
+  "uf": "RS",
+  "holidays": [
+    {
+      "id": "aniversario-pelotas",
+      "name": "Aniversário de Pelotas",
+      "date": "07-07",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

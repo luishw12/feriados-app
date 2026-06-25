@@ -1,0 +1,142 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import HolidayArticleHero from '@/components/holiday/HolidayArticleHero.astro';
+import HolidayArticleBody from '@/components/holiday/HolidayArticleBody.astro';
+import HolidayArticleSources from '@/components/holiday/HolidayArticleSources.astro';
+import HolidayArticleNav from '@/components/holiday/HolidayArticleNav.astro';
+import { getArticleById, getArticlePublishedDate, assertAllHolidaysHaveArticles } from '@/lib/articles';
+import {
+  getAllHolidayDefinitions,
+  getHolidayScopeLabel,
+  resolveHolidayForYear,
+} from '@/lib/holidays';
+import { getHolidayArticleMeta } from '@/lib/seo';
+import { buildArticleBreadcrumbItems, buildHolidayArticleSchema } from '@/lib/schema';
+import { getHolidayArticleOgImage } from '@/lib/holiday-images';
+import { getSiteUrl } from '@/lib/site-url';
+
+export const getStaticPaths: GetStaticPaths = () => {
+  const definitions = getAllHolidayDefinitions();
+  assertAllHolidaysHaveArticles(definitions.map((holiday) => holiday.id));
+  const year = new Date().getFullYear();
+
+  return definitions.map((definition) => {
+    const article = getArticleById(definition.id);
+    if (!article) {
+      throw new Error(`Artigo não encontrado para o feriado ${definition.id}`);
+    }
+
+    return {
+      params: { id: definition.id },
+      props: {
+        definition,
+        article,
+        resolvedHoliday: resolveHolidayForYear(definition, year),
+        scopeLabel: getHolidayScopeLabel(definition),
+        year,
+      },
+    };
+  });
+};
+
+interface Props {
+  definition: import('@/data/schema').HolidayDefinition;
+  article: import('@/data/schema').HolidayArticle;
+  resolvedHoliday: import('@/data/schema').ResolvedHoliday;
+  scopeLabel: string;
+  year: number;
+}
+
+const { definition, article, resolvedHoliday, scopeLabel, year } = Astro.props;
+const meta = getHolidayArticleMeta(resolvedHoliday.name, article.lead, definition.id, year);
+const ogImage = getHolidayArticleOgImage(article.image?.src);
+const siteUrl = getSiteUrl(Astro.site);
+const breadcrumbItems = buildArticleBreadcrumbItems(
+  resolvedHoliday.name,
+  definition.id,
+  definition,
+  siteUrl,
+);
+const schema = buildHolidayArticleSchema(
+  resolvedHoliday,
+  article,
+  scopeLabel,
+  siteUrl,
+  ogImage,
+  breadcrumbItems,
+);
+const publishedTime = `${getArticlePublishedDate(definition.id)}T00:00:00-03:00`;
+
+const municipalScope = definition.scopes.find((scope) => scope.citySlug && scope.stateSlug);
+const stateScope = definition.scopes.find((scope) => scope.stateSlug && !scope.citySlug);
+---
+
+<BaseLayout
+  title={meta.title}
+  description={meta.description}
+  canonical={meta.canonical}
+  ogImage={ogImage}
+  ogType="article"
+  publishedTime={publishedTime}
+  jsonLd={schema}
+>
+  <div class="mx-auto max-w-4xl space-y-10 px-4 py-10">
+    <nav class="text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li>
+          <a href="/" class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400">
+            Início
+          </a>
+        </li>
+        {
+          stateScope?.stateSlug && (
+            <>
+              <li aria-hidden="true">/</li>
+              <li>
+                <a
+                  href={`/${stateScope.stateSlug}/`}
+                  class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400"
+                >
+                  {stateScope.stateName ?? stateScope.uf}
+                </a>
+              </li>
+            </>
+          )
+        }
+        {
+          municipalScope?.stateSlug && municipalScope.citySlug && (
+            <>
+              <li aria-hidden="true">/</li>
+              <li>
+                <a
+                  href={`/${municipalScope.stateSlug}/${municipalScope.citySlug}/`}
+                  class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400"
+                >
+                  {municipalScope.cityName}
+                </a>
+              </li>
+            </>
+          )
+        }
+        <li aria-hidden="true">/</li>
+        <li>
+          <span class="text-neutral-700 dark:text-neutral-300">{resolvedHoliday.name}</span>
+        </li>
+      </ol>
+    </nav>
+
+    <HolidayArticleHero
+      holiday={resolvedHoliday}
+      definition={definition}
+      article={article}
+      scopeLabel={scopeLabel}
+    />
+
+    <div class="mx-auto max-w-3xl space-y-10">
+      <HolidayArticleBody article={article} />
+      <HolidayArticleSources article={article} />
+      <HolidayArticleNav definition={definition} />
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,86 @@
+---
+import '@/styles/global.css';
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
+import SEO from '@/components/SEO.astro';
+import Header from '@/components/layout/Header.astro';
+import Footer from '@/components/layout/Footer.astro';
+import LinkedInCTA from '@/components/layout/LinkedInCTA.astro';
+import { getSiteUrl } from '@/lib/site-url';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  ogImage?: string;
+  ogType?: 'website' | 'article';
+  ogImageWidth?: number;
+  ogImageHeight?: number;
+  publishedTime?: string;
+  jsonLd?: Record<string, unknown>;
+  fullHeight?: boolean;
+  showLocationSlot?: boolean;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogImage,
+  ogType,
+  ogImageWidth,
+  ogImageHeight,
+  publishedTime,
+  jsonLd,
+  fullHeight = false,
+  showLocationSlot = false,
+} = Astro.props;
+
+const siteUrl = getSiteUrl(Astro.site);
+---
+
+<!doctype html>
+<html lang="pt-BR" class:list={[fullHeight && 'h-full']}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="text/plain" href={`${siteUrl}/llms.txt`} title="Índice para assistentes de IA" />
+    <link rel="help" href={`${siteUrl}/llms-full.txt`} title="Calendário completo em texto" />
+    <meta name="abstract" content="Calendário de feriados nacionais, estaduais e municipais do Brasil. Índice para IA: /llms.txt" />
+    <SEO
+      title={title}
+      description={description}
+      canonical={canonical}
+      ogImage={ogImage}
+      ogType={ogType}
+      ogImageWidth={ogImageWidth}
+      ogImageHeight={ogImageHeight}
+      publishedTime={publishedTime}
+    />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    <script is:inline>
+      (function () {
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const isDark = stored === 'dark' || (!stored && prefersDark);
+        if (isDark) document.documentElement.classList.add('dark');
+      })();
+    </script>
+  </head>
+  <body
+    class:list={[
+      'flex flex-col',
+      fullHeight ? 'h-dvh overflow-hidden' : 'min-h-screen',
+    ]}
+  >
+    <Header showLocationSlot={showLocationSlot} />
+    <main class:list={['flex-1', fullHeight && 'min-h-0 overflow-hidden']}>
+      <slot />
+    </main>
+    {!fullHeight && <Footer />}
+    <LinkedInCTA />
+  </body>
+</html>

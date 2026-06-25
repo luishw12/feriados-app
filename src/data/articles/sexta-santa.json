@@ -1,0 +1,30 @@
+{
+  "id": "sexta-santa",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristo_crucificado.jpg/1280px-Cristo_crucificado.jpg",
+    "alt": "Sexta-feira Santa — Sexta-feira Santa",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "A Sexta-feira Santa recorda a crucifixão de Jesus Cristo e é feriado nacional obrigatório de forte presença cultural e religiosa no Brasil.",
+  "legalBasis": "Feriado nacional previsto na Lei nº 605/1949 e demais normas que compõem o calendário oficial brasileiro.",
+  "history": [
+    "Integra a Semana Santa, período central do cristianismo, com procissões e liturgias em todo o país.",
+    "A data é móvel: sempre dois dias antes do domingo de Páscoa.",
+    "Historicamente influencia costumes de respeito, silêncio em parte das celebrações e restrições de entretenimento em algumas localidades."
+  ],
+  "traditions": [
+    "Procissões do Senhor Morto e encenações da Paixão de Cristo.",
+    "Prática de jejum ou abstinência para muitos cristãos.",
+    "Programação especial em templos religiosos."
+  ],
+  "funFacts": [
+    "É uma das poucas datas móveis com status de feriado nacional obrigatório.",
+    "Em várias cidades, teatros e casas noturnas reduzem atividades por tradição local."
+  ]
+}

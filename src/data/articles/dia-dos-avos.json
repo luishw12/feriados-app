@@ -1,0 +1,27 @@
+{
+  "id": "dia-dos-avos",
+  "lead": "O Dia dos Avós, em 26 de julho, homenageia avós e avôs, reconhecendo seu papel afetivo e educativo na formação das famílias.",
+  "history": [
+    "A data foi criada em referência à festa católica de Sant'Ana e São Joaquim, pais de Maria.",
+    "Escolas e famílias promovem atividades para aproximar crianças e idosos.",
+    "Também reforça debates sobre envelhecimento ativo e qualidade de vida na terceira idade."
+  ],
+  "traditions": [
+    "Homenagens em escolas e asilos.",
+    "Encontros familiares com cartões e presentes simbólicos."
+  ],
+  "funFacts": [
+    "Costuma ser celebrado junto com o Dia dos Avós em outros países em datas distintas."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_dos_Av%C3%B3s"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Taste-testing_the_cookie_dough_with_Grandm.jpg/1280px-Taste-testing_the_cookie_dough_with_Grandm.jpg",
+    "alt": "Dia dos Avós — Dia dos Avós",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

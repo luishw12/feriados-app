@@ -1,0 +1,21 @@
+{
+  "uf": "MS",
+  "name": "Mato Grosso do Sul",
+  "slug": "mato-grosso-do-sul",
+  "holidays": [
+    {
+      "id": "criacao-ms",
+      "name": "Criação do Estado de Mato Grosso do Sul",
+      "date": "10-11",
+      "type": "state",
+      "description": "Estado criado em 1977."
+    },
+    {
+      "id": "dia-do-estadista-ms",
+      "name": "Dia do Estadista",
+      "date": "11-20",
+      "type": "state_optional",
+      "description": "Feriado facultativo estadual."
+    }
+  ]
+}

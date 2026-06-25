@@ -1,0 +1,21 @@
+{
+  "uf": "PE",
+  "name": "Pernambuco",
+  "slug": "pernambuco",
+  "holidays": [
+    {
+      "id": "revolucao-pernambucana",
+      "name": "Revolução Pernambucana",
+      "date": "03-06",
+      "type": "state",
+      "description": "Revolução de 1817 contra o domínio português."
+    },
+    {
+      "id": "sao-joao-pe",
+      "name": "São João",
+      "date": "06-24",
+      "type": "state_optional",
+      "description": "Maior festa junina do Brasil, facultativo em PE."
+    }
+  ]
+}

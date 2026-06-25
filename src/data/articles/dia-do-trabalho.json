@@ -1,0 +1,29 @@
+{
+  "id": "dia-do-trabalho",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/1.Mai_2013_%288697603319%29.jpg/1280px-1.Mai_2013_%288697603319%29.jpg",
+    "alt": "Dia do Trabalho — Dia do Trabalho",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "O Dia do Trabalho, em 1º de maio, celebra as conquistas laborais e a importância dos trabalhadores na construção da sociedade brasileira.",
+  "legalBasis": "Feriado nacional de 1º de maio, reconhecido na legislação brasileira e alinhado à tradição internacional do trabalho.",
+  "history": [
+    "A data remete ao movimento operário do século XIX e à luta por jornadas mais justas de trabalho.",
+    "No Brasil, tornou-se feriado com forte presença de atos sindicais, manifestações e debates sobre direitos trabalhistas.",
+    "É marco para reflexão sobre emprego, renda e políticas públicas."
+  ],
+  "traditions": [
+    "Eventos de centrais sindicais em capitais.",
+    "Descanso remunerado para trabalhadores com vínculo regido pela CLT."
+  ],
+  "funFacts": [
+    "É celebrado em dezenas de países como Dia Internacional dos Trabalhadores.",
+    "Muitas cidades registram trânsito mais leve em centros comerciais."
+  ]
+}

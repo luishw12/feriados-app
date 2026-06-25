@@ -1,0 +1,21 @@
+{
+  "uf": "SC",
+  "name": "Santa Catarina",
+  "slug": "santa-catarina",
+  "holidays": [
+    {
+      "id": "criacao-sc",
+      "name": "Criação de Santa Catarina",
+      "date": "08-11",
+      "type": "state",
+      "description": "Província criada em 1738."
+    },
+    {
+      "id": "dia-de-santa-catarina",
+      "name": "Dia de Santa Catarina de Alexandria",
+      "date": "11-25",
+      "type": "state_optional",
+      "description": "Padroeira do estado, facultativo."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/ui/Button.astro';
+import Card from '@/components/ui/Card.astro';
+import { getAboutMeta } from '@/lib/seo';
+import { buildAboutPageSchema } from '@/lib/schema';
+import { getSiteUrl } from '@/lib/site-url';
+
+const meta = getAboutMeta();
+const authorName = import.meta.env.PUBLIC_AUTHOR_NAME ?? 'Luís Henrique Wendt';
+const linkedinUrl = import.meta.env.PUBLIC_LINKEDIN_URL ?? 'https://linkedin.com/in/luishw';
+const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12';
+const siteUrl = getSiteUrl(Astro.site);
+const jsonLd = buildAboutPageSchema(siteUrl, authorName);
+---
+
+<BaseLayout
+  title={meta.title}
+  description={meta.description}
+  canonical={meta.canonical}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl space-y-8 px-4 py-10">
+    <section class="space-y-4">
+      <h1 class="text-3xl font-semibold text-neutral-900 dark:text-neutral-50">Sobre o projeto</h1>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Feriados Brasil é um calendário open source com todos os feriados do Brasil — nacionais,
+        estaduais e municipais. O site é 100% estático, ultra rápido e otimizado para SEO.
+      </p>
+    </section>
+
+    <Card padding="lg" class="space-y-4">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+        Desenvolvido por {authorName}
+      </h2>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Este projeto foi criado como portfólio técnico, demonstrando Astro, React islands, Tailwind
+        CSS e TypeScript com foco em performance e SEO orgânico.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <Button href={linkedinUrl} variant="primary">Conectar no LinkedIn</Button>
+        <Button href={githubUrl} variant="secondary">Ver no GitHub</Button>
+      </div>
+    </Card>
+
+    <section class="space-y-4">
+      <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">Contribuir</h2>
+      <p class="text-neutral-600 dark:text-neutral-400">
+        Encontrou um feriado errado ou faltando? Os dados ficam em
+        <code class="rounded bg-neutral-100 px-1.5 py-0.5 text-sm dark:bg-neutral-800"
+          >src/data/holidays/</code
+        >. Abra uma issue ou envie um PR no GitHub.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

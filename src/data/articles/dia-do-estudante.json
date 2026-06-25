@@ -1,0 +1,27 @@
+{
+  "id": "dia-do-estudante",
+  "lead": "O Dia do Estudante, em 11 de agosto, lembra a luta estudantil brasileira e valoriza o papel da educação na formação cidadã.",
+  "history": [
+    "A data remete ao Massacre da Praça da Sé, em 1937, quando estudantes foram reprimidos em São Paulo.",
+    "Universidades, escolas e entidades estudantis promovem debates sobre educação pública.",
+    "É símbolo da participação da juventude na história política do país."
+  ],
+  "traditions": [
+    "Eventos acadêmicos e culturais em instituições de ensino.",
+    "Homenagens a estudantes e educadores."
+  ],
+  "funFacts": [
+    "Não confundir com o Dia Nacional do Estudante, em 11 de novembro, de origem distinta."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Dia_do_Estudante"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Alunos_Escola_Municipal_Gyn_Brasil.jpg/1280px-Alunos_Escola_Municipal_Gyn_Brasil.jpg",
+    "alt": "Dia do Estudante — Dia do Estudante",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

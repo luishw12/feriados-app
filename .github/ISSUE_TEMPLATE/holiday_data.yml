@@ -1,0 +1,83 @@
+name: Dados de feriado
+description: Reportar feriado errado, faltando ou com data incorreta
+title: "[data]: "
+labels:
+  - data
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este template para reportar problemas nos dados de feriados.
+        Se puder, envie um PR com a correção — veja o [guia de contribuição](https://github.com/luishw12/feriados-app/blob/main/CONTRIBUTING.md).
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Escopo
+      options:
+        - Nacional
+        - Estadual
+        - Municipal
+        - Comemorativo
+    validations:
+      required: true
+
+  - type: input
+    id: state
+    attributes:
+      label: Estado (UF)
+      description: Obrigatório para feriados estaduais e municipais
+      placeholder: RS, SP, RJ...
+    validations:
+      required: false
+
+  - type: input
+    id: city
+    attributes:
+      label: Cidade
+      description: Obrigatório para feriados municipais
+      placeholder: Porto Alegre
+    validations:
+      required: false
+
+  - type: input
+    id: holiday_name
+    attributes:
+      label: Nome do feriado
+      placeholder: Revolução Farroupilha
+    validations:
+      required: true
+
+  - type: input
+    id: current_data
+    attributes:
+      label: Dado atual (se incorreto)
+      description: Data ou informação que está errada no site
+      placeholder: 19/07 (deveria ser 20/09)
+    validations:
+      required: false
+
+  - type: input
+    id: correct_data
+    attributes:
+      label: Dado correto
+      description: Data ou informação que deveria constar
+      placeholder: 20/09
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Fonte oficial
+      description: Lei, decreto, site do governo ou outra fonte confiável
+      placeholder: Lei estadual nº X/YYYY, art. Z
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Informações adicionais
+    validations:
+      required: false

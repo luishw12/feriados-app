@@ -1,0 +1,29 @@
+{
+  "id": "fundacao-paraiba",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bandeira_da_Para%C3%ADba.svg/langpt-330px-Bandeira_da_Para%C3%ADba.svg.png",
+    "alt": "Fundação da Paraíba — Paraíba",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "Fundação da Paraíba é celebrado em 5 de agosto em Paraíba (PB). Capitania da Paraíba fundada em 1580.",
+  "legalBasis": "É feriado obrigatório em seu âmbito de abrangência territorial. Previsto no calendário oficial aplicável a Paraíba (PB).",
+  "history": [
+    "Capitania da Paraíba fundada em 1580.",
+    "Feriados brasileiros resultam da combinação entre tradição religiosa, marcos históricos e legislação federal, estadual e municipal.",
+    "Para viagens e operações comerciais, é essencial verificar o alcance territorial do feriado."
+  ],
+  "traditions": [
+    "Cerimônias oficiais e atividades educativas em escolas.",
+    "Eventos culturais abertos à comunidade."
+  ],
+  "funFacts": [
+    "O Brasil possui um dos calendários de feriados mais complexos das grandes economias, pela sobreposição de níveis federativos.",
+    "Datas fixas facilitam planejamento; datas móveis exigem cálculo anual."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dia-do-folclore",
+  "lead": "O Dia do Folclore, em 22 de agosto, celebra as manifestações culturais populares, lendas, danças e tradições que formam a identidade brasileira.",
+  "history": [
+    "Instituído em homenagem a Lourenço Dias, pesquisador de cultura popular, e à rica diversidade folclórica do país.",
+    "Escolas e centros culturais promovem apresentações de boi-bumbá, frevo, cuca e outras expressões regionais.",
+    "A data reforça a importância de preservar o patrimônio imaterial."
+  ],
+  "traditions": [
+    "Apresentações folclóricas em escolas e praças.",
+    "Exposições sobre lendas e tradições regionais."
+  ],
+  "funFacts": [
+    "O Brasil possui manifestações folclóricas distintas em cada região do país."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Folclore_do_Brasil"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Almeida_J%C3%BAnior_-_O_Violeiro.jpg/1280px-Almeida_J%C3%BAnior_-_O_Violeiro.jpg",
+    "alt": "Dia do Folclore — Folclore do Brasil",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

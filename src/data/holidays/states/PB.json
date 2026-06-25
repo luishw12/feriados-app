@@ -1,0 +1,14 @@
+{
+  "uf": "PB",
+  "name": "Paraíba",
+  "slug": "paraiba",
+  "holidays": [
+    {
+      "id": "fundacao-paraiba",
+      "name": "Fundação da Paraíba",
+      "date": "08-05",
+      "type": "state",
+      "description": "Capitania da Paraíba fundada em 1580."
+    }
+  ]
+}

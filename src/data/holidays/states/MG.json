@@ -1,0 +1,21 @@
+{
+  "uf": "MG",
+  "name": "Minas Gerais",
+  "slug": "minas-gerais",
+  "holidays": [
+    {
+      "id": "inconfidencia-mineira",
+      "name": "Inconfidência Mineira",
+      "date": "04-21",
+      "type": "state",
+      "description": "Movimento de 1789 contra o domínio português."
+    },
+    {
+      "id": "padroeira-mg",
+      "name": "Nossa Senhora da Conceição",
+      "date": "12-08",
+      "type": "state_optional",
+      "description": "Padroeira de Minas Gerais, facultativo."
+    }
+  ]
+}

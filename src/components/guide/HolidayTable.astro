@@ -1,0 +1,60 @@
+---
+import type { ResolvedHoliday } from '@/data/schema';
+import { formatHolidayDate } from '@/lib/constants';
+import { HOLIDAY_TYPE_LABELS } from '@/lib/constants';
+
+interface Props {
+  holidays: ResolvedHoliday[];
+  showType?: boolean;
+}
+
+const { holidays, showType = true } = Astro.props;
+---
+
+<div class="overflow-x-auto rounded-xl border border-neutral-200 dark:border-neutral-800">
+  <table class="min-w-full divide-y divide-neutral-200 text-sm dark:divide-neutral-800">
+    <thead class="bg-neutral-50 dark:bg-neutral-900/80">
+      <tr>
+        <th scope="col" class="px-4 py-3 text-left font-semibold text-neutral-900 dark:text-neutral-50">
+          Feriado
+        </th>
+        <th scope="col" class="px-4 py-3 text-left font-semibold text-neutral-900 dark:text-neutral-50">
+          Data
+        </th>
+        {
+          showType && (
+            <th scope="col" class="px-4 py-3 text-left font-semibold text-neutral-900 dark:text-neutral-50">
+              Tipo
+            </th>
+          )
+        }
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-neutral-200 bg-white dark:divide-neutral-800 dark:bg-neutral-950">
+      {
+        holidays.map((holiday) => (
+          <tr>
+            <td class="px-4 py-3">
+              <a
+                href={`/feriado/${holiday.id}/`}
+                class="font-medium text-emerald-700 transition-colors duration-150 hover:text-emerald-800 dark:text-emerald-400 dark:hover:text-emerald-300"
+              >
+                {holiday.name}
+              </a>
+            </td>
+            <td class="px-4 py-3 capitalize text-neutral-600 dark:text-neutral-400">
+              {formatHolidayDate(holiday.resolvedDate)}
+            </td>
+            {
+              showType && (
+                <td class="px-4 py-3 text-neutral-600 dark:text-neutral-400">
+                  {HOLIDAY_TYPE_LABELS[holiday.type]}
+                </td>
+              )
+            }
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

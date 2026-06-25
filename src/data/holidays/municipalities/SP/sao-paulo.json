@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 3550308,
+  "name": "São Paulo",
+  "slug": "sao-paulo",
+  "uf": "SP",
+  "holidays": [
+    {
+      "id": "aniversario-sao-paulo",
+      "name": "Aniversário de São Paulo",
+      "date": "01-25",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "pascoa",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Raffaello_Sanzio_Auferstehung_Christi_Sao_Paulo.jpg/1280px-Raffaello_Sanzio_Auferstehung_Christi_Sao_Paulo.jpg",
+    "alt": "Páscoa — Páscoa",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "A Páscoa celebra a ressurreição de Jesus Cristo e estrutura o calendário móvel de diversos feriados brasileiros, embora o domingo em si não seja feriado civil.",
+  "legalBasis": "Data religiosa central do cristianismo; no calendário civil brasileiro, serve de referência para Carnaval, Corpus Christi e outras datas móveis.",
+  "history": [
+    "O cálculo da Páscoa no calendário ocidental segue o algoritmo de Meeus/Jones/Butcher, adotado para determinar o domingo após a primeira lua cheia da primavera no hemisfério norte.",
+    "No Brasil, a data combina celebrações religiosas com comércio de chocolates e encontros familiares.",
+    "Muitos feriados nacionais e facultativos dependem diretamente desta data."
+  ],
+  "traditions": [
+    "Missas e celebrações nas denominações cristãs.",
+    "Troca de ovos de Páscoa e refeições em família."
+  ],
+  "funFacts": [
+    "A Páscoa pode ocorrer entre 22 de março e 25 de abril.",
+    "É a âncora matemática de boa parte do calendário móvel brasileiro."
+  ]
+}

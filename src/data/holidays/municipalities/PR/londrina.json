@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 4113700,
+  "name": "Londrina",
+  "slug": "londrina",
+  "uf": "PR",
+  "holidays": [
+    {
+      "id": "aniversario-londrina",
+      "name": "Aniversário de Londrina",
+      "date": "12-10",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

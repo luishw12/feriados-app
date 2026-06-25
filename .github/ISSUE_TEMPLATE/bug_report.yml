@@ -1,0 +1,54 @@
+name: Bug report
+description: Reportar um bug de código ou interface
+title: "[bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar! Descreva o problema com o máximo de detalhes possível.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição do bug
+      description: O que aconteceu? O que você esperava?
+      placeholder: Ao clicar em X, acontece Y em vez de Z...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Acesse '/rio-grande-do-sul'
+        2. Clique em '...'
+        3. Veja o erro
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador e versão
+      placeholder: Chrome 120, Firefox 121, Safari 17...
+    validations:
+      required: false
+
+  - type: input
+    id: os
+    attributes:
+      label: Sistema operacional
+      placeholder: Windows 11, macOS 14, Ubuntu 22.04...
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Se aplicável, anexe imagens do problema
+    validations:
+      required: false

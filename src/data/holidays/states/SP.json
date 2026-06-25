@@ -1,0 +1,21 @@
+{
+  "uf": "SP",
+  "name": "São Paulo",
+  "slug": "sao-paulo",
+  "holidays": [
+    {
+      "id": "revolucao-constitucionalista",
+      "name": "Revolução Constitucionalista",
+      "date": "07-09",
+      "type": "state",
+      "description": "Revolução de 1932 contra o governo Vargas."
+    },
+    {
+      "id": "padroeira-sp",
+      "name": "Nossa Senhora da Aparecida",
+      "date": "10-12",
+      "type": "state_optional",
+      "description": "Padroeira de São Paulo, facultativo estadual."
+    }
+  ]
+}

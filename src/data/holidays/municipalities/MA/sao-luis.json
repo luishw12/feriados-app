@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2111300,
+  "name": "São Luís",
+  "slug": "sao-luis",
+  "uf": "MA",
+  "holidays": [
+    {
+      "id": "aniversario-sao-luis",
+      "name": "Aniversário de São Luís",
+      "date": "09-08",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

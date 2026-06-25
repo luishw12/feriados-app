@@ -1,0 +1,14 @@
+{
+  "uf": "PI",
+  "name": "Piauí",
+  "slug": "piaui",
+  "holidays": [
+    {
+      "id": "dia-do-piaui",
+      "name": "Dia do Piauí",
+      "date": "10-19",
+      "type": "state",
+      "description": "Província do Piauí criada em 1823."
+    }
+  ]
+}

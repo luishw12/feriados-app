@@ -1,0 +1,30 @@
+{
+  "id": "carnaval-segunda",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Desfile_Portela_2014_%28906185%29.jpg/1280px-Desfile_Portela_2014_%28906185%29.jpg",
+    "alt": "Carnaval (Segunda-feira) — Carnaval do Brasil",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "A segunda-feira de Carnaval é feriado facultativo nacional, marcando o auge da maior festa popular do Brasil antes da Quaresma.",
+  "legalBasis": "Ponto facultativo previsto em normas federais; a suspensão de expediente depende de ato do empregador ou de legislação local.",
+  "history": [
+    "O Carnaval tem origem em festividades europeias que, no Brasil, incorporaram ritmos afro-brasileiros, samba, blocos de rua e escolas de samba.",
+    "A segunda-feira integra o par de dias centrais da folia, quando desfiles, trios elétricos e festas atingem maior intensidade.",
+    "Datas móveis calculadas a partir da Páscoa: ocorre 48 dias antes do domingo de Páscoa."
+  ],
+  "traditions": [
+    "Blocos de rua e camarotes em grandes cidades.",
+    "Desfiles de escolas de samba em sambódromos.",
+    "Fantasias, marchinhas e celebrações em todo o território nacional."
+  ],
+  "funFacts": [
+    "O frevo de Pernambuco e o axé da Bahia mostram como o Carnaval muda de ritmo conforme a região.",
+    "Algumas empresas concedem folga apenas na terça, outras em ambos os dias."
+  ]
+}

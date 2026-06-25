@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 1302603,
+  "name": "Manaus",
+  "slug": "manaus",
+  "uf": "AM",
+  "holidays": [
+    {
+      "id": "aniversario-manaus",
+      "name": "Aniversário de Manaus",
+      "date": "10-24",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

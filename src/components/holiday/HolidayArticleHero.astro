@@ -1,0 +1,66 @@
+---
+import { Image } from 'astro:assets';
+import type { HolidayDefinition, HolidayArticle, ResolvedHoliday } from '@/data/schema';
+import Badge from '@/components/ui/Badge.astro';
+import { formatHolidayDate } from '@/lib/constants';
+import {
+  getDefaultHolidayImage,
+  isExternalImageSrc,
+  resolveHolidayArticleImage,
+} from '@/lib/holiday-images';
+
+interface Props {
+  holiday: ResolvedHoliday;
+  definition: HolidayDefinition;
+  article: HolidayArticle;
+  scopeLabel: string;
+}
+
+const { holiday, definition, article, scopeLabel } = Astro.props;
+const imageSrc = article.image?.src ?? '';
+const isRemoteImage = isExternalImageSrc(imageSrc);
+const localImage = isRemoteImage ? getDefaultHolidayImage() : resolveHolidayArticleImage(imageSrc);
+const imageAlt = article.image?.alt ?? `Ilustração sobre ${holiday.name}`;
+const formattedDate = formatHolidayDate(holiday.resolvedDate);
+---
+
+<header class="overflow-hidden rounded-2xl border border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-900">
+  <div class="relative aspect-[21/9] min-h-48 w-full overflow-hidden bg-emerald-950">
+    {
+      isRemoteImage ? (
+        <img
+          src={imageSrc}
+          alt={imageAlt}
+          width={1200}
+          height={514}
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover opacity-90"
+        />
+      ) : (
+        <Image
+          src={localImage}
+          alt={imageAlt}
+          width={1200}
+          height={514}
+          class="h-full w-full object-cover opacity-90"
+        />
+      )
+    }
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/80 via-neutral-950/30 to-transparent"></div>
+    <div class="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+      <p class="mb-2 text-sm font-medium text-emerald-200">{scopeLabel}</p>
+      <h1 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">{holiday.name}</h1>
+      <p class="mt-2 capitalize text-neutral-200">{formattedDate}</p>
+    </div>
+  </div>
+
+  <div class="flex flex-wrap items-center gap-3 border-t border-neutral-100 px-6 py-4 dark:border-neutral-800">
+    <Badge type={definition.type} />
+    {
+      article.image?.credit && (
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">{article.image.credit}</p>
+      )
+    }
+  </div>
+</header>

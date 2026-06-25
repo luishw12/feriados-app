@@ -1,0 +1,268 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import GuideNav from '@/components/guide/GuideNav.astro';
+import FaqSection from '@/components/guide/FaqSection.astro';
+import HolidayTable from '@/components/guide/HolidayTable.astro';
+import { getGuideMeta } from '@/lib/seo';
+import { buildGuidePageSchema } from '@/lib/schema';
+import { getSiteUrl } from '@/lib/site-url';
+import {
+  GUIDE_PAGES,
+  getGuideFaqItems,
+  type GuideSlug,
+} from '@/lib/search-intents';
+import {
+  buildNationalYearInsights,
+  describeBridgeHoliday,
+} from '@/lib/holiday-insights';
+import { formatHolidayDate } from '@/lib/constants';
+import { getAllStates } from '@/lib/holidays';
+
+export const getStaticPaths: GetStaticPaths = () =>
+  GUIDE_PAGES.map((guide) => ({
+    params: { slug: guide.slug },
+    props: { guide },
+  }));
+
+interface Props {
+  guide: (typeof GUIDE_PAGES)[number];
+}
+
+const { guide } = Astro.props;
+const year = new Date().getFullYear();
+const siteUrl = getSiteUrl(Astro.site);
+const insights = buildNationalYearInsights(year);
+const { stats } = insights;
+const slug = guide.slug as GuideSlug;
+const faqItems = getGuideFaqItems(slug, year, siteUrl);
+
+const descriptions: Record<GuideSlug, string> = {
+  'calendario-feriados': `Calendário completo de feriados ${year} no Brasil: ${stats.mandatoryTotal} nacionais obrigatórios, ${stats.optionalTotal} facultativos e datas por mês.`,
+  'feriados-nacionais': `${stats.mandatoryTotal} feriados nacionais obrigatórios em ${year} no Brasil, com datas e links para cada feriado.`,
+  'feriados-dias-uteis': `${stats.mandatoryWeekdayCount} feriados nacionais caem em dias úteis em ${year}. ${stats.mandatoryWeekendCount} caem no fim de semana.`,
+  'feriados-facultativos': `${stats.optionalTotal} feriados facultativos federais em ${year}. Nem todos os empregadores concedem folga.`,
+  'emendas-e-feriados-prolongados': `${stats.bridgeCount} feriados nacionais em ${year} caem em terça ou quinta, permitindo emenda para feriadão.`,
+  'proximo-feriado': insights.nextHoliday
+    ? `Próximo feriado nacional: ${insights.nextHoliday.name}, em ${formatHolidayDate(insights.nextHoliday.resolvedDate)}.`
+    : `Consulta de próximos feriados nacionais em ${year}.`,
+  'feriados-moveis': `Datas dos feriados móveis ${year}: Carnaval, Páscoa, Sexta-feira Santa e Corpus Christi.`,
+};
+
+const meta = getGuideMeta(slug, guide.title, descriptions[slug], year);
+const pageUrl = `${siteUrl}/guia/${slug}/`;
+const jsonLd = buildGuidePageSchema(siteUrl, meta.title, pageUrl, faqItems, [
+  { name: 'Início', url: siteUrl },
+  { name: 'Guias', url: `${siteUrl}/guia/` },
+  { name: guide.title, url: pageUrl },
+]);
+---
+
+<BaseLayout title={meta.title} description={meta.description} canonical={meta.canonical} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-4xl space-y-10 px-4 py-10">
+    <nav class="text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="hover:text-emerald-600 dark:hover:text-emerald-400">Início</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a href="/guia/" class="hover:text-emerald-600 dark:hover:text-emerald-400">Guias</a></li>
+        <li aria-hidden="true">/</li>
+        <li><span class="text-neutral-700 dark:text-neutral-300">{guide.title}</span></li>
+      </ol>
+    </nav>
+
+    <section class="space-y-4">
+      <h1 class="text-3xl font-semibold text-neutral-900 dark:text-neutral-50">
+        {guide.title} {year}
+      </h1>
+      <p class="text-lg text-neutral-600 dark:text-neutral-400">{descriptions[slug]}</p>
+    </section>
+
+    {
+      slug === 'calendario-feriados' && (
+        <>
+          <section class="space-y-4">
+            <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">Resumo {year}</h2>
+            <ul class="list-disc space-y-2 pl-5 text-neutral-600 dark:text-neutral-400">
+              <li>{stats.mandatoryTotal} feriados nacionais obrigatórios</li>
+              <li>{stats.mandatoryWeekdayCount} em dias úteis · {stats.mandatoryWeekendCount} no fim de semana</li>
+              <li>{stats.optionalTotal} feriados facultativos federais</li>
+              <li>{stats.commemorativeTotal} datas comemorativas nacionais</li>
+            </ul>
+          </section>
+          {
+            insights.byMonth.map((entry) => (
+              <section class="space-y-3">
+                <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">{entry.monthName} {year}</h2>
+                <HolidayTable holidays={entry.holidays} />
+              </section>
+            ))
+          }
+          <section class="space-y-3">
+            <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">Feriados por estado</h2>
+            <ul class="flex flex-wrap gap-2">
+              {
+                getAllStates().map((state) => (
+                  <li>
+                    <a
+                      href={`/${state.slug}/`}
+                      class="inline-flex rounded-lg border border-neutral-200 px-3 py-1.5 text-sm text-neutral-700 transition-colors duration-150 hover:border-emerald-300 hover:text-emerald-700 dark:border-neutral-700 dark:text-neutral-200 dark:hover:border-emerald-700"
+                    >
+                      {state.name}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </section>
+        </>
+      )
+    }
+
+    {
+      slug === 'feriados-nacionais' && (
+        <section class="space-y-4">
+          <p class="text-neutral-600 dark:text-neutral-400">
+            Feriados nacionais <strong>obrigatórios</strong> em {year}: paralisação em bancos, comércio
+            e serviços públicos federais (salvo exceções legais).
+          </p>
+          <HolidayTable holidays={insights.mandatory} showType={false} />
+        </section>
+      )
+    }
+
+    {
+      slug === 'feriados-dias-uteis' && (
+        <>
+          <section class="space-y-4">
+            <p class="rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-emerald-900 dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-100">
+              <strong>{stats.mandatoryWeekdayCount}</strong> feriados nacionais obrigatórios caem em dias
+              úteis (segunda a sexta) em {year}. <strong>{stats.mandatoryWeekendCount}</strong> caem no
+              fim de semana e não alteram a rotina de trabalho na semana.
+            </p>
+          </section>
+          <section class="space-y-3">
+            <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">Em dias úteis</h2>
+            <HolidayTable holidays={insights.mandatoryWeekday} showType={false} />
+          </section>
+          {
+            insights.mandatoryWeekend.length > 0 && (
+              <section class="space-y-3">
+                <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">No fim de semana</h2>
+                <HolidayTable holidays={insights.mandatoryWeekend} showType={false} />
+              </section>
+            )
+          }
+        </>
+      )
+    }
+
+    {
+      slug === 'feriados-facultativos' && (
+        <section class="space-y-4">
+          <p class="text-neutral-600 dark:text-neutral-400">
+            Feriados facultativos (ponto facultativo) dependem de decisão do empregador ou acordo
+            coletivo. Servidores públicos federais seguem regulamentação específica.
+          </p>
+          <HolidayTable holidays={insights.optional} showType={false} />
+        </section>
+      )
+    }
+
+    {
+      slug === 'emendas-e-feriados-prolongados' && (
+        <section class="space-y-4">
+          {
+            insights.bridgeCandidates.length > 0 ? (
+              <>
+                <p class="text-neutral-600 dark:text-neutral-400">
+                  Quando um feriado cai em terça-feira, muitas pessoas emendam com a segunda; em
+                  quinta-feira, emendam com a sexta. São {stats.bridgeCount} feriados nacionais em {year}
+                  nessa situação:
+                </p>
+                <ul class="space-y-3">
+                  {
+                    insights.bridgeCandidates.map((holiday) => (
+                      <li class="rounded-xl border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
+                        <a
+                          href={`/feriado/${holiday.id}/`}
+                          class="font-semibold text-emerald-700 dark:text-emerald-400"
+                        >
+                          {holiday.name}
+                        </a>
+                        <p class="mt-1 text-sm capitalize text-neutral-600 dark:text-neutral-400">
+                          {formatHolidayDate(holiday.resolvedDate)}
+                        </p>
+                        <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-500">
+                          {describeBridgeHoliday(holiday)}
+                        </p>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </>
+            ) : (
+              <p class="text-neutral-600 dark:text-neutral-400">
+                Nenhum feriado nacional obrigatório em {year} cai em terça ou quinta-feira.
+              </p>
+            )
+          }
+        </section>
+      )
+    }
+
+    {
+      slug === 'proximo-feriado' && (
+        <section class="space-y-4">
+          {
+            insights.nextHoliday ? (
+              <div class="rounded-xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900 dark:bg-emerald-950/40">
+                <p class="text-sm font-medium uppercase tracking-wide text-emerald-800 dark:text-emerald-300">
+                  Próximo feriado nacional
+                </p>
+                <p class="mt-2 text-2xl font-bold text-neutral-900 dark:text-neutral-50">
+                  {insights.nextHoliday.name}
+                </p>
+                <p class="mt-1 capitalize text-neutral-600 dark:text-neutral-400">
+                  {formatHolidayDate(insights.nextHoliday.resolvedDate)}
+                </p>
+                <a
+                  href={`/feriado/${insights.nextHoliday.id}/`}
+                  class="mt-4 inline-flex text-sm font-medium text-emerald-700 hover:text-emerald-800 dark:text-emerald-400"
+                >
+                  Ver história e detalhes →
+                </a>
+              </div>
+            ) : (
+              <p class="text-neutral-600 dark:text-neutral-400">
+                Não há mais feriados nacionais programados para {year}. Consulte o calendário do ano
+                seguinte na <a href="/" class="text-emerald-600 dark:text-emerald-400">página inicial</a>.
+              </p>
+            )
+          }
+        </section>
+      )
+    }
+
+    {
+      slug === 'feriados-moveis' && (
+        <section class="space-y-4">
+          <p class="text-neutral-600 dark:text-neutral-400">
+            Feriados móveis dependem da data da Páscoa, calculada pelo calendário lunar. Em {year}:
+          </p>
+          <HolidayTable
+            holidays={[
+              insights.mobileHolidays.carnavalSegunda,
+              insights.mobileHolidays.carnavalTerca,
+              insights.mobileHolidays.sextaSanta,
+              insights.mobileHolidays.pascoa,
+              insights.mobileHolidays.corpusChristi,
+            ].filter((holiday): holiday is NonNullable<typeof holiday> => holiday !== null)}
+          />
+        </section>
+      )
+    }
+
+    <GuideNav currentSlug={slug} />
+    <FaqSection items={faqItems} />
+  </div>
+</BaseLayout>

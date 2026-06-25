@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 4205407,
+  "name": "Florianópolis",
+  "slug": "florianopolis",
+  "uf": "SC",
+  "holidays": [
+    {
+      "id": "aniversario-florianopolis",
+      "name": "Aniversário de Florianópolis",
+      "date": "03-23",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

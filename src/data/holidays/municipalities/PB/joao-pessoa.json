@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2507507,
+  "name": "João Pessoa",
+  "slug": "joao-pessoa",
+  "uf": "PB",
+  "holidays": [
+    {
+      "id": "aniversario-joao-pessoa",
+      "name": "Aniversário de João Pessoa",
+      "date": "08-05",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

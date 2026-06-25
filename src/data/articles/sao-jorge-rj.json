@@ -1,0 +1,29 @@
+{
+  "id": "sao-jorge-rj",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Stgeorge-dragon.jpg/1280px-Stgeorge-dragon.jpg",
+    "alt": "São Jorge — São Jorge",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "São Jorge é celebrado em 23 de abril em Rio de Janeiro (RJ). Feriado facultativo no RJ.",
+  "legalBasis": "Trata-se de feriado facultativo, cuja observância depende de regulamento do empregador ou do ente público. Previsto no calendário oficial aplicável a Rio de Janeiro (RJ).",
+  "history": [
+    "Feriado facultativo no RJ.",
+    "Feriados brasileiros resultam da combinação entre tradição religiosa, marcos históricos e legislação federal, estadual e municipal.",
+    "Para viagens e operações comerciais, é essencial verificar o alcance territorial do feriado."
+  ],
+  "traditions": [
+    "Cerimônias oficiais e atividades educativas em escolas.",
+    "Eventos culturais abertos à comunidade."
+  ],
+  "funFacts": [
+    "O Brasil possui um dos calendários de feriados mais complexos das grandes economias, pela sobreposição de níveis federativos.",
+    "Datas fixas facilitam planejamento; datas móveis exigem cálculo anual."
+  ]
+}

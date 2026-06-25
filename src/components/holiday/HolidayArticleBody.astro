@@ -1,0 +1,65 @@
+---
+import type { HolidayArticle } from '@/data/schema';
+
+interface Props {
+  article: HolidayArticle;
+}
+
+const { article } = Astro.props;
+---
+
+<article class="space-y-10">
+  <section class="space-y-4">
+    <p class="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">{article.lead}</p>
+  </section>
+
+  {
+    article.legalBasis && (
+      <section class="space-y-3">
+        <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">Base legal</h2>
+        <p class="leading-relaxed text-neutral-600 dark:text-neutral-400">{article.legalBasis}</p>
+      </section>
+    )
+  }
+
+  <section class="space-y-4">
+    <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">História</h2>
+    <div class="space-y-4">
+      {
+        article.history.map((paragraph) => (
+          <p class="leading-relaxed text-neutral-600 dark:text-neutral-400">{paragraph}</p>
+        ))
+      }
+    </div>
+  </section>
+
+  {
+    article.traditions && article.traditions.length > 0 && (
+      <section class="space-y-4">
+        <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">
+          Como é celebrado
+        </h2>
+        <ul class="list-disc space-y-2 pl-5 text-neutral-600 dark:text-neutral-400">
+          {article.traditions.map((item) => <li class="leading-relaxed">{item}</li>)}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    article.funFacts && article.funFacts.length > 0 && (
+      <section class="space-y-4">
+        <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-50">Curiosidades</h2>
+        <ul class="space-y-3">
+          {
+            article.funFacts.map((fact) => (
+              <li class="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/20 dark:text-amber-100">
+                {fact}
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    )
+  }
+</article>

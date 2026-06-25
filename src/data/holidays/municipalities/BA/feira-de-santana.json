@@ -1,0 +1,15 @@
+{
+  "ibgeCode": 2910800,
+  "name": "Feira de Santana",
+  "slug": "feira-de-santana",
+  "uf": "BA",
+  "holidays": [
+    {
+      "id": "aniversario-feira-de-santana",
+      "name": "Aniversário de Feira de Santana",
+      "date": "11-16",
+      "type": "municipal",
+      "description": "Fundação do município."
+    }
+  ]
+}

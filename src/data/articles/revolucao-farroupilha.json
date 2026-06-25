@@ -1,0 +1,33 @@
+{
+  "id": "revolucao-farroupilha",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Carga_de_Cavalaria_by_Guilherme_Litran.jpg/1280px-Carga_de_Cavalaria_by_Guilherme_Litran.jpg",
+    "alt": "Revolução Farroupilha — Revolução Farroupilha",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Governo do Rio Grande do Sul",
+      "url": "https://www.estado.rs.gov.br"
+    },
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "A Revolução Farroupilha, celebrada em 20 de setembro no Rio Grande do Sul, marca o início do movimento separatista de 1835 que moldou a identidade gaúcha.",
+  "legalBasis": "Feriado estadual no Rio Grande do Sul, previsto na legislação estadual que reconhece a data como repouso obrigatório.",
+  "history": [
+    "O levante surgiu de tensões entre farrapos e imperiais, envolvendo economia charqueira, autonomia regional e conflitos fiscais.",
+    "Durou cerca de uma década e terminou com acordo que preservou o Rio Grande do Sul no Império.",
+    "Tornou-se símbolo de orgulho regional e memória histórica gaúcha."
+  ],
+  "traditions": [
+    "Desfiles tradicionalistas e cavalgadas.",
+    "Uso de trajes gaúchos e chimarrão em celebrações públicas."
+  ],
+  "funFacts": [
+    "No mesmo dia também se celebra o Dia do Gaúcho no estado.",
+    "O movimento inspirou literatura, música e folclore regional."
+  ]
+}

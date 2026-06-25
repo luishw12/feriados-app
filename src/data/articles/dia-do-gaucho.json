@@ -1,0 +1,29 @@
+{
+  "id": "dia-do-gaucho",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/langpt-330px-Flag_of_Brazil.svg.png",
+    "alt": "Dia do Gaúcho — Brasil",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "O Dia do Gaúcho, em 20 de setembro, celebra a cultura, os costumes e a identidade do povo gaúcho no Rio Grande do Sul.",
+  "legalBasis": "Data de celebração cultural associada ao feriado estadual da Revolução Farroupilha no RS.",
+  "history": [
+    "A data reforça tradições campeiras, música nativista e valores associados ao campo gaúcho.",
+    "Ganhou visibilidade junto à memória da Revolução Farroupilha.",
+    "É marcada por eventos folclóricos em cidades de todo o estado."
+  ],
+  "traditions": [
+    "Acampamentos farroupilhas e rodeios culturais.",
+    "Apresentações de música gaúcha e danças tradicionais."
+  ],
+  "funFacts": [
+    "O chimarrão e o bombacha são símbolos recorrentes nas celebrações.",
+    "Muitas escolas promovem atividades sobre cultura regional nesta data."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "natal",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Adoration_of_the_sheperds_-_Matthias_Stomer.jpg/1280px-Adoration_of_the_sheperds_-_Matthias_Stomer.jpg",
+    "alt": "Natal — Natal",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "O Natal, em 25 de dezembro, celebra o nascimento de Jesus Cristo e é um dos feriados mais aguardados do calendário brasileiro.",
+  "legalBasis": "Feriado nacional cristão consolidado historicamente no calendário brasileiro e reconhecido como dia de repouso remunerado.",
+  "history": [
+    "A festividade combina raízes religiosas com tradições populares como ceias, presépios e troca de presentes.",
+    "No Brasil, o período é marcado por festas familiares, decorações luminosas e campanhas solidárias.",
+    "O clima tropical adaptou costumes europeus a praias, churrascos e viagens de fim de ano."
+  ],
+  "traditions": [
+    "Ceia de Natal na noite de 24 ou almoço no dia 25.",
+    "Montagem de árvores de Natal e presépios.",
+    "Missas do Galo em comunidades católicas."
+  ],
+  "funFacts": [
+    "O comércio de Natal movimenta bilhões na economia brasileira todos os anos.",
+    "É feriado simultâneo em grande parte dos países cristãos."
+  ]
+}

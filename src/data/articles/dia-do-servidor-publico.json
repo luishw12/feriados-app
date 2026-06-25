@@ -1,0 +1,27 @@
+{
+  "id": "dia-do-servidor-publico",
+  "lead": "O Dia do Servidor Público, em 28 de outubro, reconhece profissionais que trabalham na administração pública federal, estadual e municipal.",
+  "history": [
+    "A data foi estabelecida em referência à criação da Associação Brasileira de Servidores Públicos.",
+    "Órgãos governamentais promovem eventos internos e campanhas de valorização.",
+    "Também é momento de reflexão sobre eficiência e qualidade dos serviços públicos."
+  ],
+  "traditions": [
+    "Cerimônias em órgãos públicos.",
+    "Homenagens a servidores destacados."
+  ],
+  "funFacts": [
+    "Em alguns estados e municípios, a data pode ser ponto facultativo para servidores locais."
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Servidor_p%C3%BAblico"
+    }
+  ],
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Sacfeira.jpg/1280px-Sacfeira.jpg",
+    "alt": "Dia do Servidor Público — Servidor público",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  }
+}

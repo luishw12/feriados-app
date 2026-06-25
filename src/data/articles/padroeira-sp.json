@@ -1,0 +1,29 @@
+{
+  "id": "padroeira-sp",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/langpt-330px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png",
+    "alt": "Nossa Senhora da Aparecida — São Paulo (estado)",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "Nossa Senhora da Aparecida é feriado em São Paulo/SP, celebrado em 12 de outubro, com forte tradição religiosa e cultural.",
+  "legalBasis": "Feriado previsto na legislação estadual ou municipal de São Paulo, associado à devoção da santa padroeira.",
+  "history": [
+    "Padroeira de São Paulo, facultativo estadual.",
+    "Padroeiras e santos patronos estruturam calendários religiosos que influenciaram feriados civis em diversas regiões.",
+    "Procissões e novenas antecedem a data em muitas comunidades."
+  ],
+  "traditions": [
+    "Missas solenes e procissões nas ruas centrais.",
+    "Feiras populares com comidas típicas e apresentações culturais."
+  ],
+  "funFacts": [
+    "Feriados religiosos locais atraem fiéis e turistas em cidades históricas.",
+    "A devoção costuma se manifestar em arte sacra, música e literatura regional."
+  ]
+}

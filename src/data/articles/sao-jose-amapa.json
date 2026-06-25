@@ -1,0 +1,29 @@
+{
+  "id": "sao-jose-amapa",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Agust%C3%ADn_Rodr%C3%ADguez_-_San_Jos%C3%A9_y_el_Ni%C3%B1o.jpg/1280px-Agust%C3%ADn_Rodr%C3%ADguez_-_San_Jos%C3%A9_y_el_Ni%C3%B1o.jpg",
+    "alt": "São José — São José",
+    "credit": "Wikimedia Commons — via Wikipédia"
+  },
+  "sources": [
+    {
+      "label": "Presidência da República — Planalto",
+      "url": "https://www.gov.br/planalto"
+    }
+  ],
+  "lead": "São José é celebrado em 19 de março em Amapá (AP). Padroeiro do Amapá, facultativo.",
+  "legalBasis": "Trata-se de feriado facultativo, cuja observância depende de regulamento do empregador ou do ente público. Previsto no calendário oficial aplicável a Amapá (AP).",
+  "history": [
+    "Padroeiro do Amapá, facultativo.",
+    "Feriados brasileiros resultam da combinação entre tradição religiosa, marcos históricos e legislação federal, estadual e municipal.",
+    "Para viagens e operações comerciais, é essencial verificar o alcance territorial do feriado."
+  ],
+  "traditions": [
+    "Cerimônias oficiais e atividades educativas em escolas.",
+    "Eventos culturais abertos à comunidade."
+  ],
+  "funFacts": [
+    "O Brasil possui um dos calendários de feriados mais complexos das grandes economias, pela sobreposição de níveis federativos.",
+    "Datas fixas facilitam planejamento; datas móveis exigem cálculo anual."
+  ]
+}

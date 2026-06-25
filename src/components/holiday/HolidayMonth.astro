@@ -1,0 +1,62 @@
+---
+import type { ResolvedHoliday } from '@/data/schema';
+import { HOLIDAY_TYPE_COLORS, MONTH_NAMES, WEEKDAY_LABELS } from '@/lib/constants';
+
+interface Props {
+  holidays: ResolvedHoliday[];
+  year: number;
+  month: number;
+}
+
+const { holidays, year, month } = Astro.props;
+
+const firstDay = new Date(year, month, 1);
+const daysInMonth = new Date(year, month + 1, 0).getDate();
+const startOffset = firstDay.getDay();
+
+const holidaysByDay = holidays.reduce<Record<number, ResolvedHoliday[]>>((acc, holiday) => {
+  if (holiday.resolvedDate.getMonth() !== month) return acc;
+  const day = holiday.resolvedDate.getDate();
+  if (!acc[day]) acc[day] = [];
+  acc[day].push(holiday);
+  return acc;
+}, {});
+---
+
+<div class="rounded-xl border bg-surface-light p-4 dark:bg-surface-dark">
+  <h3 class="mb-3 text-center font-semibold text-neutral-900 dark:text-neutral-50">
+    {MONTH_NAMES[month]}
+  </h3>
+  <div class="mb-2 grid grid-cols-7 gap-1 text-center text-xs font-medium text-neutral-500">
+    {WEEKDAY_LABELS.map((label) => <span>{label}</span>)}
+  </div>
+  <div class="grid grid-cols-7 gap-1">
+    {
+      Array.from({ length: startOffset }).map(() => (
+        <div class="aspect-square" aria-hidden="true" />
+      ))
+    }
+    {
+      Array.from({ length: daysInMonth }, (_, index) => {
+        const day = index + 1;
+        const dayHolidays = holidaysByDay[day] ?? [];
+        const primary = dayHolidays[0];
+        const dotClass = primary ? HOLIDAY_TYPE_COLORS[primary.type].dot : '';
+        return (
+          <div
+            class:list={[
+              'relative flex aspect-square flex-col items-center justify-center rounded-md text-sm',
+              dayHolidays.length > 0
+                ? 'bg-neutral-100 font-semibold dark:bg-neutral-800'
+                : 'text-neutral-600 dark:text-neutral-400',
+            ]}
+            title={dayHolidays.map((h) => h.name).join(', ')}
+          >
+            <span>{day}</span>
+            {primary && <span class:list={['mt-0.5 h-1.5 w-1.5 rounded-full', dotClass]} />}
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
