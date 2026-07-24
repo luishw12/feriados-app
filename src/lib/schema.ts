@@ -85,24 +85,69 @@ export function buildWebSiteSchema(siteUrl: string) {
   };
 }
 
+function todayIsoDate(): string {
+  return new Date().toISOString().split('T')[0];
+}
+
+export interface GuideIndexItem {
+  name: string;
+  url: string;
+  description: string;
+}
+
+export function buildItemListSchema(name: string, items: GuideIndexItem[]) {
+  return {
+    '@type': 'ItemList',
+    name,
+    numberOfItems: items.length,
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      url: item.url,
+      description: item.description,
+    })),
+  };
+}
+
 export function buildAboutPageSchema(
   siteUrl: string,
   authorName: string,
+  pageName: string,
+  pageDescription: string,
   faqItems?: FaqItem[],
 ) {
+  const pageUrl = `${siteUrl}/sobre/`;
   const nodes: Record<string, unknown>[] = [
     {
-      '@type': 'WebPage',
-      name: 'Sobre — Feriados Brasil',
-      url: `${siteUrl}/sobre/`,
+      '@type': 'AboutPage',
+      name: pageName,
+      description: pageDescription,
+      url: pageUrl,
       inLanguage: 'pt-BR',
+      dateModified: todayIsoDate(),
       isPartOf: {
         '@type': 'WebSite',
         name: 'Feriados Brasil',
         url: siteUrl,
       },
+      about: {
+        '@type': 'SoftwareApplication',
+        name: 'Feriados Brasil',
+        applicationCategory: 'ReferenceApplication',
+        operatingSystem: 'Web',
+        offers: {
+          '@type': 'Offer',
+          price: '0',
+          priceCurrency: 'BRL',
+        },
+      },
     },
     buildOrganizationSchema(siteUrl, authorName),
+    buildBreadcrumbSchema([
+      { name: 'Início', url: siteUrl },
+      { name: 'Sobre', url: pageUrl },
+    ]),
   ];
   if (faqItems && faqItems.length > 0) {
     nodes.push(buildFaqSchema(faqItems));
@@ -124,25 +169,64 @@ export function buildFaqSchema(faqItems: FaqItem[]) {
   };
 }
 
+export function buildGuideHubSchema(
+  siteUrl: string,
+  pageName: string,
+  pageDescription: string,
+  faqItems: FaqItem[],
+  guideItems: GuideIndexItem[],
+) {
+  const pageUrl = `${siteUrl}/guia/`;
+  const nodes: Record<string, unknown>[] = [
+    {
+      '@type': 'CollectionPage',
+      name: pageName,
+      description: pageDescription,
+      url: pageUrl,
+      inLanguage: 'pt-BR',
+      dateModified: todayIsoDate(),
+      isPartOf: { '@type': 'WebSite', name: 'Feriados Brasil', url: siteUrl },
+    },
+    buildItemListSchema(`Guias de feriados`, guideItems),
+    buildBreadcrumbSchema([
+      { name: 'Início', url: siteUrl },
+      { name: 'Guias', url: pageUrl },
+    ]),
+  ];
+  if (faqItems.length > 0) {
+    nodes.push(buildFaqSchema(faqItems));
+  }
+  return mergeSchemaGraph(...nodes);
+}
+
 export function buildGuidePageSchema(
   siteUrl: string,
   pageName: string,
+  pageDescription: string,
   pageUrl: string,
   faqItems: FaqItem[],
   breadcrumbItems: BreadcrumbItem[],
+  holidays: ResolvedHoliday[] = [],
 ) {
   const nodes: Record<string, unknown>[] = [
     {
       '@type': 'WebPage',
       name: pageName,
+      description: pageDescription,
       url: pageUrl,
       inLanguage: 'pt-BR',
+      dateModified: todayIsoDate(),
       isPartOf: { '@type': 'WebSite', name: 'Feriados Brasil', url: siteUrl },
     },
     buildBreadcrumbSchema(breadcrumbItems),
   ];
   if (faqItems.length > 0) {
     nodes.push(buildFaqSchema(faqItems));
+  }
+  if (holidays.length > 0) {
+    const holidaySchema = buildHolidaySchema(holidays, 'Brasil');
+    const graph = holidaySchema['@graph'] as Record<string, unknown>[];
+    nodes.push(...graph);
   }
   return mergeSchemaGraph(...nodes);
 }

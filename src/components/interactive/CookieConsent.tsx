@@ -7,6 +7,8 @@ import {
   type ConsentStatus,
 } from '@/lib/consent';
 
+const APPEAR_DELAY_MS = 1200;
+
 export default function CookieConsent() {
   const [visible, setVisible] = useState(false);
 
@@ -16,8 +18,11 @@ export default function CookieConsent() {
       enableAnalytics();
       return undefined;
     }
+
+    let appearTimer: ReturnType<typeof setTimeout> | undefined;
+
     if (status === null) {
-      setVisible(true);
+      appearTimer = setTimeout(() => setVisible(true), APPEAR_DELAY_MS);
     }
 
     function handleConsentChanged(event: Event): void {
@@ -30,7 +35,10 @@ export default function CookieConsent() {
     }
 
     window.addEventListener(CONSENT_CHANGED_EVENT, handleConsentChanged);
-    return () => window.removeEventListener(CONSENT_CHANGED_EVENT, handleConsentChanged);
+    return () => {
+      if (appearTimer) clearTimeout(appearTimer);
+      window.removeEventListener(CONSENT_CHANGED_EVENT, handleConsentChanged);
+    };
   }, []);
 
   function handleAccept(): void {
@@ -48,39 +56,38 @@ export default function CookieConsent() {
 
   return (
     <div
-      role="dialog"
-      aria-label="Consentimento de cookies"
+      role="region"
+      aria-label="Preferência de cookies"
       aria-describedby="cookie-consent-description"
-      className="fixed bottom-4 left-1/2 z-50 w-[calc(100%-2rem)] max-w-md -translate-x-1/2 rounded-xl border border-neutral-200 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900"
+      className="fixed inset-x-0 bottom-0 z-50 animate-fade-in p-3 sm:p-4"
     >
-      <div className="flex flex-col gap-4">
+      <div className="mx-auto flex max-w-3xl flex-col gap-3 rounded-xl border border-neutral-200/80 bg-white/90 px-4 py-3 shadow-sm backdrop-blur-xl dark:border-neutral-700/80 dark:bg-neutral-900/90 sm:flex-row sm:items-center sm:gap-4">
         <p
           id="cookie-consent-description"
-          className="text-sm text-neutral-600 dark:text-neutral-400"
+          className="min-w-0 flex-1 text-xs leading-relaxed text-neutral-600 dark:text-neutral-400 sm:text-sm"
         >
-          Utilizamos cookies de análise (Vercel Analytics e Google Analytics) para entender como o
-          site é usado e melhorar a experiência. Nenhum dado é coletado sem o seu consentimento.{' '}
+          Usamos cookies opcionais de análise para melhorar o site.{' '}
           <a
             href="/privacidade/"
-            className="font-medium text-emerald-600 underline underline-offset-2 transition-colors duration-150 hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300"
+            className="font-medium text-emerald-700 underline-offset-2 transition-colors duration-150 hover:text-emerald-800 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
           >
-            Política de Privacidade
+            Saiba mais
           </a>
         </p>
-        <div className="flex shrink-0 gap-2 sm:justify-end">
+        <div className="flex shrink-0 items-center gap-2 self-end sm:self-auto">
           <button
             type="button"
             onClick={handleReject}
-            className="inline-flex items-center justify-center rounded-lg bg-neutral-100 px-4 py-2 text-sm font-medium text-neutral-900 transition-colors duration-150 hover:bg-neutral-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-500 dark:bg-neutral-800 dark:text-neutral-50 dark:hover:bg-neutral-700"
+            className="rounded-lg px-3 py-1.5 text-xs font-medium text-neutral-500 transition-colors duration-150 hover:bg-neutral-100 hover:text-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-200 sm:text-sm"
           >
-            Recusar
+            Agora não
           </button>
           <button
             type="button"
             onClick={handleAccept}
-            className="inline-flex items-center justify-center rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white transition-colors duration-150 hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 dark:bg-emerald-500 dark:hover:bg-emerald-600"
+            className="rounded-lg bg-emerald-600 px-3 py-1.5 text-xs font-medium text-white transition-colors duration-150 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 sm:text-sm"
           >
-            Aceitar
+            Ok
           </button>
         </div>
       </div>

@@ -5,7 +5,16 @@ import {
   HOLIDAY_SCOPES,
   HOLIDAY_TYPES,
 } from '@/lib/contributions';
-import { inputClass, labelClass } from '@/components/interactive/contribution/ImageUploadField';
+import Field from '@/components/interactive/contribution/Field';
+import FormSection from '@/components/interactive/contribution/FormSection';
+import FormSelect from '@/components/interactive/contribution/FormSelect';
+import { controlClassName } from '@/components/interactive/contribution/formStyles';
+import { Checkbox } from '@/components/ui/checkbox';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import { cn } from '@/lib/utils';
 
 interface Props {
   form: ContributionPayload;
@@ -18,195 +27,200 @@ interface Props {
 
 export default function HolidayFields({ form, mode, updateHoliday }: Props) {
   const { holiday } = form;
-  const showHolidayFields = mode !== 'enrich_content';
+  if (mode === 'enrich_content') return null;
 
-  if (!showHolidayFields) return null;
+  const isMunicipal = holiday.scope === 'municipal';
+  const hasState = holiday.scope !== 'national';
 
   return (
-    <fieldset className="space-y-3 rounded-lg border border-neutral-100 p-3 dark:border-neutral-800">
-      <legend className="px-1 text-sm font-medium text-neutral-700 dark:text-neutral-300">
-        Dados do feriado
-      </legend>
-
-      <div>
-        <label htmlFor="holiday-name" className={labelClass}>
-          Nome do feriado *
-        </label>
-        <input
+    <FormSection bare description="Informações básicas usadas no calendário e nas páginas do site.">
+      <Field label="Nome do feriado" htmlFor="holiday-name" required className="sm:col-span-2 lg:col-span-12">
+        <Input
           id="holiday-name"
           type="text"
           required
-          className={inputClass}
+          className={controlClassName('h-9')}
           value={holiday.name}
           onChange={(event) => updateHoliday('name', event.target.value)}
+          placeholder="Ex.: Dia do Município"
         />
-      </div>
+      </Field>
 
-      <div>
-        <label htmlFor="scope" className={labelClass}>
-          Escopo *
-        </label>
-        <select
+      <Field
+        label="Escopo"
+        htmlFor="scope"
+        required
+        className={hasState ? 'lg:col-span-4' : 'lg:col-span-6'}
+      >
+        <FormSelect
           id="scope"
           required
-          className={inputClass}
           value={holiday.scope}
-          onChange={(event) =>
-            updateHoliday('scope', event.target.value as ContributionPayload['holiday']['scope'])
+          onValueChange={(value) =>
+            updateHoliday('scope', value as ContributionPayload['holiday']['scope'])
           }
-        >
-          {HOLIDAY_SCOPES.map((scope) => (
-            <option key={scope.value} value={scope.value}>
-              {scope.label}
-            </option>
-          ))}
-        </select>
-      </div>
+          options={HOLIDAY_SCOPES.map((scope) => ({ value: scope.value, label: scope.label }))}
+        />
+      </Field>
 
-      {holiday.scope !== 'national' && (
-        <div>
-          <label htmlFor="state" className={labelClass}>
-            Estado (UF) *
-          </label>
-          <input
+      <Field
+        label="Tipo"
+        htmlFor="holiday-type"
+        required
+        className={hasState ? 'lg:col-span-4' : 'lg:col-span-6'}
+      >
+        <FormSelect
+          id="holiday-type"
+          required
+          value={holiday.type}
+          onValueChange={(value) =>
+            updateHoliday('type', value as ContributionPayload['holiday']['type'])
+          }
+          options={HOLIDAY_TYPES.map((type) => ({ value: type.value, label: type.label }))}
+        />
+      </Field>
+
+      {hasState && (
+        <Field label="Estado (UF)" htmlFor="state" required className="lg:col-span-4">
+          <Input
             id="state"
             type="text"
             required
             maxLength={2}
-            className={inputClass}
+            className={controlClassName('h-9 uppercase')}
             value={holiday.state ?? ''}
             onChange={(event) => updateHoliday('state', event.target.value.toUpperCase())}
             placeholder="RS"
           />
-        </div>
+        </Field>
       )}
 
-      {holiday.scope === 'municipal' && (
+      {isMunicipal && (
         <>
-          <div>
-            <label htmlFor="city" className={labelClass}>
-              Cidade *
-            </label>
-            <input
+          <Field label="Cidade" htmlFor="city" required className="lg:col-span-6">
+            <Input
               id="city"
               type="text"
               required
-              className={inputClass}
+              className={controlClassName('h-9')}
               value={holiday.city ?? ''}
               onChange={(event) => updateHoliday('city', event.target.value)}
               placeholder="Porto Alegre"
             />
-          </div>
-          <div>
-            <label htmlFor="city-slug" className={labelClass}>
-              Slug da cidade {mode === 'suggest_holiday' ? '*' : ''}
-            </label>
-            <input
+          </Field>
+          <Field
+            label="Slug da cidade"
+            htmlFor="city-slug"
+            required={mode === 'suggest_holiday'}
+            hint="kebab-case, sem acentos (ex.: sao-paulo)"
+            className="lg:col-span-6"
+          >
+            <Input
               id="city-slug"
               type="text"
               required={mode === 'suggest_holiday'}
-              className={inputClass}
+              className={controlClassName('h-9')}
               value={holiday.citySlug ?? ''}
               onChange={(event) => updateHoliday('citySlug', event.target.value)}
               placeholder="porto-alegre"
             />
-            <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-              kebab-case, sem acentos (ex.: sao-paulo).
-            </p>
-          </div>
+          </Field>
         </>
       )}
 
-      <div>
-        <label htmlFor="holiday-type" className={labelClass}>
-          Tipo *
-        </label>
-        <select
-          id="holiday-type"
-          required
-          className={inputClass}
-          value={holiday.type}
-          onChange={(event) =>
-            updateHoliday('type', event.target.value as ContributionPayload['holiday']['type'])
-          }
+      <div className="sm:col-span-2 lg:col-span-5">
+        <Label className="mb-1.5 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          Tipo de data *
+        </Label>
+        <ToggleGroup
+          type="single"
+          variant="outline"
+          spacing={0}
+          value={holiday.dateKind}
+          onValueChange={(value) => {
+            if (value === 'fixed' || value === 'mobile') {
+              updateHoliday('dateKind', value);
+            }
+          }}
+          className="w-full"
         >
-          {HOLIDAY_TYPES.map((type) => (
-            <option key={type.value} value={type.value}>
-              {type.label}
-            </option>
-          ))}
-        </select>
+          <ToggleGroupItem value="fixed" className="flex-1">
+            Fixa (MM-DD)
+          </ToggleGroupItem>
+          <ToggleGroupItem value="mobile" className="flex-1">
+            Móvel (Páscoa)
+          </ToggleGroupItem>
+        </ToggleGroup>
       </div>
 
-      <div>
-        <span className={labelClass}>Data *</span>
-        <div className="mb-2 flex gap-4">
-          <label className="flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-300">
-            <input
-              type="radio"
-              name="date-kind"
-              checked={holiday.dateKind === 'fixed'}
-              onChange={() => updateHoliday('dateKind', 'fixed')}
-            />
-            Fixa (MM-DD)
-          </label>
-          <label className="flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-300">
-            <input
-              type="radio"
-              name="date-kind"
-              checked={holiday.dateKind === 'mobile'}
-              onChange={() => updateHoliday('dateKind', 'mobile')}
-            />
-            Móvel (Páscoa)
-          </label>
-        </div>
-
+      <Field
+        label={holiday.dateKind === 'fixed' ? 'Data' : 'Regra da data'}
+        htmlFor={holiday.dateKind === 'fixed' ? 'date' : 'date-rule'}
+        required
+        className="lg:col-span-7"
+      >
         {holiday.dateKind === 'fixed' ? (
-          <input
+          <Input
             id="date"
             type="text"
             required
-            className={inputClass}
+            className={controlClassName('h-9')}
             value={holiday.date ?? ''}
             onChange={(event) => updateHoliday('date', event.target.value)}
             placeholder="09-20"
           />
         ) : (
-          <select
+          <FormSelect
             id="date-rule"
             required
-            className={inputClass}
             value={holiday.dateRule ?? ''}
-            onChange={(event) => updateHoliday('dateRule', event.target.value)}
-          >
-            <option value="">Selecione a regra…</option>
-            {DATE_RULE_OPTIONS.map((option) => (
-              <option key={option.value} value={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
+            onValueChange={(value) => updateHoliday('dateRule', value)}
+            placeholder="Selecione a regra…"
+            options={DATE_RULE_OPTIONS.map((option) => ({
+              value: option.value,
+              label: option.label,
+            }))}
+          />
         )}
-      </div>
+      </Field>
 
-      <div>
-        <span className={labelClass}>Categorias *</span>
-        <div className="grid gap-2 sm:grid-cols-2">
+      <div className="sm:col-span-2 lg:col-span-12">
+        <Label className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          Categorias *
+        </Label>
+        <input
+          type="text"
+          required
+          tabIndex={-1}
+          aria-hidden="true"
+          className="pointer-events-none absolute size-0 opacity-0"
+          value={holiday.categories.join(',')}
+          readOnly
+        />
+        <div className="flex flex-wrap gap-2">
           {HOLIDAY_CATEGORIES.map((category) => {
             const checked = holiday.categories.includes(category.value);
+            const checkboxId = `category-${category.value}`;
             return (
               <label
                 key={category.value}
-                className="flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-300"
+                htmlFor={checkboxId}
+                className={cn(
+                  'inline-flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors',
+                  checked
+                    ? 'border-primary/40 bg-primary/10 text-foreground'
+                    : 'border-border bg-background text-muted-foreground hover:bg-muted/50',
+                )}
               >
-                <input
-                  type="checkbox"
+                <Checkbox
+                  id={checkboxId}
                   checked={checked}
-                  onChange={(event) => {
-                    const next = event.target.checked
+                  onCheckedChange={(next) => {
+                    const isChecked = next === true;
+                    const categories = isChecked
                       ? [...holiday.categories, category.value]
                       : holiday.categories.filter((item) => item !== category.value);
-                    updateHoliday('categories', next);
+                    updateHoliday('categories', categories);
                   }}
                 />
                 {category.label}
@@ -216,19 +230,16 @@ export default function HolidayFields({ form, mode, updateHoliday }: Props) {
         </div>
       </div>
 
-      <div>
-        <label htmlFor="description" className={labelClass}>
-          Descrição curta
-        </label>
-        <textarea
+      <Field label="Descrição curta" htmlFor="description" className="sm:col-span-2 lg:col-span-12">
+        <Textarea
           id="description"
           rows={2}
-          className={inputClass}
+          className={controlClassName('min-h-[72px] resize-y')}
           value={holiday.description ?? ''}
           onChange={(event) => updateHoliday('description', event.target.value)}
           placeholder="Breve descrição do feriado"
         />
-      </div>
-    </fieldset>
+      </Field>
+    </FormSection>
   );
 }

@@ -1,9 +1,9 @@
 import { useCallback, useMemo, useState } from 'react';
+import { ChevronLeft, ChevronRight, Plus } from 'lucide-react';
 import type { HolidayCategory, HolidayType, ResolvedHoliday, SerializedResolvedHoliday } from '@/data/schema';
 import {
   HOLIDAY_TYPE_COLORS,
-  abbreviateHolidayName,
-  getHolidayBadgeLabel,
+  HOLIDAY_TYPE_LABELS,
   MONTH_NAMES,
   WEEKDAY_LABELS,
 } from '@/lib/constants';
@@ -17,12 +17,19 @@ import {
   isRegionalMuted,
 } from '@/lib/holiday-stats';
 import YearDropdown from '@/components/interactive/YearDropdown';
-import MonthDropdown from '@/components/interactive/MonthDropdown';
 import HolidayLegendPopover from '@/components/interactive/HolidayLegendPopover';
 import CategoryFilter from '@/components/interactive/CategoryFilter';
 import YearStatsSummary from '@/components/interactive/YearStatsSummary';
 import DayHolidaysDialog from '@/components/interactive/DayHolidaysDialog';
-import ScrollArea from '@/components/ui/ScrollArea';
+import HolidayContributionActions from '@/components/interactive/HolidayContributionActions';
+import MonthStrip from '@/components/interactive/MonthStrip';
+import NextHolidayCountdown from '@/components/interactive/NextHolidayCountdown';
+import type { LocationContext } from '@/lib/location-storage';
+import {
+  buildContributionDetailFromCalendarDay,
+  buildHolidayContextFromResolvedHoliday,
+  openContributionModal,
+} from '@/lib/contributions';
 
 interface Props {
   year: number;
@@ -33,8 +40,10 @@ interface Props {
   regionalHolidays: SerializedResolvedHoliday[];
   contextHolidays?: SerializedResolvedHoliday[];
   hasLocation: boolean;
+  location: LocationContext | null;
   selectedCategories: ReadonlySet<HolidayCategory>;
   onCategoriesChange: (selected: Set<HolidayCategory>) => void;
+  countdownHolidays?: SerializedResolvedHoliday[];
 }
 
 interface DayHolidayEntry {
@@ -52,8 +61,6 @@ interface SelectedDay {
   day: number;
   month: number;
 }
-
-const MAX_VISIBLE_HOLIDAY_CHIPS = 3;
 
 function buildHolidayTypesByMonth(
   nationalHolidays: SerializedResolvedHoliday[],
@@ -151,28 +158,25 @@ function mergeDayMaps(
   return merged;
 }
 
-function HolidayDayChip({
-  name,
-  type,
-  muted,
-}: {
-  name: string;
-  type: HolidayType;
-  muted: boolean;
-}) {
-  const colors = HOLIDAY_TYPE_COLORS[type];
-  const label = abbreviateHolidayName(name, 9);
+function HolidayDots({ holidays }: { holidays: DayHolidayEntry[] }) {
+  const uniqueTypes = [...new Set(holidays.map((h) => h.type))].slice(0, 3);
+  const hasMuted = holidays.some((h) => h.muted);
 
   return (
-    <span
-      className={[
-        'block w-full min-w-0 truncate rounded-sm px-0.5 py-0.5 text-center text-[6px] font-semibold leading-tight sm:text-[7px] md:text-[8px]',
-        muted
-          ? 'border border-dashed border-neutral-300/80 bg-neutral-50 text-neutral-500 dark:border-neutral-600/50 dark:bg-neutral-800/40 dark:text-neutral-400'
-          : [colors.bg, colors.text].join(' '),
-      ].join(' ')}
-    >
-      {label}
+    <span className="flex items-center justify-center gap-0.5">
+      {hasMuted && uniqueTypes.length === 0 ? (
+        <span className="h-1.5 w-1.5 rounded-full border border-dashed border-neutral-400 dark:border-neutral-500" />
+      ) : (
+        uniqueTypes.map((type) => (
+          <span
+            key={type}
+            className={`h-1.5 w-1.5 rounded-full ${HOLIDAY_TYPE_COLORS[type].dot}`}
+          />
+        ))
+      )}
+      {holidays.length > 3 && (
+        <span className="text-[9px] font-medium text-neutral-400">+</span>
+      )}
     </span>
   );
 }
@@ -181,169 +185,200 @@ function MonthGrid({
   year,
   month,
   dayMap,
-  size = 'large',
   onDayClick,
+  onContributeDay,
 }: {
   year: number;
   month: number;
   dayMap: Map<string, DayMarker>;
-  size?: 'large' | 'mini';
   onDayClick?: (day: number) => void;
+  onContributeDay?: (day: number) => void;
 }) {
   const firstDay = new Date(year, month, 1);
   const daysInMonth = new Date(year, month + 1, 0).getDate();
   const startOffset = firstDay.getDay();
   const today = new Date();
   const isCurrentMonth = today.getFullYear() === year && today.getMonth() === month;
-  const isMini = size === 'mini';
 
-  const weekdayHeader = (
-    <div
-      className={
-        isMini
-          ? 'mb-0.5 grid w-full grid-cols-7 gap-px text-center text-[8px] font-medium leading-none text-neutral-400'
-          : 'grid grid-cols-7 border-b border-neutral-200/50 text-center text-xs font-medium text-neutral-400 dark:border-neutral-800/30'
-      }
-    >
-      {WEEKDAY_LABELS.map((label) => (
-        <span key={label} className={isMini ? 'py-0.5' : 'py-2'}>
-          {isMini ? label.charAt(0) : label}
-        </span>
-      ))}
-    </div>
-  );
+  return (
+    <div className="calendar-grid flex h-full min-h-0 flex-col">
+      <div className="mb-1.5 grid shrink-0 grid-cols-7 gap-1 sm:mb-2 sm:gap-1.5">
+        {WEEKDAY_LABELS.map((label) => (
+          <span
+            key={label}
+            className="py-0.5 text-center text-[10px] font-medium uppercase tracking-wide text-neutral-400 sm:py-1 sm:text-[11px]"
+          >
+            {label}
+          </span>
+        ))}
+      </div>
 
-  const dayCells = (
-    <>
-      {Array.from({ length: startOffset }).map((_, i) => (
-        <div
-          key={`empty-${i}`}
-          className={
-            isMini
-              ? 'h-5'
-              : 'min-h-[4.75rem] bg-white dark:bg-neutral-900/30 sm:min-h-[5.25rem]'
-          }
-          aria-hidden="true"
-        />
-      ))}
-      {Array.from({ length: daysInMonth }, (_, index) => {
+      <div className="grid min-h-0 flex-1 grid-cols-7 auto-rows-fr gap-1 sm:gap-1.5">
+        {Array.from({ length: startOffset }).map((_, i) => (
+          <div key={`empty-${i}`} className="min-h-0" aria-hidden="true" />
+        ))}
+
+        {Array.from({ length: daysInMonth }, (_, index) => {
           const day = index + 1;
           const key = `${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
           const marker = dayMap.get(key);
-          const primaryType = marker?.holidays[0]?.type;
-          const dotClass = primaryType ? HOLIDAY_TYPE_COLORS[primaryType].dot : '';
           const isToday = isCurrentMonth && today.getDate() === day;
           const hasHolidays = Boolean(marker && marker.holidays.length > 0);
-          const visibleHolidays = marker?.holidays.slice(0, MAX_VISIBLE_HOLIDAY_CHIPS) ?? [];
-          const overflowCount = marker ? marker.holidays.length - MAX_VISIBLE_HOLIDAY_CHIPS : 0;
-
-          if (isMini) {
-            return (
-              <div
-                key={day}
-                title={marker?.holidays.map((h) => h.name).join(', ')}
-                className={[
-                  'relative flex flex-col items-center justify-center',
-                  'h-5 rounded-sm text-[9px] leading-none',
-                  isToday ? 'font-bold ring-1 ring-emerald-500 dark:ring-emerald-400' : '',
-                  marker
-                    ? marker.holidays.some((h) => h.muted)
-                      ? 'border-2 border-dashed border-neutral-400 bg-neutral-50/80 text-neutral-400 dark:border-neutral-500 dark:bg-neutral-900/80 dark:text-neutral-500'
-                      : 'bg-neutral-100 font-medium text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100'
-                    : 'text-neutral-500 dark:text-neutral-500',
-                ].join(' ')}
-              >
-                <span>{day}</span>
-                {primaryType && (
-                  <span className={`mt-px h-0.5 w-0.5 rounded-full ${dotClass}`} />
-                )}
-              </div>
-            );
-          }
+          const isMuted = marker?.holidays.some((h) => h.muted) ?? false;
+          const primaryType = marker?.holidays[0]?.type;
+          const tintClass = hasHolidays && primaryType && !isMuted
+            ? HOLIDAY_TYPE_COLORS[primaryType].bg
+            : '';
 
           const cellClass = [
-            'relative flex min-w-0 flex-col gap-0.5 overflow-hidden p-1.5 text-sm',
-            'min-h-[4.75rem] bg-white sm:min-h-[5.25rem] dark:bg-neutral-900/30',
-            isToday ? 'ring-1 ring-inset ring-emerald-500/50 dark:ring-emerald-400/40' : '',
+            'calendar-day group relative flex min-h-0 h-full flex-col items-center justify-between rounded-lg p-1 transition-all duration-150 sm:rounded-xl sm:p-1.5',
+            isToday
+              ? 'ring-2 ring-emerald-500 ring-offset-1 ring-offset-white dark:ring-offset-neutral-950'
+              : 'ring-1 ring-neutral-200/60 dark:ring-neutral-800/60',
             hasHolidays
-              ? marker?.holidays.some((h) => h.muted)
-                ? 'text-neutral-500 dark:text-neutral-400'
-                : 'text-neutral-900 dark:text-neutral-100'
-              : 'text-neutral-500 dark:text-neutral-500',
-            hasHolidays && onDayClick
-              ? 'cursor-pointer transition-colors duration-150 hover:bg-neutral-50/80 dark:hover:bg-neutral-800/25'
-              : '',
+              ? isMuted
+                ? 'border border-dashed border-neutral-300 bg-neutral-50/80 dark:border-neutral-600 dark:bg-neutral-900/50'
+                : `${tintClass} hover:shadow-sm`
+              : 'bg-white/50 hover:bg-white/80 dark:bg-neutral-900/30 dark:hover:bg-neutral-900/50',
+            hasHolidays && onDayClick ? 'cursor-pointer hover:ring-emerald-500/30' : '',
           ].join(' ');
 
-          const content = (
-            <>
-              <span
-                className={[
-                  'shrink-0 px-0.5 tabular-nums',
-                  isToday ? 'font-bold text-emerald-700 dark:text-emerald-400' : 'font-medium',
-                ].join(' ')}
-              >
-                {day}
-              </span>
-              {hasHolidays && (
-                <div className="flex min-h-0 flex-1 flex-col justify-end gap-px">
-                  {visibleHolidays.map((holiday, chipIndex) => (
-                    <HolidayDayChip
-                      key={`${holiday.id}-${holiday.type}-${chipIndex}`}
-                      name={holiday.name}
-                      type={holiday.type}
-                      muted={holiday.muted}
-                    />
-                  ))}
-                  {overflowCount > 0 && (
-                    <span className="block w-full rounded-sm bg-neutral-100/90 px-0.5 py-0.5 text-center text-[6px] font-semibold leading-tight text-neutral-500 dark:bg-neutral-800/50 dark:text-neutral-400 sm:text-[7px] md:text-[8px]">
-                      +{overflowCount}
-                    </span>
-                  )}
-                </div>
-              )}
-            </>
-          );
-
-          if (hasHolidays && onDayClick) {
-            return (
-              <button
-                key={day}
-                type="button"
-                onClick={() => onDayClick(day)}
-                className={cellClass}
-                aria-label={`Ver feriados do dia ${day}`}
-              >
-                {content}
-              </button>
-            );
-          }
+          const dayNumberClass = [
+            'relative z-[1] text-sm font-medium tabular-nums',
+            isToday
+              ? 'text-emerald-600 dark:text-emerald-400'
+              : hasHolidays
+                ? 'text-neutral-900 dark:text-neutral-100'
+                : 'text-neutral-500 dark:text-neutral-500',
+          ].join(' ');
 
           return (
             <div key={day} className={cellClass}>
-              {content}
+              {hasHolidays && onDayClick && (
+                <button
+                  type="button"
+                  onClick={() => onDayClick(day)}
+                  className="absolute inset-0 z-0 rounded-[inherit] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-emerald-600"
+                  aria-label={`${day} de ${MONTH_NAMES[month]}${marker ? `, ${marker.holidays.map((h) => h.name).join(', ')}` : ''}`}
+                />
+              )}
+
+              <span className={dayNumberClass}>{day}</span>
+
+              {hasHolidays ? (
+                <span className="relative z-[1]">
+                  <HolidayDots holidays={marker?.holidays ?? []} />
+                </span>
+              ) : (
+                <span className="h-1.5" aria-hidden="true" />
+              )}
+
+              {onContributeDay && (
+                <button
+                  type="button"
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onContributeDay(day);
+                  }}
+                  className={[
+                    'absolute right-0.5 top-0.5 z-10 flex h-6 w-6 items-center justify-center rounded-md sm:right-1 sm:top-1 sm:h-7 sm:w-7',
+                    'bg-emerald-600 text-white shadow-sm',
+                    'opacity-0 transition-opacity duration-150',
+                    'hover:bg-emerald-500',
+                    'group-hover:opacity-100 group-focus-within:opacity-100',
+                    'focus-visible:opacity-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-emerald-600',
+                    'dark:bg-emerald-500 dark:hover:bg-emerald-400',
+                  ].join(' ')}
+                  aria-label={`Sugerir feriado em ${day} de ${MONTH_NAMES[month]}`}
+                  title="Sugerir feriado"
+                >
+                  <Plus className="h-3.5 w-3.5 sm:h-4 sm:w-4" strokeWidth={2.5} aria-hidden="true" />
+                </button>
+              )}
             </div>
           );
         })}
-    </>
-  );
-
-  if (isMini) {
-    return (
-      <div className="w-full">
-        {weekdayHeader}
-        <div className="grid w-full grid-cols-7 gap-px">{dayCells}</div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="overflow-hidden rounded-xl border border-neutral-200/50 dark:border-neutral-800/25">
-      {weekdayHeader}
-      <div className="grid grid-cols-7 auto-rows-[minmax(4.75rem,1fr)] divide-x divide-y divide-neutral-100/90 dark:divide-neutral-800/20 sm:auto-rows-[minmax(5.25rem,1fr)]">
-        {dayCells}
       </div>
     </div>
+  );
+}
+
+function HolidayTimelineCard({
+  holiday,
+  hasLocation,
+  location,
+  selectedMonth,
+}: {
+  holiday: ResolvedHoliday;
+  hasLocation: boolean;
+  location: LocationContext | null;
+  selectedMonth: number;
+}) {
+  const muted = isRegionalMuted(holiday.type, hasLocation);
+  const colors = HOLIDAY_TYPE_COLORS[holiday.type];
+  const dayNum = holiday.resolvedDate.getDate();
+  const weekdayShort = holiday.resolvedDate
+    .toLocaleDateString('pt-BR', { weekday: 'short' })
+    .replace('.', '');
+  const monthName = MONTH_NAMES[selectedMonth];
+  const showContribute = !muted && holiday.id !== 'regional';
+
+  return (
+    <li className="group relative">
+      <a
+        href={`/feriado/${holiday.id}/`}
+        className={[
+          'flex items-center gap-3 rounded-lg px-2 py-2 transition-colors duration-150',
+          'hover:bg-neutral-100/80 dark:hover:bg-neutral-800/50',
+          showContribute ? 'pr-10' : '',
+        ].join(' ')}
+        aria-label={
+          muted
+            ? `Ver feriado regional em ${dayNum} de ${monthName}`
+            : `Ver detalhes de ${holiday.name}`
+        }
+      >
+        <div className="flex w-8 shrink-0 flex-col items-center">
+          <span className="text-base font-semibold tabular-nums leading-none text-neutral-900 dark:text-neutral-50">
+            {dayNum}
+          </span>
+          <span className="mt-0.5 text-[10px] capitalize leading-none text-neutral-400">
+            {weekdayShort}
+          </span>
+        </div>
+
+        <span
+          className={`h-8 w-0.5 shrink-0 rounded-full ${muted ? 'bg-neutral-300 dark:bg-neutral-700' : colors.dot}`}
+          aria-hidden="true"
+        />
+
+        <div className="min-w-0 flex-1">
+          <p
+            className={[
+              'truncate text-sm font-medium leading-snug',
+              muted
+                ? 'text-neutral-500 dark:text-neutral-400'
+                : 'text-neutral-900 group-hover:text-emerald-700 dark:text-neutral-50 dark:group-hover:text-emerald-400',
+            ].join(' ')}
+          >
+            {muted ? 'Feriado regional' : holiday.name}
+          </p>
+          <p className={`mt-0.5 truncate text-[11px] font-medium ${colors.text}`}>
+            {HOLIDAY_TYPE_LABELS[holiday.type]}
+          </p>
+        </div>
+      </a>
+
+      {showContribute && (
+        <HolidayContributionActions
+          variant="inline"
+          holidayId={holiday.id}
+          holidayName={holiday.name}
+          pageUrl={`/feriado/${holiday.id}/`}
+          holiday={buildHolidayContextFromResolvedHoliday(holiday, location)}
+        />
+      )}
+    </li>
   );
 }
 
@@ -356,8 +391,10 @@ export default function HolidayCalendar({
   regionalHolidays,
   contextHolidays = [],
   hasLocation,
+  location,
   selectedCategories,
   onCategoriesChange,
+  countdownHolidays = [],
 }: Props) {
   const [selectedDay, setSelectedDay] = useState<SelectedDay | null>(null);
 
@@ -414,6 +451,21 @@ export default function HolidayCalendar({
       hasCategorySelection,
       year,
     ],
+  );
+
+  const getAllHolidaysForDay = useCallback(
+    (month: number, day: number): ResolvedHoliday[] => {
+      const all = deserializeHolidays([
+        ...nationalHolidays,
+        ...(hasLocation ? contextHolidays : regionalHolidays),
+      ]).filter((holiday) => {
+        const date = holiday.resolvedDate;
+        return date.getFullYear() === year && date.getMonth() === month && date.getDate() === day;
+      });
+
+      return dedupeCalendarHolidays(all, hasLocation);
+    },
+    [nationalHolidays, regionalHolidays, contextHolidays, hasLocation, year],
   );
 
   const holidayTypesByMonth = useMemo(
@@ -473,160 +525,147 @@ export default function HolidayCalendar({
     setSelectedDay({ day, month: selectedMonth });
   }, [selectedMonth]);
 
+  const handleContributeDay = useCallback(
+    (day: number) => {
+      const holidays = getAllHolidaysForDay(selectedMonth, day);
+      const detail = buildContributionDetailFromCalendarDay(
+        selectedMonth,
+        day,
+        holidays,
+        location,
+      );
+      openContributionModal(detail);
+    },
+    [getAllHolidaysForDay, location, selectedMonth],
+  );
+
+  const goToPrevMonth = () => {
+    if (selectedMonth === 0) {
+      onYearChange(year - 1);
+      onMonthSelect(11);
+    } else {
+      onMonthSelect(selectedMonth - 1);
+    }
+  };
+
+  const goToNextMonth = () => {
+    if (selectedMonth === 11) {
+      onYearChange(year + 1);
+      onMonthSelect(0);
+    } else {
+      onMonthSelect(selectedMonth + 1);
+    }
+  };
+
   const selectedDayHolidays = selectedDay
     ? getHolidaysForDay(selectedDay.month, selectedDay.day)
     : [];
 
   return (
-    <div className="flex h-full min-h-0 gap-4 lg:gap-5">
-      <div className="flex min-h-0 min-w-0 flex-1 flex-col">
-        <div className="mb-3 flex shrink-0 items-center justify-between gap-2">
-          <div className="flex items-baseline gap-2">
-            <MonthDropdown
-              month={selectedMonth}
-              onChange={onMonthSelect}
-              holidayTypesByMonth={holidayTypesByMonth}
-            />
-            <YearDropdown year={year} onChange={onYearChange} />
-          </div>
-          <HolidayLegendPopover hasLocation={hasLocation} />
-        </div>
+    <div className="flex h-full min-h-0 flex-col gap-3 overflow-hidden animate-fade-in lg:gap-4">
+      {/* Toolbar */}
+      <div className="shrink-0 space-y-2">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3">
+            <div className="flex shrink-0 items-center gap-1 sm:gap-2">
+              <button
+                type="button"
+                onClick={goToPrevMonth}
+                className="rounded-lg p-2 text-neutral-500 transition-colors duration-150 hover:bg-neutral-100 hover:text-neutral-800 dark:hover:bg-neutral-800 dark:hover:text-neutral-200"
+                aria-label="Mês anterior"
+              >
+                <ChevronLeft className="h-5 w-5" />
+              </button>
 
-        <YearStatsSummary stats={yearStats} year={year} />
+              <div>
+                <h2 className="text-xl font-bold tracking-tight text-neutral-900 dark:text-neutral-50 sm:text-2xl">
+                  {MONTH_NAMES[selectedMonth]}
+                </h2>
+                <YearDropdown year={year} onChange={onYearChange} size="sm" />
+              </div>
 
-        <CategoryFilter selected={selectedCategories} onChange={onCategoriesChange} />
+              <button
+                type="button"
+                onClick={goToNextMonth}
+                className="rounded-lg p-2 text-neutral-500 transition-colors duration-150 hover:bg-neutral-100 hover:text-neutral-800 dark:hover:bg-neutral-800 dark:hover:text-neutral-200"
+                aria-label="Próximo mês"
+              >
+                <ChevronRight className="h-5 w-5" />
+              </button>
+            </div>
 
-        <div className="shrink-0">
-          <MonthGrid
-            year={year}
-            month={selectedMonth}
-            dayMap={dayMap}
-            size="large"
-            onDayClick={handleDayClick}
-          />
-        </div>
-
-        <div className="mt-4 flex min-h-0 flex-1 flex-col">
-          <h3 className="mb-2 shrink-0 text-xs font-medium uppercase tracking-wide text-neutral-400">
-            Feriados em {MONTH_NAMES[selectedMonth]}
-            {monthHolidays.length > 0 && (
-              <span className="ml-1.5 text-neutral-300 dark:text-neutral-600">
-                ({monthHolidays.length})
-              </span>
+            {countdownHolidays.length > 0 && (
+              <NextHolidayCountdown holidays={countdownHolidays} className="min-w-0" />
             )}
-          </h3>
+          </div>
 
-          {monthHolidays.length === 0 ? (
-            <p className="text-sm text-neutral-500">
-              {hasCategorySelection
-                ? 'Nenhum feriado neste mês com os temas selecionados.'
-                : 'Selecione ao menos uma categoria para ver feriados.'}
-            </p>
-          ) : (
-            <ScrollArea className="min-h-0 flex-1">
-              <ul className="space-y-2 pb-4 pr-2">
-                {monthHolidays.map((holiday) => {
-                  const muted = isRegionalMuted(holiday.type, hasLocation);
-                  const colors = HOLIDAY_TYPE_COLORS[holiday.type];
-                  const dayNum = holiday.resolvedDate.getDate();
-                  const weekday = holiday.resolvedDate.toLocaleDateString('pt-BR', {
-                    weekday: 'short',
-                  });
-
-                  return (
-                    <li key={`${holiday.id}-${holiday.resolvedDate.toISOString()}`}>
-                      <a
-                        href={`/feriado/${holiday.id}/`}
-                        className={[
-                          'flex gap-3 rounded-xl border p-3 transition-colors duration-150',
-                          muted
-                            ? 'border-dashed border-neutral-200 bg-neutral-50/50 hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-900/50 dark:hover:border-neutral-600'
-                            : 'border-neutral-200 bg-white hover:border-emerald-300 hover:bg-emerald-50/30 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-emerald-700 dark:hover:bg-emerald-950/20',
-                        ].join(' ')}
-                        aria-label={
-                          muted
-                            ? `Ver detalhes do feriado regional em ${dayNum} de ${MONTH_NAMES[selectedMonth]}`
-                            : `Ver detalhes de ${holiday.name}`
-                        }
-                      >
-                        <div className="flex w-10 shrink-0 flex-col items-center justify-center rounded-lg bg-neutral-100 py-1 dark:bg-neutral-800">
-                          <span className="text-lg font-semibold tabular-nums leading-none text-neutral-900 dark:text-neutral-50">
-                            {dayNum}
-                          </span>
-                          <span className="mt-0.5 text-[10px] uppercase text-neutral-400">
-                            {weekday}
-                          </span>
-                        </div>
-
-                        <div className="min-w-0 flex-1">
-                          <p className="font-medium leading-snug text-neutral-900 dark:text-neutral-50">
-                            {muted ? 'Feriado regional' : holiday.name}
-                          </p>
-                          <div className="mt-1.5">
-                            <span
-                              className={[
-                                'inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium',
-                                colors.bg,
-                                colors.text,
-                              ].join(' ')}
-                            >
-                              <span className={`h-1.5 w-1.5 rounded-full ${colors.dot}`} />
-                              {getHolidayBadgeLabel(holiday.type)}
-                            </span>
-                          </div>
-                          {muted && (
-                            <p className="mt-1 text-[11px] italic text-neutral-400">
-                              Varia conforme seu estado ou cidade
-                            </p>
-                          )}
-                        </div>
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
-            </ScrollArea>
-          )}
+          <div className="flex items-center gap-1 sm:gap-2">
+            <YearStatsSummary stats={yearStats} year={year} />
+            <CategoryFilter selected={selectedCategories} onChange={onCategoriesChange} />
+            <HolidayLegendPopover hasLocation={hasLocation} />
+          </div>
         </div>
+
+        <MonthStrip
+          selectedMonth={selectedMonth}
+          onMonthSelect={onMonthSelect}
+          holidayTypesByMonth={holidayTypesByMonth}
+        />
       </div>
 
-      <aside className="hidden min-h-0 w-48 shrink-0 self-stretch lg:flex lg:flex-col xl:w-52">
-        <p className="mb-2 shrink-0 text-xs font-medium uppercase tracking-wide text-neutral-400">
-          Outros meses
-        </p>
-        <ScrollArea as="nav" aria-label="Outros meses" className="min-h-0 flex-1">
-          <div className="flex flex-col gap-2 pb-8 pr-1">
-            {MONTH_NAMES.map((name, month) => {
-              const isSelected = month === selectedMonth;
-              return (
-                <button
-                  key={name}
-                  type="button"
-                  onClick={() => onMonthSelect(month)}
-                  className={[
-                    'w-full shrink-0 rounded-xl border px-1.5 py-1.5 text-left transition-colors duration-150',
-                    isSelected
-                      ? 'border-emerald-500 bg-emerald-50/60 dark:border-emerald-600 dark:bg-emerald-950/30'
-                      : 'border-neutral-200 bg-white hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-neutral-700',
-                  ].join(' ')}
-                >
-                  <p
-                    className={[
-                      'mb-0.5 px-0.5 text-[11px] font-semibold',
-                      isSelected
-                        ? 'text-emerald-700 dark:text-emerald-400'
-                        : 'text-neutral-600 dark:text-neutral-400',
-                    ].join(' ')}
-                  >
-                    {name}
-                  </p>
-                  <MonthGrid year={year} month={month} dayMap={dayMap} size="mini" />
-                </button>
-              );
-            })}
+      {/* Main content: calendar + sidebar */}
+      <div className="flex min-h-0 flex-1 gap-4 overflow-hidden lg:gap-5">
+        {/* Calendar */}
+        <div className="flex min-h-0 min-w-0 flex-1 flex-col overflow-hidden">
+          <div className="flex h-full min-h-0 flex-col overflow-hidden rounded-2xl border border-neutral-200/60 bg-white/50 p-2 backdrop-blur-sm dark:border-neutral-800/60 dark:bg-neutral-900/30 sm:p-3">
+            <MonthGrid
+              year={year}
+              month={selectedMonth}
+              dayMap={dayMap}
+              onDayClick={handleDayClick}
+              onContributeDay={handleContributeDay}
+            />
           </div>
-        </ScrollArea>
-      </aside>
+        </div>
+
+        {/* Holiday panel */}
+        <aside className="hidden min-h-0 w-72 shrink-0 overflow-hidden lg:flex lg:flex-col xl:w-80">
+          <div className="flex h-full min-h-0 flex-col overflow-hidden rounded-2xl border border-neutral-200/60 bg-white/50 backdrop-blur-sm dark:border-neutral-800/60 dark:bg-neutral-900/30">
+            <div className="shrink-0 border-b border-neutral-200/60 px-3 py-2.5 dark:border-neutral-800/60">
+              <h3 className="text-sm font-semibold text-neutral-900 dark:text-neutral-50">
+                Feriados em {MONTH_NAMES[selectedMonth]}
+              </h3>
+              <p className="mt-0.5 text-xs text-neutral-500 dark:text-neutral-400">
+                {monthHolidays.length === 0
+                  ? 'Nenhum feriado neste mês'
+                  : `${monthHolidays.length} ${monthHolidays.length === 1 ? 'data' : 'datas'} no calendário`}
+              </p>
+            </div>
+
+            <div className="min-h-0 flex-1 overflow-y-auto">
+              {monthHolidays.length === 0 ? (
+                <p className="p-3 text-sm text-neutral-500">
+                  {hasCategorySelection
+                    ? 'Nenhum feriado com os temas selecionados.'
+                    : 'Selecione ao menos um tema para ver feriados.'}
+                </p>
+              ) : (
+                <ol className="divide-y divide-neutral-200/50 p-1.5 dark:divide-neutral-800/50">
+                  {monthHolidays.map((holiday) => (
+                    <HolidayTimelineCard
+                      key={`${holiday.id}-${holiday.resolvedDate.toISOString()}`}
+                      holiday={holiday}
+                      hasLocation={hasLocation}
+                      location={location}
+                      selectedMonth={selectedMonth}
+                    />
+                  ))}
+                </ol>
+              )}
+            </div>
+          </div>
+        </aside>
+      </div>
 
       {selectedDay && selectedDayHolidays.length > 0 && (
         <DayHolidaysDialog
@@ -635,6 +674,7 @@ export default function HolidayCalendar({
           year={year}
           holidays={selectedDayHolidays}
           hasLocation={hasLocation}
+          location={location}
           onClose={() => setSelectedDay(null)}
         />
       )}

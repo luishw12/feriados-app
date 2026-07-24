@@ -55,8 +55,14 @@ const stateRegionalHolidays: Holiday[] = getAllStateRegionalHolidays(year).map(
     <h1>Feriados no Brasil {year} — Calendário Completo por Estado e Cidade</h1>
     <p>{meta.description}</p>
     <p>
-      Guias de feriados {year}: <a href="/guia/">/guia/</a> — calendário, dias úteis, facultativos,
-      emendas e próximo feriado.
+      Guias de feriados {year}: <a href="/guia/">/guia/</a> —
+      <a href="/guia/calendario-feriados/">calendário</a>,
+      <a href="/guia/feriados-dias-uteis/">dias úteis</a>,
+      <a href="/guia/feriados-facultativos/">facultativos</a>,
+      <a href="/guia/emendas-e-feriados-prolongados/">emendas</a>,
+      <a href="/guia/proximo-feriado/">próximo feriado</a> e
+      <a href="/guia/feriados-moveis/">feriados móveis</a>.
+      Sobre o projeto: <a href="/sobre/">/sobre/</a>.
     </p>
     <p>
       Índice para assistentes de IA: <a href="/llms.txt">/llms.txt</a> (resumo) e
@@ -88,7 +94,7 @@ const stateRegionalHolidays: Holiday[] = getAllStateRegionalHolidays(year).map(
     </section>
   </section>
 
-  <div class="mx-auto flex h-full max-w-5xl flex-col overflow-hidden px-4 pt-4">
+  <div class="mx-auto flex h-full max-w-7xl flex-col overflow-hidden px-4 py-3 animate-fade-in sm:px-6">
     <HomeInteractive
       client:load
       initialYear={year}

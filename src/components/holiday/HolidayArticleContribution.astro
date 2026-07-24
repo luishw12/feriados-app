@@ -1,5 +1,6 @@
 ---
 import Card from '@/components/ui/Card.astro';
+import HolidayContributionActions from '@/components/interactive/HolidayContributionActions';
 import type { HolidayArticle, HolidayDefinition } from '@/data/schema';
 import {
   buildArticleContextFromArticle,
@@ -16,22 +17,11 @@ interface Props {
 
 const { holidayId, holidayName, pageUrl, definition, article } = Astro.props;
 
-const contributionContext = {
-  holidayId,
-  holidayName,
-  pageUrl,
-  holiday: buildHolidayContextFromDefinition(definition),
-  article: buildArticleContextFromArticle(article),
-};
-
-const contributionData = JSON.stringify(contributionContext);
+const holidayContext = buildHolidayContextFromDefinition(definition);
+const articleContext = buildArticleContextFromArticle(article);
 ---
 
-<Card
-  padding="md"
-  class="border-emerald-200 dark:border-emerald-900/50"
-  data-article-contribution={contributionData}
->
+<Card padding="md" class="border-emerald-200 dark:border-emerald-900/50">
   <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
     <div class="flex items-start gap-3">
       <div
@@ -56,66 +46,13 @@ const contributionData = JSON.stringify(contributionContext);
         </p>
       </div>
     </div>
-    <div class="flex shrink-0 flex-wrap gap-2">
-      <button
-        type="button"
-        id="report-article-btn"
-        class="inline-flex items-center justify-center rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700 transition-colors duration-150 hover:bg-neutral-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-500 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700"
-      >
-        Corrigir feriado
-      </button>
-      <button
-        type="button"
-        id="enrich-article-btn"
-        class="inline-flex items-center justify-center rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white transition-colors duration-150 hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 dark:bg-emerald-500 dark:hover:bg-emerald-600"
-      >
-        Enriquecer conteúdo
-      </button>
-    </div>
+    <HolidayContributionActions
+      client:visible
+      holidayId={holidayId}
+      holidayName={holidayName}
+      pageUrl={pageUrl}
+      holiday={holidayContext}
+      article={articleContext}
+    />
   </div>
 </Card>
-
-<script is:inline>
-  (function () {
-    const card = document.querySelector('[data-article-contribution]');
-    const raw = card?.getAttribute('data-article-contribution');
-    if (!raw) return;
-
-    let context;
-    try {
-      context = JSON.parse(raw);
-    } catch {
-      return;
-    }
-
-    document.getElementById('report-article-btn')?.addEventListener('click', function () {
-      window.dispatchEvent(
-        new CustomEvent('open-contribution', {
-          detail: {
-            mode: 'report_error',
-            holidayId: context.holidayId,
-            holidayName: context.holidayName,
-            pageUrl: context.pageUrl,
-            holiday: context.holiday,
-            article: context.article,
-          },
-        }),
-      );
-    });
-
-    document.getElementById('enrich-article-btn')?.addEventListener('click', function () {
-      window.dispatchEvent(
-        new CustomEvent('open-contribution', {
-          detail: {
-            mode: 'enrich_content',
-            holidayId: context.holidayId,
-            holidayName: context.holidayName,
-            pageUrl: context.pageUrl,
-            holiday: context.holiday,
-            article: context.article,
-          },
-        }),
-      );
-    });
-  })();
-</script>

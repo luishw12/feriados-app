@@ -16,10 +16,10 @@ const href = `/feriado/${holiday.id}/`;
 
 <a
   href={href}
-  class="group block rounded-xl transition-colors duration-150 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500"
+  class="group block rounded-2xl transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500"
   aria-label={`Ver artigo sobre ${holiday.name}`}
 >
-  <Card class:list={[muted && 'border-dashed opacity-60', 'group-hover:border-emerald-300 dark:group-hover:border-emerald-700']}>
+  <Card class:list={[muted && 'border-dashed opacity-60', 'group-hover:-translate-y-0.5 group-hover:border-emerald-300/60 group-hover:shadow-card-hover dark:group-hover:border-emerald-700/60']}>
     <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
       <div class="space-y-1">
         <div class="flex flex-wrap items-center gap-2">

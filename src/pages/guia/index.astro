@@ -1,83 +1,127 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import GuideNav from '@/components/guide/GuideNav.astro';
+import GuideIndex from '@/components/guide/GuideIndex.astro';
+import GuideYearSnapshot from '@/components/guide/GuideYearSnapshot.astro';
 import FaqSection from '@/components/guide/FaqSection.astro';
 import { getGuideHubMeta } from '@/lib/seo';
-import { buildGuidePageSchema } from '@/lib/schema';
+import { buildGuideHubSchema } from '@/lib/schema';
 import { getSiteUrl } from '@/lib/site-url';
 import { GUIDE_PAGES } from '@/lib/search-intents';
 import { getAllSearchFaqItems } from '@/lib/search-intents';
 import { buildNationalYearInsights } from '@/lib/holiday-insights';
+import { formatHolidayDate } from '@/lib/constants';
 
 const year = new Date().getFullYear();
 const meta = getGuideHubMeta(year);
 const siteUrl = getSiteUrl(Astro.site);
 const insights = buildNationalYearInsights(year);
-const faqItems = getAllSearchFaqItems(year, siteUrl).slice(0, 6);
-const jsonLd = buildGuidePageSchema(siteUrl, meta.title, `${siteUrl}/guia/`, faqItems, [
-  { name: 'Início', url: siteUrl },
-  { name: 'Guias', url: `${siteUrl}/guia/` },
-]);
+const faqItems = getAllSearchFaqItems(year, siteUrl).slice(0, 8);
+
+const guideDescriptions: Record<(typeof GUIDE_PAGES)[number]['slug'], string> = {
+  'calendario-feriados': `Lista mês a mês dos feriados nacionais de ${year}, com links para estados.`,
+  'feriados-nacionais': `Os ${insights.stats.mandatoryTotal} feriados obrigatórios do calendário federal, com datas.`,
+  'feriados-dias-uteis': `${insights.stats.mandatoryWeekdayCount} feriados caem de segunda a sexta — e quais ficam no fim de semana.`,
+  'feriados-facultativos': `Pontos facultativos federais: o que muda no trabalho e no serviço público.`,
+  'emendas-e-feriados-prolongados': `${insights.stats.bridgeCount} datas em terça ou quinta com potencial de feriadão.`,
+  'proximo-feriado': insights.nextHoliday
+    ? `Agora: ${insights.nextHoliday.name}, em ${formatHolidayDate(insights.nextHoliday.resolvedDate)}.`
+    : `Consulta rápida do próximo feriado nacional a partir de hoje.`,
+  'feriados-moveis': 'Carnaval, Sexta-feira Santa, Páscoa e Corpus Christi — datas que mudam todo ano.',
+};
+
+const guideLinks = GUIDE_PAGES.map((guide) => ({
+  href: `/guia/${guide.slug}/`,
+  title: guide.title,
+  description: guideDescriptions[guide.slug],
+}));
+
+const guideSchemaItems = GUIDE_PAGES.map((guide) => ({
+  name: guide.title,
+  url: `${siteUrl}/guia/${guide.slug}/`,
+  description: guideDescriptions[guide.slug],
+}));
+
+const jsonLd = buildGuideHubSchema(
+  siteUrl,
+  meta.title,
+  meta.description,
+  faqItems,
+  guideSchemaItems,
+);
+
+const hubStats = [
+  { value: insights.stats.mandatoryTotal, label: 'Nacionais obrigatórios' },
+  { value: insights.stats.mandatoryWeekdayCount, label: 'Em dias úteis' },
+  { value: insights.stats.optionalTotal, label: 'Facultativos' },
+  { value: insights.stats.bridgeCount, label: 'Com potencial de emenda' },
+];
+
+const featuredHref = '/guia/calendario-feriados/';
 ---
 
 <BaseLayout title={meta.title} description={meta.description} canonical={meta.canonical} jsonLd={jsonLd}>
-  <div class="mx-auto max-w-4xl space-y-10 px-4 py-10">
-    <nav class="text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
+  <div class="page-shell">
+    <nav class="mb-10 text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
       <ol class="flex flex-wrap items-center gap-2">
-        <li><a href="/" class="hover:text-emerald-600 dark:hover:text-emerald-400">Início</a></li>
+        <li>
+          <a href="/" class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400">
+            Início
+          </a>
+        </li>
         <li aria-hidden="true">/</li>
         <li><span class="text-neutral-700 dark:text-neutral-300">Guias</span></li>
       </ol>
     </nav>
 
-    <section class="space-y-4">
-      <h1 class="text-3xl font-semibold text-neutral-900 dark:text-neutral-50">
-        Guias de feriados {year}
-      </h1>
-      <p class="text-neutral-600 dark:text-neutral-400">
-        Respostas diretas às buscas mais comuns sobre feriados no Brasil — calendário, dias úteis,
-        facultativos, emendas, próximo feriado e datas móveis. Conteúdo estático, ideal para
-        mecanismos de busca e assistentes de IA.
-      </p>
-      <ul class="grid gap-3 sm:grid-cols-2">
-        {
-          GUIDE_PAGES.map((guide) => (
-            <li>
+    <header class="mb-14 grid w-full gap-8 sm:mb-16 sm:gap-10 lg:mb-20 lg:grid-cols-[minmax(0,1.35fr)_minmax(0,0.9fr)] lg:items-end lg:gap-14">
+      <div class="w-full min-w-0 space-y-5 sm:space-y-6">
+        <p class="text-sm font-medium tracking-wide text-emerald-700 dark:text-emerald-400">
+          Consulta rápida · {year}
+        </p>
+        <h1 class="max-w-xl text-balance text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl sm:leading-tight dark:text-neutral-50">
+          Guias de feriados {year}: datas, regras e contexto
+        </h1>
+        <p class="max-w-xl text-base leading-relaxed text-neutral-600 sm:text-lg dark:text-neutral-400">
+          Um índice objetivo para achar o próximo feriado, saber o que é facultativo, planejar
+          emendas ou revisar o calendário nacional de {year} — sem enrolação.
+        </p>
+        <div class="flex flex-wrap items-center gap-3 pt-1">
+          <a
+            href={featuredHref}
+            class="inline-flex items-center rounded-full bg-emerald-600 px-5 py-2.5 text-sm font-medium text-white transition-colors duration-150 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-400 dark:hover:text-neutral-950"
+          >
+            Abrir calendário {year}
+          </a>
+          {
+            insights.nextHoliday && (
               <a
-                href={`/guia/${guide.slug}/`}
-                class="block rounded-xl border border-neutral-200 bg-white p-4 transition-colors duration-150 hover:border-emerald-300 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-emerald-700"
+                href="/guia/proximo-feriado/"
+                class="inline-flex items-center rounded-full px-4 py-2.5 text-sm font-medium text-neutral-700 transition-colors duration-150 hover:text-emerald-700 dark:text-neutral-300 dark:hover:text-emerald-300"
               >
-                <span class="font-semibold text-neutral-900 dark:text-neutral-50">{guide.title} {year}</span>
-                <span class="mt-1 block text-sm text-neutral-500 dark:text-neutral-400">
-                  {guide.searchTerms.slice(0, 2).join(' · ')}
-                </span>
+                Próximo: {insights.nextHoliday.name}
+                <span class="ml-1.5 text-neutral-400" aria-hidden="true">→</span>
               </a>
-            </li>
-          ))
-        }
-      </ul>
-    </section>
+            )
+          }
+        </div>
+      </div>
 
-    <section class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-      <div class="rounded-xl border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
-        <p class="text-2xl font-bold tabular-nums text-emerald-700 dark:text-emerald-400">{insights.stats.mandatoryTotal}</p>
-        <p class="text-sm text-neutral-600 dark:text-neutral-400">feriados nacionais obrigatórios</p>
-      </div>
-      <div class="rounded-xl border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
-        <p class="text-2xl font-bold tabular-nums text-emerald-700 dark:text-emerald-400">{insights.stats.mandatoryWeekdayCount}</p>
-        <p class="text-sm text-neutral-600 dark:text-neutral-400">em dias úteis (seg–sex)</p>
-      </div>
-      <div class="rounded-xl border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
-        <p class="text-2xl font-bold tabular-nums text-emerald-700 dark:text-emerald-400">{insights.stats.optionalTotal}</p>
-        <p class="text-sm text-neutral-600 dark:text-neutral-400">facultativos federais</p>
-      </div>
-      <div class="rounded-xl border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
-        <p class="text-2xl font-bold tabular-nums text-emerald-700 dark:text-emerald-400">{insights.stats.bridgeCount}</p>
-        <p class="text-sm text-neutral-600 dark:text-neutral-400">com potencial de emenda</p>
-      </div>
-    </section>
+      <GuideYearSnapshot year={year} stats={hubStats} />
+    </header>
 
-    <GuideNav currentSlug="hub" />
-    <FaqSection items={faqItems} />
+    <div class="mb-16 lg:mb-20">
+      <GuideIndex items={guideLinks} year={year} />
+    </div>
+
+    <p class="mb-16 text-sm text-neutral-500 dark:text-neutral-400 lg:mb-20">
+      Índice para assistentes de IA:
+      <a href="/llms.txt" class="text-emerald-700 hover:underline dark:text-emerald-400">/llms.txt</a>
+      ·
+      <a href="/sobre/" class="text-emerald-700 hover:underline dark:text-emerald-400">Sobre o projeto</a>
+    </p>
+
+    <div class="mb-4 max-w-3xl">
+      <FaqSection items={faqItems} />
+    </div>
   </div>
 </BaseLayout>

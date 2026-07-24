@@ -6,21 +6,37 @@ interface Props {
 }
 
 const { currentSlug = 'hub' } = Astro.props;
+
+const otherGuides = GUIDE_PAGES.filter((guide) => guide.slug !== currentSlug);
 ---
 
-<nav class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-800 dark:bg-neutral-900/50" aria-label="Guias de feriados">
-  <p class="mb-3 text-sm font-semibold text-neutral-900 dark:text-neutral-50">Guias por tema</p>
+<nav class="space-y-4" aria-label="Outros guias de feriados">
+  <div class="flex flex-wrap items-baseline justify-between gap-2">
+    <p class="text-sm font-semibold text-neutral-900 dark:text-neutral-50">
+      {currentSlug === 'hub' ? 'Atalhos por tema' : 'Continuar explorando'}
+    </p>
+    {
+      currentSlug !== 'hub' && (
+        <a
+          href="/guia/"
+          class="text-sm text-emerald-700 transition-colors duration-150 hover:text-emerald-800 dark:text-emerald-400 dark:hover:text-emerald-300"
+        >
+          Ver todos os guias
+        </a>
+      )
+    }
+  </div>
   <ul class="flex flex-wrap gap-2">
     {
-      GUIDE_PAGES.map((guide) => (
+      (currentSlug === 'hub' ? GUIDE_PAGES : otherGuides).map((guide) => (
         <li>
           <a
             href={`/guia/${guide.slug}/`}
             class:list={[
-              'inline-flex rounded-lg px-3 py-1.5 text-sm transition-colors duration-150',
+              'inline-flex rounded-full px-3.5 py-1.5 text-sm transition-colors duration-150',
               currentSlug === guide.slug
                 ? 'bg-emerald-600 text-white dark:bg-emerald-500'
-                : 'border border-neutral-200 bg-white text-neutral-700 hover:border-emerald-300 hover:text-emerald-700 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:border-emerald-700 dark:hover:text-emerald-400',
+                : 'bg-neutral-100 text-neutral-700 hover:bg-neutral-200/80 hover:text-neutral-900 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:hover:text-neutral-50',
             ]}
             aria-current={currentSlug === guide.slug ? 'page' : undefined}
           >

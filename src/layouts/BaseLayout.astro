@@ -12,6 +12,7 @@ import LinkedInCTA from '@/components/layout/LinkedInCTA.astro';
 import CookieConsent from '@/components/interactive/CookieConsent';
 import LocationPermissionGate from '@/components/interactive/LocationPermissionGate';
 import ContributionProvider from '@/components/interactive/ContributionProvider';
+import PageBackground from '@/components/effects/PageBackground';
 import { ViewTransitions } from 'astro:transitions';
 import { getSiteUrl } from '@/lib/site-url';
 
@@ -88,6 +89,7 @@ const siteUrl = getSiteUrl(Astro.site);
       fullHeight ? 'h-dvh overflow-hidden' : 'min-h-screen',
     ]}
   >
+    <PageBackground client:load variant={fullHeight ? 'home' : 'default'} />
     <Header />
     <main class:list={['flex-1', fullHeight && 'min-h-0 overflow-hidden']}>
       <slot />

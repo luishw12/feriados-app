@@ -17,9 +17,12 @@ const linkClass =
   'transition-colors duration-150 hover:text-neutral-600 dark:hover:text-neutral-300';
 ---
 
-<footer class="px-4 py-8" data-article-contribution={contributionData}>
+<footer class="px-5 py-8 sm:px-6" data-article-contribution={contributionData}>
   <div
-    class="mx-auto flex max-w-5xl flex-col items-center gap-2 text-center text-xs text-neutral-400"
+    class="mx-auto max-w-5xl rounded-2xl glass-panel px-5 py-5 shadow-card sm:px-6"
+  >
+  <div
+    class="flex flex-col items-center gap-2 text-center text-xs text-neutral-500 dark:text-neutral-400"
   >
     {
       articleContribution && (
@@ -37,6 +40,10 @@ const linkClass =
       )
     }
     <p>
+      <a href="/guia/" class={linkClass}>
+        Guias
+      </a>
+      <span class="mx-2">·</span>
       <a href="/privacidade/" class={linkClass}>
         Privacidade
       </a>
@@ -51,6 +58,10 @@ const linkClass =
       <span class="mx-2">·</span>
       <a href="/sobre/#contribuir" class={linkClass}>
         Contribuir
+      </a>
+      <span class="mx-2">·</span>
+      <a href="/sobre/" class={linkClass}>
+        Sobre
       </a>
       <span class="mx-2">·</span>
       <a href="/changelog/" class={linkClass}>
@@ -77,6 +88,7 @@ const linkClass =
       <span class="mx-2">·</span>
       <VersionLink />
     </p>
+  </div>
   </div>
 </footer>
 

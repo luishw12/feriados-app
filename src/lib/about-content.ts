@@ -101,6 +101,10 @@ export function getAboutFaqItems(siteUrl: string, githubUrl: string): FaqItem[] 
       question: 'Como o site trata meus dados?',
       answer: `Coletamos apenas o necessário: preferências locais (tema e localização), geolocalização opcional e cookies de análise somente com seu consentimento. Detalhes completos em ${siteUrl}/privacidade/.`,
     },
+    {
+      question: 'Onde consulto calendário, dias úteis e próximo feriado?',
+      answer: `No hub de guias (${siteUrl}/guia/) você encontra calendário nacional, feriados em dias úteis, facultativos, emendas, próximo feriado e datas móveis. O calendário interativo fica na home (${siteUrl}/).`,
+    },
   ];
 }
 

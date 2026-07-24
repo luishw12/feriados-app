@@ -1,0 +1,75 @@
+---
+interface LinkItem {
+  href: string;
+  title: string;
+  description: string;
+  external?: boolean;
+}
+
+interface Props {
+  items: LinkItem[];
+}
+
+const { items } = Astro.props;
+---
+
+<section class="space-y-6" aria-labelledby="about-links-heading">
+  <div class="flex items-end justify-between gap-4">
+    <div class="space-y-1">
+      <h2
+        id="about-links-heading"
+        class="text-xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
+      >
+        Links úteis
+      </h2>
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+        Documentação, privacidade e recursos para quem quer ir além.
+      </p>
+    </div>
+    <p class="shrink-0 text-sm tabular-nums text-neutral-400 dark:text-neutral-500">
+      {items.length} links
+    </p>
+  </div>
+
+  <ol
+    class="divide-y divide-neutral-200/80 border-y border-neutral-200/80 dark:divide-neutral-800 dark:border-neutral-800"
+  >
+    {
+      items.map((link, index) => (
+        <li>
+          <a
+            href={link.href}
+            {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+            class="group grid grid-cols-[auto_1fr_auto] items-start gap-4 py-5 transition-colors duration-150 sm:gap-6 sm:py-6"
+          >
+            <span
+              class="pt-0.5 text-sm font-medium tabular-nums text-neutral-400 transition-colors duration-150 group-hover:text-emerald-600 dark:text-neutral-500 dark:group-hover:text-emerald-400"
+              aria-hidden="true"
+            >
+              {String(index + 1).padStart(2, '0')}
+            </span>
+            <span class="min-w-0 space-y-1">
+              <span class="block font-medium text-neutral-900 transition-colors duration-150 group-hover:text-emerald-700 dark:text-neutral-50 dark:group-hover:text-emerald-300">
+                {link.title}
+                {link.external && (
+                  <span class="ml-1.5 text-xs font-normal text-neutral-400 dark:text-neutral-500">
+                    ↗
+                  </span>
+                )}
+              </span>
+              <span class="block text-sm leading-relaxed text-neutral-500 dark:text-neutral-400">
+                {link.description}
+              </span>
+            </span>
+            <span
+              class="pt-0.5 text-neutral-300 transition-all duration-150 group-hover:translate-x-0.5 group-hover:text-emerald-600 dark:text-neutral-600 dark:group-hover:text-emerald-400"
+              aria-hidden="true"
+            >
+              →
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+</section>

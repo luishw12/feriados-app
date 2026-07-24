@@ -1,0 +1,39 @@
+---
+interface SnapshotStat {
+  value: number | string;
+  label: string;
+}
+
+interface Props {
+  year: number;
+  stats: SnapshotStat[];
+}
+
+const { year, stats } = Astro.props;
+---
+
+<aside
+  class="rounded-2xl border border-neutral-200/90 bg-white/50 p-6 dark:border-neutral-800 dark:bg-neutral-950/40"
+  aria-label={`Panorama de feriados ${year}`}
+>
+  <p class="text-xs font-medium uppercase tracking-[0.14em] text-neutral-500 dark:text-neutral-400">
+    Panorama {year}
+  </p>
+  <dl class="mt-5 space-y-0">
+    {
+      stats.map((stat, index) => (
+        <div
+          class:list={[
+            'flex items-baseline justify-between gap-4 py-3',
+            index < stats.length - 1 && 'border-b border-neutral-200/80 dark:border-neutral-800',
+          ]}
+        >
+          <dt class="text-sm leading-snug text-neutral-600 dark:text-neutral-400">{stat.label}</dt>
+          <dd class="text-2xl font-semibold tabular-nums tracking-tight text-emerald-700 dark:text-emerald-400">
+            {stat.value}
+          </dd>
+        </div>
+      ))
+    }
+  </dl>
+</aside>

@@ -1,190 +1,157 @@
 import type { ContributionMode, ContributionPayload } from '@/lib/contributions';
-import ImageUploadField, {
-  inputClass,
-  labelClass,
-} from '@/components/interactive/contribution/ImageUploadField';
+import Field from '@/components/interactive/contribution/Field';
+import FormSection from '@/components/interactive/contribution/FormSection';
+import { controlClassName } from '@/components/interactive/contribution/formStyles';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
 
 interface Props {
   form: ContributionPayload;
   mode: ContributionMode;
-  requireImage: boolean;
   updateArticle: <K extends keyof ContributionPayload['article']>(
     key: K,
     value: ContributionPayload['article'][K],
   ) => void;
-  setError: (message: string) => void;
 }
 
-export default function ArticleFields({
-  form,
-  mode,
-  requireImage,
-  updateArticle,
-  setError,
-}: Props) {
+export default function ArticleFields({ form, mode, updateArticle }: Props) {
   const { article } = form;
   const showFullArticle = mode !== 'enrich_content';
   const showEnrichmentFields = mode === 'enrich_content';
 
   return (
-    <fieldset className="space-y-3 rounded-lg border border-neutral-100 p-3 dark:border-neutral-800">
-      <legend className="px-1 text-sm font-medium text-neutral-700 dark:text-neutral-300">
-        Artigo do feriado
-      </legend>
-
+    <FormSection bare description="Conteúdo editorial exibido na página pública do feriado.">
       {showFullArticle && (
         <>
-          <div>
-            <label htmlFor="lead" className={labelClass}>
-              Texto de abertura (lead) *
-            </label>
-            <textarea
+          <Field
+            label="Texto de abertura (lead)"
+            htmlFor="lead"
+            required
+            className="sm:col-span-2 lg:col-span-12"
+          >
+            <Textarea
               id="lead"
               required
               rows={3}
-              className={inputClass}
+              className={controlClassName('min-h-[96px] resize-y')}
               value={article.lead}
               onChange={(event) => updateArticle('lead', event.target.value)}
               placeholder="Parágrafo introdutório sobre o feriado"
             />
-          </div>
+          </Field>
 
-          <div>
-            <label htmlFor="legal-basis" className={labelClass}>
-              Base legal
-            </label>
-            <textarea
+          <Field label="Base legal" htmlFor="legal-basis" className="sm:col-span-2 lg:col-span-12">
+            <Textarea
               id="legal-basis"
               rows={2}
-              className={inputClass}
+              className={controlClassName('min-h-[72px] resize-y')}
               value={article.legalBasis ?? ''}
               onChange={(event) => updateArticle('legalBasis', event.target.value)}
               placeholder="Lei, decreto ou fundamento legal"
             />
-          </div>
+          </Field>
 
-          <div>
-            <label htmlFor="history" className={labelClass}>
-              História * <span className="font-normal text-neutral-500">(um parágrafo por linha)</span>
-            </label>
-            <textarea
+          <Field
+            label="História"
+            htmlFor="history"
+            required
+            hint="Um parágrafo por linha"
+            className="lg:col-span-6"
+          >
+            <Textarea
               id="history"
               required
-              rows={4}
-              className={inputClass}
+              rows={5}
+              className={controlClassName('min-h-[120px] resize-y')}
               value={article.history}
               onChange={(event) => updateArticle('history', event.target.value)}
             />
-          </div>
+          </Field>
 
-          <div>
-            <label htmlFor="traditions" className={labelClass}>
-              Tradições <span className="font-normal text-neutral-500">(um item por linha)</span>
-            </label>
-            <textarea
-              id="traditions"
-              rows={3}
-              className={inputClass}
-              value={article.traditions ?? ''}
-              onChange={(event) => updateArticle('traditions', event.target.value)}
-            />
-          </div>
-
-          <div>
-            <label htmlFor="fun-facts" className={labelClass}>
-              Curiosidades <span className="font-normal text-neutral-500">(um item por linha)</span>
-            </label>
-            <textarea
-              id="fun-facts"
-              rows={3}
-              className={inputClass}
-              value={article.funFacts ?? ''}
-              onChange={(event) => updateArticle('funFacts', event.target.value)}
-            />
+          <div className="grid gap-4 sm:col-span-2 sm:grid-cols-2 lg:col-span-6 lg:grid-cols-1">
+            <Field label="Tradições" htmlFor="traditions" hint="Um item por linha">
+              <Textarea
+                id="traditions"
+                rows={2}
+                className={controlClassName('min-h-[72px] resize-y')}
+                value={article.traditions ?? ''}
+                onChange={(event) => updateArticle('traditions', event.target.value)}
+              />
+            </Field>
+            <Field label="Curiosidades" htmlFor="fun-facts" hint="Um item por linha">
+              <Textarea
+                id="fun-facts"
+                rows={2}
+                className={controlClassName('min-h-[72px] resize-y')}
+                value={article.funFacts ?? ''}
+                onChange={(event) => updateArticle('funFacts', event.target.value)}
+              />
+            </Field>
           </div>
         </>
       )}
 
       {showEnrichmentFields && (
         <>
-          <div>
-            <label htmlFor="history" className={labelClass}>
-              História <span className="font-normal text-neutral-500">(um parágrafo por linha)</span>
-            </label>
-            <textarea
+          <Field
+            label="História"
+            htmlFor="history"
+            hint="Um parágrafo por linha"
+            className="lg:col-span-6"
+          >
+            <Textarea
               id="history"
-              rows={4}
-              className={inputClass}
+              rows={5}
+              className={controlClassName('min-h-[120px] resize-y')}
               value={article.history}
               onChange={(event) => updateArticle('history', event.target.value)}
             />
-          </div>
-
-          <div>
-            <label htmlFor="traditions" className={labelClass}>
-              Tradições <span className="font-normal text-neutral-500">(um item por linha)</span>
-            </label>
-            <textarea
-              id="traditions"
-              rows={3}
-              className={inputClass}
-              value={article.traditions ?? ''}
-              onChange={(event) => updateArticle('traditions', event.target.value)}
-            />
-          </div>
-
-          <div>
-            <label htmlFor="fun-facts" className={labelClass}>
-              Curiosidades <span className="font-normal text-neutral-500">(um item por linha)</span>
-            </label>
-            <textarea
-              id="fun-facts"
-              rows={3}
-              className={inputClass}
-              value={article.funFacts ?? ''}
-              onChange={(event) => updateArticle('funFacts', event.target.value)}
-            />
+          </Field>
+          <div className="grid gap-4 sm:col-span-2 sm:grid-cols-2 lg:col-span-6 lg:grid-cols-1">
+            <Field label="Tradições" htmlFor="traditions" hint="Um item por linha">
+              <Textarea
+                id="traditions"
+                rows={2}
+                className={controlClassName('min-h-[72px] resize-y')}
+                value={article.traditions ?? ''}
+                onChange={(event) => updateArticle('traditions', event.target.value)}
+              />
+            </Field>
+            <Field label="Curiosidades" htmlFor="fun-facts" hint="Um item por linha">
+              <Textarea
+                id="fun-facts"
+                rows={2}
+                className={controlClassName('min-h-[72px] resize-y')}
+                value={article.funFacts ?? ''}
+                onChange={(event) => updateArticle('funFacts', event.target.value)}
+              />
+            </Field>
           </div>
         </>
       )}
 
-      <ImageUploadField
-        article={article}
-        requireImage={requireImage}
-        updateArticle={updateArticle}
-        setError={setError}
-      />
-
-      <div className="grid gap-3 sm:grid-cols-2">
-        <div>
-          <label htmlFor="source-label" className={labelClass}>
-            Nome da fonte oficial *
-          </label>
-          <input
-            id="source-label"
-            type="text"
-            required
-            className={inputClass}
-            value={article.sourceLabel}
-            onChange={(event) => updateArticle('sourceLabel', event.target.value)}
-            placeholder="Prefeitura, Planalto, etc."
-          />
-        </div>
-        <div>
-          <label htmlFor="source-url" className={labelClass}>
-            Link da fonte *
-          </label>
-          <input
-            id="source-url"
-            type="url"
-            required
-            className={inputClass}
-            value={article.sourceUrl}
-            onChange={(event) => updateArticle('sourceUrl', event.target.value)}
-            placeholder="https://..."
-          />
-        </div>
-      </div>
-    </fieldset>
+      <Field label="Nome da fonte oficial" htmlFor="source-label" required className="lg:col-span-6">
+        <Input
+          id="source-label"
+          type="text"
+          required
+          className={controlClassName('h-9')}
+          value={article.sourceLabel}
+          onChange={(event) => updateArticle('sourceLabel', event.target.value)}
+          placeholder="Prefeitura, Planalto, etc."
+        />
+      </Field>
+      <Field label="Link da fonte" htmlFor="source-url" required className="lg:col-span-6">
+        <Input
+          id="source-url"
+          type="url"
+          required
+          className={controlClassName('h-9')}
+          value={article.sourceUrl}
+          onChange={(event) => updateArticle('sourceUrl', event.target.value)}
+          placeholder="https://..."
+        />
+      </Field>
+    </FormSection>
   );
 }

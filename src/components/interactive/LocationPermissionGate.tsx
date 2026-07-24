@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import LocationSuggestionCard from '@/components/interactive/LocationSuggestionCard';
+import LocationAccuracyHint from '@/components/interactive/LocationAccuracyHint';
 import { buildContextFromDetection } from '@/lib/location-context';
 import { loadMunicipalityIndex } from '@/lib/municipality-index';
 import {
@@ -8,14 +8,23 @@ import {
   type GeolocationPermissionState,
 } from '@/lib/geolocation';
 import {
+  dismissLocationMismatch,
   dismissLocationPrompt,
   getLocationLabel,
-  loadStoredLocationContext,
+  hasLocationMismatch,
+  isLocationAutoAsked,
   isLocationPromptDismissed,
-  saveStoredLocation,
+  isMismatchDismissed,
+  loadBrowserLocation,
+  loadStoredLocationContext,
+  markLocationAutoAsked,
+  saveBrowserLocation,
+  saveDetectedLocations,
+  subscribeLocationUpdated,
+  type LocationContext,
 } from '@/lib/location-storage';
 
-type PromptStatus = 'idle' | 'loading' | 'error';
+type HintKind = 'permission' | 'mismatch';
 
 interface Props {
   showLocationSuggestion?: boolean;
@@ -24,41 +33,105 @@ interface Props {
 export default function LocationPermissionGate({
   showLocationSuggestion = false,
 }: Props) {
-  const [showSuggestion, setShowSuggestion] = useState(false);
+  const [hintKind, setHintKind] = useState<HintKind | null>(null);
   const [permissionState, setPermissionState] =
     useState<GeolocationPermissionState>('prompt');
-  const [status, setStatus] = useState<PromptStatus>('idle');
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [initialized, setInitialized] = useState(() => {
-    if (!showLocationSuggestion) return true;
-    return Boolean(loadStoredLocationContext()) || isLocationPromptDismissed();
-  });
+  const [browserLocation, setBrowserLocation] = useState<LocationContext | null>(null);
+  const [siteLocation, setSiteLocation] = useState<LocationContext | null>(null);
 
-  const saveDetectedLocation = useCallback(async (): Promise<boolean> => {
+  const detectAndBuildContext = useCallback(async (): Promise<LocationContext | null> => {
     const result = await detectUserLocation();
-    if (!result) return false;
+    if (!result) return null;
 
     try {
       const municipalities = await loadMunicipalityIndex();
-      const context = buildContextFromDetection(result, municipalities);
-      saveStoredLocation(context, getLocationLabel(context));
-      return true;
+      return buildContextFromDetection(result, municipalities);
     } catch {
-      return false;
+      return null;
     }
   }, []);
 
-  useEffect(() => {
-    if (!showLocationSuggestion) {
-      setInitialized(true);
-      return undefined;
+  const saveAsSiteAndBrowser = useCallback(
+    async (): Promise<LocationContext | null> => {
+      const context = await detectAndBuildContext();
+      if (!context) return null;
+      saveDetectedLocations(context, getLocationLabel(context));
+      return context;
+    },
+    [detectAndBuildContext],
+  );
+
+  const syncMismatchHint = useCallback(() => {
+    const site = loadStoredLocationContext();
+    const browser = loadBrowserLocation();
+    setSiteLocation(site);
+    setBrowserLocation(browser);
+
+    if (site && browser && hasLocationMismatch() && !isMismatchDismissed()) {
+      setHintKind('mismatch');
+      return;
     }
+
+    // Com localização no site (ou alinhada ao navegador), some avisos de permission/mismatch.
+    if (site) {
+      setHintKind(null);
+      return;
+    }
+
+    setHintKind((current) => (current === 'mismatch' ? null : current));
+  }, []);
+
+  useEffect(() => {
+    if (!showLocationSuggestion) return undefined;
+    return subscribeLocationUpdated(syncMismatchHint);
+  }, [showLocationSuggestion, syncMismatchHint]);
+
+  useEffect(() => {
+    if (!showLocationSuggestion) return undefined;
 
     let cancelled = false;
 
     void (async () => {
-      if (loadStoredLocationContext() || isLocationPromptDismissed()) {
-        if (!cancelled) setInitialized(true);
+      const site = loadStoredLocationContext();
+      const cachedBrowser = loadBrowserLocation();
+      if (cancelled) return;
+
+      setSiteLocation(site);
+      setBrowserLocation(cachedBrowser);
+
+      // Já tem localização no site: não busca GPS de novo se o cache do navegador existir.
+      if (site) {
+        const state = await getGeolocationPermissionState();
+        if (cancelled) return;
+        setPermissionState(state);
+
+        let browser = cachedBrowser;
+
+        // Sem cache do navegador e permissão concedida: detecta uma vez e guarda.
+        if (!browser && state === 'granted') {
+          browser = await detectAndBuildContext();
+          if (cancelled) return;
+          if (browser) {
+            saveBrowserLocation(browser);
+            setBrowserLocation(browser);
+          }
+        }
+
+        if (browser && hasLocationMismatch() && !isMismatchDismissed()) {
+          setBrowserLocation(browser);
+          setHintKind('mismatch');
+        }
+        return;
+      }
+
+      if (isLocationPromptDismissed()) return;
+
+      // Já pedimos ao navegador antes: só reexibe o aviso discreto.
+      if (isLocationAutoAsked()) {
+        const state = await getGeolocationPermissionState();
+        if (cancelled) return;
+        setPermissionState(state);
+        setHintKind('permission');
         return;
       }
 
@@ -66,66 +139,67 @@ export default function LocationPermissionGate({
       if (cancelled) return;
 
       setPermissionState(state);
+      markLocationAutoAsked();
 
-      if (state === 'granted') {
-        const saved = await saveDetectedLocation();
-        if (!cancelled) setInitialized(true);
-        if (!cancelled && !saved) {
-          setShowSuggestion(true);
-        }
+      if (state === 'unsupported' || state === 'denied') {
+        setHintKind('permission');
         return;
       }
 
-      if (!cancelled) {
-        setShowSuggestion(true);
-        setInitialized(true);
+      // Pedir direto ao navegador (sem modal intermediário) e cachear.
+      const saved = await saveAsSiteAndBrowser();
+      if (cancelled) return;
+
+      if (saved) {
+        setSiteLocation(saved);
+        setBrowserLocation(saved);
+        return;
       }
+
+      const nextState = await getGeolocationPermissionState();
+      if (cancelled) return;
+
+      setPermissionState(nextState);
+      setHintKind('permission');
     })();
 
     return () => {
       cancelled = true;
     };
-  }, [saveDetectedLocation, showLocationSuggestion]);
-
-  const handleAllow = useCallback(async () => {
-    setStatus('loading');
-    setErrorMessage(null);
-
-    const saved = await saveDetectedLocation();
-    if (saved) {
-      setShowSuggestion(false);
-      setStatus('idle');
-      return;
-    }
-
-    const nextState = await getGeolocationPermissionState();
-    setPermissionState(nextState);
-    setStatus('error');
-    setErrorMessage(
-      nextState === 'denied'
-        ? 'Permissão negada. Libere a localização nas configurações do navegador ou continue sem.'
-        : 'Não foi possível detectar sua localização. Tente novamente ou continue sem.',
-    );
-  }, [saveDetectedLocation]);
+  }, [detectAndBuildContext, saveAsSiteAndBrowser, showLocationSuggestion]);
 
   const handleDismiss = useCallback(() => {
-    dismissLocationPrompt();
-    setShowSuggestion(false);
-    setStatus('idle');
-    setErrorMessage(null);
-  }, []);
+    if (hintKind === 'mismatch') {
+      dismissLocationMismatch();
+    } else {
+      dismissLocationPrompt();
+    }
+    setHintKind(null);
+  }, [hintKind]);
 
-  if (!showLocationSuggestion || !initialized || !showSuggestion) {
+  const handleUseBrowserLocation = useCallback(() => {
+    const browser = loadBrowserLocation() ?? browserLocation;
+    if (!browser) return;
+    saveDetectedLocations(browser, getLocationLabel(browser));
+    setSiteLocation(browser);
+    setBrowserLocation(browser);
+    setHintKind(null);
+  }, [browserLocation]);
+
+  if (!showLocationSuggestion || !hintKind) {
     return null;
   }
 
   return (
-    <LocationSuggestionCard
+    <LocationAccuracyHint
+      kind={hintKind}
       permissionState={permissionState}
-      status={status}
-      errorMessage={errorMessage}
-      onAllow={handleAllow}
+      siteLocation={siteLocation}
+      browserLocation={browserLocation}
       onDismiss={handleDismiss}
+      {...(hintKind === 'mismatch'
+        ? { onUseBrowserLocation: handleUseBrowserLocation }
+        : {})}
     />
   );
 }

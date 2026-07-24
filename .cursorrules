@@ -4,7 +4,7 @@
 
 Site estático de feriados do Brasil. Portfólio técnico open source com foco em SEO orgânico e captação de leads via LinkedIn.
 
-**Stack:** Astro v4 + React islands + Tailwind CSS v3 + TypeScript  
+**Stack:** Astro v4 + React islands + Tailwind CSS v4 + TypeScript  
 **Dados:** JSON estático em `src/data/holidays/` — sem API calls em runtime  
 **Deploy:** Vercel (SSG puro)
 
@@ -17,7 +17,7 @@ Antes de qualquer resposta, considere:
 - React é usado **apenas para interatividade** via Astro islands (HolidayCalendar, Countdown, LocationPicker, ThemeToggle, YearSelector)
 - Todos os dados de feriados estão em **JSON files** na pasta `src/data/holidays/`
 - Imports usam alias `@/` que aponta para `src/`
-- Dark mode via classe `dark` no `<html>` (Tailwind `darkMode: 'class'`)
+- Dark mode via classe `dark` no `<html>` (`@custom-variant dark` no CSS)
 
 ---
 

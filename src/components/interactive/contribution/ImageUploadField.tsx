@@ -1,11 +1,13 @@
 import type { ChangeEvent } from 'react';
-import type { ContributionArticlePayload, ContributionPayload } from '@/lib/contributions';
+import type { ContributionArticlePayload } from '@/lib/contributions';
 import { MAX_IMAGE_BYTES } from '@/lib/contributions';
-
-const inputClass =
-  'w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-50 dark:placeholder:text-neutral-500';
-
-const labelClass = 'mb-1 block text-sm font-medium text-neutral-700 dark:text-neutral-300';
+import Field from '@/components/interactive/contribution/Field';
+import FormSection from '@/components/interactive/contribution/FormSection';
+import { controlClassName } from '@/components/interactive/contribution/formStyles';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import { cn } from '@/lib/utils';
 
 interface Props {
   article: ContributionArticlePayload;
@@ -51,109 +53,111 @@ export default function ImageUploadField({ article, requireImage, updateArticle,
   }
 
   return (
-    <fieldset className="space-y-3 rounded-lg border border-neutral-100 p-3 dark:border-neutral-800">
-      <legend className="px-1 text-sm font-medium text-neutral-700 dark:text-neutral-300">
-        Imagem de banner {requireImage ? '*' : '(opcional)'}
-      </legend>
-
-      <div className="flex gap-4">
-        <label className="flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-300">
-          <input
-            type="radio"
-            name="image-source"
-            checked={article.imageSource === 'upload'}
-            onChange={() => {
+    <FormSection
+      bare
+      description={
+        requireImage
+          ? 'Banner obrigatório da página do feriado. Prefira boa resolução e crédito claro.'
+          : 'Banner opcional da página do feriado. Prefira boa resolução e crédito claro.'
+      }
+    >
+      <div className="sm:col-span-2 lg:col-span-12">
+        <Label className="mb-1.5 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          Origem da imagem
+        </Label>
+        <ToggleGroup
+          type="single"
+          variant="outline"
+          spacing={0}
+          value={article.imageSource}
+          onValueChange={(value) => {
+            if (value === 'upload') {
               updateArticle('imageSource', 'upload');
               updateArticle('imageUrl', '');
-            }}
-          />
-          Enviar arquivo
-        </label>
-        <label className="flex items-center gap-2 text-sm text-neutral-700 dark:text-neutral-300">
-          <input
-            type="radio"
-            name="image-source"
-            checked={article.imageSource === 'url'}
-            onChange={() => {
+              return;
+            }
+            if (value === 'url') {
               updateArticle('imageSource', 'url');
               updateArticle('imageData', undefined);
               updateArticle('imageMimeType', undefined);
               updateArticle('imageFileName', undefined);
-            }}
-          />
-          URL externa
-        </label>
+            }
+          }}
+          className="w-full max-w-md"
+        >
+          <ToggleGroupItem value="upload" className="flex-1">
+            Enviar arquivo
+          </ToggleGroupItem>
+          <ToggleGroupItem value="url" className="flex-1">
+            URL externa
+          </ToggleGroupItem>
+        </ToggleGroup>
       </div>
 
       {article.imageSource === 'upload' ? (
-        <div>
-          <label htmlFor="banner-image" className={labelClass}>
-            Arquivo da imagem {requireImage ? '*' : ''}
-          </label>
-          <input
+        <Field
+          label="Arquivo da imagem"
+          htmlFor="banner-image"
+          required={requireImage}
+          hint="JPG, PNG ou WebP. Máximo 2 MB. Será salvo em src/assets/holidays/."
+          className="sm:col-span-2 lg:col-span-12"
+        >
+          <Input
             id="banner-image"
             type="file"
             accept="image/jpeg,image/png,image/webp"
             required={requireImage}
-            className={inputClass}
+            className={cn(
+              controlClassName('h-9'),
+              'file:mr-3 file:rounded-md file:border-0 file:bg-primary/15 file:px-3 file:py-1.5 file:text-sm file:font-medium file:text-primary',
+            )}
             onChange={handleFileChange}
           />
-          <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-            JPG, PNG ou WebP. Máximo 2 MB. Será salvo em `src/assets/holidays/`.
-          </p>
           {article.imageFileName && (
-            <p className="mt-1 text-xs text-emerald-700 dark:text-emerald-400">
-              Selecionado: {article.imageFileName}
-            </p>
+            <p className="mt-1.5 text-xs text-primary">Selecionado: {article.imageFileName}</p>
           )}
-        </div>
+        </Field>
       ) : (
-        <div>
-          <label htmlFor="banner-image-url" className={labelClass}>
-            URL da imagem {requireImage ? '*' : ''}
-          </label>
-          <input
+        <Field
+          label="URL da imagem"
+          htmlFor="banner-image-url"
+          required={requireImage}
+          className="sm:col-span-2 lg:col-span-12"
+        >
+          <Input
             id="banner-image-url"
             type="url"
             required={requireImage}
-            className={inputClass}
+            className={controlClassName('h-9')}
             value={article.imageUrl ?? ''}
             onChange={(event) => updateArticle('imageUrl', event.target.value)}
             placeholder="https://upload.wikimedia.org/..."
           />
-        </div>
+        </Field>
       )}
 
-      <div>
-        <label htmlFor="image-alt" className={labelClass}>
-          Texto alternativo da imagem *
-        </label>
-        <input
+      <Field label="Texto alternativo" htmlFor="image-alt" required className="lg:col-span-7">
+        <Input
           id="image-alt"
           type="text"
           required
-          className={inputClass}
+          className={controlClassName('h-9')}
           value={article.imageAlt}
           onChange={(event) => updateArticle('imageAlt', event.target.value)}
           placeholder="Descrição da imagem para leitores de tela"
         />
-      </div>
+      </Field>
 
-      <div>
-        <label htmlFor="image-credit" className={labelClass}>
-          Crédito da imagem
-        </label>
-        <input
+      <Field label="Crédito da imagem" htmlFor="image-credit" className="lg:col-span-5">
+        <Input
           id="image-credit"
           type="text"
-          className={inputClass}
+          className={controlClassName('h-9')}
           value={article.imageCredit ?? ''}
           onChange={(event) => updateArticle('imageCredit', event.target.value)}
           placeholder="Ex.: Wikimedia Commons — Autor"
         />
-      </div>
-    </fieldset>
+      </Field>
+    </FormSection>
   );
 }
-
-export { inputClass, labelClass };

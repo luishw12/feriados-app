@@ -6,6 +6,7 @@ interface Props {
   onChange: (year: number) => void;
   minYear?: number;
   maxYear?: number;
+  size?: 'lg' | 'sm';
 }
 
 export default function YearDropdown({
@@ -13,6 +14,7 @@ export default function YearDropdown({
   onChange,
   minYear = 2020,
   maxYear = 2030,
+  size = 'lg',
 }: Props) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -34,7 +36,10 @@ export default function YearDropdown({
       <button
         type="button"
         onClick={() => setOpen((prev) => !prev)}
-        className="inline-flex items-center gap-1 rounded-lg px-1.5 py-0.5 text-2xl font-semibold tabular-nums text-neutral-400 transition-colors duration-150 hover:bg-neutral-100 hover:text-neutral-600 dark:hover:bg-neutral-800 dark:hover:text-neutral-300"
+        className={[
+          'inline-flex items-center gap-0.5 rounded-lg px-1 py-0.5 font-medium tabular-nums text-neutral-500 transition-colors duration-150 hover:bg-neutral-100 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-neutral-300',
+          size === 'lg' ? 'text-2xl font-semibold text-neutral-400' : 'text-sm',
+        ].join(' ')}
         aria-label="Selecionar ano"
         aria-expanded={open}
       >

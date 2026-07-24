@@ -2,6 +2,7 @@
 import ThemeToggle from '@/components/interactive/ThemeToggle';
 import HolidaySearch from '@/components/interactive/HolidaySearch';
 import HeaderLocation from '@/components/interactive/HeaderLocation';
+import MobileNav from '@/components/interactive/MobileNav';
 import { getAllStates } from '@/lib/holidays';
 
 const pathname = Astro.url.pathname;
@@ -15,86 +16,70 @@ const states = getAllStates().map((s) => ({
   slug: s.slug,
   capital: s.capital,
 }));
+
+const navItems = [
+  { href: '/', label: 'Calendário', active: isHome },
+  { href: '/guia/', label: 'Guias', active: isGuia },
+  { href: '/sobre/', label: 'Sobre', active: isAbout },
+];
+
+const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12/feriados-app';
+const linkedinUrl = import.meta.env.PUBLIC_LINKEDIN_URL ?? 'https://linkedin.com/in/luishw';
 ---
 
-<header class="sticky top-0 z-40 border-b border-neutral-200/80 bg-white/90 px-4 py-3 backdrop-blur-md dark:border-neutral-800/80 dark:bg-neutral-950/90">
-  <div class="mx-auto flex max-w-5xl items-center gap-2 sm:gap-3">
+<header class="sticky top-0 z-40 border-b border-neutral-200/60 bg-white/70 backdrop-blur-xl dark:border-neutral-800/60 dark:bg-neutral-950/70">
+  <div class="mx-auto flex h-14 w-full max-w-7xl items-center gap-2 px-5 sm:gap-3 sm:px-6">
     <a
       href="/"
-      class="group flex min-w-0 shrink items-center gap-2.5 rounded-lg outline-none ring-emerald-500 transition-colors duration-150 focus-visible:ring-2 sm:gap-2.5"
+      class="group flex shrink-0 items-center gap-2.5 rounded-lg outline-none ring-emerald-500 transition-opacity duration-200 hover:opacity-90 focus-visible:ring-2"
       aria-label="Feriados Brasil — início"
     >
       <span
-        class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-emerald-600 text-white shadow-sm transition-transform duration-150 group-hover:scale-105 dark:bg-emerald-500"
+        class="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-600 text-white shadow-sm transition-transform duration-200 group-hover:scale-105"
         aria-hidden="true"
       >
-        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
           <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
           <line x1="16" y1="2" x2="16" y2="6"></line>
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
-          <circle cx="8" cy="15" r="1" fill="currentColor" stroke="none"></circle>
-          <circle cx="12" cy="15" r="1" fill="currentColor" stroke="none"></circle>
-          <circle cx="16" cy="15" r="1" fill="currentColor" stroke="none"></circle>
         </svg>
       </span>
-      <span class="min-w-0">
-        <span class="block truncate text-base font-semibold leading-tight text-neutral-900 dark:text-neutral-50">
-          Feriados Brasil
-        </span>
-        <span class="hidden truncate text-xs text-neutral-500 sm:block dark:text-neutral-400">
-          Calendário nacional e regional
-        </span>
+      <span class="hidden font-semibold tracking-tight text-neutral-900 dark:text-neutral-50 sm:block">
+        Feriados Brasil
       </span>
     </a>
 
-    <nav class="flex min-w-0 flex-1 items-center justify-center gap-0.5 sm:gap-1.5" aria-label="Principal">
-      <a
-        href="/"
-        class:list={[
-          'rounded-lg px-2 py-2 text-sm font-medium transition-colors duration-150 sm:px-3',
-          isHome
-            ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300'
-            : 'text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-100',
-        ]}
-        aria-current={isHome ? 'page' : undefined}
+    <nav class="hidden flex-1 items-center justify-center md:flex" aria-label="Principal">
+      <div
+        class="inline-flex items-center rounded-full border border-neutral-200/80 bg-neutral-100/80 p-0.5 dark:border-neutral-700/80 dark:bg-neutral-900/80"
       >
-        Calendário
-      </a>
-      <a
-        href="/guia/"
-        class:list={[
-          'rounded-lg px-3 py-2 text-sm font-medium transition-colors duration-150',
-          isGuia
-            ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300'
-            : 'text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-100',
-        ]}
-        aria-current={isGuia ? 'page' : undefined}
-      >
-        Guias
-      </a>
-      <a
-        href="/sobre/"
-        class:list={[
-          'rounded-lg px-3 py-2 text-sm font-medium transition-colors duration-150',
-          isAbout
-            ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300'
-            : 'text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-100',
-        ]}
-        aria-current={isAbout ? 'page' : undefined}
-      >
-        Sobre
-      </a>
+        {
+          navItems.map((item) => (
+            <a
+              href={item.href}
+              class:list={[
+                'rounded-full px-3 py-1.5 text-sm font-medium transition-all duration-200 sm:px-4',
+                item.active
+                  ? 'bg-white text-neutral-900 shadow-sm dark:bg-neutral-800 dark:text-neutral-50'
+                  : 'text-neutral-500 hover:text-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-200',
+              ]}
+              aria-current={item.active ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          ))
+        }
+      </div>
     </nav>
 
-    <div class="flex shrink-0 items-center gap-1 sm:gap-1.5" aria-label="Ferramentas">
-      <HeaderLocation client:load transition:persist="header-location" states={states} />
-      <div class="border-l border-neutral-200 pl-1 dark:border-neutral-700 sm:pl-1.5">
-        <HolidaySearch client:idle transition:persist="holiday-search" />
-      </div>
-      <div class="border-l border-neutral-200 pl-1 dark:border-neutral-700 sm:pl-1.5">
-        <ThemeToggle client:load transition:persist="theme-toggle" />
-      </div>
+    <div class="ml-auto flex shrink-0 items-center gap-0.5 sm:gap-1" aria-label="Ferramentas">
+      <HeaderLocation client:load states={states} />
+      <div class="mx-0.5 hidden h-5 w-px bg-neutral-200 dark:bg-neutral-700 sm:block" aria-hidden="true"
+      ></div>
+      <HolidaySearch client:idle transition:persist="holiday-search" />
+      <ThemeToggle client:load transition:persist="theme-toggle" />
+      <MobileNav client:load items={navItems} githubUrl={githubUrl} linkedinUrl={linkedinUrl} />
     </div>
   </div>
 </header>

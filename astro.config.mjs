@@ -1,8 +1,8 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
-import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
+import tailwindcss from '@tailwindcss/vite';
 import { loadEnv } from 'vite';
 
 const env = loadEnv(process.env.NODE_ENV ?? 'production', process.cwd(), '');
@@ -14,14 +14,19 @@ const sitemapOptions = {
     const path = new URL(item.url).pathname;
     const segments = path.split('/').filter(Boolean);
 
+    /** @type {'weekly' | 'monthly'} */
+    let changefreq = 'monthly';
+
     if (segments.length === 0) {
       item.priority = 1.0;
+      changefreq = 'weekly';
     } else if (segments[0] === 'guia') {
       item.priority = 0.95;
+      changefreq = 'weekly';
     } else if (segments[0] === 'feriado') {
       item.priority = 0.75;
     } else if (segments[0] === 'sobre' || segments[0] === 'privacidade' || segments[0] === 'changelog') {
-      item.priority = 0.85;
+      item.priority = segments[0] === 'sobre' ? 0.9 : 0.85;
     } else if (segments.length === 1) {
       item.priority = 0.9;
     } else if (segments.length === 2) {
@@ -30,7 +35,8 @@ const sitemapOptions = {
       item.priority = 0.65;
     }
 
-    item.changefreq = 'monthly';
+    // EnumChangefreq do sitemap aceita esses literais em runtime
+    item.changefreq = /** @type {import('sitemap').EnumChangefreq} */ (changefreq);
     return item;
   },
   entryLimit: 45000,
@@ -40,7 +46,7 @@ const sitemapOptions = {
 export default defineConfig({
   site,
   trailingSlash: 'always',
-  integrations: [react(), tailwind(), sitemap(sitemapOptions)],
+  integrations: [react(), sitemap(sitemapOptions)],
   output: 'static',
   image: {
     remotePatterns: [
@@ -49,5 +55,8 @@ export default defineConfig({
         hostname: 'upload.wikimedia.org',
       },
     ],
+  },
+  vite: {
+    plugins: [tailwindcss()],
   },
 });

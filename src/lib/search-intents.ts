@@ -1,4 +1,5 @@
 import type { FaqItem } from '@/lib/llms';
+import type { ResolvedHoliday } from '@/data/schema';
 import {
   buildNationalYearInsights,
   describeBridgeHoliday,
@@ -187,6 +188,36 @@ export function getGuideFaqItems(slug: GuideSlug, year: number, siteUrl: string)
       return pick('próximo feriado');
     case 'feriados-moveis':
       return pick('Carnaval', 'Páscoa', 'Corpus Christi');
+    default:
+      return [];
+  }
+}
+
+/** Feriados listados em cada guia — usados no JSON-LD Event para rich results. */
+export function getGuideSchemaHolidays(slug: GuideSlug, year: number): ResolvedHoliday[] {
+  const insights = buildNationalYearInsights(year);
+
+  switch (slug) {
+    case 'calendario-feriados':
+      return [...insights.mandatory, ...insights.optional];
+    case 'feriados-nacionais':
+      return insights.mandatory;
+    case 'feriados-dias-uteis':
+      return [...insights.mandatoryWeekday, ...insights.mandatoryWeekend];
+    case 'feriados-facultativos':
+      return insights.optional;
+    case 'emendas-e-feriados-prolongados':
+      return insights.bridgeCandidates;
+    case 'proximo-feriado':
+      return insights.nextHoliday ? [insights.nextHoliday] : [];
+    case 'feriados-moveis':
+      return [
+        insights.mobileHolidays.carnavalSegunda,
+        insights.mobileHolidays.carnavalTerca,
+        insights.mobileHolidays.sextaSanta,
+        insights.mobileHolidays.pascoa,
+        insights.mobileHolidays.corpusChristi,
+      ].filter((holiday): holiday is ResolvedHoliday => holiday !== null);
     default:
       return [];
   }

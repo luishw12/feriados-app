@@ -1,11 +1,9 @@
-import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { HolidayCategory, SerializedResolvedHoliday } from '@/data/schema';
 import { resolveHolidayDate } from '@/lib/dates';
 import type { Holiday } from '@/data/schema';
 import type { LocationContext } from '@/components/interactive/LocationPicker';
-import FloatingCountdown from '@/components/interactive/FloatingCountdown';
 import HolidayCalendar from '@/components/interactive/HolidayCalendar';
-import CalendarSkeleton from '@/components/interactive/CalendarSkeleton';
 import {
   getInitialCategoryFilters,
   saveStoredCategoryFilters,
@@ -17,7 +15,6 @@ import {
   loadMunicipalityIndex,
 } from '@/lib/municipality-index';
 import {
-  isLocationPromptDismissed,
   loadStoredLocationContext,
   subscribeLocationUpdated,
 } from '@/lib/location-storage';
@@ -51,11 +48,6 @@ function serializeUnique(holidays: SerializedResolvedHoliday[]): SerializedResol
   });
 }
 
-function getInitialCalendarReady(): boolean {
-  if (typeof window === 'undefined') return false;
-  return Boolean(loadStoredLocationContext()) || isLocationPromptDismissed();
-}
-
 export default function HomeInteractive({
   initialYear,
   nationalHolidays,
@@ -65,7 +57,6 @@ export default function HomeInteractive({
   const [year, setYear] = useState(initialYear);
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth());
   const [location, setLocation] = useState<LocationContext | null>(null);
-  const [isCalendarReady, setIsCalendarReady] = useState(getInitialCalendarReady);
   const [selectedCategories, setSelectedCategories] = useState<Set<HolidayCategory>>(
     getInitialCategoryFilters,
   );
@@ -76,21 +67,14 @@ export default function HomeInteractive({
     saveStoredCategoryFilters(next);
   }, []);
 
-  useLayoutEffect(() => {
-    const stored = loadStoredLocationContext();
-    if (stored) {
-      setLocation(stored);
-      setIsCalendarReady(true);
-    }
+  useEffect(() => {
+    setLocation(loadStoredLocationContext());
   }, []);
 
   useEffect(() => {
-    const syncLocation = () => {
+    return subscribeLocationUpdated(() => {
       setLocation(loadStoredLocationContext());
-      setIsCalendarReady(true);
-    };
-
-    return subscribeLocationUpdated(syncLocation);
+    });
   }, []);
 
   useEffect(() => {
@@ -157,27 +141,23 @@ export default function HomeInteractive({
   const hasLocation = Boolean(location);
 
   return (
-    <div className="flex h-full min-h-0 flex-col">
-      <div className="min-h-0 flex-1 pb-0">
-        {!isCalendarReady ? (
-          <CalendarSkeleton />
-        ) : (
-          <HolidayCalendar
-            year={year}
-            onYearChange={setYear}
-            selectedMonth={selectedMonth}
-            onMonthSelect={setSelectedMonth}
-            nationalHolidays={national}
-            regionalHolidays={regional}
-            contextHolidays={contextHolidays}
-            hasLocation={hasLocation}
-            selectedCategories={selectedCategories}
-            onCategoriesChange={handleCategoriesChange}
-          />
-        )}
+    <div className="flex h-full min-h-0 flex-col overflow-hidden">
+      <div className="min-h-0 flex-1 overflow-hidden">
+        <HolidayCalendar
+          year={year}
+          onYearChange={setYear}
+          selectedMonth={selectedMonth}
+          onMonthSelect={setSelectedMonth}
+          nationalHolidays={national}
+          regionalHolidays={regional}
+          contextHolidays={contextHolidays}
+          hasLocation={hasLocation}
+          location={location}
+          selectedCategories={selectedCategories}
+          onCategoriesChange={handleCategoriesChange}
+          countdownHolidays={activeHolidays}
+        />
       </div>
-
-      {isCalendarReady && <FloatingCountdown holidays={activeHolidays} />}
     </div>
   );
 }

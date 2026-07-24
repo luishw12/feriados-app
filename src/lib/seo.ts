@@ -46,9 +46,9 @@ export function getCityMeta(
 
 export function getAboutMeta(): PageMeta {
   return {
-    title: 'Sobre — Feriados Brasil',
+    title: 'Sobre o Feriados Brasil — Calendário Open Source Gratuito',
     description:
-      'Calendário open source de feriados brasileiros — nacionais, estaduais e municipais. Site 100% estático, com calendário interativo, artigos educativos e formulário para contribuir com novos feriados.',
+      'Conheça o Feriados Brasil: calendário open source de feriados nacionais, estaduais e municipais. Site 100% estático, com guias, artigos e formulário para contribuir.',
     canonical: '/sobre/',
   };
 }
@@ -91,15 +91,27 @@ export function getHolidayArticleMeta(
 
 export function getGuideHubMeta(year: number): PageMeta {
   return {
-    title: `Guias de Feriados ${year} — Calendário, Dias Úteis, Facultativos e Mais`,
+    title: `Guias de Feriados ${year} — Calendário, Dias Úteis, Facultativos e Emendas`,
     description: `Respostas diretas sobre feriados ${year}: calendário completo, quantos caem em dias úteis, facultativos, emendas, próximo feriado e datas móveis.`,
     canonical: '/guia/',
   };
 }
 
+const GUIDE_SEO_TITLES: Record<string, (year: number) => string> = {
+  'calendario-feriados': (year) => `Calendário de Feriados ${year} — Lista Completa Nacional`,
+  'feriados-nacionais': (year) => `Feriados Nacionais ${year} — Datas Obrigatórias no Brasil`,
+  'feriados-dias-uteis': (year) => `Feriados em Dias Úteis ${year} — Quantos Caem de Seg a Sex`,
+  'feriados-facultativos': (year) => `Feriados Facultativos ${year} — Ponto Facultativo Federal`,
+  'emendas-e-feriados-prolongados': (year) =>
+    `Emendas e Feriadões ${year} — Feriados Prolongados no Brasil`,
+  'proximo-feriado': (year) => `Próximo Feriado ${year} — Quando É o Próximo no Brasil`,
+  'feriados-moveis': (year) => `Feriados Móveis ${year} — Carnaval, Páscoa e Corpus Christi`,
+};
+
 export function getGuideMeta(slug: string, title: string, description: string, year: number): PageMeta {
+  const seoTitle = GUIDE_SEO_TITLES[slug]?.(year) ?? `${title} ${year} — Feriados Brasil`;
   return {
-    title: `${title} ${year} — Feriados Brasil`,
+    title: seoTitle,
     description: truncateDescription(description),
     canonical: `/guia/${slug}/`,
   };

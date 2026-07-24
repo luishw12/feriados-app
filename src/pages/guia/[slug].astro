@@ -3,6 +3,8 @@ import type { GetStaticPaths } from 'astro';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import GuideNav from '@/components/guide/GuideNav.astro';
 import FaqSection from '@/components/guide/FaqSection.astro';
+import BridgeHolidayList from '@/components/guide/BridgeHolidayList';
+import NextHolidayHighlight from '@/components/guide/NextHolidayHighlight';
 import HolidayTable from '@/components/guide/HolidayTable.astro';
 import { getGuideMeta } from '@/lib/seo';
 import { buildGuidePageSchema } from '@/lib/schema';
@@ -10,6 +12,7 @@ import { getSiteUrl } from '@/lib/site-url';
 import {
   GUIDE_PAGES,
   getGuideFaqItems,
+  getGuideSchemaHolidays,
   type GuideSlug,
 } from '@/lib/search-intents';
 import {
@@ -36,6 +39,7 @@ const insights = buildNationalYearInsights(year);
 const { stats } = insights;
 const slug = guide.slug as GuideSlug;
 const faqItems = getGuideFaqItems(slug, year, siteUrl);
+const schemaHolidays = getGuideSchemaHolidays(slug, year);
 
 const descriptions: Record<GuideSlug, string> = {
   'calendario-feriados': `Calendário completo de feriados ${year} no Brasil: ${stats.mandatoryTotal} nacionais obrigatórios, ${stats.optionalTotal} facultativos e datas por mês.`,
@@ -51,31 +55,44 @@ const descriptions: Record<GuideSlug, string> = {
 
 const meta = getGuideMeta(slug, guide.title, descriptions[slug], year);
 const pageUrl = `${siteUrl}/guia/${slug}/`;
-const jsonLd = buildGuidePageSchema(siteUrl, meta.title, pageUrl, faqItems, [
-  { name: 'Início', url: siteUrl },
-  { name: 'Guias', url: `${siteUrl}/guia/` },
-  { name: guide.title, url: pageUrl },
-]);
+const jsonLd = buildGuidePageSchema(
+  siteUrl,
+  meta.title,
+  meta.description,
+  pageUrl,
+  faqItems,
+  [
+    { name: 'Início', url: siteUrl },
+    { name: 'Guias', url: `${siteUrl}/guia/` },
+    { name: guide.title, url: pageUrl },
+  ],
+  schemaHolidays,
+);
 ---
 
 <BaseLayout title={meta.title} description={meta.description} canonical={meta.canonical} jsonLd={jsonLd}>
-  <div class="mx-auto max-w-4xl space-y-10 px-4 py-10">
+  <div class="page-shell-narrow space-y-12">
     <nav class="text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
       <ol class="flex flex-wrap items-center gap-2">
-        <li><a href="/" class="hover:text-emerald-600 dark:hover:text-emerald-400">Início</a></li>
+        <li><a href="/" class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400">Início</a></li>
         <li aria-hidden="true">/</li>
-        <li><a href="/guia/" class="hover:text-emerald-600 dark:hover:text-emerald-400">Guias</a></li>
+        <li><a href="/guia/" class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400">Guias</a></li>
         <li aria-hidden="true">/</li>
         <li><span class="text-neutral-700 dark:text-neutral-300">{guide.title}</span></li>
       </ol>
     </nav>
 
-    <section class="space-y-4">
-      <h1 class="text-3xl font-semibold text-neutral-900 dark:text-neutral-50">
+    <header class="space-y-4 border-b border-neutral-200/80 pb-10 dark:border-neutral-800">
+      <p class="text-sm font-medium tracking-wide text-emerald-700 dark:text-emerald-400">
+        Guia · {year}
+      </p>
+      <h1 class="text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl dark:text-neutral-50">
         {guide.title} {year}
       </h1>
-      <p class="text-lg text-neutral-600 dark:text-neutral-400">{descriptions[slug]}</p>
-    </section>
+      <p class="max-w-2xl text-base leading-relaxed text-neutral-600 sm:text-lg dark:text-neutral-400">
+        {descriptions[slug]}
+      </p>
+    </header>
 
     {
       slug === 'calendario-feriados' && (
@@ -179,26 +196,15 @@ const jsonLd = buildGuidePageSchema(siteUrl, meta.title, pageUrl, faqItems, [
                   quinta-feira, emendam com a sexta. São {stats.bridgeCount} feriados nacionais em {year}
                   nessa situação:
                 </p>
-                <ul class="space-y-3">
-                  {
-                    insights.bridgeCandidates.map((holiday) => (
-                      <li class="rounded-xl border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
-                        <a
-                          href={`/feriado/${holiday.id}/`}
-                          class="font-semibold text-emerald-700 dark:text-emerald-400"
-                        >
-                          {holiday.name}
-                        </a>
-                        <p class="mt-1 text-sm capitalize text-neutral-600 dark:text-neutral-400">
-                          {formatHolidayDate(holiday.resolvedDate)}
-                        </p>
-                        <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-500">
-                          {describeBridgeHoliday(holiday)}
-                        </p>
-                      </li>
-                    ))
-                  }
-                </ul>
+                <BridgeHolidayList
+                  client:visible
+                  items={insights.bridgeCandidates.map((holiday) => ({
+                    id: holiday.id,
+                    name: holiday.name,
+                    formattedDate: formatHolidayDate(holiday.resolvedDate),
+                    description: describeBridgeHoliday(holiday),
+                  }))}
+                />
               </>
             ) : (
               <p class="text-neutral-600 dark:text-neutral-400">
@@ -215,23 +221,12 @@ const jsonLd = buildGuidePageSchema(siteUrl, meta.title, pageUrl, faqItems, [
         <section class="space-y-4">
           {
             insights.nextHoliday ? (
-              <div class="rounded-xl border border-emerald-200 bg-emerald-50 p-6 dark:border-emerald-900 dark:bg-emerald-950/40">
-                <p class="text-sm font-medium uppercase tracking-wide text-emerald-800 dark:text-emerald-300">
-                  Próximo feriado nacional
-                </p>
-                <p class="mt-2 text-2xl font-bold text-neutral-900 dark:text-neutral-50">
-                  {insights.nextHoliday.name}
-                </p>
-                <p class="mt-1 capitalize text-neutral-600 dark:text-neutral-400">
-                  {formatHolidayDate(insights.nextHoliday.resolvedDate)}
-                </p>
-                <a
-                  href={`/feriado/${insights.nextHoliday.id}/`}
-                  class="mt-4 inline-flex text-sm font-medium text-emerald-700 hover:text-emerald-800 dark:text-emerald-400"
-                >
-                  Ver história e detalhes →
-                </a>
-              </div>
+              <NextHolidayHighlight
+                client:visible
+                name={insights.nextHoliday.name}
+                formattedDate={formatHolidayDate(insights.nextHoliday.resolvedDate)}
+                holidayId={insights.nextHoliday.id}
+              />
             ) : (
               <p class="text-neutral-600 dark:text-neutral-400">
                 Não há mais feriados nacionais programados para {year}. Consulte o calendário do ano
@@ -262,7 +257,9 @@ const jsonLd = buildGuidePageSchema(siteUrl, meta.title, pageUrl, faqItems, [
       )
     }
 
-    <GuideNav currentSlug={slug} />
-    <FaqSection items={faqItems} />
+    <div class="space-y-14 border-t border-neutral-200/80 pt-12 dark:border-neutral-800">
+      <GuideNav currentSlug={slug} />
+      <FaqSection items={faqItems} />
+    </div>
   </div>
 </BaseLayout>

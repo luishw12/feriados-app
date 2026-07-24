@@ -4,7 +4,9 @@ import type {
   HolidayDefinition,
   HolidayType,
   HolidayArticle,
+  ResolvedHoliday,
 } from '@/data/schema';
+import type { LocationContext } from '@/lib/location-storage';
 import { slugify } from '@/lib/text';
 
 export type ContributionMode = 'suggest_holiday' | 'report_error' | 'enrich_content';
@@ -183,6 +185,122 @@ function defaultTypeForScope(scope: HolidayScope): HolidayType {
   if (scope === 'state') return 'state';
   if (scope === 'municipal') return 'municipal';
   return 'national';
+}
+
+function formatCalendarDate(month: number, day: number): string {
+  return `${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+}
+
+function inferScopeFromHoliday(holiday: ResolvedHoliday): HolidayScope {
+  if (holiday.city) return 'municipal';
+  if (holiday.state) return 'state';
+  if (holiday.type === 'municipal') return 'municipal';
+  if (holiday.type === 'state' || holiday.type === 'state_optional') return 'state';
+  return 'national';
+}
+
+function inferScopeFromLocation(location: LocationContext | null): HolidayScope {
+  if (location?.citySlug) return 'municipal';
+  if (location?.uf) return 'state';
+  return 'national';
+}
+
+export function buildHolidayContextFromResolvedHoliday(
+  holiday: ResolvedHoliday,
+  location: LocationContext | null,
+): ContributionHolidayContext {
+  const scope = inferScopeFromHoliday(holiday);
+  const resolvedMonth = holiday.resolvedDate.getMonth();
+  const resolvedDay = holiday.resolvedDate.getDate();
+
+  return {
+    id: holiday.id,
+    name: holiday.name,
+    dateKind: holiday.dateRule ? 'mobile' : 'fixed',
+    date: holiday.date ?? formatCalendarDate(resolvedMonth, resolvedDay),
+    dateRule: holiday.dateRule,
+    type: holiday.type,
+    categories: holiday.categories,
+    description: holiday.description,
+    scope,
+    state: holiday.state ?? location?.uf,
+    city: location?.cityName ?? holiday.city,
+    citySlug: holiday.city ?? location?.citySlug,
+  };
+}
+
+export function buildHolidayContextFromCalendarDay(
+  month: number,
+  day: number,
+  location: LocationContext | null,
+): ContributionHolidayContext {
+  const scope = inferScopeFromLocation(location);
+
+  return {
+    name: '',
+    dateKind: 'fixed',
+    date: formatCalendarDate(month, day),
+    type: defaultTypeForScope(scope),
+    categories: ['civico'],
+    scope,
+    state: location?.uf ?? '',
+    city: location?.cityName ?? '',
+    citySlug: location?.citySlug ?? '',
+  };
+}
+
+export function buildContributionDetailFromCalendarDay(
+  month: number,
+  day: number,
+  holidays: ResolvedHoliday[],
+  location: LocationContext | null,
+  pageUrl?: string,
+): ContributionOpenDetail {
+  const primary = holidays.find((holiday) => holiday.id !== 'regional') ?? holidays[0];
+  const holidayContext = primary
+    ? buildHolidayContextFromResolvedHoliday(primary, location)
+    : buildHolidayContextFromCalendarDay(month, day, location);
+
+  return {
+    mode: 'suggest_holiday',
+    holidayId: primary?.id !== 'regional' ? primary?.id : undefined,
+    holidayName: holidayContext.name,
+    pageUrl: pageUrl ?? (typeof window !== 'undefined' ? window.location.href : ''),
+    holiday: holidayContext,
+  };
+}
+
+export function buildContributionDetailFromDefinition(
+  mode: ContributionMode,
+  definition: HolidayDefinition,
+  article: HolidayArticle | undefined,
+  pageUrl: string,
+): ContributionOpenDetail {
+  return {
+    mode,
+    holidayId: definition.id,
+    holidayName: definition.name,
+    pageUrl,
+    holiday: buildHolidayContextFromDefinition(definition),
+    article: article ? buildArticleContextFromArticle(article) : undefined,
+  };
+}
+
+export function buildContributionDetailFromResolvedHoliday(
+  mode: ContributionMode,
+  holiday: ResolvedHoliday,
+  location: LocationContext | null,
+  pageUrl?: string,
+  article?: HolidayArticle,
+): ContributionOpenDetail {
+  return {
+    mode,
+    holidayId: holiday.id,
+    holidayName: holiday.name,
+    pageUrl: pageUrl ?? (typeof window !== 'undefined' ? window.location.href : ''),
+    holiday: buildHolidayContextFromResolvedHoliday(holiday, location),
+    article: article ? buildArticleContextFromArticle(article) : undefined,
+  };
 }
 
 export function buildHolidayContextFromDefinition(

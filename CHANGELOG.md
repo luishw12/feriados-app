@@ -8,6 +8,38 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
+## [1.2.0-beta] - 2026-07-24
+
+Redesign completo da interface com Tailwind CSS v4, calendário reformulado e nova navegação mobile.
+
+### Adicionado
+
+- Migração para Tailwind CSS v4 com tema unificado e variáveis CSS
+- Componentes shadcn/ui para formulários, modais e controles interativos
+- Navegação mobile com menu animado (StaggeredMenu)
+- Faixa de meses (MonthStrip) para navegação rápida no calendário
+- Contador regressivo integrado ao painel do calendário
+- Efeitos visuais de fundo: starfield, border glow e spotlight
+- Hub de guias redesenhado com snapshot do ano e índice visual
+- Página Sobre reformulada com cards animados e links do autor
+- Ações de contribuição direto nos dias do calendário
+- Dica de precisão ao selecionar localização
+
+### Alterado
+
+- Calendário completamente redesenhado com nova hierarquia visual
+- Header e navegação principal modernizados com pill nav
+- Formulário de contribuição reformulado com stepper e campos agrupados
+- Filtros de categoria e resumo anual com novo visual
+- Gate de permissão de localização com fluxo mais claro
+- SEO e schema dos guias atualizados para o novo hub
+
+### Removido
+
+- Contador flutuante substituído pelo contador integrado ao calendário
+- Card de sugestão de localização em favor do gate unificado
+- tailwind.config.mjs substituído pela configuração inline do Tailwind v4
+
 ## [1.1.0-beta] - 2026-07-23
 
 Formulário de contribuição com campos completos, upload de banner e abertura automática de pull request no GitHub.

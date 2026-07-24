@@ -2,6 +2,9 @@ import { useEffect } from 'react';
 import { X } from 'lucide-react';
 import type { HolidayType, ResolvedHoliday } from '@/data/schema';
 import { HOLIDAY_TYPE_COLORS, getHolidayBadgeLabel, MONTH_NAMES } from '@/lib/constants';
+import type { LocationContext } from '@/lib/location-storage';
+import { buildHolidayContextFromResolvedHoliday } from '@/lib/contributions';
+import HolidayContributionActions from '@/components/interactive/HolidayContributionActions';
 
 interface Props {
   day: number;
@@ -9,6 +12,7 @@ interface Props {
   year: number;
   holidays: ResolvedHoliday[];
   hasLocation: boolean;
+  location: LocationContext | null;
   onClose: () => void;
 }
 
@@ -23,6 +27,7 @@ export default function DayHolidaysDialog({
   year,
   holidays,
   hasLocation,
+  location,
   onClose,
 }: Props) {
   const date = new Date(year, month, day);
@@ -57,7 +62,7 @@ export default function DayHolidaysDialog({
       />
 
       <div
-        className="relative z-10 flex max-h-[85vh] w-full flex-col rounded-t-2xl border border-neutral-200 bg-white shadow-2xl dark:border-neutral-700 dark:bg-neutral-900 sm:max-w-md sm:rounded-2xl"
+        className="relative z-10 flex max-h-[85vh] w-full flex-col rounded-t-2xl glass-panel-strong shadow-glow dark:border-neutral-700 sm:max-w-lg sm:rounded-2xl"
         role="dialog"
         aria-modal="true"
         aria-labelledby="day-holidays-title"
@@ -91,46 +96,62 @@ export default function DayHolidaysDialog({
           {holidays.map((holiday) => {
             const muted = isRegionalMuted(holiday.type, hasLocation);
             const colors = HOLIDAY_TYPE_COLORS[holiday.type];
+            const pageUrl =
+              typeof window !== 'undefined'
+                ? `${window.location.origin}/feriado/${holiday.id}/`
+                : `/feriado/${holiday.id}/`;
+            const holidayContext = buildHolidayContextFromResolvedHoliday(holiday, location);
 
             return (
               <li key={`${holiday.id}-${holiday.resolvedDate.toISOString()}`} className="py-1">
-                <a
-                  href={`/feriado/${holiday.id}/`}
+                <div
                   className={[
-                    'flex items-center gap-3 rounded-xl border p-3 transition-colors duration-150',
-                    muted
-                      ? 'border-dashed border-neutral-200 bg-neutral-50/50 hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-900/50 dark:hover:border-neutral-600'
-                      : 'border-neutral-200 bg-white hover:border-emerald-300 hover:bg-emerald-50/30 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:border-emerald-700 dark:hover:bg-emerald-950/20',
+                    'group relative rounded-xl glass-panel transition-all duration-200 hover:-translate-y-0.5 hover:shadow-card-hover',
+                    muted && 'border-dashed opacity-70',
                   ].join(' ')}
                 >
-                  <span
-                    className={[
-                      'flex h-9 w-9 shrink-0 items-center justify-center rounded-lg',
-                      muted ? 'bg-neutral-100 dark:bg-neutral-800' : colors.bg,
-                    ].join(' ')}
+                  <a
+                    href={`/feriado/${holiday.id}/`}
+                    className="flex items-center gap-3 p-3 pr-10"
                   >
-                    <span className={`h-2.5 w-2.5 rounded-full ${colors.dot}`} />
-                  </span>
-                  <div className="min-w-0 flex-1">
-                    <p className="font-medium leading-snug text-neutral-900 dark:text-neutral-50">
-                      {muted ? 'Feriado regional' : holiday.name}
-                    </p>
                     <span
                       className={[
-                        'mt-1.5 inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium',
-                        colors.bg,
-                        colors.text,
+                        'flex h-9 w-9 shrink-0 items-center justify-center rounded-lg',
+                        muted ? 'bg-neutral-100 dark:bg-neutral-800' : colors.bg,
                       ].join(' ')}
                     >
-                      {getHolidayBadgeLabel(holiday.type)}
+                      <span className={`h-2.5 w-2.5 rounded-full ${colors.dot}`} />
                     </span>
-                    {muted && (
-                      <p className="mt-1 text-[11px] italic text-neutral-400">
-                        Varia conforme seu estado ou cidade
+                    <div className="min-w-0 flex-1">
+                      <p className="font-medium leading-snug text-neutral-900 dark:text-neutral-50">
+                        {muted ? 'Feriado regional' : holiday.name}
                       </p>
-                    )}
-                  </div>
-                </a>
+                      <span
+                        className={[
+                          'mt-1.5 inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium',
+                          colors.bg,
+                          colors.text,
+                        ].join(' ')}
+                      >
+                        {getHolidayBadgeLabel(holiday.type)}
+                      </span>
+                      {muted && (
+                        <p className="mt-1 text-[11px] italic text-neutral-400">
+                          Varia conforme seu estado ou cidade
+                        </p>
+                      )}
+                    </div>
+                  </a>
+                  {!muted && holiday.id !== 'regional' && (
+                    <HolidayContributionActions
+                      variant="inline"
+                      holidayId={holiday.id}
+                      holidayName={holiday.name}
+                      pageUrl={pageUrl}
+                      holiday={holidayContext}
+                    />
+                  )}
+                </div>
               </li>
             );
           })}
