@@ -8,6 +8,22 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
+## [1.1.0-beta] - 2026-07-23
+
+Formulário de contribuição com campos completos, upload de banner e abertura automática de pull request no GitHub.
+
+### Adicionado
+
+- Formulário estruturado com todos os campos do feriado e do artigo
+- Upload de imagem de banner (arquivo ou URL) nas contribuições
+- Abertura automática de pull request no GitHub para revisão do mantenedor
+- Pré-preenchimento dos dados ao corrigir ou enriquecer feriados existentes
+
+### Alterado
+
+- Contribuições passam a gerar pull requests em vez de issues no GitHub
+- Política de privacidade e textos do site atualizados para o novo fluxo
+
 ## [1.0.1-beta] - 2026-06-25
 
 Correção do piscar da localização na navbar ao navegar entre páginas.

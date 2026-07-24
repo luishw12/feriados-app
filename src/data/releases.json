@@ -1,6 +1,28 @@
 {
   "releases": [
     {
+      "version": "1.1.0-beta",
+      "date": "2026-07-23",
+      "status": "beta",
+      "summary": "Formulário de contribuição com campos completos, upload de banner e abertura automática de pull request no GitHub.",
+      "sections": {
+        "added": [
+          "Formulário estruturado com todos os campos do feriado e do artigo",
+          "Upload de imagem de banner (arquivo ou URL) nas contribuições",
+          "Abertura automática de pull request no GitHub para revisão do mantenedor",
+          "Pré-preenchimento dos dados ao corrigir ou enriquecer feriados existentes"
+        ],
+        "changed": [
+          "Contribuições passam a gerar pull requests em vez de issues no GitHub",
+          "Política de privacidade e textos do site atualizados para o novo fluxo"
+        ],
+        "deprecated": [],
+        "removed": [],
+        "fixed": [],
+        "security": []
+      }
+    },
+    {
       "version": "1.0.1-beta",
       "date": "2026-06-25",
       "status": "beta",

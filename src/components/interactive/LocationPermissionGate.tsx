@@ -29,7 +29,10 @@ export default function LocationPermissionGate({
     useState<GeolocationPermissionState>('prompt');
   const [status, setStatus] = useState<PromptStatus>('idle');
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [initialized, setInitialized] = useState(false);
+  const [initialized, setInitialized] = useState(() => {
+    if (!showLocationSuggestion) return true;
+    return Boolean(loadStoredLocationContext()) || isLocationPromptDismissed();
+  });
 
   const saveDetectedLocation = useCallback(async (): Promise<boolean> => {
     const result = await detectUserLocation();

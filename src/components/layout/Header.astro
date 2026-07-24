@@ -18,10 +18,10 @@ const states = getAllStates().map((s) => ({
 ---
 
 <header class="sticky top-0 z-40 border-b border-neutral-200/80 bg-white/90 px-4 py-3 backdrop-blur-md dark:border-neutral-800/80 dark:bg-neutral-950/90">
-  <div class="mx-auto grid max-w-5xl grid-cols-[1fr_auto_1fr] items-center gap-3">
+  <div class="mx-auto flex max-w-5xl items-center gap-2 sm:gap-3">
     <a
       href="/"
-      class="group flex min-w-0 items-center gap-2.5 justify-self-start rounded-lg outline-none ring-emerald-500 transition-colors duration-150 focus-visible:ring-2"
+      class="group flex min-w-0 shrink items-center gap-2.5 rounded-lg outline-none ring-emerald-500 transition-colors duration-150 focus-visible:ring-2 sm:gap-2.5"
       aria-label="Feriados Brasil — início"
     >
       <span
@@ -48,11 +48,11 @@ const states = getAllStates().map((s) => ({
       </span>
     </a>
 
-    <nav class="flex shrink-0 items-center justify-self-center gap-1.5 sm:gap-2" aria-label="Principal">
+    <nav class="flex min-w-0 flex-1 items-center justify-center gap-0.5 sm:gap-1.5" aria-label="Principal">
       <a
         href="/"
         class:list={[
-          'rounded-lg px-3 py-2 text-sm font-medium transition-colors duration-150',
+          'rounded-lg px-2 py-2 text-sm font-medium transition-colors duration-150 sm:px-3',
           isHome
             ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300'
             : 'text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-100',
@@ -87,15 +87,13 @@ const states = getAllStates().map((s) => ({
       </a>
     </nav>
 
-    <div class="flex shrink-0 items-center justify-self-end gap-1.5 sm:gap-2" aria-label="Ferramentas">
-      <div class="min-w-0">
-        <HeaderLocation client:load transition:persist="header-location" states={states} />
+    <div class="flex shrink-0 items-center gap-1 sm:gap-1.5" aria-label="Ferramentas">
+      <HeaderLocation client:load transition:persist="header-location" states={states} />
+      <div class="border-l border-neutral-200 pl-1 dark:border-neutral-700 sm:pl-1.5">
+        <HolidaySearch client:idle transition:persist="holiday-search" />
       </div>
-      <div class="border-l border-neutral-200 pl-1.5 dark:border-neutral-700 sm:pl-2">
-        <HolidaySearch client:idle />
-      </div>
-      <div class="border-l border-neutral-200 pl-1.5 dark:border-neutral-700 sm:pl-2">
-        <ThemeToggle client:load />
+      <div class="border-l border-neutral-200 pl-1 dark:border-neutral-700 sm:pl-1.5">
+        <ThemeToggle client:load transition:persist="theme-toggle" />
       </div>
     </div>
   </div>

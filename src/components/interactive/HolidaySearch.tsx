@@ -159,6 +159,11 @@ export default function HolidaySearch() {
   }, [trimmedQuery, runSearch]);
 
   useEffect(() => {
+    document.addEventListener('astro:page-load', closePalette);
+    return () => document.removeEventListener('astro:page-load', closePalette);
+  }, [closePalette]);
+
+  useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const initialQuery = params.get('q');
     if (initialQuery) {

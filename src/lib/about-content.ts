@@ -91,7 +91,7 @@ export function getAboutFaqItems(siteUrl: string, githubUrl: string): FaqItem[] 
     {
       question: 'Posso contribuir sem saber programar?',
       answer:
-        'Sim. Use o botão "Faltou algum feriado?" no rodapé ou nesta página para sugerir datas ou correções. Desenvolvedores podem abrir issues ou pull requests no GitHub.',
+        'Sim. Use o botão "Faltou algum feriado?" no rodapé ou os botões nas páginas de feriado. O site gera um pull request no GitHub com suas sugestões para revisão do mantenedor.',
     },
     {
       question: 'O projeto é open source?',

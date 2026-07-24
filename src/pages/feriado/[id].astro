@@ -175,6 +175,8 @@ const holidayPageUrl = `${siteUrl}/feriado/${definition.id}/`;
         holidayId={definition.id}
         holidayName={resolvedHoliday.name}
         pageUrl={holidayPageUrl}
+        definition={definition}
+        article={article}
       />
       <section class="space-y-6 border-t border-neutral-200 pt-8 dark:border-neutral-800">
         <HolidayArticleSources article={article} />

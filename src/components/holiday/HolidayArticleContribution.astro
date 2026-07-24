@@ -1,14 +1,30 @@
 ---
 import Card from '@/components/ui/Card.astro';
+import type { HolidayArticle, HolidayDefinition } from '@/data/schema';
+import {
+  buildArticleContextFromArticle,
+  buildHolidayContextFromDefinition,
+} from '@/lib/contributions';
 
 interface Props {
   holidayId: string;
   holidayName: string;
   pageUrl: string;
+  definition: HolidayDefinition;
+  article: HolidayArticle;
 }
 
-const { holidayId, holidayName, pageUrl } = Astro.props;
-const contributionData = JSON.stringify({ holidayId, holidayName, pageUrl });
+const { holidayId, holidayName, pageUrl, definition, article } = Astro.props;
+
+const contributionContext = {
+  holidayId,
+  holidayName,
+  pageUrl,
+  holiday: buildHolidayContextFromDefinition(definition),
+  article: buildArticleContextFromArticle(article),
+};
+
+const contributionData = JSON.stringify(contributionContext);
 ---
 
 <Card
@@ -32,10 +48,11 @@ const contributionData = JSON.stringify({ holidayId, holidayName, pageUrl });
       </div>
       <div class="space-y-1">
         <h2 class="text-base font-semibold text-neutral-900 dark:text-neutral-50">
-          Ajude a melhorar este artigo
+          Ajude a melhorar este feriado
         </h2>
         <p class="text-sm text-neutral-600 dark:text-neutral-400">
-          Encontrou algo incorreto ou quer acrescentar informações? Sua contribuição ajuda todos.
+          Corrija dados, envie uma nova imagem de banner ou enriqueça o artigo. Suas alterações viram
+          um pull request para revisão.
         </p>
       </div>
     </div>
@@ -45,7 +62,7 @@ const contributionData = JSON.stringify({ holidayId, holidayName, pageUrl });
         id="report-article-btn"
         class="inline-flex items-center justify-center rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700 transition-colors duration-150 hover:bg-neutral-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-500 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700"
       >
-        Reportar erro
+        Corrigir feriado
       </button>
       <button
         type="button"
@@ -79,6 +96,8 @@ const contributionData = JSON.stringify({ holidayId, holidayName, pageUrl });
             holidayId: context.holidayId,
             holidayName: context.holidayName,
             pageUrl: context.pageUrl,
+            holiday: context.holiday,
+            article: context.article,
           },
         }),
       );
@@ -92,6 +111,8 @@ const contributionData = JSON.stringify({ holidayId, holidayName, pageUrl });
             holidayId: context.holidayId,
             holidayName: context.holidayName,
             pageUrl: context.pageUrl,
+            holiday: context.holiday,
+            article: context.article,
           },
         }),
       );

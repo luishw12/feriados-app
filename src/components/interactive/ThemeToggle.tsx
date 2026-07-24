@@ -1,20 +1,18 @@
 import { useEffect, useState } from 'react';
 import { Moon, Sun } from 'lucide-react';
+import { toggleStoredTheme } from '@/lib/theme-storage';
+import { useTheme } from '@/lib/use-theme';
 
 export default function ThemeToggle() {
-  const [isDark, setIsDark] = useState(false);
+  const isDark = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
-    setIsDark(document.documentElement.classList.contains('dark'));
   }, []);
 
-  function toggleTheme() {
-    const next = !document.documentElement.classList.contains('dark');
-    document.documentElement.classList.toggle('dark', next);
-    localStorage.setItem('theme', next ? 'dark' : 'light');
-    setIsDark(next);
+  function handleToggle() {
+    toggleStoredTheme();
   }
 
   if (!mounted) {
@@ -32,7 +30,7 @@ export default function ThemeToggle() {
   return (
     <button
       type="button"
-      onClick={toggleTheme}
+      onClick={handleToggle}
       className="rounded-lg p-2 text-neutral-600 transition-colors duration-300 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800"
       aria-label={isDark ? 'Ativar modo claro' : 'Ativar modo escuro'}
     >

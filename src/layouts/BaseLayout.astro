@@ -71,17 +71,11 @@ const siteUrl = getSiteUrl(Astro.site);
     <ViewTransitions />
     <script is:inline>
       (function () {
-        const stored = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const isDark = stored === 'dark' || (!stored && prefersDark);
-        if (isDark) document.documentElement.classList.add('dark');
-      })();
-    </script>
-    <script is:inline>
-      (function () {
         try {
-          const raw = localStorage.getItem('feriados-location');
-          if (raw) window.__FERIADOS_BOOTSTRAP_LOCATION__ = raw;
+          const stored = localStorage.getItem('theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          const isDark = stored === 'dark' || (!stored && prefersDark);
+          document.documentElement.classList.toggle('dark', isDark);
         } catch {
           // localStorage bloqueado
         }
@@ -100,8 +94,14 @@ const siteUrl = getSiteUrl(Astro.site);
     </main>
     {fullHeight ? <AppMetaBar /> : <Footer articleContribution={articleContribution} />}
     <LinkedInCTA />
-    <CookieConsent client:load />
-    <ContributionProvider client:load />
+    <CookieConsent client:load transition:persist="cookie-consent" />
+    <ContributionProvider client:load transition:persist="contribution-provider" />
     <LocationPermissionGate client:load showLocationSuggestion={showLocationSuggestion} />
   </body>
 </html>
+
+<script>
+  import { initViewTransitionBootstrap } from '@/lib/view-transition-bootstrap';
+
+  initViewTransitionBootstrap();
+</script>
