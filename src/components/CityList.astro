@@ -1,0 +1,45 @@
+---
+import type { MunicipalityRow, StateRow } from '@/lib/data';
+import { paths } from '@/lib/site';
+import { placeIn } from '@/lib/pages';
+
+interface Props {
+  state: StateRow;
+  cities: Pick<MunicipalityRow, 'ibge' | 'name' | 'slug' | 'capital'>[];
+  year?: number | undefined;
+}
+
+const { state, cities, year } = Astro.props;
+const capital = cities.find((c) => c.capital);
+const groups = new Map<string, typeof cities>();
+for (const c of cities) {
+  const letter = c.name.normalize('NFD').charAt(0).toUpperCase();
+  groups.set(letter, [...(groups.get(letter) ?? []), c]);
+}
+---
+
+<section aria-labelledby="cidades" class="mt-16">
+  <h2 id="cidades" class="text-xl font-semibold tracking-tight">Feriados municipais {placeIn({ state, city: null })}</h2>
+  <p class="mt-1 text-sm text-muted">
+    {cities.length} municípios. Cada cidade tem os feriados nacionais, estaduais e os seus feriados municipais.
+    {capital && <>Capital: <a class="link" href={paths.city(state.uf, capital.slug, year)}>{capital.name}</a>.</>}
+  </p>
+  <div class="mt-6 columns-2 gap-6 text-sm sm:columns-3 lg:columns-4">
+    {
+      [...groups.entries()].map(([letter, list]) => (
+        <div class="mb-4 break-inside-avoid">
+          <p class="eyebrow mb-1">{letter}</p>
+          <ul class="space-y-1">
+            {list.map((c) => (
+              <li>
+                <a href={paths.city(state.uf, c.slug, year)} class="text-muted hover:text-fg">
+                  {c.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+</section>

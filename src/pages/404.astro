@@ -1,0 +1,20 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
+import { currentYear, paths } from '@/lib/site';
+
+const year = currentYear();
+Astro.response.status = 404;
+---
+
+<BaseLayout title="Página não encontrada" description="A página que você procurou não existe." path={Astro.url.pathname} noindex markdown={false}>
+  <div class="container-page py-24 text-center">
+    <p class="tabular text-6xl font-semibold tracking-tight">404</p>
+    <h1 class="mt-4 text-2xl font-semibold">Essa página não existe</h1>
+    <p class="mt-2 text-muted">Talvez o endereço tenha mudado. Busque a cidade, o estado ou o feriado:</p>
+    <div class="mt-6 flex flex-wrap justify-center gap-2">
+      <button type="button" data-open-search class="btn-primary"><Icon name="search" /> Buscar</button>
+      <a href={paths.year(year)} class="btn">Feriados {year}</a>
+    </div>
+  </div>
+</BaseLayout>

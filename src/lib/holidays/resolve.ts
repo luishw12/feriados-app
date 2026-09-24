@@ -14,6 +14,7 @@ export interface HolidayDef {
   validTo: number | null;
   categories: Category[];
   summary: string;
+  legalBasis: string;
   status: Status;
 }
 

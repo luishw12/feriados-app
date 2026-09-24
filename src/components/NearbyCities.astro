@@ -1,0 +1,37 @@
+---
+import type { MunicipalityRow, StateRow } from '@/lib/data';
+import { paths } from '@/lib/site';
+
+interface Props {
+  state: StateRow;
+  cities: MunicipalityRow[];
+  year?: number | undefined;
+}
+
+const { state, cities, year } = Astro.props;
+---
+
+{
+  cities.length > 0 && (
+    <section aria-labelledby="proximas" class="mt-16">
+      <h2 id="proximas" class="text-xl font-semibold tracking-tight">
+        Feriados em cidades próximas
+      </h2>
+      <ul class="mt-4 flex flex-wrap gap-2">
+        {cities.map((c) => (
+          <li>
+            <a href={paths.city(c.uf, c.slug, year)} class="btn">
+              {c.name}
+              {c.uf !== state.uf && <span class="text-faint">{c.uf}</span>}
+            </a>
+          </li>
+        ))}
+        <li>
+          <a href={paths.state(state.uf, year)} class="btn">
+            Todas as cidades de {state.uf} →
+          </a>
+        </li>
+      </ul>
+    </section>
+  )
+}

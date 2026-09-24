@@ -45,6 +45,7 @@ describe('agrupamento de feriados do mesmo dia', () => {
     validTo: null,
     categories: [],
     summary: '',
+    legalBasis: '',
     status: 'verified',
   };
 

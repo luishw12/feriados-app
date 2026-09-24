@@ -1,0 +1,69 @@
+---
+import PageShell from '@/components/PageShell.astro';
+import Icon from '@/components/Icon.astro';
+import { cachePage } from '@/lib/cache';
+import { countHolidays } from '@/lib/data';
+import { REPO_URL, paths } from '@/lib/site';
+
+const counts = await countHolidays();
+const sum = (fn: (c: (typeof counts)[number]) => boolean) => counts.filter(fn).reduce((acc, c) => acc + c.count, 0);
+const municipal = sum((c) => c.scope === 'municipal');
+const pending = sum((c) => c.scope !== 'national' && c.status !== 'verified');
+const incomplete = sum((c) => c.status === 'incomplete');
+cachePage(Astro, ['national', 'stats']);
+const steps = [
+  { title: 'Abra a página da cidade ou do feriado', text: 'Busque pelo nome. Cada feriado tem o botão “Sugerir correção”, e cada cidade tem “Sugerir feriado”.' },
+  { title: 'Conte o que está errado', text: 'Nome, data, se é feriado ou ponto facultativo. Um link para a lei ou para o site da prefeitura acelera a aprovação.' },
+  { title: 'Pronto', text: 'A sugestão é revisada. Quando aprovada, o site, a API e as agendas .ics são atualizados na hora — com crédito para você, se quiser.' },
+];
+---
+
+<PageShell
+  title="Como contribuir com os feriados do Brasil"
+  description="Encontrou um feriado errado ou faltando? Sugira pelo site em menos de um minuto, sem cadastro. Toda sugestão é revisada e publicada rapidamente."
+  path={paths.contribute()}
+  h1="Ajude a manter os feriados certos"
+  lead="Ninguém conhece os feriados da sua cidade melhor do que quem mora nela. Sugira correções e feriados que faltam — sem cadastro, em menos de um minuto."
+  crumbName="Contribuir"
+  wide={false}
+>
+  <dl class="grid grid-cols-3 gap-3">
+    <div class="card px-4 py-3"><dt class="text-xs text-faint">feriados municipais</dt><dd class="tabular text-2xl font-semibold">{municipal.toLocaleString('pt-BR')}</dd></div>
+    <div class="card px-4 py-3"><dt class="text-xs text-faint">a verificar</dt><dd class="tabular text-2xl font-semibold">{pending.toLocaleString('pt-BR')}</dd></div>
+    <div class="card px-4 py-3"><dt class="text-xs text-faint">sem nome</dt><dd class="tabular text-2xl font-semibold">{incomplete.toLocaleString('pt-BR')}</dd></div>
+  </dl>
+
+  <ol class="mt-10 space-y-6">
+    {
+      steps.map((s, i) => (
+        <li class="flex gap-4">
+          <span class="tabular flex size-8 shrink-0 items-center justify-center rounded-full bg-fg text-sm font-semibold text-bg">{i + 1}</span>
+          <div>
+            <p class="font-medium">{s.title}</p>
+            <p class="mt-1 text-sm text-muted">{s.text}</p>
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+
+  <div class="mt-10 flex flex-wrap gap-2">
+    <button type="button" data-open-search class="btn-primary"><Icon name="search" /> Encontrar minha cidade</button>
+    <button type="button" data-suggest={JSON.stringify({ type: 'new' })} class="btn"><Icon name="plus" /> Sugerir sem contexto</button>
+  </div>
+
+  <section class="mt-16 space-y-4 text-sm leading-relaxed text-muted">
+    <h2 class="text-xl font-semibold tracking-tight text-fg">O que significam os selos</h2>
+    <p><strong class="text-fg">Verificado</strong> — conferido com a lei ou com uma fonte oficial.</p>
+    <p><strong class="text-fg">Não verificado</strong> — veio de uma base pública ou foi deduzido pela data (ex.: dia do padroeiro), mas ainda ninguém conferiu.</p>
+    <p><strong class="text-fg">Nome a confirmar</strong> — sabemos que é feriado nesse dia, mas não o motivo. É o tipo de ajuda mais valiosa!</p>
+  </section>
+
+  <section class="mt-12 space-y-3 text-sm leading-relaxed text-muted">
+    <h2 class="text-xl font-semibold tracking-tight text-fg">Quer contribuir com código?</h2>
+    <p>
+      O projeto é open source. Dados entram pelo site (para passar pela moderação); código, pelo <a class="link" href={REPO_URL}>GitHub</a> — veja o
+      <a class="link" href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}>guia de contribuição</a>.
+    </p>
+  </section>
+</PageShell>

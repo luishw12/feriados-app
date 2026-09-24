@@ -1,0 +1,32 @@
+---
+/**
+ * /feriados-2026/             → calendário nacional do ano
+ * /feriados-prolongados-2026/ → emendas do ano
+ * (uma rota só: o Astro não diferencia os dois padrões no mesmo segmento)
+ */
+import ListPage from '@/components/ListPage.astro';
+import StatesGrid from '@/components/StatesGrid.astro';
+import BridgesPage from '@/components/BridgesPage.astro';
+import { cachePage } from '@/lib/cache';
+import { getStates } from '@/lib/data';
+import { buildListModel } from '@/lib/pages';
+import { isValidYear } from '@/lib/site';
+
+const param = Astro.params.year ?? '';
+const bridges = /^prolongados-(\d{4})$/.exec(param);
+const yearParam = bridges ? bridges[1] : param;
+if (!isValidYear(yearParam)) return Astro.rewrite('/404/');
+const year = Number(yearParam);
+
+const [model, states] = bridges ? [null, null] : await Promise.all([buildListModel({ type: 'year', year, explicitYear: true }), getStates()]);
+if (model) cachePage(Astro, model.tags, { lastModified: model.updatedAt });
+---
+
+{bridges && <BridgesPage year={year} />}
+{
+  model && states && (
+    <ListPage model={model}>
+      <StatesGrid states={states} year={year} />
+    </ListPage>
+  )
+}

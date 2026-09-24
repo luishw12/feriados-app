@@ -9,11 +9,12 @@ import { connect, schema } from './db.ts';
 const force = process.argv.includes('--force');
 const { db, client } = connect();
 
-function load<T>(name: string): T[] {
+function load<T = Record<string, unknown>>(name: string): T[] {
   return JSON.parse(readFileSync(new URL(`../data/seed/${name}`, import.meta.url), 'utf8')) as T[];
 }
 
-const [{ count }] = await db.select({ count: sql<number>`count(*)` }).from(schema.holidays);
+const [row] = await db.select({ count: sql<number>`count(*)` }).from(schema.holidays);
+const count = row?.count ?? 0;
 if (count > 0 && !force) {
   console.log(`banco já tem ${count} feriados — nada a fazer (use --force para recarregar)`);
   client.close();

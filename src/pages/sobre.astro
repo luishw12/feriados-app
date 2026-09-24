@@ -1,0 +1,54 @@
+---
+import PageShell from '@/components/PageShell.astro';
+import Icon from '@/components/Icon.astro';
+import { cachePage } from '@/lib/cache';
+import { AUTHOR, REPO_URL, paths } from '@/lib/site';
+
+cachePage(Astro, ['about']);
+---
+
+<PageShell
+  title="Sobre o Feriados Brasil"
+  description="O Feriados Brasil reúne os feriados nacionais, estaduais e municipais dos 5.571 municípios em um site rápido, aberto e mantido pela comunidade."
+  path={paths.about()}
+  h1="Sobre o projeto"
+  lead="Um lugar só para saber, com confiança, quando é feriado em qualquer cidade do Brasil."
+  crumbName="Sobre"
+  wide={false}
+>
+  <div class="space-y-5 leading-relaxed text-muted">
+    <p>
+      Informação sobre feriados municipais é espalhada em leis locais, sites de prefeituras e listas desatualizadas. O Feriados Brasil junta tudo num
+      lugar só: <strong class="text-fg">feriados nacionais, estaduais e municipais</strong>, pontos facultativos e datas comemorativas, com o dia da semana, as
+      emendas possíveis e a base legal.
+    </p>
+    <p>
+      Os dados começaram a partir de bases públicas e são corrigidos pela comunidade. Cada feriado mostra se já foi <strong class="text-fg">verificado</strong> com uma
+      fonte oficial — e qualquer pessoa pode sugerir uma correção. As sugestões são revisadas e, quando aprovadas, o site, a API e as agendas assinadas se atualizam na hora.
+    </p>
+    <p>
+      Tudo é aberto: o código tem licença MIT e os dados podem ser usados livremente pela <a class="link" href={paths.api()}>API gratuita</a> ou baixados do repositório.
+    </p>
+  </div>
+
+  <div class="card mt-10 flex flex-col gap-4 p-6 sm:flex-row sm:items-center sm:justify-between">
+    <div>
+      <p class="eyebrow">Criado por</p>
+      <p class="mt-1 text-lg font-semibold">{AUTHOR.name}</p>
+      <p class="text-sm text-muted">Desenvolvedor. Vamos conversar?</p>
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <a href={AUTHOR.linkedin} class="btn-primary" rel="author"><Icon name="linkedin" /> LinkedIn</a>
+      <a href={REPO_URL} class="btn"><Icon name="github" /> Código</a>
+    </div>
+  </div>
+
+  <section class="mt-12 space-y-3 text-sm leading-relaxed text-muted">
+    <h2 class="text-xl font-semibold tracking-tight text-fg">Créditos dos dados</h2>
+    <p>
+      Base inicial de feriados estaduais e municipais: <a class="link" href="https://github.com/joaopbini/feriados-brasil">joaopbini/feriados-brasil</a> (MIT).
+      Coordenadas dos municípios: <a class="link" href="https://github.com/kelvins/municipios-brasileiros">kelvins/municipios-brasileiros</a> (MIT). Códigos e nomes: IBGE.
+    </p>
+    <p>Feriados nacionais conforme a legislação federal (Leis nº 662/1949, 6.802/1980, 9.093/1995 e 14.759/2023) e portarias anuais do governo federal.</p>
+  </section>
+</PageShell>

@@ -1,0 +1,85 @@
+---
+import Icon from './Icon.astro';
+import type { Occurrence } from '@/lib/holidays/resolve';
+import { formatDayMonth, weekdayName } from '@/lib/holidays/rules';
+import { isBridge } from '@/lib/pages';
+import { STATUS_LABEL, paths, tone, typeLabel } from '@/lib/site';
+
+interface Props {
+  occ: Occurrence;
+  today: string;
+  /** Contexto de lugar enviado ao diálogo de sugestão. */
+  place?: { uf?: string; ibge?: number; label: string } | undefined;
+  showSummary?: boolean;
+}
+
+const { occ, today, place, showSummary = true } = Astro.props;
+const [, month, day] = occ.date.split('-');
+const monthShort = formatDayMonth(occ.date).split(' de ')[1]?.slice(0, 3);
+const weekday = weekdayName(occ.date);
+const bridge = isBridge(occ);
+const past = occ.date < today;
+const isToday = occ.date === today;
+const t = tone(occ.scope, occ.kind);
+const suggest = JSON.stringify({
+  holiday: { id: occ.id, name: occ.name, rule: occ.rule, kind: occ.kind, date: occ.date },
+  place,
+});
+const bridgeText =
+  bridge?.kind === 'emenda-segunda' ? 'Emenda na segunda' : bridge?.kind === 'emenda-sexta' ? 'Emenda na sexta' : bridge ? 'Fim de semana prolongado' : null;
+---
+
+<li class:list={['group relative flex gap-4 py-4', past && 'opacity-60']} data-date={occ.date}>
+  <div class:list={[`tone-${t}`, 'flex w-14 shrink-0 flex-col items-center justify-center rounded-xl border border-line py-1.5 text-center']}>
+    <span class="text-[10px] font-semibold uppercase tracking-wider tone-text">{monthShort}</span>
+    <span class="tabular text-xl leading-6 font-semibold">{Number(day)}</span>
+    <span class="text-[10px] text-faint">{weekday.slice(0, 3)}</span>
+  </div>
+  <div class="min-w-0 flex-1">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <h3 class="font-medium leading-snug">
+        <a href={paths.holiday(occ.id, Number(occ.date.slice(0, 4)))} class="hover:underline underline-offset-4">{occ.name}</a>
+      </h3>
+      {isToday && <span class="chip bg-fg text-bg">Hoje</span>}
+    </div>
+    <p class="mt-0.5 text-sm text-muted">
+      <time datetime={occ.date}>{weekday}, {formatDayMonth(occ.date)}</time>
+      <span class="text-faint"> · </span>
+      <span class:list={[`tone-${t}`, 'tone-text font-medium']}>{typeLabel(occ.scope, occ.kind)}</span>
+    </p>
+    {showSummary && occ.summary && <p class="mt-1 text-sm text-faint line-clamp-2">{occ.summary}</p>}
+    <div class="mt-2 flex flex-wrap gap-1.5">
+      {
+        bridgeText && (
+          <span class="chip bg-[var(--color-municipal-soft)] text-[var(--color-municipal)]">
+            <Icon name="sparkles" size={12} /> {bridgeText}
+          </span>
+        )
+      }
+      {
+        occ.overrideNote && (
+          <span class="chip bg-subtle text-muted">
+            <Icon name="clock" size={12} /> {occ.overrideNote}
+          </span>
+        )
+      }
+      {
+        occ.status !== 'verified' && (
+          <span class="chip bg-[var(--color-warn-soft)] text-[var(--color-warn)]" title="Ainda não conferido com a fonte oficial">
+            <Icon name={occ.status === 'incomplete' ? 'help' : 'alert'} size={12} /> {STATUS_LABEL[occ.status]}
+          </span>
+        )
+      }
+    </div>
+  </div>
+  <button
+    type="button"
+    data-suggest={suggest}
+    class="self-start rounded-full p-2 text-faint opacity-100 transition hover:bg-subtle hover:text-fg sm:opacity-0 sm:group-hover:opacity-100 sm:focus:opacity-100"
+    aria-label={`Sugerir correção em ${occ.name}`}
+    title="Sugerir correção"
+  >
+    <Icon name="pencil" />
+  </button>
+  <span class="sr-only">{month}</span>
+</li>

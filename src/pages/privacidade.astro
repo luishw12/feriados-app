@@ -1,0 +1,34 @@
+---
+import PageShell from '@/components/PageShell.astro';
+import { cachePage } from '@/lib/cache';
+import { paths } from '@/lib/site';
+
+cachePage(Astro, ['about']);
+---
+
+<PageShell
+  title="Privacidade"
+  description="Como o Feriados Brasil trata dados pessoais (LGPD): sem cookies de rastreamento; dados de sugestões usados só para moderação."
+  path={paths.privacy()}
+  h1="Privacidade"
+  lead="Resumo: não usamos cookies de rastreamento nem vendemos dados. Só guardamos o necessário para moderar sugestões."
+  wide={false}
+>
+  <div class="space-y-5 text-sm leading-relaxed text-muted">
+    <h2 class="text-lg font-semibold text-fg">Navegação</h2>
+    <p>
+      O site não usa cookies de publicidade ou rastreamento. Preferências como tema (claro/escuro) e a última cidade visitada ficam só no seu navegador
+      (localStorage). Para sugerir sua cidade, o servidor lê a localização aproximada do seu IP fornecida pela hospedagem (Vercel), sem armazená-la.
+    </p>
+    <h2 class="text-lg font-semibold text-fg">Sugestões</h2>
+    <p>
+      Ao enviar uma sugestão guardamos o conteúdo enviado, o nome/link opcional (publicado nos créditos, se aprovado), o e-mail opcional (nunca publicado; usado apenas
+      para avisar sobre a aprovação) e um <em>hash</em> irreversível do IP, usado só para limitar abuso. A verificação anti-robô é feita pelo Cloudflare Turnstile.
+    </p>
+    <h2 class="text-lg font-semibold text-fg">Seus direitos (LGPD)</h2>
+    <p>
+      Você pode pedir acesso, correção ou exclusão dos seus dados de contribuição a qualquer momento abrindo uma issue no GitHub ou pelo LinkedIn do mantenedor
+      (links no rodapé). Sugestões rejeitadas são apagadas periodicamente.
+    </p>
+  </div>
+</PageShell>

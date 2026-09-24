@@ -1,0 +1,30 @@
+---
+import type { Crumb } from '@/lib/seo/jsonld';
+
+interface Props {
+  crumbs: Crumb[];
+}
+
+const { crumbs } = Astro.props;
+---
+
+<nav aria-label="Você está em" class="text-sm text-faint">
+  <ol class="flex flex-wrap items-center gap-1.5">
+    {
+      crumbs.map((c, i) => (
+        <li class="flex items-center gap-1.5">
+          {i > 0 && <span aria-hidden="true">/</span>}
+          {i === crumbs.length - 1 ? (
+            <span aria-current="page" class="text-muted">
+              {c.name}
+            </span>
+          ) : (
+            <a href={c.path} class="hover:text-fg">
+              {c.name}
+            </a>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+</nav>

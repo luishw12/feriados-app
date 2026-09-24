@@ -1,0 +1,182 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import Faq from './Faq.astro';
+import HolidayList from './HolidayList.astro';
+import Icon from './Icon.astro';
+import Legend from './Legend.astro';
+import NextHoliday from './NextHoliday.astro';
+import YearNav from './YearNav.astro';
+import type { ListModel } from '@/lib/pages';
+import { listPageSchemas, type Crumb } from '@/lib/seo/jsonld';
+import { describeRule, formatShort } from '@/lib/holidays/rules';
+import { currentYear, paths, placeLabel } from '@/lib/site';
+
+interface Props {
+  model: ListModel;
+}
+
+const { model } = Astro.props;
+const { place, year, stats } = model;
+const site = Astro.site ?? new URL(Astro.url.origin);
+
+const crumbs: Crumb[] = [{ name: 'Início', path: '/' }];
+if (place.state) crumbs.push({ name: place.state.name, path: paths.state(place.state.uf) });
+if (place.city && place.state) crumbs.push({ name: place.city.name, path: paths.city(place.state.uf, place.city.slug) });
+if (model.type === 'year') crumbs.push({ name: `Feriados ${year}`, path: paths.year(year) });
+else if (model.explicitYear) crumbs.push({ name: String(year), path: model.path });
+
+const yearHref = (y: number) =>
+  place.city && place.state
+    ? paths.city(place.state.uf, place.city.slug, y === currentYear() && !model.explicitYear ? undefined : y)
+    : place.state
+      ? paths.state(place.state.uf, y)
+      : paths.year(y);
+
+const main = model.occurrences.filter((o) => o.kind !== 'comemorativa');
+const commemorative = model.occurrences.filter((o) => o.kind === 'comemorativa');
+const suggestPlace = place.state
+  ? { uf: place.state.uf, ...(place.city ? { ibge: place.city.ibge } : {}), label: placeLabel(place) }
+  : undefined;
+const local = model.occurrences.filter((o) => o.scope !== 'national');
+const showNext = model.next && (!model.explicitYear || Number(model.next.date.slice(0, 4)) === year);
+const incomplete = local.filter((o) => o.status !== 'verified').length;
+const icsHref = paths.ics(place.state?.uf, place.city?.slug);
+
+const statCards = [
+  { value: stats.feriados, label: 'feriados' },
+  { value: stats.onWeekdays, label: 'em dia útil' },
+  { value: stats.bridges, label: 'prolongados' },
+  { value: stats.optional, label: 'facultativos' },
+];
+---
+
+<BaseLayout title={model.title} description={model.description} path={model.path} crumbs={crumbs} jsonLd={listPageSchemas(site, model)}>
+  <div class="container-page pt-8 sm:pt-12">
+    {crumbs.length > 1 && <Breadcrumbs crumbs={crumbs} />}
+
+    <header class="mt-4 max-w-3xl fade-in">
+      <h1 class="text-3xl font-semibold tracking-tight text-balance sm:text-5xl">{model.h1}</h1>
+      <p class="mt-4 text-lg leading-relaxed text-muted text-pretty">{model.lead}</p>
+    </header>
+
+    <div class="mt-6">
+      <YearNav current={year} href={yearHref} />
+    </div>
+
+    <div class="mt-8 grid gap-4 lg:grid-cols-[1.5fr_1fr]">
+      {showNext && model.next ? <NextHoliday next={model.next} today={model.today} /> : <div />}
+      <dl class="grid grid-cols-2 gap-3">
+        {
+          statCards.map((s) => (
+            <div class="card px-4 py-3">
+              <dt class="text-xs text-faint">{s.label}</dt>
+              <dd class="tabular text-2xl font-semibold">{s.value}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </div>
+
+    <slot name="before-list" />
+
+    <div class="mt-12 grid gap-10 lg:grid-cols-[1fr_16rem]">
+      <section aria-labelledby="lista">
+        <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+          <h2 id="lista" class="text-xl font-semibold tracking-tight">Calendário {year}</h2>
+          <Legend />
+        </div>
+        <HolidayList occurrences={main} today={model.today} place={suggestPlace} />
+
+        {
+          commemorative.length > 0 && (
+            <details class="mt-10 rounded-2xl border border-line bg-surface px-5 py-4">
+              <summary class="cursor-pointer font-medium">Datas comemorativas de {year} (não são feriado)</summary>
+              <ul class="mt-3 grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
+                {commemorative.map((o) => (
+                  <li class="flex justify-between gap-3">
+                    <a href={paths.holiday(o.id, year)} class="hover:underline">
+                      {o.name}
+                    </a>
+                    <span class="tabular text-faint">{formatShort(o.date).slice(0, 5)}</span>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          )
+        }
+      </section>
+
+      <aside class="space-y-4 lg:sticky lg:top-20 lg:self-start" aria-label="Ações">
+        <div class="card p-4">
+          <p class="font-medium">Falta algum feriado?</p>
+          <p class="mt-1 text-sm text-muted">
+            {incomplete > 0 ? `${incomplete} feriado(s) daqui ainda não foram verificados. ` : ''}Sugestões são revisadas e publicadas rapidamente.
+          </p>
+          <button type="button" class="btn-primary mt-3 w-full" data-suggest={JSON.stringify({ type: 'new', place: suggestPlace })}>
+            <Icon name="plus" /> Sugerir feriado
+          </button>
+        </div>
+        <div class="card divide-y divide-line text-sm">
+          <a href={icsHref} class="flex items-center gap-3 px-4 py-3 hover:bg-subtle" rel="nofollow">
+            <Icon name="calendar" /> Adicionar à agenda (.ics)
+          </a>
+          <a href={`${paths.api()}#${place.city ? 'cidade' : place.state ? 'estado' : 'nacional'}`} class="flex items-center gap-3 px-4 py-3 hover:bg-subtle">
+            <Icon name="code" /> API e incorporar
+          </a>
+          <a href={paths.bridges(year)} class="flex items-center gap-3 px-4 py-3 hover:bg-subtle">
+            <Icon name="sparkles" /> Feriados prolongados {year}
+          </a>
+          <a href={paths.businessDays()} class="flex items-center gap-3 px-4 py-3 hover:bg-subtle">
+            <Icon name="clock" /> Calcular dias úteis
+          </a>
+        </div>
+      </aside>
+    </div>
+
+    {
+      local.some((o) => o.kind === 'feriado') && (
+        <section aria-labelledby="base-legal" class="mt-16">
+          <h2 id="base-legal" class="text-xl font-semibold tracking-tight">
+            Feriados {place.city ? 'estaduais e municipais' : 'estaduais'}: regra e base legal
+          </h2>
+          <div class="mt-4 overflow-x-auto rounded-2xl border border-line bg-surface">
+            <table class="w-full text-left text-sm">
+              <thead class="border-b border-line text-xs text-faint">
+                <tr>
+                  <th scope="col" class="px-4 py-3 font-medium">Feriado</th>
+                  <th scope="col" class="px-4 py-3 font-medium">Quando</th>
+                  <th scope="col" class="px-4 py-3 font-medium">Base legal</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-line">
+                {local
+                  .filter((o) => o.kind === 'feriado')
+                  .map((o) => (
+                    <tr>
+                      <td class="px-4 py-3 font-medium">
+                        <a href={paths.holiday(o.id)} class="hover:underline">
+                          {o.name}
+                        </a>
+                      </td>
+                      <td class="px-4 py-3 text-muted">{describeRule(o.rule)}</td>
+                      <td class="px-4 py-3 text-muted">{o.legalBasis || <span class="text-faint">A confirmar</span>}</td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )
+    }
+
+    <slot />
+
+    <Faq items={model.faq} />
+
+    <p class="mt-10 text-xs text-faint">
+      Dados atualizados em {model.updatedAt.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' })}. Feriados nacionais conforme a legislação federal;
+      estaduais e municipais conforme leis locais, conferidos pela comunidade.
+    </p>
+  </div>
+</BaseLayout>

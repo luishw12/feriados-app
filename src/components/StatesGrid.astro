@@ -1,0 +1,38 @@
+---
+import type { StateRow } from '@/lib/data';
+import { paths } from '@/lib/site';
+
+interface Props {
+  states: StateRow[];
+  year?: number | undefined;
+}
+
+const { states, year } = Astro.props;
+const regions = ['Norte', 'Nordeste', 'Centro-Oeste', 'Sudeste', 'Sul'] as const;
+---
+
+<section aria-labelledby="estados" class="mt-16">
+  <h2 id="estados" class="text-xl font-semibold tracking-tight">Feriados por estado</h2>
+  <p class="mt-1 text-sm text-muted">Escolha o estado para ver os feriados estaduais e a lista de cidades.</p>
+  <div class="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+    {
+      regions.map((region) => (
+        <div>
+          <h3 class="eyebrow mb-2">{region}</h3>
+          <ul class="space-y-1 text-sm">
+            {states
+              .filter((s) => s.region === region)
+              .map((s) => (
+                <li>
+                  <a href={paths.state(s.uf, year)} class="flex items-center gap-2 text-muted hover:text-fg">
+                    <span class="tabular w-6 font-mono text-xs text-faint">{s.uf}</span>
+                    {s.name}
+                  </a>
+                </li>
+              ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+</section>

@@ -1,0 +1,77 @@
+---
+import PageShell from './PageShell.astro';
+import Faq from './Faq.astro';
+import YearNav from './YearNav.astro';
+import StatesGrid from './StatesGrid.astro';
+import { cachePage } from '@/lib/cache';
+import { getNationalHolidays, getStates, toDef } from '@/lib/data';
+import { bridgeInfo, resolveYear, type Occurrence } from '@/lib/holidays/resolve';
+import { formatDayMonth, weekdayName } from '@/lib/holidays/rules';
+import { bridgeSentence, type FaqItem } from '@/lib/pages';
+import { faqSchema } from '@/lib/seo/jsonld';
+import { paths, plural } from '@/lib/site';
+
+interface Props {
+  year: number;
+}
+
+const { year } = Astro.props;
+const [rows, states] = await Promise.all([getNationalHolidays(), getStates()]);
+const feriados = resolveYear(rows.map(toDef), year).filter((o) => o.kind === 'feriado');
+const withInfo = feriados.map((o) => ({ o, info: bridgeInfo(o.date) }));
+const groups: { key: string; title: string; hint: string; items: { o: Occurrence; info: ReturnType<typeof bridgeInfo> }[] }[] = [
+  { key: 'emenda', title: 'Com emenda: 4 dias de folga', hint: 'Feriado na terça ou na quinta — emendando a segunda ou a sexta.', items: withInfo.filter((x) => x.info.kind === 'emenda-segunda' || x.info.kind === 'emenda-sexta') },
+  { key: 'prolongado', title: 'Fim de semana prolongado: 3 dias', hint: 'Feriado na segunda ou na sexta.', items: withInfo.filter((x) => x.info.kind === 'prolongado') },
+  { key: 'meio', title: 'No meio da semana', hint: 'Feriado na quarta-feira.', items: withInfo.filter((x) => x.info.kind === 'meio-de-semana') },
+  { key: 'fds', title: 'No fim de semana', hint: 'Cai no sábado ou no domingo.', items: withInfo.filter((x) => x.info.kind === 'fim-de-semana') },
+];
+const long = groups[0]!.items.length + groups[1]!.items.length;
+const lead = `${year} tem ${plural(long, 'feriado nacional que permite', 'feriados nacionais que permitem')} descanso prolongado: ${plural(groups[0]!.items.length, 'com emenda', 'com emenda')} (4 dias) e ${groups[1]!.items.length} em segunda ou sexta (3 dias). Feriados estaduais e municipais podem render ainda mais — veja a sua cidade.`;
+const faq: FaqItem[] = [
+  { q: `Quantos feriados prolongados tem em ${year}?`, a: lead },
+  ...groups[0]!.items.map(({ o, info }) => ({ q: `${o.name} ${year} tem emenda?`, a: `Sim. ${o.name} cai ${weekdayName(o.date)}, ${formatDayMonth(o.date)}. ${bridgeSentence(info)}` })),
+];
+cachePage(Astro, ['national']);
+---
+
+<PageShell
+  title={`Feriados prolongados ${year}: emendas e fins de semana longos`}
+  description={lead}
+  path={paths.bridges(year)}
+  h1={`Feriados prolongados ${year}`}
+  lead={lead}
+  jsonLd={[faqSchema(faq)!]}
+>
+  <YearNav current={year} href={paths.bridges} />
+  <div class="mt-10 grid gap-10">
+    {
+      groups
+        .filter((g) => g.items.length)
+        .map((g) => (
+          <section aria-labelledby={g.key}>
+            <h2 id={g.key} class="text-xl font-semibold tracking-tight">
+              {g.title}
+            </h2>
+            <p class="mt-1 text-sm text-muted">{g.hint}</p>
+            <ul class="mt-4 grid gap-3 sm:grid-cols-2">
+              {g.items.map(({ o, info }) => (
+                <li class="card p-4">
+                  <a href={paths.holiday(o.id, year)} class="font-medium hover:underline">
+                    {o.name}
+                  </a>
+                  <p class="text-sm text-muted">
+                    {weekdayName(o.date)}, {formatDayMonth(o.date)}
+                  </p>
+                  {(info.kind === 'emenda-segunda' || info.kind === 'emenda-sexta' || info.kind === 'prolongado') && (
+                    <p class="mt-2 text-sm text-faint">{bridgeSentence(info)}</p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+    }
+  </div>
+  <StatesGrid states={states} year={year} />
+  <Faq items={faq} />
+</PageShell>
