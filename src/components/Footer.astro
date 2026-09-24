@@ -2,6 +2,7 @@
 import Icon from './Icon.astro';
 import pkg from '../../package.json';
 import { AUTHOR, REPO_URL, currentYear, paths } from '@/lib/site';
+import { PUBLIC_GA_MEASUREMENT_ID } from 'astro:env/client';
 
 const year = currentYear();
 const columns = [
@@ -38,6 +39,16 @@ const columns = [
       <a href={paths.contribute()} class="btn mt-2">
         <Icon name="pencil" /> Viu algo errado? Sugira uma correção
       </a>
+      <div class="mt-6 rounded-xl border border-line p-4">
+        <p class="eyebrow">Quem fez</p>
+        <p class="mt-1 text-sm text-muted">
+          Criado por <strong class="text-fg">{AUTHOR.name}</strong>, {AUTHOR.jobTitle.toLowerCase()}. Procurando um dev para o seu time ou projeto?
+        </p>
+        <a href={AUTHOR.website} target="_blank" rel="author noopener" class="btn-primary mt-3">
+          <Icon name="briefcase" /> Ver currículo e portfólio <Icon name="external" size={14} />
+          <span class="sr-only">(abre em nova aba)</span>
+        </a>
+      </div>
     </div>
     {
       columns.map((col) => (
@@ -59,12 +70,20 @@ const columns = [
   <div class="border-t border-line">
     <div class="container-page flex flex-col gap-3 py-5 text-xs text-faint sm:flex-row sm:items-center sm:justify-between">
       <p>
-        Feito por <a href={AUTHOR.linkedin} class="font-medium text-muted hover:text-fg" rel="author">{AUTHOR.name}</a> · código aberto
+        Feito por <a href={AUTHOR.website} target="_blank" rel="author noopener" class="font-medium text-muted hover:text-fg">{AUTHOR.name}</a> · código aberto
         (MIT) · <a href={paths.changelog()} class="hover:text-fg">v{pkg.version}</a>
+        {
+          PUBLIC_GA_MEASUREMENT_ID && (
+            <>
+              · <button type="button" class="hover:text-fg" data-reset-consent>Preferências de cookies</button>
+            </>
+          )
+        }
       </p>
       <div class="flex items-center gap-3">
         <a href={REPO_URL} class="hover:text-fg" aria-label="Código no GitHub"><Icon name="github" size={18} /></a>
-        <a href={AUTHOR.linkedin} class="hover:text-fg" aria-label="LinkedIn do autor"><Icon name="linkedin" size={18} /></a>
+        <a href={AUTHOR.website} target="_blank" rel="author noopener" class="hover:text-fg" aria-label="Currículo do autor (abre em nova aba)"><Icon name="briefcase" size={18} /></a>
+        <a href={AUTHOR.linkedin} target="_blank" rel="noopener" class="hover:text-fg" aria-label="LinkedIn do autor (abre em nova aba)"><Icon name="linkedin" size={18} /></a>
       </div>
     </div>
   </div>

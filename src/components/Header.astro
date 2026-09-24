@@ -2,7 +2,7 @@
 import Icon from './Icon.astro';
 import type { IconName } from './Icon.astro';
 import { getStates } from '@/lib/data';
-import { currentYear, featuredYears, paths } from '@/lib/site';
+import { AUTHOR, currentYear, featuredYears, paths } from '@/lib/site';
 
 interface Props {
   path: string;
@@ -275,6 +275,10 @@ const links: { href: string; label: string; hint: string; icon: IconName }[] = [
               <a href={paths.api()} class="text-brand">API e dados</a>
               <a href={paths.about()} class="text-brand">Sobre</a>
               <a href={paths.privacy()} class="text-brand">Privacidade</a>
+              <a href={AUTHOR.website} target="_blank" rel="author noopener" class="flex items-center gap-1.5 text-brand">
+                <Icon name="briefcase" /> Currículo do dev <Icon name="external" size={14} />
+                <span class="sr-only">(abre em nova aba)</span>
+              </a>
             </div>
           </div>
         </div>

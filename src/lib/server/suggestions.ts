@@ -29,6 +29,7 @@ export const suggestionInput = z
       .transform((v) => v?.toUpperCase()),
     ibge: z.number().int().min(1_000_000).max(9_999_999).optional(),
     placeText: optionalText(120),
+    national: z.boolean().optional(),
     proposal: z
       .object({
         name: optionalText(120),
@@ -55,7 +56,7 @@ export const suggestionInput = z
     if (value.type === 'new') {
       if (!value.proposal.name || value.proposal.name.length < 3) ctx.addIssue({ code: 'custom', message: 'Informe o nome do feriado' });
       if (!value.proposal.rule) ctx.addIssue({ code: 'custom', message: 'Informe a data' });
-      if (!value.ibge && !value.uf && !value.placeText) ctx.addIssue({ code: 'custom', message: 'Informe onde o feriado vale' });
+      if (!value.ibge && !value.uf && !value.placeText && !value.national) ctx.addIssue({ code: 'custom', message: 'Informe onde o feriado vale' });
     }
     if (value.type === 'edit') {
       if (!value.holidayId) ctx.addIssue({ code: 'custom', message: 'Feriado não informado' });

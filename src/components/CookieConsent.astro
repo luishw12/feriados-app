@@ -1,0 +1,87 @@
+---
+import { PUBLIC_GA_MEASUREMENT_ID } from 'astro:env/client';
+import { contentGroup } from '@/lib/analytics';
+import { paths } from '@/lib/site';
+
+interface Props {
+  /** Caminho canônico da página, usado como grupo de conteúdo no GA4. */
+  path: string;
+}
+
+const measurementId = PUBLIC_GA_MEASUREMENT_ID && PUBLIC_GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX' ? PUBLIC_GA_MEASUREMENT_ID : '';
+const group = contentGroup(Astro.props.path);
+---
+
+{
+  measurementId && (
+    <>
+      <div id="cookie-consent" role="region" aria-label="Preferência de cookies" class="fixed inset-x-0 bottom-0 z-40 p-3 sm:p-4" hidden>
+        <div class="card mx-auto flex max-w-2xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:gap-4">
+          <p class="min-w-0 flex-1 text-sm text-muted">
+            Usamos cookies opcionais de análise (Google Analytics) para entender o que melhorar no site.{' '}
+            <a href={paths.privacy()} class="font-medium text-fg underline underline-offset-2">
+              Saiba mais
+            </a>
+          </p>
+          <div class="flex shrink-0 gap-2 self-end sm:self-auto">
+            <button type="button" class="btn" data-consent="rejected">
+              Agora não
+            </button>
+            <button type="button" class="btn-primary" data-consent="accepted">
+              Aceitar
+            </button>
+          </div>
+        </div>
+      </div>
+      <script is:inline define:vars={{ measurementId, group }}>
+        (() => {
+          const KEY = 'cookie-consent';
+          const banner = document.getElementById('cookie-consent');
+          const read = () => {
+            try {
+              return localStorage.getItem(KEY);
+            } catch {
+              return null;
+            }
+          };
+          const load = () => {
+            if (window.gtag) return;
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = function () {
+              window.dataLayer.push(arguments);
+            };
+            window.gtag('js', new Date());
+            window.gtag('config', measurementId, { content_group: group });
+            const s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+            document.head.appendChild(s);
+          };
+          const status = read();
+          if (status === 'accepted') load();
+          else if (status !== 'rejected' && banner) setTimeout(() => (banner.hidden = false), 1200);
+          banner?.addEventListener('click', (event) => {
+            const choice = event.target instanceof Element && event.target.closest('[data-consent]')?.getAttribute('data-consent');
+            if (!choice) return;
+            try {
+              localStorage.setItem(KEY, choice);
+            } catch {}
+            banner.hidden = true;
+            if (choice === 'accepted') load();
+          });
+          document.addEventListener('click', (event) => {
+            if (!(event.target instanceof Element)) return;
+            // calendário .ics não entra no "download de arquivo" automático do GA4
+            const ics = event.target.closest('a[href$=".ics"]');
+            if (ics && window.gtag) window.gtag('event', 'calendar_subscribe', { link_url: ics.getAttribute('href') });
+            if (!event.target.closest('[data-reset-consent]')) return;
+            try {
+              localStorage.removeItem(KEY);
+            } catch {}
+            location.reload();
+          });
+        })();
+      </script>
+    </>
+  )
+}
