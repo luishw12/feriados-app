@@ -19,9 +19,11 @@ interface Props {
   /** Publica a versão Markdown da página para leitura por IA. */
   markdown?: boolean;
   ogType?: 'website' | 'article';
+  /** Estado e ano da página, mostrados no seletor da navbar. */
+  context?: { uf?: string | undefined; year?: number | undefined };
 }
 
-const { title, description, path, crumbs = [], jsonLd = [], noindex = false, markdown = true, ogType = 'website' } = Astro.props;
+const { title, description, path, crumbs = [], jsonLd = [], noindex = false, markdown = true, ogType = 'website', context } = Astro.props;
 const site = Astro.site ?? new URL(Astro.url.origin);
 const canonical = new URL(path, site).href;
 const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
@@ -47,8 +49,8 @@ const schemas = [
     <link rel="alternate" hreflang="pt-BR" href={canonical} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
-    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0c0c0d" media="(prefers-color-scheme: dark)" />
 
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:locale" content="pt_BR" />
@@ -79,11 +81,21 @@ const schemas = [
   </head>
   <body class="flex min-h-dvh flex-col">
     <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 btn">Pular para o conteúdo</a>
-    <Header path={path} />
+    <Header path={path} context={context} />
     <main id="conteudo" class="flex-1">
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      // Recalcula as contagens regressivas no navegador: o HTML pode ter vindo do cache do CDN.
+      (() => {
+        const today = Date.parse(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(new Date()) + 'T00:00:00Z');
+        document.querySelectorAll('[data-countdown]').forEach((el) => {
+          const d = Math.round((Date.parse(el.getAttribute('data-countdown') + 'T00:00:00Z') - today) / 86400000);
+          if (d >= 0) el.textContent = d === 0 ? 'É hoje!' : d === 1 ? 'Falta 1 dia' : 'Faltam ' + d + ' dias';
+        });
+      })();
+    </script>
     <SearchDialog client:idle />
     <SuggestDialog client:idle turnstileSiteKey={PUBLIC_TURNSTILE_SITE_KEY ?? ''} />
   </body>

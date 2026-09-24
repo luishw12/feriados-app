@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 import type { StateRow } from '@/lib/data';
 import { paths } from '@/lib/site';
 
@@ -11,28 +12,42 @@ const { states, year } = Astro.props;
 const regions = ['Norte', 'Nordeste', 'Centro-Oeste', 'Sudeste', 'Sul'] as const;
 ---
 
-<section aria-labelledby="estados" class="mt-16">
-  <h2 id="estados" class="text-xl font-semibold tracking-tight">Feriados por estado</h2>
-  <p class="mt-1 text-sm text-muted">Escolha o estado para ver os feriados estaduais e a lista de cidades.</p>
-  <div class="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+<section aria-labelledby="estados" class="mt-16 sm:mt-24">
+  <h2 id="estados" class="text-[27px] font-bold tracking-tight sm:text-[32px]">Feriados por estado</h2>
+  <p class="mt-1.5 text-base text-muted sm:text-[17px]">Escolha o estado para ver os feriados estaduais e todas as cidades.</p>
+  <div class="mt-5 flex flex-col gap-2.5 sm:grid sm:grid-cols-2 sm:gap-4 lg:grid-cols-5">
     {
-      regions.map((region) => (
-        <div>
-          <h3 class="eyebrow mb-2">{region}</h3>
-          <ul class="space-y-1 text-sm">
-            {states
-              .filter((s) => s.region === region)
-              .map((s) => (
+      regions.map((region) => {
+        const list = states.filter((s) => s.region === region);
+        return (
+          <details class="group card overflow-hidden sm:open:p-0" open data-region>
+            <summary class="flex min-h-14 cursor-pointer list-none items-center justify-between gap-3 px-4 text-[17px] font-semibold sm:pointer-events-none sm:min-h-0 sm:px-5 sm:pt-5 sm:pb-2 sm:text-[13px] sm:font-bold sm:tracking-[0.08em] sm:text-muted sm:uppercase [&::-webkit-details-marker]:hidden">
+              <h3>
+                {region} <span class="text-[15px] font-normal text-faint sm:hidden">{list.length} estados</span>
+              </h3>
+              <Icon name="chevronDown" size={20} class="text-faint transition-transform group-open:rotate-180 sm:hidden" />
+            </summary>
+            <ul class="px-2 pb-2 sm:px-3 sm:pb-4">
+              {list.map((s) => (
                 <li>
-                  <a href={paths.state(s.uf, year)} class="flex items-center gap-2 text-muted hover:text-fg">
-                    <span class="tabular w-6 font-mono text-xs text-faint">{s.uf}</span>
+                  <a
+                    href={paths.state(s.uf, year)}
+                    class="flex min-h-12 items-center gap-3 border-t border-line px-2 text-base hover:bg-subtle sm:min-h-9 sm:rounded-[10px] sm:border-0 sm:text-[15px]"
+                  >
+                    <span class="tabular w-8 shrink-0 rounded-md bg-subtle py-0.5 text-center font-mono text-xs font-semibold text-muted">{s.uf}</span>
                     {s.name}
                   </a>
                 </li>
               ))}
-          </ul>
-        </div>
-      ))
+            </ul>
+          </details>
+        );
+      })
     }
   </div>
 </section>
+
+<script is:inline>
+  // No celular as regiões começam fechadas (acordeão); no desktop ficam sempre abertas.
+  if (matchMedia('(max-width: 639px)').matches) document.querySelectorAll('[data-region]').forEach((d) => d.removeAttribute('open'));
+</script>

@@ -1,40 +1,51 @@
 ---
 import Icon from './Icon.astro';
-import { currentYear, paths } from '@/lib/site';
+import type { IconName } from './Icon.astro';
+import { getStates } from '@/lib/data';
+import { currentYear, featuredYears, paths } from '@/lib/site';
 
 interface Props {
   path: string;
+  /** Estado e ano da página atual, mostrados no seletor. */
+  context?: { uf?: string | undefined; year?: number | undefined } | undefined;
 }
 
-const { path } = Astro.props;
+const { path, context } = Astro.props;
 const year = currentYear();
-const links = [
-  { href: paths.year(year), label: `Feriados ${year}` },
-  { href: paths.bridges(year), label: 'Prolongados' },
-  { href: paths.businessDays(), label: 'Dias úteis' },
-  { href: paths.contribute(), label: 'Contribuir' },
+const states = [...(await getStates())].sort((a, b) => a.uf.localeCompare(b.uf));
+const current = context?.uf ? states.find((s) => s.uf === context.uf) : undefined;
+const selectedYear = context?.year ?? year;
+const years = [...new Set([...featuredYears(), selectedYear])].sort();
+const stateHref = (uf: string) => paths.state(uf, selectedYear === year ? undefined : selectedYear);
+const yearHref = (y: number) => (current ? paths.state(current.uf, y === year ? undefined : y) : paths.year(y));
+
+const links: { href: string; label: string; hint: string; icon: IconName }[] = [
+  { href: paths.year(year), label: `Feriados ${year}`, hint: 'Calendário completo do ano', icon: 'calendar' },
+  { href: paths.bridges(year), label: 'Prolongados', hint: 'Quando dá para emendar', icon: 'sparkles' },
+  { href: paths.businessDays(), label: 'Dias úteis', hint: 'Calculadora entre duas datas', icon: 'clock' },
+  { href: paths.contribute(), label: 'Contribuir', hint: 'Sugerir ou corrigir um feriado', icon: 'plus' },
 ];
 ---
 
-<header class="sticky top-0 z-30 border-b border-line/70 bg-bg/80 backdrop-blur-md">
-  <div class="container-page flex h-14 items-center gap-3">
-    <a href="/" class="flex items-center gap-2 font-semibold tracking-tight" aria-label="Feriados Brasil — página inicial">
-      <svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true">
-        <rect width="32" height="32" rx="8" fill="#047857"></rect>
+<header class="sticky top-0 z-30 border-b border-line bg-surface">
+  <div class="container-page flex h-[60px] items-center gap-2 sm:h-[68px]">
+    <a href="/" class="mr-2 flex shrink-0 items-center gap-2.5 whitespace-nowrap lg:mr-3" aria-label="Feriados Brasil — página inicial">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true" class="sm:size-8">
+        <rect width="32" height="32" rx="9" fill="#047857"></rect>
         <path d="M16 6 27 16 16 26 5 16Z" fill="#facc15"></path>
         <circle cx="16" cy="16" r="5" fill="#1d4ed8"></circle>
       </svg>
-      <span>Feriados<span class="text-faint font-normal"> Brasil</span></span>
+      <span class="text-[17px] font-bold tracking-tight sm:text-lg">Feriados<span class="font-medium text-muted"> Brasil</span></span>
     </a>
 
-    <nav aria-label="Principal" class="ml-4 hidden items-center gap-1 md:flex">
+    <nav aria-label="Principal" class="hidden items-center gap-0.5 lg:flex">
       {
         links.map((l) => (
           <a
             href={l.href}
             class:list={[
-              'rounded-full px-3 py-1.5 text-sm transition-colors hover:bg-subtle hover:text-fg',
-              path === l.href ? 'bg-subtle text-fg' : 'text-muted',
+              'whitespace-nowrap rounded-[10px] px-3 py-2 text-[15px] transition-colors hover:bg-subtle hover:text-fg',
+              path === l.href ? 'bg-subtle font-semibold text-fg' : 'font-medium text-muted',
             ]}
             aria-current={path === l.href ? 'page' : undefined}
           >
@@ -44,45 +55,271 @@ const links = [
       }
     </nav>
 
-    <div class="ml-auto flex items-center gap-1.5">
+    <div class="ml-auto flex items-center gap-1.5 sm:gap-2">
+      <details class="relative hidden lg:block" data-popover>
+        <summary
+          class="flex h-[42px] cursor-pointer list-none items-center gap-2 rounded-xl border border-line bg-surface pr-3 pl-3.5 text-sm font-medium transition-colors hover:bg-subtle [&::-webkit-details-marker]:hidden [[open]>&]:border-brand [[open]>&]:bg-brand-soft"
+          aria-label={`Escolher estado e ano. Atual: ${current?.name ?? 'todo o Brasil'}, ${selectedYear}`}
+        >
+          <Icon name="mapPin" size={17} class="text-brand" />
+          <span class="max-w-36 truncate whitespace-nowrap">{current?.name ?? 'Todo o Brasil'}</span>
+          <span class="h-[18px] w-px bg-line" aria-hidden="true"></span>
+          <span class="tabular">{selectedYear}</span>
+          <Icon name="chevronDown" class="text-faint transition-transform [[open]_&]:rotate-180" />
+        </summary>
+        <div class="card absolute right-0 mt-2 flex w-[35rem] flex-col gap-5 p-6 shadow-[0_12px_40px_rgb(0_0_0/0.16)]">
+          <div class="flex flex-col gap-2.5">
+            <p class="eyebrow">Onde</p>
+            <a
+              href={paths.year(selectedYear)}
+              class:list={[
+                'flex h-[46px] items-center gap-2.5 rounded-xl px-3.5 text-[15px] font-semibold',
+                current ? 'border border-line hover:bg-subtle' : 'border-2 border-brand bg-brand-soft',
+              ]}
+              aria-current={current ? undefined : 'true'}
+            >
+              <Icon name="globe" size={18} /> Todo o Brasil (só feriados nacionais)
+            </a>
+            <ul class="grid grid-cols-9 gap-1.5">
+              {
+                states.map((s) => (
+                  <li>
+                    <a
+                      href={stateHref(s.uf)}
+                      title={s.name}
+                      aria-label={s.name}
+                      aria-current={current?.uf === s.uf ? 'true' : undefined}
+                      class:list={[
+                        'flex h-11 items-center justify-center rounded-[10px] font-mono text-sm font-semibold transition-colors',
+                        current?.uf === s.uf ? 'bg-brand text-brand-fg' : 'border border-line hover:border-brand hover:bg-brand-soft',
+                      ]}
+                    >
+                      {s.uf}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+            <button type="button" data-open-search class="flex items-center gap-1.5 self-start text-[15px] font-semibold text-brand hover:text-brand-strong">
+              <Icon name="search" /> Procurar uma cidade
+            </button>
+          </div>
+          <div class="h-px bg-line"></div>
+          <div class="flex items-center justify-between gap-4">
+            <p class="eyebrow">Ano</p>
+            <nav aria-label="Escolher ano" class="flex gap-1.5">
+              {
+                years.map((y) => (
+                  <a
+                    href={yearHref(y)}
+                    aria-current={y === selectedYear ? 'true' : undefined}
+                    class:list={[
+                      'tabular flex h-10 items-center rounded-full px-3.5 text-[15px] font-semibold',
+                      y === selectedYear ? 'bg-fg text-bg' : 'border border-line text-muted hover:border-line-strong hover:text-fg',
+                    ]}
+                  >
+                    {y}
+                  </a>
+                ))
+              }
+            </nav>
+          </div>
+        </div>
+      </details>
+
       <button
         type="button"
         data-open-search
-        class="flex h-9 items-center gap-2 whitespace-nowrap rounded-full border border-line bg-surface px-3 text-sm text-faint transition-colors hover:text-fg sm:w-64"
+        class="flex size-11 items-center justify-center gap-2.5 rounded-xl text-fg transition-colors hover:bg-subtle sm:h-[42px] sm:w-56 sm:justify-start sm:border sm:border-line sm:bg-subtle sm:px-3 sm:text-sm sm:text-muted lg:w-[42px] lg:justify-center lg:px-0 xl:w-52 xl:justify-start xl:px-3"
         aria-label="Buscar cidade, estado ou feriado"
       >
-        <Icon name="search" />
-        <span class="hidden sm:inline">Buscar cidade ou feriado</span>
-        <kbd class="ml-auto hidden rounded border border-line px-1.5 font-mono text-[10px] sm:inline">/</kbd>
+        <Icon name="search" size={19} />
+        <span class="hidden flex-1 truncate text-left whitespace-nowrap sm:inline lg:hidden xl:inline">Buscar cidade ou feriado</span>
+        <kbd class="hidden rounded-md border border-line-strong px-1.5 font-mono text-[11px] text-faint sm:inline lg:hidden xl:inline">/</kbd>
       </button>
       <button
         type="button"
-        id="theme-toggle"
-        class="flex size-9 items-center justify-center rounded-full text-muted transition-colors hover:bg-subtle hover:text-fg"
+        data-theme-toggle
+        class="hidden size-[42px] items-center justify-center rounded-xl text-muted transition-colors hover:bg-subtle hover:text-fg sm:flex"
         aria-label="Alternar tema claro/escuro"
       >
-        <Icon name="moon" class="dark:hidden" />
-        <Icon name="sun" class="hidden dark:block" />
+        <Icon name="moon" size={19} class="dark:hidden" />
+        <Icon name="sun" size={19} class="hidden dark:block" />
       </button>
-      <details class="relative md:hidden">
-        <summary class="flex size-9 cursor-pointer list-none items-center justify-center rounded-full text-muted hover:bg-subtle" aria-label="Menu">
-          <Icon name="menu" size={18} />
+
+      <details class="lg:hidden" id="menu-mobile">
+        <summary
+          class="flex h-11 cursor-pointer list-none items-center gap-1.5 rounded-xl border border-line bg-surface px-3 text-[15px] font-semibold [&::-webkit-details-marker]:hidden"
+        >
+          <Icon name="menu" size={20} /> Menu
         </summary>
-        <nav aria-label="Menu" class="card absolute right-0 mt-2 flex w-56 flex-col p-2">
-          {links.map((l) => <a href={l.href} class="rounded-lg px-3 py-2 text-sm hover:bg-subtle">{l.label}</a>)}
-          <a href={paths.api()} class="rounded-lg px-3 py-2 text-sm hover:bg-subtle">API e dados</a>
-          <a href={paths.about()} class="rounded-lg px-3 py-2 text-sm hover:bg-subtle">Sobre</a>
-        </nav>
+        <div class="fixed inset-0 z-50 flex flex-col overflow-y-auto bg-surface" role="dialog" aria-label="Menu">
+          <div class="container-page flex h-[60px] shrink-0 items-center border-b border-line sm:h-[68px]">
+            <a href="/" class="flex items-center gap-2.5" aria-label="Feriados Brasil — página inicial">
+              <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+                <rect width="32" height="32" rx="9" fill="#047857"></rect>
+                <path d="M16 6 27 16 16 26 5 16Z" fill="#facc15"></path>
+                <circle cx="16" cy="16" r="5" fill="#1d4ed8"></circle>
+              </svg>
+              <span class="text-[17px] font-bold tracking-tight">Feriados<span class="font-medium text-muted"> Brasil</span></span>
+            </a>
+            <button type="button" data-menu-close class="ml-auto flex h-11 items-center gap-1.5 rounded-xl border border-line px-3 text-[15px] font-semibold">
+              <Icon name="x" size={20} /> Fechar
+            </button>
+          </div>
+          <div class="container-page flex flex-1 flex-col gap-6 py-5">
+            <button
+              type="button"
+              data-open-search
+              class="flex h-[52px] items-center gap-2.5 rounded-2xl border-2 border-line-strong bg-bg px-3.5 text-left text-base text-muted"
+            >
+              <Icon name="search" size={20} /> Buscar cidade ou feriado
+            </button>
+
+            <nav aria-label="Menu principal" class="flex flex-col">
+              {
+                links.map((l) => (
+                  <a
+                    href={l.href}
+                    class:list={['flex min-h-[60px] items-center gap-3.5 rounded-2xl px-2.5 py-2', path === l.href ? 'bg-brand-soft' : 'hover:bg-subtle']}
+                    aria-current={path === l.href ? 'page' : undefined}
+                  >
+                    <span
+                      class:list={[
+                        'flex size-10 shrink-0 items-center justify-center rounded-xl',
+                        path === l.href ? 'bg-surface text-brand-strong' : 'bg-subtle text-muted',
+                      ]}
+                    >
+                      <Icon name={l.icon} size={20} />
+                    </span>
+                    <span class="flex flex-col">
+                      <span class="text-[17px] font-semibold">{l.label}</span>
+                      <span class="text-sm text-muted">{l.hint}</span>
+                    </span>
+                  </a>
+                ))
+              }
+            </nav>
+
+            <div class="flex flex-col gap-3 rounded-2xl border border-line bg-bg p-4">
+              <p class="text-[15px] font-semibold">Ver feriados de</p>
+              <a
+                href={paths.year(selectedYear)}
+                class:list={[
+                  'flex h-11 items-center gap-2 rounded-xl px-3 text-[15px] font-semibold',
+                  current ? 'border border-line bg-surface' : 'border-2 border-brand bg-brand-soft',
+                ]}
+              >
+                <Icon name="globe" size={18} /> Todo o Brasil
+              </a>
+              <ul class="grid grid-cols-6 gap-1.5 sm:grid-cols-9" aria-label="Estados">
+                {
+                  states.map((s) => (
+                    <li>
+                      <a
+                        href={stateHref(s.uf)}
+                        aria-label={s.name}
+                        aria-current={current?.uf === s.uf ? 'true' : undefined}
+                        class:list={[
+                          'flex h-11 items-center justify-center rounded-[10px] font-mono text-sm font-semibold',
+                          current?.uf === s.uf ? 'bg-brand text-brand-fg' : 'border border-line bg-surface',
+                        ]}
+                      >
+                        {s.uf}
+                      </a>
+                    </li>
+                  ))
+                }
+              </ul>
+              <nav aria-label="Ano" class="grid grid-cols-4 gap-1.5">
+                {
+                  years.map((y) => (
+                    <a
+                      href={yearHref(y)}
+                      aria-current={y === selectedYear ? 'true' : undefined}
+                      class:list={[
+                        'tabular flex h-11 items-center justify-center rounded-[10px] text-[15px] font-semibold',
+                        y === selectedYear ? 'bg-fg text-bg' : 'border border-line bg-surface text-muted',
+                      ]}
+                    >
+                      {y}
+                    </a>
+                  ))
+                }
+              </nav>
+            </div>
+
+            <div class="flex items-center justify-between gap-3">
+              <span class="text-[15px] font-semibold">Tema</span>
+              <div role="group" aria-label="Tema" class="flex rounded-xl bg-subtle p-1">
+                {
+                  [
+                    ['light', 'Claro'],
+                    ['dark', 'Escuro'],
+                    ['system', 'Sistema'],
+                  ].map(([value, label]) => (
+                    <button
+                      type="button"
+                      data-theme-set={value}
+                      aria-pressed="false"
+                      class="h-10 rounded-[9px] px-3 text-sm font-semibold text-muted aria-pressed:bg-surface aria-pressed:text-fg aria-pressed:shadow-sm"
+                    >
+                      {label}
+                    </button>
+                  ))
+                }
+              </div>
+            </div>
+
+            <div class="mt-auto flex flex-wrap gap-5 pt-2 text-[15px] font-semibold">
+              <a href={paths.api()} class="text-brand">API e dados</a>
+              <a href={paths.about()} class="text-brand">Sobre</a>
+              <a href={paths.privacy()} class="text-brand">Privacidade</a>
+            </div>
+          </div>
+        </div>
       </details>
     </div>
   </div>
 </header>
 
 <script is:inline>
-  document.getElementById('theme-toggle')?.addEventListener('click', () => {
-    const dark = document.documentElement.classList.toggle('dark');
-    try {
-      localStorage.setItem('theme', dark ? 'dark' : 'light');
-    } catch {}
-  });
+  (() => {
+    const root = document.documentElement;
+    const stored = () => {
+      try {
+        return localStorage.getItem('theme');
+      } catch {
+        return null;
+      }
+    };
+    const apply = (theme) => {
+      try {
+        if (theme === 'system') localStorage.removeItem('theme');
+        else localStorage.setItem('theme', theme);
+      } catch {}
+      const dark = theme === 'system' ? matchMedia('(prefers-color-scheme: dark)').matches : theme === 'dark';
+      root.classList.toggle('dark', dark);
+      sync();
+    };
+    const sync = () => {
+      const current = stored() ?? 'system';
+      document.querySelectorAll('[data-theme-set]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.themeSet === current)));
+    };
+    document.querySelectorAll('[data-theme-toggle]').forEach((b) =>
+      b.addEventListener('click', () => apply(root.classList.contains('dark') ? 'light' : 'dark')),
+    );
+    document.querySelectorAll('[data-theme-set]').forEach((b) => b.addEventListener('click', () => apply(b.dataset.themeSet)));
+    sync();
+
+    // Menus em <details>: fecham com Esc, clique fora, ao abrir a busca e no botão "Fechar".
+    const menus = document.querySelectorAll('[data-popover], #menu-mobile');
+    const closeAll = (except) => menus.forEach((d) => d !== except && d.removeAttribute('open'));
+    document.addEventListener('click', (e) => {
+      const target = e.target instanceof Element ? e.target : null;
+      if (target?.closest('[data-menu-close], [data-open-search]')) return closeAll();
+      menus.forEach((d) => d.hasAttribute('data-popover') && !d.contains(target) && d.removeAttribute('open'));
+    });
+    document.addEventListener('keydown', (e) => e.key === 'Escape' && closeAll());
+  })();
 </script>

@@ -101,3 +101,9 @@ export function placeLabel(place: { state: { name: string; uf: string } | null; 
   if (place.state) return place.state.name;
   return 'Brasil';
 }
+
+/** "Faltam 18 dias", "Falta 1 dia", "É hoje!". O layout recalcula no navegador (`data-countdown`). */
+export function countdownText(days: number): string {
+  if (days === 0) return 'É hoje!';
+  return days === 1 ? 'Falta 1 dia' : `Faltam ${days} dias`;
+}

@@ -1,9 +1,10 @@
 ---
+import DateTile from './DateTile.astro';
 import Icon from './Icon.astro';
+import WeekStrip from './WeekStrip.astro';
 import type { Occurrence } from '@/lib/holidays/resolve';
 import { diffDays, formatLong } from '@/lib/holidays/rules';
-import { bridgeSentence, isBridge } from '@/lib/pages';
-import { paths, tone, typeLabel } from '@/lib/site';
+import { countdownText, paths, tone, typeLabel } from '@/lib/site';
 
 interface Props {
   next: Occurrence;
@@ -13,41 +14,27 @@ interface Props {
 
 const { next, today, label = 'Próximo feriado' } = Astro.props;
 const days = diffDays(today, next.date);
-const bridge = isBridge(next);
 const t = tone(next.scope, next.kind);
+const href = paths.holiday(next.id, Number(next.date.slice(0, 4)));
 ---
 
-<a
-  href={paths.holiday(next.id, Number(next.date.slice(0, 4)))}
-  class:list={[`tone-${t}`, 'card group block overflow-hidden p-5 transition-colors hover:border-line-strong sm:p-6']}
->
-  <div class="flex items-start justify-between gap-4">
+<div class="card relative flex flex-col gap-5 p-5 shadow-[var(--shadow-raised)] transition-colors hover:border-line-strong sm:p-7">
+  <div class="flex flex-wrap items-center justify-between gap-2">
+    <p class="eyebrow">{label}</p>
+    <p class="tabular rounded-full bg-brand-soft px-3 py-1 text-sm font-bold text-brand-strong" data-countdown={next.date}>{countdownText(days)}</p>
+  </div>
+  <div class="flex items-center gap-4 sm:gap-5">
+    <DateTile date={next.date} tone={t} size="md" />
     <div class="min-w-0">
-      <p class="eyebrow flex items-center gap-1.5"><Icon name="calendar" size={14} /> {label}</p>
-      <p class="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">{next.name}</p>
-      <p class="mt-1 text-muted">
-        <time datetime={next.date}>{formatLong(next.date)}</time> · <span class="tone-text font-medium">{typeLabel(next.scope, next.kind)}</span>
+      <p class="text-xl leading-tight font-bold tracking-tight text-balance sm:text-[26px]">
+        <a href={href} class="after:absolute after:inset-0 after:rounded-[var(--radius-card)]">{next.name}</a>
       </p>
-      {bridge && <p class="mt-3 text-sm text-muted">{bridgeSentence(bridge)}</p>}
-    </div>
-    <div class="shrink-0 text-right">
-      <p class="tabular text-4xl font-semibold tracking-tight sm:text-5xl" data-days-until={next.date}>{days}</p>
-      <p class="text-sm text-faint" data-days-label={next.date}>{days === 1 ? 'dia' : 'dias'}</p>
+      <p class="mt-1 text-[15px] text-muted sm:text-base"><time datetime={next.date}>{formatLong(next.date)}</time></p>
+      <p class:list={[`tone-${t}`, 'chip tone-badge mt-2 text-[13px] font-semibold']}>{typeLabel(next.scope, next.kind)}</p>
     </div>
   </div>
-</a>
-
-<script is:inline>
-  // Recalcula "faltam N dias" no navegador: o HTML pode ter vindo do cache do CDN.
-  (() => {
-    const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(new Date());
-    const t = Date.parse(today + 'T00:00:00Z');
-    document.querySelectorAll('[data-days-until]').forEach((el) => {
-      const d = Math.round((Date.parse(el.getAttribute('data-days-until') + 'T00:00:00Z') - t) / 86400000);
-      if (d < 0) return;
-      el.textContent = d === 0 ? 'Hoje' : String(d);
-      const label = document.querySelector('[data-days-label="' + el.getAttribute('data-days-until') + '"]');
-      if (label) label.textContent = d === 0 ? 'é feriado!' : d === 1 ? 'dia' : 'dias';
-    });
-  })();
-</script>
+  {next.kind === 'feriado' && <WeekStrip date={next.date} tone={t} />}
+  <p class="flex items-center gap-1.5 text-[15px] font-semibold text-brand" aria-hidden="true">
+    Ver detalhes do feriado <Icon name="arrowRight" />
+  </p>
+</div>

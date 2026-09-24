@@ -1,0 +1,42 @@
+---
+import { monthName, weekdayName } from '@/lib/holidays/rules';
+
+/** "Folhinha" de calendário: faixa do mês na cor do tipo, dia grande e dia da semana. */
+interface Props {
+  date: string;
+  /** Chave de cor (`tone-*`). */
+  tone: string;
+  size?: 'sm' | 'md' | 'lg';
+  past?: boolean;
+}
+
+const { date, tone, size = 'sm', past = false } = Astro.props;
+const month = monthName(Number(date.slice(5, 7)));
+const day = Number(date.slice(8, 10));
+const weekday = weekdayName(date);
+const sizes = {
+  sm: { box: 'w-14 rounded-xl sm:w-16 sm:rounded-2xl', band: 'py-0.5 text-[10px] sm:text-[11px]', day: 'pt-1 text-2xl sm:text-[26px]', wd: 'pb-1.5 text-[11px] sm:text-xs' },
+  md: { box: 'w-[5.5rem] rounded-2xl sm:w-[6.5rem] sm:rounded-[1.1rem]', band: 'py-1 text-xs sm:text-sm', day: 'pt-1.5 text-[40px] sm:text-5xl', wd: 'pb-2.5 pt-1 text-[13px] sm:text-sm' },
+  lg: { box: 'w-28 rounded-[1.1rem] sm:w-40 sm:rounded-3xl', band: 'py-1.5 text-[13px] sm:py-2.5 sm:text-lg', day: 'pt-2 text-[54px] sm:pt-3 sm:text-[80px]', wd: 'pb-2.5 pt-1 text-sm sm:pb-4 sm:text-[17px]' },
+}[size];
+const monthLabel = size === 'lg' ? month : month.slice(0, 3);
+const weekdayLabel = size === 'sm' ? weekday.slice(0, 3) : size === 'md' ? weekday.replace('-feira', '') : weekday;
+---
+
+<div
+  class:list={[`tone-${tone}`, 'flex shrink-0 flex-col overflow-hidden border border-line text-center', sizes.box, past ? 'bg-subtle text-muted' : 'bg-surface']}
+  aria-hidden="true"
+>
+  <span class:list={['font-bold uppercase tracking-[0.1em]', sizes.band, past ? 'bg-line text-muted' : 'tone-band']}>{monthLabel}</span>
+  <span class:list={['tabular leading-none font-bold tracking-tight', sizes.day]}>{day}</span>
+  {
+    size === 'lg' ? (
+      <span class:list={['font-semibold text-muted', sizes.wd]}>
+        <span class="sm:hidden">{weekday.replace('-feira', '')}</span>
+        <span class="hidden sm:inline">{weekday}</span>
+      </span>
+    ) : (
+      <span class:list={['text-muted', size !== 'sm' && 'font-semibold', sizes.wd]}>{weekdayLabel}</span>
+    )
+  }
+</div>

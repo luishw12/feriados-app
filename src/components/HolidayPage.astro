@@ -1,14 +1,16 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
+import DateTile from './DateTile.astro';
 import Faq from './Faq.astro';
 import Icon from './Icon.astro';
+import WeekStrip from './WeekStrip.astro';
 import type { HolidayModel } from '@/lib/pages';
-import { bridgeSentence } from '@/lib/pages';
+import { isBridge } from '@/lib/pages';
 import { holidayPageSchemas, type Crumb } from '@/lib/seo/jsonld';
 import { describeRule, diffDays, formatDayMonth, formatLong, weekdayName } from '@/lib/holidays/rules';
 import { renderMarkdown } from '@/lib/markdown';
-import { STATUS_LABEL, paths, placeLabel, plural, tone, typeLabel } from '@/lib/site';
+import { STATUS_LABEL, countdownText, paths, placeLabel, plural, tone, typeLabel } from '@/lib/site';
 
 interface Props {
   model: HolidayModel;
@@ -31,6 +33,13 @@ const suggest = JSON.stringify({
   place: place.state ? { uf: place.state.uf, ...(place.city ? { ibge: place.city.ibge } : {}), label: placeLabel(place) } : undefined,
 });
 const placeHref = place.city && place.state ? paths.city(place.state.uf, place.city.slug) : place.state ? paths.state(place.state.uf) : paths.year(year);
+const icsHref = paths.ics(place.state?.uf, place.city?.slug);
+const shortBridge = (date: string): string => {
+  const b = isBridge({ date, kind: holiday.kind });
+  if (!b) return holiday.kind === 'feriado' && [0, 6].includes(new Date(`${date}T12:00:00Z`).getUTCDay()) ? 'Cai no fim de semana' : '';
+  return b.kind === 'emenda-segunda' ? 'Emenda na segunda' : b.kind === 'emenda-sexta' ? 'Emenda na sexta' : '3 dias de folga';
+};
+const focusTone = focus && focus.date < model.today ? 'past' : 'upcoming';
 ---
 
 <BaseLayout
@@ -41,109 +50,136 @@ const placeHref = place.city && place.state ? paths.city(place.state.uf, place.c
   jsonLd={holidayPageSchemas(site, model)}
   noindex={!model.indexable}
   ogType="article"
+  context={{ uf: place.state?.uf, year }}
 >
-  <article class="container-page pt-8 sm:pt-12">
+  <article class="container-page pt-5 sm:pt-10">
     <Breadcrumbs crumbs={crumbs} />
 
-    <header class="mt-4 max-w-3xl">
+    <header class="mt-5 max-w-4xl sm:mt-6">
       <div class="flex flex-wrap items-center gap-2">
-        <span class:list={[`tone-${t}`, 'chip tone-badge']}>{typeLabel(holiday.scope, holiday.kind)}</span>
+        <span class:list={[`tone-${t}`, 'chip tone-badge px-3 py-1 text-[13px] font-semibold sm:text-sm']}>{typeLabel(holiday.scope, holiday.kind)}</span>
         {
           holiday.status === 'verified' ? (
-            <span class="chip bg-subtle text-[var(--color-ok)]">
-              <Icon name="shieldCheck" size={12} /> Verificado
+            <span class="chip bg-subtle px-3 py-1 text-[13px] font-semibold text-[var(--color-ok)] sm:text-sm">
+              <Icon name="shieldCheck" size={14} /> Verificado em fonte oficial
             </span>
           ) : (
-            <span class="chip bg-[var(--color-warn-soft)] text-[var(--color-warn)]">
-              <Icon name="alert" size={12} /> {STATUS_LABEL[holiday.status]}
+            <span class="chip bg-[var(--color-warn-soft)] px-3 py-1 text-[13px] font-semibold text-[var(--color-warn)] sm:text-sm">
+              <Icon name="alert" size={14} /> {STATUS_LABEL[holiday.status]}
             </span>
           )
         }
       </div>
-      <h1 class="mt-3 text-3xl font-semibold tracking-tight text-balance sm:text-5xl">{model.h1}</h1>
-      <p class="mt-4 text-lg leading-relaxed text-muted text-pretty">{model.lead}</p>
+      <h1 class="mt-3 text-[34px] leading-[1.08] font-bold tracking-tight text-balance sm:mt-4 sm:text-5xl lg:text-[56px]">{model.h1}</h1>
+      <p class="mt-3 text-[17px] leading-relaxed text-muted text-pretty sm:mt-4 sm:text-xl">{model.lead}</p>
     </header>
 
-    <div class="mt-8 grid gap-10 lg:grid-cols-[1fr_18rem]">
-      <div class="min-w-0 space-y-12">
+    <div class="mt-6 grid gap-10 sm:mt-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-12">
+      <div class="min-w-0 space-y-12 sm:space-y-14">
         {
           focus && (
-            <div class:list={[`tone-${t}`, 'card flex items-center justify-between gap-6 p-6']}>
-              <div>
-                <p class="eyebrow">{holiday.name} {year}</p>
-                <p class="mt-2 text-2xl font-semibold tracking-tight first-letter:uppercase sm:text-3xl">{weekdayName(focus.date)}</p>
-                <p class="text-lg text-muted">
-                  <time datetime={focus.date}>{formatDayMonth(focus.date)} de {year}</time>
-                </p>
-                {focus.bridge && <p class="mt-3 text-sm text-muted">{bridgeSentence(focus.bridge)}</p>}
-              </div>
-              {days !== null && days >= 0 && (
-                <div class="text-right">
-                  <p class="tabular text-5xl font-semibold tone-text" data-days-until={focus.date}>
-                    {days}
+            <section aria-label={`${holiday.name} em ${year}`} class="card flex flex-col gap-5 p-5 shadow-[var(--shadow-raised)] sm:gap-7 sm:p-8">
+              <div class="flex items-center gap-5 sm:gap-8">
+                <DateTile date={focus.date} tone={t} size="lg" past={focusTone === 'past'} />
+                <div class="flex min-w-0 flex-col gap-1 sm:gap-2">
+                  <p class="hidden text-[34px] leading-tight font-bold tracking-tight first-letter:uppercase sm:block">{weekdayName(focus.date)}</p>
+                  <p class="hidden text-xl text-muted sm:block">
+                    <time datetime={focus.date}>
+                      {formatDayMonth(focus.date)} de {year}
+                    </time>
                   </p>
-                  <p class="text-sm text-faint" data-days-label={focus.date}>
-                    {days === 1 ? 'dia' : 'dias'}
+                  {days !== null && days >= 0 && (
+                    <p class="tabular self-start rounded-2xl bg-brand-soft px-3.5 py-2 text-base font-bold text-brand-strong sm:mt-2 sm:px-4 sm:py-2.5 sm:text-lg" data-countdown={focus.date}>
+                      {countdownText(days)}
+                    </p>
+                  )}
+                  {days !== null && days < 0 && <p class="text-base text-muted">Já passou</p>}
+                  <p class="text-[15px] text-muted sm:hidden">
+                    <time datetime={focus.date}>{formatLong(focus.date)}</time>
                   </p>
                 </div>
-              )}
-            </div>
+              </div>
+              {holiday.kind === 'feriado' && <WeekStrip date={focus.date} tone={t} size="lg" />}
+              <div class="grid grid-cols-[minmax(0,1fr)_auto] gap-2 sm:flex sm:gap-2.5">
+                <a href={icsHref} class="btn-primary min-h-12 sm:px-5" rel="nofollow" title={`Calendário com os feriados ${place.city ? `de ${place.city.name}` : place.state ? `de ${place.state.name}` : 'nacionais'}`}>
+                  <Icon name="calendarPlus" size={18} /> Adicionar à agenda
+                </a>
+                <button type="button" class="btn min-h-12 sm:px-5" data-share={holiday.name} aria-label="Compartilhar">
+                  <Icon name="share" size={18} /> <span class="hidden sm:inline" data-share-label>Compartilhar</span>
+                </button>
+              </div>
+            </section>
           )
         }
 
         {
           (holiday.body || holiday.summary) && (
             <section aria-labelledby="sobre">
-              <h2 id="sobre" class="text-xl font-semibold tracking-tight">
+              <h2 id="sobre" class="text-2xl font-bold tracking-tight sm:text-[28px]">
                 Sobre {holiday.name}
               </h2>
-              <div class="prose-body mt-3" set:html={renderMarkdown(holiday.body || holiday.summary)} />
+              <div class="prose-body mt-3 max-w-3xl text-[17px] sm:text-lg" set:html={renderMarkdown(holiday.body || holiday.summary)} />
             </section>
           )
         }
 
         <section aria-labelledby="datas">
-          <h2 id="datas" class="text-xl font-semibold tracking-tight">Datas de {holiday.name} nos próximos anos</h2>
-          <p class="mt-1 text-sm text-muted">Regra: {describeRule(holiday.rule)}.</p>
-          <div class="mt-4 overflow-hidden rounded-2xl border border-line bg-surface">
-            <table class="w-full text-left text-sm">
-              <thead class="border-b border-line text-xs text-faint">
-                <tr>
-                  <th scope="col" class="px-4 py-3 font-medium">Ano</th>
-                  <th scope="col" class="px-4 py-3 font-medium">Data</th>
-                  <th scope="col" class="px-4 py-3 font-medium">Dia da semana</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-line">
-                {model.years.map((y) => (
-                  <tr class:list={[y.year === year && 'bg-subtle']}>
-                    <th scope="row" class="px-4 py-3 font-medium">
-                      <a href={paths.holiday(holiday.id, y.year)} class="tabular hover:underline">
-                        {y.year}
-                      </a>
-                    </th>
-                    <td class="tabular px-4 py-3 text-muted">{y.date ? formatDayMonth(y.date) : 'não ocorre'}</td>
-                    <td class="px-4 py-3 text-muted">{y.date ? weekdayName(y.date) : '—'}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+            <h2 id="datas" class="text-2xl font-bold tracking-tight sm:text-[28px]">
+              {holiday.name} nos próximos anos
+            </h2>
+            <p class="text-[15px] text-muted">
+              Regra: {describeRule(holiday.rule)}
+            </p>
           </div>
+          <ul class="mt-4 grid grid-cols-2 gap-2.5 sm:grid-cols-3 xl:grid-cols-4">
+            {model.years.map((y) => {
+              const current = y.year === year;
+              const past = y.date !== null && y.date < model.today;
+              const note = y.date ? shortBridge(y.date) : '';
+              return (
+                <li>
+                  <a
+                    href={paths.holiday(holiday.id, y.year)}
+                    aria-current={current ? 'page' : undefined}
+                    class:list={[
+                      'flex h-full flex-col gap-0.5 rounded-2xl bg-surface p-4 transition-colors',
+                      current ? 'border-2 border-brand' : 'border border-line hover:border-line-strong',
+                    ]}
+                  >
+                    <span class:list={['tabular text-sm font-semibold', current ? 'text-brand' : 'text-muted']}>
+                      {y.year}
+                      {current && ' · este ano'}
+                    </span>
+                    {y.date ? (
+                      <>
+                        <span class:list={['text-lg font-bold sm:text-xl', past && 'text-muted']}>{weekdayName(y.date).replace('-feira', '')}</span>
+                        <span class="text-sm text-muted">{formatDayMonth(y.date)}</span>
+                        {note && !past && <span class:list={['mt-1 text-[13px] font-semibold', note === 'Cai no fim de semana' ? 'text-muted' : 'text-brand-strong']}>{note}</span>}
+                      </>
+                    ) : (
+                      <span class="text-base text-muted">não ocorre</span>
+                    )}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
         </section>
 
         {
           model.sameDay.length > 0 && focus && (
             <section aria-labelledby="mesmo-dia">
-              <h2 id="mesmo-dia" class="text-xl font-semibold tracking-tight">
-                Também em {formatLong(focus.date)}
+              <h2 id="mesmo-dia" class="text-xl font-bold tracking-tight sm:text-[22px]">
+                Também em {formatDayMonth(focus.date)}
               </h2>
-              <ul class="mt-3 space-y-1 text-sm">
+              <ul class="mt-3 flex flex-wrap gap-2">
                 {model.sameDay.map((o) => (
                   <li>
-                    <a href={paths.holiday(o.id, year)} class="link">
+                    <a href={paths.holiday(o.id, year)} class="flex min-h-12 items-center gap-2.5 rounded-xl border border-line bg-surface px-4 py-2 font-semibold hover:border-line-strong">
                       {o.name}
-                    </a>{' '}
-                    <span class="text-faint">— {typeLabel(o.scope, o.kind).toLowerCase()}</span>
+                      <span class:list={[`tone-${tone(o.scope, o.kind)}`, 'chip tone-badge text-xs sm:text-[13px]']}>{typeLabel(o.scope, o.kind)}</span>
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -154,57 +190,72 @@ const placeHref = place.city && place.state ? paths.city(place.state.uf, place.c
         <Faq items={model.faq} />
       </div>
 
-      <aside class="space-y-4 lg:sticky lg:top-20 lg:self-start" aria-label="Detalhes">
-        <dl class="card divide-y divide-line text-sm">
-          <div class="px-4 py-3">
-            <dt class="text-xs text-faint">Onde vale</dt>
-            <dd class="mt-0.5 font-medium"><a href={placeHref} class="hover:underline">{placeLabel(place)}</a></dd>
+      <aside class="flex flex-col gap-4 lg:sticky lg:top-24 lg:self-start" aria-label="Detalhes">
+        <dl class="card divide-y divide-line">
+          <div class="flex gap-3.5 px-5 py-4">
+            <span class="flex size-[38px] shrink-0 items-center justify-center rounded-[10px] bg-subtle text-muted"><Icon name="mapPin" size={19} /></span>
+            <div>
+              <dt class="text-sm text-muted">Onde vale</dt>
+              <dd class="mt-0.5 text-[17px] font-semibold"><a href={placeHref} class="hover:underline">{place.state ? placeLabel(place) : 'Todo o Brasil'}</a></dd>
+            </div>
           </div>
-          <div class="px-4 py-3">
-            <dt class="text-xs text-faint">Quando</dt>
-            <dd class="mt-0.5 font-medium">{describeRule(holiday.rule)}</dd>
+          <div class="flex gap-3.5 px-5 py-4">
+            <span class="flex size-[38px] shrink-0 items-center justify-center rounded-[10px] bg-subtle text-muted"><Icon name="calendar" size={19} /></span>
+            <div>
+              <dt class="text-sm text-muted">Quando</dt>
+              <dd class="mt-0.5 text-[17px] font-semibold first-letter:uppercase">{describeRule(holiday.rule)}</dd>
+            </div>
           </div>
           {
             model.municipalCount > 0 && (
-              <div class="px-4 py-3">
-                <dt class="text-xs text-faint">Feriado municipal em</dt>
-                <dd class="mt-0.5 font-medium">{plural(model.municipalCount, 'cidade', 'cidades')}</dd>
+              <div class="flex gap-3.5 px-5 py-4">
+                <span class="flex size-[38px] shrink-0 items-center justify-center rounded-[10px] bg-subtle text-muted"><Icon name="globe" size={19} /></span>
+                <div>
+                  <dt class="text-sm text-muted">Feriado municipal em</dt>
+                  <dd class="mt-0.5 text-[17px] font-semibold">{plural(model.municipalCount, 'cidade', 'cidades')}</dd>
+                </div>
               </div>
             )
           }
-          <div class="px-4 py-3">
-            <dt class="text-xs text-faint">Base legal</dt>
-            <dd class="mt-0.5">
-              {holiday.legalBasis || <span class="text-faint">Ainda não informada</span>}
+          <div class="flex gap-3.5 px-5 py-4">
+            <span class="flex size-[38px] shrink-0 items-center justify-center rounded-[10px] bg-subtle text-muted"><Icon name="scale" size={19} /></span>
+            <div>
+              <dt class="text-sm text-muted">Base legal</dt>
+              <dd class="mt-0.5 text-[17px] font-semibold">{holiday.legalBasis || <span class="font-normal text-faint">Ainda não informada</span>}</dd>
               {
                 holiday.sourceUrl && (
-                  <a href={holiday.sourceUrl} class="mt-1 flex items-center gap-1 text-xs link" rel="nofollow noopener" target="_blank">
-                    Ver fonte <Icon name="external" size={12} />
-                  </a>
+                  <dd class="mt-1.5">
+                    <a href={holiday.sourceUrl} class="inline-flex items-center gap-1.5 text-[15px] font-semibold text-brand hover:text-brand-strong" rel="nofollow noopener" target="_blank">
+                      Ver a fonte oficial <Icon name="external" size={14} />
+                    </a>
+                  </dd>
                 )
               }
-            </dd>
+            </div>
           </div>
-          <div class="px-4 py-3">
-            <dt class="text-xs text-faint">Última atualização</dt>
-            <dd class="mt-0.5">
-              <time datetime={holiday.updatedAt.toISOString()}>{holiday.updatedAt.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</time>
-            </dd>
+          <div class="flex gap-3.5 px-5 py-4">
+            <span class="flex size-[38px] shrink-0 items-center justify-center rounded-[10px] bg-subtle text-muted"><Icon name="clock" size={19} /></span>
+            <div>
+              <dt class="text-sm text-muted">Última atualização</dt>
+              <dd class="mt-0.5 text-[17px] font-semibold">
+                <time datetime={holiday.updatedAt.toISOString()}>{holiday.updatedAt.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</time>
+              </dd>
+            </div>
           </div>
         </dl>
 
-        <div class="card p-4">
-          <p class="font-medium">Encontrou um erro?</p>
-          <p class="mt-1 text-sm text-muted">Data, nome ou lei errada? Toda sugestão é revisada e publicada rapidamente.</p>
-          <button type="button" class="btn-primary mt-3 w-full" data-suggest={suggest}>
-            <Icon name="pencil" /> Sugerir correção
+        <div class="card flex flex-col gap-2.5 p-5">
+          <p class="text-[17px] font-bold">Encontrou um erro?</p>
+          <p class="text-[15px] leading-relaxed text-muted">Data, nome ou lei errada? Toda sugestão é revisada antes de ir ao ar.</p>
+          <button type="button" class="btn mt-1" data-suggest={suggest}>
+            <Icon name="pencil" size={17} /> Sugerir correção
           </button>
         </div>
 
         {
           model.credits.length > 0 && (
-            <div class="card p-4 text-sm">
-              <p class="font-medium">Quem ajudou nesta página</p>
+            <div class="card p-5 text-[15px]">
+              <p class="font-bold">Quem ajudou nesta página</p>
               <ul class="mt-2 space-y-1">
                 {model.credits.map((c) => (
                   <li>
@@ -225,3 +276,16 @@ const placeHref = place.city && place.state ? paths.city(place.state.uf, place.c
     </div>
   </article>
 </BaseLayout>
+
+<script is:inline>
+  // Compartilhar: menu nativo do celular ou, no computador, copia o link.
+  document.querySelectorAll('[data-share]').forEach((button) =>
+    button.addEventListener('click', async () => {
+      const data = { title: document.title, url: location.href };
+      if (navigator.share) return navigator.share(data).catch(() => {});
+      await navigator.clipboard?.writeText(location.href).catch(() => {});
+      const label = button.querySelector('[data-share-label]');
+      if (label) label.textContent = 'Link copiado!';
+    }),
+  );
+</script>

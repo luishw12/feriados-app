@@ -1,0 +1,60 @@
+---
+import Icon from './Icon.astro';
+import { bridgeInfo } from '@/lib/holidays/resolve';
+import { addDays, weekday } from '@/lib/holidays/rules';
+import { plural } from '@/lib/site';
+
+/** Semana em volta do feriado, marcando os dias de folga e a emenda. Só para feriados (não facultativos). */
+interface Props {
+  date: string;
+  tone: string;
+  size?: 'sm' | 'lg';
+}
+
+const { date, tone, size = 'sm' } = Astro.props;
+const info = bridgeInfo(date);
+const SHORT = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sáb'];
+const days = [-3, -2, -1, 0, 1, 2, 3].map((offset) => {
+  const iso = addDays(date, offset);
+  const holiday = offset === 0;
+  const bridge = iso === info.bridgeDay;
+  const off = holiday || (info.days > 1 && iso >= info.start && iso <= info.end);
+  return { iso, day: Number(iso.slice(8, 10)), wd: SHORT[weekday(iso)] ?? '', holiday, bridge, off };
+});
+const title =
+  info.kind === 'prolongado'
+    ? `Feriado prolongado: ${plural(info.days, 'dia', 'dias')} de folga`
+    : info.kind === 'emenda-segunda' || info.kind === 'emenda-sexta'
+      ? `Emendando a ${info.kind === 'emenda-segunda' ? 'segunda' : 'sexta'}: ${info.days} dias de folga`
+      : info.kind === 'meio-de-semana'
+        ? 'Cai no meio da semana'
+        : 'Cai no fim de semana';
+const lg = size === 'lg';
+---
+
+<div class:list={['rounded-2xl bg-subtle', lg ? 'p-3.5 sm:p-5' : 'p-3.5 sm:p-4']}>
+  <p class:list={['flex items-center gap-2 font-semibold', lg ? 'text-base sm:text-[17px]' : 'text-[15px]']}>
+    {info.days > 1 && <Icon name="sparkles" size={lg ? 18 : 16} class="text-brand" />}
+    {title}
+  </p>
+  <ol class="mt-2.5 grid grid-cols-7 gap-1 text-center sm:gap-1.5" aria-label="Semana do feriado">
+    {
+      days.map((d) => (
+        <li
+          class:list={[
+            'rounded-[0.6rem] py-1.5 sm:rounded-xl',
+            lg && 'sm:py-2.5',
+            d.holiday ? `tone-${tone} tone-band` : d.off ? 'bg-brand-soft text-brand-strong' : 'text-faint',
+          ]}
+        >
+          <span class="block text-xs sm:text-[13px]">{d.wd}</span>
+          <span class:list={['tabular block leading-tight', lg ? 'text-lg sm:text-[22px]' : 'text-base', d.off ? 'font-bold' : 'font-semibold']}>{d.day}</span>
+          {lg && (d.holiday || d.bridge || d.off) && (
+            <span class="hidden text-[11px] font-medium sm:block">{d.holiday ? 'feriado' : d.bridge ? 'emenda' : 'folga'}</span>
+          )}
+          <span class="sr-only">{d.holiday ? ' (feriado)' : d.bridge ? ' (emenda)' : d.off ? ' (folga)' : ''}</span>
+        </li>
+      ))
+    }
+  </ol>
+</div>

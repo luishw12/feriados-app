@@ -16,19 +16,21 @@ for (const occ of occurrences) {
   const m = Number(occ.date.slice(5, 7));
   months.set(m, [...(months.get(m) ?? []), occ]);
 }
+const nextDate = occurrences.find((o) => o.kind === 'feriado' && o.date >= today)?.date;
 ---
 
 {occurrences.length === 0 && <p class="text-sm text-muted">{emptyText}</p>}
 <div class="space-y-8">
   {
     [...months.entries()].map(([m, list]) => (
-      <section aria-labelledby={`mes-${m}`}>
-        <h2 id={`mes-${m}`} class="eyebrow sticky top-14 z-10 -mx-1 bg-bg/90 px-1 py-2 backdrop-blur">
-          {monthName(m)}
-        </h2>
-        <ul class="divide-y divide-line">
+      <section aria-labelledby={`mes-${m}`} data-month={m} data-all-past={list.every((o) => o.date < today) ? '' : undefined}>
+        <h3 id={`mes-${m}`} class="sticky top-[60px] z-10 -mx-1 flex items-baseline gap-2.5 bg-bg/90 px-1 py-2 text-lg font-bold backdrop-blur sm:top-[68px] sm:text-xl">
+          <span class="inline-block first-letter:uppercase">{monthName(m)}</span>
+          <span class="text-sm font-medium text-faint">{list.length === 1 ? '1 data' : `${list.length} datas`}</span>
+        </h3>
+        <ul class="mt-1 space-y-2.5">
           {list.map((occ) => (
-            <HolidayItem occ={occ} today={today} place={place} />
+            <HolidayItem occ={occ} today={today} place={place} next={occ.kind === 'feriado' && occ.date === nextDate} />
           ))}
         </ul>
       </section>

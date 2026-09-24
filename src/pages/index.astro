@@ -10,40 +10,84 @@ import { currentYear, paths } from '@/lib/site';
 const year = currentYear();
 const [model, states] = await Promise.all([buildListModel({ type: 'home', year, explicitYear: false }), getStates()]);
 cachePage(Astro, model.tags, { lastModified: model.updatedAt });
+
+const popular = [
+  ['sp', 'sao-paulo', 'São Paulo'],
+  ['rj', 'rio-de-janeiro', 'Rio de Janeiro'],
+  ['mg', 'belo-horizonte', 'Belo Horizonte'],
+  ['rs', 'porto-alegre', 'Porto Alegre'],
+  ['ba', 'salvador', 'Salvador'],
+] as const;
+const tools = [
+  {
+    href: paths.bridges(year),
+    icon: 'sparkles',
+    tone: 'bg-brand-soft text-brand-strong',
+    title: `Feriados prolongados ${year}`,
+    text: 'Quais feriados caem perto do fim de semana e quando dá para emendar.',
+  },
+  {
+    href: paths.businessDays(),
+    icon: 'clock',
+    tone: 'tone-national tone-badge',
+    title: 'Calculadora de dias úteis',
+    text: 'Conte os dias úteis entre duas datas com os feriados da sua cidade.',
+  },
+  {
+    href: paths.api(),
+    icon: 'code',
+    tone: 'tone-state tone-badge',
+    title: 'API gratuita e dados abertos',
+    text: 'Use os feriados no seu sistema, planilha ou site, sem cadastro.',
+  },
+] as const;
 ---
 
 <ListPage model={model}>
-  <div slot="before-list" class="mt-6">
-    <div class="card flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between" id="minha-cidade">
-      <div>
-        <p class="font-medium">Veja os feriados da sua cidade</p>
-        <p class="text-sm text-muted">Nacionais, estaduais e municipais dos 5.571 municípios, com emendas.</p>
-      </div>
-      <div class="flex flex-wrap gap-2">
-        <button type="button" data-open-search class="btn-primary"><Icon name="search" /> Buscar cidade</button>
-        <a href="#" id="geo-suggestion" class="btn hidden"><Icon name="mapPin" /> <span></span></a>
-      </div>
+  <p slot="eyebrow" class="self-start rounded-full bg-brand-soft px-3 py-1.5 text-[13px] font-semibold text-brand-strong sm:text-sm">
+    Nacionais, estaduais e municipais · 5.571 municípios
+  </p>
+
+  <div slot="hero" class="mt-1 flex max-w-xl flex-col gap-2.5" id="minha-cidade">
+    <p class="text-base font-semibold">Veja os feriados da sua cidade</p>
+    <button
+      type="button"
+      data-open-search
+      class="flex h-14 items-center gap-2.5 rounded-2xl border-2 border-line-strong bg-surface pr-1.5 pl-4 text-left shadow-[var(--shadow-raised)] transition-colors hover:border-brand sm:h-[62px]"
+    >
+      <Icon name="search" size={22} class="text-faint" />
+      <span class="flex-1 text-[17px] text-faint sm:text-lg">Digite o nome da cidade</span>
+      <span class="hidden h-[50px] items-center rounded-xl bg-brand px-6 font-semibold text-brand-fg sm:flex">Buscar</span>
+    </button>
+    <div class="mt-1 flex flex-wrap items-center gap-x-3 gap-y-2">
+      <a href="#" id="geo-suggestion" class="btn hidden min-h-9 rounded-full py-1 text-sm text-brand"><Icon name="mapPin" /> <span></span></a>
+      <span class="text-sm text-faint">Mais buscadas:</span>
+      {
+        popular.map(([uf, slug, name]) => (
+          <a href={paths.city(uf, slug)} class="text-sm font-medium text-brand underline-offset-4 hover:underline">
+            {name}
+          </a>
+        ))
+      }
     </div>
   </div>
 
   <StatesGrid states={states} />
 
-  <section class="mt-16 grid gap-4 sm:grid-cols-3" aria-label="Ferramentas">
-    <a href={paths.bridges(year)} class="card p-5 hover:border-line-strong">
-      <Icon name="sparkles" size={20} />
-      <p class="mt-3 font-medium">Feriados prolongados {year}</p>
-      <p class="mt-1 text-sm text-muted">Quais feriados caem perto do fim de semana e quando dá para emendar.</p>
-    </a>
-    <a href={paths.businessDays()} class="card p-5 hover:border-line-strong">
-      <Icon name="clock" size={20} />
-      <p class="mt-3 font-medium">Calculadora de dias úteis</p>
-      <p class="mt-1 text-sm text-muted">Conte dias úteis entre duas datas considerando os feriados da sua cidade.</p>
-    </a>
-    <a href={paths.api()} class="card p-5 hover:border-line-strong">
-      <Icon name="code" size={20} />
-      <p class="mt-3 font-medium">API gratuita e dados abertos</p>
-      <p class="mt-1 text-sm text-muted">Use os feriados no seu sistema, planilha ou site — sem cadastro.</p>
-    </a>
+  <section class="mt-16 grid gap-3 sm:mt-20 sm:grid-cols-3 sm:gap-4" aria-label="Ferramentas">
+    {
+      tools.map((tool) => (
+        <a href={tool.href} class="card flex items-center gap-4 p-4 transition-colors hover:border-line-strong sm:flex-col sm:items-start sm:gap-2 sm:p-6">
+          <span class:list={['flex size-11 shrink-0 items-center justify-center rounded-xl', tool.tone]}>
+            <Icon name={tool.icon} size={22} />
+          </span>
+          <span class="flex flex-col gap-1 sm:mt-2">
+            <span class="text-base font-bold sm:text-lg">{tool.title}</span>
+            <span class="text-sm leading-relaxed text-muted sm:text-[15px]">{tool.text}</span>
+          </span>
+        </a>
+      ))
+    }
   </section>
 </ListPage>
 
