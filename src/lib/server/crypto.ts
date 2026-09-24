@@ -30,8 +30,14 @@ export function shortId(): string {
   return [...buf].map((b) => alphabet[b % alphabet.length]).join('');
 }
 
+/** O domínio passa pela Cloudflare: nesse caso x-real-ip é o IP da Cloudflare, não o do visitante. */
+export function viaCloudflare(request: Request): boolean {
+  return request.headers.has('cf-ray') && request.headers.has('cf-connecting-ip');
+}
+
 export function clientIp(request: Request, fallback?: string): string {
   return (
+    (viaCloudflare(request) ? request.headers.get('cf-connecting-ip') : null) ??
     request.headers.get('x-real-ip') ??
     request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ??
     fallback ??

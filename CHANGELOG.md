@@ -8,6 +8,15 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
+## [2.0.1-beta] - 2026-09-24
+
+Correções para o site funcionar atrás da Cloudflare.
+
+### Corrigido
+
+- Sugestão de cidade pela localização usa os dados do visitante, e não do servidor da Cloudflare
+- Limite de envio de sugestões passa a valer por visitante, e não para todos ao mesmo tempo
+
 ## [2.0.0-beta] - 2026-09-24
 
 Reescrita completa: dados em banco com moderação pelo painel, publicação instantânea, novas URLs, SEO e leitura por IA, API e agenda.

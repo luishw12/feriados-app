@@ -1,6 +1,23 @@
 {
   "releases": [
     {
+      "version": "2.0.1-beta",
+      "date": "2026-09-24",
+      "status": "beta",
+      "summary": "Correções para o site funcionar atrás da Cloudflare.",
+      "sections": {
+        "added": [],
+        "changed": [],
+        "deprecated": [],
+        "removed": [],
+        "fixed": [
+          "Sugestão de cidade pela localização usa os dados do visitante, e não do servidor da Cloudflare",
+          "Limite de envio de sugestões passa a valer por visitante, e não para todos ao mesmo tempo"
+        ],
+        "security": []
+      }
+    },
+    {
       "version": "2.0.0-beta",
       "date": "2026-09-24",
       "status": "beta",
