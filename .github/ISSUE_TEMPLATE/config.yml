@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Guia de contribuição
+  - name: Feriado errado ou faltando
+    url: https://feriados.luishw.com.br/contribuir/
+    about: Dados de feriados são corrigidos pelo site (botão “Sugerir correção”) — é mais rápido e passa pela moderação.
+  - name: Guia de contribuição (código)
     url: https://github.com/luishw12/feriados-app/blob/main/CONTRIBUTING.md
-    about: Leia como configurar o ambiente e enviar um PR
+    about: Como rodar o projeto localmente e enviar um PR

@@ -174,6 +174,20 @@ const statCards = [
 
     <Faq items={model.faq} />
 
+    {
+      place.city && place.state && (
+        <script
+          is:inline
+          data-location={JSON.stringify({ uf: place.state.uf, slug: place.city.slug, name: place.city.name })}
+        >
+          // Lembra a última cidade vista para sugerir na home e no próximo feriado.
+          try {
+            localStorage.setItem('location', document.currentScript.dataset.location);
+          } catch {}
+        </script>
+      )
+    }
+
     <p class="mt-10 text-xs text-faint">
       Dados atualizados em {model.updatedAt.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' })}. Feriados nacionais conforme a legislação federal;
       estaduais e municipais conforme leis locais, conferidos pela comunidade.
