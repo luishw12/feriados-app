@@ -8,6 +8,19 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
+## [2.3.0-beta] - 2026-09-24
+
+Links para o currículo e portfólio do criador do site.
+
+### Adicionado
+
+- Cartão "Quem fez" no rodapé de todas as páginas com link para o currículo e portfólio do autor (luishw.com.br)
+- Link para o currículo na página Sobre, no menu mobile e no llms.txt
+
+### Alterado
+
+- Nome do autor no rodapé e dados estruturados (JSON-LD) apontam para o portfólio; links externos abrem em nova aba
+
 ## [2.2.0-beta] - 2026-09-24
 
 Formulários redesenhados: calendário para escolher a data, busca de cidade e estado nas sugestões e no painel, e campos mais claros em todo o site.

@@ -4,7 +4,7 @@ import { getNationalHolidays, getStates } from '@/lib/data';
 import { resolveYear } from '@/lib/holidays/resolve';
 import { formatShort } from '@/lib/holidays/rules';
 import { toDef } from '@/lib/data';
-import { SITE_NAME, SITE_TAGLINE, currentYear, paths } from '@/lib/site';
+import { AUTHOR, SITE_NAME, SITE_TAGLINE, currentYear, paths } from '@/lib/site';
 
 /** https://llmstxt.org — mapa do site para modelos de linguagem. */
 export const GET: APIRoute = async (ctx) => {
@@ -52,6 +52,7 @@ Padrão: ${u('/feriado/{id}/')} e ${u('/feriado/{id}/{ano}/')} — ex.: ${u('/fe
 
 - [Como contribuir](${u(paths.contribute())})
 - [Sobre o projeto](${u(paths.about())})
+- [${AUTHOR.name}, criador do site](${AUTHOR.website}): portfólio e currículo do desenvolvedor
 `;
   return new Response(body, { headers: { 'content-type': 'text/plain; charset=utf-8' } });
 };

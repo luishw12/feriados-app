@@ -1,6 +1,25 @@
 {
   "releases": [
     {
+      "version": "2.3.0-beta",
+      "date": "2026-09-24",
+      "status": "beta",
+      "summary": "Links para o currículo e portfólio do criador do site.",
+      "sections": {
+        "added": [
+          "Cartão \"Quem fez\" no rodapé de todas as páginas com link para o currículo e portfólio do autor (luishw.com.br)",
+          "Link para o currículo na página Sobre, no menu mobile e no llms.txt"
+        ],
+        "changed": [
+          "Nome do autor no rodapé e dados estruturados (JSON-LD) apontam para o portfólio; links externos abrem em nova aba"
+        ],
+        "deprecated": [],
+        "removed": [],
+        "fixed": [],
+        "security": []
+      }
+    },
+    {
       "version": "2.2.0-beta",
       "date": "2026-09-24",
       "status": "beta",

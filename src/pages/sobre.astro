@@ -35,10 +35,13 @@ cachePage(Astro, ['about']);
     <div>
       <p class="eyebrow">Criado por</p>
       <p class="mt-1 text-lg font-semibold">{AUTHOR.name}</p>
-      <p class="text-sm text-muted">Desenvolvedor. Vamos conversar?</p>
+      <p class="text-sm text-muted">{AUTHOR.jobTitle}. Sua empresa procura um dev? Veja meu currículo e vamos conversar.</p>
     </div>
     <div class="flex flex-wrap gap-2">
-      <a href={AUTHOR.linkedin} class="btn-primary" rel="author"><Icon name="linkedin" /> LinkedIn</a>
+      <a href={AUTHOR.website} target="_blank" rel="author noopener" class="btn-primary">
+        <Icon name="briefcase" /> Currículo e portfólio<span class="sr-only"> (abre em nova aba)</span>
+      </a>
+      <a href={AUTHOR.linkedin} target="_blank" rel="noopener" class="btn"><Icon name="linkedin" /> LinkedIn<span class="sr-only"> (abre em nova aba)</span></a>
       <a href={REPO_URL} class="btn"><Icon name="github" /> Código</a>
     </div>
   </div>
