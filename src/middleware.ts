@@ -1,5 +1,6 @@
 import { defineMiddleware } from 'astro:middleware';
 import { getRedirect, getStateBySlug } from './lib/data';
+import { getAdmin } from './lib/server/auth';
 import { currentYear, paths } from './lib/site';
 
 /** Guias da v1 → páginas equivalentes da v2. */
@@ -27,6 +28,24 @@ const PASSTHROUGH = /^\/(_astro|_image|api|admin|og|favicon|robots\.txt|sitemap|
 
 export const onRequest = defineMiddleware(async (ctx, next) => {
   const { pathname } = ctx.url;
+
+  // Painel: exige sessão, nunca vai para o cache do CDN.
+  if (pathname.startsWith('/admin')) {
+    // CSRF: formulários do painel só aceitam POST vindo do próprio site.
+    if (ctx.request.method === 'POST') {
+      const origin = ctx.request.headers.get('origin');
+      if (!origin || new URL(origin).host !== ctx.url.host) return new Response('Origem não permitida', { status: 403 });
+    }
+    const open = pathname === '/admin/login/' || pathname.startsWith('/admin/auth/');
+    const admin = await getAdmin(ctx.cookies);
+    if (admin) ctx.locals.admin = admin;
+    else if (!open) return ctx.redirect(`/admin/login/?next=${encodeURIComponent(pathname)}`, 302);
+    ctx.cache.set(false);
+    const response = await next();
+    response.headers.set('cache-control', 'private, no-store');
+    response.headers.set('x-robots-tag', 'noindex, nofollow');
+    return response;
+  }
 
   if (PASSTHROUGH.test(pathname)) return next();
 

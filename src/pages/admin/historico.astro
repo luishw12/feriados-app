@@ -1,0 +1,30 @@
+---
+import AdminLayout from '@/components/admin/AdminLayout.astro';
+import { desc } from 'drizzle-orm';
+import { getDb, schema } from '@/lib/db/client';
+
+const rows = await getDb().select().from(schema.revisions).orderBy(desc(schema.revisions.createdAt)).limit(100);
+const ACTION = { create: 'criou', update: 'alterou', delete: 'removeu' } as const;
+const changed = (before: Record<string, unknown> | null, after: Record<string, unknown> | null) =>
+  before && after ? Object.keys(after).filter((k) => JSON.stringify(before[k]) !== JSON.stringify(after[k])) : [];
+---
+
+<AdminLayout title="Histórico" active="historico">
+  <h1 class="text-2xl font-semibold tracking-tight">Histórico de alterações</h1>
+  <p class="mt-1 text-sm text-muted">As 100 alterações mais recentes. O dataset completo também é exportado diariamente para o GitHub.</p>
+  <ul class="mt-6 divide-y divide-line">
+    {
+      rows.map((r) => (
+        <li class="flex flex-col gap-1 py-3 text-sm sm:flex-row sm:items-center sm:gap-4">
+          <span class="tabular w-36 shrink-0 text-faint">{r.createdAt.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</span>
+          <span class="flex-1">
+            <strong>{r.author}</strong> {ACTION[r.action]}{' '}
+            {r.action === 'delete' ? <span class="font-mono">{r.holidayId}</span> : <a href={`/admin/feriados/${r.holidayId}/`} class="link font-mono">{r.holidayId}</a>}
+            {changed(r.before, r.after).length > 0 && <span class="text-faint"> — {changed(r.before, r.after).join(', ')}</span>}
+          </span>
+          {r.suggestionId && <a href={`/admin/sugestoes/${r.suggestionId}/`} class="text-xs text-muted hover:text-fg">via sugestão</a>}
+        </li>
+      ))
+    }
+  </ul>
+</AdminLayout>

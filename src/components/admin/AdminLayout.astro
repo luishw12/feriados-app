@@ -1,0 +1,79 @@
+---
+import '@/styles/global.css';
+import { count, eq } from 'drizzle-orm';
+import { getDb, isReadOnly, schema } from '@/lib/db/client';
+
+interface Props {
+  title: string;
+  active?: 'sugestoes' | 'feriados' | 'historico';
+}
+
+const { title, active } = Astro.props;
+const admin = Astro.locals.admin;
+const [pending] = admin
+  ? await getDb().select({ n: count() }).from(schema.suggestions).where(eq(schema.suggestions.status, 'pending'))
+  : [{ n: 0 }];
+const nav = [
+  { key: 'sugestoes', href: '/admin/sugestoes/', label: 'Sugestões', badge: pending?.n ?? 0 },
+  { key: 'feriados', href: '/admin/feriados/', label: 'Feriados', badge: 0 },
+  { key: 'historico', href: '/admin/historico/', label: 'Histórico', badge: 0 },
+];
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{title} · Painel Feriados Brasil</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script is:inline>
+      try {
+        const t = localStorage.getItem('theme');
+        document.documentElement.classList.toggle('dark', t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches);
+      } catch {}
+    </script>
+  </head>
+  <body class="min-h-dvh">
+    {
+      admin && (
+        <header class="sticky top-0 z-20 border-b border-line bg-bg/90 backdrop-blur">
+          <div class="mx-auto flex h-14 max-w-6xl items-center gap-2 px-4">
+            <a href="/admin/" class="mr-3 font-semibold">
+              Painel
+            </a>
+            <nav class="flex gap-1 overflow-x-auto">
+              {nav.map((n) => (
+                <a
+                  href={n.href}
+                  class:list={['flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm whitespace-nowrap', active === n.key ? 'bg-subtle text-fg' : 'text-muted hover:text-fg']}
+                >
+                  {n.label}
+                  {n.badge > 0 && <span class="tabular rounded-full bg-fg px-1.5 text-xs text-bg">{n.badge}</span>}
+                </a>
+              ))}
+            </nav>
+            <div class="ml-auto flex items-center gap-3 text-sm">
+              <a href="/" class="hidden text-muted hover:text-fg sm:inline">Ver site ↗</a>
+              {admin.avatarUrl && <img src={admin.avatarUrl} alt="" width="24" height="24" class="size-6 rounded-full" />}
+              <form method="post" action="/admin/auth/logout/">
+                <button class="text-muted hover:text-fg">Sair</button>
+              </form>
+            </div>
+          </div>
+        </header>
+      )
+    }
+    {
+      isReadOnly && (
+        <p class="bg-[var(--color-warn-soft)] px-4 py-2 text-center text-sm text-[var(--color-warn)]">
+          Banco em modo somente leitura (TURSO_DATABASE_URL não configurado). Alterações não serão salvas.
+        </p>
+      )
+    }
+    <main class="mx-auto max-w-6xl px-4 py-8">
+      <slot />
+    </main>
+  </body>
+</html>

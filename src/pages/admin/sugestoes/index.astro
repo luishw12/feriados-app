@@ -1,0 +1,91 @@
+---
+import AdminLayout from '@/components/admin/AdminLayout.astro';
+import { and, count, desc, eq, type SQL } from 'drizzle-orm';
+import { getDb, schema } from '@/lib/db/client';
+import { SUGGESTION_STATUSES, type SuggestionStatus } from '@/lib/db/schema';
+import { SUGGESTION_TYPE_LABEL } from '@/lib/server/suggestions';
+import { describeRule } from '@/lib/holidays/rules';
+
+const STATUS_TABS: Record<SuggestionStatus, string> = { pending: 'Pendentes', approved: 'Aprovadas', rejected: 'Rejeitadas', spam: 'Spam' };
+const status = (SUGGESTION_STATUSES as readonly string[]).includes(Astro.url.searchParams.get('status') ?? '')
+  ? (Astro.url.searchParams.get('status') as SuggestionStatus)
+  : 'pending';
+const uf = Astro.url.searchParams.get('uf')?.toUpperCase() ?? '';
+
+const db = getDb();
+const where: SQL[] = [eq(schema.suggestions.status, status)];
+if (/^[A-Z]{2}$/.test(uf)) where.push(eq(schema.suggestions.uf, uf));
+const [rows, counts] = await Promise.all([
+  db
+    .select({
+      s: schema.suggestions,
+      holidayName: schema.holidays.name,
+      cityName: schema.municipalities.name,
+    })
+    .from(schema.suggestions)
+    .leftJoin(schema.holidays, eq(schema.suggestions.holidayId, schema.holidays.id))
+    .leftJoin(schema.municipalities, eq(schema.suggestions.ibge, schema.municipalities.ibge))
+    .where(and(...where))
+    .orderBy(status === 'pending' ? schema.suggestions.createdAt : desc(schema.suggestions.createdAt))
+    .limit(100),
+  db.select({ status: schema.suggestions.status, n: count() }).from(schema.suggestions).groupBy(schema.suggestions.status),
+]);
+const countOf = (s: string) => counts.find((c) => c.status === s)?.n ?? 0;
+const ago = (d: Date) => {
+  const min = Math.round((Date.now() - d.getTime()) / 60000);
+  if (min < 60) return `${min} min`;
+  if (min < 1440) return `${Math.round(min / 60)} h`;
+  return `${Math.round(min / 1440)} d`;
+};
+---
+
+<AdminLayout title="Sugestões" active="sugestoes">
+  <div class="flex flex-wrap items-end justify-between gap-4">
+    <h1 class="text-2xl font-semibold tracking-tight">Sugestões</h1>
+    <form class="flex gap-2">
+      <input type="hidden" name="status" value={status} />
+      <input name="uf" value={uf} class="input w-20" placeholder="UF" maxlength="2" aria-label="Filtrar por UF" />
+      <button class="btn">Filtrar</button>
+    </form>
+  </div>
+  <nav class="mt-6 flex gap-1 border-b border-line">
+    {
+      Object.entries(STATUS_TABS).map(([key, label]) => (
+        <a
+          href={`?status=${key}`}
+          class:list={['-mb-px border-b-2 px-3 py-2 text-sm', status === key ? 'border-fg font-medium' : 'border-transparent text-muted hover:text-fg']}
+        >
+          {label} <span class="tabular text-faint">{countOf(key)}</span>
+        </a>
+      ))
+    }
+  </nav>
+
+  {rows.length === 0 && <p class="mt-10 text-center text-muted">Nada por aqui. 🎉</p>}
+  <ul class="mt-4 divide-y divide-line">
+    {
+      rows.map(({ s, holidayName, cityName }) => (
+        <li>
+          <a href={`/admin/sugestoes/${s.id}/`} class="flex flex-col gap-1 rounded-xl px-3 py-3 hover:bg-subtle sm:flex-row sm:items-center sm:gap-4">
+            <span class="chip w-fit bg-subtle text-muted">{SUGGESTION_TYPE_LABEL[s.type]}</span>
+            <span class="min-w-0 flex-1">
+              <span class="block truncate font-medium">
+                {holidayName ?? s.payload.name ?? '(sem nome)'}
+                {s.payload.rule && <span class="font-normal text-faint"> · {describeRule(s.payload.rule)}</span>}
+              </span>
+              <span class="block truncate text-sm text-muted">
+                {cityName ? `${cityName} (${s.uf})` : s.uf ?? s.payload.placeText ?? 'Brasil'}
+                {s.message && ` — ${s.message}`}
+              </span>
+            </span>
+            <span class="flex shrink-0 items-center gap-3 text-xs text-faint">
+              {s.sourceUrl && <span title="Tem fonte">🔗 fonte</span>}
+              {s.contributorName && <span>{s.contributorName}</span>}
+              <span>{ago(s.createdAt)}</span>
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</AdminLayout>

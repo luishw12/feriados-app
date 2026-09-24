@@ -1,0 +1,150 @@
+---
+import AdminLayout from '@/components/admin/AdminLayout.astro';
+import HolidayFields from '@/components/admin/HolidayFields.astro';
+import { asc, desc, eq } from 'drizzle-orm';
+import { getDb, schema } from '@/lib/db/client';
+import { getHoliday } from '@/lib/data';
+import { deleteHoliday, parseHolidayForm, removeOverride, saveHoliday, setOverride, suggestId, type HolidayForm } from '@/lib/server/moderation';
+import { paths } from '@/lib/site';
+
+const admin = Astro.locals.admin!;
+const id = Astro.params.id ?? '';
+const creating = id === 'novo';
+let holiday = creating ? null : await getHoliday(id);
+if (!creating && !holiday) return Astro.redirect('/admin/feriados/');
+
+let error = '';
+let saved = Astro.url.searchParams.get('salvo') === '1';
+let draft: HolidayForm | null = null;
+if (Astro.request.method === 'POST') {
+  const form = await Astro.request.formData();
+  const action = String(form.get('action') ?? 'save');
+  try {
+    if (action === 'delete' && holiday) {
+      await deleteHoliday(Astro, admin, holiday.id);
+      return Astro.redirect('/admin/feriados/');
+    }
+    if (action === 'override' && holiday) {
+      const year = Number(form.get('year'));
+      const date = String(form.get('date') ?? '').trim();
+      if (!(year >= 2000 && year <= 2100) || (date && !/^\d{2}-\d{2}$/.test(date))) error = 'Override inválido: ano e data MM-DD (vazio = não ocorre)';
+      else {
+        await setOverride(Astro, admin, holiday.id, year, date || null, String(form.get('note') ?? '').slice(0, 120));
+        return Astro.redirect(`/admin/feriados/${holiday.id}/?salvo=1`);
+      }
+    }
+    if (action === 'remove-override' && holiday) {
+      await removeOverride(Astro, holiday.id, Number(form.get('overrideId')));
+      return Astro.redirect(`/admin/feriados/${holiday.id}/?salvo=1`);
+    }
+    if (action === 'save') {
+      const parsed = await parseHolidayForm(form);
+      if ('error' in parsed) error = parsed.error;
+      else {
+        if (creating) {
+          parsed.value.id ||= await suggestId(parsed.value.name, parsed.value.scope, parsed.value.uf, parsed.value.ibge);
+          if (await getHoliday(parsed.value.id)) {
+            error = `Já existe um feriado com o ID “${parsed.value.id}”`;
+            draft = parsed.value;
+          }
+        } else parsed.value.id = holiday!.id;
+        if (!error) {
+          const result = await saveHoliday(Astro, admin, parsed.value);
+          return Astro.redirect(`/admin/feriados/${result.id}/?salvo=1`);
+        }
+      }
+    }
+  } catch (e) {
+    error = e instanceof Error ? e.message : 'Erro ao salvar';
+  }
+  saved = false;
+}
+
+const value: HolidayForm = draft ??
+  (holiday
+    ? { ...holiday }
+    : { id: '', name: '', scope: 'municipal', uf: null, ibge: null, kind: 'feriado', rule: 'fixed:01-01', validFrom: null, validTo: null, categories: [], summary: '', body: '', legalBasis: '', sourceUrl: '', status: 'verified' });
+
+const db = getDb();
+const [overrides, history] = holiday
+  ? await Promise.all([
+      db.select().from(schema.holidayOverrides).where(eq(schema.holidayOverrides.holidayId, holiday.id)).orderBy(asc(schema.holidayOverrides.year)),
+      db.select().from(schema.revisions).where(eq(schema.revisions.holidayId, holiday.id)).orderBy(desc(schema.revisions.createdAt)).limit(20),
+    ])
+  : [[], []];
+holiday = holiday ?? null;
+---
+
+<AdminLayout title={holiday?.name ?? 'Novo feriado'} active="feriados">
+  <a href="/admin/feriados/" class="text-sm text-muted hover:text-fg">← Feriados</a>
+  <div class="mt-3 flex flex-wrap items-center justify-between gap-3">
+    <h1 class="text-2xl font-semibold tracking-tight">{holiday?.name ?? 'Novo feriado'}</h1>
+    {holiday && <a href={paths.holiday(holiday.id)} target="_blank" class="btn">Ver no site ↗</a>}
+  </div>
+  {saved && <p class="mt-4 rounded-xl bg-[var(--color-municipal-soft)] px-3 py-2 text-sm text-[var(--color-municipal)]">Salvo e publicado. O cache das páginas afetadas foi invalidado.</p>}
+  {error && <p class="mt-4 rounded-xl bg-[var(--color-warn-soft)] px-3 py-2 text-sm text-[var(--color-warn)]">{error}</p>}
+
+  <form method="post" class="card mt-6 space-y-5 p-5">
+    <HolidayFields value={value} idEditable={creating} />
+    <div class="flex flex-wrap justify-between gap-2">
+      <button name="action" value="save" class="btn-primary">{creating ? 'Criar e publicar' : 'Salvar e publicar'}</button>
+      {
+        holiday && (
+          <button name="action" value="delete" class="btn text-[var(--color-warn)]" formnovalidate onclick="return confirm('Remover este feriado do site?')">
+            Remover feriado
+          </button>
+        )
+      }
+    </div>
+  </form>
+
+  {
+    holiday && (
+      <div class="mt-8 grid gap-6 lg:grid-cols-2">
+        <section class="card p-5">
+          <h2 class="font-semibold">Exceções por ano</h2>
+          <p class="mt-1 text-sm text-muted">Quando a data é transferida ou o feriado não acontece num ano específico.</p>
+          <ul class="mt-3 divide-y divide-line text-sm">
+            {overrides.map((o) => (
+              <li class="flex items-center justify-between gap-3 py-2">
+                <span>
+                  <strong>{o.year}</strong>: {o.date ?? 'não ocorre'} {o.note && <span class="text-faint">— {o.note}</span>}
+                </span>
+                <form method="post">
+                  <input type="hidden" name="overrideId" value={o.id} />
+                  <button name="action" value="remove-override" class="text-xs text-faint hover:text-fg">
+                    remover
+                  </button>
+                </form>
+              </li>
+            ))}
+          </ul>
+          <form method="post" class="mt-3 grid grid-cols-[5rem_6rem_1fr_auto] gap-2">
+            <input name="year" class="input" placeholder="Ano" inputmode="numeric" required />
+            <input name="date" class="input font-mono" placeholder="MM-DD" />
+            <input name="note" class="input" placeholder="Motivo (ex.: transferido por decreto)" />
+            <button name="action" value="override" class="btn">
+              Salvar
+            </button>
+          </form>
+        </section>
+        <section class="card p-5">
+          <h2 class="font-semibold">Histórico</h2>
+          {history.length === 0 && <p class="mt-2 text-sm text-muted">Sem alterações desde a importação.</p>}
+          <ul class="mt-3 space-y-2 text-sm">
+            {history.map((r) => (
+              <li>
+                <span class="text-faint">{r.createdAt.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</span> · {r.action} por <strong>{r.author}</strong>
+                {r.suggestionId && (
+                  <a href={`/admin/sugestoes/${r.suggestionId}/`} class="link ml-1">
+                    (sugestão)
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
+    )
+  }
+</AdminLayout>

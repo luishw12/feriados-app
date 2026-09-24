@@ -76,7 +76,8 @@ export default function SearchDialog() {
         </svg>
         <input
           ref={input}
-          type="search"
+          type="text"
+          enterKeyHint="search"
           value={query}
           onInput={(e) => {
             setQuery(e.currentTarget.value);

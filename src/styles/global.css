@@ -109,10 +109,10 @@
   @apply text-xs font-semibold uppercase tracking-wider text-faint;
 }
 @utility btn {
-  @apply inline-flex items-center justify-center gap-2 rounded-full border border-line bg-surface px-4 py-2 text-sm font-medium text-fg transition-colors hover:bg-subtle disabled:opacity-50;
+  @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full border border-line bg-surface px-4 py-2 text-sm font-medium text-fg transition-colors hover:bg-subtle disabled:opacity-50;
 }
 @utility btn-primary {
-  @apply inline-flex items-center justify-center gap-2 rounded-full bg-fg px-4 py-2 text-sm font-medium text-bg transition-opacity hover:opacity-85 disabled:cursor-not-allowed disabled:opacity-40;
+  @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full bg-fg px-4 py-2 text-sm font-medium text-bg transition-opacity hover:opacity-85 disabled:cursor-not-allowed disabled:opacity-40;
 }
 @utility chip {
   @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium whitespace-nowrap;

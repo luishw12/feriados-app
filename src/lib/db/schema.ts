@@ -91,9 +91,10 @@ export interface SuggestionPayload {
   name?: string;
   rule?: string;
   kind?: Kind;
-  scope?: Scope;
-  summary?: string;
-  legalBasis?: string;
+  /** Texto livre de lugar quando a sugestão veio de uma página sem contexto. */
+  placeText?: string;
+  /** Página em que a pessoa estava ao sugerir. */
+  page?: string;
 }
 
 export const suggestions = sqliteTable(
