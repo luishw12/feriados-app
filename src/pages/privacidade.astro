@@ -8,17 +8,24 @@ cachePage(Astro, ['about']);
 
 <PageShell
   title="Privacidade"
-  description="Como o Feriados Brasil trata dados pessoais (LGPD): sem cookies de rastreamento; dados de sugestões usados só para moderação."
+  description="Como o Feriados Brasil trata dados pessoais (LGPD): análise com Google Analytics só com seu consentimento; dados de sugestões usados só para moderação."
   path={paths.privacy()}
   h1="Privacidade"
-  lead="Resumo: não usamos cookies de rastreamento nem vendemos dados. Só guardamos o necessário para moderar sugestões."
+  lead="Resumo: não usamos cookies de publicidade nem vendemos dados. Cookies de análise só com seu consentimento, e guardamos apenas o necessário para moderar sugestões."
   wide={false}
 >
   <div class="space-y-5 text-sm leading-relaxed text-muted">
     <h2 class="text-lg font-semibold text-fg">Navegação</h2>
     <p>
-      O site não usa cookies de publicidade ou rastreamento. Preferências como tema (claro/escuro) e a última cidade visitada ficam só no seu navegador
-      (localStorage). Para sugerir sua cidade, o servidor lê a localização aproximada do seu IP fornecida pela hospedagem (Vercel), sem armazená-la.
+      O site não usa cookies de publicidade. Preferências como tema (claro/escuro), a última cidade visitada e sua escolha sobre cookies ficam só no seu
+      navegador (localStorage). Para sugerir sua cidade, o servidor lê a localização aproximada do seu IP fornecida pela hospedagem (Vercel), sem armazená-la.
+    </p>
+    <h2 class="text-lg font-semibold text-fg">Cookies de análise</h2>
+    <p>
+      Se você aceitar no aviso de cookies, carregamos o Google Analytics 4 para medir de forma agregada quais páginas são visitadas, de onde vêm as visitas
+      e o que é usado (busca, sugestões, calendários), e assim decidir o que melhorar. Sem o seu aceite nenhum script de análise é carregado. Os dados são
+      tratados pelo Google conforme a <a href="https://policies.google.com/privacy" class="underline" rel="noopener">política de privacidade dele</a>. Você
+      pode mudar de ideia a qualquer momento em <button type="button" class="underline" data-reset-consent>preferências de cookies</button> (também no rodapé).
     </p>
     <h2 class="text-lg font-semibold text-fg">Sugestões</h2>
     <p>

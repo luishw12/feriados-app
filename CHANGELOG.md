@@ -8,7 +8,7 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
-## [2.1.0-beta] - 2026-09-24
+## [2.2.0-beta] - 2026-09-24
 
 Formulários redesenhados: calendário para escolher a data, busca de cidade e estado nas sugestões e no painel, e campos mais claros em todo o site.
 
@@ -24,6 +24,20 @@ Formulários redesenhados: calendário para escolher a data, busca de cidade e e
 - Novo visual para campos, seletores, caixas de marcação e grupos de opções em todo o site
 - Formulário de sugestão com mensagens de erro em cada campo e carregado só quando é aberto, deixando as páginas mais leves
 - Exceções por ano no painel usam o calendário e a opção “Não ocorre neste ano”
+
+## [2.1.0-beta] - 2026-09-24
+
+Volta do Google Analytics 4, carregado só com consentimento, para acompanhar o alcance do site.
+
+### Adicionado
+
+- Google Analytics 4 com aviso de cookies (LGPD): nada é carregado sem o seu aceite
+- Link "Preferências de cookies" no rodapé e na página de privacidade para mudar a escolha
+- Métricas por tipo de página (cidade, estado, feriado) e de uso da busca, das sugestões e dos calendários
+
+### Alterado
+
+- Política de privacidade atualizada com a seção de cookies de análise
 
 ## [2.0.0-beta] - 2026-09-24
 

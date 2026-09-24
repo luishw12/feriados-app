@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
+import { track } from '@/lib/analytics';
 import { describeRule } from '@/lib/holidays/rules';
 import { EASTER_PRESETS } from '@/lib/holidays/rule-parts';
 import DayMonthPicker from './form/DayMonthPicker';
@@ -169,6 +170,7 @@ export default function SuggestForm({ ctx, turnstileSiteKey }: { ctx: SuggestCon
       }),
     }).catch(() => null);
     if (response?.ok) {
+      track('suggestion_submit', { suggestion_type: kind });
       setState('done');
       return;
     }

@@ -95,7 +95,7 @@ tests/              unit (Vitest) e e2e (Playwright)
 2. **Login do painel:** crie um [GitHub OAuth App](https://github.com/settings/developers) com callback `https://SEU-DOMINIO/admin/auth/callback/`
 3. **Anti-spam:** crie um widget no [Cloudflare Turnstile](https://dash.cloudflare.com/?to=/:account/turnstile) para o domínio
 4. **E-mail:** crie uma chave no [Resend](https://resend.com) e verifique o domínio do remetente
-5. Configure as variáveis na Vercel (veja [`.env.example`](.env.example)): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET`, `ADMIN_GITHUB_LOGINS`, `SESSION_SECRET`, `PUBLIC_TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET_KEY`, `RESEND_API_KEY`, `ADMIN_EMAIL`, `EMAIL_FROM`, `INDEXNOW_KEY`, `PUBLIC_SITE_URL`
+5. Configure as variáveis na Vercel (veja [`.env.example`](.env.example)): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET`, `ADMIN_GITHUB_LOGINS`, `SESSION_SECRET`, `PUBLIC_TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET_KEY`, `RESEND_API_KEY`, `ADMIN_EMAIL`, `EMAIL_FROM`, `INDEXNOW_KEY`, `PUBLIC_SITE_URL` e, opcionalmente, `PUBLIC_GA_MEASUREMENT_ID` (Google Analytics 4, carregado só após consentimento)
 6. Faça o deploy. O build aplica as migrações e, se o banco estiver vazio, carrega o seed automaticamente
 
 Sem `TURSO_DATABASE_URL` (ex.: previews), o site usa um SQLite embutido **somente leitura**: tudo funciona, exceto enviar sugestões.
