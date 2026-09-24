@@ -1,0 +1,62 @@
+---
+import PageShell from '@/components/PageShell.astro';
+import Faq from '@/components/Faq.astro';
+import BusinessDays from '@/islands/BusinessDays';
+import { cachePage } from '@/lib/cache';
+import { getNationalHolidays, toDef } from '@/lib/data';
+import { businessDays } from '@/lib/holidays/resolve';
+import { daysInMonth, monthName, todayInBrazil, toIso } from '@/lib/holidays/rules';
+import type { FaqItem } from '@/lib/pages';
+import { faqSchema } from '@/lib/seo/jsonld';
+import { currentYear, paths } from '@/lib/site';
+
+const today = todayInBrazil();
+const year = currentYear();
+const defs = (await getNationalHolidays()).map(toDef);
+const months = Array.from({ length: 12 }, (_, i) => {
+  const m = i + 1;
+  const r = businessDays(toIso(year, m, 1), toIso(year, m, daysInMonth(year, m)), defs);
+  return { month: m, days: r.businessDays, holidays: r.holidaysOnWeekdays.length };
+});
+const total = businessDays(toIso(year, 1, 1), toIso(year, 12, 31), defs).businessDays;
+const faq: FaqItem[] = [
+  { q: `Quantos dias úteis tem ${year}?`, a: `${year} tem ${total} dias úteis considerando apenas os feriados nacionais obrigatórios. Feriados estaduais e municipais reduzem esse número — escolha sua cidade na calculadora.` },
+  ...months.map((m) => ({ q: `Quantos dias úteis tem ${monthName(m.month)} de ${year}?`, a: `${monthName(m.month)[0]!.toUpperCase()}${monthName(m.month).slice(1)} de ${year} tem ${m.days} dias úteis${m.holidays ? `, já descontando ${m.holidays} feriado(s) nacional(is) em dia de semana` : ''}.` })),
+  { q: 'Sábado conta como dia útil?', a: 'Para a maioria dos cálculos (prazos bancários, entregas, contratos) não: a calculadora considera dias úteis de segunda a sexta, exceto feriados. Prazos processuais e trabalhistas podem ter regras próprias.' },
+];
+cachePage(Astro, ['national'], { maxAge: 60 * 60 * 3 });
+---
+
+<PageShell
+  title={`Calculadora de dias úteis ${year} (com feriados da sua cidade)`}
+  description={`Calcule dias úteis entre duas datas descontando fins de semana e feriados nacionais, estaduais e municipais. ${year} tem ${total} dias úteis no calendário nacional.`}
+  path={paths.businessDays()}
+  h1="Calculadora de dias úteis"
+  lead={`Conte os dias úteis entre duas datas descontando fins de semana e os feriados da sua cidade. Em ${year}, o calendário nacional tem ${total} dias úteis.`}
+  jsonLd={[faqSchema(faq)!]}
+>
+  <div class="grid gap-10 lg:grid-cols-[1.3fr_1fr]">
+    <BusinessDays client:visible today={today} />
+    <section aria-labelledby="por-mes">
+      <h2 id="por-mes" class="text-xl font-semibold tracking-tight">Dias úteis por mês em {year}</h2>
+      <p class="mt-1 text-sm text-muted">Considerando só feriados nacionais obrigatórios.</p>
+      <table class="mt-4 w-full text-sm">
+        <thead class="text-left text-xs text-faint">
+          <tr><th scope="col" class="py-2 font-medium">Mês</th><th scope="col" class="py-2 text-right font-medium">Dias úteis</th></tr>
+        </thead>
+        <tbody class="divide-y divide-line">
+          {
+            months.map((m) => (
+              <tr>
+                <td class="py-2 capitalize">{monthName(m.month)}</td>
+                <td class="tabular py-2 text-right font-medium">{m.days}</td>
+              </tr>
+            ))
+          }
+          <tr><td class="py-2 font-semibold">Total</td><td class="tabular py-2 text-right font-semibold">{total}</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+  <Faq items={faq} />
+</PageShell>

@@ -1,0 +1,283 @@
+---
+import AdminLayout from '@/components/admin/AdminLayout.astro';
+import HolidayFields from '@/components/admin/HolidayFields.astro';
+import { eq } from 'drizzle-orm';
+import { getDb, schema } from '@/lib/db/client';
+import { getCityByIbge, getHoliday, getState } from '@/lib/data';
+import { describeRule } from '@/lib/holidays/rules';
+import { closeSuggestion, deleteHoliday, parseHolidayForm, saveHoliday, suggestId, type HolidayForm } from '@/lib/server/moderation';
+import { SUGGESTION_TYPE_LABEL } from '@/lib/server/suggestions';
+import { KIND_LABEL, paths, placeLabel } from '@/lib/site';
+
+const admin = Astro.locals.admin!;
+const db = getDb();
+const [suggestion] = await db.select().from(schema.suggestions).where(eq(schema.suggestions.id, Astro.params.id ?? '')).limit(1);
+if (!suggestion) return Astro.redirect('/admin/sugestoes/');
+
+let error = '';
+if (Astro.request.method === 'POST') {
+  const form = await Astro.request.formData();
+  const action = String(form.get('action') ?? '');
+  const note = String(form.get('note') ?? '').trim().slice(0, 500);
+  try {
+    if (action === 'reject' || action === 'spam') {
+      await closeSuggestion(Astro, admin, suggestion, action === 'reject' ? 'rejected' : 'spam', note);
+      return Astro.redirect('/admin/sugestoes/?ok=1');
+    }
+    if (action === 'resolve') {
+      await closeSuggestion(Astro, admin, suggestion, 'approved', note, suggestion.holidayId ?? undefined);
+      return Astro.redirect('/admin/sugestoes/?ok=1');
+    }
+    if (action === 'delete' && suggestion.holidayId) {
+      await deleteHoliday(Astro, admin, suggestion.holidayId, suggestion.id);
+      await closeSuggestion(Astro, admin, suggestion, 'approved', note);
+      return Astro.redirect('/admin/sugestoes/?ok=1');
+    }
+    if (action === 'approve') {
+      const parsed = await parseHolidayForm(form);
+      if ('error' in parsed) error = parsed.error;
+      else {
+        if (!parsed.value.id) parsed.value.id = await suggestId(parsed.value.name, parsed.value.scope, parsed.value.uf, parsed.value.ibge);
+        const saved = await saveHoliday(Astro, admin, parsed.value, suggestion.id);
+        await closeSuggestion(Astro, admin, suggestion, 'approved', note, saved.id);
+        return Astro.redirect('/admin/sugestoes/?ok=1');
+      }
+    }
+  } catch (e) {
+    error = e instanceof Error ? e.message : 'Erro ao salvar';
+  }
+}
+
+const holiday = suggestion.holidayId ? await getHoliday(suggestion.holidayId) : null;
+const city = suggestion.ibge ? await getCityByIbge(suggestion.ibge) : null;
+const state = suggestion.uf ? await getState(suggestion.uf) : null;
+const p = suggestion.payload;
+
+let value: HolidayForm;
+if (holiday) {
+  value = {
+    id: holiday.id,
+    name: p.name ?? holiday.name,
+    scope: holiday.scope,
+    uf: holiday.uf,
+    ibge: holiday.ibge,
+    kind: p.kind ?? holiday.kind,
+    rule: p.rule ?? holiday.rule,
+    validFrom: holiday.validFrom,
+    validTo: holiday.validTo,
+    categories: holiday.categories,
+    summary: holiday.summary,
+    body: holiday.body,
+    legalBasis: holiday.legalBasis,
+    sourceUrl: holiday.sourceUrl || suggestion.sourceUrl,
+    status: holiday.status === 'incomplete' && p.name ? 'unverified' : holiday.status,
+  };
+} else {
+  const scope = city ? 'municipal' : state ? 'state' : 'national';
+  value = {
+    id: p.name ? await suggestId(p.name, scope, state?.uf ?? null, city?.ibge ?? null) : '',
+    name: p.name ?? '',
+    scope,
+    uf: state?.uf ?? null,
+    ibge: city?.ibge ?? null,
+    kind: p.kind ?? 'feriado',
+    rule: p.rule ?? '',
+    validFrom: null,
+    validTo: null,
+    categories: [],
+    summary: '',
+    body: '',
+    legalBasis: '',
+    sourceUrl: suggestion.sourceUrl,
+    status: 'unverified',
+  };
+}
+
+const diff = holiday
+  ? [
+      { field: 'Nome', before: holiday.name, after: p.name },
+      { field: 'Data', before: describeRule(holiday.rule), after: p.rule ? describeRule(p.rule) : undefined },
+      { field: 'Tipo', before: KIND_LABEL[holiday.kind], after: p.kind ? KIND_LABEL[p.kind] : undefined },
+    ]
+  : [];
+const closed = suggestion.status !== 'pending';
+const place = placeLabel({ state, city });
+---
+
+<AdminLayout title={`Sugestão ${suggestion.id}`} active="sugestoes">
+  <a href="/admin/sugestoes/" class="text-sm text-muted hover:text-fg">← Sugestões</a>
+  <div class="mt-3 flex flex-wrap items-center gap-3">
+    <h1 class="text-2xl font-semibold tracking-tight">{SUGGESTION_TYPE_LABEL[suggestion.type]}: {holiday?.name ?? p.name ?? '(sem nome)'}</h1>
+    {closed && <span class="chip bg-subtle text-muted">{suggestion.status} por {suggestion.reviewedBy}</span>}
+  </div>
+  <p class="mt-1 text-muted">
+    {place}{p.placeText && ` · lugar informado: “${p.placeText}”`}
+  </p>
+
+  {error && <p class="mt-4 rounded-xl bg-[var(--color-warn-soft)] px-3 py-2 text-sm text-[var(--color-warn)]">{error}</p>}
+
+  <div class="mt-6 grid gap-6 lg:grid-cols-[1fr_20rem]">
+    <div class="space-y-6">
+      {
+        suggestion.message && (
+          <blockquote class="card whitespace-pre-line p-4 text-sm">
+            <p class="eyebrow mb-1">Mensagem</p>
+            {suggestion.message}
+          </blockquote>
+        )
+      }
+
+      {
+        diff.length > 0 && (
+          <div class="card overflow-hidden">
+            <table class="w-full text-sm">
+              <thead class="border-b border-line text-left text-xs text-faint">
+                <tr>
+                  <th class="px-4 py-2 font-medium">Campo</th>
+                  <th class="px-4 py-2 font-medium">Atual</th>
+                  <th class="px-4 py-2 font-medium">Proposto</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-line">
+                {diff.map((d) => (
+                  <tr class:list={[d.after !== undefined && d.after !== d.before && 'bg-[var(--color-municipal-soft)]']}>
+                    <td class="px-4 py-2 text-muted">{d.field}</td>
+                    <td class:list={['px-4 py-2', d.after !== undefined && d.after !== d.before && 'line-through text-faint']}>{d.before}</td>
+                    <td class="px-4 py-2 font-medium">{d.after ?? <span class="font-normal text-faint">sem mudança</span>}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )
+      }
+
+      {
+        !closed && suggestion.type !== 'remove' && (
+          <form method="post" class="card space-y-5 p-5">
+            <p class="font-medium">{holiday ? 'Revise e aprove a correção' : 'Revise e crie o feriado'}</p>
+            <HolidayFields value={value} idEditable={!holiday} />
+            <label class="block">
+              <span class="mb-1 block text-xs font-medium text-muted">Nota para quem sugeriu (opcional, vai por e-mail)</span>
+              <input name="note" class="input" maxlength="500" />
+            </label>
+            <div class="flex flex-wrap gap-2">
+              <button name="action" value="approve" class="btn-primary">
+                Aprovar e publicar
+              </button>
+              {suggestion.type === 'other' && (
+                <button name="action" value="resolve" class="btn" formnovalidate>
+                  Marcar como resolvida (sem alterar dados)
+                </button>
+              )}
+              <button name="action" value="reject" class="btn" formnovalidate>
+                Rejeitar
+              </button>
+              <button name="action" value="spam" class="btn" formnovalidate>
+                Spam
+              </button>
+            </div>
+          </form>
+        )
+      }
+
+      {
+        !closed && suggestion.type === 'remove' && (
+          <form method="post" class="card space-y-4 p-5">
+            <p class="font-medium">Remover “{holiday?.name}” do site?</p>
+            <p class="text-sm text-muted">A página antiga passa a redirecionar para {place}.</p>
+            <input name="note" class="input" placeholder="Nota (opcional)" maxlength="500" />
+            <div class="flex flex-wrap gap-2">
+              <button name="action" value="delete" class="btn-primary">
+                Aprovar remoção
+              </button>
+              <button name="action" value="reject" class="btn">
+                Rejeitar
+              </button>
+              <button name="action" value="spam" class="btn">
+                Spam
+              </button>
+            </div>
+          </form>
+        )
+      }
+    </div>
+
+    <aside class="space-y-4 text-sm">
+      <dl class="card divide-y divide-line">
+        <div class="px-4 py-3">
+          <dt class="text-xs text-faint">Enviada em</dt>
+          <dd>{suggestion.createdAt.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</dd>
+        </div>
+        {
+          suggestion.sourceUrl && (
+            <div class="px-4 py-3">
+              <dt class="text-xs text-faint">Fonte</dt>
+              <dd class="break-all">
+                <a href={suggestion.sourceUrl} class="link" target="_blank" rel="noopener noreferrer">
+                  {suggestion.sourceUrl}
+                </a>
+              </dd>
+            </div>
+          )
+        }
+        <div class="px-4 py-3">
+          <dt class="text-xs text-faint">Contribuidor</dt>
+          <dd>
+            {suggestion.contributorName ?? 'anônimo'}
+            {suggestion.contributorLink && (
+              <a href={suggestion.contributorLink} class="link ml-1" target="_blank" rel="noopener noreferrer">
+                perfil
+              </a>
+            )}
+            {suggestion.contributorEmail && <span class="block text-xs text-faint">receberá e-mail</span>}
+          </dd>
+        </div>
+        {
+          holiday && (
+            <div class="px-4 py-3">
+              <dt class="text-xs text-faint">Página atual</dt>
+              <dd>
+                <a href={paths.holiday(holiday.id)} class="link" target="_blank">
+                  /feriado/{holiday.id}/
+                </a>
+              </dd>
+            </div>
+          )
+        }
+        {
+          city && state && (
+            <div class="px-4 py-3">
+              <dt class="text-xs text-faint">Cidade</dt>
+              <dd>
+                <a href={paths.city(state.uf, city.slug)} class="link" target="_blank">
+                  {city.name} ({state.uf})
+                </a>{' '}
+                <span class="font-mono text-xs text-faint">{city.ibge}</span>
+              </dd>
+            </div>
+          )
+        }
+        {
+          p.page && (
+            <div class="px-4 py-3">
+              <dt class="text-xs text-faint">Enviada a partir de</dt>
+              <dd class="break-all font-mono text-xs">{p.page}</dd>
+            </div>
+          )
+        }
+        {
+          closed && suggestion.reviewNote && (
+            <div class="px-4 py-3">
+              <dt class="text-xs text-faint">Nota da revisão</dt>
+              <dd>{suggestion.reviewNote}</dd>
+            </div>
+          )
+        }
+      </dl>
+      <p class="text-xs text-faint">
+        Dica: pesquise “feriado municipal {city?.name ?? ''} lei” para conferir. Com fonte oficial, marque o status como “Verificado”.
+      </p>
+    </aside>
+  </div>
+</AdminLayout>

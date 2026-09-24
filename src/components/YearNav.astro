@@ -1,0 +1,28 @@
+---
+import { featuredYears } from '@/lib/site';
+
+interface Props {
+  current: number;
+  href: (year: number) => string;
+}
+
+const { current, href } = Astro.props;
+const years = [...new Set([...featuredYears(), current])].sort();
+---
+
+<nav aria-label="Escolher ano" class="flex flex-wrap gap-1.5">
+  {
+    years.map((y) => (
+      <a
+        href={href(y)}
+        class:list={[
+          'tabular rounded-full border px-3 py-1 text-sm transition-colors',
+          y === current ? 'border-fg bg-fg text-bg' : 'border-line text-muted hover:border-line-strong hover:text-fg',
+        ]}
+        aria-current={y === current ? 'page' : undefined}
+      >
+        {y}
+      </a>
+    ))
+  }
+</nav>

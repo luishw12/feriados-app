@@ -1,153 +1,54 @@
 ---
-import BaseLayout from '@/layouts/BaseLayout.astro';
-import AboutAuthorCard from '@/components/about/AboutAuthorCard.astro';
-import AboutFeatures from '@/components/about/AboutFeatures.astro';
-import AboutLinks from '@/components/about/AboutLinks.astro';
-import AboutStats from '@/components/about/AboutStats.astro';
-import ContributeCTA from '@/components/layout/ContributeCTA.astro';
-import FaqSection from '@/components/guide/FaqSection.astro';
-import { getAboutMeta } from '@/lib/seo';
-import { buildAboutPageSchema } from '@/lib/schema';
-import { getSiteUrl } from '@/lib/site-url';
-import { getAboutFaqItems, ABOUT_USEFUL_LINKS, ABOUT_FEATURES } from '@/lib/about-content';
-import {
-  getAllStates,
-  getAllMunicipalities,
-  getAllHolidayDefinitions,
-} from '@/lib/holidays';
-import { getAllArticles } from '@/lib/articles';
-import { GUIDE_PAGES } from '@/lib/search-intents';
+import PageShell from '@/components/PageShell.astro';
+import Icon from '@/components/Icon.astro';
+import { cachePage } from '@/lib/cache';
+import { AUTHOR, REPO_URL, paths } from '@/lib/site';
 
-const meta = getAboutMeta();
-const authorName = import.meta.env.PUBLIC_AUTHOR_NAME ?? 'Luís Henrique Wendt';
-const linkedinUrl = import.meta.env.PUBLIC_LINKEDIN_URL ?? 'https://linkedin.com/in/luishw';
-const githubUrl = import.meta.env.PUBLIC_GITHUB_URL ?? 'https://github.com/luishw12/feriados-app';
-const siteUrl = getSiteUrl(Astro.site);
-const faqItems = getAboutFaqItems(siteUrl, githubUrl);
-const jsonLd = buildAboutPageSchema(siteUrl, authorName, meta.title, meta.description, faqItems);
-
-const stats = [
-  { value: getAllStates().length, label: 'Estados brasileiros' },
-  { value: getAllMunicipalities().length, label: 'Cidades catalogadas' },
-  { value: getAllHolidayDefinitions().length, label: 'Feriados no catálogo' },
-  { value: getAllArticles().length, label: 'Artigos educativos' },
-];
-
-const usefulLinks = [
-  ...ABOUT_USEFUL_LINKS,
-  {
-    href: githubUrl,
-    title: 'Repositório MIT',
-    description: 'Código-fonte, issues e pull requests no GitHub.',
-    external: true,
-  },
-];
+cachePage(Astro, ['about']);
 ---
 
-<BaseLayout
-  title={meta.title}
-  description={meta.description}
-  canonical={meta.canonical}
-  jsonLd={jsonLd}
+<PageShell
+  title="Sobre o Feriados Brasil"
+  description="O Feriados Brasil reúne os feriados nacionais, estaduais e municipais dos 5.571 municípios em um site rápido, aberto e mantido pela comunidade."
+  path={paths.about()}
+  h1="Sobre o projeto"
+  lead="Um lugar só para saber, com confiança, quando é feriado em qualquer cidade do Brasil."
+  crumbName="Sobre"
+  wide={false}
 >
-  <div class="page-shell">
-    <nav class="mb-10 text-sm text-neutral-500 dark:text-neutral-400" aria-label="Breadcrumb">
-      <ol class="flex flex-wrap items-center gap-2">
-        <li>
-          <a
-            href="/"
-            class="transition-colors duration-150 hover:text-emerald-600 dark:hover:text-emerald-400"
-          >
-            Início
-          </a>
-        </li>
-        <li aria-hidden="true">/</li>
-        <li><span class="text-neutral-700 dark:text-neutral-300">Sobre</span></li>
-      </ol>
-    </nav>
+  <div class="space-y-5 leading-relaxed text-muted">
+    <p>
+      Informação sobre feriados municipais é espalhada em leis locais, sites de prefeituras e listas desatualizadas. O Feriados Brasil junta tudo num
+      lugar só: <strong class="text-fg">feriados nacionais, estaduais e municipais</strong>, pontos facultativos e datas comemorativas, com o dia da semana, as
+      emendas possíveis e a base legal.
+    </p>
+    <p>
+      Os dados começaram a partir de bases públicas e são corrigidos pela comunidade. Cada feriado mostra se já foi <strong class="text-fg">verificado</strong> com uma
+      fonte oficial — e qualquer pessoa pode sugerir uma correção. As sugestões são revisadas e, quando aprovadas, o site, a API e as agendas assinadas se atualizam na hora.
+    </p>
+    <p>
+      Tudo é aberto: o código tem licença MIT e os dados podem ser usados livremente pela <a class="link" href={paths.api()}>API gratuita</a> ou baixados do repositório.
+    </p>
+  </div>
 
-    <header
-      class="mb-14 grid w-full gap-8 sm:mb-16 sm:gap-10 lg:mb-20 lg:grid-cols-[minmax(0,1.35fr)_minmax(0,0.9fr)] lg:items-end lg:gap-14"
-    >
-      <div class="w-full min-w-0 space-y-5 sm:space-y-6">
-        <p class="text-sm font-medium tracking-wide text-emerald-700 dark:text-emerald-400">
-          Projeto open source
-        </p>
-        <h1
-          class="max-w-xl text-balance text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl sm:leading-tight dark:text-neutral-50"
-        >
-          Sobre o Feriados Brasil: calendário estático e gratuito
-        </h1>
-        <p class="max-w-xl text-base leading-relaxed text-neutral-600 sm:text-lg dark:text-neutral-400">
-          Feriados nacionais, estaduais e municipais versionados no repositório. O site é gerado
-          estaticamente — sem backend, sem banco e sem API em runtime.
-        </p>
-        <p class="max-w-xl text-sm leading-relaxed text-neutral-500 dark:text-neutral-400">
-          Consulte por localidade, planeje emendas e leia guias objetivos. Performance e SEO de alto
-          nível, com código aberto sob licença MIT.
-        </p>
-        <div class="flex flex-wrap items-center gap-3 pt-1">
-          <a
-            href="/"
-            class="inline-flex items-center rounded-full bg-emerald-600 px-5 py-2.5 text-sm font-medium text-white transition-colors duration-150 hover:bg-emerald-700 dark:bg-emerald-500 dark:text-neutral-950 dark:hover:bg-emerald-400"
-          >
-            Abrir calendário
-          </a>
-          <a
-            href="/guia/"
-            class="inline-flex items-center rounded-full px-4 py-2.5 text-sm font-medium text-neutral-700 transition-colors duration-150 hover:text-emerald-700 dark:text-neutral-300 dark:hover:text-emerald-300"
-          >
-            Ver guias
-            <span class="ml-1.5 text-neutral-400" aria-hidden="true">→</span>
-          </a>
-        </div>
-      </div>
-
-      <AboutStats stats={stats} />
-    </header>
-
-    <div class="mb-16 lg:mb-20">
-      <AboutFeatures items={ABOUT_FEATURES} />
+  <div class="card mt-10 flex flex-col gap-4 p-6 sm:flex-row sm:items-center sm:justify-between">
+    <div>
+      <p class="eyebrow">Criado por</p>
+      <p class="mt-1 text-lg font-semibold">{AUTHOR.name}</p>
+      <p class="text-sm text-muted">Desenvolvedor. Vamos conversar?</p>
     </div>
-
-    <div class="mb-16 lg:mb-20">
-      <AboutAuthorCard
-        authorName={authorName}
-        linkedinUrl={linkedinUrl}
-        githubUrl={githubUrl}
-      />
-    </div>
-
-    <div class="mb-16 lg:mb-20">
-      <AboutLinks items={usefulLinks} />
-    </div>
-
-    <nav class="mb-16 lg:mb-20" aria-label="Guias de feriados">
-      <h2 class="mb-4 text-xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50">
-        Guias para consulta rápida
-      </h2>
-      <ul class="flex flex-wrap gap-2">
-        {
-          GUIDE_PAGES.map((guide) => (
-            <li>
-              <a
-                href={`/guia/${guide.slug}/`}
-                class="inline-flex rounded-lg border border-neutral-200 px-3 py-1.5 text-sm text-neutral-700 transition-colors duration-150 hover:border-emerald-300 hover:text-emerald-700 dark:border-neutral-700 dark:text-neutral-200 dark:hover:border-emerald-700"
-              >
-                {guide.title}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-    </nav>
-
-    <div class="mb-16 lg:mb-20">
-      <ContributeCTA />
-    </div>
-
-    <div class="mb-4 max-w-3xl">
-      <FaqSection items={faqItems} title="Perguntas sobre o projeto" />
+    <div class="flex flex-wrap gap-2">
+      <a href={AUTHOR.linkedin} class="btn-primary" rel="author"><Icon name="linkedin" /> LinkedIn</a>
+      <a href={REPO_URL} class="btn"><Icon name="github" /> Código</a>
     </div>
   </div>
-</BaseLayout>
+
+  <section class="mt-12 space-y-3 text-sm leading-relaxed text-muted">
+    <h2 class="text-xl font-semibold tracking-tight text-fg">Créditos dos dados</h2>
+    <p>
+      Base inicial de feriados estaduais e municipais: <a class="link" href="https://github.com/joaopbini/feriados-brasil">joaopbini/feriados-brasil</a> (MIT).
+      Coordenadas dos municípios: <a class="link" href="https://github.com/kelvins/municipios-brasileiros">kelvins/municipios-brasileiros</a> (MIT). Códigos e nomes: IBGE.
+    </p>
+    <p>Feriados nacionais conforme a legislação federal (Leis nº 662/1949, 6.802/1980, 9.093/1995 e 14.759/2023) e portarias anuais do governo federal.</p>
+  </section>
+</PageShell>

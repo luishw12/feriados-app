@@ -4,24 +4,36 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  build:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
-
       - run: npm ci
-
+      # Banco SQLite local a partir de data/seed (sem segredos)
+      - run: npm run db:setup
+      - run: npm run check
+      - run: npm test
+      - run: npm run release:check
       - run: npm run build
-        env:
-          PUBLIC_SITE_URL: https://feriados.luishw.com.br
-          PUBLIC_AUTHOR_NAME: Luís Henrique Wendt
-          PUBLIC_LINKEDIN_URL: https://linkedin.com/in/luishw
-          PUBLIC_GITHUB_URL: https://github.com/luishw12/feriados-app
+
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e

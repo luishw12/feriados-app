@@ -1,0 +1,60 @@
+---
+/** Fallback sem JavaScript (e alvo do SearchAction do schema.org). */
+import PageShell from '@/components/PageShell.astro';
+import { like, or } from 'drizzle-orm';
+import { getDb, schema } from '@/lib/db/client';
+import { noCache } from '@/lib/cache';
+import { paths } from '@/lib/site';
+
+const q = (Astro.url.searchParams.get('q') ?? '').trim().slice(0, 60);
+noCache(Astro);
+const db = getDb();
+const pattern = `%${q}%`;
+const [cities, holidays] = q.length >= 2
+  ? await Promise.all([
+      db.select().from(schema.municipalities).where(like(schema.municipalities.name, pattern)).limit(30),
+      db.select().from(schema.holidays).where(or(like(schema.holidays.name, pattern), like(schema.holidays.id, pattern))).limit(30),
+    ])
+  : [[], []];
+---
+
+<PageShell title={q ? `Busca: ${q}` : 'Busca'} description="Busque feriados por cidade, estado ou nome." path="/busca/" h1={q ? `Resultados para “${q}”` : 'Buscar'} noindex wide={false}>
+  <form method="get" action="/busca/" class="flex gap-2">
+    <input name="q" value={q} class="input" placeholder="Cidade ou feriado" aria-label="Buscar" />
+    <button class="btn-primary">Buscar</button>
+  </form>
+  {
+    cities.length > 0 && (
+      <section class="mt-8">
+        <h2 class="eyebrow mb-2">Cidades</h2>
+        <ul class="space-y-1">
+          {cities.map((c) => (
+            <li>
+              <a class="link" href={paths.city(c.uf, c.slug)}>
+                {c.name} ({c.uf})
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+  {
+    holidays.length > 0 && (
+      <section class="mt-8">
+        <h2 class="eyebrow mb-2">Feriados</h2>
+        <ul class="space-y-1">
+          {holidays.map((h) => (
+            <li>
+              <a class="link" href={paths.holiday(h.id)}>
+                {h.name}
+              </a>
+              {h.uf && <span class="text-faint"> · {h.uf}</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+  {q && cities.length === 0 && holidays.length === 0 && <p class="mt-8 text-muted">Nada encontrado.</p>}
+</PageShell>

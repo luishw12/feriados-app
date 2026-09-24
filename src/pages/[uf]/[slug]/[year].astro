@@ -1,0 +1,20 @@
+---
+import ListPage from '@/components/ListPage.astro';
+import NearbyCities from '@/components/NearbyCities.astro';
+import { cachePage } from '@/lib/cache';
+import { getCity, getState } from '@/lib/data';
+import { buildListModel } from '@/lib/pages';
+import { isValidYear } from '@/lib/site';
+
+const { uf = '', slug = '', year = '' } = Astro.params;
+const state = /^[a-z]{2}$/.test(uf) ? await getState(uf) : null;
+const city = state && isValidYear(year) ? await getCity(state.uf, slug) : null;
+if (!state || !city) return Astro.rewrite('/404/');
+
+const model = await buildListModel({ type: 'city', year: Number(year), explicitYear: true, state, city });
+cachePage(Astro, model.tags, { lastModified: model.updatedAt });
+---
+
+<ListPage model={model}>
+  <NearbyCities state={state} cities={model.nearby} year={model.year} />
+</ListPage>

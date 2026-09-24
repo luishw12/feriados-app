@@ -1,0 +1,33 @@
+---
+import type { FaqItem } from '@/lib/pages';
+
+interface Props {
+  items: FaqItem[];
+  title?: string;
+}
+
+const { items, title = 'Perguntas frequentes' } = Astro.props;
+---
+
+{
+  items.length > 0 && (
+    <section aria-labelledby="faq" class="mt-16">
+      <h2 id="faq" class="text-xl font-semibold tracking-tight">
+        {title}
+      </h2>
+      <div class="mt-4 divide-y divide-line rounded-2xl border border-line bg-surface">
+        {items.map((item, i) => (
+          <details class="group px-5 py-4" open={i === 0}>
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-medium">
+              <h3>{item.q}</h3>
+              <span class="text-faint transition-transform group-open:rotate-45" aria-hidden="true">
+                +
+              </span>
+            </summary>
+            <p class="mt-2 text-sm leading-relaxed text-muted">{item.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  )
+}

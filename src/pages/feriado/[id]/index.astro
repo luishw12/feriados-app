@@ -1,0 +1,11 @@
+---
+import HolidayPage from '@/components/HolidayPage.astro';
+import { cachePage } from '@/lib/cache';
+import { buildHolidayModel } from '@/lib/pages';
+
+const model = await buildHolidayModel(Astro.params.id ?? '');
+if (!model) return Astro.rewrite('/404/');
+cachePage(Astro, model.tags, { lastModified: model.holiday.updatedAt });
+---
+
+<HolidayPage model={model} />

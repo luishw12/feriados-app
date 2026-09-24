@@ -1,0 +1,37 @@
+---
+import HolidayItem from './HolidayItem.astro';
+import type { Occurrence } from '@/lib/holidays/resolve';
+import { monthName } from '@/lib/holidays/rules';
+
+interface Props {
+  occurrences: Occurrence[];
+  today: string;
+  place?: { uf?: string; ibge?: number; label: string } | undefined;
+  emptyText?: string;
+}
+
+const { occurrences, today, place, emptyText = 'Nenhum feriado neste período.' } = Astro.props;
+const months = new Map<number, Occurrence[]>();
+for (const occ of occurrences) {
+  const m = Number(occ.date.slice(5, 7));
+  months.set(m, [...(months.get(m) ?? []), occ]);
+}
+---
+
+{occurrences.length === 0 && <p class="text-sm text-muted">{emptyText}</p>}
+<div class="space-y-8">
+  {
+    [...months.entries()].map(([m, list]) => (
+      <section aria-labelledby={`mes-${m}`}>
+        <h2 id={`mes-${m}`} class="eyebrow sticky top-14 z-10 -mx-1 bg-bg/90 px-1 py-2 backdrop-blur">
+          {monthName(m)}
+        </h2>
+        <ul class="divide-y divide-line">
+          {list.map((occ) => (
+            <HolidayItem occ={occ} today={today} place={place} />
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</div>

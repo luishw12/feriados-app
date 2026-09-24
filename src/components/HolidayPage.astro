@@ -1,0 +1,227 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import Faq from './Faq.astro';
+import Icon from './Icon.astro';
+import type { HolidayModel } from '@/lib/pages';
+import { bridgeSentence } from '@/lib/pages';
+import { holidayPageSchemas, type Crumb } from '@/lib/seo/jsonld';
+import { describeRule, diffDays, formatDayMonth, formatLong, weekdayName } from '@/lib/holidays/rules';
+import { renderMarkdown } from '@/lib/markdown';
+import { STATUS_LABEL, paths, placeLabel, plural, tone, typeLabel } from '@/lib/site';
+
+interface Props {
+  model: HolidayModel;
+}
+
+const { model } = Astro.props;
+const { holiday, place, focus, year } = model;
+const site = Astro.site ?? new URL(Astro.url.origin);
+const t = tone(holiday.scope, holiday.kind);
+
+const crumbs: Crumb[] = [{ name: 'Início', path: '/' }];
+if (place.state) crumbs.push({ name: place.state.name, path: paths.state(place.state.uf) });
+if (place.city && place.state) crumbs.push({ name: place.city.name, path: paths.city(place.state.uf, place.city.slug) });
+crumbs.push({ name: holiday.name, path: paths.holiday(holiday.id) });
+if (model.explicitYear) crumbs.push({ name: String(year), path: model.path });
+
+const days = focus ? diffDays(model.today, focus.date) : null;
+const suggest = JSON.stringify({
+  holiday: { id: holiday.id, name: holiday.name, rule: holiday.rule, kind: holiday.kind },
+  place: place.state ? { uf: place.state.uf, ...(place.city ? { ibge: place.city.ibge } : {}), label: placeLabel(place) } : undefined,
+});
+const placeHref = place.city && place.state ? paths.city(place.state.uf, place.city.slug) : place.state ? paths.state(place.state.uf) : paths.year(year);
+---
+
+<BaseLayout
+  title={model.title}
+  description={model.description}
+  path={model.path}
+  crumbs={crumbs}
+  jsonLd={holidayPageSchemas(site, model)}
+  noindex={!model.indexable}
+  ogType="article"
+>
+  <article class="container-page pt-8 sm:pt-12">
+    <Breadcrumbs crumbs={crumbs} />
+
+    <header class="mt-4 max-w-3xl">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class:list={[`tone-${t}`, 'chip tone-badge']}>{typeLabel(holiday.scope, holiday.kind)}</span>
+        {
+          holiday.status === 'verified' ? (
+            <span class="chip bg-subtle text-[var(--color-ok)]">
+              <Icon name="shieldCheck" size={12} /> Verificado
+            </span>
+          ) : (
+            <span class="chip bg-[var(--color-warn-soft)] text-[var(--color-warn)]">
+              <Icon name="alert" size={12} /> {STATUS_LABEL[holiday.status]}
+            </span>
+          )
+        }
+      </div>
+      <h1 class="mt-3 text-3xl font-semibold tracking-tight text-balance sm:text-5xl">{model.h1}</h1>
+      <p class="mt-4 text-lg leading-relaxed text-muted text-pretty">{model.lead}</p>
+    </header>
+
+    <div class="mt-8 grid gap-10 lg:grid-cols-[1fr_18rem]">
+      <div class="min-w-0 space-y-12">
+        {
+          focus && (
+            <div class:list={[`tone-${t}`, 'card flex items-center justify-between gap-6 p-6']}>
+              <div>
+                <p class="eyebrow">{holiday.name} {year}</p>
+                <p class="mt-2 text-2xl font-semibold tracking-tight first-letter:uppercase sm:text-3xl">{weekdayName(focus.date)}</p>
+                <p class="text-lg text-muted">
+                  <time datetime={focus.date}>{formatDayMonth(focus.date)} de {year}</time>
+                </p>
+                {focus.bridge && <p class="mt-3 text-sm text-muted">{bridgeSentence(focus.bridge)}</p>}
+              </div>
+              {days !== null && days >= 0 && (
+                <div class="text-right">
+                  <p class="tabular text-5xl font-semibold tone-text" data-days-until={focus.date}>
+                    {days}
+                  </p>
+                  <p class="text-sm text-faint" data-days-label={focus.date}>
+                    {days === 1 ? 'dia' : 'dias'}
+                  </p>
+                </div>
+              )}
+            </div>
+          )
+        }
+
+        {
+          (holiday.body || holiday.summary) && (
+            <section aria-labelledby="sobre">
+              <h2 id="sobre" class="text-xl font-semibold tracking-tight">
+                Sobre {holiday.name}
+              </h2>
+              <div class="prose-body mt-3" set:html={renderMarkdown(holiday.body || holiday.summary)} />
+            </section>
+          )
+        }
+
+        <section aria-labelledby="datas">
+          <h2 id="datas" class="text-xl font-semibold tracking-tight">Datas de {holiday.name} nos próximos anos</h2>
+          <p class="mt-1 text-sm text-muted">Regra: {describeRule(holiday.rule)}.</p>
+          <div class="mt-4 overflow-hidden rounded-2xl border border-line bg-surface">
+            <table class="w-full text-left text-sm">
+              <thead class="border-b border-line text-xs text-faint">
+                <tr>
+                  <th scope="col" class="px-4 py-3 font-medium">Ano</th>
+                  <th scope="col" class="px-4 py-3 font-medium">Data</th>
+                  <th scope="col" class="px-4 py-3 font-medium">Dia da semana</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-line">
+                {model.years.map((y) => (
+                  <tr class:list={[y.year === year && 'bg-subtle']}>
+                    <th scope="row" class="px-4 py-3 font-medium">
+                      <a href={paths.holiday(holiday.id, y.year)} class="tabular hover:underline">
+                        {y.year}
+                      </a>
+                    </th>
+                    <td class="tabular px-4 py-3 text-muted">{y.date ? formatDayMonth(y.date) : 'não ocorre'}</td>
+                    <td class="px-4 py-3 text-muted">{y.date ? weekdayName(y.date) : '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        {
+          model.sameDay.length > 0 && focus && (
+            <section aria-labelledby="mesmo-dia">
+              <h2 id="mesmo-dia" class="text-xl font-semibold tracking-tight">
+                Também em {formatLong(focus.date)}
+              </h2>
+              <ul class="mt-3 space-y-1 text-sm">
+                {model.sameDay.map((o) => (
+                  <li>
+                    <a href={paths.holiday(o.id, year)} class="link">
+                      {o.name}
+                    </a>{' '}
+                    <span class="text-faint">— {typeLabel(o.scope, o.kind).toLowerCase()}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+
+        <Faq items={model.faq} />
+      </div>
+
+      <aside class="space-y-4 lg:sticky lg:top-20 lg:self-start" aria-label="Detalhes">
+        <dl class="card divide-y divide-line text-sm">
+          <div class="px-4 py-3">
+            <dt class="text-xs text-faint">Onde vale</dt>
+            <dd class="mt-0.5 font-medium"><a href={placeHref} class="hover:underline">{placeLabel(place)}</a></dd>
+          </div>
+          <div class="px-4 py-3">
+            <dt class="text-xs text-faint">Quando</dt>
+            <dd class="mt-0.5 font-medium">{describeRule(holiday.rule)}</dd>
+          </div>
+          {
+            model.municipalCount > 0 && (
+              <div class="px-4 py-3">
+                <dt class="text-xs text-faint">Feriado municipal em</dt>
+                <dd class="mt-0.5 font-medium">{plural(model.municipalCount, 'cidade', 'cidades')}</dd>
+              </div>
+            )
+          }
+          <div class="px-4 py-3">
+            <dt class="text-xs text-faint">Base legal</dt>
+            <dd class="mt-0.5">
+              {holiday.legalBasis || <span class="text-faint">Ainda não informada</span>}
+              {
+                holiday.sourceUrl && (
+                  <a href={holiday.sourceUrl} class="mt-1 flex items-center gap-1 text-xs link" rel="nofollow noopener" target="_blank">
+                    Ver fonte <Icon name="external" size={12} />
+                  </a>
+                )
+              }
+            </dd>
+          </div>
+          <div class="px-4 py-3">
+            <dt class="text-xs text-faint">Última atualização</dt>
+            <dd class="mt-0.5">
+              <time datetime={holiday.updatedAt.toISOString()}>{holiday.updatedAt.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</time>
+            </dd>
+          </div>
+        </dl>
+
+        <div class="card p-4">
+          <p class="font-medium">Encontrou um erro?</p>
+          <p class="mt-1 text-sm text-muted">Data, nome ou lei errada? Toda sugestão é revisada e publicada rapidamente.</p>
+          <button type="button" class="btn-primary mt-3 w-full" data-suggest={suggest}>
+            <Icon name="pencil" /> Sugerir correção
+          </button>
+        </div>
+
+        {
+          model.credits.length > 0 && (
+            <div class="card p-4 text-sm">
+              <p class="font-medium">Quem ajudou nesta página</p>
+              <ul class="mt-2 space-y-1">
+                {model.credits.map((c) => (
+                  <li>
+                    {c.link ? (
+                      <a href={c.link} class="link" rel="nofollow noopener ugc" target="_blank">
+                        {c.name}
+                      </a>
+                    ) : (
+                      c.name
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+      </aside>
+    </div>
+  </article>
+</BaseLayout>

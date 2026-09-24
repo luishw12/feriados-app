@@ -1,0 +1,885 @@
+[
+  {
+    "id": "dia-do-catolico-ac",
+    "name": "Dia do Católico",
+    "scope": "state",
+    "uf": "AC",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:01-20",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Feriado estadual no Acre.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 3.137/2016",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "dia-do-evangelico-ac",
+    "name": "Dia do Evangélico",
+    "scope": "state",
+    "uf": "AC",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:01-23",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Feriado estadual no Acre.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "dia-internacional-da-mulher-ac",
+    "name": "Dia Internacional da Mulher",
+    "scope": "state",
+    "uf": "AC",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:03-08",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Feriado estadual no Acre.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 1.411/2001",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "aniversario-do-acre",
+    "name": "Aniversário do Acre",
+    "scope": "state",
+    "uf": "AC",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:06-15",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Elevação do Acre à categoria de estado, em 1962.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 14/1964",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "revolucao-acreana",
+    "name": "Início da Revolução Acreana",
+    "scope": "state",
+    "uf": "AC",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:08-06",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico"
+    ],
+    "summary": "Início da Revolução Acreana, em 1902.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "dia-da-amazonia-ac",
+    "name": "Dia da Amazônia",
+    "scope": "state",
+    "uf": "AC",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:09-05",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Feriado estadual no Acre.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 243/1968",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "sao-joao-al",
+    "name": "São João",
+    "scope": "state",
+    "uf": "AL",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:06-24",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso",
+      "cultural"
+    ],
+    "summary": "Feriado estadual em Alagoas, no auge das festas juninas.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "sao-pedro-al",
+    "name": "São Pedro",
+    "scope": "state",
+    "uf": "AL",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:06-29",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso",
+      "cultural"
+    ],
+    "summary": "Feriado estadual em Alagoas.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "emancipacao-politica-de-alagoas",
+    "name": "Emancipação Política de Alagoas",
+    "scope": "state",
+    "uf": "AL",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:09-16",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Separação de Alagoas da capitania de Pernambuco, em 1817.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "dia-do-evangelico-al",
+    "name": "Dia do Evangélico",
+    "scope": "state",
+    "uf": "AL",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:11-30",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Feriado estadual em Alagoas.",
+    "body": "",
+    "legalBasis": "Decreto estadual nº 56.880/2017",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "elevacao-do-amazonas",
+    "name": "Elevação do Amazonas à categoria de província",
+    "scope": "state",
+    "uf": "AM",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:09-05",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Data magna do Amazonas (1850).",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "nossa-senhora-da-conceicao-am",
+    "name": "Nossa Senhora da Conceição",
+    "scope": "state",
+    "uf": "AM",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:12-08",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Padroeira do Amazonas.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "sao-jose-ap",
+    "name": "Dia de São José",
+    "scope": "state",
+    "uf": "AP",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:03-19",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "São José, padroeiro do Amapá.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "dia-de-cabralzinho",
+    "name": "Dia de Cabralzinho",
+    "scope": "state",
+    "uf": "AP",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:05-15",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico"
+    ],
+    "summary": "Homenagem a Francisco Xavier da Veiga Cabral, que resistiu à invasão francesa em 1895.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "sao-tiago-ap",
+    "name": "Dia de São Tiago",
+    "scope": "state",
+    "uf": "AP",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:07-25",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso",
+      "cultural"
+    ],
+    "summary": "Festa de São Tiago, em Mazagão Velho.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 1.696/2012",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "criacao-do-territorio-do-amapa",
+    "name": "Criação do Território Federal do Amapá",
+    "scope": "state",
+    "uf": "AP",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:09-13",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Criação do território federal, em 1943.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "dia-do-evangelico-ap",
+    "name": "Dia do Evangélico",
+    "scope": "state",
+    "uf": "AP",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:11-30",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Feriado estadual no Amapá.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "independencia-da-bahia",
+    "name": "Independência da Bahia",
+    "scope": "state",
+    "uf": "BA",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:07-02",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Expulsão das tropas portuguesas de Salvador, em 1823.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "sao-jose-ce",
+    "name": "Dia de São José",
+    "scope": "state",
+    "uf": "CE",
+    "ibge": null,
+    "kind": "facultativo",
+    "rule": "fixed:03-19",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "São José, padroeiro do Ceará.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "data-magna-do-ceara",
+    "name": "Data Magna do Ceará",
+    "scope": "state",
+    "uf": "CE",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:03-25",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Abolição da escravatura no Ceará, em 1884, quatro anos antes da Lei Áurea.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "fundacao-de-brasilia",
+    "name": "Fundação de Brasília",
+    "scope": "state",
+    "uf": "DF",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:04-21",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Inauguração de Brasília, em 1960; coincide com Tiradentes.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "dia-do-evangelico-df",
+    "name": "Dia do Evangélico",
+    "scope": "state",
+    "uf": "DF",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:11-30",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Feriado distrital no Distrito Federal.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "adesao-do-maranhao",
+    "name": "Adesão do Maranhão à Independência",
+    "scope": "state",
+    "uf": "MA",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:07-28",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Adesão do Maranhão à independência do Brasil, em 1823.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "data-magna-de-minas-gerais",
+    "name": "Data Magna de Minas Gerais",
+    "scope": "state",
+    "uf": "MG",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:04-21",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Homenagem a Tiradentes e à Inconfidência Mineira; coincide com o feriado nacional.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "criacao-de-mato-grosso-do-sul",
+    "name": "Criação do Estado de Mato Grosso do Sul",
+    "scope": "state",
+    "uf": "MS",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:10-11",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Divisão de Mato Grosso, em 1977.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "adesao-do-para",
+    "name": "Adesão do Pará à Independência",
+    "scope": "state",
+    "uf": "PA",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:08-15",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Adesão do Grão-Pará à independência do Brasil, em 1823.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "nossa-senhora-da-conceicao-pa",
+    "name": "Nossa Senhora da Conceição",
+    "scope": "state",
+    "uf": "PA",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:12-08",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Feriado estadual no Pará.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "homenagem-a-joao-pessoa",
+    "name": "Homenagem a João Pessoa",
+    "scope": "state",
+    "uf": "PB",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:07-26",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico"
+    ],
+    "summary": "Morte de João Pessoa, presidente da Paraíba, em 1930.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "fundacao-da-paraiba",
+    "name": "Fundação do Estado da Paraíba",
+    "scope": "state",
+    "uf": "PB",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:08-05",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Fundação da Paraíba, em 1585.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "revolucao-pernambucana",
+    "name": "Revolução Pernambucana",
+    "scope": "state",
+    "uf": "PE",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:03-06",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Data Magna de Pernambuco: movimento republicano de 1817.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 16.059/2017",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "sao-joao-pe",
+    "name": "São João",
+    "scope": "state",
+    "uf": "PE",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:06-24",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso",
+      "cultural"
+    ],
+    "summary": "Feriado estadual em Pernambuco, no auge das festas juninas.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "dia-do-piaui",
+    "name": "Dia do Piauí",
+    "scope": "state",
+    "uf": "PI",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:10-19",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Adesão do Piauí à independência, proclamada em Parnaíba em 1822.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "emancipacao-politica-do-parana",
+    "name": "Emancipação Política do Paraná",
+    "scope": "state",
+    "uf": "PR",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:12-19",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Separação do Paraná da província de São Paulo, em 1853.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "carnaval-rj",
+    "name": "Carnaval",
+    "scope": "state",
+    "uf": "RJ",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "easter:-47",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "cultural"
+    ],
+    "summary": "A terça-feira de Carnaval é feriado estadual no Rio de Janeiro.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 5.243/2008",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "sao-jorge-rj",
+    "name": "Dia de São Jorge",
+    "scope": "state",
+    "uf": "RJ",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:04-23",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso",
+      "cultural"
+    ],
+    "summary": "Feriado estadual no Rio de Janeiro.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 5.198/2008",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "martires-de-cunhau-e-uruacu",
+    "name": "Mártires de Cunhaú e Uruaçu",
+    "scope": "state",
+    "uf": "RN",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:10-03",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso",
+      "historico"
+    ],
+    "summary": "Massacres de Cunhaú e Uruaçu, em 1645.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 8.913/2006",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "criacao-de-rondonia",
+    "name": "Criação do Estado de Rondônia",
+    "scope": "state",
+    "uf": "RO",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:01-04",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Instalação do estado, em 1982.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "dia-do-evangelico-ro",
+    "name": "Dia do Evangélico",
+    "scope": "state",
+    "uf": "RO",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:06-18",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Feriado estadual em Rondônia.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "criacao-de-roraima",
+    "name": "Criação do Estado de Roraima",
+    "scope": "state",
+    "uf": "RR",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:10-05",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Criação do estado pela Constituição de 1988.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "revolucao-farroupilha",
+    "name": "Revolução Farroupilha",
+    "scope": "state",
+    "uf": "RS",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:09-20",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Dia do Gaúcho: início da Revolução Farroupilha, em 1835.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "data-magna-de-santa-catarina",
+    "name": "Data Magna de Santa Catarina",
+    "scope": "state",
+    "uf": "SC",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:08-11",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Criação da capitania de Santa Catarina, em 1738.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "emancipacao-de-sergipe",
+    "name": "Emancipação Política de Sergipe",
+    "scope": "state",
+    "uf": "SE",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:07-08",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Separação de Sergipe da Bahia, em 1820.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "revolucao-constitucionalista",
+    "name": "Revolução Constitucionalista",
+    "scope": "state",
+    "uf": "SP",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:07-09",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Data Magna de São Paulo: início da Revolução de 1932.",
+    "body": "",
+    "legalBasis": "Lei estadual nº 9.497/1997",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "nossa-senhora-da-natividade",
+    "name": "Nossa Senhora da Natividade",
+    "scope": "state",
+    "uf": "TO",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:09-08",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Padroeira do Tocantins.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  },
+  {
+    "id": "criacao-do-tocantins",
+    "name": "Criação do Estado do Tocantins",
+    "scope": "state",
+    "uf": "TO",
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:10-05",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Criação do estado pela Constituição de 1988.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "unverified"
+  }
+]

@@ -1,0 +1,90 @@
+---
+import AdminLayout from '@/components/admin/AdminLayout.astro';
+import { and, asc, eq, like, or, type SQL } from 'drizzle-orm';
+import { getDb, schema } from '@/lib/db/client';
+import { SCOPES, STATUSES } from '@/lib/db/schema';
+import { describeRule } from '@/lib/holidays/rules';
+import { SCOPE_LABEL, STATUS_LABEL, typeLabel } from '@/lib/site';
+
+const q = (Astro.url.searchParams.get('q') ?? '').trim().slice(0, 60);
+const uf = (Astro.url.searchParams.get('uf') ?? '').toUpperCase();
+const scope = Astro.url.searchParams.get('scope') ?? '';
+const status = Astro.url.searchParams.get('status') ?? '';
+const page = Math.max(1, Number(Astro.url.searchParams.get('p') ?? 1) || 1);
+const PAGE = 50;
+
+const where: SQL[] = [];
+if (q) where.push(or(like(schema.holidays.name, `%${q}%`), like(schema.holidays.id, `%${q}%`), like(schema.municipalities.name, `%${q}%`))!);
+if (/^[A-Z]{2}$/.test(uf)) where.push(eq(schema.holidays.uf, uf));
+if ((SCOPES as readonly string[]).includes(scope)) where.push(eq(schema.holidays.scope, scope as (typeof SCOPES)[number]));
+if ((STATUSES as readonly string[]).includes(status)) where.push(eq(schema.holidays.status, status as (typeof STATUSES)[number]));
+
+const rows = await getDb()
+  .select({ h: schema.holidays, city: schema.municipalities.name })
+  .from(schema.holidays)
+  .leftJoin(schema.municipalities, eq(schema.holidays.ibge, schema.municipalities.ibge))
+  .where(where.length ? and(...where) : undefined)
+  .orderBy(asc(schema.holidays.scope), asc(schema.holidays.uf), asc(schema.municipalities.name), asc(schema.holidays.name))
+  .limit(PAGE + 1)
+  .offset((page - 1) * PAGE);
+const hasNext = rows.length > PAGE;
+const qs = (p: number) => {
+  const params = new URLSearchParams(Astro.url.searchParams);
+  params.set('p', String(p));
+  return `?${params}`;
+};
+---
+
+<AdminLayout title="Feriados" active="feriados">
+  <div class="flex flex-wrap items-center justify-between gap-4">
+    <h1 class="text-2xl font-semibold tracking-tight">Feriados</h1>
+    <a href="/admin/feriados/novo/" class="btn-primary">+ Novo feriado</a>
+  </div>
+  <form class="mt-6 grid gap-2 sm:grid-cols-[1fr_5rem_10rem_10rem_auto]">
+    <input name="q" value={q} class="input" placeholder="Nome, ID ou cidade" aria-label="Buscar" />
+    <input name="uf" value={uf} class="input" placeholder="UF" maxlength="2" aria-label="UF" />
+    <select name="scope" class="input" aria-label="Abrangência">
+      <option value="">Abrangência</option>
+      {SCOPES.map((s) => <option value={s} selected={scope === s}>{SCOPE_LABEL[s]}</option>)}
+    </select>
+    <select name="status" class="input" aria-label="Status">
+      <option value="">Status</option>
+      {STATUSES.map((s) => <option value={s} selected={status === s}>{STATUS_LABEL[s]}</option>)}
+    </select>
+    <button class="btn">Filtrar</button>
+  </form>
+
+  <div class="mt-6 overflow-x-auto rounded-2xl border border-line">
+    <table class="w-full text-sm">
+      <thead class="border-b border-line text-left text-xs text-faint">
+        <tr>
+          <th class="px-4 py-2 font-medium">Feriado</th>
+          <th class="px-4 py-2 font-medium">Onde</th>
+          <th class="px-4 py-2 font-medium">Data</th>
+          <th class="px-4 py-2 font-medium">Status</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-line">
+        {
+          rows.slice(0, PAGE).map(({ h, city }) => (
+            <tr class="hover:bg-subtle">
+              <td class="px-4 py-2">
+                <a href={`/admin/feriados/${h.id}/`} class="font-medium hover:underline">
+                  {h.name}
+                </a>
+                <span class="block text-xs text-faint">{typeLabel(h.scope, h.kind)}</span>
+              </td>
+              <td class="px-4 py-2 text-muted">{city ? `${city} (${h.uf})` : (h.uf ?? 'Brasil')}</td>
+              <td class="px-4 py-2 text-muted">{describeRule(h.rule)}</td>
+              <td class="px-4 py-2 text-muted">{STATUS_LABEL[h.status]}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  <div class="mt-4 flex justify-between text-sm">
+    {page > 1 ? <a href={qs(page - 1)} class="btn">← Anterior</a> : <span />}
+    {hasNext && <a href={qs(page + 1)} class="btn">Próxima →</a>}
+  </div>
+</AdminLayout>

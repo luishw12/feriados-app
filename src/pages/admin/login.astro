@@ -1,0 +1,28 @@
+---
+import AdminLayout from '@/components/admin/AdminLayout.astro';
+import { devLoginAllowed, oauthConfigured } from '@/lib/server/auth';
+
+if (Astro.locals.admin) return Astro.redirect('/admin/sugestoes/');
+const error = Astro.url.searchParams.get('erro');
+const next = Astro.url.searchParams.get('next') ?? '/admin/sugestoes/';
+---
+
+<AdminLayout title="Entrar">
+  <div class="mx-auto mt-16 max-w-sm text-center">
+    <h1 class="text-2xl font-semibold tracking-tight">Painel de moderação</h1>
+    <p class="mt-2 text-sm text-muted">Acesso restrito aos mantenedores.</p>
+    {error && <p class="mt-6 rounded-xl bg-[var(--color-warn-soft)] px-3 py-2 text-sm text-[var(--color-warn)]">{error}</p>}
+    <div class="mt-8 space-y-3">
+      {oauthConfigured && <a href={`/admin/auth/github/?next=${encodeURIComponent(next)}`} class="btn-primary w-full">Entrar com GitHub</a>}
+      {
+        devLoginAllowed && (
+          <form method="post" action="/admin/auth/dev/">
+            <input type="hidden" name="next" value={next} />
+            <button class="btn w-full">Entrar (modo desenvolvimento)</button>
+          </form>
+        )
+      }
+      {!oauthConfigured && !devLoginAllowed && <p class="text-sm text-muted">Configure GITHUB_CLIENT_ID e GITHUB_CLIENT_SECRET.</p>}
+    </div>
+  </div>
+</AdminLayout>

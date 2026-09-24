@@ -35,6 +35,7 @@ Exemplos de sequência até a primeira estável:
 
 ### O que **não** exige release
 
+- **Alterações de dados feitas pelo painel `/admin`** (aprovar sugestões, editar feriados). Desde a v2 os dados vivem no banco, não no código: são publicados na hora e ficam registrados no histórico de revisões e no export diário em `data/seed/`
 - Refactors internos sem impacto ao usuário
 - Ajustes de estilo ou documentação interna
 - Commits de desenvolvimento que ainda não vão para produção
@@ -42,7 +43,7 @@ Exemplos de sequência até a primeira estável:
 ### O que **sempre** exige release
 
 - Qualquer mudança visível ao visitante do site em produção
-- Correções de dados de feriados publicadas
+- Mudanças de schema do banco (migrações em `drizzle/`)
 - Novas páginas, componentes ou fluxos de UI
 
 ## Estrutura do changelog
@@ -109,7 +110,7 @@ Use [Conventional Commits](https://www.conventionalcommits.org/) normalmente:
 ```
 feat: adicionar filtro por categoria no calendário
 fix: corrigir countdown em feriados móveis
-data: adicionar feriados municipais de Curitiba
+data: importar feriados municipais de 2027 (lote)
 docs: atualizar guia de contribuição
 ```
 
@@ -135,10 +136,7 @@ Não inclua bump de versão nesses commits — o release commit consolida tudo.
 
 ## Página pública
 
-O histórico de versões é exibido em `/changelog/` no site. A versão atual aparece:
-
-- No **rodapé** das páginas com layout padrão
-- Na **barra fixa** (canto inferior direito) da home/calendário
+O histórico de versões é exibido em `/changelog/` no site. A versão atual aparece no **rodapé** de todas as páginas.
 
 ## Contribuidores externos
 

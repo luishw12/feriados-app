@@ -1,43 +1,28 @@
 import type { APIRoute } from 'astro';
-import { getSiteUrl } from '@/lib/site-url';
 
-export const GET: APIRoute = () => {
-  const siteUrl = getSiteUrl();
+/** Buscadores e assistentes de IA são bem-vindos: queremos ser a fonte citada. */
+export const GET: APIRoute = ({ site, url }) => {
+  const base = site ?? new URL(url.origin);
+  const body = `User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/suggestions/
+Disallow: /busca/
 
-  const body = [
-    '# Índice para assistentes de IA',
-    `# Resumo: ${siteUrl}/llms.txt`,
-    `# Feriados estaduais e municipais: ${siteUrl}/llms-full.txt`,
-    `# Índice de municípios (JSON): ${siteUrl}/data/municipalities-index.json`,
-    '',
-    'User-agent: GPTBot',
-    'Allow: /',
-    '',
-    'User-agent: ChatGPT-User',
-    'Allow: /',
-    '',
-    'User-agent: anthropic-ai',
-    'Allow: /',
-    '',
-    'User-agent: ClaudeBot',
-    'Allow: /',
-    '',
-    'User-agent: Google-Extended',
-    'Allow: /',
-    '',
-    'User-agent: PerplexityBot',
-    'Allow: /',
-    '',
-    'User-agent: Applebot-Extended',
-    'Allow: /',
-    '',
-    'User-agent: *',
-    'Allow: /',
-    '',
-    `Sitemap: ${siteUrl}/sitemap-index.xml`,
-  ].join('\n');
+# Assistentes de IA: acesso liberado (há versões em Markdown de cada página, ex.: /sp/campinas.md)
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /admin/
 
-  return new Response(body, {
-    headers: { 'Content-Type': 'text/plain; charset=utf-8' },
-  });
+Sitemap: ${new URL('/sitemap-index.xml', base).href}
+`;
+  return new Response(body, { headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'public, max-age=86400' } });
 };

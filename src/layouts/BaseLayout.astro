@@ -1,109 +1,90 @@
 ---
 import '@/styles/global.css';
-import '@fontsource/inter/400.css';
-import '@fontsource/inter/500.css';
-import '@fontsource/inter/600.css';
-import '@fontsource/inter/700.css';
-import SEO from '@/components/SEO.astro';
-import Header from '@/components/layout/Header.astro';
-import Footer from '@/components/layout/Footer.astro';
-import AppMetaBar from '@/components/layout/AppMetaBar.astro';
-import LinkedInCTA from '@/components/layout/LinkedInCTA.astro';
-import CookieConsent from '@/components/interactive/CookieConsent';
-import LocationPermissionGate from '@/components/interactive/LocationPermissionGate';
-import ContributionProvider from '@/components/interactive/ContributionProvider';
-import PageBackground from '@/components/effects/PageBackground';
-import { ViewTransitions } from 'astro:transitions';
-import { getSiteUrl } from '@/lib/site-url';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import SearchDialog from '@/islands/SearchDialog';
+import SuggestDialog from '@/islands/SuggestDialog';
+import { breadcrumbSchema, websiteSchema, type Crumb } from '@/lib/seo/jsonld';
+import { SITE_NAME, markdownPath } from '@/lib/site';
+import { PUBLIC_TURNSTILE_SITE_KEY } from 'astro:env/client';
 
 interface Props {
   title: string;
   description: string;
-  canonical: string;
-  ogImage?: string;
+  /** Caminho canônico (ex.: /sp/campinas/). */
+  path: string;
+  crumbs?: Crumb[];
+  jsonLd?: Record<string, unknown>[];
+  noindex?: boolean;
+  /** Publica a versão Markdown da página para leitura por IA. */
+  markdown?: boolean;
   ogType?: 'website' | 'article';
-  ogImageWidth?: number;
-  ogImageHeight?: number;
-  publishedTime?: string;
-  jsonLd?: Record<string, unknown>;
-  fullHeight?: boolean;
-  articleContribution?: import('@/lib/contributions').ArticleContributionContext;
-  showLocationSuggestion?: boolean;
 }
 
-const {
-  title,
-  description,
-  canonical,
-  ogImage,
-  ogType,
-  ogImageWidth,
-  ogImageHeight,
-  publishedTime,
-  jsonLd,
-  fullHeight = false,
-  articleContribution,
-  showLocationSuggestion = false,
-} = Astro.props;
-
-const siteUrl = getSiteUrl(Astro.site);
+const { title, description, path, crumbs = [], jsonLd = [], noindex = false, markdown = true, ogType = 'website' } = Astro.props;
+const site = Astro.site ?? new URL(Astro.url.origin);
+const canonical = new URL(path, site).href;
+const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+const ogImage = new URL('/og/default.png', site).href;
+const schemas = [
+  ...(path === '/' ? [websiteSchema(site)] : []),
+  ...(crumbs.length > 1 ? [breadcrumbSchema(site, crumbs)] : []),
+  ...jsonLd,
+];
 ---
 
 <!doctype html>
-<html lang="pt-BR" class:list={[fullHeight && 'h-full']}>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate" type="text/plain" href={`${siteUrl}/llms.txt`} title="Índice para assistentes de IA" />
-    <link rel="help" href={`${siteUrl}/llms-full.txt`} title="Calendário completo em texto" />
-    <meta name="abstract" content="Calendário de feriados nacionais, estaduais e municipais do Brasil. Índice para IA: /llms.txt" />
-    <SEO
-      title={title}
-      description={description}
-      canonical={canonical}
-      ogImage={ogImage}
-      ogType={ogType}
-      ogImageWidth={ogImageWidth}
-      ogImageHeight={ogImageHeight}
-      publishedTime={publishedTime}
-    />
-    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
-    <ViewTransitions />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    {!noindex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
+    {markdown && !noindex && <link rel="alternate" type="text/markdown" href={markdownPath(path)} title="Versão em Markdown" />}
+    <link rel="alternate" hreflang="pt-BR" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)" />
+
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    {PUBLIC_TURNSTILE_SITE_KEY && <link rel="preconnect" href="https://challenges.cloudflare.com" />}
+
     <script is:inline>
-      (function () {
+      (() => {
+        let theme = null;
         try {
-          const stored = localStorage.getItem('theme');
-          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-          const isDark = stored === 'dark' || (!stored && prefersDark);
-          document.documentElement.classList.toggle('dark', isDark);
-        } catch {
-          // localStorage bloqueado
-        }
+          theme = localStorage.getItem('theme');
+        } catch {}
+        const dark = theme ? theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', dark);
       })();
     </script>
+    {schemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
   </head>
-  <body
-    class:list={[
-      'flex flex-col',
-      fullHeight ? 'h-dvh overflow-hidden' : 'min-h-screen',
-    ]}
-  >
-    <PageBackground client:load variant={fullHeight ? 'home' : 'default'} />
-    <Header />
-    <main class:list={['flex-1', fullHeight && 'min-h-0 overflow-hidden']}>
+  <body class="flex min-h-dvh flex-col">
+    <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 btn">Pular para o conteúdo</a>
+    <Header path={path} />
+    <main id="conteudo" class="flex-1">
       <slot />
     </main>
-    {fullHeight ? <AppMetaBar /> : <Footer articleContribution={articleContribution} />}
-    <LinkedInCTA />
-    <CookieConsent client:load transition:persist="cookie-consent" />
-    <ContributionProvider client:load transition:persist="contribution-provider" />
-    <LocationPermissionGate client:load showLocationSuggestion={showLocationSuggestion} />
+    <Footer />
+    <SearchDialog client:idle />
+    <SuggestDialog client:idle turnstileSiteKey={PUBLIC_TURNSTILE_SITE_KEY ?? ''} />
   </body>
 </html>
-
-<script>
-  import { initViewTransitionBootstrap } from '@/lib/view-transition-bootstrap';
-
-  initViewTransitionBootstrap();
-</script>

@@ -1,27 +1,35 @@
 ---
-import BaseLayout from '@/layouts/BaseLayout.astro';
-import ChangelogList from '@/components/changelog/ChangelogList.astro';
-import VersionLink from '@/components/layout/VersionLink.astro';
-import { getReleases } from '@/lib/changelog';
-import { getChangelogMeta } from '@/lib/seo';
+import PageShell from '@/components/PageShell.astro';
+import releasesFile from '@/data/releases.json';
+import { cachePage } from '@/lib/cache';
+import { paths } from '@/lib/site';
 
-const meta = getChangelogMeta();
-const releases = getReleases();
+const LABELS: Record<string, string> = { added: 'Adicionado', changed: 'Alterado', deprecated: 'Descontinuado', removed: 'Removido', fixed: 'Corrigido', security: 'Segurança' };
+cachePage(Astro, ['about']);
 ---
 
-<BaseLayout title={meta.title} description={meta.description} canonical={meta.canonical}>
-  <div class="page-shell-narrow space-y-8">
-    <section class="space-y-4">
-      <h1 class="text-3xl font-semibold text-neutral-900 dark:text-neutral-50">
-        Novidades
-      </h1>
-      <p class="text-neutral-600 dark:text-neutral-400">
-        Histórico de versões e atualizações do Feriados Brasil. Versão atual:
-        {' '}
-        <VersionLink />
-      </p>
-    </section>
-
-    <ChangelogList releases={releases} />
-  </div>
-</BaseLayout>
+<PageShell title="Novidades" description="Histórico de versões do Feriados Brasil." path={paths.changelog()} h1="Novidades" lead="O que mudou em cada versão do site." wide={false}>
+  <ol class="space-y-12">
+    {
+      releasesFile.releases.map((r) => (
+        <li>
+          <h2 class="flex flex-wrap items-baseline gap-3 text-xl font-semibold tracking-tight">
+            v{r.version}
+            <time class="text-sm font-normal text-faint" datetime={r.date}>{r.date.split('-').reverse().join('/')}</time>
+          </h2>
+          <p class="mt-2 text-muted">{r.summary}</p>
+          {Object.entries(r.sections)
+            .filter(([, items]) => items.length)
+            .map(([key, items]) => (
+              <div class="mt-4">
+                <h3 class="eyebrow">{LABELS[key] ?? key}</h3>
+                <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-muted">
+                  {items.map((i) => <li>{i}</li>)}
+                </ul>
+              </div>
+            ))}
+        </li>
+      ))
+    }
+  </ol>
+</PageShell>

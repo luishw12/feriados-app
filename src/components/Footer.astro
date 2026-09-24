@@ -1,0 +1,71 @@
+---
+import Icon from './Icon.astro';
+import pkg from '../../package.json';
+import { AUTHOR, REPO_URL, currentYear, paths } from '@/lib/site';
+
+const year = currentYear();
+const columns = [
+  {
+    title: 'Calendário',
+    links: [
+      { href: paths.year(year), label: `Feriados ${year}` },
+      { href: paths.year(year + 1), label: `Feriados ${year + 1}` },
+      { href: paths.bridges(year), label: `Feriados prolongados ${year}` },
+      { href: paths.next(), label: 'Próximo feriado' },
+      { href: paths.businessDays(), label: 'Calculadora de dias úteis' },
+    ],
+  },
+  {
+    title: 'Projeto',
+    links: [
+      { href: paths.contribute(), label: 'Como contribuir' },
+      { href: paths.api(), label: 'API e dados abertos' },
+      { href: paths.about(), label: 'Sobre' },
+      { href: paths.changelog(), label: 'Novidades' },
+      { href: paths.privacy(), label: 'Privacidade' },
+    ],
+  },
+];
+---
+
+<footer class="mt-24 border-t border-line bg-surface">
+  <div class="container-page grid gap-10 py-12 sm:grid-cols-[1.4fr_1fr_1fr]">
+    <div class="space-y-3">
+      <p class="font-semibold">Feriados Brasil</p>
+      <p class="max-w-sm text-sm text-muted">
+        Feriados nacionais, estaduais e municipais dos 5.571 municípios brasileiros. Dados abertos, mantidos pela comunidade.
+      </p>
+      <a href={paths.contribute()} class="btn mt-2">
+        <Icon name="pencil" /> Viu algo errado? Sugira uma correção
+      </a>
+    </div>
+    {
+      columns.map((col) => (
+        <nav aria-label={col.title}>
+          <p class="eyebrow mb-3">{col.title}</p>
+          <ul class="space-y-2 text-sm">
+            {col.links.map((l) => (
+              <li>
+                <a href={l.href} class="text-muted hover:text-fg">
+                  {l.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      ))
+    }
+  </div>
+  <div class="border-t border-line">
+    <div class="container-page flex flex-col gap-3 py-5 text-xs text-faint sm:flex-row sm:items-center sm:justify-between">
+      <p>
+        Feito por <a href={AUTHOR.linkedin} class="font-medium text-muted hover:text-fg" rel="author">{AUTHOR.name}</a> · código aberto
+        (MIT) · <a href={paths.changelog()} class="hover:text-fg">v{pkg.version}</a>
+      </p>
+      <div class="flex items-center gap-3">
+        <a href={REPO_URL} class="hover:text-fg" aria-label="Código no GitHub"><Icon name="github" size={18} /></a>
+        <a href={AUTHOR.linkedin} class="hover:text-fg" aria-label="LinkedIn do autor"><Icon name="linkedin" size={18} /></a>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,636 @@
+[
+  {
+    "id": "pascoa",
+    "name": "Páscoa",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "easter:+0",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Domingo de Páscoa, principal data do calendário cristão.",
+    "body": "A Páscoa celebra a ressurreição de Jesus Cristo. Cai sempre em um domingo, por isso não consta como feriado na legislação, mas define a data de outros feriados móveis: Carnaval (47 dias antes), Sexta-feira Santa (2 dias antes) e Corpus Christi (60 dias depois). O cálculo segue a regra do Concílio de Niceia: primeiro domingo após a primeira lua cheia do outono no hemisfério sul.",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-internacional-da-mulher",
+    "name": "Dia Internacional da Mulher",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:03-08",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Data de luta pelos direitos das mulheres.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-dos-povos-indigenas",
+    "name": "Dia dos Povos Indígenas",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:04-19",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social",
+      "historico"
+    ],
+    "summary": "Valorização das culturas indígenas (Lei nº 14.402/2022).",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-do-meio-ambiente",
+    "name": "Dia Mundial do Meio Ambiente",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:06-05",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Data instituída pela ONU em 1972.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-dos-namorados",
+    "name": "Dia dos Namorados",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:06-12",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "cultural"
+    ],
+    "summary": "Véspera do dia de Santo Antônio, o santo casamenteiro.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-de-sao-joao",
+    "name": "Dia de São João",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:06-24",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso",
+      "cultural"
+    ],
+    "summary": "Auge das festas juninas; feriado em vários estados e cidades do Nordeste.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-dos-avos",
+    "name": "Dia dos Avós",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:07-26",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Dia de Sant'Ana e São Joaquim, avós de Jesus.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-do-estudante",
+    "name": "Dia do Estudante",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:08-11",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Criação dos primeiros cursos de Direito do Brasil, em 1827.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-do-folclore",
+    "name": "Dia do Folclore",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:08-22",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "cultural"
+    ],
+    "summary": "Valorização das tradições populares brasileiras.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-da-arvore",
+    "name": "Dia da Árvore",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:09-21",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Véspera do início da primavera no hemisfério sul.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-do-idoso",
+    "name": "Dia Nacional da Pessoa Idosa",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:10-01",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Data do Estatuto da Pessoa Idosa.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-das-criancas",
+    "name": "Dia das Crianças",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:10-12",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Coincide com o feriado de Nossa Senhora Aparecida.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-do-professor",
+    "name": "Dia do Professor",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:10-15",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Ponto facultativo em muitas redes de ensino.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-da-bandeira",
+    "name": "Dia da Bandeira",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "fixed:11-19",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "civico"
+    ],
+    "summary": "Adoção da bandeira republicana, em 1889.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-das-maes",
+    "name": "Dia das Mães",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "nth:05:0:2",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Comemorado no segundo domingo de maio.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-dos-pais",
+    "name": "Dia dos Pais",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "comemorativa",
+    "rule": "nth:08:0:2",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Comemorado no segundo domingo de agosto.",
+    "body": "",
+    "legalBasis": "",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "quarta-feira-de-cinzas",
+    "name": "Quarta-feira de Cinzas",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "facultativo",
+    "rule": "easter:-46",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Ponto facultativo até as 14h; marca o início da Quaresma.",
+    "body": "A Quarta-feira de Cinzas encerra o Carnaval e inicia a Quaresma no calendário cristão. Na administração federal é ponto facultativo até as 14 horas. A data cai 46 dias antes da Páscoa.",
+    "legalBasis": "Portaria anual do Ministério da Gestão e da Inovação em Serviços Públicos (calendário de feriados e pontos facultativos da administração pública federal)",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "carnaval",
+    "name": "Carnaval",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "facultativo",
+    "rule": "easter:-47",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "cultural"
+    ],
+    "summary": "Terça-feira de Carnaval: ponto facultativo nacional, 47 dias antes da Páscoa.",
+    "body": "O Carnaval é a maior festa popular do Brasil, mas não é feriado nacional obrigatório: a terça-feira de Carnaval é ponto facultativo na administração federal. No estado do Rio de Janeiro é feriado estadual (Lei nº 5.243/2008), e muitos municípios também decretam feriado. A data é móvel: cai sempre 47 dias antes do Domingo de Páscoa.",
+    "legalBasis": "Portaria anual do Ministério da Gestão e da Inovação em Serviços Públicos (calendário de feriados e pontos facultativos da administração pública federal)",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "segunda-de-carnaval",
+    "name": "Segunda-feira de Carnaval",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "facultativo",
+    "rule": "easter:-48",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "cultural"
+    ],
+    "summary": "Ponto facultativo nacional, 48 dias antes da Páscoa.",
+    "body": "A segunda-feira de Carnaval não é feriado nacional por lei: é ponto facultativo definido todos os anos pelo governo federal. Estados e municípios podem decretar feriado, e empresas privadas decidem se liberam os funcionários. A data muda a cada ano porque depende da Páscoa.",
+    "legalBasis": "Portaria anual do Ministério da Gestão e da Inovação em Serviços Públicos (calendário de feriados e pontos facultativos da administração pública federal)",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "corpus-christi",
+    "name": "Corpus Christi",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "facultativo",
+    "rule": "easter:+60",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Ponto facultativo nacional, 60 dias após a Páscoa; feriado em muitas cidades.",
+    "body": "Corpus Christi celebra a Eucaristia e cai sempre numa quinta-feira, 60 dias depois do Domingo de Páscoa. No calendário federal é ponto facultativo, mas centenas de municípios, entre eles São Paulo, Belo Horizonte e Porto Alegre, o declaram feriado municipal. É tradição enfeitar as ruas com tapetes coloridos para a procissão.",
+    "legalBasis": "Portaria anual do Ministério da Gestão e da Inovação em Serviços Públicos (calendário de feriados e pontos facultativos da administração pública federal)",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "dia-do-servidor-publico",
+    "name": "Dia do Servidor Público",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "facultativo",
+    "rule": "fixed:10-28",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social"
+    ],
+    "summary": "Ponto facultativo para servidores públicos federais.",
+    "body": "O Dia do Servidor Público está previsto no Estatuto dos Servidores (Lei nº 8.112/1990). É ponto facultativo na administração federal, e o governo pode transferir a folga para outra data. Não vale para trabalhadores da iniciativa privada.",
+    "legalBasis": "Lei nº 8.112/1990, art. 236",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm",
+    "status": "verified"
+  },
+  {
+    "id": "vespera-de-natal",
+    "name": "Véspera de Natal",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "facultativo",
+    "rule": "fixed:12-24",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Ponto facultativo a partir das 14h na administração federal.",
+    "body": "Na véspera de Natal, o governo federal costuma decretar ponto facultativo a partir das 14 horas. Não é feriado: o comércio e as empresas privadas funcionam normalmente, muitas vezes em horário estendido.",
+    "legalBasis": "Portaria anual do Ministério da Gestão e da Inovação em Serviços Públicos (calendário de feriados e pontos facultativos da administração pública federal)",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "vespera-de-ano-novo",
+    "name": "Véspera de Ano Novo",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "facultativo",
+    "rule": "fixed:12-31",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "civico"
+    ],
+    "summary": "Ponto facultativo a partir das 14h na administração federal.",
+    "body": "Assim como na véspera de Natal, o governo federal costuma decretar ponto facultativo a partir das 14 horas do dia 31 de dezembro. Não é feriado para a iniciativa privada.",
+    "legalBasis": "Portaria anual do Ministério da Gestão e da Inovação em Serviços Públicos (calendário de feriados e pontos facultativos da administração pública federal)",
+    "sourceUrl": "",
+    "status": "verified"
+  },
+  {
+    "id": "sexta-feira-santa",
+    "name": "Sexta-feira Santa",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "easter:-2",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Sexta-feira da Paixão, feriado nacional dois dias antes da Páscoa.",
+    "body": "A Sexta-feira Santa, ou Sexta-feira da Paixão, relembra a crucificação de Jesus Cristo. É feriado em todo o país e consta como feriado nacional no calendário do governo federal. A data é móvel e cai sempre na sexta-feira anterior ao Domingo de Páscoa.",
+    "legalBasis": "Lei nº 9.093/1995 e Portaria anual do Ministério da Gestão e da Inovação em Serviços Públicos (calendário de feriados e pontos facultativos da administração pública federal)",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9093.htm",
+    "status": "verified"
+  },
+  {
+    "id": "confraternizacao-universal",
+    "name": "Confraternização Universal",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:01-01",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "civico"
+    ],
+    "summary": "Primeiro dia do ano e feriado nacional em todo o Brasil.",
+    "body": "A Confraternização Universal abre o calendário civil e é feriado nacional obrigatório. A data celebra a paz e a união entre os povos e costuma ser marcada pelas festas de Réveillon na noite anterior, como a queima de fogos em Copacabana, no Rio de Janeiro.",
+    "legalBasis": "Lei nº 662/1949, com redação dada pela Lei nº 10.607/2002",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm",
+    "status": "verified"
+  },
+  {
+    "id": "tiradentes",
+    "name": "Tiradentes",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:04-21",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Homenagem a Joaquim José da Silva Xavier, mártir da Inconfidência Mineira.",
+    "body": "O feriado lembra a execução de Tiradentes em 21 de abril de 1792, no Rio de Janeiro. Ele foi o único condenado à morte entre os participantes da Inconfidência Mineira, movimento contra a dominação portuguesa. Na mesma data se comemora a fundação de Brasília (1960) e a Data Magna de Minas Gerais.",
+    "legalBasis": "Lei nº 662/1949, com redação dada pela Lei nº 10.607/2002",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm",
+    "status": "verified"
+  },
+  {
+    "id": "dia-do-trabalho",
+    "name": "Dia do Trabalho",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:05-01",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "social",
+      "civico"
+    ],
+    "summary": "Dia Internacional do Trabalhador, feriado nacional.",
+    "body": "O Dia do Trabalho homenageia os trabalhadores e relembra a greve de Chicago de 1886 pela jornada de oito horas. No Brasil é feriado nacional desde 1925, e a data está ligada a conquistas como a CLT, anunciada em 1º de maio de 1943.",
+    "legalBasis": "Lei nº 662/1949, com redação dada pela Lei nº 10.607/2002",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm",
+    "status": "verified"
+  },
+  {
+    "id": "independencia-do-brasil",
+    "name": "Independência do Brasil",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:09-07",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Data Magna do Brasil: proclamação da Independência em 1822.",
+    "body": "Em 7 de setembro de 1822, às margens do riacho Ipiranga, em São Paulo, Dom Pedro I proclamou a independência do Brasil em relação a Portugal. A data é celebrada com desfiles cívico-militares em todo o país, sendo o principal em Brasília.",
+    "legalBasis": "Lei nº 662/1949, com redação dada pela Lei nº 10.607/2002",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm",
+    "status": "verified"
+  },
+  {
+    "id": "nossa-senhora-aparecida",
+    "name": "Nossa Senhora Aparecida",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:10-12",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Dia da Padroeira do Brasil; também Dia das Crianças.",
+    "body": "Nossa Senhora da Conceição Aparecida é a padroeira do Brasil. Segundo a tradição, sua imagem foi encontrada por pescadores no rio Paraíba do Sul em 1717. O Santuário Nacional, em Aparecida (SP), recebe milhões de romeiros por ano. No mesmo dia se comemora o Dia das Crianças.",
+    "legalBasis": "Lei nº 6.802/1980",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l6802.htm",
+    "status": "verified"
+  },
+  {
+    "id": "finados",
+    "name": "Finados",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:11-02",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Dia de Finados, em memória dos mortos.",
+    "body": "O Dia de Finados é dedicado à memória dos que já morreram. É tradição visitar cemitérios, levar flores e acender velas. A data vem da tradição católica, que celebra os fiéis falecidos logo depois do Dia de Todos os Santos (1º de novembro).",
+    "legalBasis": "Lei nº 662/1949, com redação dada pela Lei nº 10.607/2002",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm",
+    "status": "verified"
+  },
+  {
+    "id": "proclamacao-da-republica",
+    "name": "Proclamação da República",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:11-15",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "civico"
+    ],
+    "summary": "Fim do Império e início da República, em 1889.",
+    "body": "Em 15 de novembro de 1889, o marechal Deodoro da Fonseca proclamou a República no Rio de Janeiro, encerrando o período imperial de Dom Pedro II. O Brasil passou a ser governado por um presidente, e Deodoro foi o primeiro deles.",
+    "legalBasis": "Lei nº 662/1949, com redação dada pela Lei nº 10.607/2002",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm",
+    "status": "verified"
+  },
+  {
+    "id": "consciencia-negra",
+    "name": "Dia Nacional de Zumbi e da Consciência Negra",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:11-20",
+    "validFrom": 2024,
+    "validTo": null,
+    "categories": [
+      "historico",
+      "social"
+    ],
+    "summary": "Feriado nacional desde 2024, em homenagem a Zumbi dos Palmares.",
+    "body": "O 20 de novembro relembra a morte de Zumbi dos Palmares, em 1695, líder do maior quilombo do período colonial. A data é um dia de reflexão sobre a luta contra o racismo e a valorização da cultura afro-brasileira. Era feriado apenas em alguns estados e municípios até a Lei nº 14.759/2023 torná-lo feriado nacional a partir de 2024.",
+    "legalBasis": "Lei nº 14.759/2023",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm",
+    "status": "verified"
+  },
+  {
+    "id": "natal",
+    "name": "Natal",
+    "scope": "national",
+    "uf": null,
+    "ibge": null,
+    "kind": "feriado",
+    "rule": "fixed:12-25",
+    "validFrom": null,
+    "validTo": null,
+    "categories": [
+      "religioso"
+    ],
+    "summary": "Nascimento de Jesus Cristo, feriado nacional.",
+    "body": "O Natal celebra o nascimento de Jesus Cristo e é uma das datas mais importantes do ano no Brasil. A ceia na noite de 24, a troca de presentes e as decorações natalinas fazem parte da tradição.",
+    "legalBasis": "Lei nº 662/1949, com redação dada pela Lei nº 10.607/2002",
+    "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm",
+    "status": "verified"
+  }
+]

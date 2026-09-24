@@ -1,0 +1,37 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import type { Crumb } from '@/lib/seo/jsonld';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  h1: string;
+  lead?: string;
+  crumbName?: string;
+  jsonLd?: Record<string, unknown>[];
+  noindex?: boolean;
+  markdown?: boolean;
+  wide?: boolean;
+}
+
+const { title, description, path, h1, lead, crumbName = h1, jsonLd = [], noindex = false, markdown = false, wide = true } = Astro.props;
+const crumbs: Crumb[] = [
+  { name: 'Início', path: '/' },
+  { name: crumbName, path },
+];
+---
+
+<BaseLayout title={title} description={description} path={path} crumbs={crumbs} jsonLd={jsonLd} noindex={noindex} markdown={markdown}>
+  <div class="container-page pt-8 sm:pt-12">
+    <Breadcrumbs crumbs={crumbs} />
+    <header class="mt-4 max-w-3xl">
+      <h1 class="text-3xl font-semibold tracking-tight text-balance sm:text-5xl">{h1}</h1>
+      {lead && <p class="mt-4 text-lg leading-relaxed text-muted text-pretty">{lead}</p>}
+    </header>
+    <div class:list={['mt-10', !wide && 'max-w-3xl']}>
+      <slot />
+    </div>
+  </div>
+</BaseLayout>

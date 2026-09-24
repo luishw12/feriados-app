@@ -1,0 +1,106 @@
+---
+import PageShell from '@/components/PageShell.astro';
+import { cachePage } from '@/lib/cache';
+import { datasetSchema } from '@/lib/seo/jsonld';
+import { REPO_URL, currentYear, paths } from '@/lib/site';
+
+const site = Astro.site ?? new URL(Astro.url.origin);
+const base = site.href.replace(/\/$/, '');
+const year = currentYear();
+const endpoints = [
+  { id: 'nacional', method: 'GET', path: `/api/v1/feriados/${year}/`, desc: 'Feriados, pontos facultativos e datas comemorativas nacionais do ano.' },
+  { id: 'estado', method: 'GET', path: `/api/v1/feriados/${year}/?uf=SP`, desc: 'Nacionais + estaduais de um estado.' },
+  { id: 'cidade', method: 'GET', path: `/api/v1/feriados/${year}/?ibge=3509502`, desc: 'Tudo o que vale numa cidade (código IBGE). Também aceita ?uf=SP&cidade=campinas.' },
+  { id: 'filtro', method: 'GET', path: `/api/v1/feriados/${year}/?ibge=3509502&tipo=feriado`, desc: 'Filtra por tipo: feriado, facultativo, comemorativa (separados por vírgula).' },
+  { id: 'proximo', method: 'GET', path: '/api/v1/proximo/?ibge=3304557&n=3', desc: 'Próximos feriados a partir de hoje, com dias restantes. ?todos=1 inclui facultativos.' },
+  { id: 'dias-uteis', method: 'GET', path: `/api/v1/dias-uteis/?inicio=${year}-01-01&fim=${year}-12-31&uf=RJ`, desc: 'Dias úteis entre duas datas. ?facultativos=1 também desconta pontos facultativos.' },
+  { id: 'estados', method: 'GET', path: '/api/v1/estados/', desc: 'Lista de estados.' },
+  { id: 'municipios', method: 'GET', path: '/api/v1/municipios/?uf=SP', desc: 'Municípios de um estado, com código IBGE e slug.' },
+];
+const sample = `{
+  "ano": ${year},
+  "local": { "nome": "Campinas (SP)", "uf": "SP", "ibge": 3509502, ... },
+  "total": 35,
+  "feriados": [
+    {
+      "data": "${year}-11-20",
+      "dia_semana": "sexta-feira",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "id": "consciencia-negra",
+      "tipo": "feriado",          // feriado | facultativo | comemorativa
+      "abrangencia": "national",  // national | state | municipal
+      "regra": "fixed:11-20",
+      "base_legal": "Lei nº 14.759/2023",
+      "status": "verified",       // verified | unverified | incomplete
+      "url": "${base}/feriado/consciencia-negra/${year}/"
+    }
+  ]
+}`;
+const iframe = `<iframe src="${base}/embed/sp/campinas/?n=5" width="100%" height="330" style="border:0;border-radius:12px" title="Próximos feriados em Campinas" loading="lazy"></iframe>`;
+cachePage(Astro, ['api']);
+---
+
+<PageShell
+  title="API de feriados gratuita e dados abertos do Brasil"
+  description="API JSON gratuita, sem cadastro, com feriados nacionais, estaduais e municipais dos 5.571 municípios, dias úteis e calendário .ics. Dados abertos (MIT)."
+  path={paths.api()}
+  h1="API gratuita e dados abertos"
+  lead="Use os feriados do Brasil no seu sistema, planilha ou site: JSON sem cadastro, CORS liberado, calendário .ics e widget para incorporar. Os dados são abertos (licença MIT)."
+  crumbName="API e dados"
+  jsonLd={[datasetSchema(site)]}
+>
+  <section aria-labelledby="endpoints">
+    <h2 id="endpoints" class="text-xl font-semibold tracking-tight">Endpoints</h2>
+    <p class="mt-1 text-sm text-muted">Base: <code class="font-mono">{base}</code> · respostas em JSON (UTF-8), cache de algumas horas, sem limite rígido de uso — seja gentil.</p>
+    <div class="mt-4 divide-y divide-line rounded-2xl border border-line bg-surface">
+      {
+        endpoints.map((e) => (
+          <div id={e.id} class="px-5 py-4">
+            <p class="font-mono text-sm break-all">
+              <span class="mr-2 rounded bg-subtle px-1.5 py-0.5 text-xs font-semibold">{e.method}</span>
+              <a href={e.path} class="hover:underline">
+                {e.path}
+              </a>
+            </p>
+            <p class="mt-1 text-sm text-muted">{e.desc}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mt-12" aria-labelledby="resposta">
+    <h2 id="resposta" class="text-xl font-semibold tracking-tight">Exemplo de resposta</h2>
+    <pre class="mt-4 overflow-x-auto rounded-2xl border border-line bg-surface p-5 font-mono text-xs leading-relaxed"><code>{sample}</code></pre>
+  </section>
+
+  <section class="mt-12" aria-labelledby="agenda">
+    <h2 id="agenda" class="text-xl font-semibold tracking-tight">Calendário (.ics) que se atualiza sozinho</h2>
+    <p class="mt-2 text-sm text-muted">
+      Assine no Google Agenda (“Outras agendas → Por URL”), Apple Calendário ou Outlook. Quando um feriado é corrigido aqui, sua agenda atualiza automaticamente.
+    </p>
+    <ul class="mt-3 space-y-1 font-mono text-sm">
+      <li><a class="link" href="/calendario/brasil.ics">{base}/calendario/brasil.ics</a></li>
+      <li><a class="link" href="/calendario/sp.ics">{base}/calendario/sp.ics</a></li>
+      <li><a class="link" href="/calendario/sp/campinas.ics">{base}/calendario/sp/campinas.ics</a></li>
+    </ul>
+    <p class="mt-2 text-xs text-faint">Adicione <code>?facultativos=0</code> para deixar só os feriados obrigatórios.</p>
+  </section>
+
+  <section class="mt-12" aria-labelledby="incorporar">
+    <h2 id="incorporar" class="text-xl font-semibold tracking-tight">Incorporar no seu site</h2>
+    <p class="mt-2 text-sm text-muted">Mostre os próximos feriados de qualquer cidade. Troque <code>/sp/campinas/</code> pelo lugar desejado (ou use <code>/embed/</code> para o Brasil). Opções: <code>?n=5</code>, <code>?tema=escuro</code>.</p>
+    <div class="mt-4 grid gap-4 lg:grid-cols-2">
+      <pre class="overflow-x-auto rounded-2xl border border-line bg-surface p-4 font-mono text-xs whitespace-pre-wrap break-all"><code>{iframe}</code></pre>
+      <iframe src="/embed/sp/campinas/?n=5" width="100%" height="330" class="rounded-2xl border border-line" title="Exemplo: próximos feriados em Campinas" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section class="mt-12" aria-labelledby="dataset">
+    <h2 id="dataset" class="text-xl font-semibold tracking-tight">Dataset completo</h2>
+    <p class="mt-2 text-sm text-muted">
+      Todos os dados ficam versionados no GitHub em <a class="link" href={`${REPO_URL}/tree/main/data/seed`}>data/seed</a> (JSON), exportados todos os dias.
+      Cada feriado tem uma regra de data (<code>fixed:MM-DD</code>, <code>easter:±N</code>, <code>nth:MM:DOW:N</code>) para calcular qualquer ano.
+    </p>
+  </section>
+</PageShell>

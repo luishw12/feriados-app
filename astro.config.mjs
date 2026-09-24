@@ -1,60 +1,48 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import react from '@astrojs/react';
-import sitemap from '@astrojs/sitemap';
+import { defineConfig, envField } from 'astro/config';
+import preact from '@astrojs/preact';
+import vercel from '@astrojs/vercel';
+import { cacheVercel } from '@astrojs/vercel/cache';
 import tailwindcss from '@tailwindcss/vite';
-import { loadEnv } from 'vite';
 
-const env = loadEnv(process.env.NODE_ENV ?? 'production', process.cwd(), '');
-const site = env.PUBLIC_SITE_URL || 'https://feriados.luishw.com.br';
+const site = process.env.PUBLIC_SITE_URL || 'https://feriados.luishw.com.br';
 
-/** @type {import('@astrojs/sitemap').SitemapOptions} */
-const sitemapOptions = {
-  serialize(item) {
-    const path = new URL(item.url).pathname;
-    const segments = path.split('/').filter(Boolean);
-
-    /** @type {'weekly' | 'monthly'} */
-    let changefreq = 'monthly';
-
-    if (segments.length === 0) {
-      item.priority = 1.0;
-      changefreq = 'weekly';
-    } else if (segments[0] === 'guia') {
-      item.priority = 0.95;
-      changefreq = 'weekly';
-    } else if (segments[0] === 'feriado') {
-      item.priority = 0.75;
-    } else if (segments[0] === 'sobre' || segments[0] === 'privacidade' || segments[0] === 'changelog') {
-      item.priority = segments[0] === 'sobre' ? 0.9 : 0.85;
-    } else if (segments.length === 1) {
-      item.priority = 0.9;
-    } else if (segments.length === 2) {
-      item.priority = 0.7;
-    } else {
-      item.priority = 0.65;
-    }
-
-    // EnumChangefreq do sitemap aceita esses literais em runtime
-    item.changefreq = /** @type {import('sitemap').EnumChangefreq} */ (changefreq);
-    return item;
-  },
-  entryLimit: 45000,
-};
-
-// https://astro.build/config
 export default defineConfig({
   site,
+  output: 'server',
   trailingSlash: 'always',
-  integrations: [react(), sitemap(sitemapOptions)],
-  output: 'static',
-  image: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'upload.wikimedia.org',
-      },
-    ],
+  adapter: vercel({
+    // Banco SQLite embutido (gerado do seed no build) — usado apenas quando o Turso
+    // não está configurado, ex.: previews. Fica em modo somente leitura.
+    includeFiles: ['.data/feriados.db'],
+    maxDuration: 30,
+  }),
+  cache: {
+    provider: cacheVercel(),
+  },
+  integrations: [preact()],
+  prefetch: {
+    prefetchAll: false,
+    defaultStrategy: 'hover',
+  },
+  build: {
+    inlineStylesheets: 'always',
+  },
+  env: {
+    schema: {
+      TURSO_DATABASE_URL: envField.string({ context: 'server', access: 'secret', optional: true }),
+      TURSO_AUTH_TOKEN: envField.string({ context: 'server', access: 'secret', optional: true }),
+      GITHUB_CLIENT_ID: envField.string({ context: 'server', access: 'secret', optional: true }),
+      GITHUB_CLIENT_SECRET: envField.string({ context: 'server', access: 'secret', optional: true }),
+      ADMIN_GITHUB_LOGINS: envField.string({ context: 'server', access: 'secret', optional: true }),
+      SESSION_SECRET: envField.string({ context: 'server', access: 'secret', optional: true }),
+      TURNSTILE_SECRET_KEY: envField.string({ context: 'server', access: 'secret', optional: true }),
+      PUBLIC_TURNSTILE_SITE_KEY: envField.string({ context: 'client', access: 'public', optional: true }),
+      RESEND_API_KEY: envField.string({ context: 'server', access: 'secret', optional: true }),
+      ADMIN_EMAIL: envField.string({ context: 'server', access: 'secret', optional: true }),
+      EMAIL_FROM: envField.string({ context: 'server', access: 'secret', optional: true }),
+      INDEXNOW_KEY: envField.string({ context: 'server', access: 'secret', optional: true }),
+    },
   },
   vite: {
     plugins: [tailwindcss()],

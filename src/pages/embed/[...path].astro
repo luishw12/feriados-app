@@ -1,0 +1,60 @@
+---
+/**
+ * Widget para incorporar em outros sites via <iframe>:
+ *   /embed/            → próximos feriados nacionais
+ *   /embed/sp/         → estado
+ *   /embed/sp/campinas/ → cidade
+ * Parâmetros: ?n=5 (quantidade), ?tema=escuro
+ */
+import '@/styles/global.css';
+import { defsFor } from '@/lib/api';
+import { cachePage } from '@/lib/cache';
+import { getCity, getState, type Place } from '@/lib/data';
+import { upcoming } from '@/lib/holidays/resolve';
+import { diffDays, formatDayMonth, todayInBrazil, weekdayName } from '@/lib/holidays/rules';
+import { paths, placeLabel, tone, typeLabel } from '@/lib/site';
+
+const [uf, slug] = (Astro.params.path ?? '').split('/').filter(Boolean);
+const state = uf ? await getState(uf) : null;
+const city = state && slug ? await getCity(state.uf, slug) : null;
+if ((uf && !state) || (slug && !city)) return new Response('Não encontrado', { status: 404 });
+
+const place: Place = { state, city };
+const n = Math.min(Math.max(Number(Astro.url.searchParams.get('n') ?? 5) || 5, 1), 12);
+const dark = Astro.url.searchParams.get('tema') === 'escuro';
+const today = todayInBrazil();
+const { defs, overrides } = await defsFor(place);
+const list = upcoming(defs, today, n, overrides, (o) => o.kind !== 'comemorativa');
+const pageHref = new URL(city && state ? paths.city(state.uf, city.slug) : state ? paths.state(state.uf) : '/', Astro.site ?? Astro.url.origin).href;
+cachePage(Astro, ['national', ...(state ? [`uf:${state.uf}`] : []), ...(city ? [`city:${city.ibge}`] : [])], { maxAge: 60 * 60 * 3 });
+Astro.response.headers.set('content-security-policy', 'frame-ancestors *');
+---
+
+<!doctype html>
+<html lang="pt-BR" class:list={[dark && 'dark']}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Próximos feriados — {placeLabel(place)}</title>
+  </head>
+  <body class="bg-surface p-4 text-sm">
+    <p class="font-semibold">Próximos feriados · {placeLabel(place)}</p>
+    <ul class="mt-2 divide-y divide-line">
+      {
+        list.map((o) => (
+          <li class={`tone-${tone(o.scope, o.kind)} flex items-center justify-between gap-3 py-2`}>
+            <span class="min-w-0">
+              <span class="block truncate font-medium">{o.name}</span>
+              <span class="text-xs text-faint">
+                {weekdayName(o.date)}, {formatDayMonth(o.date)} · <span class="tone-text">{typeLabel(o.scope, o.kind)}</span>
+              </span>
+            </span>
+            <span class="tabular shrink-0 text-xs text-muted">{diffDays(today, o.date) === 0 ? 'hoje' : `em ${diffDays(today, o.date)}d`}</span>
+          </li>
+        ))
+      }
+    </ul>
+    <a href={pageHref} target="_blank" rel="noopener" class="mt-2 inline-block text-xs text-faint hover:text-fg">via Feriados Brasil ↗</a>
+  </body>
+</html>

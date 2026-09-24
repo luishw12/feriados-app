@@ -1,0 +1,67 @@
+---
+import PageShell from '@/components/PageShell.astro';
+import NextHoliday from '@/components/NextHoliday.astro';
+import HolidayList from '@/components/HolidayList.astro';
+import Faq from '@/components/Faq.astro';
+import Icon from '@/components/Icon.astro';
+import { cachePage } from '@/lib/cache';
+import { getNationalHolidays, toDef } from '@/lib/data';
+import { upcoming } from '@/lib/holidays/resolve';
+import { diffDays, formatLong, todayInBrazil } from '@/lib/holidays/rules';
+import { bridgeSentence, isBridge, type FaqItem } from '@/lib/pages';
+import { faqSchema } from '@/lib/seo/jsonld';
+import { paths, plural } from '@/lib/site';
+
+const today = todayInBrazil();
+const defs = (await getNationalHolidays()).map(toDef);
+const list = upcoming(defs, today, 6, [], (o) => o.kind === 'feriado');
+const optional = upcoming(defs, today, 4, [], (o) => o.kind === 'facultativo');
+const next = list[0]!;
+const days = diffDays(today, next.date);
+const bridge = isBridge(next);
+// Muda todo dia: cache curto no CDN (o contador também é recalculado no navegador).
+cachePage(Astro, ['national'], { maxAge: 60 * 30 });
+
+const lead = `O próximo feriado nacional é ${next.name}, ${formatLong(next.date)} — ${days === 0 ? 'hoje' : `faltam ${plural(days, 'dia', 'dias')}`}.${bridge ? ` ${bridgeSentence(bridge)}` : ''}`;
+const faq: FaqItem[] = [
+  { q: 'Qual é o próximo feriado nacional?', a: lead },
+  { q: 'Quais são os próximos feriados?', a: list.map((o) => `${o.name} (${formatLong(o.date)})`).join('; ') + '.' },
+  ...(optional[0] ? [{ q: 'Qual é o próximo ponto facultativo?', a: `${optional[0].name}, ${formatLong(optional[0].date)}.` }] : []),
+];
+---
+
+<PageShell
+  title={`Próximo feriado: ${next.name} (${formatLong(next.date)})`}
+  description={lead}
+  path={paths.next()}
+  h1="Qual é o próximo feriado?"
+  lead={lead}
+  crumbName="Próximo feriado"
+  jsonLd={[faqSchema(faq)!]}
+  markdown={false}
+>
+  <div class="grid gap-4 lg:grid-cols-[1.5fr_1fr]">
+    <NextHoliday next={next} today={today} label="Próximo feriado nacional" />
+    <div class="card flex flex-col justify-between gap-3 p-5">
+      <p class="text-sm text-muted">A sua cidade pode ter feriados municipais antes disso. Veja o calendário completo da sua cidade:</p>
+      <button type="button" data-open-search class="btn-primary"><Icon name="search" /> Buscar minha cidade</button>
+    </div>
+  </div>
+
+  <section class="mt-12" aria-labelledby="proximos">
+    <h2 id="proximos" class="mb-4 text-xl font-semibold tracking-tight">Próximos feriados nacionais</h2>
+    <HolidayList occurrences={list} today={today} />
+  </section>
+
+  {
+    optional.length > 0 && (
+      <section class="mt-12" aria-labelledby="facultativos">
+        <h2 id="facultativos" class="mb-4 text-xl font-semibold tracking-tight">
+          Próximos pontos facultativos
+        </h2>
+        <HolidayList occurrences={optional} today={today} />
+      </section>
+    )
+  }
+  <Faq items={faq} />
+</PageShell>
