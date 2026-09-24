@@ -1,0 +1,191 @@
+[
+  {
+    "uf": "AC",
+    "name": "Acre",
+    "slug": "acre",
+    "region": "Norte",
+    "capitalIbge": 1200401
+  },
+  {
+    "uf": "AL",
+    "name": "Alagoas",
+    "slug": "alagoas",
+    "region": "Nordeste",
+    "capitalIbge": 2704302
+  },
+  {
+    "uf": "AM",
+    "name": "Amazonas",
+    "slug": "amazonas",
+    "region": "Norte",
+    "capitalIbge": 1302603
+  },
+  {
+    "uf": "AP",
+    "name": "Amapá",
+    "slug": "amapa",
+    "region": "Norte",
+    "capitalIbge": 1600303
+  },
+  {
+    "uf": "BA",
+    "name": "Bahia",
+    "slug": "bahia",
+    "region": "Nordeste",
+    "capitalIbge": 2927408
+  },
+  {
+    "uf": "CE",
+    "name": "Ceará",
+    "slug": "ceara",
+    "region": "Nordeste",
+    "capitalIbge": 2304400
+  },
+  {
+    "uf": "DF",
+    "name": "Distrito Federal",
+    "slug": "distrito-federal",
+    "region": "Centro-Oeste",
+    "capitalIbge": 5300108
+  },
+  {
+    "uf": "ES",
+    "name": "Espírito Santo",
+    "slug": "espirito-santo",
+    "region": "Sudeste",
+    "capitalIbge": 3205309
+  },
+  {
+    "uf": "GO",
+    "name": "Goiás",
+    "slug": "goias",
+    "region": "Centro-Oeste",
+    "capitalIbge": 5208707
+  },
+  {
+    "uf": "MA",
+    "name": "Maranhão",
+    "slug": "maranhao",
+    "region": "Nordeste",
+    "capitalIbge": 2111300
+  },
+  {
+    "uf": "MG",
+    "name": "Minas Gerais",
+    "slug": "minas-gerais",
+    "region": "Sudeste",
+    "capitalIbge": 3106200
+  },
+  {
+    "uf": "MS",
+    "name": "Mato Grosso do Sul",
+    "slug": "mato-grosso-do-sul",
+    "region": "Centro-Oeste",
+    "capitalIbge": 5002704
+  },
+  {
+    "uf": "MT",
+    "name": "Mato Grosso",
+    "slug": "mato-grosso",
+    "region": "Centro-Oeste",
+    "capitalIbge": 5103403
+  },
+  {
+    "uf": "PA",
+    "name": "Pará",
+    "slug": "para",
+    "region": "Norte",
+    "capitalIbge": 1501402
+  },
+  {
+    "uf": "PB",
+    "name": "Paraíba",
+    "slug": "paraiba",
+    "region": "Nordeste",
+    "capitalIbge": 2507507
+  },
+  {
+    "uf": "PE",
+    "name": "Pernambuco",
+    "slug": "pernambuco",
+    "region": "Nordeste",
+    "capitalIbge": 2611606
+  },
+  {
+    "uf": "PI",
+    "name": "Piauí",
+    "slug": "piaui",
+    "region": "Nordeste",
+    "capitalIbge": 2211001
+  },
+  {
+    "uf": "PR",
+    "name": "Paraná",
+    "slug": "parana",
+    "region": "Sul",
+    "capitalIbge": 4106902
+  },
+  {
+    "uf": "RJ",
+    "name": "Rio de Janeiro",
+    "slug": "rio-de-janeiro",
+    "region": "Sudeste",
+    "capitalIbge": 3304557
+  },
+  {
+    "uf": "RN",
+    "name": "Rio Grande do Norte",
+    "slug": "rio-grande-do-norte",
+    "region": "Nordeste",
+    "capitalIbge": 2408102
+  },
+  {
+    "uf": "RO",
+    "name": "Rondônia",
+    "slug": "rondonia",
+    "region": "Norte",
+    "capitalIbge": 1100205
+  },
+  {
+    "uf": "RR",
+    "name": "Roraima",
+    "slug": "roraima",
+    "region": "Norte",
+    "capitalIbge": 1400100
+  },
+  {
+    "uf": "RS",
+    "name": "Rio Grande do Sul",
+    "slug": "rio-grande-do-sul",
+    "region": "Sul",
+    "capitalIbge": 4314902
+  },
+  {
+    "uf": "SC",
+    "name": "Santa Catarina",
+    "slug": "santa-catarina",
+    "region": "Sul",
+    "capitalIbge": 4205407
+  },
+  {
+    "uf": "SE",
+    "name": "Sergipe",
+    "slug": "sergipe",
+    "region": "Nordeste",
+    "capitalIbge": 2800308
+  },
+  {
+    "uf": "SP",
+    "name": "São Paulo",
+    "slug": "sao-paulo",
+    "region": "Sudeste",
+    "capitalIbge": 3550308
+  },
+  {
+    "uf": "TO",
+    "name": "Tocantins",
+    "slug": "tocantins",
+    "region": "Norte",
+    "capitalIbge": 1721000
+  }
+]
