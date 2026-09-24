@@ -5,6 +5,7 @@ import { getDb, schema } from '@/lib/db/client';
 import { SUGGESTION_STATUSES, type SuggestionStatus } from '@/lib/db/schema';
 import { SUGGESTION_TYPE_LABEL } from '@/lib/server/suggestions';
 import { describeRule } from '@/lib/holidays/rules';
+import { getStates } from '@/lib/data';
 
 const STATUS_TABS: Record<SuggestionStatus, string> = { pending: 'Pendentes', approved: 'Aprovadas', rejected: 'Rejeitadas', spam: 'Spam' };
 const status = (SUGGESTION_STATUSES as readonly string[]).includes(Astro.url.searchParams.get('status') ?? '')
@@ -13,6 +14,7 @@ const status = (SUGGESTION_STATUSES as readonly string[]).includes(Astro.url.sea
 const uf = Astro.url.searchParams.get('uf')?.toUpperCase() ?? '';
 
 const db = getDb();
+const states = await getStates();
 const where: SQL[] = [eq(schema.suggestions.status, status)];
 if (/^[A-Z]{2}$/.test(uf)) where.push(eq(schema.suggestions.uf, uf));
 const [rows, counts] = await Promise.all([
@@ -44,7 +46,10 @@ const ago = (d: Date) => {
     <h1 class="text-2xl font-semibold tracking-tight">Sugestões</h1>
     <form class="flex gap-2">
       <input type="hidden" name="status" value={status} />
-      <input name="uf" value={uf} class="input w-20" placeholder="UF" maxlength="2" aria-label="Filtrar por UF" />
+      <select name="uf" class="input select w-44" aria-label="Filtrar por estado">
+        <option value="">Todos os estados</option>
+        {states.map((s) => <option value={s.uf} selected={uf === s.uf}>{s.name}</option>)}
+      </select>
       <button class="btn">Filtrar</button>
     </form>
   </div>

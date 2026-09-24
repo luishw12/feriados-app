@@ -8,6 +8,23 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
+## [2.1.0-beta] - 2026-09-24
+
+Formulários redesenhados: calendário para escolher a data, busca de cidade e estado nas sugestões e no painel, e campos mais claros em todo o site.
+
+### Adicionado
+
+- Calendário para escolher dia e mês de feriados de data fixa, com o dia da semana em que cai
+- Busca de cidade, estado ou “Nacional” ao sugerir um feriado, vinculando a sugestão ao lugar certo
+- Painel: editor visual da regra de data (data fixa, Páscoa, Nº dia da semana, último do mês) com prévia das próximas datas
+- Painel: abrangência e lugar escolhidos juntos, buscando a cidade pelo nome em vez de digitar o código IBGE
+
+### Alterado
+
+- Novo visual para campos, seletores, caixas de marcação e grupos de opções em todo o site
+- Formulário de sugestão com mensagens de erro em cada campo e carregado só quando é aberto, deixando as páginas mais leves
+- Exceções por ano no painel usam o calendário e a opção “Não ocorre neste ano”
+
 ## [2.0.0-beta] - 2026-09-24
 
 Reescrita completa: dados em banco com moderação pelo painel, publicação instantânea, novas URLs, SEO e leitura por IA, API e agenda.

@@ -4,6 +4,7 @@ import { and, asc, eq, like, or, type SQL } from 'drizzle-orm';
 import { getDb, schema } from '@/lib/db/client';
 import { SCOPES, STATUSES } from '@/lib/db/schema';
 import { describeRule } from '@/lib/holidays/rules';
+import { getStates } from '@/lib/data';
 import { SCOPE_LABEL, STATUS_LABEL, typeLabel } from '@/lib/site';
 
 const q = (Astro.url.searchParams.get('q') ?? '').trim().slice(0, 60);
@@ -12,6 +13,7 @@ const scope = Astro.url.searchParams.get('scope') ?? '';
 const status = Astro.url.searchParams.get('status') ?? '';
 const page = Math.max(1, Number(Astro.url.searchParams.get('p') ?? 1) || 1);
 const PAGE = 50;
+const states = await getStates();
 
 const where: SQL[] = [];
 if (q) where.push(or(like(schema.holidays.name, `%${q}%`), like(schema.holidays.id, `%${q}%`), like(schema.municipalities.name, `%${q}%`))!);
@@ -40,15 +42,18 @@ const qs = (p: number) => {
     <h1 class="text-2xl font-semibold tracking-tight">Feriados</h1>
     <a href="/admin/feriados/novo/" class="btn-primary">+ Novo feriado</a>
   </div>
-  <form class="mt-6 grid gap-2 sm:grid-cols-[1fr_5rem_10rem_10rem_auto]">
-    <input name="q" value={q} class="input" placeholder="Nome, ID ou cidade" aria-label="Buscar" />
-    <input name="uf" value={uf} class="input" placeholder="UF" maxlength="2" aria-label="UF" />
-    <select name="scope" class="input" aria-label="Abrangência">
-      <option value="">Abrangência</option>
+  <form class="mt-6 grid gap-2 sm:grid-cols-[1fr_11rem_10rem_10rem_auto]">
+    <input name="q" type="search" value={q} class="input" placeholder="Nome, ID ou cidade" aria-label="Buscar" />
+    <select name="uf" class="input select" aria-label="Estado">
+      <option value="">Todos os estados</option>
+      {states.map((s) => <option value={s.uf} selected={uf === s.uf}>{s.name}</option>)}
+    </select>
+    <select name="scope" class="input select" aria-label="Abrangência">
+      <option value="">Toda abrangência</option>
       {SCOPES.map((s) => <option value={s} selected={scope === s}>{SCOPE_LABEL[s]}</option>)}
     </select>
-    <select name="status" class="input" aria-label="Status">
-      <option value="">Status</option>
+    <select name="status" class="input select" aria-label="Status">
+      <option value="">Todo status</option>
       {STATUSES.map((s) => <option value={s} selected={status === s}>{STATUS_LABEL[s]}</option>)}
     </select>
     <button class="btn">Filtrar</button>

@@ -113,3 +113,34 @@ export function resultHref(result: SearchResult): string {
       return `/feriado/${result.item.id}/`;
   }
 }
+
+/** Lugar escolhido num formulário (feriado nacional, estadual ou municipal). */
+export type Place = { kind: 'national' } | { kind: 'state'; uf: string; name: string } | { kind: 'city'; ibge: number; name: string; uf: string };
+export type PlaceKind = Place['kind'];
+
+const NATIONAL_WORDS = ['nacional', 'brasil', 'todo o brasil', 'pais'];
+
+/** Busca só lugares (sem feriados), respeitando os tipos permitidos. */
+export function searchPlaces(index: SearchIndex, query: string, allow: readonly PlaceKind[], limit = 8): Place[] {
+  const q = normalize(query);
+  const places: Place[] = [];
+  if (allow.includes('national') && (!q || NATIONAL_WORDS.some((w) => w.startsWith(q) || q.startsWith(w)))) places.push({ kind: 'national' });
+  if (!q) {
+    if (allow.includes('state')) places.push(...index.states.map((s): Place => ({ kind: 'state', uf: s.uf, name: s.name })));
+    return places;
+  }
+  for (const r of search(index, query, limit * 4)) {
+    if (r.type === 'state' && allow.includes('state')) places.push({ kind: 'state', uf: r.item.uf, name: r.item.name });
+    if (r.type === 'city' && allow.includes('city')) places.push({ kind: 'city', ibge: r.item.ibge, name: r.item.name, uf: r.item.uf });
+  }
+  return places.slice(0, limit);
+}
+
+export function placeKey(place: Place): string {
+  return place.kind === 'national' ? 'BR' : place.kind === 'state' ? place.uf : String(place.ibge);
+}
+
+export function placeText(place: Place): string {
+  if (place.kind === 'national') return 'Nacional (todo o Brasil)';
+  return place.kind === 'state' ? place.name : `${place.name} · ${place.uf}`;
+}

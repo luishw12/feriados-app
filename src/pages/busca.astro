@@ -20,7 +20,7 @@ const [cities, holidays] = q.length >= 2
 
 <PageShell title={q ? `Busca: ${q}` : 'Busca'} description="Busque feriados por cidade, estado ou nome." path="/busca/" h1={q ? `Resultados para “${q}”` : 'Buscar'} noindex wide={false}>
   <form method="get" action="/busca/" class="flex gap-2">
-    <input name="q" value={q} class="input" placeholder="Cidade ou feriado" aria-label="Buscar" />
+    <input name="q" type="search" value={q} class="input" placeholder="Cidade ou feriado" aria-label="Buscar" />
     <button class="btn-primary">Buscar</button>
   </form>
   {

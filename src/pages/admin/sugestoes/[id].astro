@@ -111,7 +111,7 @@ const place = placeLabel({ state, city });
     {closed && <span class="chip bg-subtle text-muted">{suggestion.status} por {suggestion.reviewedBy}</span>}
   </div>
   <p class="mt-1 text-muted">
-    {place}{p.placeText && ` · lugar informado: “${p.placeText}”`}
+    {p.national ? 'Nacional (informado na sugestão)' : place}{p.placeText && ` · lugar informado: “${p.placeText}”`}
   </p>
 
   {error && <p class="mt-4 rounded-xl bg-[var(--color-warn-soft)] px-3 py-2 text-sm text-[var(--color-warn)]">{error}</p>}
@@ -154,13 +154,18 @@ const place = placeLabel({ state, city });
 
       {
         !closed && suggestion.type !== 'remove' && (
-          <form method="post" class="card space-y-5 p-5">
+          <form method="post" class="card space-y-6 p-5 sm:p-6">
             <p class="font-medium">{holiday ? 'Revise e aprove a correção' : 'Revise e crie o feriado'}</p>
-            <HolidayFields value={value} idEditable={!holiday} />
-            <label class="block">
-              <span class="mb-1 block text-xs font-medium text-muted">Nota para quem sugeriu (opcional, vai por e-mail)</span>
-              <input name="note" class="input" maxlength="500" />
-            </label>
+            <HolidayFields value={value} idEditable={!holiday} placeHint={!holiday && !city && !state && !p.national ? p.placeText : undefined} />
+            <div class="border-t border-line pt-5">
+              <label class="field-label" for="review-note">
+                Nota para quem sugeriu
+              </label>
+              <input id="review-note" name="note" class="input" maxlength="500" aria-describedby="review-note-hint" />
+              <span id="review-note-hint" class="field-hint">
+                Opcional. Vai por e-mail se a pessoa deixou o endereço.
+              </span>
+            </div>
             <div class="flex flex-wrap gap-2">
               <button name="action" value="approve" class="btn-primary">
                 Aprovar e publicar
@@ -186,7 +191,7 @@ const place = placeLabel({ state, city });
           <form method="post" class="card space-y-4 p-5">
             <p class="font-medium">Remover “{holiday?.name}” do site?</p>
             <p class="text-sm text-muted">A página antiga passa a redirecionar para {place}.</p>
-            <input name="note" class="input" placeholder="Nota (opcional)" maxlength="500" />
+            <input name="note" class="input" placeholder="Nota para quem sugeriu (opcional)" aria-label="Nota para quem sugeriu" maxlength="500" />
             <div class="flex flex-wrap gap-2">
               <button name="action" value="delete" class="btn-primary">
                 Aprovar remoção
