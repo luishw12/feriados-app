@@ -93,6 +93,8 @@ export interface SuggestionPayload {
   kind?: Kind;
   /** Texto livre de lugar quando a sugestão veio de uma página sem contexto. */
   placeText?: string;
+  /** Quem sugeriu marcou o feriado como nacional. */
+  national?: boolean;
   /** Página em que a pessoa estava ao sugerir. */
   page?: string;
 }

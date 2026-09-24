@@ -129,7 +129,7 @@ const title = holiday?.name ?? p.name ?? '(sem nome)';
       </div>
       <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">{title}</h1>
       <p class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
-        <span class="flex items-center gap-1.5"><Icon name="globe" size={15} class="text-faint" />{place}</span>
+        <span class="flex items-center gap-1.5"><Icon name="globe" size={15} class="text-faint" />{p.national ? 'Nacional (informado na sugestão)' : place}</span>
         {p.placeText && <span class="flex items-center gap-1.5"><Icon name="mapPin" size={15} class="text-faint" />Lugar informado: “{p.placeText}”</span>}
       </p>
     </div>
@@ -194,13 +194,18 @@ const title = holiday?.name ?? p.name ?? '(sem nome)';
 
       {
         !closed && suggestion.type !== 'remove' && (
-          <form method="post" class="card space-y-5 p-5 sm:p-6">
+          <form method="post" class="card space-y-6 p-5 sm:p-6">
             <h2 class="font-semibold">{holiday ? 'Revise e aprove a correção' : 'Revise e crie o feriado'}</h2>
-            <HolidayFields value={value} idEditable={!holiday} />
-            <label class="block">
-              <span class="mb-1 block text-xs font-medium text-muted">Nota para quem sugeriu (opcional, vai por e-mail)</span>
-              <input name="note" class="input" maxlength="500" />
-            </label>
+            <HolidayFields value={value} idEditable={!holiday} placeHint={!holiday && !city && !state && !p.national ? p.placeText : undefined} />
+            <div class="border-t border-line pt-5">
+              <label class="field-label" for="review-note">
+                Nota para quem sugeriu
+              </label>
+              <input id="review-note" name="note" class="input" maxlength="500" aria-describedby="review-note-hint" />
+              <span id="review-note-hint" class="field-hint">
+                Opcional. Vai por e-mail se a pessoa deixou o endereço.
+              </span>
+            </div>
             <div class="flex flex-wrap gap-2 border-t border-line pt-5">
               <button name="action" value="approve" class="btn-primary">
                 <Icon name="check" /> Aprovar e publicar
@@ -226,7 +231,7 @@ const title = holiday?.name ?? p.name ?? '(sem nome)';
           <form method="post" class="card space-y-4 p-5 sm:p-6">
             <h2 class="font-semibold">Remover “{holiday?.name}” do site?</h2>
             <p class="text-sm text-muted">A página antiga passa a redirecionar para {place}.</p>
-            <input name="note" class="input" placeholder="Nota (opcional)" maxlength="500" aria-label="Nota" />
+            <input name="note" class="input" placeholder="Nota para quem sugeriu (opcional)" aria-label="Nota para quem sugeriu" maxlength="500" />
             <div class="flex flex-wrap gap-2 border-t border-line pt-4">
               <button name="action" value="delete" class="btn-primary">
                 <Icon name="trash" /> Aprovar remoção

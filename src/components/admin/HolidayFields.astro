@@ -1,104 +1,151 @@
 ---
-import { CATEGORIES, KINDS, SCOPES, STATUSES } from '@/lib/db/schema';
+import { CATEGORIES, KINDS, STATUSES, type Category } from '@/lib/db/schema';
 import type { HolidayForm } from '@/lib/server/moderation';
-import { getStates } from '@/lib/data';
-import { KIND_LABEL, SCOPE_LABEL, STATUS_LABEL } from '@/lib/site';
+import { getCityByIbge, getStates } from '@/lib/data';
+import { KIND_LABEL, STATUS_LABEL } from '@/lib/site';
+import type { Place } from '@/islands/search-core';
+import RuleBuilder from '@/islands/form/RuleBuilder';
+import ScopePlaceField from '@/islands/form/ScopePlaceField';
 
 interface Props {
   value: HolidayForm;
   /** ID editável só na criação. */
   idEditable: boolean;
+  /** Lugar digitado por quem sugeriu (sugestões sem cidade/UF vinculada). */
+  placeHint?: string | undefined;
 }
 
-const { value, idEditable } = Astro.props;
+const { value, idEditable, placeHint } = Astro.props;
 const states = await getStates();
-const label = 'block text-xs font-medium text-muted mb-1';
+const city = value.ibge ? await getCityByIbge(value.ibge) : null;
+const state = value.uf ? states.find((s) => s.uf === value.uf) : undefined;
+const place: Place | null = city
+  ? { kind: 'city', ibge: city.ibge, name: city.name, uf: city.uf }
+  : state
+    ? { kind: 'state', uf: state.uf, name: state.name }
+    : null;
+
+const CATEGORY_LABEL: Record<Category, string> = {
+  religioso: 'Religioso',
+  historico: 'Histórico',
+  civico: 'Cívico',
+  cultural: 'Cultural',
+  social: 'Social',
+};
+const KIND_HINT: Record<(typeof KINDS)[number], string> = {
+  feriado: 'Folga obrigatória',
+  facultativo: 'Cada órgão ou empresa decide',
+  comemorativa: 'Sem folga',
+};
 ---
 
-<div class="grid gap-4 sm:grid-cols-6">
-  <label class="sm:col-span-4">
-    <span class={label}>Nome</span>
-    <input name="name" class="input" value={value.name} required maxlength="120" />
-  </label>
-  <label class="sm:col-span-2">
-    <span class={label}>Status</span>
-    <select name="status" class="input">
-      {STATUSES.map((s) => <option value={s} selected={value.status === s}>{STATUS_LABEL[s]}</option>)}
-    </select>
-  </label>
-  <label class="sm:col-span-3">
-    <span class={label}>ID (URL /feriado/…/)</span>
-    <input name="id" class="input font-mono" value={value.id} readonly={!idEditable} required pattern="[a-z0-9-]+" />
-  </label>
-  <label class="sm:col-span-3">
-    <span class={label}>Regra da data</span>
-    <input name="rule" class="input font-mono" value={value.rule} required list="rules" placeholder="fixed:MM-DD" />
-    <datalist id="rules">
-      <option value="easter:-48">Segunda de Carnaval</option>
-      <option value="easter:-47">Carnaval</option>
-      <option value="easter:-46">Quarta de Cinzas</option>
-      <option value="easter:-2">Sexta-feira Santa</option>
-      <option value="easter:+60">Corpus Christi</option>
-    </datalist>
-    <span class="mt-1 block text-xs text-faint">fixed:MM-DD · easter:±N · nth:MM:DOW:N · last:MM:DOW</span>
-  </label>
-  <label class="sm:col-span-2">
-    <span class={label}>Abrangência</span>
-    <select name="scope" class="input">
-      {SCOPES.map((s) => <option value={s} selected={value.scope === s}>{SCOPE_LABEL[s]}</option>)}
-    </select>
-  </label>
-  <label class="sm:col-span-1">
-    <span class={label}>UF</span>
-    <select name="uf" class="input">
-      <option value="">—</option>
-      {states.map((s) => <option value={s.uf} selected={value.uf === s.uf}>{s.uf}</option>)}
-    </select>
-  </label>
-  <label class="sm:col-span-1">
-    <span class={label}>IBGE</span>
-    <input name="ibge" class="input font-mono" value={value.ibge ?? ''} inputmode="numeric" pattern="\d{7}" />
-  </label>
-  <label class="sm:col-span-2">
-    <span class={label}>Tipo</span>
-    <select name="kind" class="input">
-      {KINDS.map((k) => <option value={k} selected={value.kind === k}>{KIND_LABEL[k]}</option>)}
-    </select>
-  </label>
-  <label class="sm:col-span-3">
-    <span class={label}>Base legal</span>
-    <input name="legalBasis" class="input" value={value.legalBasis} maxlength="300" placeholder="Lei municipal nº …" />
-  </label>
-  <label class="sm:col-span-3">
-    <span class={label}>Fonte (link)</span>
-    <input name="sourceUrl" type="url" class="input" value={value.sourceUrl} placeholder="https://" />
-  </label>
-  <label class="sm:col-span-6">
-    <span class={label}>Resumo (1 frase, aparece nas listas)</span>
-    <input name="summary" class="input" value={value.summary} maxlength="300" />
-  </label>
-  <label class="sm:col-span-6">
-    <span class={label}>Texto da página (Markdown simples: parágrafos, **negrito**, [link](https://…), listas com “- ”)</span>
-    <textarea name="body" class="input min-h-32 font-mono text-xs" maxlength="8000">{value.body}</textarea>
-  </label>
-  <fieldset class="sm:col-span-4">
-    <legend class={label}>Categorias</legend>
-    <div class="flex flex-wrap gap-3 text-sm">
-      {
-        CATEGORIES.map((c) => (
-          <label class="flex items-center gap-1.5">
-            <input type="checkbox" name="categories" value={c} checked={value.categories.includes(c)} /> {c}
-          </label>
-        ))
-      }
+<div class="space-y-6">
+  <section class="form-section">
+    <h2 class="eyebrow">Identificação</h2>
+    <div class="grid gap-4 sm:grid-cols-2">
+      <div class="sm:col-span-2">
+        <label class="field-label" for="hf-name">Nome</label>
+        <input id="hf-name" name="name" class="input" value={value.name} required maxlength="120" placeholder="Ex.: Aniversário de Campinas" />
+      </div>
+      <div>
+        <label class="field-label" for="hf-id">ID na URL</label>
+        <input
+          id="hf-id"
+          name="id"
+          class="input font-mono"
+          value={value.id}
+          readonly={!idEditable}
+          pattern="[a-z0-9\-]+"
+          placeholder={idEditable ? 'gerado a partir do nome' : undefined}
+          aria-describedby="hf-id-hint"
+        />
+        <span id="hf-id-hint" class="field-hint">/feriado/{value.id || '…'}/ {idEditable ? '· deixe vazio para gerar' : '· não muda depois de criado'}</span>
+      </div>
+      <fieldset>
+        <legend class="field-label">Status</legend>
+        <div class="segmented">
+          {
+            STATUSES.map((s) => (
+              <label>
+                <input type="radio" class="sr-only" name="status" value={s} checked={value.status === s} />
+                {STATUS_LABEL[s]}
+              </label>
+            ))
+          }
+        </div>
+      </fieldset>
     </div>
-  </fieldset>
-  <label class="sm:col-span-1">
-    <span class={label}>Vale desde</span>
-    <input name="validFrom" class="input" value={value.validFrom ?? ''} inputmode="numeric" placeholder="ano" />
-  </label>
-  <label class="sm:col-span-1">
-    <span class={label}>Vale até</span>
-    <input name="validTo" class="input" value={value.validTo ?? ''} inputmode="numeric" placeholder="ano" />
-  </label>
+    <fieldset>
+      <legend class="field-label">Tipo</legend>
+      <div class="grid gap-2 sm:grid-cols-3">
+        {
+          KINDS.map((k) => (
+            <label class="choice">
+              <input type="radio" class="sr-only" name="kind" value={k} checked={value.kind === k} />
+              <span class="font-medium">{KIND_LABEL[k]}</span>
+              <span class="text-xs text-muted">{KIND_HINT[k]}</span>
+            </label>
+          ))
+        }
+      </div>
+    </fieldset>
+  </section>
+
+  <section class="form-section">
+    <h2 class="eyebrow">Data</h2>
+    <RuleBuilder client:load name="rule" value={value.rule} />
+  </section>
+
+  <section class="form-section">
+    <h2 class="eyebrow">Onde vale</h2>
+    <ScopePlaceField client:load scope={value.scope} place={place} states={states.map((s) => ({ uf: s.uf, name: s.name }))} hint={placeHint} />
+  </section>
+
+  <section class="form-section">
+    <h2 class="eyebrow">Fonte e texto</h2>
+    <div class="grid gap-4 sm:grid-cols-2">
+      <div>
+        <label class="field-label" for="hf-legal">Base legal</label>
+        <input id="hf-legal" name="legalBasis" class="input" value={value.legalBasis} maxlength="300" placeholder="Lei municipal nº 1.234/1990" />
+      </div>
+      <div>
+        <label class="field-label" for="hf-source">Fonte (link)</label>
+        <input id="hf-source" name="sourceUrl" type="url" class="input" value={value.sourceUrl} placeholder="https://" />
+      </div>
+      <div class="sm:col-span-2">
+        <label class="field-label" for="hf-summary">Resumo</label>
+        <input id="hf-summary" name="summary" class="input" value={value.summary} maxlength="300" aria-describedby="hf-summary-hint" />
+        <span id="hf-summary-hint" class="field-hint">Uma frase. Aparece nas listas.</span>
+      </div>
+      <div class="sm:col-span-2">
+        <label class="field-label" for="hf-body">Texto da página</label>
+        <textarea id="hf-body" name="body" class="input min-h-40 font-mono text-xs leading-relaxed" maxlength="8000" aria-describedby="hf-body-hint">{value.body}</textarea>
+        <span id="hf-body-hint" class="field-hint">Markdown simples: parágrafos, **negrito**, [link](https://…) e listas com “- ”.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <h2 class="eyebrow">Validade e categorias</h2>
+    <div class="grid gap-4 sm:grid-cols-[1fr_auto]">
+      <fieldset>
+        <legend class="field-label">Categorias</legend>
+        <div class="flex flex-wrap gap-x-5 gap-y-2.5 pt-1 text-sm">
+          {
+            CATEGORIES.map((c) => (
+              <label class="flex cursor-pointer items-center gap-2">
+                <input type="checkbox" class="checkbox" name="categories" value={c} checked={value.categories.includes(c)} />
+                {CATEGORY_LABEL[c]}
+              </label>
+            ))
+          }
+        </div>
+      </fieldset>
+      <fieldset class="grid grid-cols-2 gap-3 sm:w-64">
+        <legend class="field-label">Vale entre os anos</legend>
+        <input name="validFrom" class="input tabular" value={value.validFrom ?? ''} inputmode="numeric" pattern="\d{4}" placeholder="desde" aria-label="Vale desde (ano)" />
+        <input name="validTo" class="input tabular" value={value.validTo ?? ''} inputmode="numeric" pattern="\d{4}" placeholder="até" aria-label="Vale até (ano)" />
+      </fieldset>
+    </div>
+  </section>
 </div>
