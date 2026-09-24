@@ -1,6 +1,8 @@
 ---
 import AdminLayout from '@/components/admin/AdminLayout.astro';
 import HolidayFields from '@/components/admin/HolidayFields.astro';
+import Icon from '@/components/Icon.astro';
+import { SUGGESTION_STATUS_UI } from '@/lib/admin-ui';
 import { eq } from 'drizzle-orm';
 import { getDb, schema } from '@/lib/db/client';
 import { getCityByIbge, getHoliday, getState } from '@/lib/data';
@@ -102,68 +104,106 @@ const diff = holiday
   : [];
 const closed = suggestion.status !== 'pending';
 const place = placeLabel({ state, city });
+const statusUi = SUGGESTION_STATUS_UI[suggestion.status];
+const fmt = (d: Date) => d.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' });
+const title = holiday?.name ?? p.name ?? '(sem nome)';
 ---
 
 <AdminLayout title={`Sugestão ${suggestion.id}`} active="sugestoes">
-  <a href="/admin/sugestoes/" class="text-sm text-muted hover:text-fg">← Sugestões</a>
-  <div class="mt-3 flex flex-wrap items-center gap-3">
-    <h1 class="text-2xl font-semibold tracking-tight">{SUGGESTION_TYPE_LABEL[suggestion.type]}: {holiday?.name ?? p.name ?? '(sem nome)'}</h1>
-    {closed && <span class="chip bg-subtle text-muted">{suggestion.status} por {suggestion.reviewedBy}</span>}
-  </div>
-  <p class="mt-1 text-muted">
-    {place}{p.placeText && ` · lugar informado: “${p.placeText}”`}
-  </p>
+  <nav aria-label="Trilha" class="flex flex-wrap items-center gap-2 text-sm text-faint">
+    <a href="/admin/sugestoes/" class="text-muted hover:text-fg">Sugestões</a>
+    <span aria-hidden="true">/</span>
+    <a href={`/admin/sugestoes/?status=${suggestion.status}`} class="text-muted hover:text-fg">{statusUi.tab}</a>
+    <span aria-hidden="true">/</span>
+    <span class="truncate text-fg">{title}</span>
+  </nav>
 
-  {error && <p class="mt-4 rounded-xl bg-[var(--color-warn-soft)] px-3 py-2 text-sm text-[var(--color-warn)]">{error}</p>}
+  <header class="mt-5 flex flex-wrap items-start justify-between gap-4">
+    <div class="min-w-0 space-y-2.5">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="chip bg-brand/12 px-2.5 py-1 text-brand">{SUGGESTION_TYPE_LABEL[suggestion.type]}</span>
+        <span class:list={['chip px-2.5 py-1', statusUi.chip]}>
+          {suggestion.status === 'approved' && <Icon name="check" size={12} />}
+          {statusUi.label}{closed && suggestion.reviewedBy && ` por ${suggestion.reviewedBy}`}
+        </span>
+      </div>
+      <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">{title}</h1>
+      <p class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
+        <span class="flex items-center gap-1.5"><Icon name="globe" size={15} class="text-faint" />{place}</span>
+        {p.placeText && <span class="flex items-center gap-1.5"><Icon name="mapPin" size={15} class="text-faint" />Lugar informado: “{p.placeText}”</span>}
+      </p>
+    </div>
+    {
+      holiday && (
+        <div class="flex flex-wrap gap-2">
+          <a href={paths.holiday(holiday.id)} class="btn" target="_blank">
+            Abrir página <Icon name="external" size={14} />
+          </a>
+          <a href={`/admin/feriados/${holiday.id}/`} class="btn-primary">
+            <Icon name="pencil" size={14} /> Editar feriado
+          </a>
+        </div>
+      )
+    }
+  </header>
 
-  <div class="mt-6 grid gap-6 lg:grid-cols-[1fr_20rem]">
+  {error && <p class="mt-5 flex items-center gap-2 rounded-xl bg-warn-soft px-3 py-2 text-sm text-warn"><Icon name="alert" />{error}</p>}
+
+  <div class="mt-7 grid items-start gap-6 lg:grid-cols-[1fr_22rem]">
     <div class="space-y-6">
       {
         suggestion.message && (
-          <blockquote class="card whitespace-pre-line p-4 text-sm">
-            <p class="eyebrow mb-1">Mensagem</p>
-            {suggestion.message}
+          <blockquote class="card flex gap-3 p-5 text-sm">
+            <Icon name="message" size={18} class="mt-0.5 text-faint" />
+            <div>
+              <p class="eyebrow mb-1">Mensagem</p>
+              <p class="whitespace-pre-line">{suggestion.message}</p>
+            </div>
           </blockquote>
         )
       }
 
       {
         diff.length > 0 && (
-          <div class="card overflow-hidden">
+          <section class="card overflow-hidden">
+            <div class="flex items-center justify-between border-b border-line px-5 py-4">
+              <h2 class="font-semibold">Alterações propostas</h2>
+              <span class="text-xs text-faint">{diff.filter((d) => d.after !== undefined && d.after !== d.before).length} de {diff.length} campos mudam</span>
+            </div>
             <table class="w-full text-sm">
-              <thead class="border-b border-line text-left text-xs text-faint">
+              <thead class="border-b border-line bg-bg/60 text-left text-xs text-faint">
                 <tr>
-                  <th class="px-4 py-2 font-medium">Campo</th>
-                  <th class="px-4 py-2 font-medium">Atual</th>
-                  <th class="px-4 py-2 font-medium">Proposto</th>
+                  <th class="w-36 px-5 py-2.5 font-semibold">Campo</th>
+                  <th class="px-5 py-2.5 font-semibold">Atual</th>
+                  <th class="px-5 py-2.5 font-semibold">Proposto</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-line">
                 {diff.map((d) => (
-                  <tr class:list={[d.after !== undefined && d.after !== d.before && 'bg-[var(--color-municipal-soft)]']}>
-                    <td class="px-4 py-2 text-muted">{d.field}</td>
-                    <td class:list={['px-4 py-2', d.after !== undefined && d.after !== d.before && 'line-through text-faint']}>{d.before}</td>
-                    <td class="px-4 py-2 font-medium">{d.after ?? <span class="font-normal text-faint">sem mudança</span>}</td>
+                  <tr class:list={[d.after !== undefined && d.after !== d.before && 'bg-municipal-soft']}>
+                    <td class="px-5 py-3.5 text-muted">{d.field}</td>
+                    <td class:list={['px-5 py-3.5', d.after !== undefined && d.after !== d.before && 'text-faint line-through']}>{d.before}</td>
+                    <td class="px-5 py-3.5 font-semibold">{d.after ?? <span class="font-normal text-faint">sem mudança</span>}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
-          </div>
+          </section>
         )
       }
 
       {
         !closed && suggestion.type !== 'remove' && (
-          <form method="post" class="card space-y-5 p-5">
-            <p class="font-medium">{holiday ? 'Revise e aprove a correção' : 'Revise e crie o feriado'}</p>
+          <form method="post" class="card space-y-5 p-5 sm:p-6">
+            <h2 class="font-semibold">{holiday ? 'Revise e aprove a correção' : 'Revise e crie o feriado'}</h2>
             <HolidayFields value={value} idEditable={!holiday} />
             <label class="block">
               <span class="mb-1 block text-xs font-medium text-muted">Nota para quem sugeriu (opcional, vai por e-mail)</span>
               <input name="note" class="input" maxlength="500" />
             </label>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex flex-wrap gap-2 border-t border-line pt-5">
               <button name="action" value="approve" class="btn-primary">
-                Aprovar e publicar
+                <Icon name="check" /> Aprovar e publicar
               </button>
               {suggestion.type === 'other' && (
                 <button name="action" value="resolve" class="btn" formnovalidate>
@@ -171,7 +211,7 @@ const place = placeLabel({ state, city });
                 </button>
               )}
               <button name="action" value="reject" class="btn" formnovalidate>
-                Rejeitar
+                <Icon name="x" /> Rejeitar
               </button>
               <button name="action" value="spam" class="btn" formnovalidate>
                 Spam
@@ -183,16 +223,16 @@ const place = placeLabel({ state, city });
 
       {
         !closed && suggestion.type === 'remove' && (
-          <form method="post" class="card space-y-4 p-5">
-            <p class="font-medium">Remover “{holiday?.name}” do site?</p>
+          <form method="post" class="card space-y-4 p-5 sm:p-6">
+            <h2 class="font-semibold">Remover “{holiday?.name}” do site?</h2>
             <p class="text-sm text-muted">A página antiga passa a redirecionar para {place}.</p>
-            <input name="note" class="input" placeholder="Nota (opcional)" maxlength="500" />
-            <div class="flex flex-wrap gap-2">
+            <input name="note" class="input" placeholder="Nota (opcional)" maxlength="500" aria-label="Nota" />
+            <div class="flex flex-wrap gap-2 border-t border-line pt-4">
               <button name="action" value="delete" class="btn-primary">
-                Aprovar remoção
+                <Icon name="trash" /> Aprovar remoção
               </button>
               <button name="action" value="reject" class="btn">
-                Rejeitar
+                <Icon name="x" /> Rejeitar
               </button>
               <button name="action" value="spam" class="btn">
                 Spam
@@ -205,78 +245,131 @@ const place = placeLabel({ state, city });
 
     <aside class="space-y-4 text-sm">
       <dl class="card divide-y divide-line">
-        <div class="px-4 py-3">
-          <dt class="text-xs text-faint">Enviada em</dt>
-          <dd>{suggestion.createdAt.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</dd>
+        <div class="flex gap-3 px-5 py-3.5">
+          <Icon name="clock" class="mt-0.5 text-faint" />
+          <div>
+            <dt class="text-xs text-faint">Enviada em</dt>
+            <dd class="tabular mt-0.5">{fmt(suggestion.createdAt)}</dd>
+          </div>
         </div>
         {
           suggestion.sourceUrl && (
-            <div class="px-4 py-3">
-              <dt class="text-xs text-faint">Fonte</dt>
-              <dd class="break-all">
-                <a href={suggestion.sourceUrl} class="link" target="_blank" rel="noopener noreferrer">
-                  {suggestion.sourceUrl}
-                </a>
-              </dd>
+            <div class="flex gap-3 px-5 py-3.5">
+              <Icon name="book" class="mt-0.5 text-faint" />
+              <div class="min-w-0">
+                <dt class="text-xs text-faint">Fonte</dt>
+                <dd class="mt-0.5 break-all">
+                  <a href={suggestion.sourceUrl} class="link" target="_blank" rel="noopener noreferrer">
+                    {suggestion.sourceUrl}
+                  </a>
+                </dd>
+              </div>
             </div>
           )
         }
-        <div class="px-4 py-3">
-          <dt class="text-xs text-faint">Contribuidor</dt>
-          <dd>
-            {suggestion.contributorName ?? 'anônimo'}
-            {suggestion.contributorLink && (
-              <a href={suggestion.contributorLink} class="link ml-1" target="_blank" rel="noopener noreferrer">
-                perfil
-              </a>
-            )}
-            {suggestion.contributorEmail && <span class="block text-xs text-faint">receberá e-mail</span>}
-          </dd>
+        <div class="flex gap-3 px-5 py-3.5">
+          <Icon name="user" class="mt-0.5 text-faint" />
+          <div>
+            <dt class="text-xs text-faint">Contribuidor</dt>
+            <dd class="mt-0.5">
+              {suggestion.contributorName ?? 'anônimo'}
+              {suggestion.contributorLink && (
+                <a href={suggestion.contributorLink} class="link ml-1 text-muted" target="_blank" rel="noopener noreferrer">
+                  perfil
+                </a>
+              )}
+              {suggestion.contributorEmail && (
+                <span class="mt-1.5 block">
+                  <span class="chip bg-subtle text-muted">
+                    <Icon name="mail" size={12} /> receberá e-mail
+                  </span>
+                </span>
+              )}
+            </dd>
+          </div>
         </div>
         {
           holiday && (
-            <div class="px-4 py-3">
-              <dt class="text-xs text-faint">Página atual</dt>
-              <dd>
-                <a href={paths.holiday(holiday.id)} class="link" target="_blank">
-                  /feriado/{holiday.id}/
-                </a>
-              </dd>
+            <div class="flex gap-3 px-5 py-3.5">
+              <Icon name="link" class="mt-0.5 text-faint" />
+              <div class="min-w-0">
+                <dt class="text-xs text-faint">Página atual</dt>
+                <dd class="mt-0.5 break-all">
+                  <a href={paths.holiday(holiday.id)} class="link font-mono text-xs" target="_blank">
+                    /feriado/{holiday.id}/
+                  </a>
+                </dd>
+              </div>
             </div>
           )
         }
         {
           city && state && (
-            <div class="px-4 py-3">
-              <dt class="text-xs text-faint">Cidade</dt>
-              <dd>
-                <a href={paths.city(state.uf, city.slug)} class="link" target="_blank">
-                  {city.name} ({state.uf})
-                </a>{' '}
-                <span class="font-mono text-xs text-faint">{city.ibge}</span>
-              </dd>
+            <div class="flex gap-3 px-5 py-3.5">
+              <Icon name="mapPin" class="mt-0.5 text-faint" />
+              <div>
+                <dt class="text-xs text-faint">Cidade</dt>
+                <dd class="mt-0.5">
+                  <a href={paths.city(state.uf, city.slug)} class="link" target="_blank">
+                    {city.name} ({state.uf})
+                  </a>{' '}
+                  <span class="font-mono text-xs text-faint">{city.ibge}</span>
+                </dd>
+              </div>
             </div>
           )
         }
         {
           p.page && (
-            <div class="px-4 py-3">
-              <dt class="text-xs text-faint">Enviada a partir de</dt>
-              <dd class="break-all font-mono text-xs">{p.page}</dd>
+            <div class="flex gap-3 px-5 py-3.5">
+              <Icon name="home" class="mt-0.5 text-faint" />
+              <div class="min-w-0">
+                <dt class="text-xs text-faint">Enviada a partir de</dt>
+                <dd class="mt-0.5 break-all font-mono text-xs">{p.page}</dd>
+              </div>
             </div>
           )
         }
         {
           closed && suggestion.reviewNote && (
-            <div class="px-4 py-3">
-              <dt class="text-xs text-faint">Nota da revisão</dt>
-              <dd>{suggestion.reviewNote}</dd>
+            <div class="flex gap-3 px-5 py-3.5">
+              <Icon name="message" class="mt-0.5 text-faint" />
+              <div>
+                <dt class="text-xs text-faint">Nota da revisão</dt>
+                <dd class="mt-0.5">{suggestion.reviewNote}</dd>
+              </div>
             </div>
           )
         }
       </dl>
-      <p class="text-xs text-faint">
-        Dica: pesquise “feriado municipal {city?.name ?? ''} lei” para conferir. Com fonte oficial, marque o status como “Verificado”.
+
+      {
+        closed && (
+          <section class="card space-y-3.5 p-5">
+            <h2 class="text-xs font-semibold text-muted">Linha do tempo</h2>
+            <ol class="space-y-3.5">
+              <li class="flex gap-3">
+                <span class="mt-1.5 size-2.5 shrink-0 rounded-full bg-line-strong" />
+                <span>
+                  Enviada{suggestion.contributorName && ` por ${suggestion.contributorName}`}
+                  <span class="tabular block text-xs text-faint">{fmt(suggestion.createdAt)}</span>
+                </span>
+              </li>
+              <li class="flex gap-3">
+                <span class:list={['mt-1.5 size-2.5 shrink-0 rounded-full', statusUi.dot]} />
+                <span>
+                  {statusUi.label}{suggestion.reviewedBy && ` por ${suggestion.reviewedBy}`}
+                  {suggestion.reviewedAt && <span class="tabular block text-xs text-faint">{fmt(suggestion.reviewedAt)}</span>}
+                </span>
+              </li>
+            </ol>
+          </section>
+        )
+      }
+
+      <p class="flex gap-2.5 rounded-2xl bg-warn-soft px-4 py-3.5 text-xs leading-relaxed text-warn">
+        <Icon name="lightbulb" class="mt-0.5" />
+        <span>Dica: pesquise “feriado municipal {city?.name ?? ''} lei” para conferir. Com fonte oficial, marque o status como “Verificado”.</span>
       </p>
     </aside>
   </div>
