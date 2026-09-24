@@ -1,10 +1,13 @@
 ---
 import AdminLayout from '@/components/admin/AdminLayout.astro';
+import PageHeader from '@/components/admin/PageHeader.astro';
+import Icon from '@/components/Icon.astro';
+import { HOLIDAY_STATUS_CHIP } from '@/lib/admin-ui';
 import { and, asc, eq, like, or, type SQL } from 'drizzle-orm';
 import { getDb, schema } from '@/lib/db/client';
 import { SCOPES, STATUSES } from '@/lib/db/schema';
 import { describeRule } from '@/lib/holidays/rules';
-import { SCOPE_LABEL, STATUS_LABEL, typeLabel } from '@/lib/site';
+import { SCOPE_LABEL, STATUS_LABEL, tone, typeLabel } from '@/lib/site';
 
 const q = (Astro.url.searchParams.get('q') ?? '').trim().slice(0, 60);
 const uf = (Astro.url.searchParams.get('uf') ?? '').toUpperCase();
@@ -28,6 +31,7 @@ const rows = await getDb()
   .limit(PAGE + 1)
   .offset((page - 1) * PAGE);
 const hasNext = rows.length > PAGE;
+const shown = rows.slice(0, PAGE);
 const qs = (p: number) => {
   const params = new URLSearchParams(Astro.url.searchParams);
   params.set('p', String(p));
@@ -36,55 +40,71 @@ const qs = (p: number) => {
 ---
 
 <AdminLayout title="Feriados" active="feriados">
-  <div class="flex flex-wrap items-center justify-between gap-4">
-    <h1 class="text-2xl font-semibold tracking-tight">Feriados</h1>
-    <a href="/admin/feriados/novo/" class="btn-primary">+ Novo feriado</a>
-  </div>
-  <form class="mt-6 grid gap-2 sm:grid-cols-[1fr_5rem_10rem_10rem_auto]">
-    <input name="q" value={q} class="input" placeholder="Nome, ID ou cidade" aria-label="Buscar" />
-    <input name="uf" value={uf} class="input" placeholder="UF" maxlength="2" aria-label="UF" />
-    <select name="scope" class="input" aria-label="Abrangência">
+  <PageHeader eyebrow="Dados" title="Feriados" description="Nacionais, estaduais e municipais dos 5.571 municípios.">
+    <a href="/admin/feriados/novo/" class="btn-primary"><Icon name="plus" /> Novo feriado</a>
+  </PageHeader>
+
+  <form class="card mt-7 grid gap-2 p-2 sm:grid-cols-[1fr_5.5rem_11rem_11rem_auto]">
+    <label class="relative">
+      <Icon name="search" class="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-faint" />
+      <input name="q" value={q} class="input bg-bg pl-9" placeholder="Nome, ID ou cidade" aria-label="Buscar" type="search" />
+    </label>
+    <input name="uf" value={uf} class="input bg-bg" placeholder="UF" maxlength="2" aria-label="UF" />
+    <select name="scope" class="input bg-bg" aria-label="Abrangência">
       <option value="">Abrangência</option>
       {SCOPES.map((s) => <option value={s} selected={scope === s}>{SCOPE_LABEL[s]}</option>)}
     </select>
-    <select name="status" class="input" aria-label="Status">
+    <select name="status" class="input bg-bg" aria-label="Status">
       <option value="">Status</option>
       {STATUSES.map((s) => <option value={s} selected={status === s}>{STATUS_LABEL[s]}</option>)}
     </select>
-    <button class="btn">Filtrar</button>
+    <button class="btn rounded-xl">Filtrar</button>
   </form>
 
-  <div class="mt-6 overflow-x-auto rounded-2xl border border-line">
-    <table class="w-full text-sm">
-      <thead class="border-b border-line text-left text-xs text-faint">
-        <tr>
-          <th class="px-4 py-2 font-medium">Feriado</th>
-          <th class="px-4 py-2 font-medium">Onde</th>
-          <th class="px-4 py-2 font-medium">Data</th>
-          <th class="px-4 py-2 font-medium">Status</th>
-        </tr>
-      </thead>
-      <tbody class="divide-y divide-line">
-        {
-          rows.slice(0, PAGE).map(({ h, city }) => (
-            <tr class="hover:bg-subtle">
-              <td class="px-4 py-2">
-                <a href={`/admin/feriados/${h.id}/`} class="font-medium hover:underline">
-                  {h.name}
-                </a>
-                <span class="block text-xs text-faint">{typeLabel(h.scope, h.kind)}</span>
-              </td>
-              <td class="px-4 py-2 text-muted">{city ? `${city} (${h.uf})` : (h.uf ?? 'Brasil')}</td>
-              <td class="px-4 py-2 text-muted">{describeRule(h.rule)}</td>
-              <td class="px-4 py-2 text-muted">{STATUS_LABEL[h.status]}</td>
-            </tr>
-          ))
-        }
-      </tbody>
-    </table>
-  </div>
-  <div class="mt-4 flex justify-between text-sm">
-    {page > 1 ? <a href={qs(page - 1)} class="btn">← Anterior</a> : <span />}
-    {hasNext && <a href={qs(page + 1)} class="btn">Próxima →</a>}
+  <div class="card mt-6 overflow-hidden">
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead class="border-b border-line bg-bg/60 text-left text-xs text-faint">
+          <tr>
+            <th class="px-5 py-3 font-semibold">Feriado</th>
+            <th class="px-5 py-3 font-semibold">Onde</th>
+            <th class="px-5 py-3 font-semibold">Data</th>
+            <th class="px-5 py-3 font-semibold">Status</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-line">
+          {
+            shown.map(({ h, city }) => (
+              <tr class="transition-colors hover:bg-subtle">
+                <td class="px-5 py-3">
+                  <div class="flex items-center gap-3">
+                    <span class:list={[`tone-${tone(h.scope, h.kind)}`, 'tone-dot size-2 shrink-0 rounded-full']} />
+                    <div class="min-w-0">
+                      <a href={`/admin/feriados/${h.id}/`} class="font-medium hover:underline">
+                        {h.name}
+                      </a>
+                      <span class="block text-xs text-faint">{typeLabel(h.scope, h.kind)}</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-5 py-3 whitespace-nowrap">{city ? <>{city} <span class="text-faint">· {h.uf}</span></> : (h.uf ?? 'Brasil')}</td>
+                <td class="tabular px-5 py-3 whitespace-nowrap">{describeRule(h.rule)}</td>
+                <td class="px-5 py-3">
+                  <span class:list={['chip px-2.5 py-1', HOLIDAY_STATUS_CHIP[h.status]]}>{STATUS_LABEL[h.status]}</span>
+                </td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    {shown.length === 0 && <p class="px-5 py-12 text-center text-muted">Nenhum feriado encontrado com esses filtros.</p>}
+    <div class="flex items-center justify-between gap-3 border-t border-line px-5 py-3 text-sm text-faint">
+      <span class="tabular">{shown.length > 0 ? `Mostrando ${(page - 1) * PAGE + 1}–${(page - 1) * PAGE + shown.length}` : 'Sem resultados'}</span>
+      <div class="flex gap-2">
+        {page > 1 && <a href={qs(page - 1)} class="btn"><Icon name="chevronLeft" /> Anterior</a>}
+        {hasNext && <a href={qs(page + 1)} class="btn">Próxima <Icon name="chevronRight" /></a>}
+      </div>
+    </div>
   </div>
 </AdminLayout>

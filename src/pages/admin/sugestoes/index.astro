@@ -1,12 +1,14 @@
 ---
 import AdminLayout from '@/components/admin/AdminLayout.astro';
+import PageHeader from '@/components/admin/PageHeader.astro';
+import Icon from '@/components/Icon.astro';
+import { SUGGESTION_STATUS_UI, initials } from '@/lib/admin-ui';
 import { and, count, desc, eq, type SQL } from 'drizzle-orm';
 import { getDb, schema } from '@/lib/db/client';
 import { SUGGESTION_STATUSES, type SuggestionStatus } from '@/lib/db/schema';
 import { SUGGESTION_TYPE_LABEL } from '@/lib/server/suggestions';
 import { describeRule } from '@/lib/holidays/rules';
 
-const STATUS_TABS: Record<SuggestionStatus, string> = { pending: 'Pendentes', approved: 'Aprovadas', rejected: 'Rejeitadas', spam: 'Spam' };
 const status = (SUGGESTION_STATUSES as readonly string[]).includes(Astro.url.searchParams.get('status') ?? '')
   ? (Astro.url.searchParams.get('status') as SuggestionStatus)
   : 'pending';
@@ -33,59 +35,90 @@ const [rows, counts] = await Promise.all([
 const countOf = (s: string) => counts.find((c) => c.status === s)?.n ?? 0;
 const ago = (d: Date) => {
   const min = Math.round((Date.now() - d.getTime()) / 60000);
-  if (min < 60) return `${min} min`;
-  if (min < 1440) return `${Math.round(min / 60)} h`;
-  return `${Math.round(min / 1440)} d`;
+  if (min < 60) return `há ${min} min`;
+  if (min < 1440) return `há ${Math.round(min / 60)} h`;
+  return `há ${Math.round(min / 1440)} d`;
 };
 ---
 
 <AdminLayout title="Sugestões" active="sugestoes">
-  <div class="flex flex-wrap items-end justify-between gap-4">
-    <h1 class="text-2xl font-semibold tracking-tight">Sugestões</h1>
+  <PageHeader eyebrow="Moderação" title="Sugestões" description="Revise o que a comunidade enviou antes de publicar no site.">
     <form class="flex gap-2">
       <input type="hidden" name="status" value={status} />
       <input name="uf" value={uf} class="input w-20" placeholder="UF" maxlength="2" aria-label="Filtrar por UF" />
       <button class="btn">Filtrar</button>
     </form>
-  </div>
-  <nav class="mt-6 flex gap-1 border-b border-line">
+  </PageHeader>
+
+  <nav aria-label="Status" class="mt-7 flex w-fit max-w-full gap-1 overflow-x-auto rounded-2xl border border-line bg-surface p-1">
     {
-      Object.entries(STATUS_TABS).map(([key, label]) => (
+      SUGGESTION_STATUSES.map((key) => (
         <a
-          href={`?status=${key}`}
-          class:list={['-mb-px border-b-2 px-3 py-2 text-sm', status === key ? 'border-fg font-medium' : 'border-transparent text-muted hover:text-fg']}
+          href={`?status=${key}${uf ? `&uf=${uf}` : ''}`}
+          aria-current={status === key ? 'page' : undefined}
+          class:list={[
+            'flex h-9 shrink-0 items-center gap-2 rounded-xl px-3.5 text-sm transition-colors',
+            status === key ? 'bg-subtle font-semibold text-fg ring-1 ring-inset ring-line-strong' : 'text-muted hover:text-fg',
+          ]}
         >
-          {label} <span class="tabular text-faint">{countOf(key)}</span>
+          <span class:list={['size-2 rounded-full', SUGGESTION_STATUS_UI[key].dot]} />
+          {SUGGESTION_STATUS_UI[key].tab}
+          <span class:list={['tabular rounded-full px-2 text-xs', status === key ? 'bg-line-strong text-fg' : 'bg-subtle text-faint']}>{countOf(key)}</span>
         </a>
       ))
     }
   </nav>
 
-  {rows.length === 0 && <p class="mt-10 text-center text-muted">Nada por aqui. 🎉</p>}
-  <ul class="mt-4 divide-y divide-line">
-    {
-      rows.map(({ s, holidayName, cityName }) => (
-        <li>
-          <a href={`/admin/sugestoes/${s.id}/`} class="flex flex-col gap-1 rounded-xl px-3 py-3 hover:bg-subtle sm:flex-row sm:items-center sm:gap-4">
-            <span class="chip w-fit bg-subtle text-muted">{SUGGESTION_TYPE_LABEL[s.type]}</span>
-            <span class="min-w-0 flex-1">
-              <span class="block truncate font-medium">
-                {holidayName ?? s.payload.name ?? '(sem nome)'}
-                {s.payload.rule && <span class="font-normal text-faint"> · {describeRule(s.payload.rule)}</span>}
+  {
+    rows.length === 0 ? (
+      <div class="card mt-6 flex flex-col items-center gap-2 px-6 py-14 text-center">
+        <Icon name="inbox" size={28} class="text-faint" />
+        <p class="font-medium">Nada por aqui</p>
+        <p class="text-sm text-muted">Nenhuma sugestão {SUGGESTION_STATUS_UI[status].tab.toLowerCase()}{uf && ` em ${uf}`}.</p>
+      </div>
+    ) : (
+      <ul class="card mt-6 divide-y divide-line overflow-hidden">
+        {rows.map(({ s, holidayName, cityName }) => (
+          <li>
+            <a
+              href={`/admin/sugestoes/${s.id}/`}
+              class="flex flex-col gap-2 px-5 py-4 transition-colors hover:bg-subtle sm:flex-row sm:items-center sm:gap-5"
+            >
+              <span class="chip w-fit bg-brand/12 text-brand sm:w-36 sm:justify-center">{SUGGESTION_TYPE_LABEL[s.type]}</span>
+              <span class="min-w-0 flex-1">
+                <span class="block truncate font-semibold">
+                  {holidayName ?? s.payload.name ?? '(sem nome)'}
+                  {s.payload.rule && <span class="font-normal text-muted"> · {describeRule(s.payload.rule)}</span>}
+                </span>
+                <span class="mt-0.5 flex items-center gap-1.5 truncate text-sm text-muted">
+                  <Icon name="mapPin" size={14} class="text-faint" />
+                  <span class="truncate">
+                    {cityName ? `${cityName} (${s.uf})` : s.uf ?? s.payload.placeText ?? 'Brasil'}
+                    {s.message && ` — ${s.message}`}
+                  </span>
+                </span>
               </span>
-              <span class="block truncate text-sm text-muted">
-                {cityName ? `${cityName} (${s.uf})` : s.uf ?? s.payload.placeText ?? 'Brasil'}
-                {s.message && ` — ${s.message}`}
+              <span class="flex shrink-0 items-center gap-4 text-sm text-muted">
+                {s.sourceUrl && (
+                  <span class="chip bg-subtle text-muted" title="Tem fonte">
+                    <Icon name="link" size={12} /> fonte
+                  </span>
+                )}
+                {s.contributorName && (
+                  <span class="flex items-center gap-2">
+                    <span class="flex size-7 items-center justify-center rounded-full bg-national-soft text-[11px] font-bold text-national">
+                      {initials(s.contributorName)}
+                    </span>
+                    <span class="hidden md:inline">{s.contributorName}</span>
+                  </span>
+                )}
+                <span class="tabular text-faint">{ago(s.createdAt)}</span>
+                <Icon name="chevronRight" class="hidden text-faint sm:block" />
               </span>
-            </span>
-            <span class="flex shrink-0 items-center gap-3 text-xs text-faint">
-              {s.sourceUrl && <span title="Tem fonte">🔗 fonte</span>}
-              {s.contributorName && <span>{s.contributorName}</span>}
-              <span>{ago(s.createdAt)}</span>
-            </span>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
 </AdminLayout>

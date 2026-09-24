@@ -36,6 +36,7 @@
   --color-warn: #a16207;
   --color-warn-soft: #fefce8;
   --color-ok: #15803d;
+  --color-danger: #b91c1c;
 
   --radius-card: 1rem;
   --shadow-card: 0 1px 2px rgb(0 0 0 / 0.04), 0 1px 1px rgb(0 0 0 / 0.02);
@@ -68,6 +69,7 @@
     --color-warn: #fde047;
     --color-warn-soft: #2f2a06;
     --color-ok: #4ade80;
+    --color-danger: #f87171;
   }
 
   html {
