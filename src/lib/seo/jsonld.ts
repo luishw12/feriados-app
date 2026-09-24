@@ -35,7 +35,7 @@ function organization(site: URL): Json {
     name: SITE_NAME,
     url: site.href,
     logo: new URL('/favicon.svg', site).href,
-    founder: { '@type': 'Person', name: AUTHOR.name, url: AUTHOR.linkedin },
+    founder: { '@type': 'Person', name: AUTHOR.name, jobTitle: AUTHOR.jobTitle, url: AUTHOR.website, sameAs: [AUTHOR.linkedin, AUTHOR.github] },
     sameAs: [REPO_URL],
   };
 }

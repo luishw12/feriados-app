@@ -5,6 +5,9 @@ export const SITE_NAME = 'Feriados Brasil';
 export const SITE_TAGLINE = 'Todos os feriados nacionais, estaduais e municipais do Brasil';
 export const AUTHOR = {
   name: 'Luís Henrique Wendt',
+  jobTitle: 'Desenvolvedor de software',
+  /** Portfólio e currículo do autor. */
+  website: 'https://luishw.com.br',
   linkedin: 'https://www.linkedin.com/in/luishw',
   github: 'https://github.com/luishw12',
 };

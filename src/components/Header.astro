@@ -1,6 +1,6 @@
 ---
 import Icon from './Icon.astro';
-import { currentYear, paths } from '@/lib/site';
+import { AUTHOR, currentYear, paths } from '@/lib/site';
 
 interface Props {
   path: string;
@@ -72,6 +72,10 @@ const links = [
           {links.map((l) => <a href={l.href} class="rounded-lg px-3 py-2 text-sm hover:bg-subtle">{l.label}</a>)}
           <a href={paths.api()} class="rounded-lg px-3 py-2 text-sm hover:bg-subtle">API e dados</a>
           <a href={paths.about()} class="rounded-lg px-3 py-2 text-sm hover:bg-subtle">Sobre</a>
+          <a href={AUTHOR.website} target="_blank" rel="author noopener" class="mt-1 flex items-center gap-2 rounded-lg border-t border-line px-3 py-2 text-sm hover:bg-subtle">
+            <Icon name="briefcase" /> Currículo do dev <Icon name="external" size={14} class="ml-auto text-faint" />
+            <span class="sr-only">(abre em nova aba)</span>
+          </a>
         </nav>
       </details>
     </div>
