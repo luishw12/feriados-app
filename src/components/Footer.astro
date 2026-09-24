@@ -2,6 +2,7 @@
 import Icon from './Icon.astro';
 import pkg from '../../package.json';
 import { AUTHOR, REPO_URL, currentYear, paths } from '@/lib/site';
+import { PUBLIC_GA_MEASUREMENT_ID } from 'astro:env/client';
 
 const year = currentYear();
 const columns = [
@@ -61,6 +62,13 @@ const columns = [
       <p>
         Feito por <a href={AUTHOR.linkedin} class="font-medium text-muted hover:text-fg" rel="author">{AUTHOR.name}</a> · código aberto
         (MIT) · <a href={paths.changelog()} class="hover:text-fg">v{pkg.version}</a>
+        {
+          PUBLIC_GA_MEASUREMENT_ID && (
+            <>
+              · <button type="button" class="hover:text-fg" data-reset-consent>Preferências de cookies</button>
+            </>
+          )
+        }
       </p>
       <div class="flex items-center gap-3">
         <a href={REPO_URL} class="hover:text-fg" aria-label="Código no GitHub"><Icon name="github" size={18} /></a>
