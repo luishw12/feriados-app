@@ -8,6 +8,47 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
+## [2.0.0-beta] - 2026-09-24
+
+Reescrita completa: dados em banco com moderação pelo painel, publicação instantânea, novas URLs, SEO e leitura por IA, API e agenda.
+
+### Adicionado
+
+- Banco de dados (Turso/libSQL) como fonte da verdade, com dataset aberto exportado diariamente para o GitHub
+- Sugestões anônimas em qualquer feriado ou cidade (novo feriado, correção, remoção), com crédito opcional
+- Painel /admin com login GitHub: fila de sugestões, comparação atual x proposto, edição, exceções por ano e histórico
+- Publicação instantânea: aprovar invalida só as páginas afetadas no CDN e avisa os buscadores (IndexNow)
+- Selo de verificação por feriado (verificado, não verificado, nome a confirmar) e base legal
+- Feriados municipais com nomes reais e datas móveis (ex.: Corpus Christi) importados de base aberta
+- Páginas por ano (/feriados-2027/, /sp/campinas/2027/, /feriado/carnaval/2027/)
+- Feriados prolongados, próximo feriado e calculadora de dias úteis com feriados da cidade
+- API pública v1 (feriados, próximo feriado, dias úteis, estados e municípios)
+- Calendário .ics assinável que se atualiza sozinho e widget para incorporar
+- Versão Markdown de cada página (/sp/campinas.md), llms.txt e llms-full.txt para assistentes de IA
+- JSON-LD com Event, ItemList, FAQPage, BreadcrumbList e Dataset; sitemap com data real de atualização
+
+### Alterado
+
+- Novo visual limpo, com tema claro/escuro e fonte do sistema, carregando menos de 20 KB de JavaScript
+- Novas URLs: estados pela sigla (/sp/), cidades em /sp/campinas/ e feriados com IDs legíveis
+- Stack: Astro 7 + Preact + Tailwind 4 no lugar de Astro 4 + React + GSAP
+
+### Removido
+
+- Contribuições via pull request de JSON (substituídas pelo fluxo de sugestões do site)
+- Guias antigos em /guia/ (redirecionados para as novas páginas)
+- Efeitos visuais pesados (starfield, glow, animações GSAP)
+
+### Corrigido
+
+- Feriados estaduais inventados ou duplicados (ex.: RN, MS, MT, RS) substituídos por dados revisados
+- Feriados municipais genéricos e datas móveis gravadas como fixas
+- Consciência Negra como feriado nacional apenas a partir de 2024
+
+### Segurança
+
+- Proteção anti-spam com Cloudflare Turnstile, honeypot e limite de envios por IP (armazenado apenas como hash)
+
 ## [1.2.0-beta] - 2026-07-24
 
 Redesign completo da interface com Tailwind CSS v4, calendário reformulado e nova navegação mobile.
