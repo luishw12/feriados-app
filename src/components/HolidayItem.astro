@@ -1,4 +1,5 @@
 ---
+import DateTile from './DateTile.astro';
 import Icon from './Icon.astro';
 import type { Occurrence } from '@/lib/holidays/resolve';
 import { formatDayMonth, weekdayName } from '@/lib/holidays/rules';
@@ -11,11 +12,11 @@ interface Props {
   /** Contexto de lugar enviado ao diálogo de sugestão. */
   place?: { uf?: string; ibge?: number; label: string } | undefined;
   showSummary?: boolean;
+  /** Destaca o item como o próximo feriado. */
+  next?: boolean;
 }
 
-const { occ, today, place, showSummary = true } = Astro.props;
-const [, month, day] = occ.date.split('-');
-const monthShort = formatDayMonth(occ.date).split(' de ')[1]?.slice(0, 3);
+const { occ, today, place, showSummary = true, next = false } = Astro.props;
 const weekday = weekdayName(occ.date);
 const bridge = isBridge(occ);
 const past = occ.date < today;
@@ -26,63 +27,62 @@ const suggest = JSON.stringify({
   place,
 });
 const bridgeText =
-  bridge?.kind === 'emenda-segunda' ? 'Emenda na segunda' : bridge?.kind === 'emenda-sexta' ? 'Emenda na sexta' : bridge ? 'Fim de semana prolongado' : null;
+  bridge?.kind === 'emenda-segunda' ? 'Emenda na segunda' : bridge?.kind === 'emenda-sexta' ? 'Emenda na sexta' : bridge ? '3 dias de folga' : null;
 ---
 
-<li class="group relative flex gap-4 py-4" data-date={occ.date} data-past={past ? '' : undefined}>
-  <div
-    class:list={[`tone-${t}`, 'flex w-14 shrink-0 flex-col items-center justify-center rounded-xl border border-line py-1.5 text-center', past && 'bg-subtle grayscale']}
-    title={past ? 'Já passou' : undefined}
-  >
-    <span class="text-[10px] font-semibold uppercase tracking-wider tone-text">{monthShort}</span>
-    <span class="tabular text-xl leading-6 font-semibold">{Number(day)}</span>
-    <span class="text-[10px] text-muted">{weekday.slice(0, 3)}</span>
-  </div>
+<li
+  class:list={[
+    'group relative flex items-center gap-3.5 rounded-2xl bg-surface p-3 transition-colors sm:gap-[18px] sm:p-3.5 sm:pr-4',
+    next ? 'border-2 border-brand shadow-[0_0_0_5px_var(--color-brand-soft)]' : 'border border-line hover:border-line-strong',
+  ]}
+  data-date={occ.date}
+  data-past={past ? '' : undefined}
+>
+  <DateTile date={occ.date} tone={t} past={past} />
   <div class="min-w-0 flex-1">
-    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
-      <h3 class:list={['font-medium leading-snug', past && 'text-muted']}>
-        <a href={paths.holiday(occ.id, Number(occ.date.slice(0, 4)))} class="hover:underline underline-offset-4">{occ.name}</a>
-      </h3>
-      {isToday && <span class="chip bg-fg text-bg">Hoje</span>}
+    <div class="flex flex-wrap items-center gap-x-2.5 gap-y-1">
+      <h4 class:list={['text-base leading-snug font-semibold sm:text-lg', past && 'text-muted']}>
+        <a href={paths.holiday(occ.id, Number(occ.date.slice(0, 4)))} class="after:absolute after:inset-0 after:rounded-2xl">{occ.name}</a>
+      </h4>
+      {isToday && <span class="chip bg-brand text-brand-fg font-bold">Hoje</span>}
+      {next && !isToday && <span class="chip bg-brand text-brand-fg font-bold">Próximo</span>}
+      {past && <span class="text-[13px] text-faint">já passou</span>}
     </div>
-    <p class="mt-0.5 text-sm text-muted">
-      <time datetime={occ.date}>{weekday}, {formatDayMonth(occ.date)}</time>
-      <span class="text-faint"> · </span>
-      <span class:list={[`tone-${t}`, 'tone-text font-medium']}>{typeLabel(occ.scope, occ.kind)}</span>
-    </p>
-    {showSummary && occ.summary && <p class="mt-1 text-sm text-muted line-clamp-2">{occ.summary}</p>}
-    <div class="mt-2 flex flex-wrap gap-1.5">
+    <p class="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1.5 text-sm text-muted sm:text-[15px]">
+      <time datetime={occ.date} class="hidden sm:inline">{weekday}, {formatDayMonth(occ.date)}</time>
+      <span class="hidden text-line-strong sm:inline" aria-hidden="true">•</span>
+      <span class:list={[`tone-${t}`, 'chip tone-badge text-xs font-semibold sm:text-[13px]']}>{typeLabel(occ.scope, occ.kind)}</span>
       {
-        bridgeText && (
-          <span class="chip bg-[var(--color-municipal-soft)] text-[var(--color-municipal)]">
+        bridgeText && !past && (
+          <span class="chip bg-brand-soft text-xs font-semibold text-brand-strong sm:text-[13px]">
             <Icon name="sparkles" size={12} /> {bridgeText}
           </span>
         )
       }
       {
         occ.overrideNote && (
-          <span class="chip bg-subtle text-muted">
+          <span class="chip bg-subtle text-xs text-muted sm:text-[13px]">
             <Icon name="clock" size={12} /> {occ.overrideNote}
           </span>
         )
       }
       {
         occ.status !== 'verified' && (
-          <span class="chip bg-[var(--color-warn-soft)] text-[var(--color-warn)]" title="Ainda não conferido com a fonte oficial">
+          <span class="chip bg-[var(--color-warn-soft)] text-xs text-[var(--color-warn)] sm:text-[13px]" title="Ainda não conferido com a fonte oficial">
             <Icon name={occ.status === 'incomplete' ? 'help' : 'alert'} size={12} /> {STATUS_LABEL[occ.status]}
           </span>
         )
       }
-    </div>
+    </p>
+    {showSummary && occ.summary && !past && <p class="mt-1.5 hidden text-sm text-muted line-clamp-2 sm:block">{occ.summary}</p>}
   </div>
   <button
     type="button"
     data-suggest={suggest}
-    class="self-start rounded-full p-2 text-faint opacity-100 transition hover:bg-subtle hover:text-fg sm:opacity-0 sm:group-hover:opacity-100 sm:focus:opacity-100"
+    class="relative z-10 self-start rounded-full p-2 text-faint transition hover:bg-subtle hover:text-fg sm:opacity-0 sm:group-hover:opacity-100 sm:focus:opacity-100"
     aria-label={`Sugerir correção em ${occ.name}`}
     title="Sugerir correção"
   >
     <Icon name="pencil" />
   </button>
-  <span class="sr-only">{month}</span>
 </li>

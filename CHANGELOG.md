@@ -8,6 +8,28 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
+## [2.4.0-beta] - 2026-09-24
+
+Novo visual da página inicial, da página de cada feriado e da navbar: mais fácil de ler e de usar no celular.
+
+### Adicionado
+
+- Seletor de estado e ano na navbar e menu em tela cheia no celular, com escolha de tema (claro, escuro ou sistema)
+- Busca da cidade em destaque no topo da página inicial, com as cidades mais buscadas
+- Folhinha de calendário e faixa da semana mostrando os dias de folga e a emenda
+- Filtro "Só os próximos" no calendário do ano e legenda explicando cada tipo de data
+- Botões de adicionar à agenda e compartilhar na página do feriado
+
+### Alterado
+
+- Lista de feriados em cartões por mês, com o próximo feriado destacado e os que já passaram esmaecidos
+- Datas dos próximos anos em cartões que dizem se dá para emendar; perguntas frequentes em acordeão
+- Cores mais quentes, textos maiores e botões com área de toque maior; estados em acordeão por região no celular
+
+### Corrigido
+
+- Contagem regressiva da página do feriado também é atualizada quando a página vem do cache
+
 ## [2.3.0-beta] - 2026-09-24
 
 Links para o currículo e portfólio do criador do site.
