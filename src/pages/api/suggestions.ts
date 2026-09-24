@@ -57,7 +57,7 @@ export const POST: APIRoute = async (ctx) => {
       uf: state?.uf ?? null,
       ibge: city?.ibge ?? holiday?.ibge ?? null,
       payload: Object.fromEntries(
-        Object.entries({ ...input.proposal, placeText: input.placeText, page: input.page }).filter(([, v]) => v !== undefined),
+        Object.entries({ ...input.proposal, placeText: input.placeText, national: input.national && !city && !state ? true : undefined, page: input.page }).filter(([, v]) => v !== undefined),
       ) as SuggestionPayload,
       snapshot: holiday ? { name: holiday.name, rule: holiday.rule, kind: holiday.kind, status: holiday.status, legalBasis: holiday.legalBasis } : null,
       message: input.message,

@@ -1,30 +1,86 @@
 ---
 import AdminLayout from '@/components/admin/AdminLayout.astro';
+import PageHeader from '@/components/admin/PageHeader.astro';
+import Icon, { type IconName } from '@/components/Icon.astro';
 import { desc } from 'drizzle-orm';
 import { getDb, schema } from '@/lib/db/client';
 
 const rows = await getDb().select().from(schema.revisions).orderBy(desc(schema.revisions.createdAt)).limit(100);
 const ACTION = { create: 'criou', update: 'alterou', delete: 'removeu' } as const;
+const ACTION_UI: Record<keyof typeof ACTION, { icon: IconName; class: string }> = {
+  create: { icon: 'plus', class: 'border-brand/25 bg-brand/12 text-brand' },
+  update: { icon: 'pencil', class: 'border-national/25 bg-national-soft text-national' },
+  delete: { icon: 'trash', class: 'border-danger/25 bg-danger/12 text-danger' },
+};
+const TZ = 'America/Sao_Paulo';
+const dayKey = (d: Date) => d.toLocaleDateString('pt-BR', { timeZone: TZ });
+const today = dayKey(new Date());
+const yesterday = dayKey(new Date(Date.now() - 86_400_000));
+const dayLabel = (d: Date) => {
+  const k = dayKey(d);
+  const long = d.toLocaleDateString('pt-BR', { timeZone: TZ, day: 'numeric', month: 'long', year: 'numeric' });
+  return k === today ? `Hoje · ${long}` : k === yesterday ? `Ontem · ${long}` : long;
+};
+const groups: { label: string; items: typeof rows }[] = [];
+for (const r of rows) {
+  const label = dayLabel(r.createdAt);
+  const last = groups[groups.length - 1];
+  if (last?.label === label) last.items.push(r);
+  else groups.push({ label, items: [r] });
+}
 const changed = (before: Record<string, unknown> | null, after: Record<string, unknown> | null) =>
   before && after ? Object.keys(after).filter((k) => JSON.stringify(before[k]) !== JSON.stringify(after[k])) : [];
 ---
 
 <AdminLayout title="Histórico" active="historico">
-  <h1 class="text-2xl font-semibold tracking-tight">Histórico de alterações</h1>
-  <p class="mt-1 text-sm text-muted">As 100 alterações mais recentes. O dataset completo também é exportado diariamente para o GitHub.</p>
-  <ul class="mt-6 divide-y divide-line">
-    {
-      rows.map((r) => (
-        <li class="flex flex-col gap-1 py-3 text-sm sm:flex-row sm:items-center sm:gap-4">
-          <span class="tabular w-36 shrink-0 text-faint">{r.createdAt.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</span>
-          <span class="flex-1">
-            <strong>{r.author}</strong> {ACTION[r.action]}{' '}
-            {r.action === 'delete' ? <span class="font-mono">{r.holidayId}</span> : <a href={`/admin/feriados/${r.holidayId}/`} class="link font-mono">{r.holidayId}</a>}
-            {changed(r.before, r.after).length > 0 && <span class="text-faint"> — {changed(r.before, r.after).join(', ')}</span>}
-          </span>
-          {r.suggestionId && <a href={`/admin/sugestoes/${r.suggestionId}/`} class="text-xs text-muted hover:text-fg">via sugestão</a>}
-        </li>
-      ))
-    }
-  </ul>
+  <PageHeader
+    eyebrow="Dados"
+    title="Histórico de alterações"
+    description="As 100 alterações mais recentes. O dataset completo também é exportado diariamente para o GitHub."
+  />
+
+  {
+    groups.length === 0 ? (
+      <div class="card mt-7 flex flex-col items-center gap-2 px-6 py-14 text-center">
+        <Icon name="history" size={28} class="text-faint" />
+        <p class="font-medium">Nenhuma alteração ainda</p>
+      </div>
+    ) : (
+      <div class="mt-7 space-y-6">
+        {groups.map((g) => (
+          <section class="card overflow-hidden">
+            <h2 class="eyebrow border-b border-line bg-bg/60 px-5 py-3">{g.label}</h2>
+            <ul class="divide-y divide-line">
+              {g.items.map((r) => (
+                <li class="flex flex-wrap items-center gap-x-4 gap-y-2 px-5 py-4 text-sm">
+                  <span class:list={['flex size-9 shrink-0 items-center justify-center rounded-full border', ACTION_UI[r.action].class]}>
+                    <Icon name={ACTION_UI[r.action].icon} />
+                  </span>
+                  <span class="min-w-0 flex-1">
+                    <strong class="font-semibold">{r.author}</strong> <span class="text-muted">{ACTION[r.action]}</span>{' '}
+                    {r.action === 'delete' ? (
+                      <span class="rounded-md border border-line bg-subtle px-1.5 py-0.5 font-mono text-xs">{r.holidayId}</span>
+                    ) : (
+                      <a href={`/admin/feriados/${r.holidayId}/`} class="rounded-md border border-line bg-subtle px-1.5 py-0.5 font-mono text-xs hover:border-line-strong">
+                        {r.holidayId}
+                      </a>
+                    )}
+                    {changed(r.before, r.after).length > 0 && (
+                      <span class="mt-1 block text-xs text-faint">Campos: {changed(r.before, r.after).join(', ')}</span>
+                    )}
+                  </span>
+                  {r.suggestionId && (
+                    <a href={`/admin/sugestoes/${r.suggestionId}/`} class="chip bg-subtle text-muted ring-1 ring-inset ring-line-strong hover:text-fg">
+                      <Icon name="inbox" size={12} /> via sugestão
+                    </a>
+                  )}
+                  <span class="tabular w-16 text-right text-faint">{r.createdAt.toLocaleTimeString('pt-BR', { timeZone: TZ })}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
+    )
+  }
 </AdminLayout>

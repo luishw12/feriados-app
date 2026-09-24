@@ -60,11 +60,16 @@ test('busca encontra cidade pelo teclado', async ({ page }) => {
 
 test('sugestão → aprovação no painel → página atualizada', async ({ page, request }) => {
   const name = `Feriado de Teste ${Date.now()}`;
-  await page.goto('/ac/acrelandia/');
+  await page.goto('/ac/acrelandia/', { waitUntil: 'networkidle' });
   await page.getByRole('button', { name: 'Sugerir feriado' }).click();
+  await expect(page.locator('#sg-place-value')).toContainText('Acrelândia');
   await page.fill('#sg-name', name);
-  await page.selectOption('select[aria-label="Dia"]', '14');
-  await page.selectOption('select[aria-label="Mês"]', '07');
+  await page.click('#sg-date');
+  for (let i = 0; i < 12 && (await page.locator('#sg-date-month').textContent()) !== 'julho'; i++) {
+    await page.getByRole('button', { name: 'Próximo mês' }).click();
+  }
+  await page.getByRole('button', { name: '14 de julho' }).click();
+  await expect(page.locator('#sg-date')).toContainText('14 de julho');
   await page.getByRole('button', { name: 'Enviar sugestão' }).click();
   await expect(page.getByText('Obrigado pela contribuição')).toBeVisible();
 
@@ -76,4 +81,35 @@ test('sugestão → aprovação no painel → página atualizada', async ({ page
 
   const html = await (await request.get('/ac/acrelandia/')).text();
   expect(html).toContain(name);
+});
+
+test('sugestão sem contexto vincula a cidade pela busca', async ({ page }) => {
+  await page.goto('/contribuir/', { waitUntil: 'networkidle' });
+  await page.getByRole('button', { name: 'Sugerir sem contexto' }).click();
+  await page.getByRole('button', { name: 'Enviar sugestão' }).click();
+  await expect(page.getByText('Escolha a cidade, o estado ou “Nacional”.')).toBeVisible();
+  await page.fill('#sg-place', 'acrelandia');
+  await page.getByRole('option', { name: /Acrelândia/ }).click();
+  await expect(page.locator('#sg-place-value')).toContainText('Acrelândia · AC');
+  await page.getByRole('button', { name: 'Trocar' }).click();
+  await page.fill('#sg-place', 'brasil');
+  await page.keyboard.press('Enter');
+  await expect(page.locator('#sg-place-value')).toContainText('Nacional');
+});
+
+test('painel: cria feriado municipal com busca de cidade e regra da Páscoa', async ({ page }) => {
+  const name = `Teste Painel ${Date.now()}`;
+  await page.goto('/admin/login/');
+  await page.getByRole('button', { name: /modo desenvolvimento/ }).click();
+  await page.goto('/admin/feriados/novo/');
+  await page.fill('#hf-name', name);
+  await page.getByText('Páscoa', { exact: true }).click();
+  await page.selectOption('#rb-easter', '60');
+  await page.getByText('Municipal', { exact: true }).click();
+  await page.fill('#sp-place', 'acrelandia');
+  await page.getByRole('option', { name: /Acrelândia/ }).click();
+  await page.getByRole('button', { name: 'Criar e publicar' }).click();
+  await expect(page).toHaveURL(/salvo=1/);
+  await expect(page.locator('input[name="rule"]')).toHaveValue('easter:+60');
+  await expect(page.locator('input[name="ibge"]')).toHaveValue('1200013');
 });

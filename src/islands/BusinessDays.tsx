@@ -48,31 +48,35 @@ export default function BusinessDays({ today }: { today: string }) {
   return (
     <div class="card p-5 sm:p-6">
       <div class="grid gap-4 sm:grid-cols-2">
-        <label class="text-sm font-medium">
-          Data inicial
-          <input type="date" class="input mt-1.5" value={start} onInput={(e) => setStart(e.currentTarget.value)} />
-        </label>
-        <label class="text-sm font-medium">
-          Data final
-          <input type="date" class="input mt-1.5" value={end} onInput={(e) => setEnd(e.currentTarget.value)} />
-        </label>
+        <div>
+          <label class="field-label" for="bd-start">
+            Data inicial
+          </label>
+          <input id="bd-start" type="date" class="input" value={start} onInput={(e) => setStart(e.currentTarget.value)} />
+        </div>
+        <div>
+          <label class="field-label" for="bd-end">
+            Data final
+          </label>
+          <input id="bd-end" type="date" class="input" value={end} onInput={(e) => setEnd(e.currentTarget.value)} />
+        </div>
         <div class="relative sm:col-span-2">
-          <label class="text-sm font-medium" for="bd-city">
+          <label class="field-label" for="bd-city">
             Cidade <span class="font-normal text-faint">(opcional — inclui feriados estaduais e municipais)</span>
           </label>
           {city ? (
-            <div class="mt-1.5 flex items-center justify-between rounded-xl border border-line px-3 py-2 text-sm">
-              <span>
+            <div class="flex min-h-11 items-center justify-between gap-3 rounded-xl border border-line-strong bg-surface py-1.5 pr-1.5 pl-3.5 text-sm shadow-[var(--shadow-card)]">
+              <span class="font-medium">
                 {city.name} · {city.uf}
               </span>
-              <button type="button" class="text-faint hover:text-fg" onClick={() => setCity(null)}>
-                trocar
+              <button type="button" id="bd-city" class="btn px-3 py-1 text-xs" onClick={() => setCity(null)}>
+                Trocar
               </button>
             </div>
           ) : (
             <input
               id="bd-city"
-              class="input mt-1.5"
+              class="input"
               placeholder="Todo o Brasil (apenas feriados nacionais)"
               value={query}
               onFocus={() => void loadIndex().then(setIndex).catch(() => undefined)}
@@ -81,7 +85,7 @@ export default function BusinessDays({ today }: { today: string }) {
             />
           )}
           {suggestions.length > 0 && (
-            <ul class="card absolute z-10 mt-1 w-full p-1">
+            <ul class="popover inset-x-0">
               {suggestions.map((s) =>
                 s.type === 'city' ? (
                   <li key={s.item.ibge}>
@@ -101,8 +105,8 @@ export default function BusinessDays({ today }: { today: string }) {
             </ul>
           )}
         </div>
-        <label class="flex items-center gap-2 text-sm sm:col-span-2">
-          <input type="checkbox" checked={optional} onChange={(e) => setOptional(e.currentTarget.checked)} />
+        <label class="flex cursor-pointer items-center gap-2.5 text-sm sm:col-span-2">
+          <input type="checkbox" class="checkbox" checked={optional} onChange={(e) => setOptional(e.currentTarget.checked)} />
           Descontar também pontos facultativos (Carnaval, Corpus Christi…)
         </label>
       </div>
