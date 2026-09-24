@@ -4,18 +4,21 @@ import { and, asc, eq, like, or, type SQL } from 'drizzle-orm';
 import { getDb, schema } from '@/lib/db/client';
 import { SCOPES, STATUSES } from '@/lib/db/schema';
 import { describeRule } from '@/lib/holidays/rules';
+import { getCityByIbge } from '@/lib/data';
 import { SCOPE_LABEL, STATUS_LABEL, typeLabel } from '@/lib/site';
 
 const q = (Astro.url.searchParams.get('q') ?? '').trim().slice(0, 60);
 const uf = (Astro.url.searchParams.get('uf') ?? '').toUpperCase();
 const scope = Astro.url.searchParams.get('scope') ?? '';
 const status = Astro.url.searchParams.get('status') ?? '';
+const ibge = Astro.url.searchParams.get('ibge') ?? '';
 const page = Math.max(1, Number(Astro.url.searchParams.get('p') ?? 1) || 1);
 const PAGE = 50;
 
 const where: SQL[] = [];
 if (q) where.push(or(like(schema.holidays.name, `%${q}%`), like(schema.holidays.id, `%${q}%`), like(schema.municipalities.name, `%${q}%`))!);
 if (/^[A-Z]{2}$/.test(uf)) where.push(eq(schema.holidays.uf, uf));
+if (/^\d{7}$/.test(ibge)) where.push(eq(schema.holidays.ibge, Number(ibge)));
 if ((SCOPES as readonly string[]).includes(scope)) where.push(eq(schema.holidays.scope, scope as (typeof SCOPES)[number]));
 if ((STATUSES as readonly string[]).includes(status)) where.push(eq(schema.holidays.status, status as (typeof STATUSES)[number]));
 
@@ -28,6 +31,7 @@ const rows = await getDb()
   .limit(PAGE + 1)
   .offset((page - 1) * PAGE);
 const hasNext = rows.length > PAGE;
+const cityFilter = /^\d{7}$/.test(ibge) ? await getCityByIbge(Number(ibge)) : null;
 const qs = (p: number) => {
   const params = new URLSearchParams(Astro.url.searchParams);
   params.set('p', String(p));
@@ -40,7 +44,18 @@ const qs = (p: number) => {
     <h1 class="text-2xl font-semibold tracking-tight">Feriados</h1>
     <a href="/admin/feriados/novo/" class="btn-primary">+ Novo feriado</a>
   </div>
+  {
+    cityFilter && (
+      <p class="mt-4 text-sm text-muted">
+        Mostrando os feriados municipais de <strong class="text-fg">{cityFilter.name} ({cityFilter.uf})</strong> ·{' '}
+        <a href="/admin/feriados/" class="link">
+          limpar filtro
+        </a>
+      </p>
+    )
+  }
   <form class="mt-6 grid gap-2 sm:grid-cols-[1fr_5rem_10rem_10rem_auto]">
+    {cityFilter && <input type="hidden" name="ibge" value={cityFilter.ibge} />}
     <input name="q" value={q} class="input" placeholder="Nome, ID ou cidade" aria-label="Buscar" />
     <input name="uf" value={uf} class="input" placeholder="UF" maxlength="2" aria-label="UF" />
     <select name="scope" class="input" aria-label="Abrangência">

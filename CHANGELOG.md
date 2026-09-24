@@ -8,6 +8,16 @@ e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 > **Não edite este arquivo manualmente.** Ele é gerado a partir de
 > `src/data/releases.json` via `npm run changelog:sync`.
 
+## [2.0.2-beta] - 2026-09-24
+
+Atalhos de edição para o mantenedor e restauração de feriados excluídos.
+
+### Adicionado
+
+- Atalhos “Editar” nas páginas públicas, visíveis só para quem está logado no painel
+- Botão “Restaurar” no histórico do painel para desfazer a exclusão de um feriado
+- Filtro por cidade na lista de feriados do painel
+
 ## [2.0.1-beta] - 2026-09-24
 
 Correções para o site funcionar atrás da Cloudflare.

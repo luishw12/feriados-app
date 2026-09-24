@@ -84,6 +84,12 @@ const schemas = [
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      // Atalhos de edição só para quem está logado no painel (o painel valida a sessão no servidor).
+      if (document.cookie.split('; ').includes('fb_admin_hint=1')) {
+        document.querySelectorAll('[data-admin-link]').forEach((el) => el.removeAttribute('hidden'));
+      }
+    </script>
     <SearchDialog client:idle />
     <SuggestDialog client:idle turnstileSiteKey={PUBLIC_TURNSTILE_SITE_KEY ?? ''} />
   </body>

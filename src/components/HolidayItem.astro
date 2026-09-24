@@ -84,5 +84,14 @@ const bridgeText =
   >
     <Icon name="pencil" />
   </button>
+  <a
+    href={`/admin/feriados/${occ.id}/`}
+    data-admin-link
+    hidden
+    class="self-start rounded-full px-2 py-1.5 text-xs font-medium text-faint hover:bg-subtle hover:text-fg"
+    rel="nofollow"
+  >
+    Editar
+  </a>
   <span class="sr-only">{month}</span>
 </li>

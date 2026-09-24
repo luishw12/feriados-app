@@ -2,6 +2,15 @@
 import AdminLayout from '@/components/admin/AdminLayout.astro';
 import { desc } from 'drizzle-orm';
 import { getDb, schema } from '@/lib/db/client';
+import { restoreHoliday } from '@/lib/server/moderation';
+
+let error = '';
+if (Astro.request.method === 'POST') {
+  const form = await Astro.request.formData();
+  const result = await restoreHoliday(Astro, Astro.locals.admin!, Number(form.get('revisionId')));
+  if ('id' in result) return Astro.redirect(`/admin/feriados/${result.id}/?salvo=1`);
+  error = result.error;
+}
 
 const rows = await getDb().select().from(schema.revisions).orderBy(desc(schema.revisions.createdAt)).limit(100);
 const ACTION = { create: 'criou', update: 'alterou', delete: 'removeu' } as const;
@@ -12,6 +21,7 @@ const changed = (before: Record<string, unknown> | null, after: Record<string, u
 <AdminLayout title="Histórico" active="historico">
   <h1 class="text-2xl font-semibold tracking-tight">Histórico de alterações</h1>
   <p class="mt-1 text-sm text-muted">As 100 alterações mais recentes. O dataset completo também é exportado diariamente para o GitHub.</p>
+  {error && <p class="mt-4 rounded-xl bg-[var(--color-warn-soft)] px-3 py-2 text-sm text-[var(--color-warn)]">{error}</p>}
   <ul class="mt-6 divide-y divide-line">
     {
       rows.map((r) => (
@@ -23,6 +33,12 @@ const changed = (before: Record<string, unknown> | null, after: Record<string, u
             {changed(r.before, r.after).length > 0 && <span class="text-faint"> — {changed(r.before, r.after).join(', ')}</span>}
           </span>
           {r.suggestionId && <a href={`/admin/sugestoes/${r.suggestionId}/`} class="text-xs text-muted hover:text-fg">via sugestão</a>}
+          {r.action === 'delete' && r.before && (
+            <form method="post">
+              <input type="hidden" name="revisionId" value={r.id} />
+              <button class="btn px-3 py-1 text-xs">Restaurar</button>
+            </form>
+          )}
         </li>
       ))
     }

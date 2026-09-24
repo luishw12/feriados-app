@@ -109,6 +109,15 @@ const statCards = [
 
       <aside class="space-y-4 lg:sticky lg:top-20 lg:self-start" aria-label="Ações">
         <div class="card p-4">
+          <a
+            href={place.city ? `/admin/feriados/?ibge=${place.city.ibge}` : place.state ? `/admin/feriados/?uf=${place.state.uf}&scope=state` : '/admin/feriados/?scope=national'}
+            data-admin-link
+            hidden
+            class="btn mb-3 w-full"
+            rel="nofollow"
+          >
+            Editar feriados daqui no painel
+          </a>
           <p class="font-medium">Falta algum feriado?</p>
           <p class="mt-1 text-sm text-muted">
             {incomplete > 0 ? `${incomplete} feriado(s) daqui ainda não foram verificados. ` : ''}Sugestões são revisadas e publicadas rapidamente.

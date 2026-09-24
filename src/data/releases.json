@@ -1,6 +1,24 @@
 {
   "releases": [
     {
+      "version": "2.0.2-beta",
+      "date": "2026-09-24",
+      "status": "beta",
+      "summary": "Atalhos de edição para o mantenedor e restauração de feriados excluídos.",
+      "sections": {
+        "added": [
+          "Atalhos “Editar” nas páginas públicas, visíveis só para quem está logado no painel",
+          "Botão “Restaurar” no histórico do painel para desfazer a exclusão de um feriado",
+          "Filtro por cidade na lista de feriados do painel"
+        ],
+        "changed": [],
+        "deprecated": [],
+        "removed": [],
+        "fixed": [],
+        "security": []
+      }
+    },
+    {
       "version": "2.0.1-beta",
       "date": "2026-09-24",
       "status": "beta",

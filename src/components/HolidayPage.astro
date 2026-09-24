@@ -199,6 +199,9 @@ const placeHref = place.city && place.state ? paths.city(place.state.uf, place.c
           <button type="button" class="btn-primary mt-3 w-full" data-suggest={suggest}>
             <Icon name="pencil" /> Sugerir correção
           </button>
+          <a href={`/admin/feriados/${holiday.id}/`} data-admin-link hidden class="btn mt-2 w-full" rel="nofollow">
+            Editar no painel
+          </a>
         </div>
 
         {

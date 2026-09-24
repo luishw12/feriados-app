@@ -10,7 +10,8 @@ export default defineConfig({
   },
   projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
   webServer: {
-    command: 'npm run dev -- --port 4321',
+    // --ignore-lock: o Astro 7 roda o dev em segundo plano quando detecta um agente de IA
+    command: 'npm run dev -- --port 4321 --ignore-lock',
     url: 'http://localhost:4321/',
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,

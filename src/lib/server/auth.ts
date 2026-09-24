@@ -11,6 +11,8 @@ export interface Admin {
 }
 
 const COOKIE = 'fb_admin';
+/** Cookie visível ao JS só para a interface mostrar atalhos "Editar". Não dá acesso a nada. */
+export const HINT_COOKIE = 'fb_admin_hint';
 const STATE_COOKIE = 'fb_oauth_state';
 const SESSION_DAYS = 30;
 
@@ -45,6 +47,7 @@ export async function createSession(cookies: AstroCookies, admin: Admin): Promis
     expiresAt: new Date(Date.now() + SESSION_DAYS * 86_400_000),
   });
   cookies.set(COOKIE, token, cookieOptions(SESSION_DAYS * 86_400));
+  cookies.set(HINT_COOKIE, '1', { ...cookieOptions(SESSION_DAYS * 86_400), httpOnly: false });
 }
 
 export async function getAdmin(cookies: AstroCookies): Promise<Admin | null> {
@@ -65,6 +68,7 @@ export async function destroySession(cookies: AstroCookies): Promise<void> {
   const token = cookies.get(COOKIE)?.value;
   if (token) await getDb().delete(schema.sessions).where(eq(schema.sessions.id, await sha256(token)));
   cookies.delete(COOKIE, { path: '/' });
+  cookies.delete(HINT_COOKIE, { path: '/' });
 }
 
 export function githubAuthorizeUrl(cookies: AstroCookies, redirectUri: string): string {

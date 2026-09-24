@@ -203,6 +203,29 @@ export async function deleteHoliday(ctx: Ctx, admin: Admin, id: string, suggesti
   await publish(ctx, [before]);
 }
 
+/** Recria um feriado excluído a partir do snapshot guardado na revisão de exclusão. */
+export async function restoreHoliday(ctx: Ctx, admin: Admin, revisionId: number): Promise<{ id: string } | { error: string }> {
+  const db = getDb();
+  const [revision] = await db.select().from(schema.revisions).where(eq(schema.revisions.id, revisionId)).limit(1);
+  if (!revision || revision.action !== 'delete' || !revision.before) return { error: 'Revisão de exclusão não encontrada' };
+  const [exists] = await db.select({ id: schema.holidays.id }).from(schema.holidays).where(eq(schema.holidays.id, revision.holidayId)).limit(1);
+  if (exists) return { error: `Já existe um feriado com o ID “${revision.holidayId}”` };
+
+  // Revalida o snapshot pelo mesmo caminho do formulário (a cidade/UF podem ter mudado).
+  const form = new FormData();
+  for (const [key, value] of Object.entries(revision.before)) {
+    if (key === 'categories' && Array.isArray(value)) value.forEach((c) => form.append('categories', String(c)));
+    else if (value !== null && value !== undefined) form.set(key, String(value));
+  }
+  const parsed = await parseHolidayForm(form);
+  if ('error' in parsed) return { error: `Não foi possível restaurar: ${parsed.error}` };
+  parsed.value.id = revision.holidayId;
+
+  await db.delete(schema.redirects).where(eq(schema.redirects.fromPath, paths.holiday(revision.holidayId)));
+  await saveHoliday(ctx, admin, parsed.value);
+  return { id: revision.holidayId };
+}
+
 export async function setOverride(ctx: Ctx, admin: Admin, holidayId: string, year: number, date: string | null, note: string): Promise<void> {
   const db = getDb();
   const [holiday] = await db.select().from(schema.holidays).where(eq(schema.holidays.id, holidayId)).limit(1);

@@ -77,3 +77,44 @@ test('sugestão → aprovação no painel → página atualizada', async ({ page
   const html = await (await request.get('/ac/acrelandia/')).text();
   expect(html).toContain(name);
 });
+
+test('admin edita, exclui e restaura um feriado publicado', async ({ page, request, context }) => {
+  const id = 'nossa-senhora-dos-navegantes-porto-alegre-rs';
+
+  // visitante comum não vê os atalhos de edição
+  await page.goto('/rs/porto-alegre/');
+  await expect(page.locator('[data-admin-link]').first()).toBeHidden();
+
+  await page.goto('/admin/login/');
+  await page.getByRole('button', { name: /modo desenvolvimento/ }).click();
+
+  // logado: atalho aparece na página pública e leva ao editor
+  await page.goto('/rs/porto-alegre/');
+  await page.getByRole('link', { name: 'Editar feriados daqui no painel' }).click();
+  await expect(page.getByText('Mostrando os feriados municipais de')).toBeVisible();
+  await page.goto(`/feriado/${id}/`);
+  await page.getByRole('link', { name: 'Editar no painel' }).click();
+  await expect(page).toHaveURL(new RegExp(`/admin/feriados/${id}/`));
+
+  // editar
+  const newName = `Navegantes ${Date.now()}`;
+  await page.fill('input[name=name]', newName);
+  await page.getByRole('button', { name: 'Salvar e publicar' }).click();
+  await expect(page.getByText('Salvo e publicado')).toBeVisible();
+  expect(await (await request.get('/rs/porto-alegre/')).text()).toContain(newName);
+
+  // excluir → URL antiga redireciona para a cidade
+  page.once('dialog', (d) => void d.accept());
+  await page.getByRole('button', { name: 'Remover feriado' }).click();
+  await expect(page).toHaveURL(/\/admin\/feriados\/$/);
+  const gone = await request.get(`/feriado/${id}/`, { maxRedirects: 0 });
+  expect(gone.status()).toBe(301);
+  expect(gone.headers()['location']).toContain('/rs/porto-alegre/');
+
+  // restaurar pelo histórico
+  await page.goto('/admin/historico/');
+  await page.getByRole('button', { name: 'Restaurar' }).first().click();
+  await expect(page).toHaveURL(new RegExp(`/admin/feriados/${id}/\\?salvo=1`));
+  expect((await request.get(`/feriado/${id}/`, { maxRedirects: 0 })).status()).toBe(200);
+  await context.clearCookies();
+});
