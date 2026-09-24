@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
+import { track } from '@/lib/analytics';
 
 /**
  * Diálogo de sugestão. Abre a partir de qualquer elemento com `data-suggest`,
@@ -175,6 +176,7 @@ export default function SuggestDialog({ turnstileSiteKey }: { turnstileSiteKey: 
       }),
     }).catch(() => null);
     if (response?.ok) {
+      track('suggestion_submit', { suggestion_type: kind });
       setState('done');
       return;
     }

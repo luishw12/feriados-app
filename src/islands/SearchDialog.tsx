@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
+import { track } from '@/lib/analytics';
 import { loadIndex, resultHref, search, type SearchIndex, type SearchResult } from './search-core';
 
 /**
@@ -57,7 +58,10 @@ export default function SearchDialog() {
       setActive((a) => Math.max(a - 1, 0));
     } else if (event.key === 'Enter') {
       const result = results[active];
-      if (result) window.location.href = resultHref(result);
+      if (result) {
+        track('search_select', { search_term: query.trim(), result_type: result.type });
+        window.location.href = resultHref(result);
+      }
       else if (query.trim()) window.location.href = `/busca/?q=${encodeURIComponent(query.trim())}`;
     }
   }
@@ -108,6 +112,7 @@ export default function SearchDialog() {
               href={resultHref(r)}
               class={`flex items-center justify-between gap-3 rounded-xl px-3 py-2.5 text-sm ${i === active ? 'bg-subtle' : ''}`}
               onMouseEnter={() => setActive(i)}
+              onClick={() => track('search_select', { search_term: query.trim(), result_type: r.type })}
             >
               <span class="truncate font-medium">
                 {r.type === 'city' ? r.item.name : r.item.name}
